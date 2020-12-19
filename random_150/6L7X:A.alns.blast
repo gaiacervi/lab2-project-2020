@@ -1,0 +1,99 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6L7X:A
+
+Length=203
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q6C2H4|CET1_YARLI mRNA-capping enzyme subunit beta OS=Yarrow...  40.8    0.004
+
+
+> sp|Q6C2H4|CET1_YARLI mRNA-capping enzyme subunit beta OS=Yarrowia 
+lipolytica (strain CLIB 122 / E 150) OX=284591 GN=CET1 
+PE=3 SV=1
+Length=386
+
+ Score = 40.8 bits (94),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 33/109 (30%), Positives = 53/109 (49%), Gaps = 12/109 (11%)
+
+Query  93   RCVSIVRKKRLFVKNIVVPLGAYNLRFAVSTETPGDLRFSGAGPRAGHTRLKDRLSITDG  152
+            R V+ +RKK +    I  P   +++R +++TE+P D    G       TR KDR+S    
+Sbjct  268  RQVAKIRKKAIAHIMIHCPTDPFDIRLSLATESPTDDVPQG----VCRTRRKDRISYLYD  323
+
+Query  153  MFRYDMTQVTEKGVLMHEVEIE-------GVFSSHEKQLTESWLEELLR  194
+             FR D+T+V+    +  E+E+E       G F+          +EELL+
+Sbjct  324  GFRADLTKVSGSS-MSSELEMEADSHKLIGYFTDRNDPHNMDKVEELLQ  371
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12715783262
+Results from round 2
+
+
+Query= 6L7X:A
+
+Length=203
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12715783262
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

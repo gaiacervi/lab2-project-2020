@@ -1,0 +1,497 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 4Z7E:B
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q45462|OPUBC_BACSU Choline-binding protein OS=Bacillus subti...  161     1e-46
+  sp|Q9KHT7|OPUCC_LISMN Carnitine transport binding protein OpuCC...  160     1e-46
+  sp|G2JZ42|OPUCC_LISM4 Carnitine transport binding protein OpuCC...  160     1e-46
+  sp|O32243|OPUCC_BACSU Glycine betaine/carnitine/choline-binding...  160     2e-46
+  sp|Q8ZPK2|OSMX_SALTY Osmoprotectant-binding protein OsmX OS=Sal...  130     9e-35
+  sp|P33362|YEHZ_ECOLI Glycine betaine-binding protein YehZ OS=Es...  110     2e-27
+  sp|B0R6A8|COSB_HALS3 Chemotactic signal transduction system sub...  56.2    7e-08
+
+
+> sp|Q45462|OPUBC_BACSU Choline-binding protein OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=opuBC PE=1 SV=2
+Length=306
+
+ Score = 161 bits (407),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 95/265 (36%), Positives = 150/265 (57%), Gaps = 3/265 (1%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYP-EFTG  60
+            I I  +  +E EI+ +M   +IE  TDLK     N+G  +    AL +G+IDI    +TG
+Sbjct  36   IKIGAQSMSESEIIASMLGQLIEHHTDLKTTTIKNLGSNAVQQQALMNGEIDIAATRYTG  95
+
+Query  61   TVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+              L   L+   +  DP++     +    K +D+ +     ++NTYA  VS E A + +LE
+Sbjct  96   DALTGTLRMEPE-KDPDKALALTQREFKKRYDLKWYDSYGFDNTYAFTVSKELADQYHLE  154
+
+Query  121  KISDLGPVSDQVKAGF-TLEFKDRSDGYKGIQDKYGLTFSNLKTMEPKLRYNAIKSGDIN  179
+             +SD+   + Q+K G      K + +GY+     YG+TF     M+  L Y+A+KSG ++
+Sbjct  155  TVSDVKKWAPQLKLGVDNYWMKLKGNGYQDFTKTYGMTFGGTYPMQIGLVYDAVKSGKMD  214
+
+Query  180  LLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGKITDD  239
+            ++ AYSTD  +  Y LK+L+DD+Q FPPY  +P++  K L ++PEL+  + K+ GKI   
+Sbjct  215  IVLAYSTDGRIKSYGLKMLKDDKQFFPPYDCSPVVPEKVLKEHPELEGIIKKMLGKIDTA  274
+
+Query  240  EMRKMNYEVNVNGKSAYTVAKDYLK  264
+             M+++NYEV+ N K    VAK+YL+
+Sbjct  275  TMQELNYEVDGNLKEPSVVAKEYLE  299
+
+
+> sp|Q9KHT7|OPUCC_LISMN Carnitine transport binding protein OpuCC 
+OS=Listeria monocytogenes OX=1639 GN=opuCC PE=1 SV=1
+Length=308
+
+ Score = 160 bits (406),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 95/265 (36%), Positives = 146/265 (55%), Gaps = 3/265 (1%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYP-EFTG  60
+            I I      E +I+ N+ K +IE +T LKV +  N+G T     A+ +GD+DI    +TG
+Sbjct  36   IRIGAMATTESQIVSNILKELIEHDTGLKVEIVNNLGSTIVQHQAMLNGDVDITATRYTG  95
+
+Query  61   TVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+            T L   L E A   DPE+     + G  + F  T+     + NTY   V  + AK+ NL 
+Sbjct  96   TDLVGPLGEEA-IKDPEKALAAVKKGFEERFHQTWFDSYGFANTYVFMVRQDTAKKYNLN  154
+
+Query  121  KISDLGPVSDQVKAGFTLEFKDR-SDGYKGIQDKYGLTFSNLKTMEPKLRYNAIKSGDIN  179
+             +SD+  V +++ AG    + +R  DGYK     Y + F  +  M+  L Y A+K+  ++
+Sbjct  155  TVSDMRKVENELTAGVDNSWMEREGDGYKAFSKAYDIEFKKIFPMQIGLIYTALKNNQMD  214
+
+Query  180  LLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGKITDD  239
+            +   YSTD  +  Y LK+L+DD++ FPPY  + L   + L K+PELK  +NKL GKI+ +
+Sbjct  215  VALGYSTDGRIPTYNLKLLKDDKKFFPPYDASALATDEILKKHPELKTTINKLKGKISTE  274
+
+Query  240  EMRKMNYEVNVNGKSAYTVAKDYLK  264
+            EM+K+NYE +   K    VA+++L+
+Sbjct  275  EMQKLNYEADGKLKEPSIVAQEFLQ  299
+
+
+> sp|G2JZ42|OPUCC_LISM4 Carnitine transport binding protein OpuCC 
+OS=Listeria monocytogenes serotype 1/2a (strain 10403S) OX=393133 
+GN=opuCC PE=1 SV=1
+Length=308
+
+ Score = 160 bits (406),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 95/265 (36%), Positives = 146/265 (55%), Gaps = 3/265 (1%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYP-EFTG  60
+            I I      E +I+ N+ K +IE +T LKV +  N+G T     A+ +GD+DI    +TG
+Sbjct  36   IRIGAMATTESQIVSNILKELIEHDTGLKVEIVNNLGSTIVQHQAMLNGDVDITATRYTG  95
+
+Query  61   TVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+            T L   L E A   DPE+     + G  + F  T+     + NTY   V  + AK+ NL 
+Sbjct  96   TDLVGPLGEEA-IKDPEKALAAVKKGFEERFHQTWFDSYGFANTYVFMVRQDTAKKYNLN  154
+
+Query  121  KISDLGPVSDQVKAGFTLEFKDR-SDGYKGIQDKYGLTFSNLKTMEPKLRYNAIKSGDIN  179
+             +SD+  V +++ AG    + +R  DGYK     Y + F  +  M+  L Y A+K+  ++
+Sbjct  155  TVSDMRKVENELTAGVDNSWMEREGDGYKAFSKAYDIEFKKIFPMQIGLIYTALKNNQMD  214
+
+Query  180  LLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGKITDD  239
+            +   YSTD  +  Y LK+L+DD++ FPPY  + L   + L K+PELK  +NKL GKI+ +
+Sbjct  215  VALGYSTDGRIPTYNLKLLKDDKKFFPPYDASALATDEILKKHPELKTTINKLKGKISTE  274
+
+Query  240  EMRKMNYEVNVNGKSAYTVAKDYLK  264
+            EM+K+NYE +   K    VA+++L+
+Sbjct  275  EMQKLNYEADGKLKEPSIVAQEFLQ  299
+
+
+> sp|O32243|OPUCC_BACSU Glycine betaine/carnitine/choline-binding 
+protein OpuCC OS=Bacillus subtilis (strain 168) OX=224308 
+GN=opuCC PE=1 SV=1
+Length=303
+
+ Score = 160 bits (405),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 93/265 (35%), Positives = 149/265 (56%), Gaps = 3/265 (1%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYP-EFTG  60
+            I I  +   E EI+ NM   +IE +TDL   +  N+G       A+  GDIDI    ++G
+Sbjct  34   IKIGAQSMTESEIVANMIAQLIEHDTDLNTALVKNLGSNYVQHQAMLGGDIDISATRYSG  93
+
+Query  61   TVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+            T L + L + A+  DP++     ++   K F   +     ++NTYA  V+ +FA++ ++ 
+Sbjct  94   TDLTSTLGKEAEK-DPKKALNIVQNEFQKRFSYKWFDSYGFDNTYAFTVTKKFAEKEHIN  152
+
+Query  121  KISDLGPVSDQVKAGF-TLEFKDRSDGYKGIQDKYGLTFSNLKTMEPKLRYNAIKSGDIN  179
+             +SDL   + Q K G      K + DGYKG    YG  F     M+  L Y+A+K+G ++
+Sbjct  153  TVSDLKKNASQYKLGVDNAWLKRKGDGYKGFVSTYGFEFGTTYPMQIGLVYDAVKNGKMD  212
+
+Query  180  LLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGKITDD  239
+             + AYSTD  +  Y LK+L+DD++ FPPY  +P++  K L ++PEL+  +NKL G+I  +
+Sbjct  213  AVLAYSTDGRIKAYDLKILKDDKRFFPPYDCSPVIPEKVLKEHPELEGVINKLIGQIDTE  272
+
+Query  240  EMRKMNYEVNVNGKSAYTVAKDYLK  264
+             M+++NYEV+   K    VAK++L+
+Sbjct  273  TMQELNYEVDGKLKEPSVVAKEFLE  297
+
+
+> sp|Q8ZPK2|OSMX_SALTY Osmoprotectant-binding protein OsmX OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=osmX PE=1 SV=1
+Length=300
+
+ Score = 130 bits (326),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 79/236 (33%), Positives = 127/236 (54%), Gaps = 13/236 (6%)
+
+Query  45   NALKSGDIDIYPEFTGTVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNT  104
+            NA+ +  IDI  E+TGT L  F + + K   P+E Y   +   AK   + +LKP   NNT
+Sbjct  67   NAMVNKQIDITWEYTGTSLIIFNRID-KRMSPQETYDTVKRLDAK-LGLVWLKPADMNNT  124
+
+Query  105  YALAVSPEFAKENNLEKISDLGPVSDQVKA---------GFTLEFKDRSDGYKGIQDKYG  155
+            YA A+  + A+  N+  IS +    +QV+          G  LEF  RSDG K +Q  Y 
+Sbjct  125  YAFAMQRKRAESENITTISQMVAKIEQVRQNDPDHNWMLGLDLEFAGRSDGMKPLQQAYQ  184
+
+Query  156  LTFS--NLKTMEPKLRYNAIKSGDINLLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPL  213
+            +      ++ M+P L YNA++ G ++    Y+TD  +  + LKVLEDD+  FP Y   P+
+Sbjct  185  MQLDRPQIRQMDPGLVYNAVRDGLVDAGLVYTTDGRVKGFDLKVLEDDKGFFPSYAVTPV  244
+
+Query  214  MLTKTLDKYPELKKPLNKLAGKITDDEMRKMNYEVNVNGKSAYTVAKDYLKDQGII  269
+            +  + L+  P L   LN L+G + +D +  +N +V++  ++   VA  +L+D+G++
+Sbjct  245  VRKEVLEANPGLDDALNTLSGLLNNDVISTLNAQVDIEHRTPQQVAHQFLQDKGLL  300
+
+
+> sp|P33362|YEHZ_ECOLI Glycine betaine-binding protein YehZ OS=Escherichia 
+coli (strain K12) OX=83333 GN=yehZ PE=1 SV=1
+Length=305
+
+ Score = 110 bits (275),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 79/283 (28%), Positives = 135/283 (48%), Gaps = 18/283 (6%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYPEFTGT  61
+            + +  K+  E  +L N+   V+E      VN K  +G T  V  A+ SG++DIYPE+TG 
+Sbjct  27   VKVGSKIDTEGALLGNIILQVLESHGVPTVN-KVQLGTTPVVRGAITSGELDIYPEYTGN  85
+
+Query  62   VLETFLKEN-AKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+                F  EN A   + ++ Y + +   ++   + +L P   NNT+ +AV  + A++N L 
+Sbjct  86   GAFFFKDENDAAWKNAQQGYEKVKKLDSEHNKLIWLTPAPANNTWTIAVRQDVAEKNKLT  145
+
+Query  121  KISDLGPVSDQVKAGFTL------EFKDRSDGYKGIQDKYGLTFSNLKTME-------PK  167
+             ++DL   S  ++ G T       EF +R+D     +  YG      + +          
+Sbjct  146  SLADL---SRYLQEGGTFKLAASAEFIERADALPAFEKAYGFKLGQDQLLSLAGGDTAVT  202
+
+Query  168  LRYNAIKSGDINLLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKK  227
+            ++  A ++  +N   AY TD  +A   L+ L D Q + P Y  AP++    L +YP++ +
+Sbjct  203  IKAAAQQTSGVNAAMAYGTDGPVAALGLQTLSDPQGVQPIYAPAPVVRESVLREYPQMAQ  262
+
+Query  228  PLNKLAGKITDDEMRKMNYEVNVNGKSAYTVAKDYLKDQGIIK  270
+             L  +   +    ++++N  + V G  A  VA DYLK +G  K
+Sbjct  263  WLQPVFASLDAKTLQQLNASIAVEGLDAKKVAADYLKQKGWTK  305
+
+
+> sp|B0R6A8|COSB_HALS3 Chemotactic signal transduction system substrate-binding 
+protein CosB OS=Halobacterium salinarum (strain 
+ATCC 29341 / DSM 671 / R1) OX=478009 GN=cosB PE=1 SV=1
+Length=334
+
+ Score = 56.2 bits (134),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 58/275 (21%), Positives = 114/275 (41%), Gaps = 30/275 (11%)
+
+Query  13   EILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYPEFTGTVLETF--LKEN  70
+            E+L N     + DET          G  + +  A ++G++  Y ++ G++  +     ++
+Sbjct  72   ELLANTTNATLVDET--------GFGGNAAISEAYRTGNVHAYYDYMGSLWSSHPPKHDS  123
+
+Query  71   AKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLEKISDLGPVSD  130
+            A    P+  Y   +  +  +  +  L    + NT+A+ V+    +   ++ ISDL    +
+Sbjct  124  ADFDTPDAQYDALKSEMESEHPIRILDRADWQNTWAVFVAERAVEGTGIQSISDLAAHVN  183
+
+Query  131  Q----VKAGFTLEFKDRSDGYKGIQDKYGL------TFSN----LKTMEPKLRYNAIKSG  176
+                 ++  F   F+ RSDG   + D Y         +++    L+T   +    A+  G
+Sbjct  184  SRNYDIRPAFGDGFRSRSDGLDALLDYYEFDPERVTAWASEREFLETASAQAAGTAVDEG  243
+
+Query  177  DINLLDAYSTDSELAQY-KLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGK  235
+              +L   YST + L     ++VL+DD+  +P +   P+ +         +   LN +   
+Sbjct  244  YADLGVGYSTSAWLTDVDSVRVLDDDRNFWPFFH--PVGVVHEDVATDAVVAALNTMPDA  301
+
+Query  236  ITDDE-MRKMNYEVNVNGKSAYTVAKDYLKDQGII  269
+            I D E M+ +N     +G      A D+L++   I
+Sbjct  302  IPDAETMQALNSRAAASGNQ--QAAADHLQNNDFI  334
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.134    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21172159316
+Results from round 2
+
+
+Query= 4Z7E:B
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O32243|OPUCC_BACSU Glycine betaine/carnitine/choline-binding...  360     4e-125
+  sp|Q45462|OPUBC_BACSU Choline-binding protein OS=Bacillus subti...  352     9e-122
+  sp|Q9KHT7|OPUCC_LISMN Carnitine transport binding protein OpuCC...  336     2e-115
+  sp|G2JZ42|OPUCC_LISM4 Carnitine transport binding protein OpuCC...  336     2e-115
+  sp|P33362|YEHZ_ECOLI Glycine betaine-binding protein YehZ OS=Es...  303     2e-102
+  sp|Q8ZPK2|OSMX_SALTY Osmoprotectant-binding protein OsmX OS=Sal...  284     8e-95 
+  sp|B0R6A8|COSB_HALS3 Chemotactic signal transduction system sub...  257     9e-84 
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|O32243|OPUCC_BACSU Glycine betaine/carnitine/choline-binding 
+protein OpuCC OS=Bacillus subtilis (strain 168) OX=224308 
+GN=opuCC PE=1 SV=1
+Length=303
+
+ Score = 360 bits (925),  Expect = 4e-125, Method: Composition-based stats.
+ Identities = 93/265 (35%), Positives = 149/265 (56%), Gaps = 3/265 (1%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYP-EFTG  60
+            I I  +   E EI+ NM   +IE +TDL   +  N+G       A+  GDIDI    ++G
+Sbjct  34   IKIGAQSMTESEIVANMIAQLIEHDTDLNTALVKNLGSNYVQHQAMLGGDIDISATRYSG  93
+
+Query  61   TVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+            T L + L + A+  DP++     ++   K F   +     ++NTYA  V+ +FA++ ++ 
+Sbjct  94   TDLTSTLGKEAE-KDPKKALNIVQNEFQKRFSYKWFDSYGFDNTYAFTVTKKFAEKEHIN  152
+
+Query  121  KISDLGPVSDQVKAGFTL-EFKDRSDGYKGIQDKYGLTFSNLKTMEPKLRYNAIKSGDIN  179
+             +SDL   + Q K G      K + DGYKG    YG  F     M+  L Y+A+K+G ++
+Sbjct  153  TVSDLKKNASQYKLGVDNAWLKRKGDGYKGFVSTYGFEFGTTYPMQIGLVYDAVKNGKMD  212
+
+Query  180  LLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGKITDD  239
+             + AYSTD  +  Y LK+L+DD++ FPPY  +P++  K L ++PEL+  +NKL G+I  +
+Sbjct  213  AVLAYSTDGRIKAYDLKILKDDKRFFPPYDCSPVIPEKVLKEHPELEGVINKLIGQIDTE  272
+
+Query  240  EMRKMNYEVNVNGKSAYTVAKDYLK  264
+             M+++NYEV+   K    VAK++L+
+Sbjct  273  TMQELNYEVDGKLKEPSVVAKEFLE  297
+
+
+> sp|Q45462|OPUBC_BACSU Choline-binding protein OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=opuBC PE=1 SV=2
+Length=306
+
+ Score = 352 bits (904),  Expect = 9e-122, Method: Composition-based stats.
+ Identities = 95/265 (36%), Positives = 150/265 (57%), Gaps = 3/265 (1%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYP-EFTG  60
+            I I  +  +E EI+ +M   +IE  TDLK     N+G  +    AL +G+IDI    +TG
+Sbjct  36   IKIGAQSMSESEIIASMLGQLIEHHTDLKTTTIKNLGSNAVQQQALMNGEIDIAATRYTG  95
+
+Query  61   TVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+              L   L+   +  DP++     +    K +D+ +     ++NTYA  VS E A + +LE
+Sbjct  96   DALTGTLRMEPE-KDPDKALALTQREFKKRYDLKWYDSYGFDNTYAFTVSKELADQYHLE  154
+
+Query  121  KISDLGPVSDQVKAGFT-LEFKDRSDGYKGIQDKYGLTFSNLKTMEPKLRYNAIKSGDIN  179
+             +SD+   + Q+K G      K + +GY+     YG+TF     M+  L Y+A+KSG ++
+Sbjct  155  TVSDVKKWAPQLKLGVDNYWMKLKGNGYQDFTKTYGMTFGGTYPMQIGLVYDAVKSGKMD  214
+
+Query  180  LLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGKITDD  239
+            ++ AYSTD  +  Y LK+L+DD+Q FPPY  +P++  K L ++PEL+  + K+ GKI   
+Sbjct  215  IVLAYSTDGRIKSYGLKMLKDDKQFFPPYDCSPVVPEKVLKEHPELEGIIKKMLGKIDTA  274
+
+Query  240  EMRKMNYEVNVNGKSAYTVAKDYLK  264
+             M+++NYEV+ N K    VAK+YL+
+Sbjct  275  TMQELNYEVDGNLKEPSVVAKEYLE  299
+
+
+> sp|Q9KHT7|OPUCC_LISMN Carnitine transport binding protein OpuCC 
+OS=Listeria monocytogenes OX=1639 GN=opuCC PE=1 SV=1
+Length=308
+
+ Score = 336 bits (862),  Expect = 2e-115, Method: Composition-based stats.
+ Identities = 95/271 (35%), Positives = 147/271 (54%), Gaps = 3/271 (1%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYP-EFTG  60
+            I I      E +I+ N+ K +IE +T LKV +  N+G T     A+ +GD+DI    +TG
+Sbjct  36   IRIGAMATTESQIVSNILKELIEHDTGLKVEIVNNLGSTIVQHQAMLNGDVDITATRYTG  95
+
+Query  61   TVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+            T L   L E A   DPE+     + G  + F  T+     + NTY   V  + AK+ NL 
+Sbjct  96   TDLVGPLGEEA-IKDPEKALAAVKKGFEERFHQTWFDSYGFANTYVFMVRQDTAKKYNLN  154
+
+Query  121  KISDLGPVSDQVKAGFTLEFKDR-SDGYKGIQDKYGLTFSNLKTMEPKLRYNAIKSGDIN  179
+             +SD+  V +++ AG    + +R  DGYK     Y + F  +  M+  L Y A+K+  ++
+Sbjct  155  TVSDMRKVENELTAGVDNSWMEREGDGYKAFSKAYDIEFKKIFPMQIGLIYTALKNNQMD  214
+
+Query  180  LLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGKITDD  239
+            +   YSTD  +  Y LK+L+DD++ FPPY  + L   + L K+PELK  +NKL GKI+ +
+Sbjct  215  VALGYSTDGRIPTYNLKLLKDDKKFFPPYDASALATDEILKKHPELKTTINKLKGKISTE  274
+
+Query  240  EMRKMNYEVNVNGKSAYTVAKDYLKDQGIIK  270
+            EM+K+NYE +   K    VA+++L+     +
+Sbjct  275  EMQKLNYEADGKLKEPSIVAQEFLQKNNYFE  305
+
+
+> sp|G2JZ42|OPUCC_LISM4 Carnitine transport binding protein OpuCC 
+OS=Listeria monocytogenes serotype 1/2a (strain 10403S) OX=393133 
+GN=opuCC PE=1 SV=1
+Length=308
+
+ Score = 336 bits (862),  Expect = 2e-115, Method: Composition-based stats.
+ Identities = 95/271 (35%), Positives = 147/271 (54%), Gaps = 3/271 (1%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYP-EFTG  60
+            I I      E +I+ N+ K +IE +T LKV +  N+G T     A+ +GD+DI    +TG
+Sbjct  36   IRIGAMATTESQIVSNILKELIEHDTGLKVEIVNNLGSTIVQHQAMLNGDVDITATRYTG  95
+
+Query  61   TVLETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+            T L   L E A   DPE+     + G  + F  T+     + NTY   V  + AK+ NL 
+Sbjct  96   TDLVGPLGEEA-IKDPEKALAAVKKGFEERFHQTWFDSYGFANTYVFMVRQDTAKKYNLN  154
+
+Query  121  KISDLGPVSDQVKAGFTLEFKDR-SDGYKGIQDKYGLTFSNLKTMEPKLRYNAIKSGDIN  179
+             +SD+  V +++ AG    + +R  DGYK     Y + F  +  M+  L Y A+K+  ++
+Sbjct  155  TVSDMRKVENELTAGVDNSWMEREGDGYKAFSKAYDIEFKKIFPMQIGLIYTALKNNQMD  214
+
+Query  180  LLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGKITDD  239
+            +   YSTD  +  Y LK+L+DD++ FPPY  + L   + L K+PELK  +NKL GKI+ +
+Sbjct  215  VALGYSTDGRIPTYNLKLLKDDKKFFPPYDASALATDEILKKHPELKTTINKLKGKISTE  274
+
+Query  240  EMRKMNYEVNVNGKSAYTVAKDYLKDQGIIK  270
+            EM+K+NYE +   K    VA+++L+     +
+Sbjct  275  EMQKLNYEADGKLKEPSIVAQEFLQKNNYFE  305
+
+
+> sp|P33362|YEHZ_ECOLI Glycine betaine-binding protein YehZ OS=Escherichia 
+coli (strain K12) OX=83333 GN=yehZ PE=1 SV=1
+Length=305
+
+ Score = 303 bits (776),  Expect = 2e-102, Method: Composition-based stats.
+ Identities = 79/283 (28%), Positives = 135/283 (48%), Gaps = 18/283 (6%)
+
+Query  2    ITIAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYPEFTGT  61
+            + +  K+  E  +L N+   V+E      VN K  +G T  V  A+ SG++DIYPE+TG 
+Sbjct  27   VKVGSKIDTEGALLGNIILQVLESHGVPTVN-KVQLGTTPVVRGAITSGELDIYPEYTGN  85
+
+Query  62   VLETFLKEN-AKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLE  120
+                F  EN A   + ++ Y + +   ++   + +L P   NNT+ +AV  + A++N L 
+Sbjct  86   GAFFFKDENDAAWKNAQQGYEKVKKLDSEHNKLIWLTPAPANNTWTIAVRQDVAEKNKLT  145
+
+Query  121  KISDLGPVSDQVKAGFTL------EFKDRSDGYKGIQDKYGLTFSNLKTME-------PK  167
+             ++DL   S  ++ G T       EF +R+D     +  YG      + +          
+Sbjct  146  SLADL---SRYLQEGGTFKLAASAEFIERADALPAFEKAYGFKLGQDQLLSLAGGDTAVT  202
+
+Query  168  LRYNAIKSGDINLLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKK  227
+            ++  A ++  +N   AY TD  +A   L+ L D Q + P Y  AP++    L +YP++ +
+Sbjct  203  IKAAAQQTSGVNAAMAYGTDGPVAALGLQTLSDPQGVQPIYAPAPVVRESVLREYPQMAQ  262
+
+Query  228  PLNKLAGKITDDEMRKMNYEVNVNGKSAYTVAKDYLKDQGIIK  270
+             L  +   +    ++++N  + V G  A  VA DYLK +G  K
+Sbjct  263  WLQPVFASLDAKTLQQLNASIAVEGLDAKKVAADYLKQKGWTK  305
+
+
+> sp|Q8ZPK2|OSMX_SALTY Osmoprotectant-binding protein OsmX OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=osmX PE=1 SV=1
+Length=300
+
+ Score = 284 bits (726),  Expect = 8e-95, Method: Composition-based stats.
+ Identities = 87/277 (31%), Positives = 142/277 (51%), Gaps = 15/277 (5%)
+
+Query  4    IAGKLGAEPEILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYPEFTGTVL  63
+            +A K   E  IL  M    ++ +   +V  + N+       NA+ +  IDI  E+TGT L
+Sbjct  28   LATKSFTEQHILSAMTVQYLQKKG-FQVQPQTNIAA-VISRNAMVNKQIDITWEYTGTSL  85
+
+Query  64   ETFLKENAKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLEKIS  123
+              F + + K   P+E Y   +   AK   + +LKP   NNTYA A+  + A+  N+  IS
+Sbjct  86   IIFNRID-KRMSPQETYDTVKRLDAK-LGLVWLKPADMNNTYAFAMQRKRAESENITTIS  143
+
+Query  124  DLGPVSDQVKA---------GFTLEFKDRSDGYKGIQDKYGLTFS--NLKTMEPKLRYNA  172
+             +    +QV+          G  LEF  RSDG K +Q  Y +      ++ M+P L YNA
+Sbjct  144  QMVAKIEQVRQNDPDHNWMLGLDLEFAGRSDGMKPLQQAYQMQLDRPQIRQMDPGLVYNA  203
+
+Query  173  IKSGDINLLDAYSTDSELAQYKLKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKL  232
+            ++ G ++    Y+TD  +  + LKVLEDD+  FP Y   P++  + L+  P L   LN L
+Sbjct  204  VRDGLVDAGLVYTTDGRVKGFDLKVLEDDKGFFPSYAVTPVVRKEVLEANPGLDDALNTL  263
+
+Query  233  AGKITDDEMRKMNYEVNVNGKSAYTVAKDYLKDQGII  269
+            +G + +D +  +N +V++  ++   VA  +L+D+G++
+Sbjct  264  SGLLNNDVISTLNAQVDIEHRTPQQVAHQFLQDKGLL  300
+
+
+> sp|B0R6A8|COSB_HALS3 Chemotactic signal transduction system substrate-binding 
+protein CosB OS=Halobacterium salinarum (strain 
+ATCC 29341 / DSM 671 / R1) OX=478009 GN=cosB PE=1 SV=1
+Length=334
+
+ Score = 257 bits (656),  Expect = 9e-84, Method: Composition-based stats.
+ Identities = 57/275 (21%), Positives = 114/275 (41%), Gaps = 30/275 (11%)
+
+Query  13   EILINMYKLVIEDETDLKVNVKPNMGKTSFVFNALKSGDIDIYPEFTGTVLETF--LKEN  70
+            E+L N     + DET          G  + +  A ++G++  Y ++ G++  +     ++
+Sbjct  72   ELLANTTNATLVDET--------GFGGNAAISEAYRTGNVHAYYDYMGSLWSSHPPKHDS  123
+
+Query  71   AKTHDPEEVYTQARDGLAKDFDMTYLKPMKYNNTYALAVSPEFAKENNLEKISDLGPVSD  130
+            A    P+  Y   +  +  +  +  L    + NT+A+ V+    +   ++ ISDL    +
+Sbjct  124  ADFDTPDAQYDALKSEMESEHPIRILDRADWQNTWAVFVAERAVEGTGIQSISDLAAHVN  183
+
+Query  131  Q----VKAGFTLEFKDRSDGYKGIQDKYGL------TFSN----LKTMEPKLRYNAIKSG  176
+                 ++  F   F+ RSDG   + D Y         +++    L+T   +    A+  G
+Sbjct  184  SRNYDIRPAFGDGFRSRSDGLDALLDYYEFDPERVTAWASEREFLETASAQAAGTAVDEG  243
+
+Query  177  DINLLDAYSTDSELAQYK-LKVLEDDQQLFPPYQGAPLMLTKTLDKYPELKKPLNKLAGK  235
+              +L   YST + L     ++VL+DD+  +P +   P+ +         +   LN +   
+Sbjct  244  YADLGVGYSTSAWLTDVDSVRVLDDDRNFWPFFH--PVGVVHEDVATDAVVAALNTMPDA  301
+
+Query  236  ITD-DEMRKMNYEVNVNGKSAYTVAKDYLKDQGII  269
+            I D + M+ +N     +G      A D+L++   I
+Sbjct  302  IPDAETMQALNSRAAASGNQ--QAAADHLQNNDFI  334
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.299    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21172159316
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

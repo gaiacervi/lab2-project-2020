@@ -1,0 +1,1336 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5OL9:A
+
+Length=81
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q96QE5|TEFM_HUMAN Transcription elongation factor, mitochond...  160     6e-49
+  sp|A6QPR9|TEFM_BOVIN Transcription elongation factor, mitochond...  135     3e-39
+  sp|Q4KM51|TEFM_RAT Transcription elongation factor, mitochondri...  127     3e-36
+  sp|Q5SSK3|TEFM_MOUSE Transcription elongation factor, mitochond...  127     6e-36
+  sp|Q0P4D6|TEFM_DANRE Transcription elongation factor, mitochond...  91.3    2e-22
+  sp|Q6P3R1|KIF22_XENTR Kinesin-like protein KIF22 OS=Xenopus tro...  38.9    0.001
+  sp|Q9I869|KF22A_XENLA Kinesin-like protein KIF22-A OS=Xenopus l...  38.5    0.002
+
+
+> sp|Q96QE5|TEFM_HUMAN Transcription elongation factor, mitochondrial 
+OS=Homo sapiens OX=9606 GN=TEFM PE=1 SV=1
+Length=360
+
+ Score = 160 bits (405),  Expect = 6e-49, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM
+Sbjct  57   PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  116
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+            NVPLFKYKSTVQVCNSIL
+Sbjct  117  NVPLFKYKSTVQVCNSIL  134
+
+
+> sp|A6QPR9|TEFM_BOVIN Transcription elongation factor, mitochondrial 
+OS=Bos taurus OX=9913 GN=TEFM PE=2 SV=2
+Length=356
+
+ Score = 135 bits (340),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 64/77 (83%), Positives = 71/77 (92%), Gaps = 0/77 (0%)
+
+Query  3    NALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+              LDKLFSSEQQASILHVLNTAS KELEAF+LLRG++S NIVEHR+ FGPFQNLESLMNV
+Sbjct  59   KTLDKLFSSEQQASILHVLNTASNKELEAFKLLRGKKSFNIVEHRKKFGPFQNLESLMNV  118
+
+Query  63   PLFKYKSTVQVCNSILH  79
+            PLF+YK T+QVCNSIL+
+Sbjct  119  PLFQYKITIQVCNSILN  135
+
+
+> sp|Q4KM51|TEFM_RAT Transcription elongation factor, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Tefm PE=2 SV=1
+Length=365
+
+ Score = 127 bits (320),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 59/78 (76%), Positives = 69/78 (88%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            P  AL +L+S EQQASILHVLNTAS KELEAFRLLRGR+S+NIVEHR+ FGPFQ+LESL+
+Sbjct  61   PGTALGRLYSPEQQASILHVLNTASDKELEAFRLLRGRKSVNIVEHRKKFGPFQSLESLI  120
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+             VPL +YK+ V+VCNSIL
+Sbjct  121  GVPLIQYKTAVEVCNSIL  138
+
+
+> sp|Q5SSK3|TEFM_MOUSE Transcription elongation factor, mitochondrial 
+OS=Mus musculus OX=10090 GN=Tefm PE=1 SV=1
+Length=364
+
+ Score = 127 bits (318),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 59/78 (76%), Positives = 69/78 (88%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            P N LD+LFS EQQASIL VLNTAS KELEAFRLLRGR+S+NIVEHR+ FGPFQ LE+L+
+Sbjct  60   PGNPLDRLFSLEQQASILQVLNTASDKELEAFRLLRGRKSVNIVEHRKKFGPFQRLENLI  119
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+            +VPL +YK+ V+VCNSIL
+Sbjct  120  DVPLIQYKTAVEVCNSIL  137
+
+
+> sp|Q0P4D6|TEFM_DANRE Transcription elongation factor, mitochondrial 
+OS=Danio rerio OX=7955 GN=tefm PE=2 SV=2
+Length=363
+
+ Score = 91.3 bits (225),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 43/76 (57%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  4    ALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVP  63
+            ALD  ++ EQ+A IL  LNTA+  ELE  +LLRGR+S+NIV++R   GPF +LES++NVP
+Sbjct  69   ALDSCYTEEQRAVILQRLNTATESELEQVKLLRGRKSVNIVKYRTRHGPFSSLESVINVP  128
+
+Query  64   LFKYKSTVQVCNSILH  79
+            L KYKS + V +SIL+
+Sbjct  129  LLKYKSAIMVFDSILN  144
+
+
+> sp|Q6P3R1|KIF22_XENTR Kinesin-like protein KIF22 OS=Xenopus tropicalis 
+OX=8364 GN=kif22 PE=2 SV=1
+Length=639
+
+ Score = 38.9 bits (89),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  17   ILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            IL +LNT S KEL++ + +  +++  I+  RE  GPF+N+E L ++
+Sbjct  572  ILKLLNTGSVKELKSLQKIGDKKAKLIIGWREVNGPFKNVEDLASL  617
+
+
+> sp|Q9I869|KF22A_XENLA Kinesin-like protein KIF22-A OS=Xenopus 
+laevis OX=8355 GN=kif22-a PE=1 SV=1
+Length=651
+
+ Score = 38.5 bits (88),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 29/43 (67%), Gaps = 0/43 (0%)
+
+Query  17   ILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESL  59
+            IL +LNT S KEL++ + +  +++  I+  RE  GPF+N+E L
+Sbjct  584  ILKLLNTGSVKELKSLQRIGDKKAKLIIGWREVNGPFKNVEEL  626
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5032045258
+Results from round 2
+
+
+Query= 5OL9:A
+
+Length=81
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q96QE5|TEFM_HUMAN Transcription elongation factor, mitochond...  139     2e-40
+  sp|Q5SSK3|TEFM_MOUSE Transcription elongation factor, mitochond...  138     4e-40
+  sp|Q4KM51|TEFM_RAT Transcription elongation factor, mitochondri...  138     4e-40
+  sp|A6QPR9|TEFM_BOVIN Transcription elongation factor, mitochond...  135     4e-39
+  sp|Q0P4D6|TEFM_DANRE Transcription elongation factor, mitochond...  123     2e-34
+  sp|Q6P3R1|KIF22_XENTR Kinesin-like protein KIF22 OS=Xenopus tro...  71.6    4e-15
+  sp|Q9I869|KF22A_XENLA Kinesin-like protein KIF22-A OS=Xenopus l...  69.3    2e-14
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q7ZYL5|KF22B_XENLA Kinesin-like protein KIF22-B OS=Xenopus l...  63.9    2e-12
+  sp|A8WFU8|KIF22_DANRE Kinesin-like protein KIF22 OS=Danio rerio...  61.2    1e-11
+  sp|A6QPL4|KIF22_BOVIN Kinesin-like protein KIF22 OS=Bos taurus ...  57.0    6e-10
+  sp|Q5REP4|KIF22_PONAB Kinesin-like protein KIF22 OS=Pongo abeli...  56.2    9e-10
+  sp|Q14807|KIF22_HUMAN Kinesin-like protein KIF22 OS=Homo sapien...  56.2    9e-10
+  sp|Q3V300|KIF22_MOUSE Kinesin-like protein KIF22 OS=Mus musculu...  56.2    1e-09
+  sp|Q5I0E8|KIF22_RAT Kinesin-like protein KIF22 OS=Rattus norveg...  55.8    1e-09
+  sp|Q6TEQ0|EEPD1_DANRE Endonuclease/exonuclease/phosphatase fami...  47.0    2e-06
+  sp|Q5XI74|EEPD1_RAT Endonuclease/exonuclease/phosphatase family...  44.7    1e-05
+  sp|Q3MHJ7|EEPD1_BOVIN Endonuclease/exonuclease/phosphatase fami...  43.9    2e-05
+  sp|P0AAR9|YBAV_SHIFL Uncharacterized protein YbaV OS=Shigella f...  42.7    2e-05
+  sp|P0AAR8|YBAV_ECOLI Uncharacterized protein YbaV OS=Escherichi...  42.7    2e-05
+  sp|Q3TGW2|EEPD1_MOUSE Endonuclease/exonuclease/phosphatase fami...  43.5    3e-05
+  sp|Q7L9B9|EEPD1_HUMAN Endonuclease/exonuclease/phosphatase fami...  42.0    9e-05
+  sp|P39694|COMEA_BACSU ComE operon protein 1 OS=Bacillus subtili...  42.0    9e-05
+  sp|Q57134|Y1008_HAEIN Uncharacterized protein HI_1008 OS=Haemop...  40.0    2e-04
+  sp|Q497V5|SRBD1_MOUSE S1 RNA-binding domain-containing protein ...  39.7    6e-04
+  sp|F4KEC6|KN10C_ARATH Kinesin-like protein KIN-10C OS=Arabidops...  39.7    6e-04
+  sp|Q8N5C6|SRBD1_HUMAN S1 RNA-binding domain-containing protein ...  39.7    7e-04
+  sp|Q5RDI0|SRBD1_PONAB S1 RNA-binding domain-containing protein ...  39.7    7e-04
+  sp|Q6IND4|EEPD1_XENLA Endonuclease/exonuclease/phosphatase fami...  38.5    0.002
+
+
+> sp|Q96QE5|TEFM_HUMAN Transcription elongation factor, mitochondrial 
+OS=Homo sapiens OX=9606 GN=TEFM PE=1 SV=1
+Length=360
+
+ Score = 139 bits (349),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM
+Sbjct  57   PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  116
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+            NVPLFKYKSTVQVCNSIL
+Sbjct  117  NVPLFKYKSTVQVCNSIL  134
+
+
+> sp|Q5SSK3|TEFM_MOUSE Transcription elongation factor, mitochondrial 
+OS=Mus musculus OX=10090 GN=Tefm PE=1 SV=1
+Length=364
+
+ Score = 138 bits (347),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 59/78 (76%), Positives = 69/78 (88%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            P N LD+LFS EQQASIL VLNTAS KELEAFRLLRGR+S+NIVEHR+ FGPFQ LE+L+
+Sbjct  60   PGNPLDRLFSLEQQASILQVLNTASDKELEAFRLLRGRKSVNIVEHRKKFGPFQRLENLI  119
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+            +VPL +YK+ V+VCNSIL
+Sbjct  120  DVPLIQYKTAVEVCNSIL  137
+
+
+> sp|Q4KM51|TEFM_RAT Transcription elongation factor, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Tefm PE=2 SV=1
+Length=365
+
+ Score = 138 bits (347),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 59/78 (76%), Positives = 69/78 (88%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            P  AL +L+S EQQASILHVLNTAS KELEAFRLLRGR+S+NIVEHR+ FGPFQ+LESL+
+Sbjct  61   PGTALGRLYSPEQQASILHVLNTASDKELEAFRLLRGRKSVNIVEHRKKFGPFQSLESLI  120
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+             VPL +YK+ V+VCNSIL
+Sbjct  121  GVPLIQYKTAVEVCNSIL  138
+
+
+> sp|A6QPR9|TEFM_BOVIN Transcription elongation factor, mitochondrial 
+OS=Bos taurus OX=9913 GN=TEFM PE=2 SV=2
+Length=356
+
+ Score = 135 bits (339),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 64/78 (82%), Positives = 71/78 (91%), Gaps = 0/78 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+               LDKLFSSEQQASILHVLNTAS KELEAF+LLRG++S NIVEHR+ FGPFQNLESLMN
+Sbjct  58   GKTLDKLFSSEQQASILHVLNTASNKELEAFKLLRGKKSFNIVEHRKKFGPFQNLESLMN  117
+
+Query  62   VPLFKYKSTVQVCNSILH  79
+            VPLF+YK T+QVCNSIL+
+Sbjct  118  VPLFQYKITIQVCNSILN  135
+
+
+> sp|Q0P4D6|TEFM_DANRE Transcription elongation factor, mitochondrial 
+OS=Danio rerio OX=7955 GN=tefm PE=2 SV=2
+Length=363
+
+ Score = 123 bits (308),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 43/77 (56%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  3    NALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+             ALD  ++ EQ+A IL  LNTA+  ELE  +LLRGR+S+NIV++R   GPF +LES++NV
+Sbjct  68   KALDSCYTEEQRAVILQRLNTATESELEQVKLLRGRKSVNIVKYRTRHGPFSSLESVINV  127
+
+Query  63   PLFKYKSTVQVCNSILH  79
+            PL KYKS + V +SIL+
+Sbjct  128  PLLKYKSAIMVFDSILN  144
+
+
+> sp|Q6P3R1|KIF22_XENTR Kinesin-like protein KIF22 OS=Xenopus tropicalis 
+OX=8364 GN=kif22 PE=2 SV=1
+Length=639
+
+ Score = 71.6 bits (174),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 33/55 (60%), Gaps = 0/55 (0%)
+
+Query  14   QASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYK  68
+            +  IL +LNT S KEL++ + +  +++  I+  RE  GPF+N+E L ++     K
+Sbjct  569  RERILKLLNTGSVKELKSLQKIGDKKAKLIIGWREVNGPFKNVEDLASLEGISAK  623
+
+
+> sp|Q9I869|KF22A_XENLA Kinesin-like protein KIF22-A OS=Xenopus 
+laevis OX=8355 GN=kif22-a PE=1 SV=1
+Length=651
+
+ Score = 69.3 bits (168),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 19/52 (37%), Positives = 31/52 (60%), Gaps = 0/52 (0%)
+
+Query  17   ILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYK  68
+            IL +LNT S KEL++ + +  +++  I+  RE  GPF+N+E L  +     K
+Sbjct  584  ILKLLNTGSVKELKSLQRIGDKKAKLIIGWREVNGPFKNVEELACLEGISAK  635
+
+
+> sp|Q7ZYL5|KF22B_XENLA Kinesin-like protein KIF22-B OS=Xenopus 
+laevis OX=8355 GN=kif22-b PE=2 SV=2
+Length=650
+
+ Score = 63.9 bits (154),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 17/43 (40%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  17   ILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESL  59
+            IL +LNT S KEL++ + +  +++  I+  RE  G F+N+E L
+Sbjct  583  ILKLLNTGSVKELKSLQRIGDKKAKLIIGWREVNGLFKNVEEL  625
+
+
+> sp|A8WFU8|KIF22_DANRE Kinesin-like protein KIF22 OS=Danio rerio 
+OX=7955 GN=kif22 PE=2 SV=1
+Length=634
+
+ Score = 61.2 bits (147),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 18/61 (30%), Positives = 32/61 (52%), Gaps = 0/61 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+            E+ LD     + +  IL  LN+ S KEL++ + +  +++  I+  RE  G F  +E L  
+Sbjct  552  ESRLDPALLEQSRKKILQTLNSGSLKELKSLQQIGDKKAKLIMGWREINGDFTQVEDLKK  611
+
+Query  62   V  62
+            +
+Sbjct  612  I  612
+
+
+> sp|A6QPL4|KIF22_BOVIN Kinesin-like protein KIF22 OS=Bos taurus 
+OX=9913 GN=KIF22 PE=2 SV=2
+Length=662
+
+ Score = 57.0 bits (136),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  14   QASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +  IL +LN  S ++L + + +  +++  IV  RE  GPF  +E L  V
+Sbjct  586  RQKILDLLNEGSARDLRSLQRIGQKKAQLIVGWRELHGPFSQVEDLERV  634
+
+
+> sp|Q5REP4|KIF22_PONAB Kinesin-like protein KIF22 OS=Pongo abelii 
+OX=9601 GN=KIF22 PE=2 SV=1
+Length=665
+
+ Score = 56.2 bits (134),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  14   QASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +  IL +LN  S ++L + + +  +++  IV  RE  GPF  +E L  V
+Sbjct  589  RQKILDLLNEGSARDLRSLQRIGPKKAQLIVGWRELHGPFSQVEDLERV  637
+
+
+> sp|Q14807|KIF22_HUMAN Kinesin-like protein KIF22 OS=Homo sapiens 
+OX=9606 GN=KIF22 PE=1 SV=5
+Length=665
+
+ Score = 56.2 bits (134),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  14   QASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +  IL +LN  S ++L + + +  +++  IV  RE  GPF  +E L  V
+Sbjct  589  RQKILDLLNEGSARDLRSLQRIGPKKAQLIVGWRELHGPFSQVEDLERV  637
+
+
+> sp|Q3V300|KIF22_MOUSE Kinesin-like protein KIF22 OS=Mus musculus 
+OX=10090 GN=Kif22 PE=2 SV=2
+Length=660
+
+ Score = 56.2 bits (134),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  14   QASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +  +L +LN  S +EL + + +  +++  IV  RE  GPF  +E L  V
+Sbjct  584  RKKLLDLLNEGSARELRSLQRIGQKKAQLIVGWRELHGPFSEVEDLEQV  632
+
+
+> sp|Q5I0E8|KIF22_RAT Kinesin-like protein KIF22 OS=Rattus norvegicus 
+OX=10116 GN=Kif22 PE=2 SV=1
+Length=657
+
+ Score = 55.8 bits (133),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 28/49 (57%), Gaps = 0/49 (0%)
+
+Query  14   QASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +  +LH+LN  S ++L + + +  +++  IV  RE  GPF  +E L  V
+Sbjct  581  RKKLLHLLNEGSARDLRSLQRIGQKKAQLIVGWRELHGPFNEVEDLEQV  629
+
+
+> sp|Q6TEQ0|EEPD1_DANRE Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Danio rerio OX=7955 GN=eepd1 
+PE=2 SV=1
+Length=550
+
+ Score = 47.0 bits (110),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +NTA+  +L + R +  + + NIVE R   GPF+++E L+ V
+Sbjct  129  INTATPPQLMSVRGITEKIAKNIVEFRSVHGPFKSIEDLVKV  170
+
+
+> sp|Q5XI74|EEPD1_RAT Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Rattus norvegicus OX=10116 
+GN=Eepd1 PE=1 SV=1
+Length=569
+
+ Score = 44.7 bits (104),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +NTA+  +L + R L  + +++IV++R   GPF+++E L+ +
+Sbjct  139  INTATLAQLMSVRGLSEKMAVSIVDYRREHGPFRSVEDLVRM  180
+
+
+> sp|Q3MHJ7|EEPD1_BOVIN Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Bos taurus OX=9913 GN=EEPD1 
+PE=2 SV=1
+Length=571
+
+ Score = 43.9 bits (102),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +NTA+  +L + R L  + +++IV++R   GPF+++E L+ +
+Sbjct  141  INTATPAQLMSVRGLTEKMAVSIVDYRREHGPFRSVEDLVRM  182
+
+
+> sp|P0AAR9|YBAV_SHIFL Uncharacterized protein YbaV OS=Shigella 
+flexneri OX=623 GN=ybaV PE=3 SV=1
+Length=123
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 27/44 (61%), Gaps = 1/44 (2%)
+
+Query  21   LNTASTKEL-EAFRLLRGRRSINIVEHRENFGPFQNLESLMNVP  63
+            +N AS +EL  A   +  +++  IV +RE +GPF+ +E L  VP
+Sbjct  64   INNASAEELARAMNGVGLKKAQAIVSYREEYGPFKTVEDLKQVP  107
+
+
+> sp|P0AAR8|YBAV_ECOLI Uncharacterized protein YbaV OS=Escherichia 
+coli (strain K12) OX=83333 GN=ybaV PE=3 SV=1
+Length=123
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 27/44 (61%), Gaps = 1/44 (2%)
+
+Query  21   LNTASTKEL-EAFRLLRGRRSINIVEHRENFGPFQNLESLMNVP  63
+            +N AS +EL  A   +  +++  IV +RE +GPF+ +E L  VP
+Sbjct  64   INNASAEELARAMNGVGLKKAQAIVSYREEYGPFKTVEDLKQVP  107
+
+
+> sp|Q3TGW2|EEPD1_MOUSE Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Mus musculus OX=10090 GN=Eepd1 
+PE=1 SV=1
+Length=569
+
+ Score = 43.5 bits (101),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +NTA+  +L + R L  + +++IV++R   GPF+++E L+ +
+Sbjct  139  INTATLAQLMSVRGLSEKMALSIVDYRREHGPFRSVEDLVRM  180
+
+
+> sp|Q7L9B9|EEPD1_HUMAN Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Homo sapiens OX=9606 GN=EEPD1 
+PE=1 SV=2
+Length=569
+
+ Score = 42.0 bits (97),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 28/42 (67%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +NTA+  +L + R L  + +++IV+ R   GPF+++E L+ +
+Sbjct  139  INTATPAQLMSVRGLSEKMALSIVDFRREHGPFRSVEDLVRM  180
+
+
+> sp|P39694|COMEA_BACSU ComE operon protein 1 OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=comEA PE=1 SV=1
+Length=205
+
+ Score = 42.0 bits (97),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+            +NTA+ +EL+    +   ++  I+ +RE  G FQ +E +  V     KS  ++ +SI
+Sbjct  146  INTATLEELQGISGVGPSKAEAIIAYREENGRFQTIEDITKVSGIGEKSFEKIKSSI  202
+
+
+> sp|Q57134|Y1008_HAEIN Uncharacterized protein HI_1008 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=HI_1008 PE=1 SV=1
+Length=112
+
+ Score = 40.0 bits (92),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 26/43 (60%), Gaps = 1/43 (2%)
+
+Query  21  LNTASTKEL-EAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+           +NTA+  E+ ++   +  +++  IV++RE  G F N E L+ V
+Sbjct  53  INTATASEIQKSLTGIGAKKAEAIVQYREKHGNFXNAEQLLEV  95
+
+
+> sp|Q497V5|SRBD1_MOUSE S1 RNA-binding domain-containing protein 
+1 OS=Mus musculus OX=10090 GN=Srbd1 PE=2 SV=3
+Length=982
+
+ Score = 39.7 bits (91),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 17/42 (40%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +N  S   L     L   R+ NI+E RE  GPF N E L  V
+Sbjct  705  INICSEVLLRHIAGLNANRAKNIIEWREKNGPFINREQLKKV  746
+
+
+> sp|F4KEC6|KN10C_ARATH Kinesin-like protein KIN-10C OS=Arabidopsis 
+thaliana OX=3702 GN=KIN10C PE=2 SV=1
+Length=701
+
+ Score = 39.7 bits (91),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 16/47 (34%), Positives = 28/47 (60%), Gaps = 1/47 (2%)
+
+Query  18   LHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPL  64
+            L  +NTA  ++L+  + +  +R+  IVE RE   PF+ L+ L ++ L
+Sbjct  639  LKFINTAGKEDLKKLKGIGDKRAAYIVELREE-SPFKTLDDLQSIGL  684
+
+
+> sp|Q8N5C6|SRBD1_HUMAN S1 RNA-binding domain-containing protein 
+1 OS=Homo sapiens OX=9606 GN=SRBD1 PE=1 SV=2
+Length=995
+
+ Score = 39.7 bits (91),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 17/42 (40%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +N  S   L     L   R+ NI+E RE  GPF N E L  V
+Sbjct  710  INICSEVLLRHIAGLNANRAKNIIEWREKNGPFINREQLKKV  751
+
+
+> sp|Q5RDI0|SRBD1_PONAB S1 RNA-binding domain-containing protein 
+1 OS=Pongo abelii OX=9601 GN=SRBD1 PE=2 SV=1
+Length=995
+
+ Score = 39.7 bits (91),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 17/42 (40%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            +N  S   L     L   R+ NI+E RE  GPF N E L  V
+Sbjct  710  INICSEVLLRHIAGLNANRAKNIIEWREKNGPFINREQLKKV  751
+
+
+> sp|Q6IND4|EEPD1_XENLA Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Xenopus laevis OX=8355 GN=eepd1 
+PE=2 SV=1
+Length=556
+
+ Score = 38.5 bits (88),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 0/42 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            LNTAS  +L   R L      +IV++R   GP +++E L+ V
+Sbjct  132  LNTASASQLMNLRGLTQEMVEDIVQYRSQQGPLKSIEDLVKV  173
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5032045258
+Results from round 3
+
+
+Query= 5OL9:A
+
+Length=81
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q96QE5|TEFM_HUMAN Transcription elongation factor, mitochond...  116     6e-32
+  sp|Q5SSK3|TEFM_MOUSE Transcription elongation factor, mitochond...  114     5e-31
+  sp|Q4KM51|TEFM_RAT Transcription elongation factor, mitochondri...  114     5e-31
+  sp|A6QPR9|TEFM_BOVIN Transcription elongation factor, mitochond...  112     3e-30
+  sp|Q0P4D6|TEFM_DANRE Transcription elongation factor, mitochond...  107     1e-28
+  sp|A8WFU8|KIF22_DANRE Kinesin-like protein KIF22 OS=Danio rerio...  87.8    8e-21
+  sp|Q6P3R1|KIF22_XENTR Kinesin-like protein KIF22 OS=Xenopus tro...  81.6    1e-18
+  sp|A6QPL4|KIF22_BOVIN Kinesin-like protein KIF22 OS=Bos taurus ...  81.2    2e-18
+  sp|Q3V300|KIF22_MOUSE Kinesin-like protein KIF22 OS=Mus musculu...  79.7    5e-18
+  sp|Q5REP4|KIF22_PONAB Kinesin-like protein KIF22 OS=Pongo abeli...  79.7    5e-18
+  sp|Q14807|KIF22_HUMAN Kinesin-like protein KIF22 OS=Homo sapien...  79.7    6e-18
+  sp|Q9I869|KF22A_XENLA Kinesin-like protein KIF22-A OS=Xenopus l...  79.3    6e-18
+  sp|Q5I0E8|KIF22_RAT Kinesin-like protein KIF22 OS=Rattus norveg...  78.9    1e-17
+  sp|P39694|COMEA_BACSU ComE operon protein 1 OS=Bacillus subtili...  75.8    2e-17
+  sp|Q7ZYL5|KF22B_XENLA Kinesin-like protein KIF22-B OS=Xenopus l...  75.5    2e-16
+  sp|Q3MHJ7|EEPD1_BOVIN Endonuclease/exonuclease/phosphatase fami...  68.5    4e-14
+  sp|P0AAR9|YBAV_SHIFL Uncharacterized protein YbaV OS=Shigella f...  64.3    1e-13
+  sp|P0AAR8|YBAV_ECOLI Uncharacterized protein YbaV OS=Escherichi...  64.3    1e-13
+  sp|Q6TEQ0|EEPD1_DANRE Endonuclease/exonuclease/phosphatase fami...  67.0    2e-13
+  sp|Q5XI74|EEPD1_RAT Endonuclease/exonuclease/phosphatase family...  67.0    2e-13
+  sp|Q3TGW2|EEPD1_MOUSE Endonuclease/exonuclease/phosphatase fami...  65.8    4e-13
+  sp|Q497V5|SRBD1_MOUSE S1 RNA-binding domain-containing protein ...  65.4    5e-13
+  sp|Q5RDI0|SRBD1_PONAB S1 RNA-binding domain-containing protein ...  65.4    6e-13
+  sp|Q8N5C6|SRBD1_HUMAN S1 RNA-binding domain-containing protein ...  65.4    6e-13
+  sp|Q57134|Y1008_HAEIN Uncharacterized protein HI_1008 OS=Haemop...  61.6    7e-13
+  sp|Q7L9B9|EEPD1_HUMAN Endonuclease/exonuclease/phosphatase fami...  64.7    1e-12
+  sp|Q6IND4|EEPD1_XENLA Endonuclease/exonuclease/phosphatase fami...  61.6    1e-11
+  sp|F4KEC6|KN10C_ARATH Kinesin-like protein KIN-10C OS=Arabidops...  57.0    6e-10
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P46837|YHGF_ECOLI Protein YhgF OS=Escherichia coli (strain K...  55.8    2e-09
+  sp|Q51152|YHGF_NEIMB Uncharacterized protein NMB0075 OS=Neisser...  54.3    4e-09
+  sp|P57072|YHGF_NEIMA Uncharacterized protein NMA0194 OS=Neisser...  54.3    5e-09
+  sp|P71353|Y568_HAEIN Uncharacterized protein HI_0568 OS=Haemoph...  53.9    6e-09
+  sp|Q45388|TEX_BORPE Protein tex OS=Bordetella pertussis (strain...  53.9    6e-09
+  sp|Q51062|YHGF_NEIGO Transcriptional accessory protein Tex OS=N...  53.9    7e-09
+  sp|Q6L512|KN10C_ORYSJ Kinesin-like protein KIN-10C OS=Oryza sat...  53.1    1e-08
+  sp|Q5E913|KN10B_ARATH Kinesin-like protein KIN-10B OS=Arabidops...  52.0    3e-08
+  sp|Q7XMJ2|KN10B_ORYSJ Kinesin-like protein KIN-10B OS=Oryza sat...  50.0    1e-07
+  sp|P18105|NOD_DROME Kinesin-like protein Nod OS=Drosophila mela...  43.5    3e-05
+  sp|P74765|PSBU_SYNP2 Photosystem II 12 kDa extrinsic protein OS...  41.9    5e-05
+  sp|Q9VL72|SMRCD_DROME SWI/SNF-related matrix-associated actin-d...  42.3    8e-05
+  sp|O31489|YDCI_BACSU Uncharacterized protein YdcI OS=Bacillus s...  41.2    2e-04
+  sp|Q7N5C7|UVRC_PHOLL UvrABC system protein C OS=Photorhabdus la...  39.6    8e-04
+  sp|B7KC39|PSBU_GLOC7 Photosystem II 12 kDa extrinsic protein OS...  36.9    0.003
+  sp|A7MJG4|UVRC_CROS8 UvrABC system protein C OS=Cronobacter sak...  37.3    0.005
+  sp|P72588|DNLJ_SYNY3 DNA ligase OS=Synechocystis sp. (strain PC...  36.6    0.008
+
+
+> sp|Q96QE5|TEFM_HUMAN Transcription elongation factor, mitochondrial 
+OS=Homo sapiens OX=9606 GN=TEFM PE=1 SV=1
+Length=360
+
+ Score = 116 bits (291),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM
+Sbjct  57   PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  116
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+            NVPLFKYKSTVQVCNSIL
+Sbjct  117  NVPLFKYKSTVQVCNSIL  134
+
+
+> sp|Q5SSK3|TEFM_MOUSE Transcription elongation factor, mitochondrial 
+OS=Mus musculus OX=10090 GN=Tefm PE=1 SV=1
+Length=364
+
+ Score = 114 bits (285),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 59/78 (76%), Positives = 69/78 (88%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            P N LD+LFS EQQASIL VLNTAS KELEAFRLLRGR+S+NIVEHR+ FGPFQ LE+L+
+Sbjct  60   PGNPLDRLFSLEQQASILQVLNTASDKELEAFRLLRGRKSVNIVEHRKKFGPFQRLENLI  119
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+            +VPL +YK+ V+VCNSIL
+Sbjct  120  DVPLIQYKTAVEVCNSIL  137
+
+
+> sp|Q4KM51|TEFM_RAT Transcription elongation factor, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Tefm PE=2 SV=1
+Length=365
+
+ Score = 114 bits (285),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 59/78 (76%), Positives = 69/78 (88%), Gaps = 0/78 (0%)
+
+Query  1    PENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLM  60
+            P  AL +L+S EQQASILHVLNTAS KELEAFRLLRGR+S+NIVEHR+ FGPFQ+LESL+
+Sbjct  61   PGTALGRLYSPEQQASILHVLNTASDKELEAFRLLRGRKSVNIVEHRKKFGPFQSLESLI  120
+
+Query  61   NVPLFKYKSTVQVCNSIL  78
+             VPL +YK+ V+VCNSIL
+Sbjct  121  GVPLIQYKTAVEVCNSIL  138
+
+
+> sp|A6QPR9|TEFM_BOVIN Transcription elongation factor, mitochondrial 
+OS=Bos taurus OX=9913 GN=TEFM PE=2 SV=2
+Length=356
+
+ Score = 112 bits (279),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 64/78 (82%), Positives = 71/78 (91%), Gaps = 0/78 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+               LDKLFSSEQQASILHVLNTAS KELEAF+LLRG++S NIVEHR+ FGPFQNLESLMN
+Sbjct  58   GKTLDKLFSSEQQASILHVLNTASNKELEAFKLLRGKKSFNIVEHRKKFGPFQNLESLMN  117
+
+Query  62   VPLFKYKSTVQVCNSILH  79
+            VPLF+YK T+QVCNSIL+
+Sbjct  118  VPLFQYKITIQVCNSILN  135
+
+
+> sp|Q0P4D6|TEFM_DANRE Transcription elongation factor, mitochondrial 
+OS=Danio rerio OX=7955 GN=tefm PE=2 SV=2
+Length=363
+
+ Score = 107 bits (268),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 43/77 (56%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  3    NALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+             ALD  ++ EQ+A IL  LNTA+  ELE  +LLRGR+S+NIV++R   GPF +LES++NV
+Sbjct  68   KALDSCYTEEQRAVILQRLNTATESELEQVKLLRGRKSVNIVKYRTRHGPFSSLESVINV  127
+
+Query  63   PLFKYKSTVQVCNSILH  79
+            PL KYKS + V +SIL+
+Sbjct  128  PLLKYKSAIMVFDSILN  144
+
+
+> sp|A8WFU8|KIF22_DANRE Kinesin-like protein KIF22 OS=Danio rerio 
+OX=7955 GN=kif22 PE=2 SV=1
+Length=634
+
+ Score = 87.8 bits (216),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 19/69 (28%), Positives = 33/69 (48%), Gaps = 0/69 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+            E+ LD     + +  IL  LN+ S KEL++ + +  +++  I+  RE  G F  +E L  
+Sbjct  552  ESRLDPALLEQSRKKILQTLNSGSLKELKSLQQIGDKKAKLIMGWREINGDFTQVEDLKK  611
+
+Query  62   VPLFKYKST  70
+            +     K  
+Sbjct  612  IEGVTVKRF  620
+
+
+> sp|Q6P3R1|KIF22_XENTR Kinesin-like protein KIF22 OS=Xenopus tropicalis 
+OX=8364 GN=kif22 PE=2 SV=1
+Length=639
+
+ Score = 81.6 bits (200),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 33/60 (55%), Gaps = 0/60 (0%)
+
+Query  9    FSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYK  68
+                 +  IL +LNT S KEL++ + +  +++  I+  RE  GPF+N+E L ++     K
+Sbjct  564  LLESGRERILKLLNTGSVKELKSLQKIGDKKAKLIIGWREVNGPFKNVEDLASLEGISAK  623
+
+
+> sp|A6QPL4|KIF22_BOVIN Kinesin-like protein KIF22 OS=Bos taurus 
+OX=9913 GN=KIF22 PE=2 SV=2
+Length=662
+
+ Score = 81.2 bits (199),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 18/70 (26%), Positives = 31/70 (44%), Gaps = 0/70 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+            E  +     +  +  IL +LN  S ++L + + +  +++  IV  RE  GPF  +E L  
+Sbjct  574  ELQISPELLAHGRQKILDLLNEGSARDLRSLQRIGQKKAQLIVGWRELHGPFSQVEDLER  633
+
+Query  62   VPLFKYKSTV  71
+            V     K   
+Sbjct  634  VEGISGKQME  643
+
+
+> sp|Q3V300|KIF22_MOUSE Kinesin-like protein KIF22 OS=Mus musculus 
+OX=10090 GN=Kif22 PE=2 SV=2
+Length=660
+
+ Score = 79.7 bits (195),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 18/70 (26%), Positives = 31/70 (44%), Gaps = 0/70 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+            E  +     +  +  +L +LN  S +EL + + +  +++  IV  RE  GPF  +E L  
+Sbjct  572  EVQISPELLAHGRKKLLDLLNEGSARELRSLQRIGQKKAQLIVGWRELHGPFSEVEDLEQ  631
+
+Query  62   VPLFKYKSTV  71
+            V     K   
+Sbjct  632  VEGISGKQVE  641
+
+
+> sp|Q5REP4|KIF22_PONAB Kinesin-like protein KIF22 OS=Pongo abelii 
+OX=9601 GN=KIF22 PE=2 SV=1
+Length=665
+
+ Score = 79.7 bits (195),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 18/70 (26%), Positives = 31/70 (44%), Gaps = 0/70 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+            E  +     +  +  IL +LN  S ++L + + +  +++  IV  RE  GPF  +E L  
+Sbjct  577  ELQISPELLAHGRQKILDLLNEGSARDLRSLQRIGPKKAQLIVGWRELHGPFSQVEDLER  636
+
+Query  62   VPLFKYKSTV  71
+            V     K   
+Sbjct  637  VEGITGKQME  646
+
+
+> sp|Q14807|KIF22_HUMAN Kinesin-like protein KIF22 OS=Homo sapiens 
+OX=9606 GN=KIF22 PE=1 SV=5
+Length=665
+
+ Score = 79.7 bits (195),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 18/70 (26%), Positives = 31/70 (44%), Gaps = 0/70 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+            E  +     +  +  IL +LN  S ++L + + +  +++  IV  RE  GPF  +E L  
+Sbjct  577  ELQISPELLAHGRQKILDLLNEGSARDLRSLQRIGPKKAQLIVGWRELHGPFSQVEDLER  636
+
+Query  62   VPLFKYKSTV  71
+            V     K   
+Sbjct  637  VEGITGKQME  646
+
+
+> sp|Q9I869|KF22A_XENLA Kinesin-like protein KIF22-A OS=Xenopus 
+laevis OX=8355 GN=kif22-a PE=1 SV=1
+Length=651
+
+ Score = 79.3 bits (194),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 32/60 (53%), Gaps = 0/60 (0%)
+
+Query  9    FSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYK  68
+                 +  IL +LNT S KEL++ + +  +++  I+  RE  GPF+N+E L  +     K
+Sbjct  576  LLESGKERILKLLNTGSVKELKSLQRIGDKKAKLIIGWREVNGPFKNVEELACLEGISAK  635
+
+
+> sp|Q5I0E8|KIF22_RAT Kinesin-like protein KIF22 OS=Rattus norvegicus 
+OX=10116 GN=Kif22 PE=2 SV=1
+Length=657
+
+ Score = 78.9 bits (193),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 18/70 (26%), Positives = 32/70 (46%), Gaps = 0/70 (0%)
+
+Query  2    ENALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+            E  +     +  +  +LH+LN  S ++L + + +  +++  IV  RE  GPF  +E L  
+Sbjct  569  EIQISPELLARGRKKLLHLLNEGSARDLRSLQRIGQKKAQLIVGWRELHGPFNEVEDLEQ  628
+
+Query  62   VPLFKYKSTV  71
+            V     K   
+Sbjct  629  VEGISGKQVE  638
+
+
+> sp|P39694|COMEA_BACSU ComE operon protein 1 OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=comEA PE=1 SV=1
+Length=205
+
+ Score = 75.8 bits (185),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+            +NTA+ +EL+    +   ++  I+ +RE  G FQ +E +  V     KS  ++ +SI
+Sbjct  146  INTATLEELQGISGVGPSKAEAIIAYREENGRFQTIEDITKVSGIGEKSFEKIKSSI  202
+
+
+> sp|Q7ZYL5|KF22B_XENLA Kinesin-like protein KIF22-B OS=Xenopus 
+laevis OX=8355 GN=kif22-b PE=2 SV=2
+Length=650
+
+ Score = 75.5 bits (184),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 18/60 (30%), Positives = 31/60 (52%), Gaps = 0/60 (0%)
+
+Query  9    FSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYK  68
+                 +  IL +LNT S KEL++ + +  +++  I+  RE  G F+N+E L  +     K
+Sbjct  575  LLESGKERILKLLNTGSVKELKSLQRIGDKKAKLIIGWREVNGLFKNVEELECLEGISAK  634
+
+
+> sp|Q3MHJ7|EEPD1_BOVIN Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Bos taurus OX=9913 GN=EEPD1 
+PE=2 SV=1
+Length=571
+
+ Score = 68.5 bits (166),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 33/58 (57%), Gaps = 0/58 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSIL  78
+            +NTA+  +L + R L  + +++IV++R   GPF+++E L+ +         ++ + + 
+Sbjct  141  INTATPAQLMSVRGLTEKMAVSIVDYRREHGPFRSVEDLVRMGGINAAFLDRIRHQVF  198
+
+
+ Score = 56.6 bits (135),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 27/57 (47%), Gaps = 0/57 (0%)
+
+Query  21  LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+           +NTA+ +EL     +    + +IVE+RE  G F+ +E L  V         QV   I
+Sbjct  42  INTATEEELMTLPGVTRAVARSIVEYREYIGGFKKVEDLALVSGVGATKLEQVKFEI  98
+
+
+> sp|P0AAR9|YBAV_SHIFL Uncharacterized protein YbaV OS=Shigella 
+flexneri OX=623 GN=ybaV PE=3 SV=1
+Length=123
+
+ Score = 64.3 bits (155),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 1/47 (2%)
+
+Query  21   LNTASTKEL-EAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFK  66
+            +N AS +EL  A   +  +++  IV +RE +GPF+ +E L  VP   
+Sbjct  64   INNASAEELARAMNGVGLKKAQAIVSYREEYGPFKTVEDLKQVPGMG  110
+
+
+> sp|P0AAR8|YBAV_ECOLI Uncharacterized protein YbaV OS=Escherichia 
+coli (strain K12) OX=83333 GN=ybaV PE=3 SV=1
+Length=123
+
+ Score = 64.3 bits (155),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 1/47 (2%)
+
+Query  21   LNTASTKEL-EAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFK  66
+            +N AS +EL  A   +  +++  IV +RE +GPF+ +E L  VP   
+Sbjct  64   INNASAEELARAMNGVGLKKAQAIVSYREEYGPFKTVEDLKQVPGMG  110
+
+
+> sp|Q6TEQ0|EEPD1_DANRE Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Danio rerio OX=7955 GN=eepd1 
+PE=2 SV=1
+Length=550
+
+ Score = 67.0 bits (162),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 29/53 (55%), Gaps = 0/53 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQV  73
+            +NTA+  +L + R +  + + NIVE R   GPF+++E L+ V         ++
+Sbjct  129  INTATPPQLMSVRGITEKIAKNIVEFRSVHGPFKSIEDLVKVANINSSLLDRI  181
+
+
+ Score = 54.7 bits (130),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 26/57 (46%), Gaps = 0/57 (0%)
+
+Query  21  LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+           +NTA+ +EL     +    + NIVE+R+  G F+ +E L  V          +   I
+Sbjct  43  INTATEEELMTLPGVNRGVAQNIVEYRDCIGGFKKVEDLALVSGVGATKLEAIKLEI  99
+
+
+> sp|Q5XI74|EEPD1_RAT Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Rattus norvegicus OX=10116 
+GN=Eepd1 PE=1 SV=1
+Length=569
+
+ Score = 67.0 bits (162),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 33/58 (57%), Gaps = 0/58 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSIL  78
+            +NTA+  +L + R L  + +++IV++R   GPF+++E L+ +         ++ + + 
+Sbjct  139  INTATLAQLMSVRGLSEKMAVSIVDYRREHGPFRSVEDLVRMDGINAAFLDRIRHQVF  196
+
+
+ Score = 55.8 bits (133),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 27/57 (47%), Gaps = 0/57 (0%)
+
+Query  21  LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+           +NTA+ +EL     +    + +IVE+RE  G F+ +E L  V         QV   I
+Sbjct  42  INTATEEELMTLPGVTRAVARSIVEYREYIGGFKKVEDLALVSGVGATKLEQVKFEI  98
+
+
+> sp|Q3TGW2|EEPD1_MOUSE Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Mus musculus OX=10090 GN=Eepd1 
+PE=1 SV=1
+Length=569
+
+ Score = 65.8 bits (159),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 33/58 (57%), Gaps = 0/58 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSIL  78
+            +NTA+  +L + R L  + +++IV++R   GPF+++E L+ +         ++ + + 
+Sbjct  139  INTATLAQLMSVRGLSEKMALSIVDYRREHGPFRSVEDLVRMDGINAAFLDRIRHQVF  196
+
+
+ Score = 55.8 bits (133),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 27/57 (47%), Gaps = 0/57 (0%)
+
+Query  21  LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+           +NTA+ +EL     +    + +IVE+RE  G F+ +E L  V         QV   I
+Sbjct  42  INTATEEELMTLPGVTRAVARSIVEYREYIGGFKKVEDLALVSGVGATKLEQVKFEI  98
+
+
+> sp|Q497V5|SRBD1_MOUSE S1 RNA-binding domain-containing protein 
+1 OS=Mus musculus OX=10090 GN=Srbd1 PE=2 SV=3
+Length=982
+
+ Score = 65.4 bits (158),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            +N  S   L     L   R+ NI+E RE  GPF N E L  V     KS  Q
+Sbjct  705  INICSEVLLRHIAGLNANRAKNIIEWREKNGPFINREQLKKVKGLGPKSFQQ  756
+
+
+> sp|Q5RDI0|SRBD1_PONAB S1 RNA-binding domain-containing protein 
+1 OS=Pongo abelii OX=9601 GN=SRBD1 PE=2 SV=1
+Length=995
+
+ Score = 65.4 bits (158),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            +N  S   L     L   R+ NI+E RE  GPF N E L  V     KS  Q
+Sbjct  710  INICSEVLLRHIAGLNANRAKNIIEWREKNGPFINREQLKKVKGLGPKSFQQ  761
+
+
+> sp|Q8N5C6|SRBD1_HUMAN S1 RNA-binding domain-containing protein 
+1 OS=Homo sapiens OX=9606 GN=SRBD1 PE=1 SV=2
+Length=995
+
+ Score = 65.4 bits (158),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            +N  S   L     L   R+ NI+E RE  GPF N E L  V     KS  Q
+Sbjct  710  INICSEVLLRHIAGLNANRAKNIIEWREKNGPFINREQLKKVKGLGPKSFQQ  761
+
+
+> sp|Q57134|Y1008_HAEIN Uncharacterized protein HI_1008 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=HI_1008 PE=1 SV=1
+Length=112
+
+ Score = 61.6 bits (148),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 15/59 (25%), Positives = 31/59 (53%), Gaps = 1/59 (2%)
+
+Query  21   LNTASTKEL-EAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSIL  78
+            +NTA+  E+ ++   +  +++  IV++RE  G F N E L+ V      +  +  + I+
+Sbjct  53   INTATASEIQKSLTGIGAKKAEAIVQYREKHGNFXNAEQLLEVQGIGKATLEKNRDRII  111
+
+
+> sp|Q7L9B9|EEPD1_HUMAN Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Homo sapiens OX=9606 GN=EEPD1 
+PE=1 SV=2
+Length=569
+
+ Score = 64.7 bits (156),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 32/58 (55%), Gaps = 0/58 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSIL  78
+            +NTA+  +L + R L  + +++IV+ R   GPF+++E L+ +         ++ + + 
+Sbjct  139  INTATPAQLMSVRGLSEKMALSIVDFRREHGPFRSVEDLVRMDGINAAFLDRIRHQVF  196
+
+
+ Score = 55.8 bits (133),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 27/57 (47%), Gaps = 0/57 (0%)
+
+Query  21  LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+           +NTA+ +EL     +    + +IVE+RE  G F+ +E L  V         QV   I
+Sbjct  42  INTATEEELMTLPGVTRAVARSIVEYREYIGGFKKVEDLALVSGVGATKLEQVKFEI  98
+
+
+> sp|Q6IND4|EEPD1_XENLA Endonuclease/exonuclease/phosphatase family 
+domain-containing protein 1 OS=Xenopus laevis OX=8355 GN=eepd1 
+PE=2 SV=1
+Length=556
+
+ Score = 61.6 bits (148),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 28/57 (49%), Gaps = 0/57 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+            LNTAS  +L   R L      +IV++R   GP +++E L+ V         ++ + +
+Sbjct  132  LNTASASQLMNLRGLTQEMVEDIVQYRSQQGPLKSIEDLVKVDSISPSFLDKIRHQV  188
+
+
+ Score = 58.5 bits (140),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 28/57 (49%), Gaps = 0/57 (0%)
+
+Query  21  LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQVCNSI  77
+           +NTA+ +EL     +  + + NIVE+RE  G F+ +E L  V         QV   I
+Sbjct  43  INTATEEELMTLPGVTRQVAQNIVEYREYIGGFKKVEDLALVSGVGAAKLEQVKFEI  99
+
+
+> sp|F4KEC6|KN10C_ARATH Kinesin-like protein KIN-10C OS=Arabidopsis 
+thaliana OX=3702 GN=KIN10C PE=2 SV=1
+Length=701
+
+ Score = 57.0 bits (136),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 16/47 (34%), Positives = 28/47 (60%), Gaps = 1/47 (2%)
+
+Query  18   LHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPL  64
+            L  +NTA  ++L+  + +  +R+  IVE RE   PF+ L+ L ++ L
+Sbjct  639  LKFINTAGKEDLKKLKGIGDKRAAYIVELREE-SPFKTLDDLQSIGL  684
+
+
+> sp|P46837|YHGF_ECOLI Protein YhgF OS=Escherichia coli (strain 
+K12) OX=83333 GN=yhgF PE=1 SV=3
+Length=773
+
+ Score = 55.8 bits (133),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 19/52 (37%), Positives = 24/52 (46%), Gaps = 0/52 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            LNTAS   L     L    + NIV  R+  G FQN + L+ V     K+  Q
+Sbjct  498  LNTASVPLLTRVAGLTRMMAQNIVAWRDENGQFQNRQQLLKVSRLGPKAFEQ  549
+
+
+> sp|Q51152|YHGF_NEIMB Uncharacterized protein NMB0075 OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=NMB0075 
+PE=4 SV=2
+Length=757
+
+ Score = 54.3 bits (129),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 25/52 (48%), Gaps = 0/52 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            +NTAS   L     L    + NIV +R+  G F + + L+ VP    K+  Q
+Sbjct  487  VNTASAPLLARISGLNQTLAQNIVAYRDENGAFDSRKKLLKVPRLGEKTFEQ  538
+
+
+> sp|P57072|YHGF_NEIMA Uncharacterized protein NMA0194 OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) OX=122587 
+GN=NMA0194 PE=4 SV=1
+Length=757
+
+ Score = 54.3 bits (129),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 25/52 (48%), Gaps = 0/52 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            +NTAS   L     L    + NIV +R+  G F + + L+ VP    K+  Q
+Sbjct  487  VNTASAPLLARISGLNQTLAQNIVAYRDENGAFDSRKKLLKVPRLGEKTFEQ  538
+
+
+> sp|P71353|Y568_HAEIN Uncharacterized protein HI_0568 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=HI_0568 PE=4 SV=1
+Length=762
+
+ Score = 53.9 bits (128),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 25/52 (48%), Gaps = 0/52 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            LNTAS   L     +    + NIVE+R+  G F++   L  VP    K+  Q
+Sbjct  498  LNTASAPLLARVAGMTKTLAQNIVEYRDENGRFESRSELKKVPRLGPKAFEQ  549
+
+
+> sp|Q45388|TEX_BORPE Protein tex OS=Bordetella pertussis (strain 
+Tohama I / ATCC BAA-589 / NCTC 13251) OX=257313 GN=tex PE=4 
+SV=2
+Length=791
+
+ Score = 53.9 bits (128),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+
+Query  21   LNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            +NTAS   L     L    + NIV  R+  G F   + L  VP F  K+  Q
+Sbjct  517  VNTASAALLARVSGLNTLLAKNIVAWRDENGAFPTRDMLRKVPRFGEKAFEQ  568
+
+
+> sp|Q51062|YHGF_NEIGO Transcriptional accessory protein Tex OS=Neisseria 
+gonorrhoeae OX=485 GN=tex PE=4 SV=2
+Length=757
+
+ Score = 53.9 bits (128),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 0/51 (0%)
+
+Query  22   NTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            NTAS   L     L    + NIV +R+  G F + + L+ VP    K+  Q
+Sbjct  488  NTASAPLLARISGLNQTLAQNIVAYRDENGAFDSRKKLLKVPRLGEKTFEQ  538
+
+
+> sp|Q6L512|KN10C_ORYSJ Kinesin-like protein KIN-10C OS=Oryza sativa 
+subsp. japonica OX=39947 GN=KIN10C PE=2 SV=1
+Length=584
+
+ Score = 53.1 bits (126),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 35/74 (47%), Gaps = 1/74 (1%)
+
+Query  4    ALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFG-PFQNLESLMNV  62
+            AL            L  LN A+ +EL+  + +  RR+  I+E RE+   PF++L  L N+
+Sbjct  505  ALGSNLKESLIQQYLDFLNVANKEELQKLKGIGERRAEYILELREDSPRPFKSLSDLGNI  564
+
+Query  63   PLFKYKSTVQVCNS  76
+             L   +    +C +
+Sbjct  565  GLSSKQIQDILCKT  578
+
+
+> sp|Q5E913|KN10B_ARATH Kinesin-like protein KIN-10B OS=Arabidopsis 
+thaliana OX=3702 GN=KIN10B PE=2 SV=1
+Length=628
+
+ Score = 52.0 bits (123),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 14/49 (29%), Positives = 25/49 (51%), Gaps = 1/49 (2%)
+
+Query  15   ASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVP  63
+               +H LNTA+ +EL   + +  + +  I+E RE   P ++L  L  + 
+Sbjct  553  KEYIHFLNTANREELRELKGIGQKMAEYIIELRET-SPLKSLTDLEKIG  600
+
+
+> sp|Q7XMJ2|KN10B_ORYSJ Kinesin-like protein KIN-10B OS=Oryza sativa 
+subsp. japonica OX=39947 GN=KIN10B PE=2 SV=2
+Length=726
+
+ Score = 50.0 bits (118),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 14/63 (22%), Positives = 33/63 (52%), Gaps = 1/63 (2%)
+
+Query  18   LHVLNTASTKELEAFRLLRGRRSINIVEHRENFGP-FQNLESLMNVPLFKYKSTVQVCNS  76
+            L  LN+A+ ++L++ + +  +R+  I+E RE     F+ +  L ++     K   ++ + 
+Sbjct  663  LTFLNSANKEQLKSLKGIGDKRANYILELREESPELFKEISDLRDIIGMNSKEIKKMMSG  722
+
+Query  77   ILH  79
+            I+ 
+Sbjct  723  IID  725
+
+
+> sp|P18105|NOD_DROME Kinesin-like protein Nod OS=Drosophila melanogaster 
+OX=7227 GN=nod PE=1 SV=1
+Length=666
+
+ Score = 43.5 bits (101),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 14/72 (19%), Positives = 32/72 (44%), Gaps = 0/72 (0%)
+
+Query  3    NALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+                K + +      L +LN  + K+L+    +  + + ++  HR   G F+NL  + ++
+Sbjct  588  KPAPKAWMANNTKCFLDLLNNGNVKQLQEIPGIGPKSAFSLALHRSRLGCFENLFQVKSL  647
+
+Query  63   PLFKYKSTVQVC  74
+            P++      + C
+Sbjct  648  PIWSGNKWERFC  659
+
+
+> sp|P74765|PSBU_SYNP2 Photosystem II 12 kDa extrinsic protein 
+OS=Synechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) OX=32049 
+GN=psbU PE=1 SV=1
+Length=138
+
+ Score = 41.9 bits (97),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 18/75 (24%), Positives = 32/75 (43%), Gaps = 6/75 (8%)
+
+Query  3    NALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+            N  DK+  SE    I   LN AS +     R      +  I+E      P+ ++E ++N+
+Sbjct  46   NPADKVLESEYGKKI--DLNNASVRLFRELRGFYPTLAKRIIE----NAPYDSVEDVLNI  99
+
+Query  63   PLFKYKSTVQVCNSI  77
+            P    K   ++  ++
+Sbjct  100  PDLSEKQLARLEENL  114
+
+
+> sp|Q9VL72|SMRCD_DROME SWI/SNF-related matrix-associated actin-dependent 
+regulator of chromatin subfamily A containing DEAD/H 
+box 1 homolog OS=Drosophila melanogaster OX=7227 GN=Etl1 
+PE=1 SV=1
+Length=844
+
+ Score = 42.3 bits (98),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 12/49 (24%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  13   QQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMN  61
+            Q+  +   +N AS  EL++ + L  ++++ I++ R    PF +   L  
+Sbjct  183  QRKKVFQFMNEASLIELQSVKTLSEKKALAIIDVR----PFSDWSDLRQ  227
+
+
+> sp|O31489|YDCI_BACSU Uncharacterized protein YdcI OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ydcI PE=4 SV=2
+Length=719
+
+ Score = 41.2 bits (95),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 24/50 (48%), Gaps = 0/50 (0%)
+
+Query  23   TASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLFKYKSTVQ  72
+            TAS   L+    L    + N+V+ RE  G F N + L ++P    K+  Q
+Sbjct  495  TASAALLQYVAGLSKSVAGNVVKKREEIGKFSNRKELKDIPRLGAKTYEQ  544
+
+
+> sp|Q7N5C7|UVRC_PHOLL UvrABC system protein C OS=Photorhabdus 
+laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 / 
+TT01) OX=243265 GN=uvrC PE=3 SV=1
+Length=610
+
+ Score = 39.6 bits (91),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 14/68 (21%), Positives = 31/68 (46%), Gaps = 5/68 (7%)
+
+Query  14   QASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQN--LESLMNVPLFKYKSTV  71
+            +     V NT++   LE+   +  +R   ++++     P +N  +E +  VP   Y    
+Sbjct  546  RQRRSKVRNTST---LESIEGVGPKRRQMLLKYMGGLQPLRNASVEEIAKVPTISYALAE  602
+
+Query  72   QVCNSILH  79
+            ++ N++ H
+Sbjct  603  KIYNALKH  610
+
+
+> sp|B7KC39|PSBU_GLOC7 Photosystem II 12 kDa extrinsic protein 
+OS=Gloeothece citriformis (strain PCC 7424) OX=65393 GN=psbU 
+PE=3 SV=1
+Length=123
+
+ Score = 36.9 bits (84),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 14/75 (19%), Positives = 31/75 (41%), Gaps = 6/75 (8%)
+
+Query  3   NALDKLFSSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNV  62
+           NA+D   ++E    I   LN +  +E    R      +  I+       P+  +E ++N+
+Sbjct  31  NAVDAKLTTEFGQKI--DLNNSHIREFRDLRGFYPNLASKII----KNAPYDKVEDVLNI  84
+
+Query  63  PLFKYKSTVQVCNSI  77
+           P    +   ++  ++
+Sbjct  85  PGLSERQQERLQANL  99
+
+
+> sp|A7MJG4|UVRC_CROS8 UvrABC system protein C OS=Cronobacter sakazakii 
+(strain ATCC BAA-894) OX=290339 GN=uvrC PE=3 SV=1
+Length=610
+
+ Score = 37.3 bits (85),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 13/68 (19%), Positives = 27/68 (40%), Gaps = 5/68 (7%)
+
+Query  14   QASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQN--LESLMNVPLFKYKSTV  71
+            +     V NT++   LE    +  +R   ++++     P  N  +E +  VP        
+Sbjct  546  RKKRAKVKNTST---LETIEGIGPKRRQMLLKYMGGLQPLLNASVEEIAKVPGISQALAE  602
+
+Query  72   QVCNSILH  79
+            ++  S+ H
+Sbjct  603  KIYYSLKH  610
+
+
+> sp|P72588|DNLJ_SYNY3 DNA ligase OS=Synechocystis sp. (strain 
+PCC 6803 / Kazusa) OX=1111708 GN=ligA PE=3 SV=1
+Length=669
+
+ Score = 36.6 bits (83),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 22/56 (39%), Gaps = 0/56 (0%)
+
+Query  10   SSEQQASILHVLNTASTKELEAFRLLRGRRSINIVEHRENFGPFQNLESLMNVPLF  65
+               QQ   +  L+ AS  +LE    +    +  +V    N G  Q ++ L  + L 
+Sbjct  525  LLSQQFPTVEKLSQASIPDLEGVYGIGPEIAEAVVNWFRNPGNQQLIQDLEELGLV  580
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.139    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0424    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5032045258
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

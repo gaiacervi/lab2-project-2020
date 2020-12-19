@@ -1,0 +1,335 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6P2A:A
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P16009|BP5_BPT4 Baseplate central spike complex protein gp5 ...  150     2e-42
+  sp|Q6WHG9|NEEDL_BPKVM Protein Gp5 OS=Vibrio phage KVP40 (isolat...  38.9    0.008
+
+
+> sp|P16009|BP5_BPT4 Baseplate central spike complex protein gp5 
+OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+Length=575
+
+ Score = 150 bits (379),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 80/97 (82%), Positives = 83/97 (86%), Gaps = 10/97 (10%)
+
+Query  2    GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  61
+            GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD
+Sbjct  484  GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  543
+
+Query  62   WDVGGDWTEKMASMSSKGNVTHEGNYNQLGNYTVQGN  98
+            WDVGGDWTEKMASMSS  +          G YT+ G+
+Sbjct  544  WDVGGDWTEKMASMSSISS----------GQYTIDGS  570
+
+
+> sp|Q6WHG9|NEEDL_BPKVM Protein Gp5 OS=Vibrio phage KVP40 (isolate 
+Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 
+GN=5 PE=1 SV=1
+Length=421
+
+ Score = 38.9 bits (89),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 36/69 (52%), Gaps = 0/69 (0%)
+
+Query  2    GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  61
+            G     + G+   +V  N  + ++GN +ITV GDAT   + N T  ++G+L   V G VD
+Sbjct  243  GSRVTKIIGDDFEIVHKNQNVYIKGNLNITVVGDATFYCQQNVTQQIDGDLKQHVKGNVD  302
+
+Query  62   WDVGGDWTE  70
+              V  + T+
+Sbjct  303  QHVEMNVTQ  311
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.130    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5581382586
+Results from round 2
+
+
+Query= 6P2A:A
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P16009|BP5_BPT4 Baseplate central spike complex protein gp5 ...  158     2e-45
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q6WHG9|NEEDL_BPKVM Protein Gp5 OS=Vibrio phage KVP40 (isolat...  41.6    9e-04
+  sp|Q9I737|VGR1B_PSEAE Type VI secretion system spike protein Vg...  40.1    0.003
+
+
+> sp|P16009|BP5_BPT4 Baseplate central spike complex protein gp5 
+OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+Length=575
+
+ Score = 158 bits (400),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 80/97 (82%), Positives = 83/97 (86%), Gaps = 10/97 (10%)
+
+Query  2    GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  61
+            GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD
+Sbjct  484  GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  543
+
+Query  62   WDVGGDWTEKMASMSSKGNVTHEGNYNQLGNYTVQGN  98
+            WDVGGDWTEKMASMSS  +          G YT+ G+
+Sbjct  544  WDVGGDWTEKMASMSSISS----------GQYTIDGS  570
+
+
+> sp|Q6WHG9|NEEDL_BPKVM Protein Gp5 OS=Vibrio phage KVP40 (isolate 
+Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 
+GN=5 PE=1 SV=1
+Length=421
+
+ Score = 41.6 bits (96),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 26/72 (36%), Positives = 40/72 (56%), Gaps = 0/72 (0%)
+
+Query  2    GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  61
+            G+  + VE N T  V  +VT +V  N   TV  + T  V  N T TV+G+++  V G V 
+Sbjct  299  GNVDQHVEMNVTQTVDKDVTQVVHQNVTQTVDMNVTQTVHQNVTQTVDGDVNQTVGGNVQ  358
+
+Query  62   WDVGGDWTEKMA  73
+             +V GD+T+ ++
+Sbjct  359  SNVTGDYTQNIS  370
+
+
+ Score = 41.6 bits (96),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 30/94 (32%), Positives = 47/94 (50%), Gaps = 3/94 (3%)
+
+Query  5    TKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDV  64
+            T+TV+ N T  V  NVT  V+G+ + TV G+  + V G+ T  ++GN +  V G++   V
+Sbjct  326  TQTVDMNVTQTVHQNVTQTVDGDVNQTVGGNVQSNVTGDYTQNISGNYTITVGGSMSESV  385
+
+Query  65   GGDWTEKMASMSSKGNVTHEGNYNQLGNYTVQGN  98
+               +T   AS+S  G        N  G+  + G 
+Sbjct  386  SSSYTRSAASISDDGG---GATLNLAGSAALDGT  416
+
+
+ Score = 38.9 bits (89),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 37/71 (52%), Gaps = 0/71 (0%)
+
+Query  2    GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  61
+            G     + G+   +V  N  + ++GN +ITV GDAT   + N T  ++G+L   V G VD
+Sbjct  243  GSRVTKIIGDDFEIVHKNQNVYIKGNLNITVVGDATFYCQQNVTQQIDGDLKQHVKGNVD  302
+
+Query  62   WDVGGDWTEKM  72
+              V  + T+ +
+Sbjct  303  QHVEMNVTQTV  313
+
+
+> sp|Q9I737|VGR1B_PSEAE Type VI secretion system spike protein 
+VgrG1b OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 
+/ CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) 
+OX=208964 GN=vgrG1b PE=3 SV=1
+Length=741
+
+ Score = 40.1 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 24/77 (31%), Positives = 37/77 (48%), Gaps = 0/77 (0%)
+
+Query  3    DETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDW  62
+            D TKT++ + T+ VK + T  V+ N  IT+  D T  V  N+  ++  N +  V      
+Sbjct  522  DRTKTIDHDETVHVKHDRTETVDNNETITIGVDRTEKVGNNEKISIGANRTEDVGSNETI  581
+
+Query  63   DVGGDWTEKMASMSSKG  79
+             +G D TEK+ S     
+Sbjct  582  SIGVDRTEKVGSNEKIS  598
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0403    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5581382586
+Results from round 3
+
+
+Query= 6P2A:A
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P16009|BP5_BPT4 Baseplate central spike complex protein gp5 ...  138     5e-38
+  sp|Q6WHG9|NEEDL_BPKVM Protein Gp5 OS=Vibrio phage KVP40 (isolat...  119     2e-31
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9I0F3|VGR1C_PSEAE Type VI secretion system spike protein Vg...  44.8    8e-05
+  sp|Q9I737|VGR1B_PSEAE Type VI secretion system spike protein Vg...  44.4    1e-04
+
+
+> sp|P16009|BP5_BPT4 Baseplate central spike complex protein gp5 
+OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2
+Length=575
+
+ Score = 138 bits (348),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 80/97 (82%), Positives = 83/97 (86%), Gaps = 10/97 (10%)
+
+Query  2    GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  61
+            GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD
+Sbjct  484  GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  543
+
+Query  62   WDVGGDWTEKMASMSSKGNVTHEGNYNQLGNYTVQGN  98
+            WDVGGDWTEKMASMSS  +          G YT+ G+
+Sbjct  544  WDVGGDWTEKMASMSSISS----------GQYTIDGS  570
+
+
+> sp|Q6WHG9|NEEDL_BPKVM Protein Gp5 OS=Vibrio phage KVP40 (isolate 
+Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=1283340 
+GN=5 PE=1 SV=1
+Length=421
+
+ Score = 119 bits (297),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 33/121 (27%), Positives = 49/121 (40%), Gaps = 27/121 (22%)
+
+Query  2    GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  61
+            G+  + VE N T  V  +VT +V  N   TV  + T  V  N T TV+G+++  V G V 
+Sbjct  299  GNVDQHVEMNVTQTVDKDVTQVVHQNVTQTVDMNVTQTVHQNVTQTVDGDVNQTVGGNVQ  358
+
+Query  62   WDVGGDWTEKM------------------------ASMSSKGNVTHEGNYNQLGNYTVQG  97
+             +V GD+T+ +                        AS+S  G        N  G+  + G
+Sbjct  359  SNVTGDYTQNISGNYTITVGGSMSESVSSSYTRSAASISDDGG---GATLNLAGSAALDG  415
+
+Query  98   N  98
+             
+Sbjct  416  T  416
+
+
+ Score = 47.9 bits (112),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 37/71 (52%), Gaps = 0/71 (0%)
+
+Query  2    GDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVD  61
+            G     + G+   +V  N  + ++GN +ITV GDAT   + N T  ++G+L   V G VD
+Sbjct  243  GSRVTKIIGDDFEIVHKNQNVYIKGNLNITVVGDATFYCQQNVTQQIDGDLKQHVKGNVD  302
+
+Query  62   WDVGGDWTEKM  72
+              V  + T+ +
+Sbjct  303  QHVEMNVTQTV  313
+
+
+> sp|Q9I0F3|VGR1C_PSEAE Type VI secretion system spike protein 
+VgrG1c OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 
+/ CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) 
+OX=208964 GN=vgrG1c PE=1 SV=1
+Length=726
+
+ Score = 44.8 bits (104),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 21/73 (29%), Positives = 31/73 (42%), Gaps = 0/73 (0%)
+
+Query  3    DETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDW  62
+            DET  V+ + T  V  N TI V  N   TV  + T  +  N+T T+       V      
+Sbjct  567  DETVHVKHDRTETVDNNETITVHANRSKTVDRNETVRIGMNKTETILMASLQNVGMGRME  626
+
+Query  63   DVGGDWTEKMASM  75
+            +VG  ++  +  M
+Sbjct  627  NVGLGYSLNVGMM  639
+
+
+> sp|Q9I737|VGR1B_PSEAE Type VI secretion system spike protein 
+VgrG1b OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 
+/ CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) 
+OX=208964 GN=vgrG1b PE=3 SV=1
+Length=741
+
+ Score = 44.4 bits (103),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 24/72 (33%), Positives = 37/72 (51%), Gaps = 0/72 (0%)
+
+Query  3    DETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDW  62
+            D TKT++ + T+ VK + T  V+ N  IT+  D T  V  N+  ++  N +  V      
+Sbjct  522  DRTKTIDHDETVHVKHDRTETVDNNETITIGVDRTEKVGNNEKISIGANRTEDVGSNETI  581
+
+Query  63   DVGGDWTEKMAS  74
+             +G D TEK+ S
+Sbjct  582  SIGVDRTEKVGS  593
+
+
+ Score = 41.7 bits (96),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 36/77 (47%), Gaps = 0/77 (0%)
+
+Query  3    DETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDW  62
+            ++   VE + T  V  + T  ++ +  + VK D T  V+ N+T T+  + + KV      
+Sbjct  506  NQDIEVENDETHWVGHDRTKTIDHDETVHVKHDRTETVDNNETITIGVDRTEKVGNNEKI  565
+
+Query  63   DVGGDWTEKMASMSSKG  79
+             +G + TE + S  +  
+Sbjct  566  SIGANRTEDVGSNETIS  582
+
+
+ Score = 40.2 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 36/72 (50%), Gaps = 0/72 (0%)
+
+Query  3    DETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDW  62
+            D T+TV+ N TI +  + T  V  N  I++  + T  V  N+T ++  + + KV      
+Sbjct  538  DRTETVDNNETITIGVDRTEKVGNNEKISIGANRTEDVGSNETISIGVDRTEKVGSNEKI  597
+
+Query  63   DVGGDWTEKMAS  74
+             +G + TE + +
+Sbjct  598  SIGANRTEDVGN  609
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.124    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0379    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5581382586
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

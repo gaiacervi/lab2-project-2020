@@ -1,0 +1,419 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5HWA:A
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P33673|CHIS_BACCI Chitosanase OS=Bacillus circulans OX=1397 ...  533     0.0  
+  sp|P48846|CHIS_NOCSP Chitosanase OS=Nocardioides sp. (strain N1...  45.1    3e-04
+  sp|O07921|CHIS_BACSU Chitosanase OS=Bacillus subtilis (strain 1...  42.4    0.002
+  sp|P33665|CHIS_STRSN Chitosanase OS=Streptomyces sp. (strain N1...  41.6    0.004
+
+
+> sp|P33673|CHIS_BACCI Chitosanase OS=Bacillus circulans OX=1397 
+GN=csn PE=1 SV=2
+Length=301
+
+ Score = 533 bits (1374),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 256/259 (99%), Positives = 257/259 (99%), Gaps = 0/259 (0%)
+
+Query  1    ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKPQQDDLNWIKYYGYAEDIEDERGYT  60
+            ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKP+QDDLNWIKYYGY EDIEDERGYT
+Sbjct  43   ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKPEQDDLNWIKYYGYCEDIEDERGYT  102
+
+Query  61   IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE  120
+            IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE
+Sbjct  103  IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE  162
+
+Query  121  KVFAGKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT  180
+            KVF GKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT
+Sbjct  163  KVFCGKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT  222
+
+Query  181  GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK  240
+            GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK
+Sbjct  223  GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK  282
+
+Query  241  MNLKNVDSEIAQVTDWEMK  259
+            MNLKNVDSEIAQVTDWEMK
+Sbjct  283  MNLKNVDSEIAQVTDWEMK  301
+
+
+> sp|P48846|CHIS_NOCSP Chitosanase OS=Nocardioides sp. (strain 
+N106) OX=47919 GN=csn PE=3 SV=1
+Length=278
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 21/52 (40%), Positives = 30/52 (58%), Gaps = 1/52 (2%)
+
+Query  19  TGLDGEQWNNI-MKLINKPQQDDLNWIKYYGYAEDIEDERGYTIGLFGATTG  69
+            GLD     +I M+L++  +   L+W   Y Y EDI+D RGYT G+ G  +G
+Sbjct  44  VGLDDPHKKDIAMQLVSSAENSSLDWKSQYKYIEDIKDGRGYTAGIIGFCSG  95
+
+
+> sp|O07921|CHIS_BACSU Chitosanase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=csn PE=1 SV=1
+Length=277
+
+ Score = 42.4 bits (98),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 53/218 (24%), Positives = 86/218 (39%), Gaps = 29/218 (13%)
+
+Query  47   YGYAEDIEDERGYTIGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGIN  106
+            YGY E ++D RGYT G  G TT        D  ++ + Y   K   N      L  L   
+Sbjct  62   YGYVERLDDGRGYTCGRAGFTTATG-----DALEVVEVY--TKAVPNNKLKKYLPELRRL  114
+
+Query  107  GKMKGSILEIKDSEKVFAGKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVT  166
+             K +    +   + K FA   K L ND  +R A  +   ++Y + +++++   G  +A+ 
+Sbjct  115  AKEES---DDTSNLKGFASAWKSLANDKEFRAAQDKVNDHLYYQPAMKRSDNAGLKTALA  171
+
+Query  167  IGSFVDTALNQGATGGSDTLQGLLARSGSSS--------NEKTFMKNFHAKRTLVVDTNK  218
+                 DT +  G     D+   L+ R+   +        +EK ++  F     L V  + 
+Sbjct  172  RAVMYDTVIQHGDGDDPDSFYALIKRTNKKAGGSPKDGIDEKKWLNKF-----LDVRYDD  226
+
+Query  219  YNKPPNGKNR------VKQWDTLVDMGKMNLKNVDSEI  250
+               P N   R      V + D L  + K N  N++  I
+Sbjct  227  LMNPANHDTRDEWRESVARVDVLRSIAKENNYNLNGPI  264
+
+
+> sp|P33665|CHIS_STRSN Chitosanase OS=Streptomyces sp. (strain 
+N174) OX=69019 GN=csn PE=1 SV=1
+Length=278
+
+ Score = 41.6 bits (96),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 21/56 (38%), Positives = 30/56 (54%), Gaps = 1/56 (2%)
+
+Query  15  LRNNTGLDGEQWNNI-MKLINKPQQDDLNWIKYYGYAEDIEDERGYTIGLFGATTG  69
+           ++   GLD      I M+L++  +   L+W   Y Y EDI D RGYT G+ G  +G
+Sbjct  39  VKAGAGLDDPHKKEIAMELVSSAENSSLDWKAQYKYIEDIGDGRGYTGGIIGFCSG  94
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.131    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19878427584
+Results from round 2
+
+
+Query= 5HWA:A
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P33673|CHIS_BACCI Chitosanase OS=Bacillus circulans OX=1397 ...  447     2e-159
+  sp|O07921|CHIS_BACSU Chitosanase OS=Bacillus subtilis (strain 1...  260     8e-86 
+  sp|P48846|CHIS_NOCSP Chitosanase OS=Nocardioides sp. (strain N1...  134     5e-37 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P33665|CHIS_STRSN Chitosanase OS=Streptomyces sp. (strain N1...  133     1e-36
+
+
+> sp|P33673|CHIS_BACCI Chitosanase OS=Bacillus circulans OX=1397 
+GN=csn PE=1 SV=2
+Length=301
+
+ Score = 447 bits (1150),  Expect = 2e-159, Method: Composition-based stats.
+ Identities = 256/259 (99%), Positives = 257/259 (99%), Gaps = 0/259 (0%)
+
+Query  1    ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKPQQDDLNWIKYYGYAEDIEDERGYT  60
+            ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKP+QDDLNWIKYYGY EDIEDERGYT
+Sbjct  43   ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKPEQDDLNWIKYYGYCEDIEDERGYT  102
+
+Query  61   IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE  120
+            IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE
+Sbjct  103  IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE  162
+
+Query  121  KVFAGKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT  180
+            KVF GKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT
+Sbjct  163  KVFCGKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT  222
+
+Query  181  GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK  240
+            GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK
+Sbjct  223  GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK  282
+
+Query  241  MNLKNVDSEIAQVTDWEMK  259
+            MNLKNVDSEIAQVTDWEMK
+Sbjct  283  MNLKNVDSEIAQVTDWEMK  301
+
+
+> sp|O07921|CHIS_BACSU Chitosanase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=csn PE=1 SV=1
+Length=277
+
+ Score = 260 bits (663),  Expect = 8e-86, Method: Composition-based stats.
+ Identities = 57/245 (23%), Positives = 95/245 (39%), Gaps = 31/245 (13%)
+
+Query  20   GLDGEQWNNIMKLINKPQQDDLNWIKYYGYAEDIEDERGYTIGLFGATTGGSRDTHPDGP  79
+            GL+ +Q     +L +  +         YGY E ++D RGYT G  G TT        D  
+Sbjct  37   GLNKDQKRRAEQLTSIFENGTTE--IQYGYVERLDDGRGYTCGRAGFTTATG-----DAL  89
+
+Query  80   DLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSEKVFAGKIKKLQNDAAWRKA  139
+            ++ + Y   K   N      L  L    K +    +   + K FA   K L ND  +R A
+Sbjct  90   EVVEVY--TKAVPNNKLKKYLPELRRLAKEES---DDTSNLKGFASAWKSLANDKEFRAA  144
+
+Query  140  MWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGATGGSDTLQGLLARSGSSS--  197
+              +   ++Y + +++++   G  +A+      DT +  G     D+   L+ R+   +  
+Sbjct  145  QDKVNDHLYYQPAMKRSDNAGLKTALARAVMYDTVIQHGDGDDPDSFYALIKRTNKKAGG  204
+
+Query  198  ------NEKTFMKNFHAKRTLVVDTNKYNKPPNGKNR------VKQWDTLVDMGKMNLKN  245
+                  +EK ++  F     L V  +    P N   R      V + D L  + K N  N
+Sbjct  205  SPKDGIDEKKWLNKF-----LDVRYDDLMNPANHDTRDEWRESVARVDVLRSIAKENNYN  259
+
+Query  246  VDSEI  250
+            ++  I
+Sbjct  260  LNGPI  264
+
+
+> sp|P48846|CHIS_NOCSP Chitosanase OS=Nocardioides sp. (strain 
+N106) OX=47919 GN=csn PE=3 SV=1
+Length=278
+
+ Score = 134 bits (338),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 57/238 (24%), Positives = 92/238 (39%), Gaps = 30/238 (13%)
+
+Query  19   TGLDGEQWNNI-MKLINKPQQDDLNWIKYYGYAEDIEDERGYTIGLFGATTGGSRDTHPD  77
+             GLD     +I M+L++  +   L+W   Y Y EDI+D RGYT G+ G  +G       D
+Sbjct  44   VGLDDPHKKDIAMQLVSSAENSSLDWKSQYKYIEDIKDGRGYTAGIIGFCSGTG-----D  98
+
+Query  78   GPDLFKAYDAAKGASNPSADGALKRLG-INGKMKGSILEIKDSEKVFAGKIKKLQNDAAW  136
+              DL   Y   K          L  L  +NG    + L        F         D+ +
+Sbjct  99   MLDLVADYTDLK--PGNILAKYLPALRKVNGTESHAGL-----ASAFEKDWATAAKDSVF  151
+
+Query  137  RKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGATGGSDTLQGLLARSGSS  196
+            ++A  +     Y   +V QA+      A+   ++ D  +  G    SD+  G+   +   
+Sbjct  152  QQAQNDERDRSYFNPAVNQAKAS--LRALGQFAYYDAIVMHGPGDSSDSFGGIRKAAMKK  209
+
+Query  197  S-------NEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGKMNLKNVD  247
+            +       +E T++K F A R  V+      +  +      + DT   +  +N KN D
+Sbjct  210  AKTPAQGRDEATYLKAFLAARKTVM----LKEEAHSDT--SRVDTEQTVF-LNAKNFD  260
+
+
+> sp|P33665|CHIS_STRSN Chitosanase OS=Streptomyces sp. (strain 
+N174) OX=69019 GN=csn PE=1 SV=1
+Length=278
+
+ Score = 133 bits (335),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 50/246 (20%), Positives = 85/246 (35%), Gaps = 29/246 (12%)
+
+Query  15   LRNNTGLDGEQWNNI-MKLINKPQQDDLNWIKYYGYAEDIEDERGYTIGLFGATTGGSRD  73
+            ++   GLD      I M+L++  +   L+W   Y Y EDI D RGYT G+ G  +G    
+Sbjct  39   VKAGAGLDDPHKKEIAMELVSSAENSSLDWKAQYKYIEDIGDGRGYTGGIIGFCSGTG--  96
+
+Query  74   THPDGPDLFKAYDAAKGASNPSADGALKRL-GINGKMKGSILEIKDSEKVFAGKIKKLQN  132
+               D  +L + Y              L  L  +NG    S L        F         
+Sbjct  97   ---DMLELVQHY--TDLEPGNILAKYLPALKKVNGSASHSGLGTP-----FTKDWATAAK  146
+
+Query  133  DAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGATGGSDTLQGLLAR  192
+            D  +++A  +    VY   +V QA+  G   A+   ++ D  +  G      +  G+   
+Sbjct  147  DTVFQQAQNDERDRVYFDPAVSQAKADGLR-ALGQFAYYDAIVMHGPGNDPTSFGGIRKT  205
+
+Query  193  SGSSS-------NEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDT-LVDMGKMNLK  244
+            +   +       +E T++  F     L              +   + DT      K    
+Sbjct  206  AMKKARTPAQGGDETTYLNAF-----LDARKAAMLTEAAHDD-TSRVDTEQRVFLKAGNL  259
+
+Query  245  NVDSEI  250
+            +++  +
+Sbjct  260  DLNPPL  265
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.126    0.333    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0386    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19878427584
+Results from round 3
+
+
+Query= 5HWA:A
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P33673|CHIS_BACCI Chitosanase OS=Bacillus circulans OX=1397 ...  411     2e-145
+  sp|P33665|CHIS_STRSN Chitosanase OS=Streptomyces sp. (strain N1...  279     2e-93 
+  sp|O07921|CHIS_BACSU Chitosanase OS=Bacillus subtilis (strain 1...  268     4e-89 
+  sp|P48846|CHIS_NOCSP Chitosanase OS=Nocardioides sp. (strain N1...  261     2e-86 
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P33673|CHIS_BACCI Chitosanase OS=Bacillus circulans OX=1397 
+GN=csn PE=1 SV=2
+Length=301
+
+ Score = 411 bits (1057),  Expect = 2e-145, Method: Composition-based stats.
+ Identities = 256/259 (99%), Positives = 257/259 (99%), Gaps = 0/259 (0%)
+
+Query  1    ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKPQQDDLNWIKYYGYAEDIEDERGYT  60
+            ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKP+QDDLNWIKYYGY EDIEDERGYT
+Sbjct  43   ASPDDNFSPETLQFLRNNTGLDGEQWNNIMKLINKPEQDDLNWIKYYGYCEDIEDERGYT  102
+
+Query  61   IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE  120
+            IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE
+Sbjct  103  IGLFGATTGGSRDTHPDGPDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSE  162
+
+Query  121  KVFAGKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT  180
+            KVF GKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT
+Sbjct  163  KVFCGKIKKLQNDAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGAT  222
+
+Query  181  GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK  240
+            GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK
+Sbjct  223  GGSDTLQGLLARSGSSSNEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMGK  282
+
+Query  241  MNLKNVDSEIAQVTDWEMK  259
+            MNLKNVDSEIAQVTDWEMK
+Sbjct  283  MNLKNVDSEIAQVTDWEMK  301
+
+
+> sp|P33665|CHIS_STRSN Chitosanase OS=Streptomyces sp. (strain 
+N174) OX=69019 GN=csn PE=1 SV=1
+Length=278
+
+ Score = 279 bits (713),  Expect = 2e-93, Method: Composition-based stats.
+ Identities = 50/246 (20%), Positives = 85/246 (35%), Gaps = 29/246 (12%)
+
+Query  15   LRNNTGLDGEQWNNI-MKLINKPQQDDLNWIKYYGYAEDIEDERGYTIGLFGATTGGSRD  73
+            ++   GLD      I M+L++  +   L+W   Y Y EDI D RGYT G+ G  +G    
+Sbjct  39   VKAGAGLDDPHKKEIAMELVSSAENSSLDWKAQYKYIEDIGDGRGYTGGIIGFCSGTG--  96
+
+Query  74   THPDGPDLFKAYDAAKGASNPSADGALKRL-GINGKMKGSILEIKDSEKVFAGKIKKLQN  132
+               D  +L + Y              L  L  +NG    S L        F         
+Sbjct  97   ---DMLELVQHY--TDLEPGNILAKYLPALKKVNGSASHSGLGTP-----FTKDWATAAK  146
+
+Query  133  DAAWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGATGGSDTLQGLLAR  192
+            D  +++A  +    VY   +V QA+  G   A+   ++ D  +  G      +  G+   
+Sbjct  147  DTVFQQAQNDERDRVYFDPAVSQAKADGLR-ALGQFAYYDAIVMHGPGNDPTSFGGIRKT  205
+
+Query  193  SGSSS-------NEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDT-LVDMGKMNLK  244
+            +   +       +E T++  F     L              +   + DT      K    
+Sbjct  206  AMKKARTPAQGGDETTYLNAF-----LDARKAAMLTEAAHDD-TSRVDTEQRVFLKAGNL  259
+
+Query  245  NVDSEI  250
+            +++  +
+Sbjct  260  DLNPPL  265
+
+
+> sp|O07921|CHIS_BACSU Chitosanase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=csn PE=1 SV=1
+Length=277
+
+ Score = 268 bits (684),  Expect = 4e-89, Method: Composition-based stats.
+ Identities = 57/246 (23%), Positives = 95/246 (39%), Gaps = 31/246 (13%)
+
+Query  19   TGLDGEQWNNIMKLINKPQQDDLNWIKYYGYAEDIEDERGYTIGLFGATTGGSRDTHPDG  78
+             GL+ +Q     +L +  +         YGY E ++D RGYT G  G TT        D 
+Sbjct  36   AGLNKDQKRRAEQLTSIFENGTTE--IQYGYVERLDDGRGYTCGRAGFTTATG-----DA  88
+
+Query  79   PDLFKAYDAAKGASNPSADGALKRLGINGKMKGSILEIKDSEKVFAGKIKKLQNDAAWRK  138
+             ++ + Y   K   N      L  L    K +    +   + K FA   K L ND  +R 
+Sbjct  89   LEVVEVY--TKAVPNNKLKKYLPELRRLAKEES---DDTSNLKGFASAWKSLANDKEFRA  143
+
+Query  139  AMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGATGGSDTLQGLLARSGSSS-  197
+            A  +   ++Y + +++++   G  +A+      DT +  G     D+   L+ R+   + 
+Sbjct  144  AQDKVNDHLYYQPAMKRSDNAGLKTALARAVMYDTVIQHGDGDDPDSFYALIKRTNKKAG  203
+
+Query  198  -------NEKTFMKNFHAKRTLVVDTNKYNKPPNGKNR------VKQWDTLVDMGKMNLK  244
+                   +EK ++  F     L V  +    P N   R      V + D L  + K N  
+Sbjct  204  GSPKDGIDEKKWLNKF-----LDVRYDDLMNPANHDTRDEWRESVARVDVLRSIAKENNY  258
+
+Query  245  NVDSEI  250
+            N++  I
+Sbjct  259  NLNGPI  264
+
+
+> sp|P48846|CHIS_NOCSP Chitosanase OS=Nocardioides sp. (strain 
+N106) OX=47919 GN=csn PE=3 SV=1
+Length=278
+
+ Score = 261 bits (667),  Expect = 2e-86, Method: Composition-based stats.
+ Identities = 53/244 (22%), Positives = 91/244 (37%), Gaps = 30/244 (12%)
+
+Query  17   NNTGLDGEQWNNI-MKLINKPQQDDLNWIKYYGYAEDIEDERGYTIGLFGATTGGSRDTH  75
+               GLD     +I M+L++  +   L+W   Y Y EDI+D RGYT G+ G  +G      
+Sbjct  42   AAVGLDDPHKKDIAMQLVSSAENSSLDWKSQYKYIEDIKDGRGYTAGIIGFCSGTG----  97
+
+Query  76   PDGPDLFKAYDAAKGASNPSADGALKRLG-INGKMKGSILEIKDSEKVFAGKIKKLQNDA  134
+             D  DL   Y   K          L  L  +NG    + L        F         D+
+Sbjct  98   -DMLDLVADYTDLK--PGNILAKYLPALRKVNGTESHAGL-----ASAFEKDWATAAKDS  149
+
+Query  135  AWRKAMWETFYNVYIRYSVEQARQRGFTSAVTIGSFVDTALNQGATGGSDTLQGLLARSG  194
+             +++A  +     Y   +V QA+      A+   ++ D  +  G    SD+  G+   + 
+Sbjct  150  VFQQAQNDERDRSYFNPAVNQAKAS--LRALGQFAYYDAIVMHGPGDSSDSFGGIRKAAM  207
+
+Query  195  SSS-------NEKTFMKNFHAKRTLVVDTNKYNKPPNGKNRVKQWDTLVDMG-KMNLKNV  246
+              +       +E T++K F A R  V+      +  +      + DT   +       ++
+Sbjct  208  KKAKTPAQGRDEATYLKAFLAARKTVM----LKEEAHSDT--SRVDTEQTVFLNAKNFDL  261
+
+Query  247  DSEI  250
+            +  +
+Sbjct  262  NPPL  265
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.118    0.291    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0360    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19878427584
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

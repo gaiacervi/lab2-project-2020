@@ -1,0 +1,215 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6NDW:B
+
+Length=177
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema p...  294     3e-98
+  sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema p...  255     7e-83
+  sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia bu...  115     2e-29
+
+
+> sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema 
+phagedenis OX=162 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 294 bits (753),  Expect = 3e-98, Method: Compositional matrix adjust.
+ Identities = 138/176 (78%), Positives = 155/176 (88%), Gaps = 0/176 (0%)
+
+Query  1    AKATTSVNYACNLDKRLPELPEGANRAQILESTWSTEFKVYDSFGEAHELQIDFARVPGE  60
+            AKATT V YACNLDKRLPELPEGAN+A IL STW+T+F VYD+FGE H+LQ+ F+RVPG 
+Sbjct  168  AKATTDVAYACNLDKRLPELPEGANQADILRSTWATDFNVYDTFGEQHKLQMVFSRVPGT  227
+
+Query  61   VNAWRATVNVDPTNADATATRVGIGTTDGVQNSFIVRFDNNGHLASVTDTAGNVTSPAGQ  120
+             N W ATVNVDP N   T TRVGIGTTDG +N+FIV FDN GHLASVTDTAGNVT+PAGQ
+Sbjct  228  NNQWLATVNVDPENQAGTETRVGIGTTDGTENTFIVSFDNYGHLASVTDTAGNVTAPAGQ  287
+
+Query  121  VLVQISYNVVGANPDEAGAPTRHTFDVNLGEIGTSKNTITQFSDKSTTKAYEQDGY  176
+            VLVQ SYNVVGANPDE GAPTRHTF++NLGEIGTS+NTITQF+++STTKAY+QDGY
+Sbjct  288  VLVQASYNVVGANPDEGGAPTRHTFNINLGEIGTSRNTITQFAERSTTKAYQQDGY  343
+
+
+> sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 255 bits (651),  Expect = 7e-83, Method: Compositional matrix adjust.
+ Identities = 119/176 (68%), Positives = 145/176 (82%), Gaps = 0/176 (0%)
+
+Query  1    AKATTSVNYACNLDKRLPELPEGANRAQILESTWSTEFKVYDSFGEAHELQIDFARVPGE  60
+            A+ T++V+YACNLDKRLPEL   AN A + +STW+T+F+VYDSFG+ H LQI+F+RVPG 
+Sbjct  168  AQQTSTVHYACNLDKRLPELAADANEADVRKSTWTTDFQVYDSFGQQHTLQINFSRVPGT  227
+
+Query  61   VNAWRATVNVDPTNADATATRVGIGTTDGVQNSFIVRFDNNGHLASVTDTAGNVTSPAGQ  120
+             N W+ATV VDP     T TRVG+GT+DG  N+FIV FDN GHLASVTDTAGNVT P GQ
+Sbjct  228  NNQWQATVAVDPGTEVDTQTRVGVGTSDGAANTFIVNFDNFGHLASVTDTAGNVTGPTGQ  287
+
+Query  121  VLVQISYNVVGANPDEAGAPTRHTFDVNLGEIGTSKNTITQFSDKSTTKAYEQDGY  176
+            VL++ SY+VVGANPD+AG  TRH F +NLGEIGT++NTITQF+++STTKAY QDGY
+Sbjct  288  VLLEASYDVVGANPDDAGQVTRHAFTLNLGEIGTARNTITQFAERSTTKAYRQDGY  343
+
+
+> sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM 4680) 
+OX=224326 GN=flgE PE=3 SV=1
+Length=442
+
+ Score = 115 bits (288),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 72/178 (40%), Positives = 98/178 (55%), Gaps = 25/178 (14%)
+
+Query  1    AKATTSVNYACNLDKRLPELPEGANRAQILESTWSTEFKVYDSFGEAHELQIDFARVPGE  60
+            AK+T +V +ACNLDKRLP + EGAN A I   TW     +YDSFG    L++   +    
+Sbjct  168  AKSTKNVTFACNLDKRLPLIQEGANPADIARGTWVVNKSLYDSFGNVSVLELRVVKDLNT  227
+
+Query  61   VNAWRATVNVDPTNADATATRVGIGTTDGVQNS-FIVRFDNNGHLASVTDTAGNVTSPAG  119
+             N W ATV +                 +G QNS F + FDN G LAS+    G      G
+Sbjct  228  PNLWNATVLI-----------------NGEQNSNFTLGFDNEGALASLNGQPGQ----KG  266
+
+Query  120  QVL-VQISYNVVGANPDEAGAPTRHTFDVNLGEIGTSKNTITQFSDKSTTKAYEQDGY  176
+             +L + I++NV+GAN  E G   + T ++ LG +G+  ++ITQF+D S+TKA  QDGY
+Sbjct  267  DILQIPITFNVLGANVGEVGE--QQTVNLKLGTVGSYTDSITQFADSSSTKAIIQDGY  322
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.127    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9437623082
+Results from round 2
+
+
+Query= 6NDW:B
+
+Length=177
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema p...  277     1e-91
+  sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema p...  265     7e-87
+  sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia bu...  199     3e-61
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema 
+phagedenis OX=162 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 277 bits (708),  Expect = 1e-91, Method: Composition-based stats.
+ Identities = 138/176 (78%), Positives = 155/176 (88%), Gaps = 0/176 (0%)
+
+Query  1    AKATTSVNYACNLDKRLPELPEGANRAQILESTWSTEFKVYDSFGEAHELQIDFARVPGE  60
+            AKATT V YACNLDKRLPELPEGAN+A IL STW+T+F VYD+FGE H+LQ+ F+RVPG 
+Sbjct  168  AKATTDVAYACNLDKRLPELPEGANQADILRSTWATDFNVYDTFGEQHKLQMVFSRVPGT  227
+
+Query  61   VNAWRATVNVDPTNADATATRVGIGTTDGVQNSFIVRFDNNGHLASVTDTAGNVTSPAGQ  120
+             N W ATVNVDP N   T TRVGIGTTDG +N+FIV FDN GHLASVTDTAGNVT+PAGQ
+Sbjct  228  NNQWLATVNVDPENQAGTETRVGIGTTDGTENTFIVSFDNYGHLASVTDTAGNVTAPAGQ  287
+
+Query  121  VLVQISYNVVGANPDEAGAPTRHTFDVNLGEIGTSKNTITQFSDKSTTKAYEQDGY  176
+            VLVQ SYNVVGANPDE GAPTRHTF++NLGEIGTS+NTITQF+++STTKAY+QDGY
+Sbjct  288  VLVQASYNVVGANPDEGGAPTRHTFNINLGEIGTSRNTITQFAERSTTKAYQQDGY  343
+
+
+> sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 265 bits (677),  Expect = 7e-87, Method: Composition-based stats.
+ Identities = 119/176 (68%), Positives = 145/176 (82%), Gaps = 0/176 (0%)
+
+Query  1    AKATTSVNYACNLDKRLPELPEGANRAQILESTWSTEFKVYDSFGEAHELQIDFARVPGE  60
+            A+ T++V+YACNLDKRLPEL   AN A + +STW+T+F+VYDSFG+ H LQI+F+RVPG 
+Sbjct  168  AQQTSTVHYACNLDKRLPELAADANEADVRKSTWTTDFQVYDSFGQQHTLQINFSRVPGT  227
+
+Query  61   VNAWRATVNVDPTNADATATRVGIGTTDGVQNSFIVRFDNNGHLASVTDTAGNVTSPAGQ  120
+             N W+ATV VDP     T TRVG+GT+DG  N+FIV FDN GHLASVTDTAGNVT P GQ
+Sbjct  228  NNQWQATVAVDPGTEVDTQTRVGVGTSDGAANTFIVNFDNFGHLASVTDTAGNVTGPTGQ  287
+
+Query  121  VLVQISYNVVGANPDEAGAPTRHTFDVNLGEIGTSKNTITQFSDKSTTKAYEQDGY  176
+            VL++ SY+VVGANPD+AG  TRH F +NLGEIGT++NTITQF+++STTKAY QDGY
+Sbjct  288  VLLEASYDVVGANPDDAGQVTRHAFTLNLGEIGTARNTITQFAERSTTKAYRQDGY  343
+
+
+> sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM 4680) 
+OX=224326 GN=flgE PE=3 SV=1
+Length=442
+
+ Score = 199 bits (505),  Expect = 3e-61, Method: Composition-based stats.
+ Identities = 72/178 (40%), Positives = 98/178 (55%), Gaps = 25/178 (14%)
+
+Query  1    AKATTSVNYACNLDKRLPELPEGANRAQILESTWSTEFKVYDSFGEAHELQIDFARVPGE  60
+            AK+T +V +ACNLDKRLP + EGAN A I   TW     +YDSFG    L++   +    
+Sbjct  168  AKSTKNVTFACNLDKRLPLIQEGANPADIARGTWVVNKSLYDSFGNVSVLELRVVKDLNT  227
+
+Query  61   VNAWRATVNVDPTNADATATRVGIGTTDGVQNS-FIVRFDNNGHLASVTDTAGNVTSPAG  119
+             N W ATV +                 +G QNS F + FDN G LAS+    G      G
+Sbjct  228  PNLWNATVLI-----------------NGEQNSNFTLGFDNEGALASLNGQPGQ----KG  266
+
+Query  120  QVL-VQISYNVVGANPDEAGAPTRHTFDVNLGEIGTSKNTITQFSDKSTTKAYEQDGY  176
+             +L + I++NV+GAN  E G   + T ++ LG +G+  ++ITQF+D S+TKA  QDGY
+Sbjct  267  DILQIPITFNVLGANVGEVGE--QQTVNLKLGTVGSYTDSITQFADSSSTKAIIQDGY  322
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.123    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0378    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9437623082
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

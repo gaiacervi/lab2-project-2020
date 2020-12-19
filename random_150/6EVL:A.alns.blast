@@ -1,0 +1,1286 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6EVL:A
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O15460|P4HA2_HUMAN Prolyl 4-hydroxylase subunit alpha-2 OS=H...  195     1e-60
+  sp|Q60716|P4HA2_MOUSE Prolyl 4-hydroxylase subunit alpha-2 OS=M...  186     5e-57
+  sp|Q5ZLK5|P4HA2_CHICK Prolyl 4-hydroxylase subunit alpha-2 OS=G...  157     4e-46
+  sp|P16924|P4HA1_CHICK Prolyl 4-hydroxylase subunit alpha-1 OS=G...  122     4e-33
+  sp|Q1RMU3|P4HA1_BOVIN Prolyl 4-hydroxylase subunit alpha-1 OS=B...  109     3e-28
+  sp|Q5RAG8|P4HA1_PONAB Prolyl 4-hydroxylase subunit alpha-1 OS=P...  107     1e-27
+  sp|P13674|P4HA1_HUMAN Prolyl 4-hydroxylase subunit alpha-1 OS=H...  107     1e-27
+  sp|Q60715|P4HA1_MOUSE Prolyl 4-hydroxylase subunit alpha-1 OS=M...  102     9e-26
+  sp|P54001|P4HA1_RAT Prolyl 4-hydroxylase subunit alpha-1 OS=Rat...  102     1e-25
+  sp|Q10576|P4HA1_CAEEL Prolyl 4-hydroxylase subunit alpha-1 OS=C...  95.5    3e-23
+  sp|Q20065|P4HA2_CAEEL Prolyl 4-hydroxylase subunit alpha-2 OS=C...  93.6    1e-22
+  sp|Q6W3F0|P4HA3_MOUSE Prolyl 4-hydroxylase subunit alpha-3 OS=M...  76.3    2e-16
+  sp|Q6W3E9|P4HA3_RAT Prolyl 4-hydroxylase subunit alpha-3 OS=Rat...  75.1    4e-16
+  sp|Q75UG4|P4HA3_BOVIN Prolyl 4-hydroxylase subunit alpha-3 OS=B...  70.5    1e-14
+  sp|Q7Z4N8|P4HA3_HUMAN Prolyl 4-hydroxylase subunit alpha-3 OS=H...  68.9    5e-14
+
+
+> sp|O15460|P4HA2_HUMAN Prolyl 4-hydroxylase subunit alpha-2 OS=Homo 
+sapiens OX=9606 GN=P4HA2 PE=1 SV=1
+Length=535
+
+ Score = 195 bits (496),  Expect = 1e-60, Method: Compositional matrix adjust.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+            MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD
+Sbjct  163  MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  222
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE
+Sbjct  223  LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  256
+
+
+> sp|Q60716|P4HA2_MOUSE Prolyl 4-hydroxylase subunit alpha-2 OS=Mus 
+musculus OX=10090 GN=P4ha2 PE=1 SV=1
+Length=537
+
+ Score = 186 bits (472),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 89/94 (95%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+            MLSVDDCFG+GRSAYNEGDYYHTVLWMEQVLKQLDAGEEAT TKS VLDYLSYAVFQLGD
+Sbjct  165  MLSVDDCFGLGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATVTKSLVLDYLSYAVFQLGD  224
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            LHRA+ELTRRLLSLDPSHERAGGNLRYFE+LLEE
+Sbjct  225  LHRAVELTRRLLSLDPSHERAGGNLRYFERLLEE  258
+
+
+> sp|Q5ZLK5|P4HA2_CHICK Prolyl 4-hydroxylase subunit alpha-2 OS=Gallus 
+gallus OX=9031 GN=P4HA2 PE=2 SV=1
+Length=534
+
+ Score = 157 bits (397),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 70/93 (75%), Positives = 83/93 (89%), Gaps = 0/93 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+            L+V DCFGMG++AYN+GDYYHTVLWMEQ LKQ D GE+ T +K ++LDYLSYAVFQ GDL
+Sbjct  164  LTVSDCFGMGKTAYNDGDYYHTVLWMEQALKQHDEGEDTTVSKVEILDYLSYAVFQFGDL  223
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            HRA+ELTRRL+SLD +HERAG NLRYFE+LLE+
+Sbjct  224  HRAMELTRRLISLDSTHERAGSNLRYFEKLLEK  256
+
+
+> sp|P16924|P4HA1_CHICK Prolyl 4-hydroxylase subunit alpha-1 OS=Gallus 
+gallus OX=9031 GN=P4HA1 PE=1 SV=1
+Length=516
+
+ Score = 122 bits (306),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 54/92 (59%), Positives = 70/92 (76%), Gaps = 0/92 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+  Y E DYYHT LWMEQ LKQLD GE ++  K  +LDYLSYAV+Q GD
+Sbjct  145  FLTAEDCFELGKIRYTEADYYHTELWMEQALKQLDEGEVSSADKVYILDYLSYAVYQQGD  204
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLL  92
+            L +A+ LT+RLL LDP H+RA GN++YFE ++
+Sbjct  205  LSKAMMLTKRLLELDPEHQRANGNMKYFEYIM  236
+
+
+> sp|Q1RMU3|P4HA1_BOVIN Prolyl 4-hydroxylase subunit alpha-1 OS=Bos 
+taurus OX=9913 GN=P4HA1 PE=1 SV=1
+Length=534
+
+ Score = 109 bits (272),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 58/92 (63%), Positives = 72/92 (78%), Gaps = 0/92 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+V+DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTVEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEVSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLL  92
+            L +AL LT++LL LDP H+RA GNL+YFE ++
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLKYFEYIM  252
+
+
+> sp|Q5RAG8|P4HA1_PONAB Prolyl 4-hydroxylase subunit alpha-1 OS=Pongo 
+abelii OX=9601 GN=P4HA1 PE=2 SV=1
+Length=534
+
+ Score = 107 bits (268),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 57/91 (63%), Positives = 71/91 (78%), Gaps = 0/91 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+            L+ +DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GDL
+Sbjct  162  LTAEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEISTIDKVSVLDYLSYAVYQQGDL  221
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLL  92
+             +AL LT++LL LDP H+RA GNL+YFE ++
+Sbjct  222  DKALLLTKKLLELDPEHQRANGNLKYFEYIM  252
+
+
+> sp|P13674|P4HA1_HUMAN Prolyl 4-hydroxylase subunit alpha-1 OS=Homo 
+sapiens OX=9606 GN=P4HA1 PE=1 SV=2
+Length=534
+
+ Score = 107 bits (268),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 57/91 (63%), Positives = 71/91 (78%), Gaps = 0/91 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+            L+ +DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GDL
+Sbjct  162  LTAEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEISTIDKVSVLDYLSYAVYQQGDL  221
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLL  92
+             +AL LT++LL LDP H+RA GNL+YFE ++
+Sbjct  222  DKALLLTKKLLELDPEHQRANGNLKYFEYIM  252
+
+
+> sp|Q60715|P4HA1_MOUSE Prolyl 4-hydroxylase subunit alpha-1 OS=Mus 
+musculus OX=10090 GN=P4ha1 PE=1 SV=2
+Length=534
+
+ Score = 102 bits (254),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 56/94 (60%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L QL+ GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALTQLEEGELSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLVYFEYIMSK  254
+
+
+> sp|P54001|P4HA1_RAT Prolyl 4-hydroxylase subunit alpha-1 OS=Rattus 
+norvegicus OX=10116 GN=P4ha1 PE=2 SV=2
+Length=534
+
+ Score = 102 bits (253),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 56/94 (60%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L QL+ GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALMQLEEGEMSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLVYFEYIMSK  254
+
+
+> sp|Q10576|P4HA1_CAEEL Prolyl 4-hydroxylase subunit alpha-1 OS=Caenorhabditis 
+elegans OX=6239 GN=dpy-18 PE=1 SV=2
+Length=559
+
+ Score = 95.5 bits (236),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 40/93 (43%), Positives = 64/93 (69%), Gaps = 0/93 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+             S  DCF + R+AYNE D+YHTV+WME+  ++L    E T     +L+YL++A+++  +L
+Sbjct  161  FSAKDCFEIARAAYNEHDFYHTVMWMEEAQRRLGDEVEPTVEVEDILEYLAFALYKQNNL  220
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+              AL+LT  L  ++P+H RA GN++++E LLE+
+Sbjct  221  KHALKLTEELYKMNPTHPRAKGNVKWYEDLLEQ  253
+
+
+> sp|Q20065|P4HA2_CAEEL Prolyl 4-hydroxylase subunit alpha-2 OS=Caenorhabditis 
+elegans OX=6239 GN=phy-2 PE=1 SV=1
+Length=539
+
+ Score = 93.6 bits (231),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 39/92 (42%), Positives = 66/92 (72%), Gaps = 0/92 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+            LS  D F +GRSAYN+ DYYH ++WM+  L +++     T  + ++L+YL+Y+++Q G++
+Sbjct  163  LSGHDTFEVGRSAYNQKDYYHCLMWMQVALVKIENENPPTIEEWEILEYLAYSLYQQGNV  222
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLE  93
+             RAL LT+RL  + P+H RA GN++++E +L+
+Sbjct  223  RRALSLTKRLAKIAPNHPRAKGNVKWYEDMLQ  254
+
+
+> sp|Q6W3F0|P4HA3_MOUSE Prolyl 4-hydroxylase subunit alpha-3 OS=Mus 
+musculus OX=10090 GN=P4ha3 PE=2 SV=1
+Length=542
+
+ Score = 76.3 bits (186),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/98 (39%), Positives = 61/98 (62%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLK--QLDAGEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +   +   GE  T  ++ +   LDYL++A F
+Sbjct  177  LTADDCFQVGKVAYDTGDYYHAIPWLEEAVSLFRRAHGEWKTEDEASLEDALDYLAFACF  236
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q+G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  237  QVGNVSCALSLSREFLVYSPDNKRMARNVLKYERLLAE  274
+
+
+> sp|Q6W3E9|P4HA3_RAT Prolyl 4-hydroxylase subunit alpha-3 OS=Rattus 
+norvegicus OX=10116 GN=P4ha3 PE=2 SV=1
+Length=544
+
+ Score = 75.1 bits (183),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 61/98 (62%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLK--QLDAGEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +   +   GE  T  ++ +   LDYL++A +
+Sbjct  179  LTADDCFQVGKVAYDTGDYYHAIPWLEEAVSLFRRSYGEWKTEDEASLEDALDYLAFACY  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q+G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  QVGNVSCALSLSREFLVYSPDNKRMARNVLKYERLLAE  276
+
+
+> sp|Q75UG4|P4HA3_BOVIN Prolyl 4-hydroxylase subunit alpha-3 OS=Bos 
+taurus OX=9913 GN=P4HA3 PE=2 SV=1
+Length=544
+
+ Score = 70.5 bits (171),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 59/98 (60%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDA--GEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +       GE  T  ++ +   LD+L++A F
+Sbjct  179  LTGDDCFQVGKVAYDMGDYYHAIPWLEEAVSLFRGSYGEWKTEDEASLEDALDHLAFAYF  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  QAGNVLCALNLSREFLLYSPDNKRVARNVLKYEKLLAE  276
+
+
+> sp|Q7Z4N8|P4HA3_HUMAN Prolyl 4-hydroxylase subunit alpha-3 OS=Homo 
+sapiens OX=9606 GN=P4HA3 PE=1 SV=1
+Length=544
+
+ Score = 68.9 bits (167),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 36/98 (37%), Positives = 59/98 (60%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDA--GEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +       GE  T  ++ +   LD+L++A F
+Sbjct  179  LTGDDCFQVGKVAYDMGDYYHAIPWLEEAVSLFRGSYGEWKTEDEASLEDALDHLAFAYF  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            + G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  RAGNVSCALSLSREFLLYSPDNKRMARNVLKYERLLAE  276
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5002854540
+Results from round 2
+
+
+Query= 6EVL:A
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O15460|P4HA2_HUMAN Prolyl 4-hydroxylase subunit alpha-2 OS=H...  155     2e-45
+  sp|Q60716|P4HA2_MOUSE Prolyl 4-hydroxylase subunit alpha-2 OS=M...  155     3e-45
+  sp|P16924|P4HA1_CHICK Prolyl 4-hydroxylase subunit alpha-1 OS=G...  152     4e-44
+  sp|Q5ZLK5|P4HA2_CHICK Prolyl 4-hydroxylase subunit alpha-2 OS=G...  150     2e-43
+  sp|Q20065|P4HA2_CAEEL Prolyl 4-hydroxylase subunit alpha-2 OS=C...  146     6e-42
+  sp|Q10576|P4HA1_CAEEL Prolyl 4-hydroxylase subunit alpha-1 OS=C...  145     3e-41
+  sp|Q5RAG8|P4HA1_PONAB Prolyl 4-hydroxylase subunit alpha-1 OS=P...  137     2e-38
+  sp|P13674|P4HA1_HUMAN Prolyl 4-hydroxylase subunit alpha-1 OS=H...  137     2e-38
+  sp|Q1RMU3|P4HA1_BOVIN Prolyl 4-hydroxylase subunit alpha-1 OS=B...  136     3e-38
+  sp|Q60715|P4HA1_MOUSE Prolyl 4-hydroxylase subunit alpha-1 OS=M...  134     2e-37
+  sp|Q6W3F0|P4HA3_MOUSE Prolyl 4-hydroxylase subunit alpha-3 OS=M...  134     2e-37
+  sp|P54001|P4HA1_RAT Prolyl 4-hydroxylase subunit alpha-1 OS=Rat...  133     4e-37
+  sp|Q6W3E9|P4HA3_RAT Prolyl 4-hydroxylase subunit alpha-3 OS=Rat...  132     1e-36
+  sp|Q75UG4|P4HA3_BOVIN Prolyl 4-hydroxylase subunit alpha-3 OS=B...  130     5e-36
+  sp|Q7Z4N8|P4HA3_HUMAN Prolyl 4-hydroxylase subunit alpha-3 OS=H...  129     1e-35
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q6JHU7|P3H2_CHICK Prolyl 3-hydroxylase 2 OS=Gallus gallus OX...  42.3    1e-04
+  sp|Q8CG71|P3H2_MOUSE Prolyl 3-hydroxylase 2 OS=Mus musculus OX=...  40.8    4e-04
+  sp|Q4KLM6|P3H2_RAT Prolyl 3-hydroxylase 2 OS=Rattus norvegicus ...  39.6    0.001
+  sp|Q8IVL5|P3H2_HUMAN Prolyl 3-hydroxylase 2 OS=Homo sapiens OX=...  39.6    0.001
+  sp|Q6JHU8|P3H1_CHICK Prolyl 3-hydroxylase 1 OS=Gallus gallus OX...  37.7    0.006
+  sp|Q3AH18|YCF3_SYNSC Photosystem I assembly protein Ycf3 OS=Syn...  36.9    0.006
+  sp|Q32P28|P3H1_HUMAN Prolyl 3-hydroxylase 1 OS=Homo sapiens OX=...  37.3    0.008
+
+
+> sp|O15460|P4HA2_HUMAN Prolyl 4-hydroxylase subunit alpha-2 OS=Homo 
+sapiens OX=9606 GN=P4HA2 PE=1 SV=1
+Length=535
+
+ Score = 155 bits (392),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+            MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD
+Sbjct  163  MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  222
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE
+Sbjct  223  LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  256
+
+
+> sp|Q60716|P4HA2_MOUSE Prolyl 4-hydroxylase subunit alpha-2 OS=Mus 
+musculus OX=10090 GN=P4ha2 PE=1 SV=1
+Length=537
+
+ Score = 155 bits (391),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 89/94 (95%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+            MLSVDDCFG+GRSAYNEGDYYHTVLWMEQVLKQLDAGEEAT TKS VLDYLSYAVFQLGD
+Sbjct  165  MLSVDDCFGLGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATVTKSLVLDYLSYAVFQLGD  224
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            LHRA+ELTRRLLSLDPSHERAGGNLRYFE+LLEE
+Sbjct  225  LHRAVELTRRLLSLDPSHERAGGNLRYFERLLEE  258
+
+
+> sp|P16924|P4HA1_CHICK Prolyl 4-hydroxylase subunit alpha-1 OS=Gallus 
+gallus OX=9031 GN=P4HA1 PE=1 SV=1
+Length=516
+
+ Score = 152 bits (383),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 54/94 (57%), Positives = 71/94 (76%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+  Y E DYYHT LWMEQ LKQLD GE ++  K  +LDYLSYAV+Q GD
+Sbjct  145  FLTAEDCFELGKIRYTEADYYHTELWMEQALKQLDEGEVSSADKVYILDYLSYAVYQQGD  204
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +A+ LT+RLL LDP H+RA GN++YFE ++ +
+Sbjct  205  LSKAMMLTKRLLELDPEHQRANGNMKYFEYIMAK  238
+
+
+> sp|Q5ZLK5|P4HA2_CHICK Prolyl 4-hydroxylase subunit alpha-2 OS=Gallus 
+gallus OX=9031 GN=P4HA2 PE=2 SV=1
+Length=534
+
+ Score = 150 bits (378),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 70/93 (75%), Positives = 83/93 (89%), Gaps = 0/93 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+            L+V DCFGMG++AYN+GDYYHTVLWMEQ LKQ D GE+ T +K ++LDYLSYAVFQ GDL
+Sbjct  164  LTVSDCFGMGKTAYNDGDYYHTVLWMEQALKQHDEGEDTTVSKVEILDYLSYAVFQFGDL  223
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            HRA+ELTRRL+SLD +HERAG NLRYFE+LLE+
+Sbjct  224  HRAMELTRRLISLDSTHERAGSNLRYFEKLLEK  256
+
+
+> sp|Q20065|P4HA2_CAEEL Prolyl 4-hydroxylase subunit alpha-2 OS=Caenorhabditis 
+elegans OX=6239 GN=phy-2 PE=1 SV=1
+Length=539
+
+ Score = 146 bits (369),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 39/92 (42%), Positives = 66/92 (72%), Gaps = 0/92 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+            LS  D F +GRSAYN+ DYYH ++WM+  L +++     T  + ++L+YL+Y+++Q G++
+Sbjct  163  LSGHDTFEVGRSAYNQKDYYHCLMWMQVALVKIENENPPTIEEWEILEYLAYSLYQQGNV  222
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLE  93
+             RAL LT+RL  + P+H RA GN++++E +L+
+Sbjct  223  RRALSLTKRLAKIAPNHPRAKGNVKWYEDMLQ  254
+
+
+> sp|Q10576|P4HA1_CAEEL Prolyl 4-hydroxylase subunit alpha-1 OS=Caenorhabditis 
+elegans OX=6239 GN=dpy-18 PE=1 SV=2
+Length=559
+
+ Score = 145 bits (365),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 40/93 (43%), Positives = 64/93 (69%), Gaps = 0/93 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+             S  DCF + R+AYNE D+YHTV+WME+  ++L    E T     +L+YL++A+++  +L
+Sbjct  161  FSAKDCFEIARAAYNEHDFYHTVMWMEEAQRRLGDEVEPTVEVEDILEYLAFALYKQNNL  220
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+              AL+LT  L  ++P+H RA GN++++E LLE+
+Sbjct  221  KHALKLTEELYKMNPTHPRAKGNVKWYEDLLEQ  253
+
+
+> sp|Q5RAG8|P4HA1_PONAB Prolyl 4-hydroxylase subunit alpha-1 OS=Pongo 
+abelii OX=9601 GN=P4HA1 PE=2 SV=1
+Length=534
+
+ Score = 137 bits (344),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 57/94 (61%), Positives = 72/94 (77%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEISTIDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL+YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLKYFEYIMAK  254
+
+
+> sp|P13674|P4HA1_HUMAN Prolyl 4-hydroxylase subunit alpha-1 OS=Homo 
+sapiens OX=9606 GN=P4HA1 PE=1 SV=2
+Length=534
+
+ Score = 137 bits (344),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 57/94 (61%), Positives = 72/94 (77%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEISTIDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL+YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLKYFEYIMAK  254
+
+
+> sp|Q1RMU3|P4HA1_BOVIN Prolyl 4-hydroxylase subunit alpha-1 OS=Bos 
+taurus OX=9913 GN=P4HA1 PE=1 SV=1
+Length=534
+
+ Score = 136 bits (343),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 58/94 (62%), Positives = 73/94 (78%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+V+DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTVEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEVSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL+YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLKYFEYIMAK  254
+
+
+> sp|Q60715|P4HA1_MOUSE Prolyl 4-hydroxylase subunit alpha-1 OS=Mus 
+musculus OX=10090 GN=P4ha1 PE=1 SV=2
+Length=534
+
+ Score = 134 bits (337),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 56/94 (60%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L QL+ GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALTQLEEGELSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLVYFEYIMSK  254
+
+
+> sp|Q6W3F0|P4HA3_MOUSE Prolyl 4-hydroxylase subunit alpha-3 OS=Mus 
+musculus OX=10090 GN=P4ha3 PE=2 SV=1
+Length=542
+
+ Score = 134 bits (337),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 38/98 (39%), Positives = 61/98 (62%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLK--QLDAGEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +   +   GE  T  ++ +   LDYL++A F
+Sbjct  177  LTADDCFQVGKVAYDTGDYYHAIPWLEEAVSLFRRAHGEWKTEDEASLEDALDYLAFACF  236
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q+G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  237  QVGNVSCALSLSREFLVYSPDNKRMARNVLKYERLLAE  274
+
+
+> sp|P54001|P4HA1_RAT Prolyl 4-hydroxylase subunit alpha-1 OS=Rattus 
+norvegicus OX=10116 GN=P4ha1 PE=2 SV=2
+Length=534
+
+ Score = 133 bits (334),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 56/94 (60%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L QL+ GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALMQLEEGEMSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLVYFEYIMSK  254
+
+
+> sp|Q6W3E9|P4HA3_RAT Prolyl 4-hydroxylase subunit alpha-3 OS=Rattus 
+norvegicus OX=10116 GN=P4ha3 PE=2 SV=1
+Length=544
+
+ Score = 132 bits (332),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 37/98 (38%), Positives = 61/98 (62%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLK--QLDAGEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +   +   GE  T  ++ +   LDYL++A +
+Sbjct  179  LTADDCFQVGKVAYDTGDYYHAIPWLEEAVSLFRRSYGEWKTEDEASLEDALDYLAFACY  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q+G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  QVGNVSCALSLSREFLVYSPDNKRMARNVLKYERLLAE  276
+
+
+> sp|Q75UG4|P4HA3_BOVIN Prolyl 4-hydroxylase subunit alpha-3 OS=Bos 
+taurus OX=9913 GN=P4HA3 PE=2 SV=1
+Length=544
+
+ Score = 130 bits (327),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 37/98 (38%), Positives = 59/98 (60%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDA--GEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +       GE  T  ++ +   LD+L++A F
+Sbjct  179  LTGDDCFQVGKVAYDMGDYYHAIPWLEEAVSLFRGSYGEWKTEDEASLEDALDHLAFAYF  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  QAGNVLCALNLSREFLLYSPDNKRVARNVLKYEKLLAE  276
+
+
+> sp|Q7Z4N8|P4HA3_HUMAN Prolyl 4-hydroxylase subunit alpha-3 OS=Homo 
+sapiens OX=9606 GN=P4HA3 PE=1 SV=1
+Length=544
+
+ Score = 129 bits (325),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 36/98 (37%), Positives = 59/98 (60%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDA--GEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +       GE  T  ++ +   LD+L++A F
+Sbjct  179  LTGDDCFQVGKVAYDMGDYYHAIPWLEEAVSLFRGSYGEWKTEDEASLEDALDHLAFAYF  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            + G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  RAGNVSCALSLSREFLLYSPDNKRMARNVLKYERLLAE  276
+
+
+> sp|Q6JHU7|P3H2_CHICK Prolyl 3-hydroxylase 2 OS=Gallus gallus 
+OX=9031 GN=P3H2 PE=2 SV=1
+Length=694
+
+ Score = 42.3 bits (98),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/45 (42%), Positives = 25/45 (56%), Gaps = 0/45 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLE  93
+            DYL +A +++GD  +ALE  R  L   P  E    N  Y+E LLE
+Sbjct  296  DYLQFAYYRVGDYVKALECARSYLLFHPDDEDVLENAAYYEGLLE  340
+
+
+> sp|Q8CG71|P3H2_MOUSE Prolyl 3-hydroxylase 2 OS=Mus musculus OX=10090 
+GN=P3h2 PE=1 SV=1
+Length=703
+
+ Score = 40.8 bits (94),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            DYL +A +++G+  +ALE  +  L   P +E    N+ ++E LL++
+Sbjct  305  DYLQFAYYRVGEYVKALECAKAYLMFHPDNEDVLDNVDFYESLLDD  350
+
+
+> sp|Q4KLM6|P3H2_RAT Prolyl 3-hydroxylase 2 OS=Rattus norvegicus 
+OX=10116 GN=P3h2 PE=1 SV=1
+Length=703
+
+ Score = 39.6 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 27/46 (59%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            DYL +A +++G+  +ALE  +  L   P  +    N+ ++E LL++
+Sbjct  305  DYLQFAYYRVGEYVKALECAKAYLMFHPDDQDVLDNVDFYESLLDD  350
+
+
+> sp|Q8IVL5|P3H2_HUMAN Prolyl 3-hydroxylase 2 OS=Homo sapiens OX=9606 
+GN=P3H2 PE=1 SV=1
+Length=708
+
+ Score = 39.6 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 27/46 (59%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            DYL +A +++G+  +ALE  +  L   P  E    N+ Y+E LL++
+Sbjct  310  DYLQFAYYRVGEYVKALECAKAYLLCHPDDEDVLDNVDYYESLLDD  355
+
+
+> sp|Q6JHU8|P3H1_CHICK Prolyl 3-hydroxylase 1 OS=Gallus gallus 
+OX=9031 GN=P3H1 PE=1 SV=1
+Length=725
+
+ Score = 37.7 bits (86),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 24/47 (51%), Gaps = 0/47 (0%)
+
+Query  48   LDYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+             +YL +A +  G+  +A+E  +  L   P+ E    NL Y+  +L E
+Sbjct  297  FNYLQFAYYNNGNYEKAIECAKTYLLFFPNDEVMNQNLAYYTAVLGE  343
+
+
+> sp|Q3AH18|YCF3_SYNSC Photosystem I assembly protein Ycf3 OS=Synechococcus 
+sp. (strain CC9605) OX=110662 GN=ycf3 PE=3 SV=1
+Length=173
+
+ Score = 36.9 bits (84),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 23/75 (31%), Positives = 37/75 (49%), Gaps = 4/75 (5%)
+
+Query  11   GRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRR  70
+            G SA N+GDY   +   E+ LK     EE +T +S+ L  ++      G+  RA+E  R+
+Sbjct  42   GLSAQNDGDYAEALENYEEALKL----EENSTDRSETLKNMAIIYMSNGEEERAIETYRK  97
+
+Query  71   LLSLDPSHERAGGNL  85
+             L  +P+      N+
+Sbjct  98   ALEENPNQPSCLKNM  112
+
+
+> sp|Q32P28|P3H1_HUMAN Prolyl 3-hydroxylase 1 OS=Homo sapiens OX=9606 
+GN=P3H1 PE=1 SV=2
+Length=736
+
+ Score = 37.3 bits (85),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            +YL +A + +G+  +A+E  +  L   P+ E    NL Y+  +L E
+Sbjct  305  NYLQFAYYNIGNYTQAVECAKTYLLFFPNDEVMNQNLAYYAAMLGE  350
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.139    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5002854540
+Results from round 3
+
+
+Query= 6EVL:A
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O15460|P4HA2_HUMAN Prolyl 4-hydroxylase subunit alpha-2 OS=H...  150     2e-43
+  sp|Q60716|P4HA2_MOUSE Prolyl 4-hydroxylase subunit alpha-2 OS=M...  149     4e-43
+  sp|P16924|P4HA1_CHICK Prolyl 4-hydroxylase subunit alpha-1 OS=G...  147     3e-42
+  sp|Q5ZLK5|P4HA2_CHICK Prolyl 4-hydroxylase subunit alpha-2 OS=G...  145     2e-41
+  sp|Q20065|P4HA2_CAEEL Prolyl 4-hydroxylase subunit alpha-2 OS=C...  140     1e-39
+  sp|Q10576|P4HA1_CAEEL Prolyl 4-hydroxylase subunit alpha-1 OS=C...  138     7e-39
+  sp|Q5RAG8|P4HA1_PONAB Prolyl 4-hydroxylase subunit alpha-1 OS=P...  133     3e-37
+  sp|P13674|P4HA1_HUMAN Prolyl 4-hydroxylase subunit alpha-1 OS=H...  133     3e-37
+  sp|Q1RMU3|P4HA1_BOVIN Prolyl 4-hydroxylase subunit alpha-1 OS=B...  132     8e-37
+  sp|Q6W3F0|P4HA3_MOUSE Prolyl 4-hydroxylase subunit alpha-3 OS=M...  131     3e-36
+  sp|Q60715|P4HA1_MOUSE Prolyl 4-hydroxylase subunit alpha-1 OS=M...  130     3e-36
+  sp|P54001|P4HA1_RAT Prolyl 4-hydroxylase subunit alpha-1 OS=Rat...  130     8e-36
+  sp|Q6W3E9|P4HA3_RAT Prolyl 4-hydroxylase subunit alpha-3 OS=Rat...  129     1e-35
+  sp|Q75UG4|P4HA3_BOVIN Prolyl 4-hydroxylase subunit alpha-3 OS=B...  129     2e-35
+  sp|Q7Z4N8|P4HA3_HUMAN Prolyl 4-hydroxylase subunit alpha-3 OS=H...  128     3e-35
+  sp|Q8CG71|P3H2_MOUSE Prolyl 3-hydroxylase 2 OS=Mus musculus OX=...  69.3    4e-14
+  sp|Q4KLM6|P3H2_RAT Prolyl 3-hydroxylase 2 OS=Rattus norvegicus ...  68.9    6e-14
+  sp|Q8IVL5|P3H2_HUMAN Prolyl 3-hydroxylase 2 OS=Homo sapiens OX=...  68.9    6e-14
+  sp|Q6JHU7|P3H2_CHICK Prolyl 3-hydroxylase 2 OS=Gallus gallus OX...  67.3    2e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q32P28|P3H1_HUMAN Prolyl 3-hydroxylase 1 OS=Homo sapiens OX=...  50.8    1e-07
+  sp|Q6JHU8|P3H1_CHICK Prolyl 3-hydroxylase 1 OS=Gallus gallus OX...  50.4    2e-07
+  sp|Q3V1T4|P3H1_MOUSE Prolyl 3-hydroxylase 1 OS=Mus musculus OX=...  49.2    4e-07
+  sp|Q9R1J8|P3H1_RAT Prolyl 3-hydroxylase 1 OS=Rattus norvegicus ...  49.2    5e-07
+  sp|Q90830|CRTAP_CHICK Cartilage-associated protein OS=Gallus ga...  42.7    8e-05
+  sp|Q9CYD3|CRTAP_MOUSE Cartilage-associated protein OS=Mus muscu...  41.9    2e-04
+  sp|O75718|CRTAP_HUMAN Cartilage-associated protein OS=Homo sapi...  41.5    2e-04
+  sp|Q3AH18|YCF3_SYNSC Photosystem I assembly protein Ycf3 OS=Syn...  38.1    0.003
+  sp|Q64375|SC65_RAT Endoplasmic reticulum protein SC65 OS=Rattus...  37.7    0.006
+  sp|Q8YS98|YCF3_NOSS1 Photosystem I assembly protein Ycf3 OS=Nos...  37.3    0.006
+  sp|Q3M690|YCF3_TRIV2 Photosystem I assembly protein Ycf3 OS=Tri...  36.9    0.006
+  sp|Q8R349|CDC16_MOUSE Cell division cycle protein 16 homolog OS...  37.3    0.007
+  sp|Q13042|CDC16_HUMAN Cell division cycle protein 16 homolog OS...  37.3    0.008
+  sp|B2J1S7|YCF3_NOSP7 Photosystem I assembly protein Ycf3 OS=Nos...  36.5    0.010
+
+
+> sp|O15460|P4HA2_HUMAN Prolyl 4-hydroxylase subunit alpha-2 OS=Homo 
+sapiens OX=9606 GN=P4HA2 PE=1 SV=1
+Length=535
+
+ Score = 150 bits (379),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+            MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD
+Sbjct  163  MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  222
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE
+Sbjct  223  LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  256
+
+
+> sp|Q60716|P4HA2_MOUSE Prolyl 4-hydroxylase subunit alpha-2 OS=Mus 
+musculus OX=10090 GN=P4ha2 PE=1 SV=1
+Length=537
+
+ Score = 149 bits (377),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 89/94 (95%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+            MLSVDDCFG+GRSAYNEGDYYHTVLWMEQVLKQLDAGEEAT TKS VLDYLSYAVFQLGD
+Sbjct  165  MLSVDDCFGLGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATVTKSLVLDYLSYAVFQLGD  224
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            LHRA+ELTRRLLSLDPSHERAGGNLRYFE+LLEE
+Sbjct  225  LHRAVELTRRLLSLDPSHERAGGNLRYFERLLEE  258
+
+
+> sp|P16924|P4HA1_CHICK Prolyl 4-hydroxylase subunit alpha-1 OS=Gallus 
+gallus OX=9031 GN=P4HA1 PE=1 SV=1
+Length=516
+
+ Score = 147 bits (370),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 54/94 (57%), Positives = 71/94 (76%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+  Y E DYYHT LWMEQ LKQLD GE ++  K  +LDYLSYAV+Q GD
+Sbjct  145  FLTAEDCFELGKIRYTEADYYHTELWMEQALKQLDEGEVSSADKVYILDYLSYAVYQQGD  204
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +A+ LT+RLL LDP H+RA GN++YFE ++ +
+Sbjct  205  LSKAMMLTKRLLELDPEHQRANGNMKYFEYIMAK  238
+
+
+> sp|Q5ZLK5|P4HA2_CHICK Prolyl 4-hydroxylase subunit alpha-2 OS=Gallus 
+gallus OX=9031 GN=P4HA2 PE=2 SV=1
+Length=534
+
+ Score = 145 bits (365),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 70/93 (75%), Positives = 83/93 (89%), Gaps = 0/93 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+            L+V DCFGMG++AYN+GDYYHTVLWMEQ LKQ D GE+ T +K ++LDYLSYAVFQ GDL
+Sbjct  164  LTVSDCFGMGKTAYNDGDYYHTVLWMEQALKQHDEGEDTTVSKVEILDYLSYAVFQFGDL  223
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            HRA+ELTRRL+SLD +HERAG NLRYFE+LLE+
+Sbjct  224  HRAMELTRRLISLDSTHERAGSNLRYFEKLLEK  256
+
+
+> sp|Q20065|P4HA2_CAEEL Prolyl 4-hydroxylase subunit alpha-2 OS=Caenorhabditis 
+elegans OX=6239 GN=phy-2 PE=1 SV=1
+Length=539
+
+ Score = 140 bits (352),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 39/92 (42%), Positives = 66/92 (72%), Gaps = 0/92 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+            LS  D F +GRSAYN+ DYYH ++WM+  L +++     T  + ++L+YL+Y+++Q G++
+Sbjct  163  LSGHDTFEVGRSAYNQKDYYHCLMWMQVALVKIENENPPTIEEWEILEYLAYSLYQQGNV  222
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLE  93
+             RAL LT+RL  + P+H RA GN++++E +L+
+Sbjct  223  RRALSLTKRLAKIAPNHPRAKGNVKWYEDMLQ  254
+
+
+> sp|Q10576|P4HA1_CAEEL Prolyl 4-hydroxylase subunit alpha-1 OS=Caenorhabditis 
+elegans OX=6239 GN=dpy-18 PE=1 SV=2
+Length=559
+
+ Score = 138 bits (348),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 40/93 (43%), Positives = 64/93 (69%), Gaps = 0/93 (0%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDL  61
+             S  DCF + R+AYNE D+YHTV+WME+  ++L    E T     +L+YL++A+++  +L
+Sbjct  161  FSAKDCFEIARAAYNEHDFYHTVMWMEEAQRRLGDEVEPTVEVEDILEYLAFALYKQNNL  220
+
+Query  62   HRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+              AL+LT  L  ++P+H RA GN++++E LLE+
+Sbjct  221  KHALKLTEELYKMNPTHPRAKGNVKWYEDLLEQ  253
+
+
+> sp|Q5RAG8|P4HA1_PONAB Prolyl 4-hydroxylase subunit alpha-1 OS=Pongo 
+abelii OX=9601 GN=P4HA1 PE=2 SV=1
+Length=534
+
+ Score = 133 bits (336),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 57/94 (61%), Positives = 72/94 (77%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEISTIDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL+YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLKYFEYIMAK  254
+
+
+> sp|P13674|P4HA1_HUMAN Prolyl 4-hydroxylase subunit alpha-1 OS=Homo 
+sapiens OX=9606 GN=P4HA1 PE=1 SV=2
+Length=534
+
+ Score = 133 bits (336),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 57/94 (61%), Positives = 72/94 (77%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEISTIDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL+YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLKYFEYIMAK  254
+
+
+> sp|Q1RMU3|P4HA1_BOVIN Prolyl 4-hydroxylase subunit alpha-1 OS=Bos 
+taurus OX=9913 GN=P4HA1 PE=1 SV=1
+Length=534
+
+ Score = 132 bits (333),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 58/94 (62%), Positives = 73/94 (78%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+V+DCF +G+ AY E DYYHT LWMEQ L+QLD GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTVEDCFELGKVAYTEADYYHTELWMEQALRQLDEGEVSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL+YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLKYFEYIMAK  254
+
+
+> sp|Q6W3F0|P4HA3_MOUSE Prolyl 4-hydroxylase subunit alpha-3 OS=Mus 
+musculus OX=10090 GN=P4ha3 PE=2 SV=1
+Length=542
+
+ Score = 131 bits (329),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 38/98 (39%), Positives = 61/98 (62%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLK--QLDAGEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +   +   GE  T  ++ +   LDYL++A F
+Sbjct  177  LTADDCFQVGKVAYDTGDYYHAIPWLEEAVSLFRRAHGEWKTEDEASLEDALDYLAFACF  236
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q+G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  237  QVGNVSCALSLSREFLVYSPDNKRMARNVLKYERLLAE  274
+
+
+> sp|Q60715|P4HA1_MOUSE Prolyl 4-hydroxylase subunit alpha-1 OS=Mus 
+musculus OX=10090 GN=P4ha1 PE=1 SV=2
+Length=534
+
+ Score = 130 bits (328),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 56/94 (60%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L QL+ GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALTQLEEGELSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLVYFEYIMSK  254
+
+
+> sp|P54001|P4HA1_RAT Prolyl 4-hydroxylase subunit alpha-1 OS=Rattus 
+norvegicus OX=10116 GN=P4ha1 PE=2 SV=2
+Length=534
+
+ Score = 130 bits (326),  Expect = 8e-36, Method: Composition-based stats.
+ Identities = 56/94 (60%), Positives = 70/94 (74%), Gaps = 0/94 (0%)
+
+Query  1    MLSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGD  60
+             L+ +DCF +G+ AY E DYYHT LWMEQ L QL+ GE +T  K  VLDYLSYAV+Q GD
+Sbjct  161  FLTAEDCFELGKVAYTEADYYHTELWMEQALMQLEEGEMSTVDKVSVLDYLSYAVYQQGD  220
+
+Query  61   LHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            L +AL LT++LL LDP H+RA GNL YFE ++ +
+Sbjct  221  LDKALLLTKKLLELDPEHQRANGNLVYFEYIMSK  254
+
+
+> sp|Q6W3E9|P4HA3_RAT Prolyl 4-hydroxylase subunit alpha-3 OS=Rattus 
+norvegicus OX=10116 GN=P4ha3 PE=2 SV=1
+Length=544
+
+ Score = 129 bits (325),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 37/98 (38%), Positives = 61/98 (62%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLK--QLDAGEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +   +   GE  T  ++ +   LDYL++A +
+Sbjct  179  LTADDCFQVGKVAYDTGDYYHAIPWLEEAVSLFRRSYGEWKTEDEASLEDALDYLAFACY  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q+G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  QVGNVSCALSLSREFLVYSPDNKRMARNVLKYERLLAE  276
+
+
+> sp|Q75UG4|P4HA3_BOVIN Prolyl 4-hydroxylase subunit alpha-3 OS=Bos 
+taurus OX=9913 GN=P4HA3 PE=2 SV=1
+Length=544
+
+ Score = 129 bits (324),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 37/98 (38%), Positives = 59/98 (60%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDA--GEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +       GE  T  ++ +   LD+L++A F
+Sbjct  179  LTGDDCFQVGKVAYDMGDYYHAIPWLEEAVSLFRGSYGEWKTEDEASLEDALDHLAFAYF  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            Q G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  QAGNVLCALNLSREFLLYSPDNKRVARNVLKYEKLLAE  276
+
+
+> sp|Q7Z4N8|P4HA3_HUMAN Prolyl 4-hydroxylase subunit alpha-3 OS=Homo 
+sapiens OX=9606 GN=P4HA3 PE=1 SV=1
+Length=544
+
+ Score = 128 bits (322),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 36/98 (37%), Positives = 59/98 (60%), Gaps = 5/98 (5%)
+
+Query  2    LSVDDCFGMGRSAYNEGDYYHTVLWMEQVLKQLDA--GEEATTTKSQV---LDYLSYAVF  56
+            L+ DDCF +G+ AY+ GDYYH + W+E+ +       GE  T  ++ +   LD+L++A F
+Sbjct  179  LTGDDCFQVGKVAYDMGDYYHAIPWLEEAVSLFRGSYGEWKTEDEASLEDALDHLAFAYF  238
+
+Query  57   QLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            + G++  AL L+R  L   P ++R   N+  +E+LL E
+Sbjct  239  RAGNVSCALSLSREFLLYSPDNKRMARNVLKYERLLAE  276
+
+
+> sp|Q8CG71|P3H2_MOUSE Prolyl 3-hydroxylase 2 OS=Mus musculus OX=10090 
+GN=P3h2 PE=1 SV=1
+Length=703
+
+ Score = 69.3 bits (168),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            DYL +A +++G+  +ALE  +  L   P +E    N+ ++E LL++
+Sbjct  305  DYLQFAYYRVGEYVKALECAKAYLMFHPDNEDVLDNVDFYESLLDD  350
+
+
+> sp|Q4KLM6|P3H2_RAT Prolyl 3-hydroxylase 2 OS=Rattus norvegicus 
+OX=10116 GN=P3h2 PE=1 SV=1
+Length=703
+
+ Score = 68.9 bits (167),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 27/46 (59%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            DYL +A +++G+  +ALE  +  L   P  +    N+ ++E LL++
+Sbjct  305  DYLQFAYYRVGEYVKALECAKAYLMFHPDDQDVLDNVDFYESLLDD  350
+
+
+> sp|Q8IVL5|P3H2_HUMAN Prolyl 3-hydroxylase 2 OS=Homo sapiens OX=9606 
+GN=P3H2 PE=1 SV=1
+Length=708
+
+ Score = 68.9 bits (167),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 27/46 (59%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            DYL +A +++G+  +ALE  +  L   P  E    N+ Y+E LL++
+Sbjct  310  DYLQFAYYRVGEYVKALECAKAYLLCHPDDEDVLDNVDYYESLLDD  355
+
+
+> sp|Q6JHU7|P3H2_CHICK Prolyl 3-hydroxylase 2 OS=Gallus gallus 
+OX=9031 GN=P3H2 PE=2 SV=1
+Length=694
+
+ Score = 67.3 bits (163),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 19/45 (42%), Positives = 25/45 (56%), Gaps = 0/45 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLE  93
+            DYL +A +++GD  +ALE  R  L   P  E    N  Y+E LLE
+Sbjct  296  DYLQFAYYRVGDYVKALECARSYLLFHPDDEDVLENAAYYEGLLE  340
+
+
+> sp|Q32P28|P3H1_HUMAN Prolyl 3-hydroxylase 1 OS=Homo sapiens OX=9606 
+GN=P3H1 PE=1 SV=2
+Length=736
+
+ Score = 50.8 bits (120),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            +YL +A + +G+  +A+E  +  L   P+ E    NL Y+  +L E
+Sbjct  305  NYLQFAYYNIGNYTQAVECAKTYLLFFPNDEVMNQNLAYYAAMLGE  350
+
+
+ Score = 38.1 bits (87),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 14/62 (23%), Positives = 23/62 (37%), Gaps = 0/62 (0%)
+
+Query  30   VLKQLDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFE  89
+                L    E    K    +YL  A F++  L +A+         +P H     NL Y++
+Sbjct  128  AAHSLSEEMELEFRKRSPYNYLQVAYFKINKLEKAVAAAHTFFVGNPEHMEMQQNLDYYQ  187
+
+Query  90   QL  91
+             +
+Sbjct  188  TM  189
+
+
+> sp|Q6JHU8|P3H1_CHICK Prolyl 3-hydroxylase 1 OS=Gallus gallus 
+OX=9031 GN=P3H1 PE=1 SV=1
+Length=725
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 24/47 (51%), Gaps = 0/47 (0%)
+
+Query  48   LDYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+             +YL +A +  G+  +A+E  +  L   P+ E    NL Y+  +L E
+Sbjct  297  FNYLQFAYYNNGNYEKAIECAKTYLLFFPNDEVMNQNLAYYTAVLGE  343
+
+
+> sp|Q3V1T4|P3H1_MOUSE Prolyl 3-hydroxylase 1 OS=Mus musculus OX=10090 
+GN=P3h1 PE=1 SV=2
+Length=739
+
+ Score = 49.2 bits (116),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            +YL +A + +G+  +A+E  +  L   P+ E    NL Y+  +L E
+Sbjct  308  NYLQFAYYNIGNYTQAIECAKTYLLFFPNDEVMHQNLAYYTAMLGE  353
+
+
+ Score = 37.7 bits (86),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 23/58 (40%), Gaps = 0/58 (0%)
+
+Query  34   LDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQL  91
+            L    +    K    +YL  A F++  L +A+         +P H     NL Y++ +
+Sbjct  135  LSEELDLEFNKRSPYNYLQVAYFKINKLEKAVAAAHTFFVGNPEHMEMRQNLDYYQTM  192
+
+
+> sp|Q9R1J8|P3H1_RAT Prolyl 3-hydroxylase 1 OS=Rattus norvegicus 
+OX=10116 GN=P3h1 PE=1 SV=1
+Length=728
+
+ Score = 49.2 bits (116),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  49   DYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQLLEE  94
+            +YL +A + +G+  +A+E  +  L   P+ E    NL Y+  +L E
+Sbjct  297  NYLQFAYYNIGNYTQAIECAKTYLLFFPNDEVMSQNLAYYTAVLGE  342
+
+
+ Score = 37.7 bits (86),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 23/58 (40%), Gaps = 0/58 (0%)
+
+Query  34   LDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQL  91
+            L    +    K    +YL  A F++  L +A+         +P H     NL Y++ +
+Sbjct  124  LSEELDLEFNKRSPYNYLQVAYFKINKLEKAVAAAHTFFVGNPEHMEMRQNLDYYQTM  181
+
+
+> sp|Q90830|CRTAP_CHICK Cartilage-associated protein OS=Gallus 
+gallus OX=9031 GN=CRTAP PE=1 SV=1
+Length=271
+
+ Score = 42.7 bits (99),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 11/42 (26%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  50   YLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQL  91
+            YL +A F+  +L +A+      L   P  E    N+ Y++ +
+Sbjct  140  YLQFAYFKANNLPKAIAAAHTFLLKHPDDEMMQRNMAYYKSI  181
+
+
+> sp|Q9CYD3|CRTAP_MOUSE Cartilage-associated protein OS=Mus musculus 
+OX=10090 GN=Crtap PE=1 SV=3
+Length=400
+
+ Score = 41.9 bits (97),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 12/42 (29%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  50   YLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYFEQL  91
+            +L +A F+  DL +A+      L   P  E    N+ Y++ L
+Sbjct  149  FLQFAYFKANDLPKAIAAAHTYLLKHPDDEMMKRNMEYYKSL  190
+
+
+ Score = 41.1 bits (95),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 16/63 (25%), Positives = 25/63 (40%), Gaps = 0/63 (0%)
+
+Query  28   EQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRY  87
+            E+ L  +  G       + +  YL +A ++L DL  A       L  D S      NL Y
+Sbjct  277  EETLTPVIGGYPVEKFVATMYHYLQFAYYKLNDLKNAAPCAVSYLLFDQSDRVMQQNLVY  336
+
+Query  88   FEQ  90
+            ++ 
+Sbjct  337  YQY  339
+
+
+> sp|O75718|CRTAP_HUMAN Cartilage-associated protein OS=Homo sapiens 
+OX=9606 GN=CRTAP PE=1 SV=1
+Length=401
+
+ Score = 41.5 bits (96),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/75 (19%), Positives = 29/75 (39%), Gaps = 5/75 (7%)
+
+Query  22   HTVLWMEQVLKQLDAGEEATT-----TKSQVLDYLSYAVFQLGDLHRALELTRRLLSLDP  76
+            H +   +Q L      + +        + +   +L +A F+  +L +A+      L   P
+Sbjct  117  HCLKRCKQGLPAFRQSQPSREVLADFQRREPYKFLQFAYFKANNLPKAIAAAHTFLLKHP  176
+
+Query  77   SHERAGGNLRYFEQL  91
+              E    N+ Y++ L
+Sbjct  177  DDEMMKRNMAYYKSL  191
+
+
+ Score = 41.1 bits (95),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/63 (24%), Positives = 26/63 (41%), Gaps = 0/63 (0%)
+
+Query  28   EQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRY  87
+            E+ L  +  G       + +  YL +A ++L DL  A       L  D + +    NL Y
+Sbjct  278  EENLTPVIGGYPVEKFVATMYHYLQFAYYKLNDLKNAAPCAVSYLLFDQNDKVMQQNLVY  337
+
+Query  88   FEQ  90
+            ++ 
+Sbjct  338  YQY  340
+
+
+> sp|Q3AH18|YCF3_SYNSC Photosystem I assembly protein Ycf3 OS=Synechococcus 
+sp. (strain CC9605) OX=110662 GN=ycf3 PE=3 SV=1
+Length=173
+
+ Score = 38.1 bits (87),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 23/75 (31%), Positives = 37/75 (49%), Gaps = 4/75 (5%)
+
+Query  11   GRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRR  70
+            G SA N+GDY   +   E+ LK     EE +T +S+ L  ++      G+  RA+E  R+
+Sbjct  42   GLSAQNDGDYAEALENYEEALKL----EENSTDRSETLKNMAIIYMSNGEEERAIETYRK  97
+
+Query  71   LLSLDPSHERAGGNL  85
+             L  +P+      N+
+Sbjct  98   ALEENPNQPSCLKNM  112
+
+
+> sp|Q64375|SC65_RAT Endoplasmic reticulum protein SC65 OS=Rattus 
+norvegicus OX=10116 GN=P3h4 PE=2 SV=3
+Length=443
+
+ Score = 37.7 bits (86),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 12/44 (27%), Positives = 21/44 (48%), Gaps = 0/44 (0%)
+
+Query  45   SQVLDYLSYAVFQLGDLHRALELTRRLLSLDPSHERAGGNLRYF  88
+            + +  YL +A ++L D+H+A       +  DP       NL Y+
+Sbjct  299  ATMYHYLQFAYYKLNDVHQAARSAASYMLFDPKDSVMQQNLVYY  342
+
+
+> sp|Q8YS98|YCF3_NOSS1 Photosystem I assembly protein Ycf3 OS=Nostoc 
+sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=ycf3 PE=3 SV=1
+Length=173
+
+ Score = 37.3 bits (85),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 35/75 (47%), Gaps = 4/75 (5%)
+
+Query  11   GRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRR  70
+            G SA  EG+Y   + + E+ L      EE T  +  +L  +       GD  +ALEL  +
+Sbjct  42   GMSAQAEGEYAEALEYYEEALTL----EEDTNDRGYILYNMGLIYASNGDHDKALELYHQ  97
+
+Query  71   LLSLDPSHERAGGNL  85
+             + L+P   +A  N+
+Sbjct  98   AIELNPRLPQALNNI  112
+
+
+> sp|Q3M690|YCF3_TRIV2 Photosystem I assembly protein Ycf3 OS=Trichormus 
+variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=ycf3 PE=3 SV=2
+Length=173
+
+ Score = 36.9 bits (84),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 35/75 (47%), Gaps = 4/75 (5%)
+
+Query  11   GRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRR  70
+            G SA  EG+Y   + + E+ L      EE T  +  +L  +       GD  +ALEL  +
+Sbjct  42   GMSAQAEGEYAEALEYYEEALTL----EEDTNDRGYILYNMGLIYASNGDHDKALELYHQ  97
+
+Query  71   LLSLDPSHERAGGNL  85
+             + L+P   +A  N+
+Sbjct  98   AIELNPRLPQALNNI  112
+
+
+> sp|Q8R349|CDC16_MOUSE Cell division cycle protein 16 homolog 
+OS=Mus musculus OX=10090 GN=Cdc16 PE=1 SV=1
+Length=620
+
+ Score = 37.3 bits (85),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 21/86 (24%), Positives = 38/86 (44%), Gaps = 2/86 (2%)
+
+Query  9    GMGRSAYNEGDYYHTVLWMEQVLKQLDA-GEEATTTKSQ-VLDYLSYAVFQLGDLHRALE  66
+             +G  A+  G++     W    L+++ A G E T  K + +L+ L +   +L     AL+
+Sbjct  407  EVGVVAFQNGEWKTAEKWFLDALEKIKAIGNEVTVDKWEPLLNNLGHVCRKLKKYAEALD  466
+
+Query  67   LTRRLLSLDPSHERAGGNLRYFEQLL  92
+              R+ L L P +      + Y   L+
+Sbjct  467  YHRQALVLIPQNASTYSAIGYIHSLM  492
+
+
+> sp|Q13042|CDC16_HUMAN Cell division cycle protein 16 homolog 
+OS=Homo sapiens OX=9606 GN=CDC16 PE=1 SV=2
+Length=620
+
+ Score = 37.3 bits (85),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 21/86 (24%), Positives = 38/86 (44%), Gaps = 2/86 (2%)
+
+Query  9    GMGRSAYNEGDYYHTVLWMEQVLKQLDA-GEEATTTKSQ-VLDYLSYAVFQLGDLHRALE  66
+             +G  A+  G++     W    L+++ A G E T  K + +L+ L +   +L     AL+
+Sbjct  407  EVGVVAFQNGEWKTAEKWFLDALEKIKAIGNEVTVDKWEPLLNNLGHVCRKLKKYAEALD  466
+
+Query  67   LTRRLLSLDPSHERAGGNLRYFEQLL  92
+              R+ L L P +      + Y   L+
+Sbjct  467  YHRQALVLIPQNASTYSAIGYIHSLM  492
+
+
+> sp|B2J1S7|YCF3_NOSP7 Photosystem I assembly protein Ycf3 OS=Nostoc 
+punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 GN=ycf3 
+PE=3 SV=1
+Length=173
+
+ Score = 36.5 bits (83),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 36/75 (48%), Gaps = 4/75 (5%)
+
+Query  11   GRSAYNEGDYYHTVLWMEQVLKQLDAGEEATTTKSQVLDYLSYAVFQLGDLHRALELTRR  70
+            G SA  EG+Y   + + E+ L      EE T  +  +L  +       GD ++ALEL  +
+Sbjct  42   GMSAQAEGEYAEALEYYEEALTL----EEDTNDRGYILYNMGLIYASNGDHNKALELYHQ  97
+
+Query  71   LLSLDPSHERAGGNL  85
+             + L+P   +A  N+
+Sbjct  98   AIELNPRLPQALNNI  112
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5002854540
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

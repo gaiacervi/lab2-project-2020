@@ -1,0 +1,1160 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6IW3:A
+
+Length=81
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O14641|DVL2_HUMAN Segment polarity protein dishevelled homol...  167     5e-49
+  sp|Q60838|DVL2_MOUSE Segment polarity protein dishevelled homol...  167     6e-49
+  sp|B1WAP7|DVL3_XENTR Segment polarity protein dishevelled homol...  137     2e-38
+  sp|Q61062|DVL3_MOUSE Segment polarity protein dishevelled homol...  137     2e-38
+  sp|Q92997|DVL3_HUMAN Segment polarity protein dishevelled homol...  137     2e-38
+  sp|Q6DKE2|DVL3_XENLA Segment polarity protein dishevelled homol...  137     3e-38
+  sp|Q05AS8|DVL2_XENTR Segment polarity protein dishevelled homol...  134     5e-37
+  sp|P51142|DVL2_XENLA Segment polarity protein dishevelled homol...  128     5e-35
+  sp|P54792|DVLP1_HUMAN Putative segment polarity protein disheve...  127     9e-35
+  sp|O14640|DVL1_HUMAN Segment polarity protein dishevelled homol...  127     9e-35
+  sp|Q5IS48|DVL1_PANTR Segment polarity protein dishevelled homol...  127     1e-34
+  sp|P51141|DVL1_MOUSE Segment polarity protein dishevelled homol...  127     1e-34
+  sp|Q9WVB9|DVL1_RAT Segment polarity protein dishevelled homolog...  127     1e-34
+  sp|P51140|DSH_DROME Segment polarity protein dishevelled OS=Dro...  117     2e-31
+  sp|Q155Q3|DIXC1_HUMAN Dixin OS=Homo sapiens OX=9606 GN=DIXDC1 P...  75.9    1e-16
+  sp|Q804T6|DIX1A_DANRE Dixin-A OS=Danio rerio OX=7955 GN=dixdc1a...  75.1    2e-16
+  sp|Q80Y83|DIXC1_MOUSE Dixin OS=Mus musculus OX=10090 GN=Dixdc1 ...  72.0    3e-15
+  sp|Q2VUH7|DIXC1_RAT Dixin OS=Rattus norvegicus OX=10116 GN=Dixd...  71.2    5e-15
+  sp|O88566|AXIN2_MOUSE Axin-2 OS=Mus musculus OX=10090 GN=Axin2 ...  47.4    2e-06
+  sp|O70240|AXIN2_RAT Axin-2 OS=Rattus norvegicus OX=10116 GN=Axi...  47.0    2e-06
+  sp|P57095|AXIN2_DANRE Axin-2 OS=Danio rerio OX=7955 GN=axin2 PE...  46.2    4e-06
+  sp|Q9PTP2|AXNR_XENLA Axin-related protein OS=Xenopus laevis OX=...  45.4    6e-06
+  sp|Q9Y2T1|AXIN2_HUMAN Axin-2 OS=Homo sapiens OX=9606 GN=AXIN2 P...  45.4    7e-06
+  sp|Q9V407|AXN_DROME Axin OS=Drosophila melanogaster OX=7227 GN=...  45.1    1e-05
+  sp|P57094|AXIN1_DANRE Axin-1 OS=Danio rerio OX=7955 GN=axin1 PE...  44.7    1e-05
+  sp|Q22227|MIG5_CAEEL Segment polarity protein dishevelled homol...  44.3    1e-05
+  sp|O35625|AXIN1_MOUSE Axin-1 OS=Mus musculus OX=10090 GN=Axin1 ...  43.5    3e-05
+  sp|O15169|AXIN1_HUMAN Axin-1 OS=Homo sapiens OX=9606 GN=AXIN1 P...  43.5    3e-05
+  sp|O70239|AXIN1_RAT Axin-1 OS=Rattus norvegicus OX=10116 GN=Axi...  43.1    4e-05
+  sp|O42400|AXIN1_CHICK Axin-1 OS=Gallus gallus OX=9031 GN=AXIN1 ...  42.0    1e-04
+  sp|Q9YGY0|AXIN1_XENLA Axin-1 OS=Xenopus laevis OX=8355 GN=axin1...  40.4    3e-04
+
+
+> sp|O14641|DVL2_HUMAN Segment polarity protein dishevelled homolog 
+DVL-2 OS=Homo sapiens OX=9606 GN=DVL2 PE=1 SV=1
+Length=736
+
+ Score = 167 bits (422),  Expect = 5e-49, Method: Compositional matrix adjust.
+ Identities = 79/81 (98%), Positives = 80/81 (99%), Gaps = 0/81 (0%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETKVIYHLDEEETP+LVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI
+Sbjct  12  GETKVIYHLDEEETPYLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  71
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNARLP FNGRVVSWLVSS
+Sbjct  72  SDDNARLPCFNGRVVSWLVSS  92
+
+
+> sp|Q60838|DVL2_MOUSE Segment polarity protein dishevelled homolog 
+DVL-2 OS=Mus musculus OX=10090 GN=Dvl2 PE=1 SV=2
+Length=736
+
+ Score = 167 bits (422),  Expect = 6e-49, Method: Compositional matrix adjust.
+ Identities = 79/81 (98%), Positives = 80/81 (99%), Gaps = 0/81 (0%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETKVIYHLDEEETP+LVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI
+Sbjct  12  GETKVIYHLDEEETPYLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  71
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNARLP FNGRVVSWLVSS
+Sbjct  72  SDDNARLPCFNGRVVSWLVSS  92
+
+
+> sp|B1WAP7|DVL3_XENTR Segment polarity protein dishevelled homolog 
+DVL-3 OS=Xenopus tropicalis OX=8364 GN=dvl3 PE=2 SV=1
+Length=713
+
+ Score = 137 bits (346),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 64/81 (79%), Positives = 74/81 (91%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETKVIYHLDE+ETP+LVK+PVPAE++TLGDFK+VL +P   K+FFKSMD DFGVVKEEI
+Sbjct  2   GETKVIYHLDEQETPYLVKLPVPAEKVTLGDFKNVLNKP-NYKFFFKSMDDDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVV WLVS+
+Sbjct  61  SDDNAKLPCFNGRVVCWLVSA  81
+
+
+> sp|Q61062|DVL3_MOUSE Segment polarity protein dishevelled homolog 
+DVL-3 OS=Mus musculus OX=10090 GN=Dvl3 PE=1 SV=2
+Length=716
+
+ Score = 137 bits (346),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 64/81 (79%), Positives = 74/81 (91%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETK+IYHLD +ETP+LVK+P+PAER+TL DFK VLQRP+  K+FFKSMD DFGVVKEEI
+Sbjct  2   GETKIIYHLDGQETPYLVKLPLPAERVTLADFKGVLQRPS-YKFFFKSMDDDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVVSWLVS+
+Sbjct  61  SDDNAKLPCFNGRVVSWLVSA  81
+
+
+> sp|Q92997|DVL3_HUMAN Segment polarity protein dishevelled homolog 
+DVL-3 OS=Homo sapiens OX=9606 GN=DVL3 PE=1 SV=2
+Length=716
+
+ Score = 137 bits (346),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 64/81 (79%), Positives = 74/81 (91%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETK+IYHLD +ETP+LVK+P+PAER+TL DFK VLQRP+  K+FFKSMD DFGVVKEEI
+Sbjct  2   GETKIIYHLDGQETPYLVKLPLPAERVTLADFKGVLQRPS-YKFFFKSMDDDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVVSWLVS+
+Sbjct  61  SDDNAKLPCFNGRVVSWLVSA  81
+
+
+> sp|Q6DKE2|DVL3_XENLA Segment polarity protein dishevelled homolog 
+DVL-3 OS=Xenopus laevis OX=8355 GN=dvl3 PE=2 SV=1
+Length=717
+
+ Score = 137 bits (345),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 63/81 (78%), Positives = 74/81 (91%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETKVIYHLDE+ETP+LVK+PVPAE++TLGDFK++L +P   K+FFKSMD DFGVVKEEI
+Sbjct  2   GETKVIYHLDEQETPYLVKLPVPAEKVTLGDFKNILNKP-NYKFFFKSMDDDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVV WLVS+
+Sbjct  61  SDDNAKLPCFNGRVVCWLVSA  81
+
+
+> sp|Q05AS8|DVL2_XENTR Segment polarity protein dishevelled homolog 
+DVL-2 OS=Xenopus tropicalis OX=8364 GN=dvl2 PE=2 SV=1
+Length=732
+
+ Score = 134 bits (336),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 65/81 (80%), Positives = 70/81 (86%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+            ETKVIYHLDEEETP+LVK+PVPA  I L DFK+ L R   AKYFFK+MDQDFGVVKEEI
+Sbjct  2   AETKVIYHLDEEETPYLVKVPVPANEIRLRDFKAALGR-GHAKYFFKAMDQDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVVSWLVSS
+Sbjct  61  SDDNAKLPCFNGRVVSWLVSS  81
+
+
+> sp|P51142|DVL2_XENLA Segment polarity protein dishevelled homolog 
+DVL-2 OS=Xenopus laevis OX=8355 GN=dvl2 PE=1 SV=1
+Length=736
+
+ Score = 128 bits (321),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 63/80 (79%), Positives = 68/80 (85%), Gaps = 1/80 (1%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEIS  61
+           ETKVIYHLDEEETP+LVK+PVPA  I L DFK+ L R   AKYFFK+MDQDFGVVKEEIS
+Sbjct  3   ETKVIYHLDEEETPYLVKVPVPATDIRLRDFKAALGR-GHAKYFFKAMDQDFGVVKEEIS  61
+
+Query  62  DDNARLPSFNGRVVSWLVSS  81
+           DDNA+LP FN RVVSWL SS
+Sbjct  62  DDNAKLPCFNDRVVSWLASS  81
+
+
+> sp|P54792|DVLP1_HUMAN Putative segment polarity protein dishevelled 
+homolog DVL1P1 OS=Homo sapiens OX=9606 GN=DVL1P1 PE=5 
+SV=1
+Length=670
+
+ Score = 127 bits (319),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 70/80 (88%), Gaps = 2/80 (3%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAGA-KYFFKSMDQDFGVVKEE  59
+           ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP  A K+FFKSMDQDFGVVKEE
+Sbjct  3   ETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKEE  62
+
+Query  60  ISDDNARLPSFNGRVVSWLV  79
+           I DDNA+LP FNGRVVSWLV
+Sbjct  63  IFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|O14640|DVL1_HUMAN Segment polarity protein dishevelled homolog 
+DVL-1 OS=Homo sapiens OX=9606 GN=DVL1 PE=1 SV=2
+Length=695
+
+ Score = 127 bits (319),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 70/80 (88%), Gaps = 2/80 (3%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAGA-KYFFKSMDQDFGVVKEE  59
+           ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP  A K+FFKSMDQDFGVVKEE
+Sbjct  3   ETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKEE  62
+
+Query  60  ISDDNARLPSFNGRVVSWLV  79
+           I DDNA+LP FNGRVVSWLV
+Sbjct  63  IFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|Q5IS48|DVL1_PANTR Segment polarity protein dishevelled homolog 
+DVL-1 OS=Pan troglodytes OX=9598 GN=DVL1 PE=2 SV=1
+Length=670
+
+ Score = 127 bits (318),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 70/80 (88%), Gaps = 2/80 (3%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAGA-KYFFKSMDQDFGVVKEE  59
+           ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP  A K+FFKSMDQDFGVVKEE
+Sbjct  3   ETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKEE  62
+
+Query  60  ISDDNARLPSFNGRVVSWLV  79
+           I DDNA+LP FNGRVVSWLV
+Sbjct  63  IFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|P51141|DVL1_MOUSE Segment polarity protein dishevelled homolog 
+DVL-1 OS=Mus musculus OX=10090 GN=Dvl1 PE=1 SV=2
+Length=695
+
+ Score = 127 bits (318),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 70/80 (88%), Gaps = 2/80 (3%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAGA-KYFFKSMDQDFGVVKEE  59
+           ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP  A K+FFKSMDQDFGVVKEE
+Sbjct  3   ETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKEE  62
+
+Query  60  ISDDNARLPSFNGRVVSWLV  79
+           I DDNA+LP FNGRVVSWLV
+Sbjct  63  IFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|Q9WVB9|DVL1_RAT Segment polarity protein dishevelled homolog 
+DVL-1 OS=Rattus norvegicus OX=10116 GN=Dvl1 PE=1 SV=3
+Length=695
+
+ Score = 127 bits (318),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 70/80 (88%), Gaps = 2/80 (3%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAGA-KYFFKSMDQDFGVVKEE  59
+           ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP  A K+FFKSMDQDFGVVKEE
+Sbjct  3   ETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKEE  62
+
+Query  60  ISDDNARLPSFNGRVVSWLV  79
+           I DDNA+LP FNGRVVSWLV
+Sbjct  63  IFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|P51140|DSH_DROME Segment polarity protein dishevelled OS=Drosophila 
+melanogaster OX=7227 GN=dsh PE=1 SV=2
+Length=623
+
+ Score = 117 bits (293),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 56/81 (69%), Positives = 67/81 (83%), Gaps = 1/81 (1%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGA-KYFFKSMDQDFGVVKEEI  60
+           ETKVIYH+D+E TP+LVKIP+P+ ++TL DFK VL +     KYFFKSMD DFGVVKEEI
+Sbjct  10  ETKVIYHIDDETTPYLVKIPIPSAQVTLRDFKLVLNKQNNNYKYFFKSMDADFGVVKEEI  69
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           +DD+  LP FNGRVVSWLVS+
+Sbjct  70  ADDSTILPCFNGRVVSWLVSA  90
+
+
+> sp|Q155Q3|DIXC1_HUMAN Dixin OS=Homo sapiens OX=9606 GN=DIXDC1 
+PE=1 SV=2
+Length=683
+
+ Score = 75.9 bits (185),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 33/76 (43%), Positives = 50/76 (66%), Gaps = 0/76 (0%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEISD  62
+            TKV+Y  D   TP++V IP   E +TL DFK+ + R    +Y FK++D +FG VKEEI  
+Sbjct  601  TKVLYFTDRSLTPFMVNIPKRLEEVTLKDFKAAIDREGNHRYHFKALDPEFGTVKEEIFH  660
+
+Query  63   DNARLPSFNGRVVSWL  78
+            D+  +P + G++V+W+
+Sbjct  661  DDDAIPGWEGKIVAWV  676
+
+
+> sp|Q804T6|DIX1A_DANRE Dixin-A OS=Danio rerio OX=7955 GN=dixdc1a 
+PE=1 SV=1
+Length=443
+
+ Score = 75.1 bits (183),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/76 (45%), Positives = 51/76 (67%), Gaps = 0/76 (0%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEISD  62
+            TKV+Y+ D   TP+LV IP     +TL DFK+ + R    +Y FKS+D +FG VKEE+  
+Sbjct  360  TKVLYYTDRSLTPFLVNIPKRLGDVTLQDFKAAVDRHGSFRYHFKSLDPEFGTVKEEVFQ  419
+
+Query  63   DNARLPSFNGRVVSWL  78
+            D+A +P + G++V+W+
+Sbjct  420  DDAVIPGWEGKIVAWV  435
+
+
+> sp|Q80Y83|DIXC1_MOUSE Dixin OS=Mus musculus OX=10090 GN=Dixdc1 
+PE=1 SV=1
+Length=711
+
+ Score = 72.0 bits (175),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 49/76 (64%), Gaps = 0/76 (0%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEISD  62
+            TKV+Y  D   TP++V IP     +TL DFK+ + R    +Y FK++D +FG VKEE+  
+Sbjct  629  TKVLYFTDRSLTPFMVNIPKRLGEVTLKDFKAAIDREGNHRYHFKALDPEFGTVKEEVFH  688
+
+Query  63   DNARLPSFNGRVVSWL  78
+            D+  +P + G++V+W+
+Sbjct  689  DDDAIPGWEGKIVAWV  704
+
+
+> sp|Q2VUH7|DIXC1_RAT Dixin OS=Rattus norvegicus OX=10116 GN=Dixdc1 
+PE=2 SV=1
+Length=674
+
+ Score = 71.2 bits (173),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 48/75 (64%), Gaps = 0/75 (0%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEISD  62
+            TKV+Y  D   TP++V IP     +TL DFK+ + R    +Y FK++D +FG VKEE+  
+Sbjct  576  TKVLYFTDRSLTPFMVNIPKRLGEVTLKDFKAAIDREGSHRYHFKALDPEFGTVKEEVFH  635
+
+Query  63   DNARLPSFNGRVVSW  77
+            D+  +P + G++V+W
+Sbjct  636  DDDAIPGWEGKIVAW  650
+
+
+> sp|O88566|AXIN2_MOUSE Axin-2 OS=Mus musculus OX=10090 GN=Axin2 
+PE=1 SV=2
+Length=840
+
+ Score = 47.4 bits (111),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 28/76 (37%), Positives = 40/76 (53%), Gaps = 4/76 (5%)
+
+Query  2    ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEE  59
+            E  V Y    EE P+  +  + A+ +TLG FK  L +    +Y+FK    +F  G V EE
+Sbjct  760  ELVVTYFFCGEEIPY--RRMLKAQSLTLGHFKEQLSKKGNYRYYFKKASDEFACGAVFEE  817
+
+Query  60   ISDDNARLPSFNGRVV  75
+            I DD   LP + GR++
+Sbjct  818  IWDDETVLPMYEGRIL  833
+
+
+> sp|O70240|AXIN2_RAT Axin-2 OS=Rattus norvegicus OX=10116 GN=Axin2 
+PE=1 SV=1
+Length=838
+
+ Score = 47.0 bits (110),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 28/76 (37%), Positives = 40/76 (53%), Gaps = 4/76 (5%)
+
+Query  2    ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEE  59
+            E  V Y    EE P+  +  + A+ +TLG FK  L +    +Y+FK    +F  G V EE
+Sbjct  758  ELIVTYFFCGEEIPY--RRMLKAQSLTLGHFKEQLSKKGNYRYYFKKASDEFACGAVFEE  815
+
+Query  60   ISDDNARLPSFNGRVV  75
+            I DD   LP + GR++
+Sbjct  816  IWDDETVLPMYEGRIL  831
+
+
+> sp|P57095|AXIN2_DANRE Axin-2 OS=Danio rerio OX=7955 GN=axin2 
+PE=1 SV=1
+Length=812
+
+ Score = 46.2 bits (108),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 40/76 (53%), Gaps = 4/76 (5%)
+
+Query  2    ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEE  59
+            ET V Y    EE P+  +  +    +TLG FK  L++    +YFFK    +F  G V EE
+Sbjct  732  ETVVTYFFCGEEIPY--RRMMKTHSLTLGHFKEQLRKKGNYRYFFKRASDEFECGAVFEE  789
+
+Query  60   ISDDNARLPSFNGRVV  75
+            + DD   LP + G+++
+Sbjct  790  VWDDCTVLPMYEGKIL  805
+
+
+> sp|Q9PTP2|AXNR_XENLA Axin-related protein OS=Xenopus laevis OX=8355 
+PE=1 SV=1
+Length=706
+
+ Score = 45.4 bits (106),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 21/73 (29%), Positives = 43/73 (59%), Gaps = 4/73 (5%)
+
+Query  5    VIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEISD  62
+            ++Y+   E  P++++   P+  +TL +FK +L +    KY+FK    +F    V +E+S+
+Sbjct  629  IVYYFCGERIPYMIRTKEPS--LTLQEFKELLSKKGSNKYYFKKESHEFECNAVFQEVSE  686
+
+Query  63   DNARLPSFNGRVV  75
+            ++A LP F  +++
+Sbjct  687  EDAVLPLFEEKII  699
+
+
+> sp|Q9Y2T1|AXIN2_HUMAN Axin-2 OS=Homo sapiens OX=9606 GN=AXIN2 
+PE=1 SV=1
+Length=843
+
+ Score = 45.4 bits (106),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 40/76 (53%), Gaps = 4/76 (5%)
+
+Query  2    ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEE  59
+            E  V Y    EE P+  +  + A+ +TLG FK  L +    +Y+FK    +F  G V EE
+Sbjct  763  ELVVTYFFCGEEIPY--RRMLKAQSLTLGHFKEQLSKKGNYRYYFKKASDEFACGAVFEE  820
+
+Query  60   ISDDNARLPSFNGRVV  75
+            I +D   LP + GR++
+Sbjct  821  IWEDETVLPMYEGRIL  836
+
+
+> sp|Q9V407|AXN_DROME Axin OS=Drosophila melanogaster OX=7227 GN=Axn 
+PE=1 SV=1
+Length=745
+
+ Score = 45.1 bits (105),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 28/76 (37%), Positives = 42/76 (55%), Gaps = 4/76 (5%)
+
+Query  2    ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSM--DQDFGVVKEE  59
+            ET V++   EE  P+ +KIP    + TL  FK  L R    ++FFK+   D D  V++EE
+Sbjct  665  ETIVVFSFCEEPVPYRIKIP--GTQPTLRQFKDYLPRRGHFRFFFKTHCEDPDSPVIQEE  722
+
+Query  60   ISDDNARLPSFNGRVV  75
+            I +D+  LP F  + +
+Sbjct  723  IVNDSDILPLFGDKAM  738
+
+
+> sp|P57094|AXIN1_DANRE Axin-1 OS=Danio rerio OX=7955 GN=axin1 
+PE=1 SV=2
+Length=835
+
+ Score = 44.7 bits (104),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 26/73 (36%), Positives = 41/73 (56%), Gaps = 4/73 (5%)
+
+Query  5    VIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEISD  62
+            V Y+   E  P+  +  V    +TLG FK +L +    KY+FK +  +F  GVV EE+ +
+Sbjct  758  VAYYFRGEPIPY--RTSVKGRIVTLGQFKELLTKKGSYKYYFKKVSYEFDCGVVFEEVRE  815
+
+Query  63   DNARLPSFNGRVV  75
+            D+A LP F  +++
+Sbjct  816  DDAILPIFEEKII  828
+
+
+> sp|Q22227|MIG5_CAEEL Segment polarity protein dishevelled homolog 
+mig-5 OS=Caenorhabditis elegans OX=6239 GN=mig-5 PE=1 SV=1
+Length=672
+
+ Score = 44.3 bits (103),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 32/82 (39%), Positives = 47/82 (57%), Gaps = 3/82 (4%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGV-VKEEI  60
+           + KV Y+LD+E TP++  I       TLG+FK+   +  G KY+ K +D D    VK E+
+Sbjct  11  QIKVFYYLDDETTPYVSVIEAREGVATLGNFKNSFTK-RGYKYYAKELDPDIQREVKVEL  69
+
+Query  61  SDDNARL-PSFNGRVVSWLVSS  81
+           + D+ RL  S NG    +LVS+
+Sbjct  70  TTDSDRLRKSQNGFYEIFLVST  91
+
+
+> sp|O35625|AXIN1_MOUSE Axin-1 OS=Mus musculus OX=10090 GN=Axin1 
+PE=1 SV=3
+Length=863
+
+ Score = 43.5 bits (101),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 40/73 (55%), Gaps = 4/73 (5%)
+
+Query  5    VIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEISD  62
+            V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+ +
+Sbjct  786  VAYYFCGEPIPY--RTLVRGRAVTLGQFKELLTKKGSYRYYFKKVSDEFDCGVVFEEVRE  843
+
+Query  63   DNARLPSFNGRVV  75
+            D A LP F  +++
+Sbjct  844  DEAVLPVFEEKII  856
+
+
+> sp|O15169|AXIN1_HUMAN Axin-1 OS=Homo sapiens OX=9606 GN=AXIN1 
+PE=1 SV=2
+Length=862
+
+ Score = 43.5 bits (101),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 40/73 (55%), Gaps = 4/73 (5%)
+
+Query  5    VIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEISD  62
+            V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+ +
+Sbjct  785  VAYYFCGEPIPY--RTLVRGRAVTLGQFKELLTKKGSYRYYFKKVSDEFDCGVVFEEVRE  842
+
+Query  63   DNARLPSFNGRVV  75
+            D A LP F  +++
+Sbjct  843  DEAVLPVFEEKII  855
+
+
+> sp|O70239|AXIN1_RAT Axin-1 OS=Rattus norvegicus OX=10116 GN=Axin1 
+PE=1 SV=3
+Length=827
+
+ Score = 43.1 bits (100),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 40/73 (55%), Gaps = 4/73 (5%)
+
+Query  5    VIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEISD  62
+            V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+ +
+Sbjct  750  VAYYFCGEPIPY--RTLVRGRAVTLGQFKELLTKKGSYRYYFKKVSDEFDCGVVFEEVRE  807
+
+Query  63   DNARLPSFNGRVV  75
+            D A LP F  +++
+Sbjct  808  DEAILPVFEEKII  820
+
+
+> sp|O42400|AXIN1_CHICK Axin-1 OS=Gallus gallus OX=9031 GN=AXIN1 
+PE=2 SV=1
+Length=841
+
+ Score = 42.0 bits (97),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 27/75 (36%), Positives = 42/75 (56%), Gaps = 8/75 (11%)
+
+Query  5    VIYHLDEEETPW--LVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEI  60
+            V Y+   E  P+  LVK  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+
+Sbjct  764  VAYYFCGEPIPYRTLVKGRV----VTLGQFKELLTKKGNYRYYFKKVSDEFDCGVVFEEV  819
+
+Query  61   SDDNARLPSFNGRVV  75
+             +D+  LP F  +++
+Sbjct  820  REDDTILPIFEEKII  834
+
+
+> sp|Q9YGY0|AXIN1_XENLA Axin-1 OS=Xenopus laevis OX=8355 GN=axin1 
+PE=1 SV=1
+Length=842
+
+ Score = 40.4 bits (93),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 41/76 (54%), Gaps = 4/76 (5%)
+
+Query  5    VIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEISD  62
+            V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+ +
+Sbjct  765  VAYYFCGEPIPY--RTMVKGRVVTLGQFKELLTKKGNYRYYFKKVSDEFDCGVVFEEVRE  822
+
+Query  63   DNARLPSFNGRVVSWL  78
+            D+  LP +  +++  +
+Sbjct  823  DDMILPIYEEKIIGQV  838
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5032045258
+Results from round 2
+
+
+Query= 6IW3:A
+
+Length=81
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q60838|DVL2_MOUSE Segment polarity protein dishevelled homol...  141     8e-40
+  sp|O14641|DVL2_HUMAN Segment polarity protein dishevelled homol...  141     8e-40
+  sp|B1WAP7|DVL3_XENTR Segment polarity protein dishevelled homol...  137     3e-38
+  sp|Q6DKE2|DVL3_XENLA Segment polarity protein dishevelled homol...  136     4e-38
+  sp|Q61062|DVL3_MOUSE Segment polarity protein dishevelled homol...  133     5e-37
+  sp|Q92997|DVL3_HUMAN Segment polarity protein dishevelled homol...  133     5e-37
+  sp|Q05AS8|DVL2_XENTR Segment polarity protein dishevelled homol...  133     6e-37
+  sp|P51140|DSH_DROME Segment polarity protein dishevelled OS=Dro...  131     3e-36
+  sp|P51142|DVL2_XENLA Segment polarity protein dishevelled homol...  130     5e-36
+  sp|P54792|DVLP1_HUMAN Putative segment polarity protein disheve...  126     2e-34
+  sp|Q5IS48|DVL1_PANTR Segment polarity protein dishevelled homol...  126     2e-34
+  sp|Q9WVB9|DVL1_RAT Segment polarity protein dishevelled homolog...  126     2e-34
+  sp|P51141|DVL1_MOUSE Segment polarity protein dishevelled homol...  126     2e-34
+  sp|O14640|DVL1_HUMAN Segment polarity protein dishevelled homol...  126     2e-34
+  sp|Q804T6|DIX1A_DANRE Dixin-A OS=Danio rerio OX=7955 GN=dixdc1a...  118     5e-32
+  sp|Q155Q3|DIXC1_HUMAN Dixin OS=Homo sapiens OX=9606 GN=DIXDC1 P...  117     2e-31
+  sp|Q80Y83|DIXC1_MOUSE Dixin OS=Mus musculus OX=10090 GN=Dixdc1 ...  116     6e-31
+  sp|Q2VUH7|DIXC1_RAT Dixin OS=Rattus norvegicus OX=10116 GN=Dixd...  114     3e-30
+  sp|P57095|AXIN2_DANRE Axin-2 OS=Danio rerio OX=7955 GN=axin2 PE...  106     2e-27
+  sp|Q9YGY0|AXIN1_XENLA Axin-1 OS=Xenopus laevis OX=8355 GN=axin1...  106     2e-27
+  sp|O88566|AXIN2_MOUSE Axin-2 OS=Mus musculus OX=10090 GN=Axin2 ...  105     4e-27
+  sp|O70240|AXIN2_RAT Axin-2 OS=Rattus norvegicus OX=10116 GN=Axi...  105     6e-27
+  sp|O42400|AXIN1_CHICK Axin-1 OS=Gallus gallus OX=9031 GN=AXIN1 ...  105     6e-27
+  sp|O15169|AXIN1_HUMAN Axin-1 OS=Homo sapiens OX=9606 GN=AXIN1 P...  105     8e-27
+  sp|O35625|AXIN1_MOUSE Axin-1 OS=Mus musculus OX=10090 GN=Axin1 ...  104     8e-27
+  sp|O70239|AXIN1_RAT Axin-1 OS=Rattus norvegicus OX=10116 GN=Axi...  104     9e-27
+  sp|Q9Y2T1|AXIN2_HUMAN Axin-2 OS=Homo sapiens OX=9606 GN=AXIN2 P...  104     1e-26
+  sp|Q9V407|AXN_DROME Axin OS=Drosophila melanogaster OX=7227 GN=...  99.3    8e-25
+  sp|P57094|AXIN1_DANRE Axin-1 OS=Danio rerio OX=7955 GN=axin1 PE...  98.9    9e-25
+  sp|Q9PTP2|AXNR_XENLA Axin-related protein OS=Xenopus laevis OX=...  91.9    2e-22
+  sp|Q22227|MIG5_CAEEL Segment polarity protein dishevelled homol...  88.1    6e-21
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q3LRZ3|AXLP1_CAEEL Axin-like protein 1 OS=Caenorhabditis ele...  36.5    0.008
+
+
+> sp|Q60838|DVL2_MOUSE Segment polarity protein dishevelled homolog 
+DVL-2 OS=Mus musculus OX=10090 GN=Dvl2 PE=1 SV=2
+Length=736
+
+ Score = 141 bits (356),  Expect = 8e-40, Method: Composition-based stats.
+ Identities = 78/80 (98%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEIS  61
+           ETKVIYHLDEEETP+LVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEIS
+Sbjct  13  ETKVIYHLDEEETPYLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEIS  72
+
+Query  62  DDNARLPSFNGRVVSWLVSS  81
+           DDNARLP FNGRVVSWLVSS
+Sbjct  73  DDNARLPCFNGRVVSWLVSS  92
+
+
+> sp|O14641|DVL2_HUMAN Segment polarity protein dishevelled homolog 
+DVL-2 OS=Homo sapiens OX=9606 GN=DVL2 PE=1 SV=1
+Length=736
+
+ Score = 141 bits (356),  Expect = 8e-40, Method: Composition-based stats.
+ Identities = 78/80 (98%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEIS  61
+           ETKVIYHLDEEETP+LVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEIS
+Sbjct  13  ETKVIYHLDEEETPYLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEIS  72
+
+Query  62  DDNARLPSFNGRVVSWLVSS  81
+           DDNARLP FNGRVVSWLVSS
+Sbjct  73  DDNARLPCFNGRVVSWLVSS  92
+
+
+> sp|B1WAP7|DVL3_XENTR Segment polarity protein dishevelled homolog 
+DVL-3 OS=Xenopus tropicalis OX=8364 GN=dvl3 PE=2 SV=1
+Length=713
+
+ Score = 137 bits (345),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 64/81 (79%), Positives = 74/81 (91%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETKVIYHLDE+ETP+LVK+PVPAE++TLGDFK+VL +P   K+FFKSMD DFGVVKEEI
+Sbjct  2   GETKVIYHLDEQETPYLVKLPVPAEKVTLGDFKNVLNKP-NYKFFFKSMDDDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVV WLVS+
+Sbjct  61  SDDNAKLPCFNGRVVCWLVSA  81
+
+
+> sp|Q6DKE2|DVL3_XENLA Segment polarity protein dishevelled homolog 
+DVL-3 OS=Xenopus laevis OX=8355 GN=dvl3 PE=2 SV=1
+Length=717
+
+ Score = 136 bits (343),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 63/81 (78%), Positives = 74/81 (91%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETKVIYHLDE+ETP+LVK+PVPAE++TLGDFK++L +P   K+FFKSMD DFGVVKEEI
+Sbjct  2   GETKVIYHLDEQETPYLVKLPVPAEKVTLGDFKNILNKP-NYKFFFKSMDDDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVV WLVS+
+Sbjct  61  SDDNAKLPCFNGRVVCWLVSA  81
+
+
+> sp|Q61062|DVL3_MOUSE Segment polarity protein dishevelled homolog 
+DVL-3 OS=Mus musculus OX=10090 GN=Dvl3 PE=1 SV=2
+Length=716
+
+ Score = 133 bits (336),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 64/81 (79%), Positives = 73/81 (90%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETK+IYHLD +ETP+LVK+P+PAER+TL DFK VLQRP   K+FFKSMD DFGVVKEEI
+Sbjct  2   GETKIIYHLDGQETPYLVKLPLPAERVTLADFKGVLQRP-SYKFFFKSMDDDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVVSWLVS+
+Sbjct  61  SDDNAKLPCFNGRVVSWLVSA  81
+
+
+> sp|Q92997|DVL3_HUMAN Segment polarity protein dishevelled homolog 
+DVL-3 OS=Homo sapiens OX=9606 GN=DVL3 PE=1 SV=2
+Length=716
+
+ Score = 133 bits (335),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 64/81 (79%), Positives = 73/81 (90%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+           GETK+IYHLD +ETP+LVK+P+PAER+TL DFK VLQRP   K+FFKSMD DFGVVKEEI
+Sbjct  2   GETKIIYHLDGQETPYLVKLPLPAERVTLADFKGVLQRP-SYKFFFKSMDDDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVVSWLVS+
+Sbjct  61  SDDNAKLPCFNGRVVSWLVSA  81
+
+
+> sp|Q05AS8|DVL2_XENTR Segment polarity protein dishevelled homolog 
+DVL-2 OS=Xenopus tropicalis OX=8364 GN=dvl2 PE=2 SV=1
+Length=732
+
+ Score = 133 bits (335),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 65/81 (80%), Positives = 70/81 (86%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+            ETKVIYHLDEEETP+LVK+PVPA  I L DFK+ L R   AKYFFK+MDQDFGVVKEEI
+Sbjct  2   AETKVIYHLDEEETPYLVKVPVPANEIRLRDFKAALGR-GHAKYFFKAMDQDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FNGRVVSWLVSS
+Sbjct  61  SDDNAKLPCFNGRVVSWLVSS  81
+
+
+> sp|P51140|DSH_DROME Segment polarity protein dishevelled OS=Drosophila 
+melanogaster OX=7227 GN=dsh PE=1 SV=2
+Length=623
+
+ Score = 131 bits (329),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 56/81 (69%), Positives = 67/81 (83%), Gaps = 1/81 (1%)
+
+Query  2   ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAG-AKYFFKSMDQDFGVVKEEI  60
+           ETKVIYH+D+E TP+LVKIP+P+ ++TL DFK VL +     KYFFKSMD DFGVVKEEI
+Sbjct  10  ETKVIYHIDDETTPYLVKIPIPSAQVTLRDFKLVLNKQNNNYKYFFKSMDADFGVVKEEI  69
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           +DD+  LP FNGRVVSWLVS+
+Sbjct  70  ADDSTILPCFNGRVVSWLVSA  90
+
+
+> sp|P51142|DVL2_XENLA Segment polarity protein dishevelled homolog 
+DVL-2 OS=Xenopus laevis OX=8355 GN=dvl2 PE=1 SV=1
+Length=736
+
+ Score = 130 bits (328),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 63/81 (78%), Positives = 68/81 (84%), Gaps = 1/81 (1%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+            ETKVIYHLDEEETP+LVK+PVPA  I L DFK+ L R   AKYFFK+MDQDFGVVKEEI
+Sbjct  2   AETKVIYHLDEEETPYLVKVPVPATDIRLRDFKAALGR-GHAKYFFKAMDQDFGVVKEEI  60
+
+Query  61  SDDNARLPSFNGRVVSWLVSS  81
+           SDDNA+LP FN RVVSWL SS
+Sbjct  61  SDDNAKLPCFNDRVVSWLASS  81
+
+
+> sp|P54792|DVLP1_HUMAN Putative segment polarity protein dishevelled 
+homolog DVL1P1 OS=Homo sapiens OX=9606 GN=DVL1P1 PE=5 
+SV=1
+Length=670
+
+ Score = 126 bits (316),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 61/81 (75%), Positives = 69/81 (85%), Gaps = 2/81 (2%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAG-AKYFFKSMDQDFGVVKE  58
+            ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP    K+FFKSMDQDFGVVKE
+Sbjct  2   AETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKE  61
+
+Query  59  EISDDNARLPSFNGRVVSWLV  79
+           EI DDNA+LP FNGRVVSWLV
+Sbjct  62  EIFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|Q5IS48|DVL1_PANTR Segment polarity protein dishevelled homolog 
+DVL-1 OS=Pan troglodytes OX=9598 GN=DVL1 PE=2 SV=1
+Length=670
+
+ Score = 126 bits (316),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 61/81 (75%), Positives = 69/81 (85%), Gaps = 2/81 (2%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAG-AKYFFKSMDQDFGVVKE  58
+            ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP    K+FFKSMDQDFGVVKE
+Sbjct  2   AETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKE  61
+
+Query  59  EISDDNARLPSFNGRVVSWLV  79
+           EI DDNA+LP FNGRVVSWLV
+Sbjct  62  EIFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|Q9WVB9|DVL1_RAT Segment polarity protein dishevelled homolog 
+DVL-1 OS=Rattus norvegicus OX=10116 GN=Dvl1 PE=1 SV=3
+Length=695
+
+ Score = 126 bits (316),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 61/81 (75%), Positives = 69/81 (85%), Gaps = 2/81 (2%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAG-AKYFFKSMDQDFGVVKE  58
+            ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP    K+FFKSMDQDFGVVKE
+Sbjct  2   AETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKE  61
+
+Query  59  EISDDNARLPSFNGRVVSWLV  79
+           EI DDNA+LP FNGRVVSWLV
+Sbjct  62  EIFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|P51141|DVL1_MOUSE Segment polarity protein dishevelled homolog 
+DVL-1 OS=Mus musculus OX=10090 GN=Dvl1 PE=1 SV=2
+Length=695
+
+ Score = 126 bits (316),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 61/81 (75%), Positives = 69/81 (85%), Gaps = 2/81 (2%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAG-AKYFFKSMDQDFGVVKE  58
+            ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP    K+FFKSMDQDFGVVKE
+Sbjct  2   AETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKE  61
+
+Query  59  EISDDNARLPSFNGRVVSWLV  79
+           EI DDNA+LP FNGRVVSWLV
+Sbjct  62  EIFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|O14640|DVL1_HUMAN Segment polarity protein dishevelled homolog 
+DVL-1 OS=Homo sapiens OX=9606 GN=DVL1 PE=1 SV=2
+Length=695
+
+ Score = 126 bits (316),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 61/81 (75%), Positives = 69/81 (85%), Gaps = 2/81 (2%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVL-QRPAG-AKYFFKSMDQDFGVVKE  58
+            ETK+IYH+DEEETP+LVK+PV  ER+TL DFK+VL  RP    K+FFKSMDQDFGVVKE
+Sbjct  2   AETKIIYHMDEEETPYLVKLPVAPERVTLADFKNVLSNRPVHAYKFFFKSMDQDFGVVKE  61
+
+Query  59  EISDDNARLPSFNGRVVSWLV  79
+           EI DDNA+LP FNGRVVSWLV
+Sbjct  62  EIFDDNAKLPCFNGRVVSWLV  82
+
+
+> sp|Q804T6|DIX1A_DANRE Dixin-A OS=Danio rerio OX=7955 GN=dixdc1a 
+PE=1 SV=1
+Length=443
+
+ Score = 118 bits (295),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 34/78 (44%), Positives = 51/78 (65%), Gaps = 0/78 (0%)
+
+Query  1    GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEI  60
+              TKV+Y+ D   TP+LV IP     +TL DFK+ + R    +Y FKS+D +FG VKEE+
+Sbjct  358  ASTKVLYYTDRSLTPFLVNIPKRLGDVTLQDFKAAVDRHGSFRYHFKSLDPEFGTVKEEV  417
+
+Query  61   SDDNARLPSFNGRVVSWL  78
+              D+A +P + G++V+W+
+Sbjct  418  FQDDAVIPGWEGKIVAWV  435
+
+
+> sp|Q155Q3|DIXC1_HUMAN Dixin OS=Homo sapiens OX=9606 GN=DIXDC1 
+PE=1 SV=2
+Length=683
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 33/76 (43%), Positives = 50/76 (66%), Gaps = 0/76 (0%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEISD  62
+            TKV+Y  D   TP++V IP   E +TL DFK+ + R    +Y FK++D +FG VKEEI  
+Sbjct  601  TKVLYFTDRSLTPFMVNIPKRLEEVTLKDFKAAIDREGNHRYHFKALDPEFGTVKEEIFH  660
+
+Query  63   DNARLPSFNGRVVSWL  78
+            D+  +P + G++V+W+
+Sbjct  661  DDDAIPGWEGKIVAWV  676
+
+
+> sp|Q80Y83|DIXC1_MOUSE Dixin OS=Mus musculus OX=10090 GN=Dixdc1 
+PE=1 SV=1
+Length=711
+
+ Score = 116 bits (291),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 31/76 (41%), Positives = 49/76 (64%), Gaps = 0/76 (0%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEISD  62
+            TKV+Y  D   TP++V IP     +TL DFK+ + R    +Y FK++D +FG VKEE+  
+Sbjct  629  TKVLYFTDRSLTPFMVNIPKRLGEVTLKDFKAAIDREGNHRYHFKALDPEFGTVKEEVFH  688
+
+Query  63   DNARLPSFNGRVVSWL  78
+            D+  +P + G++V+W+
+Sbjct  689  DDDAIPGWEGKIVAWV  704
+
+
+> sp|Q2VUH7|DIXC1_RAT Dixin OS=Rattus norvegicus OX=10116 GN=Dixdc1 
+PE=2 SV=1
+Length=674
+
+ Score = 114 bits (285),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 31/75 (41%), Positives = 48/75 (64%), Gaps = 0/75 (0%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGVVKEEISD  62
+            TKV+Y  D   TP++V IP     +TL DFK+ + R    +Y FK++D +FG VKEE+  
+Sbjct  576  TKVLYFTDRSLTPFMVNIPKRLGEVTLKDFKAAIDREGSHRYHFKALDPEFGTVKEEVFH  635
+
+Query  63   DNARLPSFNGRVVSW  77
+            D+  +P + G++V+W
+Sbjct  636  DDDAIPGWEGKIVAW  650
+
+
+> sp|P57095|AXIN2_DANRE Axin-2 OS=Danio rerio OX=7955 GN=axin2 
+PE=1 SV=1
+Length=812
+
+ Score = 106 bits (265),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 27/80 (34%), Positives = 41/80 (51%), Gaps = 4/80 (5%)
+
+Query  1    GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKE  58
+             ET V Y    EE P+  +  +    +TLG FK  L++    +YFFK    +F  G V E
+Sbjct  731  SETVVTYFFCGEEIPY--RRMMKTHSLTLGHFKEQLRKKGNYRYFFKRASDEFECGAVFE  788
+
+Query  59   EISDDNARLPSFNGRVVSWL  78
+            E+ DD   LP + G+++  +
+Sbjct  789  EVWDDCTVLPMYEGKILGKV  808
+
+
+> sp|Q9YGY0|AXIN1_XENLA Axin-1 OS=Xenopus laevis OX=8355 GN=axin1 
+PE=1 SV=1
+Length=842
+
+ Score = 106 bits (264),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 23/78 (29%), Positives = 41/78 (53%), Gaps = 4/78 (5%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEI  60
+              V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+
+Sbjct  763  IVVAYYFCGEPIPY--RTMVKGRVVTLGQFKELLTKKGNYRYYFKKVSDEFDCGVVFEEV  820
+
+Query  61   SDDNARLPSFNGRVVSWL  78
+             +D+  LP +  +++  +
+Sbjct  821  REDDMILPIYEEKIIGQV  838
+
+
+> sp|O88566|AXIN2_MOUSE Axin-2 OS=Mus musculus OX=10090 GN=Axin2 
+PE=1 SV=2
+Length=840
+
+ Score = 105 bits (263),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 28/80 (35%), Positives = 41/80 (51%), Gaps = 4/80 (5%)
+
+Query  1    GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKE  58
+             E  V Y    EE P+  +  + A+ +TLG FK  L +    +Y+FK    +F  G V E
+Sbjct  759  SELVVTYFFCGEEIPY--RRMLKAQSLTLGHFKEQLSKKGNYRYYFKKASDEFACGAVFE  816
+
+Query  59   EISDDNARLPSFNGRVVSWL  78
+            EI DD   LP + GR++  +
+Sbjct  817  EIWDDETVLPMYEGRILGKV  836
+
+
+> sp|O70240|AXIN2_RAT Axin-2 OS=Rattus norvegicus OX=10116 GN=Axin2 
+PE=1 SV=1
+Length=838
+
+ Score = 105 bits (262),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 28/80 (35%), Positives = 41/80 (51%), Gaps = 4/80 (5%)
+
+Query  1    GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKE  58
+             E  V Y    EE P+  +  + A+ +TLG FK  L +    +Y+FK    +F  G V E
+Sbjct  757  SELIVTYFFCGEEIPY--RRMLKAQSLTLGHFKEQLSKKGNYRYYFKKASDEFACGAVFE  814
+
+Query  59   EISDDNARLPSFNGRVVSWL  78
+            EI DD   LP + GR++  +
+Sbjct  815  EIWDDETVLPMYEGRILGKV  834
+
+
+> sp|O42400|AXIN1_CHICK Axin-1 OS=Gallus gallus OX=9031 GN=AXIN1 
+PE=2 SV=1
+Length=841
+
+ Score = 105 bits (261),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 24/78 (31%), Positives = 41/78 (53%), Gaps = 4/78 (5%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEI  60
+              V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+
+Sbjct  762  IVVAYYFCGEPIPY--RTLVKGRVVTLGQFKELLTKKGNYRYYFKKVSDEFDCGVVFEEV  819
+
+Query  61   SDDNARLPSFNGRVVSWL  78
+             +D+  LP F  +++  +
+Sbjct  820  REDDTILPIFEEKIIGKV  837
+
+
+> sp|O15169|AXIN1_HUMAN Axin-1 OS=Homo sapiens OX=9606 GN=AXIN1 
+PE=1 SV=2
+Length=862
+
+ Score = 105 bits (261),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 25/78 (32%), Positives = 41/78 (53%), Gaps = 4/78 (5%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEI  60
+              V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+
+Sbjct  783  IVVAYYFCGEPIPY--RTLVRGRAVTLGQFKELLTKKGSYRYYFKKVSDEFDCGVVFEEV  840
+
+Query  61   SDDNARLPSFNGRVVSWL  78
+             +D A LP F  +++  +
+Sbjct  841  REDEAVLPVFEEKIIGKV  858
+
+
+> sp|O35625|AXIN1_MOUSE Axin-1 OS=Mus musculus OX=10090 GN=Axin1 
+PE=1 SV=3
+Length=863
+
+ Score = 104 bits (260),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 25/78 (32%), Positives = 41/78 (53%), Gaps = 4/78 (5%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEI  60
+              V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+
+Sbjct  784  IVVAYYFCGEPIPY--RTLVRGRAVTLGQFKELLTKKGSYRYYFKKVSDEFDCGVVFEEV  841
+
+Query  61   SDDNARLPSFNGRVVSWL  78
+             +D A LP F  +++  +
+Sbjct  842  REDEAVLPVFEEKIIGKV  859
+
+
+> sp|O70239|AXIN1_RAT Axin-1 OS=Rattus norvegicus OX=10116 GN=Axin1 
+PE=1 SV=3
+Length=827
+
+ Score = 104 bits (260),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 25/78 (32%), Positives = 41/78 (53%), Gaps = 4/78 (5%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEI  60
+              V Y+   E  P+  +  V    +TLG FK +L +    +Y+FK +  +F  GVV EE+
+Sbjct  748  IVVAYYFCGEPIPY--RTLVRGRAVTLGQFKELLTKKGSYRYYFKKVSDEFDCGVVFEEV  805
+
+Query  61   SDDNARLPSFNGRVVSWL  78
+             +D A LP F  +++  +
+Sbjct  806  REDEAILPVFEEKIIGKV  823
+
+
+> sp|Q9Y2T1|AXIN2_HUMAN Axin-2 OS=Homo sapiens OX=9606 GN=AXIN2 
+PE=1 SV=1
+Length=843
+
+ Score = 104 bits (259),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 27/80 (34%), Positives = 41/80 (51%), Gaps = 4/80 (5%)
+
+Query  1    GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKE  58
+             E  V Y    EE P+  +  + A+ +TLG FK  L +    +Y+FK    +F  G V E
+Sbjct  762  SELVVTYFFCGEEIPY--RRMLKAQSLTLGHFKEQLSKKGNYRYYFKKASDEFACGAVFE  819
+
+Query  59   EISDDNARLPSFNGRVVSWL  78
+            EI +D   LP + GR++  +
+Sbjct  820  EIWEDETVLPMYEGRILGKV  839
+
+
+> sp|Q9V407|AXN_DROME Axin OS=Drosophila melanogaster OX=7227 GN=Axn 
+PE=1 SV=1
+Length=745
+
+ Score = 99.3 bits (246),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 28/79 (35%), Positives = 43/79 (54%), Gaps = 4/79 (5%)
+
+Query  2    ETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSM--DQDFGVVKEE  59
+            ET V++   EE  P+ +KIP    + TL  FK  L R    ++FFK+   D D  V++EE
+Sbjct  665  ETIVVFSFCEEPVPYRIKIP--GTQPTLRQFKDYLPRRGHFRFFFKTHCEDPDSPVIQEE  722
+
+Query  60   ISDDNARLPSFNGRVVSWL  78
+            I +D+  LP F  + +  +
+Sbjct  723  IVNDSDILPLFGDKAMGLV  741
+
+
+> sp|P57094|AXIN1_DANRE Axin-1 OS=Danio rerio OX=7955 GN=axin1 
+PE=1 SV=2
+Length=835
+
+ Score = 98.9 bits (245),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 26/78 (33%), Positives = 42/78 (54%), Gaps = 4/78 (5%)
+
+Query  3    TKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEI  60
+              V Y+   E  P+  +  V    +TLG FK +L +    KY+FK +  +F  GVV EE+
+Sbjct  756  ITVAYYFRGEPIPY--RTSVKGRIVTLGQFKELLTKKGSYKYYFKKVSYEFDCGVVFEEV  813
+
+Query  61   SDDNARLPSFNGRVVSWL  78
+             +D+A LP F  +++  +
+Sbjct  814  REDDAILPIFEEKIIGKV  831
+
+
+> sp|Q9PTP2|AXNR_XENLA Axin-related protein OS=Xenopus laevis OX=8355 
+PE=1 SV=1
+Length=706
+
+ Score = 91.9 bits (227),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 21/76 (28%), Positives = 44/76 (58%), Gaps = 4/76 (5%)
+
+Query  5    VIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDF--GVVKEEISD  62
+            ++Y+   E  P++++   P+  +TL +FK +L +    KY+FK    +F    V +E+S+
+Sbjct  629  IVYYFCGERIPYMIRTKEPS--LTLQEFKELLSKKGSNKYYFKKESHEFECNAVFQEVSE  686
+
+Query  63   DNARLPSFNGRVVSWL  78
+            ++A LP F  +++  +
+Sbjct  687  EDAVLPLFEEKIICKV  702
+
+
+> sp|Q22227|MIG5_CAEEL Segment polarity protein dishevelled homolog 
+mig-5 OS=Caenorhabditis elegans OX=6239 GN=mig-5 PE=1 SV=1
+Length=672
+
+ Score = 88.1 bits (217),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 31/83 (37%), Positives = 46/83 (55%), Gaps = 3/83 (4%)
+
+Query  1   GETKVIYHLDEEETPWLVKIPVPAERITLGDFKSVLQRPAGAKYFFKSMDQDFGV-VKEE  59
+            + KV Y+LD+E TP++  I       TLG+FK+   +    KY+ K +D D    VK E
+Sbjct  10  SQIKVFYYLDDETTPYVSVIEAREGVATLGNFKNSFTKRG-YKYYAKELDPDIQREVKVE  68
+
+Query  60  ISDDNARL-PSFNGRVVSWLVSS  81
+           ++ D+ RL  S NG    +LVS+
+Sbjct  69  LTTDSDRLRKSQNGFYEIFLVST  91
+
+
+> sp|Q3LRZ3|AXLP1_CAEEL Axin-like protein 1 OS=Caenorhabditis elegans 
+OX=6239 GN=axl-1 PE=1 SV=1
+Length=400
+
+ Score = 36.5 bits (83),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 18/71 (25%), Positives = 32/71 (45%), Gaps = 5/71 (7%)
+
+Query  11   EEETPWLVKIPVP-AERITLGDFKSVLQRP--AGAKYFFKSMDQDFGVVKEE--ISDDNA  65
+            E + P + KI    A+ +TL  F+ +         ++FFKS  +D     +   +  D+ 
+Sbjct  316  ENDVPMVAKISANHAQSVTLRYFRHLFGLHYTDNCRFFFKSTCEDGSAQYQWTLLFHDDD  375
+
+Query  66   RLPSFNGRVVS  76
+             LP F  R+ +
+Sbjct  376  ILPVFQNRITA  386
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.143    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0438    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5032045258
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

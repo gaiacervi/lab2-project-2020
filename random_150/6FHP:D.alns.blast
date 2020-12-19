@@ -1,0 +1,889 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6FHP:D
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P00800|THER_BACTH Thermolysin OS=Bacillus thermoproteolyticu...  124     2e-34
+  sp|P43133|THER_GEOSE Thermolysin OS=Geobacillus stearothermophi...  124     2e-34
+  sp|P23384|NPRE_BACCL Bacillolysin OS=Bacillus caldolyticus OX=1...  107     4e-28
+  sp|Q43880|THER_ALIAC Thermolysin OS=Alicyclobacillus acidocalda...  107     4e-28
+  sp|Q59193|THER_BACCL Thermolysin OS=Bacillus caldolyticus OX=13...  107     4e-28
+  sp|Q59223|THER_BACSO Thermolysin OS=Bacillus sp. (strain EA1) O...  107     5e-28
+  sp|P06874|NPRT_GEOSE Thermostable neutral protease NprT OS=Geob...  106     9e-28
+  sp|P0CH29|NPRM_BACMB Bacillolysin OS=Bacillus megaterium (strai...  81.3    7e-19
+  sp|D5DEH5|NPRM_BACMD Bacillolysin OS=Bacillus megaterium (strai...  81.3    8e-19
+  sp|P43263|NPRE_BREBE Bacillolysin OS=Brevibacillus brevis OX=13...  79.7    2e-18
+  sp|P05806|NPRE_BACCE Bacillolysin OS=Bacillus cereus OX=1396 GN...  72.4    1e-15
+  sp|P39899|NPRB_BACSU Neutral protease B OS=Bacillus subtilis (s...  68.6    2e-14
+  sp|P06832|NPRE_BACAM Bacillolysin OS=Bacillus amyloliquefaciens...  64.7    5e-13
+  sp|P29148|NPRE_PAEPO Bacillolysin OS=Paenibacillus polymyxa OX=...  62.0    4e-12
+  sp|P68736|NPRE_BACSU Bacillolysin OS=Bacillus subtilis (strain ...  60.5    1e-11
+  sp|P68735|NPRE_BACSA Bacillolysin OS=Bacillus subtilis subsp. a...  60.5    1e-11
+  sp|P68734|NPRE_BACPU Neutral protease NprE OS=Bacillus pumilus ...  60.1    2e-11
+  sp|P81177|AURE_STAAU Zinc metalloproteinase aureolysin OS=Staph...  53.1    6e-09
+  sp|P0C0Q3|SEPA_STAEP Extracellular elastase OS=Staphylococcus e...  50.4    5e-08
+  sp|P0C0Q4|SEPA_STAES Extracellular elastase OS=Staphylococcus e...  50.1    8e-08
+  sp|P23224|PRTA_LISMO Zinc metalloproteinase OS=Listeria monocyt...  47.0    8e-07
+  sp|P34025|PRTA_LISMN Zinc metalloproteinase OS=Listeria monocyt...  46.2    1e-06
+  sp|P83543|TAMP_STRMB Transglutaminase-activating metalloproteas...  44.3    8e-06
+  sp|Q833V7|GELE_ENTFA Gelatinase OS=Enterococcus faecalis (strai...  39.3    5e-04
+
+
+> sp|P00800|THER_BACTH Thermolysin OS=Bacillus thermoproteolyticus 
+OX=1427 GN=npr PE=1 SV=3
+Length=548
+
+ Score = 124 bits (312),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 62/62 (100%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG
+Sbjct  487  VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  546
+
+Query  61   VK  62
+            VK
+Sbjct  547  VK  548
+
+
+> sp|P43133|THER_GEOSE Thermolysin OS=Geobacillus stearothermophilus 
+OX=1422 GN=nprS PE=1 SV=1
+Length=551
+
+ Score = 124 bits (312),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 62/62 (100%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG
+Sbjct  490  VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  549
+
+Query  61   VK  62
+            VK
+Sbjct  550  VK  551
+
+
+> sp|P23384|NPRE_BACCL Bacillolysin OS=Bacillus caldolyticus OX=1394 
+GN=npr PE=1 SV=1
+Length=544
+
+ Score = 107 bits (267),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  483  VTGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  542
+
+Query  61   V  61
+            V
+Sbjct  543  V  543
+
+
+> sp|Q43880|THER_ALIAC Thermolysin OS=Alicyclobacillus acidocaldarius 
+OX=1388 PE=1 SV=1
+Length=546
+
+ Score = 107 bits (266),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  485  VTGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  544
+
+Query  61   V  61
+            V
+Sbjct  545  V  545
+
+
+> sp|Q59193|THER_BACCL Thermolysin OS=Bacillus caldolyticus OX=1394 
+GN=npr PE=1 SV=1
+Length=546
+
+ Score = 107 bits (266),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  485  VTGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  544
+
+Query  61   V  61
+            V
+Sbjct  545  V  545
+
+
+> sp|Q59223|THER_BACSO Thermolysin OS=Bacillus sp. (strain EA1) 
+OX=246599 GN=npr PE=1 SV=1
+Length=546
+
+ Score = 107 bits (266),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  485  VTGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  544
+
+Query  61   V  61
+            V
+Sbjct  545  V  545
+
+
+> sp|P06874|NPRT_GEOSE Thermostable neutral protease NprT OS=Geobacillus 
+stearothermophilus OX=1422 GN=nprT PE=1 SV=1
+Length=548
+
+ Score = 106 bits (264),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  487  VNGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  546
+
+Query  61   V  61
+            V
+Sbjct  547  V  547
+
+
+> sp|P0CH29|NPRM_BACMB Bacillolysin OS=Bacillus megaterium (strain 
+ATCC 14581 / DSM 32 / JCM 2506 / NBRC 15308 / NCIMB 9376 
+/ NCTC 10342 / VKM B-512) OX=1348623 GN=nprM PE=1 SV=1
+Length=562
+
+ Score = 81.3 bits (199),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 41/62 (66%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIG DKLGKI+YRA T Y T ++ FSQ RA  VQ+A DLYGS SQEV SV ++FDAVG
+Sbjct  501  VTGIGGDKLGKIYYRANTLYFTQSTTFSQARAGLVQAAADLYGSGSQEVISVGKSFDAVG  560
+
+Query  61   VK  62
+            V+
+Sbjct  561  VQ  562
+
+
+> sp|D5DEH5|NPRM_BACMD Bacillolysin OS=Bacillus megaterium (strain 
+DSM 319) OX=592022 GN=nprM PE=3 SV=1
+Length=562
+
+ Score = 81.3 bits (199),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 41/62 (66%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIG DKLGKI+YRA T Y T ++ FSQ RA  VQ+A DLYGS SQEV SV ++FDAVG
+Sbjct  501  VTGIGGDKLGKIYYRANTLYFTQSTTFSQARAGLVQAAADLYGSGSQEVISVGKSFDAVG  560
+
+Query  61   VK  62
+            V+
+Sbjct  561  VQ  562
+
+
+> sp|P43263|NPRE_BREBE Bacillolysin OS=Brevibacillus brevis OX=1393 
+GN=npr PE=1 SV=1
+Length=527
+
+ Score = 79.7 bits (195),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 39/62 (63%), Positives = 47/62 (76%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGR    KI+Y ALT YLTP SNFS +R AAV SATDL+G+ S++V +V  A+DAVG
+Sbjct  466  VNGIGRTDTAKIYYHALTHYLTPYSNFSAMRRAAVLSATDLFGANSRQVQAVNAAYDAVG  525
+
+Query  61   VK  62
+            VK
+Sbjct  526  VK  527
+
+
+> sp|P05806|NPRE_BACCE Bacillolysin OS=Bacillus cereus OX=1396 
+GN=npr PE=1 SV=2
+Length=566
+
+ Score = 72.4 bits (176),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 41/62 (66%), Positives = 49/62 (79%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIG+DKLG I+YRA TQY T ++ FSQ RA AVQ+A DLYG+ S EVA+VKQ+F AVG
+Sbjct  505  VTGIGKDKLGAIYYRANTQYFTQSTTFSQARAGAVQAAADLYGANSAEVAAVKQSFSAVG  564
+
+Query  61   VK  62
+            V 
+Sbjct  565  VN  566
+
+
+> sp|P39899|NPRB_BACSU Neutral protease B OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=nprB PE=1 SV=1
+Length=538
+
+ Score = 68.6 bits (166),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/61 (49%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGR+   +I+YRALT Y+T +++FS ++ AA+++A DLYG  S++ ASV++A++AVG
+Sbjct  477  VEGIGREASEQIYYRALTYYVTASTDFSMMKQAAIEAANDLYGEGSKQSASVEKAYEAVG  536
+
+Query  61   V  61
+            +
+Sbjct  537  I  537
+
+
+> sp|P06832|NPRE_BACAM Bacillolysin OS=Bacillus amyloliquefaciens 
+OX=1390 GN=npr PE=1 SV=1
+Length=521
+
+ Score = 64.7 bits (156),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 33/61 (54%), Positives = 45/61 (74%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  IG +K  +I+YRALT YLTP+S F   +AA +QSA DLYG  SQ+ ASV+ A++AVG
+Sbjct  463  ITKIGVNKAEQIYYRALTVYLTPSSTFKDAKAALIQSARDLYG--SQDAASVEAAWNAVG  520
+
+Query  61   V  61
+            +
+Sbjct  521  L  521
+
+
+> sp|P29148|NPRE_PAEPO Bacillolysin OS=Paenibacillus polymyxa OX=1406 
+GN=npr PE=1 SV=1
+Length=590
+
+ Score = 62.0 bits (149),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 32/60 (53%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRD   +I+Y A T YLT +S+FS  RAA +Q+A DLYG+ S E  +  ++FDAVG
+Sbjct  531  VNGIGRDAAVQIYYSAFTNYLTSSSDFSNARAAVIQAAKDLYGANSAEATAAAKSFDAVG  590
+
+
+> sp|P68736|NPRE_BACSU Bacillolysin OS=Bacillus subtilis (strain 
+168) OX=224308 GN=nprE PE=1 SV=1
+Length=521
+
+ Score = 60.5 bits (145),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 43/61 (70%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G  K  +I+YRALT YLTP+S F   +AA +QSA DLYGST  + A V+ A++AVG
+Sbjct  463  ITKLGVSKSQQIYYRALTTYLTPSSTFKDAKAALIQSARDLYGST--DAAKVEAAWNAVG  520
+
+Query  61   V  61
+            +
+Sbjct  521  L  521
+
+
+> sp|P68735|NPRE_BACSA Bacillolysin OS=Bacillus subtilis subsp. 
+amylosacchariticus OX=1483 GN=nprE PE=1 SV=1
+Length=521
+
+ Score = 60.5 bits (145),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 43/61 (70%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G  K  +I+YRALT YLTP+S F   +AA +QSA DLYGST  + A V+ A++AVG
+Sbjct  463  ITKLGVSKSQQIYYRALTTYLTPSSTFKDAKAALIQSARDLYGST--DAAKVEAAWNAVG  520
+
+Query  61   V  61
+            +
+Sbjct  521  L  521
+
+
+> sp|P68734|NPRE_BACPU Neutral protease NprE OS=Bacillus pumilus 
+OX=1408 GN=nprE PE=1 SV=1
+Length=300
+
+ Score = 60.1 bits (144),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 43/61 (70%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G  K  +I+YRALT YLTP+S F   +AA +QSA DLYGST  + A V+ A++AVG
+Sbjct  242  ITKLGVSKSQQIYYRALTTYLTPSSTFKDAKAALIQSARDLYGST--DAAKVEAAWNAVG  299
+
+Query  61   V  61
+            +
+Sbjct  300  L  300
+
+
+> sp|P81177|AURE_STAAU Zinc metalloproteinase aureolysin OS=Staphylococcus 
+aureus OX=1280 GN=aur PE=1 SV=2
+Length=509
+
+ Score = 53.1 bits (126),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 39/62 (63%), Gaps = 2/62 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  IG+ K  +I+YRALT+YLT  SNF   + A  Q+A DLY   + E   V +A++ VG
+Sbjct  450  IQAIGKSKSEQIYYRALTEYLTSNSNFKDCKDALYQAAKDLYDEQTAE--QVYEAWNEVG  507
+
+Query  61   VK  62
+            V+
+Sbjct  508  VE  509
+
+
+> sp|P0C0Q3|SEPA_STAEP Extracellular elastase OS=Staphylococcus 
+epidermidis OX=1282 GN=sepA PE=1 SV=1
+Length=507
+
+ Score = 50.4 bits (119),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 40/59 (68%), Gaps = 4/59 (7%)
+
+Query  4    IGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGS-TSQEVASVKQAFDAVGV  61
+            IG+ +  +I+YRALT YLT  S+F   +A+  Q+A DLYG   +Q+V    QA+D+VGV
+Sbjct  452  IGKQRSEQIYYRALTVYLTSNSDFQDAKASLQQAALDLYGEGIAQQVG---QAWDSVGV  507
+
+
+> sp|P0C0Q4|SEPA_STAES Extracellular elastase OS=Staphylococcus 
+epidermidis (strain ATCC 12228 / FDA PCI 1200) OX=176280 GN=sepA 
+PE=3 SV=1
+Length=507
+
+ Score = 50.1 bits (118),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 40/59 (68%), Gaps = 4/59 (7%)
+
+Query  4    IGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGS-TSQEVASVKQAFDAVGV  61
+            IG+ +  +I+YRALT YLT  S+F   +A+  Q+A DLYG   +Q+V    QA+D+VGV
+Sbjct  452  IGKQRSEQIYYRALTVYLTSNSDFQDAKASLQQAAFDLYGDGIAQQVG---QAWDSVGV  507
+
+
+> sp|P23224|PRTA_LISMO Zinc metalloproteinase OS=Listeria monocytogenes 
+serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 
+GN=mpl PE=2 SV=1
+Length=510
+
+ Score = 47.0 bits (110),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 23/61 (38%), Positives = 39/61 (64%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G++K  ++++RAL  YLT  S F+  + A  Q+A DLYG  + +   V +A++AVG
+Sbjct  451  ITKLGKEKTEQLYFRALKYYLTKKSQFTDAKKALQQAAKDLYGEDASK--KVAEAWEAVG  508
+
+Query  61   V  61
+            V
+Sbjct  509  V  509
+
+
+> sp|P34025|PRTA_LISMN Zinc metalloproteinase OS=Listeria monocytogenes 
+OX=1639 GN=mpl PE=2 SV=3
+Length=510
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 39/61 (64%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G++K  ++++RAL  YLT  + F+  + A  Q+A DLYG  + +   V +A++AVG
+Sbjct  451  ITKLGKEKTEQLYFRALKYYLTKKAQFTDAKKALQQAAKDLYGEDASK--KVAEAWEAVG  508
+
+Query  61   V  61
+            V
+Sbjct  509  V  509
+
+
+> sp|P83543|TAMP_STRMB Transglutaminase-activating metalloprotease 
+OS=Streptomyces mobaraensis OX=35621 PE=1 SV=2
+Length=760
+
+ Score = 44.3 bits (103),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 20/61 (33%), Positives = 36/61 (59%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V G+GRD   KI+++ALT+ +   +++   R A + +A +L+G  S    +V  A+ A+ 
+Sbjct  491  VTGVGRDNAAKIWFKALTERMQSNTDYKGARDATLWAAGELFGVNSDTYNNVANAWAAIN  550
+
+Query  61   V  61
+            V
+Sbjct  551  V  551
+
+
+> sp|Q833V7|GELE_ENTFA Gelatinase OS=Enterococcus faecalis (strain 
+ATCC 700802 / V583) OX=226185 GN=gelE PE=1 SV=1
+Length=510
+
+ Score = 39.3 bits (90),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 22/58 (38%), Positives = 32/58 (55%), Gaps = 2/58 (3%)
+
+Query  4    IGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVGV  61
+            +G +K   IFY +L  YLTP + FS  R A + +A   YG  +  V S   AF++ G+
+Sbjct  436  LGIEKAQTIFYSSLVNYLTPKAQFSDARDAMLAAAKVQYGDEAASVVSA--AFNSAGI  491
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.129    0.343    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5142319784
+Results from round 2
+
+
+Query= 6FHP:D
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q59223|THER_BACSO Thermolysin OS=Bacillus sp. (strain EA1) O...  88.2    3e-21
+  sp|Q59193|THER_BACCL Thermolysin OS=Bacillus caldolyticus OX=13...  87.8    3e-21
+  sp|P23384|NPRE_BACCL Bacillolysin OS=Bacillus caldolyticus OX=1...  87.8    3e-21
+  sp|Q43880|THER_ALIAC Thermolysin OS=Alicyclobacillus acidocalda...  87.8    3e-21
+  sp|P06874|NPRT_GEOSE Thermostable neutral protease NprT OS=Geob...  87.4    5e-21
+  sp|P43133|THER_GEOSE Thermolysin OS=Geobacillus stearothermophi...  85.5    2e-20
+  sp|P00800|THER_BACTH Thermolysin OS=Bacillus thermoproteolyticu...  85.5    2e-20
+  sp|P39899|NPRB_BACSU Neutral protease B OS=Bacillus subtilis (s...  80.5    1e-18
+  sp|P43263|NPRE_BREBE Bacillolysin OS=Brevibacillus brevis OX=13...  80.1    2e-18
+  sp|P23224|PRTA_LISMO Zinc metalloproteinase OS=Listeria monocyt...  78.9    4e-18
+  sp|P34025|PRTA_LISMN Zinc metalloproteinase OS=Listeria monocyt...  78.5    6e-18
+  sp|P0CH29|NPRM_BACMB Bacillolysin OS=Bacillus megaterium (strai...  78.5    7e-18
+  sp|D5DEH5|NPRM_BACMD Bacillolysin OS=Bacillus megaterium (strai...  78.2    7e-18
+  sp|P06832|NPRE_BACAM Bacillolysin OS=Bacillus amyloliquefaciens...  78.2    9e-18
+  sp|P81177|AURE_STAAU Zinc metalloproteinase aureolysin OS=Staph...  76.6    3e-17
+  sp|P68734|NPRE_BACPU Neutral protease NprE OS=Bacillus pumilus ...  73.9    1e-16
+  sp|P83543|TAMP_STRMB Transglutaminase-activating metalloproteas...  74.7    2e-16
+  sp|P68736|NPRE_BACSU Bacillolysin OS=Bacillus subtilis (strain ...  74.3    2e-16
+  sp|P68735|NPRE_BACSA Bacillolysin OS=Bacillus subtilis subsp. a...  74.3    2e-16
+  sp|P29148|NPRE_PAEPO Bacillolysin OS=Paenibacillus polymyxa OX=...  70.8    3e-15
+  sp|P0C0Q3|SEPA_STAEP Extracellular elastase OS=Staphylococcus e...  70.1    6e-15
+  sp|P0C0Q4|SEPA_STAES Extracellular elastase OS=Staphylococcus e...  68.9    1e-14
+  sp|P05806|NPRE_BACCE Bacillolysin OS=Bacillus cereus OX=1396 GN...  66.2    1e-13
+  sp|Q833V7|GELE_ENTFA Gelatinase OS=Enterococcus faecalis (strai...  63.9    9e-13
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q59223|THER_BACSO Thermolysin OS=Bacillus sp. (strain EA1) 
+OX=246599 GN=npr PE=1 SV=1
+Length=546
+
+ Score = 88.2 bits (217),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  485  VTGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  544
+
+Query  61   V  61
+            V
+Sbjct  545  V  545
+
+
+> sp|Q59193|THER_BACCL Thermolysin OS=Bacillus caldolyticus OX=1394 
+GN=npr PE=1 SV=1
+Length=546
+
+ Score = 87.8 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  485  VTGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  544
+
+Query  61   V  61
+            V
+Sbjct  545  V  545
+
+
+> sp|P23384|NPRE_BACCL Bacillolysin OS=Bacillus caldolyticus OX=1394 
+GN=npr PE=1 SV=1
+Length=544
+
+ Score = 87.8 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  483  VTGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  542
+
+Query  61   V  61
+            V
+Sbjct  543  V  543
+
+
+> sp|Q43880|THER_ALIAC Thermolysin OS=Alicyclobacillus acidocaldarius 
+OX=1388 PE=1 SV=1
+Length=546
+
+ Score = 87.8 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  485  VTGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  544
+
+Query  61   V  61
+            V
+Sbjct  545  V  545
+
+
+> sp|P06874|NPRT_GEOSE Thermostable neutral protease NprT OS=Geobacillus 
+stearothermophilus OX=1422 GN=nprT PE=1 SV=1
+Length=548
+
+ Score = 87.4 bits (215),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRDK+GKIFYRAL  YLTPTSNFSQLRAA VQ+A DLYGSTSQEV SVKQAF+AVG
+Sbjct  487  VNGIGRDKMGKIFYRALVYYLTPTSNFSQLRAACVQAAADLYGSTSQEVNSVKQAFNAVG  546
+
+Query  61   V  61
+            V
+Sbjct  547  V  547
+
+
+> sp|P43133|THER_GEOSE Thermolysin OS=Geobacillus stearothermophilus 
+OX=1422 GN=nprS PE=1 SV=1
+Length=551
+
+ Score = 85.5 bits (210),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 62/62 (100%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG
+Sbjct  490  VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  549
+
+Query  61   VK  62
+            VK
+Sbjct  550  VK  551
+
+
+> sp|P00800|THER_BACTH Thermolysin OS=Bacillus thermoproteolyticus 
+OX=1427 GN=npr PE=1 SV=3
+Length=548
+
+ Score = 85.5 bits (210),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 62/62 (100%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG
+Sbjct  487  VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  546
+
+Query  61   VK  62
+            VK
+Sbjct  547  VK  548
+
+
+> sp|P39899|NPRB_BACSU Neutral protease B OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=nprB PE=1 SV=1
+Length=538
+
+ Score = 80.5 bits (197),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 30/61 (49%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGR+   +I+YRALT Y+T +++FS ++ AA+++A DLYG  S++ ASV++A++AVG
+Sbjct  477  VEGIGREASEQIYYRALTYYVTASTDFSMMKQAAIEAANDLYGEGSKQSASVEKAYEAVG  536
+
+Query  61   V  61
+            +
+Sbjct  537  I  537
+
+
+> sp|P43263|NPRE_BREBE Bacillolysin OS=Brevibacillus brevis OX=1393 
+GN=npr PE=1 SV=1
+Length=527
+
+ Score = 80.1 bits (196),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 39/62 (63%), Positives = 47/62 (76%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGR    KI+Y ALT YLTP SNFS +R AAV SATDL+G+ S++V +V  A+DAVG
+Sbjct  466  VNGIGRTDTAKIYYHALTHYLTPYSNFSAMRRAAVLSATDLFGANSRQVQAVNAAYDAVG  525
+
+Query  61   VK  62
+            VK
+Sbjct  526  VK  527
+
+
+> sp|P23224|PRTA_LISMO Zinc metalloproteinase OS=Listeria monocytogenes 
+serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 
+GN=mpl PE=2 SV=1
+Length=510
+
+ Score = 78.9 bits (193),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 23/62 (37%), Positives = 39/62 (63%), Gaps = 2/62 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G++K  ++++RAL  YLT  S F+  + A  Q+A DLYG  + +   V +A++AVG
+Sbjct  451  ITKLGKEKTEQLYFRALKYYLTKKSQFTDAKKALQQAAKDLYGEDASK--KVAEAWEAVG  508
+
+Query  61   VK  62
+            V 
+Sbjct  509  VN  510
+
+
+> sp|P34025|PRTA_LISMN Zinc metalloproteinase OS=Listeria monocytogenes 
+OX=1639 GN=mpl PE=2 SV=3
+Length=510
+
+ Score = 78.5 bits (192),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 22/62 (35%), Positives = 39/62 (63%), Gaps = 2/62 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G++K  ++++RAL  YLT  + F+  + A  Q+A DLYG  + +   V +A++AVG
+Sbjct  451  ITKLGKEKTEQLYFRALKYYLTKKAQFTDAKKALQQAAKDLYGEDASK--KVAEAWEAVG  508
+
+Query  61   VK  62
+            V 
+Sbjct  509  VN  510
+
+
+> sp|P0CH29|NPRM_BACMB Bacillolysin OS=Bacillus megaterium (strain 
+ATCC 14581 / DSM 32 / JCM 2506 / NBRC 15308 / NCIMB 9376 
+/ NCTC 10342 / VKM B-512) OX=1348623 GN=nprM PE=1 SV=1
+Length=562
+
+ Score = 78.5 bits (192),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 41/62 (66%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIG DKLGKI+YRA T Y T ++ FSQ RA  VQ+A DLYGS SQEV SV ++FDAVG
+Sbjct  501  VTGIGGDKLGKIYYRANTLYFTQSTTFSQARAGLVQAAADLYGSGSQEVISVGKSFDAVG  560
+
+Query  61   VK  62
+            V+
+Sbjct  561  VQ  562
+
+
+> sp|D5DEH5|NPRM_BACMD Bacillolysin OS=Bacillus megaterium (strain 
+DSM 319) OX=592022 GN=nprM PE=3 SV=1
+Length=562
+
+ Score = 78.2 bits (191),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 41/62 (66%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIG DKLGKI+YRA T Y T ++ FSQ RA  VQ+A DLYGS SQEV SV ++FDAVG
+Sbjct  501  VTGIGGDKLGKIYYRANTLYFTQSTTFSQARAGLVQAAADLYGSGSQEVISVGKSFDAVG  560
+
+Query  61   VK  62
+            V+
+Sbjct  561  VQ  562
+
+
+> sp|P06832|NPRE_BACAM Bacillolysin OS=Bacillus amyloliquefaciens 
+OX=1390 GN=npr PE=1 SV=1
+Length=521
+
+ Score = 78.2 bits (191),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 33/61 (54%), Positives = 45/61 (74%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  IG +K  +I+YRALT YLTP+S F   +AA +QSA DLYG  SQ+ ASV+ A++AVG
+Sbjct  463  ITKIGVNKAEQIYYRALTVYLTPSSTFKDAKAALIQSARDLYG--SQDAASVEAAWNAVG  520
+
+Query  61   V  61
+            +
+Sbjct  521  L  521
+
+
+> sp|P81177|AURE_STAAU Zinc metalloproteinase aureolysin OS=Staphylococcus 
+aureus OX=1280 GN=aur PE=1 SV=2
+Length=509
+
+ Score = 76.6 bits (187),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 27/62 (44%), Positives = 39/62 (63%), Gaps = 2/62 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  IG+ K  +I+YRALT+YLT  SNF   + A  Q+A DLY   + E   V +A++ VG
+Sbjct  450  IQAIGKSKSEQIYYRALTEYLTSNSNFKDCKDALYQAAKDLYDEQTAE--QVYEAWNEVG  507
+
+Query  61   VK  62
+            V+
+Sbjct  508  VE  509
+
+
+> sp|P68734|NPRE_BACPU Neutral protease NprE OS=Bacillus pumilus 
+OX=1408 GN=nprE PE=1 SV=1
+Length=300
+
+ Score = 73.9 bits (180),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 30/61 (49%), Positives = 42/61 (69%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G  K  +I+YRALT YLTP+S F   +AA +QSA DLYG  S + A V+ A++AVG
+Sbjct  242  ITKLGVSKSQQIYYRALTTYLTPSSTFKDAKAALIQSARDLYG--STDAAKVEAAWNAVG  299
+
+Query  61   V  61
+            +
+Sbjct  300  L  300
+
+
+> sp|P83543|TAMP_STRMB Transglutaminase-activating metalloprotease 
+OS=Streptomyces mobaraensis OX=35621 PE=1 SV=2
+Length=760
+
+ Score = 74.7 bits (182),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 20/61 (33%), Positives = 36/61 (59%), Gaps = 0/61 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V G+GRD   KI+++ALT+ +   +++   R A + +A +L+G  S    +V  A+ A+ 
+Sbjct  491  VTGVGRDNAAKIWFKALTERMQSNTDYKGARDATLWAAGELFGVNSDTYNNVANAWAAIN  550
+
+Query  61   V  61
+            V
+Sbjct  551  V  551
+
+
+> sp|P68736|NPRE_BACSU Bacillolysin OS=Bacillus subtilis (strain 
+168) OX=224308 GN=nprE PE=1 SV=1
+Length=521
+
+ Score = 74.3 bits (181),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 30/61 (49%), Positives = 42/61 (69%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G  K  +I+YRALT YLTP+S F   +AA +QSA DLYG  S + A V+ A++AVG
+Sbjct  463  ITKLGVSKSQQIYYRALTTYLTPSSTFKDAKAALIQSARDLYG--STDAAKVEAAWNAVG  520
+
+Query  61   V  61
+            +
+Sbjct  521  L  521
+
+
+> sp|P68735|NPRE_BACSA Bacillolysin OS=Bacillus subtilis subsp. 
+amylosacchariticus OX=1483 GN=nprE PE=1 SV=1
+Length=521
+
+ Score = 74.3 bits (181),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 30/61 (49%), Positives = 42/61 (69%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G  K  +I+YRALT YLTP+S F   +AA +QSA DLYG  S + A V+ A++AVG
+Sbjct  463  ITKLGVSKSQQIYYRALTTYLTPSSTFKDAKAALIQSARDLYG--STDAAKVEAAWNAVG  520
+
+Query  61   V  61
+            +
+Sbjct  521  L  521
+
+
+> sp|P29148|NPRE_PAEPO Bacillolysin OS=Paenibacillus polymyxa OX=1406 
+GN=npr PE=1 SV=1
+Length=590
+
+ Score = 70.8 bits (172),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 32/60 (53%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIGRD   +I+Y A T YLT +S+FS  RAA +Q+A DLYG+ S E  +  ++FDAVG
+Sbjct  531  VNGIGRDAAVQIYYSAFTNYLTSSSDFSNARAAVIQAAKDLYGANSAEATAAAKSFDAVG  590
+
+
+> sp|P0C0Q3|SEPA_STAEP Extracellular elastase OS=Staphylococcus 
+epidermidis OX=1282 GN=sepA PE=1 SV=1
+Length=507
+
+ Score = 70.1 bits (170),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 27/61 (44%), Positives = 39/61 (64%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  IG+ +  +I+YRALT YLT  S+F   +A+  Q+A DLYG    +   V QA+D+VG
+Sbjct  449  IRSIGKQRSEQIYYRALTVYLTSNSDFQDAKASLQQAALDLYGEGIAQ--QVGQAWDSVG  506
+
+Query  61   V  61
+            V
+Sbjct  507  V  507
+
+
+> sp|P0C0Q4|SEPA_STAES Extracellular elastase OS=Staphylococcus 
+epidermidis (strain ATCC 12228 / FDA PCI 1200) OX=176280 GN=sepA 
+PE=3 SV=1
+Length=507
+
+ Score = 68.9 bits (167),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 27/61 (44%), Positives = 39/61 (64%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  IG+ +  +I+YRALT YLT  S+F   +A+  Q+A DLYG    +   V QA+D+VG
+Sbjct  449  IRSIGKQRSEQIYYRALTVYLTSNSDFQDAKASLQQAAFDLYGDGIAQ--QVGQAWDSVG  506
+
+Query  61   V  61
+            V
+Sbjct  507  V  507
+
+
+> sp|P05806|NPRE_BACCE Bacillolysin OS=Bacillus cereus OX=1396 
+GN=npr PE=1 SV=2
+Length=566
+
+ Score = 66.2 bits (160),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 41/62 (66%), Positives = 49/62 (79%), Gaps = 0/62 (0%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            V GIG+DKLG I+YRA TQY T ++ FSQ RA AVQ+A DLYG+ S EVA+VKQ+F AVG
+Sbjct  505  VTGIGKDKLGAIYYRANTQYFTQSTTFSQARAGAVQAAADLYGANSAEVAAVKQSFSAVG  564
+
+Query  61   VK  62
+            V 
+Sbjct  565  VN  566
+
+
+> sp|Q833V7|GELE_ENTFA Gelatinase OS=Enterococcus faecalis (strain 
+ATCC 700802 / V583) OX=226185 GN=gelE PE=1 SV=1
+Length=510
+
+ Score = 63.9 bits (154),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 33/61 (54%), Gaps = 2/61 (3%)
+
+Query  1    VVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVG  60
+            +  +G +K   IFY +L  YLTP + FS  R A + +A   YG  +  V  V  AF++ G
+Sbjct  433  IQNLGIEKAQTIFYSSLVNYLTPKAQFSDARDAMLAAAKVQYGDEAASV--VSAAFNSAG  490
+
+Query  61   V  61
+            +
+Sbjct  491  I  491
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0418    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5142319784
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

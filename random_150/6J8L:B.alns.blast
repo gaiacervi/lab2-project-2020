@@ -1,0 +1,1848 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6J8L:B
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|G5A8M1|AV240_PHYSP RxLR effector protein Avh240 OS=Phytophth...  269     5e-93
+  sp|E0W4T1|AV240_PHYSO RxLR effector protein Avh240 OS=Phytophth...  269     5e-93
+  sp|G5A8D2|AV241_PHYSP RxLR effector protein Avh241 OS=Phytophth...  71.6    3e-15
+  sp|E0W4Y2|AV241_PHYSO RxLR effector protein Avh241 OS=Phytophth...  71.6    3e-15
+  sp|D0NRS4|PSR2_PHYIT RxLR effector protein PSR2 OS=Phytophthora...  42.0    6e-04
+  sp|D0NNI8|RXLAD_PHYIT Secreted RxLR effector protein PITG_22926...  40.8    0.001
+  sp|D0NVF3|RXLRW_PHYIT RxLR effector protein PITG_16705 OS=Phyto...  40.8    0.001
+
+
+> sp|G5A8M1|AV240_PHYSP RxLR effector protein Avh240 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=Avh240 PE=1 SV=1
+Length=194
+
+ Score = 269 bits (688),  Expect = 5e-93, Method: Compositional matrix adjust.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  1    LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  60
+            LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK
+Sbjct  59   LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  118
+
+Query  61   LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+            LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP
+Sbjct  119  LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  178
+
+Query  121  MYEKYLQTFFRN  132
+            MYEKYLQTFFRN
+Sbjct  179  MYEKYLQTFFRN  190
+
+
+> sp|E0W4T1|AV240_PHYSO RxLR effector protein Avh240 OS=Phytophthora 
+sojae OX=67593 GN=Avh240 PE=2 SV=1
+Length=194
+
+ Score = 269 bits (688),  Expect = 5e-93, Method: Compositional matrix adjust.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  1    LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  60
+            LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK
+Sbjct  59   LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  118
+
+Query  61   LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+            LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP
+Sbjct  119  LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  178
+
+Query  121  MYEKYLQTFFRN  132
+            MYEKYLQTFFRN
+Sbjct  179  MYEKYLQTFFRN  190
+
+
+> sp|G5A8D2|AV241_PHYSP RxLR effector protein Avh241 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=Avh241 PE=1 SV=1
+Length=188
+
+ Score = 71.6 bits (174),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 40/100 (40%), Positives = 63/100 (63%), Gaps = 9/100 (9%)
+
+Query  35   MASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTE-------ALL  87
+            +++++ K++  W  + ++ P+ VY +LGL K G  A  S NY+++E YTE       AL 
+Sbjct  83   ISARESKWIEAW-ANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTERLFAKDQALY  141
+
+Query  88   QRWTNFKASPDTVYKSLRLDK-LGAKAPQSPSYPMYEKYL  126
+             +W + K +P+ VYK+L+LDK LGAKA  SP +  YE Y+
+Sbjct  142  TKWLDAKMTPEDVYKALKLDKLLGAKAANSPDFRRYEVYM  181
+
+
+ Score = 38.9 bits (89),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  87   LQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTFF  130
+            ++ W N   SP+ VYK L L K G KA QS +Y ++E Y +  F
+Sbjct  91   IEAWANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTERLF  134
+
+
+> sp|E0W4Y2|AV241_PHYSO RxLR effector protein Avh241 OS=Phytophthora 
+sojae OX=67593 GN=Avh241 PE=1 SV=1
+Length=188
+
+ Score = 71.6 bits (174),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 40/100 (40%), Positives = 63/100 (63%), Gaps = 9/100 (9%)
+
+Query  35   MASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTE-------ALL  87
+            +++++ K++  W  + ++ P+ VY +LGL K G  A  S NY+++E YTE       AL 
+Sbjct  83   ISARESKWIEAW-ANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTERLFAKDQALY  141
+
+Query  88   QRWTNFKASPDTVYKSLRLDK-LGAKAPQSPSYPMYEKYL  126
+             +W + K +P+ VYK+L+LDK LGAKA  SP +  YE Y+
+Sbjct  142  TKWLDAKMTPEDVYKALKLDKLLGAKAANSPDFRRYEVYM  181
+
+
+ Score = 38.9 bits (89),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  87   LQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTFF  130
+            ++ W N   SP+ VYK L L K G KA QS +Y ++E Y +  F
+Sbjct  91   IEAWANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTERLF  134
+
+
+> sp|D0NRS4|PSR2_PHYIT RxLR effector protein PSR2 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PSR2 PE=2 SV=1
+Length=760
+
+ Score = 42.0 bits (97),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 40/80 (50%), Gaps = 4/80 (5%)
+
+Query  53   YPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+            Y D V   + L    A  K+     +  +  + L + W    +SPD V+K L+ DK G  
+Sbjct  420  YGDDVLGNMVL----AGKKAPSTSFMARRLEDELYKGWIAAGSSPDGVFKHLKFDKAGEN  475
+
+Query  113  APQSPSYPMYEKYLQTFFRN  132
+              QSP + +Y K+L+ ++++
+Sbjct  476  VIQSPLWGLYTKFLEHYYKS  495
+
+
+> sp|D0NNI8|RXLAD_PHYIT Secreted RxLR effector protein PITG_22926 
+OS=Phytophthora infestans (strain T30-4) OX=403677 GN=PITG_14054 
+PE=2 SV=1
+Length=229
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 55/111 (50%), Gaps = 15/111 (14%)
+
+Query  12   RRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVY-----PDQVYSKLGLTKL  66
+            RRT + L+     T++       + SQ  + +AKW  ++++       D+V   LGL KL
+Sbjct  29   RRTESPLVRSVSATEERN-----IFSQTAEAVAKWGTTTALLNLGKTDDEVKKILGLEKL  83
+
+Query  67   -GASAKSSPNYQLYEKYTEALLQR----WTNFKASPDTVYKSLRLDKLGAK  112
+             G + K+  NY L + +   L  R    W +   + D V+K+L+LD L AK
+Sbjct  84   SGEALKAHSNYHLLDDFITKLRDRKVTGWLHKDTTTDEVWKTLQLDDLFAK  134
+
+
+> sp|D0NVF3|RXLRW_PHYIT RxLR effector protein PITG_16705 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_16705 PE=2 
+SV=1
+Length=678
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 37/73 (51%), Gaps = 1/73 (1%)
+
+Query  58   YSKLGLTKLGASAKSSPNYQLY-EKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQS  116
+            Y   G+ ++  + + +P  +L  EK   A    W + K  P T ++SL LD+ G K    
+Sbjct  516  YQPFGVERIIETGRKNPLTRLMAEKVENAYHNYWLDIKMEPKTAFRSLHLDESGEKLLAD  575
+
+Query  117  PSYPMYEKYLQTF  129
+            P +  + +YL+TF
+Sbjct  576  PKFNTWVQYLKTF  588
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.127    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5018979020
+Results from round 2
+
+
+Query= 6J8L:B
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|G5A8M1|AV240_PHYSP RxLR effector protein Avh240 OS=Phytophth...  192     2e-62
+  sp|E0W4T1|AV240_PHYSO RxLR effector protein Avh240 OS=Phytophth...  192     2e-62
+  sp|D0NNI8|RXLAD_PHYIT Secreted RxLR effector protein PITG_22926...  111     2e-30
+  sp|G5A8D2|AV241_PHYSP RxLR effector protein Avh241 OS=Phytophth...  105     2e-28
+  sp|E0W4Y2|AV241_PHYSO RxLR effector protein Avh241 OS=Phytophth...  105     2e-28
+  sp|D0NRS4|PSR2_PHYIT RxLR effector protein PSR2 OS=Phytophthora...  101     6e-25
+  sp|D0NVF3|RXLRW_PHYIT RxLR effector protein PITG_16705 OS=Phyto...  98.0    2e-23
+
+Sequences not found previously or not previously below threshold:
+
+  sp|G5ADB3|PSR2_PHYSP RxLR effector protein PSR2 OS=Phytophthora...  57.6    2e-09
+  sp|E0W4V5|PSR2_PHYSO RxLR effector protein PSR2 OS=Phytophthora...  57.6    2e-09
+  sp|D0NTC5|RXLRV_PHYIT RxLR effector protein PITG_16195 OS=Phyto...  55.3    1e-08
+  sp|A0A0P1B5K4|RLR08_PLAHL Secreted RxLR effector protein RXLR-C...  49.1    2e-06
+  sp|D0NL13|RXLRK_PHYIT RxLR effector protein PITG_12731 OS=Phyto...  48.7    2e-06
+  sp|D0NRP3|RXLRQ_PHYIT RxLR effector protein PITG_15110 OS=Phyto...  46.0    2e-05
+  sp|D0NQB4|RXLRS_PHYIT RxLR effector protein PITG_15278 OS=Phyto...  45.2    4e-05
+  sp|D0NVS7|CRE15_PHYIT RxLR effector protein CRE15 OS=Phytophtho...  42.5    3e-04
+  sp|D0NBE6|RD54_PHYIT RxLR effector protein 54 OS=Phytophthora i...  38.7    0.006
+
+
+> sp|G5A8M1|AV240_PHYSP RxLR effector protein Avh240 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=Avh240 PE=1 SV=1
+Length=194
+
+ Score = 192 bits (487),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  1    LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  60
+            LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK
+Sbjct  59   LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  118
+
+Query  61   LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+            LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP
+Sbjct  119  LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  178
+
+Query  121  MYEKYLQTFFRN  132
+            MYEKYLQTFFRN
+Sbjct  179  MYEKYLQTFFRN  190
+
+
+> sp|E0W4T1|AV240_PHYSO RxLR effector protein Avh240 OS=Phytophthora 
+sojae OX=67593 GN=Avh240 PE=2 SV=1
+Length=194
+
+ Score = 192 bits (487),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  1    LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  60
+            LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK
+Sbjct  59   LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  118
+
+Query  61   LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+            LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP
+Sbjct  119  LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  178
+
+Query  121  MYEKYLQTFFRN  132
+            MYEKYLQTFFRN
+Sbjct  179  MYEKYLQTFFRN  190
+
+
+> sp|D0NNI8|RXLAD_PHYIT Secreted RxLR effector protein PITG_22926 
+OS=Phytophthora infestans (strain T30-4) OX=403677 GN=PITG_14054 
+PE=2 SV=1
+Length=229
+
+ Score = 111 bits (278),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 37/131 (28%), Positives = 61/131 (47%), Gaps = 20/131 (15%)
+
+Query  12   RRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVY-----PDQVYSKLGLTKL  66
+            RRT + L+     T++       + SQ  + +AKW  ++++       D+V   LGL KL
+Sbjct  29   RRTESPLVRSVSATEERN-----IFSQTAEAVAKWGTTTALLNLGKTDDEVKKILGLEKL  83
+
+Query  67   -GASAKSSPNYQLYEKYTEALLQR----WTNFKASPDTVYKSLRLDKLGAKAPQ-----S  116
+             G + K+  NY L + +   L  R    W +   + D V+K+L+LD L AK        S
+Sbjct  84   SGEALKAHSNYHLLDDFITKLRDRKVTGWLHKDTTTDEVWKTLQLDDLFAKLDAKEFRHS  143
+
+Query  117  PSYPMYEKYLQ  127
+                 Y +Y++
+Sbjct  144  DELKTYVQYVK  154
+
+
+> sp|G5A8D2|AV241_PHYSP RxLR effector protein Avh241 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=Avh241 PE=1 SV=1
+Length=188
+
+ Score = 105 bits (261),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 41/107 (38%), Positives = 65/107 (61%), Gaps = 9/107 (8%)
+
+Query  28   EAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTE---  84
+            +A     +++++ K++  W  + ++ P+ VY +LGL K G  A  S NY+++E YTE   
+Sbjct  76   KAKTTDVISARESKWIEAW-ANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTERLF  134
+
+Query  85   ----ALLQRWTNFKASPDTVYKSLRLDK-LGAKAPQSPSYPMYEKYL  126
+                AL  +W + K +P+ VYK+L+LDK LGAKA  SP +  YE Y+
+Sbjct  135  AKDQALYTKWLDAKMTPEDVYKALKLDKLLGAKAANSPDFRRYEVYM  181
+
+
+ Score = 39.1 bits (89),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 29/62 (47%), Gaps = 0/62 (0%)
+
+Query  69   SAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQT  128
+             A  +    +        ++ W N   SP+ VYK L L K G KA QS +Y ++E Y + 
+Sbjct  73   GAAKAKTTDVISARESKWIEAWANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTER  132
+
+Query  129  FF  130
+             F
+Sbjct  133  LF  134
+
+
+> sp|E0W4Y2|AV241_PHYSO RxLR effector protein Avh241 OS=Phytophthora 
+sojae OX=67593 GN=Avh241 PE=1 SV=1
+Length=188
+
+ Score = 105 bits (261),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 41/107 (38%), Positives = 65/107 (61%), Gaps = 9/107 (8%)
+
+Query  28   EAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTE---  84
+            +A     +++++ K++  W  + ++ P+ VY +LGL K G  A  S NY+++E YTE   
+Sbjct  76   KAKTTDVISARESKWIEAW-ANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTERLF  134
+
+Query  85   ----ALLQRWTNFKASPDTVYKSLRLDK-LGAKAPQSPSYPMYEKYL  126
+                AL  +W + K +P+ VYK+L+LDK LGAKA  SP +  YE Y+
+Sbjct  135  AKDQALYTKWLDAKMTPEDVYKALKLDKLLGAKAANSPDFRRYEVYM  181
+
+
+ Score = 39.1 bits (89),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 29/62 (47%), Gaps = 0/62 (0%)
+
+Query  69   SAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQT  128
+             A  +    +        ++ W N   SP+ VYK L L K G KA QS +Y ++E Y + 
+Sbjct  73   GAAKAKTTDVISARESKWIEAWANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTER  132
+
+Query  129  FF  130
+             F
+Sbjct  133  LF  134
+
+
+> sp|D0NRS4|PSR2_PHYIT RxLR effector protein PSR2 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PSR2 PE=2 SV=1
+Length=760
+
+ Score = 101 bits (252),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 40/80 (50%), Gaps = 4/80 (5%)
+
+Query  53   YPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+            Y D V   + L    A  K+     +  +  + L + W    +SPD V+K L+ DK G  
+Sbjct  420  YGDDVLGNMVL----AGKKAPSTSFMARRLEDELYKGWIAAGSSPDGVFKHLKFDKAGEN  475
+
+Query  113  APQSPSYPMYEKYLQTFFRN  132
+              QSP + +Y K+L+ ++++
+Sbjct  476  VIQSPLWGLYTKFLEHYYKS  495
+
+
+ Score = 53.7 bits (127),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 35/79 (44%), Gaps = 4/79 (5%)
+
+Query  53   YPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+            Y     +KL    L A+ K   +  L  K     +QRW + K  P  ++K+L LD +   
+Sbjct  508  YDGDALAKL----LIAAEKIPTSNTLATKLQTGQIQRWLDDKDQPGKIFKALLLDDMADD  563
+
+Query  113  APQSPSYPMYEKYLQTFFR  131
+               SP +  + +YL  F +
+Sbjct  564  ILTSPLFNTWTRYLDEFNK  582
+
+
+ Score = 52.6 bits (124),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 19/76 (25%), Positives = 31/76 (41%), Gaps = 1/76 (1%)
+
+Query  58   YSKLGLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQS  116
+            Y   G+  +  +AK          +     +Q W     SPD +   L LDK G +   S
+Sbjct  236  YKDRGVLDIIEAAKKVPKTAPAARQLEMEQIQFWLKNGKSPDELLTVLSLDKAGNQLLAS  295
+
+Query  117  PSYPMYEKYLQTFFRN  132
+            P +  + KY+  + R+
+Sbjct  296  PRFKFWSKYVDNYNRD  311
+
+
+ Score = 51.8 bits (122),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 19/90 (21%), Positives = 34/90 (38%), Gaps = 4/90 (4%)
+
+Query  40   DKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDT  99
+            D+ ++      +   D+    L    L  + +      L  K     ++RW   K SP+ 
+Sbjct  586  DEKVSMTDTFRTSLDDETLKSL----LITAKELPDMKTLSTKLQTVQIERWLASKTSPED  641
+
+Query  100  VYKSLRLDKLGAKAPQSPSYPMYEKYLQTF  129
+             +  L L+K G      P    +  YL++F
+Sbjct  642  AFAVLALNKAGGNVLSKPLLNTWAAYLESF  671
+
+
+ Score = 47.5 bits (111),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 16/88 (18%), Positives = 32/88 (36%), Gaps = 4/88 (5%)
+
+Query  40   DKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDT  99
+            D+         +   D+  + +    L A+ K     +   K      + W      P  
+Sbjct  314  DEATTVMATLRNQLGDEDITPI----LIAAGKVPSTEKAAAKLQAEQFKSWLRENEDPAK  369
+
+Query  100  VYKSLRLDKLGAKAPQSPSYPMYEKYLQ  127
+            V++ L+LD        SP + ++ KY++
+Sbjct  370  VFQLLKLDNSADDLLGSPQFKLWGKYVE  397
+
+
+ Score = 38.7 bits (88),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 10/43 (23%), Positives = 22/43 (51%), Gaps = 0/43 (0%)
+
+Query  90   WTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTFFRN  132
+            W   K SPD V+  L+++K   +    P + ++ +Y  +  ++
+Sbjct  91   WFEKKKSPDYVFLKLKINKGKQQLFDHPDWNVWVQYTTSVVKS  133
+
+
+> sp|D0NVF3|RXLRW_PHYIT RxLR effector protein PITG_16705 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_16705 PE=2 
+SV=1
+Length=678
+
+ Score = 98.0 bits (242),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 22/73 (30%), Positives = 37/73 (51%), Gaps = 1/73 (1%)
+
+Query  58   YSKLGLTKLGASAKSSPNYQLY-EKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQS  116
+            Y   G+ ++  + + +P  +L  EK   A    W + K  P T ++SL LD+ G K    
+Sbjct  516  YQPFGVERIIETGRKNPLTRLMAEKVENAYHNYWLDIKMEPKTAFRSLHLDESGEKLLAD  575
+
+Query  117  PSYPMYEKYLQTF  129
+            P +  + +YL+TF
+Sbjct  576  PKFNTWVQYLKTF  588
+
+
+ Score = 46.4 bits (108),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/69 (26%), Positives = 31/69 (45%), Gaps = 1/69 (1%)
+
+Query  62   GLTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+             L KL A+ K++   + +  K   AL   W N + +PD V  + +          SP + 
+Sbjct  247  VLLKLIANGKATTEAKTVANKVESALFDFWLNSRETPDKVMDAFKYGTTTQAFLGSPRWK  306
+
+Query  121  MYEKYLQTF  129
+             +E+YL  +
+Sbjct  307  EWERYLSAY  315
+
+
+ Score = 40.6 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 16/77 (21%), Positives = 28/77 (36%), Gaps = 1/77 (1%)
+
+Query  56   QVYSKLGLTK-LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAP  114
+              +  + L + LG + K         K              SP+ ++K L LD +G    
+Sbjct  423  DTFGDMRLFRVLGEAKKFPNLESTATKLQMEKASTLFASGKSPEGIFKVLALDNVGDDIL  482
+
+Query  115  QSPSYPMYEKYLQTFFR  131
+             +  +  +  YLQ F +
+Sbjct  483  SNTLFHKWLAYLQKFNK  499
+
+
+ Score = 39.8 bits (91),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 15/80 (19%), Positives = 33/80 (41%), Gaps = 4/80 (5%)
+
+Query  48   KSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLD  107
+              +S++ D+V        + A+       +L  K  +  ++ W   +  P  V+++L L+
+Sbjct  140  TLTSLHGDKV----VYDTIQAAKLYPQLSELALKLEKDQIRFWIATRKDPSVVFEALNLN  195
+
+Query  108  KLGAKAPQSPSYPMYEKYLQ  127
+              G      P +  + KY+ 
+Sbjct  196  WAGISIFPKPEFSAWLKYVD  215
+
+
+> sp|G5ADB3|PSR2_PHYSP RxLR effector protein PSR2 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=PSR2 PE=1 SV=1
+Length=670
+
+ Score = 57.6 bits (137),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 36/75 (48%), Gaps = 1/75 (1%)
+
+Query  58   YSKLGLTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQS  116
+            Y   G++++ A+A+ SP  Q   ++     +Q W     +PD  +  L LD+ G     S
+Sbjct  232  YGDSGVSQILAAARKSPATQSTAKRLEAEQVQLWLKKGRTPDDTFTLLSLDRAGDDLLAS  291
+
+Query  117  PSYPMYEKYLQTFFR  131
+            P +  + KY+  + +
+Sbjct  292  PQFNTWMKYINYYNK  306
+
+
+ Score = 56.8 bits (135),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 16/64 (25%), Positives = 33/64 (52%), Gaps = 0/64 (0%)
+
+Query  66   LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKY  125
+            + A+ K      + ++  + L + WT     PD V+ +L+L+ +G    +SP +  Y K+
+Sbjct  425  VIAAEKVPNTQAIAKRVEDELFKGWTVVLNKPDDVFINLKLETVGENVFESPLWSFYTKF  484
+
+Query  126  LQTF  129
+            L+ +
+Sbjct  485  LEKY  488
+
+
+ Score = 55.3 bits (131),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 26/100 (26%), Positives = 45/100 (45%), Gaps = 5/100 (5%)
+
+Query  29   AALKKWMASQQDKFLAKWLKS-SSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALL  87
+            AA  + +A    +  A  LK+  S Y D+V S +    + A+ KSS    +  K     +
+Sbjct  116  AAYTRSVAQTDSEASAVMLKTLVSRYSDEVLSGM----IAAAKKSSKTESIATKLETEQM  171
+
+Query  88   QRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQ  127
+            + W   K +PD ++   +L+K G     SP    +  Y++
+Sbjct  172  RTWLAAKKTPDDMFLVFKLNKAGDDILSSPLLSAWTNYMK  211
+
+
+ Score = 54.9 bits (130),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 28/129 (22%), Positives = 52/129 (40%), Gaps = 12/129 (9%)
+
+Query  11   MRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTK-----  65
+            + +  +  +N KL T  E   +  + S   KFL K+  +++    +     GL +     
+Sbjct  453  LNKPDDVFINLKLETVGENVFESPLWSFYTKFLEKY--NTANPGKEQTMISGLARGYNDV  510
+
+Query  66   -----LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+                 L  + ++     L  K  + L+Q W   K  PD ++  L L +       +P + 
+Sbjct  511  TLTNMLLKAKEAPSTKTLATKLEDELVQYWLADKKLPDKLFGYLELKESVDGILTNPVFN  570
+
+Query  121  MYEKYLQTF  129
+            ++ KYL  F
+Sbjct  571  VWLKYLNAF  579
+
+
+ Score = 48.3 bits (113),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 16/77 (21%), Positives = 29/77 (38%), Gaps = 4/77 (5%)
+
+Query  53   YPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+            + D+  + +    L  + K         K      + W +   SP+  +  L+LDK G  
+Sbjct  323  FDDEELTPI----LVVARKVPSTESTAAKLQAEQFKNWLSADKSPEEAFTLLQLDKAGDD  378
+
+Query  113  APQSPSYPMYEKYLQTF  129
+               +P    + KY + F
+Sbjct  379  LLTNPQLTNWLKYTENF  395
+
+
+ Score = 39.5 bits (90),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  89   RWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQT  128
+            +W + K  P+TV+  LRLDK G +   +  +P++  Y ++
+Sbjct  82   KWADAKKPPETVFTRLRLDKTGTQLFDNTDFPVWAAYTRS  121
+
+
+> sp|E0W4V5|PSR2_PHYSO RxLR effector protein PSR2 OS=Phytophthora 
+sojae OX=67593 GN=PSR2 PE=1 SV=1
+Length=670
+
+ Score = 57.6 bits (137),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 36/75 (48%), Gaps = 1/75 (1%)
+
+Query  58   YSKLGLTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQS  116
+            Y   G++++ A+A+ SP  Q   ++     +Q W     +PD  +  L LD+ G     S
+Sbjct  232  YGDSGVSQILAAARKSPATQSTAKRLEAEQVQLWLKKGRTPDDTFTLLSLDRAGDDLLAS  291
+
+Query  117  PSYPMYEKYLQTFFR  131
+            P +  + KY+  + +
+Sbjct  292  PQFNTWMKYINYYNK  306
+
+
+ Score = 56.8 bits (135),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 16/64 (25%), Positives = 33/64 (52%), Gaps = 0/64 (0%)
+
+Query  66   LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKY  125
+            + A+ K      + ++  + L + WT     PD V+ +L+L+ +G    +SP +  Y K+
+Sbjct  425  VIAAEKVPNTQAIAKRVEDELFKGWTVVLNKPDDVFINLKLETVGENVFESPLWSFYTKF  484
+
+Query  126  LQTF  129
+            L+ +
+Sbjct  485  LEKY  488
+
+
+ Score = 55.3 bits (131),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 26/100 (26%), Positives = 45/100 (45%), Gaps = 5/100 (5%)
+
+Query  29   AALKKWMASQQDKFLAKWLKS-SSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALL  87
+            AA  + +A    +  A  LK+  S Y D+V S +    + A+ KSS    +  K     +
+Sbjct  116  AAYTRSVAQTDSEASAVMLKTLVSRYSDEVLSGM----IAAAKKSSKTESIATKLETEQM  171
+
+Query  88   QRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQ  127
+            + W   K +PD ++   +L+K G     SP    +  Y++
+Sbjct  172  RTWLAAKKTPDDMFLVFKLNKAGDDILSSPLLSAWTNYMK  211
+
+
+ Score = 54.9 bits (130),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 28/129 (22%), Positives = 52/129 (40%), Gaps = 12/129 (9%)
+
+Query  11   MRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTK-----  65
+            + +  +  +N KL T  E   +  + S   KFL K+  +++    +     GL +     
+Sbjct  453  LNKPDDVFINLKLETVGENVFESPLWSFYTKFLEKY--NTANPGKEQTMISGLARGYNDV  510
+
+Query  66   -----LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+                 L  + ++     L  K  + L+Q W   K  PD ++  L L +       +P + 
+Sbjct  511  TLTNMLLKAKEAPSTKTLATKLEDELVQYWLADKKLPDKLFGYLELKESVDGILTNPVFN  570
+
+Query  121  MYEKYLQTF  129
+            ++ KYL  F
+Sbjct  571  VWLKYLNAF  579
+
+
+ Score = 48.3 bits (113),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 16/77 (21%), Positives = 29/77 (38%), Gaps = 4/77 (5%)
+
+Query  53   YPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+            + D+  + +    L  + K         K      + W +   SP+  +  L+LDK G  
+Sbjct  323  FDDEELTPI----LVVARKVPSTESTAAKLQAEQFKNWLSADKSPEEAFTLLQLDKAGDD  378
+
+Query  113  APQSPSYPMYEKYLQTF  129
+               +P    + KY + F
+Sbjct  379  LLTNPQLTNWLKYTENF  395
+
+
+ Score = 39.5 bits (90),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  89   RWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQT  128
+            +W + K  P+TV+  LRLDK G +   +  +P++  Y ++
+Sbjct  82   KWADAKKPPETVFTRLRLDKTGTQLFDNTDFPVWAAYTRS  121
+
+
+> sp|D0NTC5|RXLRV_PHYIT RxLR effector protein PITG_16195 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_16195 PE=2 
+SV=1
+Length=509
+
+ Score = 55.3 bits (131),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 30/129 (23%), Positives = 49/129 (38%), Gaps = 9/129 (7%)
+
+Query  7    QLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD--------QVY  58
+            Q W   R  +     K         + + + +  K+L+    +S   PD          Y
+Sbjct  92   QKWSQMRMKSPNDMFKKLKLDNTGDQLFSSPRFSKWLSYVRTNSKTNPDMAIFSTLAYHY  151
+
+Query  59   SKLGLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSP  117
+            S   L KL  +AK       L  K        W + + SP+ V+K L LD++G+    SP
+Sbjct  152  SDEALVKLLDAAKKVDSTKVLATKLEGLQFTNWVHARESPEYVFKVLALDRMGSNTFTSP  211
+
+Query  118  SYPMYEKYL  126
+             +  +  Y+
+Sbjct  212  QFSKWLSYM  220
+
+
+ Score = 44.9 bits (104),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 27/127 (21%), Positives = 54/127 (43%), Gaps = 10/127 (8%)
+
+Query  9    WRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD-QVYSKLG-----  62
+            W   R + + +   L          + + Q  K+L+   K+ +  P+  +Y  LG     
+Sbjct  184  WVHARESPEYVFKVLALD-RMGSNTFTSPQFSKWLSYMNKAETSDPEMAIYRVLGTYHSD  242
+
+Query  63   --LTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSY  119
+              L K+ A+AK + + + L     +   + W     SP  V+K+L LD++  +   SP +
+Sbjct  243  DVLVKMFAAAKQAESTRALASSLEKVQFENWARGGESPSHVFKALALDQMDTQIFASPQF  302
+
+Query  120  PMYEKYL  126
+              +  ++
+Sbjct  303  SKWTSFV  309
+
+
+ Score = 39.8 bits (91),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  82   YTEALLQRWTNFKA-SPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQT  128
+              + L Q+W+  +  SP+ ++K L+LD  G +   SP +  +  Y++T
+Sbjct  86   LLQTLQQKWSQMRMKSPNDMFKKLKLDNTGDQLFSSPRFSKWLSYVRT  133
+
+
+> sp|A0A0P1B5K4|RLR08_PLAHL Secreted RxLR effector protein RXLR-C08 
+OS=Plasmopara halstedii OX=4781 GN=RXLR-C08 PE=2 SV=1
+Length=503
+
+ Score = 49.1 bits (115),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 14/65 (22%), Positives = 28/65 (43%), Gaps = 0/65 (0%)
+
+Query  66   LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKY  125
+            L A+ +S    +L  K    L Q+W      P+ V++  +LD         P   ++ +Y
+Sbjct  256  LIAAKQSPETVELATKIQNQLRQKWLEILVPPNLVFQHYKLDTNPTHLLDRPETKLWVRY  315
+
+Query  126  LQTFF  130
+             + ++
+Sbjct  316  QKMYW  320
+
+
+> sp|D0NL13|RXLRK_PHYIT RxLR effector protein PITG_12731 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_12731 PE=2 
+SV=1
+Length=371
+
+ Score = 48.7 bits (114),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 16/78 (21%), Positives = 36/78 (46%), Gaps = 3/78 (4%)
+
+Query  56   QVYSKLGLTKLGASAKSSPNYQ---LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+            + Y+  G+ K+      S N +      +    LL +W +   S + V+K L+LD++G  
+Sbjct  143  EKYTDEGVAKMVEMGIRSSNLETENFASRLWRELLNKWMDNAESAEGVFKILKLDEVGGG  202
+
+Query  113  APQSPSYPMYEKYLQTFF  130
+               +P +  +  +++  +
+Sbjct  203  IFVTPLFNTWYAFIKEGY  220
+
+
+ Score = 45.6 bits (106),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 14/49 (29%), Positives = 25/49 (51%), Gaps = 0/49 (0%)
+
+Query  81   KYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTF  129
+            K    ++  W N   SPD V+K L+LD+   K   + +  ++E Y+  +
+Sbjct  261  KLETRMVNNWLNKDVSPDKVFKLLKLDEGLDKLLTNSNMQVWESYMMKY  309
+
+
+> sp|D0NRP3|RXLRQ_PHYIT RxLR effector protein PITG_15110 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_15110 PE=2 
+SV=1
+Length=709
+
+ Score = 46.0 bits (107),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 17/64 (27%), Positives = 26/64 (41%), Gaps = 0/64 (0%)
+
+Query  66   LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKY  125
+            L    +     +L      ALL +W   K  P++V K L+LD+    A   P+      Y
+Sbjct  258  LLRGKEEPQTRELATALQNALLNKWVTDKFQPESVLKKLKLDRDLMNALSDPTRHTLTSY  317
+
+Query  126  LQTF  129
+            +  F
+Sbjct  318  IAVF  321
+
+
+> sp|D0NQB4|RXLRS_PHYIT RxLR effector protein PITG_15278 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_15278 PE=2 
+SV=1
+Length=519
+
+ Score = 45.2 bits (105),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 33/74 (45%), Gaps = 1/74 (1%)
+
+Query  57   VYSKLGLTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQ  115
+            +YS  GLT+    AK+      L  K  +  +QRW +   +P  V++   +D        
+Sbjct  190  IYSDEGLTRALELAKTYSTTNALATKLRKEQIQRWLDDAQTPKYVFEMFMIDDKVDGLLT  249
+
+Query  116  SPSYPMYEKYLQTF  129
+            +P +  + KY+  F
+Sbjct  250  NPRFIAWTKYVDDF  263
+
+
+ Score = 43.7 bits (101),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 16/79 (20%), Positives = 32/79 (41%), Gaps = 4/79 (5%)
+
+Query  53   YPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+            Y D          L A+ K      +  +     ++R  N   SP+ V+++  L + G  
+Sbjct  282  YGDDA----VFAMLEAAKKVQLTENVASRLQAEQIKRLLNSNRSPEYVFEAFNLHETGDN  337
+
+Query  113  APQSPSYPMYEKYLQTFFR  131
+               +P +  +  YL++F +
+Sbjct  338  LLSTPMFKTWFNYLESFNK  356
+
+
+ Score = 41.0 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/97 (19%), Positives = 35/97 (36%), Gaps = 25/97 (26%)
+
+Query  58   YSKLGLTKLGASAKSSPNY-QLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAP--  114
+            Y   G+ K+ A    +P+  +L ++      +RW + +  P   + +  L+K GA     
+Sbjct  372  YHDHGVAKIVAEGMKNPSTVELSKQLQIQRYKRWLHAERPPRDAFNTFILEKPGADVIIR  431
+
+Query  115  ----------------------QSPSYPMYEKYLQTF  129
+                                   SP + ++ KYL  +
+Sbjct  432  YNERLDGKLYQVRLNKVSDGLLSSPEFQLWSKYLDDW  468
+
+
+> sp|D0NVS7|CRE15_PHYIT RxLR effector protein CRE15 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=CRE15 PE=1 SV=1
+Length=349
+
+ Score = 42.5 bits (98),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 18/71 (25%), Positives = 31/71 (44%), Gaps = 0/71 (0%)
+
+Query  58   YSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSP  117
+            Y    L ++ A+AK +    +  +  E   + W     S D VY  L+LD  G     +P
+Sbjct  141  YGDDELARMLATAKRTSRDTVVYQLKEIQQKSWKESGKSADDVYAILQLDAGGQNVLNNP  200
+
+Query  118  SYPMYEKYLQT  128
+              P +  Y+++
+Sbjct  201  GLPAWLSYVKS  211
+
+
+> sp|D0NBE6|RD54_PHYIT RxLR effector protein 54 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PexRD54 PE=1 SV=1
+Length=381
+
+ Score = 38.7 bits (88),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 16/73 (22%), Positives = 32/73 (44%), Gaps = 5/73 (7%)
+
+Query  63   LTKLGASAKSSP-NYQLYEKYTEALLQRWTNFKASPDT----VYKSLRLDKLGAKAPQSP  117
+            L  L  + + +P   ++     ++L   W       DT    VY +LRL   G K   +P
+Sbjct  172  LKLLFETLRHTPGMTKIGASMEKSLSGNWIRKALEQDTYPTIVYNTLRLKDAGTKLDDTP  231
+
+Query  118  SYPMYEKYLQTFF  130
+             +  + +Y++ ++
+Sbjct  232  MFRQWLEYVEKYW  244
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.120    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0368    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5018979020
+Results from round 3
+
+
+Query= 6J8L:B
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|G5A8M1|AV240_PHYSP RxLR effector protein Avh240 OS=Phytophth...  153     5e-47
+  sp|E0W4T1|AV240_PHYSO RxLR effector protein Avh240 OS=Phytophth...  153     5e-47
+  sp|D0NTC5|RXLRV_PHYIT RxLR effector protein PITG_16195 OS=Phyto...  127     2e-34
+  sp|D0NVF3|RXLRW_PHYIT RxLR effector protein PITG_16705 OS=Phyto...  96.1    7e-23
+  sp|G5A8D2|AV241_PHYSP RxLR effector protein Avh241 OS=Phytophth...  89.5    4e-22
+  sp|E0W4Y2|AV241_PHYSO RxLR effector protein Avh241 OS=Phytophth...  89.5    4e-22
+  sp|D0NRS4|PSR2_PHYIT RxLR effector protein PSR2 OS=Phytophthora...  93.4    6e-22
+  sp|G5ADB3|PSR2_PHYSP RxLR effector protein PSR2 OS=Phytophthora...  92.2    1e-21
+  sp|E0W4V5|PSR2_PHYSO RxLR effector protein PSR2 OS=Phytophthora...  92.2    1e-21
+  sp|D0NNI8|RXLAD_PHYIT Secreted RxLR effector protein PITG_22926...  88.0    3e-21
+  sp|D0NQB4|RXLRS_PHYIT RxLR effector protein PITG_15278 OS=Phyto...  87.2    8e-20
+  sp|D0NL13|RXLRK_PHYIT RxLR effector protein PITG_12731 OS=Phyto...  86.1    1e-19
+  sp|A0A0P1B5K4|RLR08_PLAHL Secreted RxLR effector protein RXLR-C...  86.5    2e-19
+  sp|D0NVS7|CRE15_PHYIT RxLR effector protein CRE15 OS=Phytophtho...  85.3    2e-19
+  sp|D0NRP3|RXLRQ_PHYIT RxLR effector protein PITG_15110 OS=Phyto...  73.0    8e-15
+
+Sequences not found previously or not previously below threshold:
+
+  sp|D0N158|RD25_PHYIT RxLR effector protein PexRD25 OS=Phytophth...  62.2    3e-11
+  sp|D0NBE6|RD54_PHYIT RxLR effector protein 54 OS=Phytophthora i...  47.5    6e-06
+  sp|D0NRQ7|RXLRR_PHYIT RxLR effector protein PITG_15127 OS=Phyto...  47.2    9e-06
+  sp|G4ZRQ7|AV331_PHYSP RxLR effector protein Avh331 OS=Phytophth...  44.1    8e-05
+  sp|D0NVB5|AVR1_PHYIT RxLR effector protein Avr1 OS=Phytophthora...  43.3    1e-04
+  sp|D0N4Y1|RD18_PHYIT RxLR effector protein PexRD18 OS=Phytophth...  41.8    6e-04
+
+
+> sp|G5A8M1|AV240_PHYSP RxLR effector protein Avh240 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=Avh240 PE=1 SV=1
+Length=194
+
+ Score = 153 bits (386),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  1    LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  60
+            LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK
+Sbjct  59   LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  118
+
+Query  61   LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+            LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP
+Sbjct  119  LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  178
+
+Query  121  MYEKYLQTFFRN  132
+            MYEKYLQTFFRN
+Sbjct  179  MYEKYLQTFFRN  190
+
+
+> sp|E0W4T1|AV240_PHYSO RxLR effector protein Avh240 OS=Phytophthora 
+sojae OX=67593 GN=Avh240 PE=2 SV=1
+Length=194
+
+ Score = 153 bits (386),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  1    LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  60
+            LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK
+Sbjct  59   LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK  118
+
+Query  61   LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+            LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP
+Sbjct  119  LGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  178
+
+Query  121  MYEKYLQTFFRN  132
+            MYEKYLQTFFRN
+Sbjct  179  MYEKYLQTFFRN  190
+
+
+> sp|D0NTC5|RXLRV_PHYIT RxLR effector protein PITG_16195 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_16195 PE=2 
+SV=1
+Length=509
+
+ Score = 127 bits (319),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 30/130 (23%), Positives = 49/130 (38%), Gaps = 9/130 (7%)
+
+Query  7    QLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD--------QVY  58
+            Q W   R  +     K         + + + +  K+L+    +S   PD          Y
+Sbjct  92   QKWSQMRMKSPNDMFKKLKLDNTGDQLFSSPRFSKWLSYVRTNSKTNPDMAIFSTLAYHY  151
+
+Query  59   SKLGLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSP  117
+            S   L KL  +AK       L  K        W + + SP+ V+K L LD++G+    SP
+Sbjct  152  SDEALVKLLDAAKKVDSTKVLATKLEGLQFTNWVHARESPEYVFKVLALDRMGSNTFTSP  211
+
+Query  118  SYPMYEKYLQ  127
+             +  +  Y+ 
+Sbjct  212  QFSKWLSYMN  221
+
+
+ Score = 74.9 bits (182),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 23/125 (18%), Positives = 47/125 (38%), Gaps = 9/125 (7%)
+
+Query  15   ANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD--------QVYSKLGLTKL  66
+             +     K+          + + Q  K+L+   K+ +  P+          +S   L K+
+Sbjct  189  ESPEYVFKVLALDRMGSNTFTSPQFSKWLSYMNKAETSDPEMAIYRVLGTYHSDDVLVKM  248
+
+Query  67   GASAKSS-PNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKY  125
+             A+AK +     L     +   + W     SP  V+K+L LD++  +   SP +  +  +
+Sbjct  249  FAAAKQAESTRALASSLEKVQFENWARGGESPSHVFKALALDQMDTQIFASPQFSKWTSF  308
+
+Query  126  LQTFF  130
+            +    
+Sbjct  309  VSKAN  313
+
+
+ Score = 70.7 bits (171),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 24/128 (19%), Positives = 50/128 (39%), Gaps = 10/128 (8%)
+
+Query  15   ANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD--------QVYSKLGLTKL  66
+             +     K     +   + + + Q  K+ +   K+++  PD          YS   L K+
+Sbjct  278  ESPSHVFKALALDQMDTQIFASPQFSKWTSFVSKANTKNPDVAMYTTLGTFYSDDILAKM  337
+
+Query  67   GASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKL-GAKAPQSPSYPMYEK  124
+             A+ K       L  +     L  W N   S ++ +K+L+LD L G++  +S     +  
+Sbjct  338  FAAGKQVDSTKGLATRLEGIQLANWENAGKSAESAFKTLKLDTLPGSQLFESQFINTWAS  397
+
+Query  125  YLQTFFRN  132
+            ++    ++
+Sbjct  398  FVTRTHKD  405
+
+
+ Score = 48.3 bits (113),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 15/61 (25%), Positives = 29/61 (48%), Gaps = 1/61 (2%)
+
+Query  73   SPNYQLYEKYTEALLQRWTNFKA-SPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTFFR  131
+            S          + L Q+W+  +  SP+ ++K L+LD  G +   SP +  +  Y++T  +
+Sbjct  77   SGTQSWAATLLQTLQQKWSQMRMKSPNDMFKKLKLDNTGDQLFSSPRFSKWLSYVRTNSK  136
+
+Query  132  N  132
+             
+Sbjct  137  T  137
+
+
+ Score = 41.0 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 16/102 (16%), Positives = 30/102 (29%), Gaps = 9/102 (9%)
+
+Query  21   GKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD--------QVYSKLGLTKLGASAKS  72
+             K          +   SQ     A ++  +   PD          Y    L K+ A+A  
+Sbjct  373  FKTLKLDTLPGSQLFESQFINTWASFVTRTHKDPDAIMVALLKDRYGDETLAKMIAAATK  432
+
+Query  73   SPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKA  113
+            +   + L      A  + W +   +P+ V    ++       
+Sbjct  433  TERTEKLAVDLRSAQFKTWFSQGKTPENVNTLFKVAANSDDL  474
+
+
+> sp|D0NVF3|RXLRW_PHYIT RxLR effector protein PITG_16705 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_16705 PE=2 
+SV=1
+Length=678
+
+ Score = 96.1 bits (237),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 28/127 (22%), Positives = 50/127 (39%), Gaps = 11/127 (9%)
+
+Query  15   ANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ----------VYSKLGLT  64
+             +     K+             +   K+LA   K +  +P+            Y   G+ 
+Sbjct  463  KSPEGIFKVLALDNVGDDILSNTLFHKWLAYLQKFNKEHPNNQESWFDMLRISYQPFGVE  522
+
+Query  65   KLGASAKSSPNYQL-YEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYE  123
+            ++  + + +P  +L  EK   A    W + K  P T ++SL LD+ G K    P +  + 
+Sbjct  523  RIIETGRKNPLTRLMAEKVENAYHNYWLDIKMEPKTAFRSLHLDESGEKLLADPKFNTWV  582
+
+Query  124  KYLQTFF  130
+            +YL+TF 
+Sbjct  583  QYLKTFN  589
+
+
+ Score = 65.3 bits (157),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 21/132 (16%), Positives = 40/132 (30%), Gaps = 11/132 (8%)
+
+Query  11   MRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD----------QVYSK  60
+            M    + L               +   Q + +++         P             +  
+Sbjct  368  MNLKESPLDVYNRLRSSYGDTAFFNEPQLNVWVSYMNVFVDKNPSKVDKMFLELGDTFGD  427
+
+Query  61   LGLTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSY  119
+            + L ++   AK  PN +    K              SP+ ++K L LD +G     +  +
+Sbjct  428  MRLFRVLGEAKKFPNLESTATKLQMEKASTLFASGKSPEGIFKVLALDNVGDDILSNTLF  487
+
+Query  120  PMYEKYLQTFFR  131
+              +  YLQ F +
+Sbjct  488  HKWLAYLQKFNK  499
+
+
+ Score = 56.0 bits (133),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 20/145 (14%), Positives = 48/145 (33%), Gaps = 19/145 (13%)
+
+Query  4    NTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYP---------  54
+            + ++ W   R  +  +  +      A +  +   +   +L      ++ +P         
+Sbjct  173  DQIRFWIATR-KDPSVVFEALNLNWAGISIFPKPEFSAWLKYVDDVNARHPKEAPLSIIP  231
+
+Query  55   ---------DQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLR  105
+                     D+  + + L  +     ++    +  K   AL   W N + +PD V  + +
+Sbjct  232  TLKQRFSRGDEAGTDVLLKLIANGKATTEAKTVANKVESALFDFWLNSRETPDKVMDAFK  291
+
+Query  106  LDKLGAKAPQSPSYPMYEKYLQTFF  130
+                      SP +  +E+YL  + 
+Sbjct  292  YGTTTQAFLGSPRWKEWERYLSAYN  316
+
+
+ Score = 56.0 bits (133),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 24/131 (18%), Positives = 39/131 (30%), Gaps = 14/131 (11%)
+
+Query  10   RMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQV----------YS  59
+                    +   K  T  +A L    + +  ++       ++ YP++           Y 
+Sbjct  279  SRETPDKVMDAFKYGTTTQAFLG---SPRWKEWERYLSAYNARYPEKKATAIETLTRKYG  335
+
+Query  60   KLGL-TKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPS  118
+               L   L  ++       L  K       RW N K SP  VY  LR           P 
+Sbjct  336  DAQLLDTLIGASSKGETKTLAAKLQAQQFDRWMNLKESPLDVYNRLRSSYGDTAFFNEPQ  395
+
+Query  119  YPMYEKYLQTF  129
+              ++  Y+  F
+Sbjct  396  LNVWVSYMNVF  406
+
+
+ Score = 53.7 bits (127),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 17/98 (17%), Positives = 36/98 (37%), Gaps = 4/98 (4%)
+
+Query  33   KWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTN  92
+               A    K  +     +S++ D+V        + A+       +L  K  +  ++ W  
+Sbjct  125  DLSAKSSHKESSVISTLTSLHGDKVVYDT----IQAAKLYPQLSELALKLEKDQIRFWIA  180
+
+Query  93   FKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTFF  130
+             +  P  V+++L L+  G      P +  + KY+    
+Sbjct  181  TRKDPSVVFEALNLNWAGISIFPKPEFSAWLKYVDDVN  218
+
+
+ Score = 48.7 bits (114),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 14/107 (13%), Positives = 39/107 (36%), Gaps = 12/107 (11%)
+
+Query  9    WRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYS---------  59
+            W   +        +     E+  K     + + ++      +  YP++  +         
+Sbjct  549  WLDIKME-PKTAFRSLHLDESGEKLLADPKFNTWVQYLKTFNDRYPNEKTTVIDGLRDNS  607
+
+Query  60   -KLGLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSL  104
+              + L ++ ++AK+     +L      AL+ +W + K +P+ + +  
+Sbjct  608  HDIALLRMFSAAKNDPSTEKLATDLQSALILKWQDAKKTPEELKRVF  654
+
+
+> sp|G5A8D2|AV241_PHYSP RxLR effector protein Avh241 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=Avh241 PE=1 SV=1
+Length=188
+
+ Score = 89.5 bits (220),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 41/107 (38%), Positives = 65/107 (61%), Gaps = 9/107 (8%)
+
+Query  28   EAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTE---  84
+            +A     +++++ K++  W  + ++ P+ VY +LGL K G  A  S NY+++E YTE   
+Sbjct  76   KAKTTDVISARESKWIEAW-ANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTERLF  134
+
+Query  85   ----ALLQRWTNFKASPDTVYKSLRLDK-LGAKAPQSPSYPMYEKYL  126
+                AL  +W + K +P+ VYK+L+LDK LGAKA  SP +  YE Y+
+Sbjct  135  AKDQALYTKWLDAKMTPEDVYKALKLDKLLGAKAANSPDFRRYEVYM  181
+
+
+> sp|E0W4Y2|AV241_PHYSO RxLR effector protein Avh241 OS=Phytophthora 
+sojae OX=67593 GN=Avh241 PE=1 SV=1
+Length=188
+
+ Score = 89.5 bits (220),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 41/107 (38%), Positives = 65/107 (61%), Gaps = 9/107 (8%)
+
+Query  28   EAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTE---  84
+            +A     +++++ K++  W  + ++ P+ VY +LGL K G  A  S NY+++E YTE   
+Sbjct  76   KAKTTDVISARESKWIEAW-ANKNLSPNYVYKQLGLAKQGDKAMQSQNYRIFEAYTERLF  134
+
+Query  85   ----ALLQRWTNFKASPDTVYKSLRLDK-LGAKAPQSPSYPMYEKYL  126
+                AL  +W + K +P+ VYK+L+LDK LGAKA  SP +  YE Y+
+Sbjct  135  AKDQALYTKWLDAKMTPEDVYKALKLDKLLGAKAANSPDFRRYEVYM  181
+
+
+> sp|D0NRS4|PSR2_PHYIT RxLR effector protein PSR2 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PSR2 PE=2 SV=1
+Length=760
+
+ Score = 93.4 bits (230),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 27/139 (19%), Positives = 52/139 (37%), Gaps = 21/139 (15%)
+
+Query  11   MRRTANKLMNGKLTTQKEAALKKWMASQQDKF-----------------LAKWLKSSSVY  53
+            +R   +     +L     +A     + Q   +                 ++        Y
+Sbjct  361  LRENEDPAKVFQLLKLDNSADDLLGSPQFKLWGKYVEDLNLKPEHNDLQVSIITILRKNY  420
+
+Query  54   PDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKA  113
+             D V   + L    A  K+     +  +  + L + W    +SPD V+K L+ DK G   
+Sbjct  421  GDDVLGNMVL----AGKKAPSTSFMARRLEDELYKGWIAAGSSPDGVFKHLKFDKAGENV  476
+
+Query  114  PQSPSYPMYEKYLQTFFRN  132
+             QSP + +Y K+L+ ++++
+Sbjct  477  IQSPLWGLYTKFLEHYYKS  495
+
+
+ Score = 76.4 bits (186),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 19/136 (14%), Positives = 47/136 (35%), Gaps = 12/136 (9%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTK  65
+            +Q W ++   +      + +  +A  +   + +   +       +  +PD+  + +   +
+Sbjct  266  IQFW-LKNGKSPDELLTVLSLDKAGNQLLASPRFKFWSKYVDNYNRDFPDEATTVMATLR  324
+
+Query  66   -----------LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAP  114
+                       L A+ K     +   K      + W      P  V++ L+LD       
+Sbjct  325  NQLGDEDITPILIAAGKVPSTEKAAAKLQAEQFKSWLRENEDPAKVFQLLKLDNSADDLL  384
+
+Query  115  QSPSYPMYEKYLQTFF  130
+             SP + ++ KY++   
+Sbjct  385  GSPQFKLWGKYVEDLN  400
+
+
+ Score = 74.5 bits (181),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 26/136 (19%), Positives = 45/136 (33%), Gaps = 12/136 (9%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYS------  59
+            +Q W +          K     + A     +   + +     + +  +PD+  S      
+Sbjct  538  IQRW-LDDKDQPGKIFKALLLDDMADDILTSPLFNTWTRYLDEFNKKFPDEKVSMTDTFR  596
+
+Query  60   ----KLGLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAP  114
+                   L  L  +AK       L  K     ++RW   K SP+  +  L L+K G    
+Sbjct  597  TSLDDETLKSLLITAKELPDMKTLSTKLQTVQIERWLASKTSPEDAFAVLALNKAGGNVL  656
+
+Query  115  QSPSYPMYEKYLQTFF  130
+              P    +  YL++F 
+Sbjct  657  SKPLLNTWAAYLESFN  672
+
+
+ Score = 72.6 bits (176),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 34/75 (45%), Gaps = 1/75 (1%)
+
+Query  58   YSKLGLTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQS  116
+            Y    L KL  +A+  P    L  K     +QRW + K  P  ++K+L LD +      S
+Sbjct  508  YDGDALAKLLIAAEKIPTSNTLATKLQTGQIQRWLDDKDQPGKIFKALLLDDMADDILTS  567
+
+Query  117  PSYPMYEKYLQTFFR  131
+            P +  + +YL  F +
+Sbjct  568  PLFNTWTRYLDEFNK  582
+
+
+ Score = 69.1 bits (167),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 20/132 (15%), Positives = 40/132 (30%), Gaps = 13/132 (10%)
+
+Query  14   TANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ------------VYSKL  61
+            +       +     +             ++      +S   ++             Y   
+Sbjct  180  SKTPSQMFQFLRLDKVRNGVLDDPTLSIWINYMKLYNSKPVNKKQQVTLVSMLTTHYKDR  239
+
+Query  62   GLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+            G+  +  +AK          +     +Q W     SPD +   L LDK G +   SP + 
+Sbjct  240  GVLDIIEAAKKVPKTAPAARQLEMEQIQFWLKNGKSPDELLTVLSLDKAGNQLLASPRFK  299
+
+Query  121  MYEKYLQTFFRN  132
+             + KY+  + R+
+Sbjct  300  FWSKYVDNYNRD  311
+
+
+ Score = 59.5 bits (142),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 20/127 (16%), Positives = 46/127 (36%), Gaps = 13/127 (10%)
+
+Query  13   RTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ--------VYSKLGLT  64
+            +  +           +   + +     + ++          P++         Y+   L+
+Sbjct  94   KKKSPDYVFLKLKINKGKQQLFDHPDWNVWVQYTTSVVKSDPEEAMIAALRTHYTDDILS  153
+
+Query  65   KLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYE  123
+            KL  SAK+      L  K     ++ W   K +P  +++ LRLDK+       P+  ++ 
+Sbjct  154  KLLESAKNVPKTSGLATKM---QMEHWVASK-TPSQMFQFLRLDKVRNGVLDDPTLSIWI  209
+
+Query  124  KYLQTFF  130
+             Y++ + 
+Sbjct  210  NYMKLYN  216
+
+
+ Score = 50.6 bits (119),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 22/131 (17%), Positives = 47/131 (36%), Gaps = 12/131 (9%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD----------  55
+            ++ W   +T +      +    +A          + + A     ++ +P           
+Sbjct  629  IERWLASKT-SPEDAFAVLALNKAGGNVLSKPLLNTWAAYLESFNAKFPRSRVSMIDTFR  687
+
+Query  56   QVYSKLGLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAP  114
+            + +    L    A+AK      ++     ++LL +W   K  P  V K +  D+ GAK  
+Sbjct  688  EFFGDKALLTTLAAAKEVESTKKVATSLQDSLLSKWVLAKKPPSGVAKLVGTDEAGAKLL  747
+
+Query  115  QSPSYPMYEKY  125
+            ++ +    E+Y
+Sbjct  748  KTYTTKYMERY  758
+
+
+ Score = 42.9 bits (99),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 10/44 (23%), Positives = 22/44 (50%), Gaps = 0/44 (0%)
+
+Query  89   RWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTFFRN  132
+             W   K SPD V+  L+++K   +    P + ++ +Y  +  ++
+Sbjct  90   SWFEKKKSPDYVFLKLKINKGKQQLFDHPDWNVWVQYTTSVVKS  133
+
+
+> sp|G5ADB3|PSR2_PHYSP RxLR effector protein PSR2 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=PSR2 PE=1 SV=1
+Length=670
+
+ Score = 92.2 bits (227),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 22/128 (17%), Positives = 45/128 (35%), Gaps = 11/128 (9%)
+
+Query  15   ANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD----------QVYSKLGLT  64
+                    +    +A      +     +      S+   P           + Y   G++
+Sbjct  179  KTPDDMFLVFKLNKAGDDILSSPLLSAWTNYMKLSNKENPKAQTTLIATMTKHYGDSGVS  238
+
+Query  65   KLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYE  123
+            ++ A+A+ SP  Q   ++     +Q W     +PD  +  L LD+ G     SP +  + 
+Sbjct  239  QILAAARKSPATQSTAKRLEAEQVQLWLKKGRTPDDTFTLLSLDRAGDDLLASPQFNTWM  298
+
+Query  124  KYLQTFFR  131
+            KY+  + +
+Sbjct  299  KYINYYNK  306
+
+
+ Score = 86.1 bits (211),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 26/138 (19%), Positives = 47/138 (34%), Gaps = 12/138 (9%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ---------  56
+            VQLW +++         L +   A      + Q + ++      +   PD+         
+Sbjct  262  VQLW-LKKGRTPDDTFTLLSLDRAGDDLLASPQFNTWMKYINYYNKENPDEKTTVLAKLM  320
+
+Query  57   -VYSKLGLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAP  114
+              +    LT +   A+          K      + W +   SP+  +  L+LDK G    
+Sbjct  321  THFDDEELTPILVVARKVPSTESTAAKLQAEQFKNWLSADKSPEEAFTLLQLDKAGDDLL  380
+
+Query  115  QSPSYPMYEKYLQTFFRN  132
+             +P    + KY + F  N
+Sbjct  381  TNPQLTNWLKYTENFNLN  398
+
+
+ Score = 80.3 bits (196),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 24/104 (23%), Positives = 44/104 (42%), Gaps = 5/104 (5%)
+
+Query  29   AALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQ-LYEKYTEALL  87
+            AA  + +A    +  A  LK+        YS   L+ + A+AK S   + +  K     +
+Sbjct  116  AAYTRSVAQTDSEASAVMLKTLVS----RYSDEVLSGMIAAAKKSSKTESIATKLETEQM  171
+
+Query  88   QRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTFFR  131
+            + W   K +PD ++   +L+K G     SP    +  Y++   +
+Sbjct  172  RTWLAAKKTPDDMFLVFKLNKAGDDILSSPLLSAWTNYMKLSNK  215
+
+
+ Score = 78.8 bits (192),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 28/130 (22%), Positives = 52/130 (40%), Gaps = 12/130 (9%)
+
+Query  11   MRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTK-----  65
+            + +  +  +N KL T  E   +  + S   KFL K+  +++    +     GL +     
+Sbjct  453  LNKPDDVFINLKLETVGENVFESPLWSFYTKFLEKY--NTANPGKEQTMISGLARGYNDV  510
+
+Query  66   -----LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+                 L  + ++     L  K  + L+Q W   K  PD ++  L L +       +P + 
+Sbjct  511  TLTNMLLKAKEAPSTKTLATKLEDELVQYWLADKKLPDKLFGYLELKESVDGILTNPVFN  570
+
+Query  121  MYEKYLQTFF  130
+            ++ KYL  F 
+Sbjct  571  VWLKYLNAFN  580
+
+
+ Score = 60.6 bits (145),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 24/129 (19%), Positives = 48/129 (37%), Gaps = 13/129 (10%)
+
+Query  15   ANKLMNGKLTTQKEAALKKWMASQQDKFLAKWL------------KSSSVYPDQVYSKLG  62
+             +      L    +A        Q   +L                 +  V+  Q      
+Sbjct  361  KSPEEAFTLLQLDKAGDDLLTNPQLTNWLKYTENFNLNKEINEQVTAIQVFRAQYVDDSR  420
+
+Query  63   LTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPM  121
+            +  +  +A+  PN Q + ++  + L + WT     PD V+ +L+L+ +G    +SP +  
+Sbjct  421  IANMVIAAEKVPNTQAIAKRVEDELFKGWTVVLNKPDDVFINLKLETVGENVFESPLWSF  480
+
+Query  122  YEKYLQTFF  130
+            Y K+L+ + 
+Sbjct  481  YTKFLEKYN  489
+
+
+ Score = 43.3 bits (100),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  89   RWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQT  128
+            +W + K  P+TV+  LRLDK G +   +  +P++  Y ++
+Sbjct  82   KWADAKKPPETVFTRLRLDKTGTQLFDNTDFPVWAAYTRS  121
+
+
+> sp|E0W4V5|PSR2_PHYSO RxLR effector protein PSR2 OS=Phytophthora 
+sojae OX=67593 GN=PSR2 PE=1 SV=1
+Length=670
+
+ Score = 92.2 bits (227),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 22/128 (17%), Positives = 45/128 (35%), Gaps = 11/128 (9%)
+
+Query  15   ANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD----------QVYSKLGLT  64
+                    +    +A      +     +      S+   P           + Y   G++
+Sbjct  179  KTPDDMFLVFKLNKAGDDILSSPLLSAWTNYMKLSNKENPKAQTTLIATMTKHYGDSGVS  238
+
+Query  65   KLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYE  123
+            ++ A+A+ SP  Q   ++     +Q W     +PD  +  L LD+ G     SP +  + 
+Sbjct  239  QILAAARKSPATQSTAKRLEAEQVQLWLKKGRTPDDTFTLLSLDRAGDDLLASPQFNTWM  298
+
+Query  124  KYLQTFFR  131
+            KY+  + +
+Sbjct  299  KYINYYNK  306
+
+
+ Score = 86.1 bits (211),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 26/138 (19%), Positives = 47/138 (34%), Gaps = 12/138 (9%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ---------  56
+            VQLW +++         L +   A      + Q + ++      +   PD+         
+Sbjct  262  VQLW-LKKGRTPDDTFTLLSLDRAGDDLLASPQFNTWMKYINYYNKENPDEKTTVLAKLM  320
+
+Query  57   -VYSKLGLTKLGASAKS-SPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAP  114
+              +    LT +   A+          K      + W +   SP+  +  L+LDK G    
+Sbjct  321  THFDDEELTPILVVARKVPSTESTAAKLQAEQFKNWLSADKSPEEAFTLLQLDKAGDDLL  380
+
+Query  115  QSPSYPMYEKYLQTFFRN  132
+             +P    + KY + F  N
+Sbjct  381  TNPQLTNWLKYTENFNLN  398
+
+
+ Score = 80.3 bits (196),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 24/104 (23%), Positives = 44/104 (42%), Gaps = 5/104 (5%)
+
+Query  29   AALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQ-LYEKYTEALL  87
+            AA  + +A    +  A  LK+        YS   L+ + A+AK S   + +  K     +
+Sbjct  116  AAYTRSVAQTDSEASAVMLKTLVS----RYSDEVLSGMIAAAKKSSKTESIATKLETEQM  171
+
+Query  88   QRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTFFR  131
+            + W   K +PD ++   +L+K G     SP    +  Y++   +
+Sbjct  172  RTWLAAKKTPDDMFLVFKLNKAGDDILSSPLLSAWTNYMKLSNK  215
+
+
+ Score = 78.8 bits (192),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 28/130 (22%), Positives = 52/130 (40%), Gaps = 12/130 (9%)
+
+Query  11   MRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTK-----  65
+            + +  +  +N KL T  E   +  + S   KFL K+  +++    +     GL +     
+Sbjct  453  LNKPDDVFINLKLETVGENVFESPLWSFYTKFLEKY--NTANPGKEQTMISGLARGYNDV  510
+
+Query  66   -----LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYP  120
+                 L  + ++     L  K  + L+Q W   K  PD ++  L L +       +P + 
+Sbjct  511  TLTNMLLKAKEAPSTKTLATKLEDELVQYWLADKKLPDKLFGYLELKESVDGILTNPVFN  570
+
+Query  121  MYEKYLQTFF  130
+            ++ KYL  F 
+Sbjct  571  VWLKYLNAFN  580
+
+
+ Score = 60.6 bits (145),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 24/129 (19%), Positives = 48/129 (37%), Gaps = 13/129 (10%)
+
+Query  15   ANKLMNGKLTTQKEAALKKWMASQQDKFLAKWL------------KSSSVYPDQVYSKLG  62
+             +      L    +A        Q   +L                 +  V+  Q      
+Sbjct  361  KSPEEAFTLLQLDKAGDDLLTNPQLTNWLKYTENFNLNKEINEQVTAIQVFRAQYVDDSR  420
+
+Query  63   LTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPM  121
+            +  +  +A+  PN Q + ++  + L + WT     PD V+ +L+L+ +G    +SP +  
+Sbjct  421  IANMVIAAEKVPNTQAIAKRVEDELFKGWTVVLNKPDDVFINLKLETVGENVFESPLWSF  480
+
+Query  122  YEKYLQTFF  130
+            Y K+L+ + 
+Sbjct  481  YTKFLEKYN  489
+
+
+ Score = 43.3 bits (100),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  89   RWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQT  128
+            +W + K  P+TV+  LRLDK G +   +  +P++  Y ++
+Sbjct  82   KWADAKKPPETVFTRLRLDKTGTQLFDNTDFPVWAAYTRS  121
+
+
+> sp|D0NNI8|RXLAD_PHYIT Secreted RxLR effector protein PITG_22926 
+OS=Phytophthora infestans (strain T30-4) OX=403677 GN=PITG_14054 
+PE=2 SV=1
+Length=229
+
+ Score = 88.0 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 37/131 (28%), Positives = 61/131 (47%), Gaps = 20/131 (15%)
+
+Query  12   RRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVY-----PDQVYSKLGLTKL  66
+            RRT + L+     T++       + SQ  + +AKW  ++++       D+V   LGL KL
+Sbjct  29   RRTESPLVRSVSATEERN-----IFSQTAEAVAKWGTTTALLNLGKTDDEVKKILGLEKL  83
+
+Query  67   -GASAKSSPNYQLYEKYTEALLQR----WTNFKASPDTVYKSLRLDKLGAKAPQ-----S  116
+             G + K+  NY L + +   L  R    W +   + D V+K+L+LD L AK        S
+Sbjct  84   SGEALKAHSNYHLLDDFITKLRDRKVTGWLHKDTTTDEVWKTLQLDDLFAKLDAKEFRHS  143
+
+Query  117  PSYPMYEKYLQ  127
+                 Y +Y++
+Sbjct  144  DELKTYVQYVK  154
+
+
+> sp|D0NQB4|RXLRS_PHYIT RxLR effector protein PITG_15278 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_15278 PE=2 
+SV=1
+Length=519
+
+ Score = 87.2 bits (214),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 22/124 (18%), Positives = 45/124 (36%), Gaps = 11/124 (9%)
+
+Query  18   LMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ----------VYSKLGLTKLG  67
+            L    +   K+     +     + ++      ++  P +          +YS  GLT+  
+Sbjct  141  LNKFMVPNFKKIEGTVFGLPDFNTWVNYVDDFNAKNPTKKESMIPTLRTIYSDEGLTRAL  200
+
+Query  68   ASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYL  126
+              AK+      L  K  +  +QRW +   +P  V++   +D        +P +  + KY+
+Sbjct  201  ELAKTYSTTNALATKLRKEQIQRWLDDAQTPKYVFEMFMIDDKVDGLLTNPRFIAWTKYV  260
+
+Query  127  QTFF  130
+              F 
+Sbjct  261  DDFN  264
+
+
+ Score = 74.1 bits (180),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 18/137 (13%), Positives = 45/137 (33%), Gaps = 12/137 (9%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ---------  56
+            +Q W +          ++    +         +   +       +  YP           
+Sbjct  221  IQRW-LDDAQTPKYVFEMFMIDDKVDGLLTNPRFIAWTKYVDDFNLQYPTSRASMEPPIA  279
+
+Query  57   -VYSKLGLTKLGASAKSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAP  114
+              Y    +  +  +AK     + +  +     ++R  N   SP+ V+++  L + G    
+Sbjct  280  AHYGDDAVFAMLEAAKKVQLTENVASRLQAEQIKRLLNSNRSPEYVFEAFNLHETGDNLL  339
+
+Query  115  QSPSYPMYEKYLQTFFR  131
+             +P +  +  YL++F +
+Sbjct  340  STPMFKTWFNYLESFNK  356
+
+
+ Score = 58.7 bits (140),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 18/154 (12%), Positives = 41/154 (27%), Gaps = 34/154 (22%)
+
+Query  11   MRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ---------VYSKL  61
+            +    +     +     E             +       +    D+          Y   
+Sbjct  316  LNSNRSPEYVFEAFNLHETGDNLLSTPMFKTWFNYLESFNKKNTDKETLLAPIHRYYHDH  375
+
+Query  62   GLTKLG-ASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSL----------------  104
+            G+ K+     K+    +L ++      +RW + +  P   + +                 
+Sbjct  376  GVAKIVAEGMKNPSTVELSKQLQIQRYKRWLHAERPPRDAFNTFILEKPGADVIIRYNER  435
+
+Query  105  --------RLDKLGAKAPQSPSYPMYEKYLQTFF  130
+                    RL+K+      SP + ++ KYL  + 
+Sbjct  436  LDGKLYQVRLNKVSDGLLSSPEFQLWSKYLDDWN  469
+
+
+ Score = 50.6 bits (119),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 24/129 (19%), Positives = 44/129 (34%), Gaps = 12/129 (9%)
+
+Query  10   RMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGAS  69
+            R  R  +    G  +      ++    S  +K   K   S    PD+  S+L    LGA+
+Sbjct  49   RQLRVMDDNERGFPSGPSLEKIEAMFQSLTNKITTKSKPSQRDVPDEKLSQL----LGAA  104
+
+Query  70   AKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLD--------KLGAKAPQSPSYPM  121
+               +   +   +      Q+W +   S   V++ L L+        K+       P +  
+Sbjct  105  KPVNKAVEAAGRLKTLQTQKWLDEGKSTQEVFQLLELNKFMVPNFKKIEGTVFGLPDFNT  164
+
+Query  122  YEKYLQTFF  130
+            +  Y+  F 
+Sbjct  165  WVNYVDDFN  173
+
+
+> sp|D0NL13|RXLRK_PHYIT RxLR effector protein PITG_12731 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_12731 PE=2 
+SV=1
+Length=371
+
+ Score = 86.1 bits (211),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 22/138 (16%), Positives = 49/138 (36%), Gaps = 14/138 (10%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD----------  55
+            VQ W + +   +              K     +   + A   + +   P           
+Sbjct  84   VQKW-VDKQKTQEYVFTKLGLNSGLDKALSNPKLHVYAAYIDRFNVKNPSNKVALLDKFS  142
+
+Query  56   QVYSKLGLTKLGASAKSSPNYQ---LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+            + Y+  G+ K+      S N +      +    LL +W +   S + V+K L+LD++G  
+Sbjct  143  EKYTDEGVAKMVEMGIRSSNLETENFASRLWRELLNKWMDNAESAEGVFKILKLDEVGGG  202
+
+Query  113  APQSPSYPMYEKYLQTFF  130
+               +P +  +  +++  +
+Sbjct  203  IFVTPLFNTWYAFIKEGY  220
+
+
+ Score = 64.5 bits (155),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 24/135 (18%), Positives = 51/135 (38%), Gaps = 11/135 (8%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQV--------  57
+            +  W M    +     K+    E     ++    + + A   +  +   + V        
+Sbjct  177  LNKW-MDNAESAEGVFKILKLDEVGGGIFVTPLFNTWYAFIKEGYTRQAEDVVLRVLSDR  235
+
+Query  58   YSKLGLTKLGASAKSSPNY--QLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQ  115
+            Y   GL+++    + + +    L  K    ++  W N   SPD V+K L+LD+   K   
+Sbjct  236  YGYDGLSRIFFRGQRNFDLVGDLPIKLETRMVNNWLNKDVSPDKVFKLLKLDEGLDKLLT  295
+
+Query  116  SPSYPMYEKYLQTFF  130
+            + +  ++E Y+  + 
+Sbjct  296  NSNMQVWESYMMKYN  310
+
+
+ Score = 48.7 bits (114),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/67 (19%), Positives = 27/67 (40%), Gaps = 0/67 (0%)
+
+Query  64   TKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYE  123
+            +K+     S    +         +Q+W + + + + V+  L L+    KA  +P   +Y 
+Sbjct  61   SKIVEWMLSPKVAKELTFLENRKVQKWVDKQKTQEYVFTKLGLNSGLDKALSNPKLHVYA  120
+
+Query  124  KYLQTFF  130
+             Y+  F 
+Sbjct  121  AYIDRFN  127
+
+
+> sp|A0A0P1B5K4|RLR08_PLAHL Secreted RxLR effector protein RXLR-C08 
+OS=Plasmopara halstedii OX=4781 GN=RXLR-C08 PE=2 SV=1
+Length=503
+
+ Score = 86.5 bits (212),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 20/137 (15%), Positives = 45/137 (33%), Gaps = 8/137 (6%)
+
+Query  1    LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKF---LAKWLKSSSVYPDQV  57
+            L +  +  WR     +     K     ++            +    +    + +   D +
+Sbjct  185  LQHEQISRWRDDNL-SLTALYKALQFGKSEPSLLTGPALRVWNIYTSNIESAETSLFDYL  243
+
+Query  58   YSKLGLTKL----GASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKA  113
+            Y  +    L     A+ +S    +L  K    L Q+W      P+ V++  +LD      
+Sbjct  244  YQTIEDAHLSSLLIAAKQSPETVELATKIQNQLRQKWLEILVPPNLVFQHYKLDTNPTHL  303
+
+Query  114  PQSPSYPMYEKYLQTFF  130
+               P   ++ +Y + ++
+Sbjct  304  LDRPETKLWVRYQKMYW  320
+
+
+ Score = 48.7 bits (114),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 16/130 (12%), Positives = 39/130 (30%), Gaps = 13/130 (10%)
+
+Query  9    WRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYP----------DQVY  58
+            W   R  +  +        EA            ++      +  +P           + +
+Sbjct  99   WWRLRNVDPNVTFNKLNLHEADNDILSLDNFHTWVKLVESYNLQHPAEQVSILSKLQEQF  158
+
+Query  59   SKLGLTKLGASAKSSP---NYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQ  115
+             +  ++ +   AK+        +  +     + RW +   S   +YK+L+  K       
+Sbjct  159  GEFEVSIMLEQAKNGADKYTEDIALELQHEQISRWRDDNLSLTALYKALQFGKSEPSLLT  218
+
+Query  116  SPSYPMYEKY  125
+             P+  ++  Y
+Sbjct  219  GPALRVWNIY  228
+
+
+> sp|D0NVS7|CRE15_PHYIT RxLR effector protein CRE15 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=CRE15 PE=1 SV=1
+Length=349
+
+ Score = 85.3 bits (209),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 24/139 (17%), Positives = 48/139 (35%), Gaps = 11/139 (8%)
+
+Query  1    LGYNTVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLK--SSSVYPDQ--  56
+            L +N    + + +        ++   K+     + +S+   +     K       P    
+Sbjct  73   LAHNAKLTFSLDKQLKVNNRFEVLRVKQVKTDVFSSSEFTDWAHYVAKICKRGRLPADRA  132
+
+Query  57   -------VYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKL  109
+                    Y    L ++ A+AK +    +  +  E   + W     S D VY  L+LD  
+Sbjct  133  IFKTMAAHYGDDELARMLATAKRTSRDTVVYQLKEIQQKSWKESGKSADDVYAILQLDAG  192
+
+Query  110  GAKAPQSPSYPMYEKYLQT  128
+            G     +P  P +  Y+++
+Sbjct  193  GQNVLNNPGLPAWLSYVKS  211
+
+
+ Score = 49.5 bits (116),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 18/125 (14%), Positives = 44/125 (35%), Gaps = 7/125 (6%)
+
+Query  15   ANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPD-------QVYSKLGLTKLG  67
+             +      +                  +L+     S+ Y +       + Y  + + K+ 
+Sbjct  178  KSADDVYAILQLDAGGQNVLNNPGLPAWLSYVKSPSTDYIEALLLKLREQYDDVTVAKMI  237
+
+Query  68   ASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQ  127
+             S++S  N ++  +  + L   W     +   V++ L+L+  G    ++P   ++  Y+ 
+Sbjct  238  VSSQSGVNKRISGQLEKELSTAWRKNHITEMEVFQLLKLNDAGTTLLKNPILEIWFHYVW  297
+
+Query  128  TFFRN  132
+               RN
+Sbjct  298  KMKRN  302
+
+
+> sp|D0NRP3|RXLRQ_PHYIT RxLR effector protein PITG_15110 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_15110 PE=2 
+SV=1
+Length=709
+
+ Score = 73.0 bits (177),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 17/65 (26%), Positives = 26/65 (40%), Gaps = 0/65 (0%)
+
+Query  66   LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKY  125
+            L    +     +L      ALL +W   K  P++V K L+LD+    A   P+      Y
+Sbjct  258  LLRGKEEPQTRELATALQNALLNKWVTDKFQPESVLKKLKLDRDLMNALSDPTRHTLTSY  317
+
+Query  126  LQTFF  130
+            +  F 
+Sbjct  318  IAVFN  322
+
+
+ Score = 53.3 bits (126),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 25/121 (21%), Positives = 51/121 (42%), Gaps = 6/121 (5%)
+
+Query  13   RTANKLMNGKLTTQKEAALKKWM--ASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASA  70
+            R     ++G L + K   L+ ++   +++       LK+ +   D    +  L K   +A
+Sbjct  390  RADLPNIDGALASGKLKLLEDYIKLFNREKAGDETLLKTLTTGFD---GESNLAKALLTA  446
+
+Query  71   KSSPNYQ-LYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTF  129
+            + +P+   +  K    LL +W      P++V K+L LD+   +    P+     KY+  +
+Sbjct  447  EINPHSNKMVVKLQGELLNQWLLKGLKPESVLKNLGLDRGMKEVLSDPNRHFLTKYIWEY  506
+
+Query  130  F  130
+             
+Sbjct  507  N  507
+
+
+ Score = 52.2 bits (123),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 20/140 (14%), Positives = 42/140 (30%), Gaps = 15/140 (11%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQ---------  56
+            +  W   +        K        +       +    +     ++  P +         
+Sbjct  279  LNKWVTDKFQ-PESVLKKLKLDRDLMNALSDPTRHTLTSYIAVFNTRNPGKKASFIGTLS  337
+
+Query  57   -VYSKLGLTK-LGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLG---A  111
+              Y    +   L A++++    ++  +     L  W N + S D V+  L+L        
+Sbjct  338  AHYGDEMVANVLIAASRNGNTRRMANQLRTDQLSDWLNNQKSADEVFSLLKLRADLPNID  397
+
+Query  112  KAPQSPSYPMYEKYLQTFFR  131
+             A  S    + E Y++ F R
+Sbjct  398  GALASGKLKLLEDYIKLFNR  417
+
+
+ Score = 45.6 bits (106),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 16/79 (20%), Positives = 30/79 (38%), Gaps = 4/79 (5%)
+
+Query  57   VYSKLGLTKLGASAKSS----PNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAK  112
+             Y    + K   +A+ +     + +   +   A L  W +   S D V+  L+L      
+Sbjct  154  HYGDDAVAKALVTAQKTVQSDDDVKTIWRLRNAQLSSWFSSDKSVDDVFTLLKLRHDDYL  213
+
+Query  113  APQSPSYPMYEKYLQTFFR  131
+            A  SP   + + Y++   R
+Sbjct  214  ALASPKMEVLDDYMKLINR  232
+
+
+ Score = 42.5 bits (98),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 13/71 (18%), Positives = 23/71 (32%), Gaps = 1/71 (1%)
+
+Query  57   VYSKLGLTKLGASAKSSP-NYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQ  115
+             Y    + +  A AK      +         L+ W +   S D V+  LR+         
+Sbjct  524  HYGDDVVARALAVAKGDSGLARTAAILQRQQLEGWLSSGKSADDVFTLLRIGADDFLPLN  583
+
+Query  116  SPSYPMYEKYL  126
+            S +    E ++
+Sbjct  584  SQNLETLEDFV  594
+
+
+> sp|D0N158|RD25_PHYIT RxLR effector protein PexRD25 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PexRD25 PE=2 SV=1
+Length=305
+
+ Score = 62.2 bits (149),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 18/143 (13%), Positives = 40/143 (28%), Gaps = 21/143 (15%)
+
+Query  5    TVQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSS-------------S  51
+            T+Q W   +  +            A    +  ++   +++   K +             +
+Sbjct  77   TLQRWAANK-KSPQHALIRLDLDNAGKDLFTKAKFADWVSFMTKRNPQNAEAAMLSALMT  135
+
+Query  52   VYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLD---K  108
+             Y D V S +    L A+ K+     +        L+ W     + D V+    L     
+Sbjct  136  RYSDDVLSGM----LIAAKKAPDTKTIATNLQIQQLRGWMKKGKTADDVFNLFNLKGKAT  191
+
+Query  109  LGAKAPQSPSYPMYEKYLQTFFR  131
+                      +  +  Y+    +
+Sbjct  192  SLDDLVSDGQFAPWVTYVTALNK  214
+
+
+ Score = 39.5 bits (90),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 13/63 (21%), Positives = 20/63 (32%), Gaps = 0/63 (0%)
+
+Query  64   TKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYE  123
+             +   +           K T+  LQRW   K SP      L LD  G        +  + 
+Sbjct  55   ERGLPTVIEKTKTLFSTKVTDKTLQRWAANKKSPQHALIRLDLDNAGKDLFTKAKFADWV  114
+
+Query  124  KYL  126
+             ++
+Sbjct  115  SFM  117
+
+
+> sp|D0NBE6|RD54_PHYIT RxLR effector protein 54 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PexRD54 PE=1 SV=1
+Length=381
+
+ Score = 47.5 bits (111),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 21/132 (16%), Positives = 42/132 (32%), Gaps = 18/132 (14%)
+
+Query  17   KLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNY  76
+                  + +  + A K        ++L       +   +Q +S L +  L     S    
+Sbjct  113  PRELFGVLSLGKRAAKLDDNPDFVQWLRLVKDFRANNGNQAFSDLDIYYLLLKTNSPEQL  172
+
+Query  77   QLY--------------EKYTEALLQRW----TNFKASPDTVYKSLRLDKLGAKAPQSPS  118
+            +L                   ++L   W          P  VY +LRL   G K   +P 
+Sbjct  173  KLLFETLRHTPGMTKIGASMEKSLSGNWIRKALEQDTYPTIVYNTLRLKDAGTKLDDTPM  232
+
+Query  119  YPMYEKYLQTFF  130
+            +  + +Y++ ++
+Sbjct  233  FRQWLEYVEKYW  244
+
+
+ Score = 39.8 bits (91),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 23/140 (16%), Positives = 45/140 (32%), Gaps = 27/140 (19%)
+
+Query  17   KLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK--------------LG  62
+              +       K+A  K        ++L    K  +      +                  
+Sbjct  211  PTIVYNTLRLKDAGTKLDDTPMFRQWLEYVEKYWNKNAGAFFGDTQMLTLFQKTMTEEED  270
+
+Query  63   LTKLGASAKSSP-NYQLYEKYTEALL-----------QRWTNFKASPDTVYKSLRL-DKL  109
+            + KL    +++P      +K    LL             W   + +P+ V++ LRL +K 
+Sbjct  271  IIKLVHMLRNNPGMKSHADKLERYLLLTSESSHKTMADVWLKARETPEEVFRILRLAEKQ  330
+
+Query  110  GAKAPQSPSYPMYEKYLQTF  129
+             A A  +    ++ +Y QT+
+Sbjct  331  TAAADDNRMLNLWLRYTQTY  350
+
+
+ Score = 39.8 bits (91),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 16/83 (19%), Positives = 31/83 (37%), Gaps = 2/83 (2%)
+
+Query  50   SSVYPDQVYSKLGLTKLGASAKSSPNYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKL  109
+            ++   ++      L K+           L     EA L+ W   +  P  ++  L L K 
+Sbjct  68   TAGNDEERVGPSWLAKVDGLMHKMVTSSLSA--EEAQLKVWIQSQIHPRELFGVLSLGKR  125
+
+Query  110  GAKAPQSPSYPMYEKYLQTFFRN  132
+             AK   +P +  + + ++ F  N
+Sbjct  126  AAKLDDNPDFVQWLRLVKDFRAN  148
+
+
+> sp|D0NRQ7|RXLRR_PHYIT RxLR effector protein PITG_15127 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PITG_15127 PE=2 
+SV=1
+Length=516
+
+ Score = 47.2 bits (110),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 15/72 (21%), Positives = 28/72 (39%), Gaps = 1/72 (1%)
+
+Query  57   VYSKLGLTKLGASAKSSP-NYQLYEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQ  115
+             Y    +     +A+ +       ++   A L  W   + S D V+  L+L   G  A  
+Sbjct  145  HYGDDAVANALMTAQRAGGEMNTIQRLRNAQLLSWLQKRKSVDDVFTLLKLRSDGYLALA  204
+
+Query  116  SPSYPMYEKYLQ  127
+            SP   + + Y++
+Sbjct  205  SPKMEVLDDYIK  216
+
+
+ Score = 44.5 bits (103),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 21/146 (14%), Positives = 47/146 (32%), Gaps = 20/146 (14%)
+
+Query  4    NTVQLWR-------MRRTANKLMNGKLTTQKEAALKKWMASQQ---DKFLAKWLKSSSVY  53
+            NT+Q  R       +++  +      L   +        + +    D ++   + + S  
+Sbjct  166  NTIQRLRNAQLLSWLQKRKSVDDVFTLLKLRSDGYLALASPKMEVLDDYIKLVISTKSTK  225
+
+Query  54   PDQVY-------SKLGLTKLGASAKSS-PNYQLYEKYTEALLQRWTN-FKASPDTVYKSL  104
+               +         K  L  + A A+      +L      AL+ +W       P  +YK L
+Sbjct  226  DSLLKTLTKGFGGKEQLATILARAREDVKTRELALALQSALINKWVRVDLLRPKHIYKKL  285
+
+Query  105  RLDKLGAKAPQSPSYPMYEKYLQTFF  130
+            RL++         +   +  ++  + 
+Sbjct  286  RLNRGLDALLDR-NVHTFGAFISMYN  310
+
+
+> sp|G4ZRQ7|AV331_PHYSP RxLR effector protein Avh331 OS=Phytophthora 
+sojae (strain P6497) OX=1094619 GN=Avh331 PE=3 SV=1
+Length=279
+
+ Score = 44.1 bits (102),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 20/111 (18%), Positives = 39/111 (35%), Gaps = 10/111 (9%)
+
+Query  19   MNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSKLGLTKLGASAKSSPNYQL  78
+            +   + T+  A   + + SQ          ++    ++  +   LTKLG  A +      
+Sbjct  72   LRSMMATEDMATSTRSLRSQ---ATNVDDDANVSIENRGMNPSVLTKLGEFASTLTAGNT  128
+
+Query  79   YEKYTEALLQRWTNFKASPDTVYKSLRLDKLGAKAPQSPSYPMYEKYLQTF  129
+              K        W      P + +K L LD  G +   +P    + K+ + +
+Sbjct  129  ANKL-------WLMADVDPKSAFKLLGLDMPGVRFIDNPKMLQWLKFTKAY  172
+
+
+> sp|D0NVB5|AVR1_PHYIT RxLR effector protein Avr1 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=Avr1 PE=1 SV=1
+Length=208
+
+ Score = 43.3 bits (100),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 22/94 (23%), Positives = 46/94 (49%), Gaps = 6/94 (6%)
+
+Query  40   DKFLAKWLKSSSVYPDQVYSKLGLTKL-GASAKSSPNYQLYEKYTEALLQRWTNFKASPD  98
+            ++ +  W+++     D V S+L L +L G S    PN++L++K+    +  W   KA+  
+Sbjct  68   NRKIESWIQNKVT-DDFVLSELKLVRLPGTSLADDPNFKLFQKFK---IGGWLEEKATTT  123
+
+Query  99   TVYKSLRLDKLG-AKAPQSPSYPMYEKYLQTFFR  131
+              +++L LD L   +  +   +  Y +Y+    +
+Sbjct  124  KAWENLGLDSLPFDQVSKIDEFKTYTQYVTVLNK  157
+
+
+> sp|D0N4Y1|RD18_PHYIT RxLR effector protein PexRD18 OS=Phytophthora 
+infestans (strain T30-4) OX=403677 GN=PexRD18 PE=2 SV=1
+Length=484
+
+ Score = 41.8 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 24/142 (17%), Positives = 45/142 (32%), Gaps = 19/142 (13%)
+
+Query  6    VQLWRMRRTANKLMNGKLTTQKEAALKKWMASQQDKFLAKWLKSSSVYPDQVYSK-----  60
+            ++ W   R  +           ++  K         +L       +   +Q +S      
+Sbjct  105  IKAWMKSRV-HPQAIFDTLRLAKSTTKLNDDPNLLLWLKLVAAFRAKNGNQAFSDLDLYY  163
+
+Query  61   --------LGLTKLGASAKSS-PNYQLYEKYTEALLQRWTNFKAS----PDTVYKSLRLD  107
+                      L  L  S + +    +L +   ++L   W +        P  VY +LRL 
+Sbjct  164  LLLKRSSGEELKILIESFRKTGALKELGKSMQKSLSGSWVSKTLQHETDPKIVYDTLRLQ  223
+
+Query  108  KLGAKAPQSPSYPMYEKYLQTF  129
+            + G K   SP +  +  Y Q +
+Sbjct  224  EAGTKLVDSPIFHQWLAYAQQY  245
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.118    0.294    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0362    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5018979020
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,139 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6UAY:B
+
+Length=244
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q09788|ASL1_SCHPO Alkali-sensitive linkage protein 1 OS=Schi...  76.3    1e-14
+
+
+> sp|Q09788|ASL1_SCHPO Alkali-sensitive linkage protein 1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=asl1 PE=1 SV=1
+Length=530
+
+ Score = 76.3 bits (186),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 64/221 (29%), Positives = 106/221 (48%), Gaps = 31/221 (14%)
+
+Query  17   GKRGLAY---NNINLLTAFEGGPFSWSYNWEPRPGGYTAGIEYVPMLWGPRGYGSWNADA  73
+            GKRGLA+    ++     F     +W YNW     G ++  EYV        + + +  +
+Sbjct  295  GKRGLAWIPGTDLGYSDNFVNKGINWYYNWGSYSSGLSSSFEYVL-----NQHDANSLSS  349
+
+Query  74   EAGIAAGSKNLLAFNEPDIASQAN-MSPEAAAAAYQKYMNPY---AARARLGSPAVSNGA  129
+             + +  G   ++ FNEPD+++  N +    AA+ Y +Y+ P     A   LGSPA+SN  
+Sbjct  350  ASSVFTGGATVIGFNEPDLSAAGNPIDAATAASYYLQYLTPLRESGAIGYLGSPAISN--  407
+
+Query  130  PPKGLGWMQGFLDVBAGNBKIDFLAVHWHGPSGNVDDFKRYVSEAIALGQKYGIGTVWVT  189
+               G  W+  F+     + KIDF+A HW+G   +  + + Y++        YG+  +W+T
+Sbjct  408  --VGEDWLSEFMSA-CSDCKIDFIACHWYGI--DFSNLQDYINSL----ANYGL-PIWLT  457
+
+Query  190  EFEGQGDEEAQVNFLKEV-------LPWLDSNAGVERYASF  223
+            EF     +++ +  L EV       L +LD +  VERY+ F
+Sbjct  458  EFACTNWDDSNLPSLDEVKTLMTSALGFLDGHGSVERYSWF  498
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17807758044
+Results from round 2
+
+
+Query= 6UAY:B
+
+Length=244
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q09788|ASL1_SCHPO Alkali-sensitive linkage protein 1 OS=Schi...  243     2e-76
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q09788|ASL1_SCHPO Alkali-sensitive linkage protein 1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=asl1 PE=1 SV=1
+Length=530
+
+ Score = 243 bits (620),  Expect = 2e-76, Method: Composition-based stats.
+ Identities = 64/221 (29%), Positives = 106/221 (48%), Gaps = 31/221 (14%)
+
+Query  17   GKRGLAY---NNINLLTAFEGGPFSWSYNWEPRPGGYTAGIEYVPMLWGPRGYGSWNADA  73
+            GKRGLA+    ++     F     +W YNW     G ++  EYV        + + +  +
+Sbjct  295  GKRGLAWIPGTDLGYSDNFVNKGINWYYNWGSYSSGLSSSFEYVL-----NQHDANSLSS  349
+
+Query  74   EAGIAAGSKNLLAFNEPDIASQAN-MSPEAAAAAYQKYMNPY---AARARLGSPAVSNGA  129
+             + +  G   ++ FNEPD+++  N +    AA+ Y +Y+ P     A   LGSPA+SN  
+Sbjct  350  ASSVFTGGATVIGFNEPDLSAAGNPIDAATAASYYLQYLTPLRESGAIGYLGSPAISN--  407
+
+Query  130  PPKGLGWMQGFLDVBAGNBKIDFLAVHWHGPSGNVDDFKRYVSEAIALGQKYGIGTVWVT  189
+               G  W+  F+     + KIDF+A HW+G   +  + + Y++        YG+  +W+T
+Sbjct  408  --VGEDWLSEFMSA-CSDCKIDFIACHWYGI--DFSNLQDYINSL----ANYGL-PIWLT  457
+
+Query  190  EFEGQGDEEAQVNFLKEV-------LPWLDSNAGVERYASF  223
+            EF     +++ +  L EV       L +LD +  VERY+ F
+Sbjct  458  EFACTNWDDSNLPSLDEVKTLMTSALGFLDGHGSVERYSWF  498
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0402    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17807758044
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

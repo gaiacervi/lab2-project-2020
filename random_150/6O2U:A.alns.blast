@@ -1,0 +1,463 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6O2U:A
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q96BY9|SARAF_HUMAN Store-operated calcium entry-associated r...  264     7e-89
+  sp|Q5R491|SARAF_PONAB Store-operated calcium entry-associated r...  260     2e-87
+  sp|Q08E24|SARAF_BOVIN Store-operated calcium entry-associated r...  239     4e-79
+  sp|Q8R3Q0|SARAF_MOUSE Store-operated calcium entry-associated r...  236     9e-78
+  sp|Q6AYN2|SARAF_RAT Store-operated calcium entry-associated reg...  232     3e-76
+  sp|F7C1E2|SARAF_XENTR Store-operated calcium entry-associated r...  156     9e-47
+  sp|Q0IHF9|SARAF_XENLA Store-operated calcium entry-associated r...  153     7e-46
+  sp|F1QPC3|SARAF_DANRE Store-operated calcium entry-associated r...  145     3e-42
+  sp|Q54P59|SARAF_DICDI Store-operated calcium entry-associated r...  91.3    1e-21
+
+
+> sp|Q96BY9|SARAF_HUMAN Store-operated calcium entry-associated 
+regulatory factor OS=Homo sapiens OX=9606 GN=SARAF PE=1 SV=1
+Length=339
+
+ Score = 264 bits (675),  Expect = 7e-89, Method: Compositional matrix adjust.
+ Identities = 128/132 (97%), Positives = 128/132 (97%), Gaps = 0/132 (0%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLK VGGTAG DSYTPKVIQ QNKGWDGYD
+Sbjct  33   DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKCVGGTAGCDSYTPKVIQCQNKGWDGYD  92
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+            VQWE KTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ
+Sbjct  93   VQWECKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  152
+
+Query  121  HGFASFSDYYYK  132
+            HGFASFSDYYYK
+Sbjct  153  HGFASFSDYYYK  164
+
+
+> sp|Q5R491|SARAF_PONAB Store-operated calcium entry-associated 
+regulatory factor OS=Pongo abelii OX=9601 GN=SARAF PE=2 SV=2
+Length=339
+
+ Score = 260 bits (665),  Expect = 2e-87, Method: Compositional matrix adjust.
+ Identities = 126/132 (95%), Positives = 127/132 (96%), Gaps = 0/132 (0%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            DP+ MLLRDVKALTLHYDRYTTSRRLDPIPQLK VGGTAG DSYTPKVIQ QNKGWDGYD
+Sbjct  33   DPECMLLRDVKALTLHYDRYTTSRRLDPIPQLKCVGGTAGCDSYTPKVIQCQNKGWDGYD  92
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+            VQWE KTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ
+Sbjct  93   VQWECKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  152
+
+Query  121  HGFASFSDYYYK  132
+            HGFASFSDYYYK
+Sbjct  153  HGFASFSDYYYK  164
+
+
+> sp|Q08E24|SARAF_BOVIN Store-operated calcium entry-associated 
+regulatory factor OS=Bos taurus OX=9913 GN=SARAF PE=2 SV=1
+Length=335
+
+ Score = 239 bits (610),  Expect = 4e-79, Method: Compositional matrix adjust.
+ Identities = 113/130 (87%), Positives = 123/130 (95%), Gaps = 0/130 (0%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYDVQ  62
+            DR+LLRD+KALTL+YDRYTTSRRL+PIPQLK VGGTAG DSYTPKVIQ QN+GWDGYDVQ
+Sbjct  35   DRILLRDIKALTLYYDRYTTSRRLEPIPQLKCVGGTAGCDSYTPKVIQCQNRGWDGYDVQ  94
+
+Query  63   WEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQHG  122
+            WE KTDLD+AYKFGKTVVSCEGYESSEDQYVLRGSCGLEY LDYTELGL+KL+ESGK+HG
+Sbjct  95   WECKTDLDVAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYQLDYTELGLKKLRESGKEHG  154
+
+Query  123  FASFSDYYYK  132
+            F SFS+YY K
+Sbjct  155  FNSFSNYYSK  164
+
+
+> sp|Q8R3Q0|SARAF_MOUSE Store-operated calcium entry-associated 
+regulatory factor OS=Mus musculus OX=10090 GN=Saraf PE=1 SV=2
+Length=334
+
+ Score = 236 bits (601),  Expect = 9e-78, Method: Compositional matrix adjust.
+ Identities = 115/132 (87%), Positives = 122/132 (92%), Gaps = 3/132 (2%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            DPDR+LLRDVKALTL+ DRYTTSRRLDPIPQLK VGGTAG ++YTP+VIQ QNKGWDGYD
+Sbjct  34   DPDRILLRDVKALTLYSDRYTTSRRLDPIPQLKCVGGTAGCEAYTPRVIQCQNKGWDGYD  93
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+            VQWE KTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGL+KLKESGK 
+Sbjct  94   VQWECKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLKKLKESGKH  153
+
+Query  121  HGFASFSDYYYK  132
+             G   FSDYY+K
+Sbjct  154  QG---FSDYYHK  162
+
+
+> sp|Q6AYN2|SARAF_RAT Store-operated calcium entry-associated regulatory 
+factor OS=Rattus norvegicus OX=10116 GN=Saraf PE=2 
+SV=1
+Length=334
+
+ Score = 232 bits (591),  Expect = 3e-76, Method: Compositional matrix adjust.
+ Identities = 112/132 (85%), Positives = 121/132 (92%), Gaps = 3/132 (2%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            +PDR+LLRDV+ALTL+ DRYTTSRRLDPIPQLK VGGTAG D+YTPKV+Q QNKGWDGYD
+Sbjct  34   NPDRILLRDVEALTLYSDRYTTSRRLDPIPQLKCVGGTAGCDAYTPKVVQCQNKGWDGYD  93
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+            VQWE KTDLDIAYKFGKTVVSCEGY+SSEDQY+LRGSCGLEYNLDYTELGL KLKESGK 
+Sbjct  94   VQWECKTDLDIAYKFGKTVVSCEGYDSSEDQYILRGSCGLEYNLDYTELGLSKLKESGKH  153
+
+Query  121  HGFASFSDYYYK  132
+                SFSDYY+K
+Sbjct  154  Q---SFSDYYHK  162
+
+
+> sp|F7C1E2|SARAF_XENTR Store-operated calcium entry-associated 
+regulatory factor OS=Xenopus tropicalis OX=8364 GN=saraf PE=3 
+SV=2
+Length=319
+
+ Score = 156 bits (394),  Expect = 9e-47, Method: Compositional matrix adjust.
+ Identities = 68/123 (55%), Positives = 94/123 (76%), Gaps = 0/123 (0%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYDVQ  62
+            +R+LLRD++A+TL+ DRYT +RR  P+PQLK +GG+AG  +  P+V+Q  N+GWDG+DVQ
+Sbjct  31   ERVLLRDIQAITLYADRYTNARRSAPVPQLKCIGGSAGCHTMVPQVVQCHNRGWDGFDVQ  90
+
+Query  63   WEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQHG  122
+            WE K D+D +Y+FGK  VSCEG++  ED YVLRGSCGLEY L+ TE G ++ ++  +  G
+Sbjct  91   WECKVDMDNSYRFGKVEVSCEGFDYPEDPYVLRGSCGLEYTLELTEEGRKRSQDGYRSGG  150
+
+Query  123  FAS  125
+            F S
+Sbjct  151  FGS  153
+
+
+> sp|Q0IHF9|SARAF_XENLA Store-operated calcium entry-associated 
+regulatory factor OS=Xenopus laevis OX=8355 GN=saraf PE=2 SV=2
+Length=303
+
+ Score = 153 bits (387),  Expect = 7e-46, Method: Compositional matrix adjust.
+ Identities = 67/123 (54%), Positives = 91/123 (74%), Gaps = 0/123 (0%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYDVQ  62
+            DR+LLRD++ +TL+ DRYT +RR  P+PQLK +GG AG  +  P+V+Q  N+GWDG DVQ
+Sbjct  28   DRVLLRDIQTITLYADRYTNARRSAPVPQLKCIGGNAGCHAMVPQVVQCHNRGWDGLDVQ  87
+
+Query  63   WEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQHG  122
+            WE + D+D +Y+FGK  VSCEG++  ED YVLRGSCGLEY L+ TE G ++ ++  +  G
+Sbjct  88   WECRVDMDNSYRFGKVEVSCEGFDFPEDPYVLRGSCGLEYTLELTEEGRKRTQDGYRSAG  147
+
+Query  123  FAS  125
+            F S
+Sbjct  148  FGS  150
+
+
+> sp|F1QPC3|SARAF_DANRE Store-operated calcium entry-associated 
+regulatory factor OS=Danio rerio OX=7955 GN=saraf PE=2 SV=1
+Length=345
+
+ Score = 145 bits (366),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 68/130 (52%), Positives = 91/130 (70%), Gaps = 4/130 (3%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYDVQ  62
+            + +LLRDV+ LTL+  RYTT+RR  P+PQL+ +GG+AG  S+TP+V+Q  N+G DG D Q
+Sbjct  25   EAVLLRDVQVLTLYRGRYTTARRSSPVPQLQCIGGSAGCGSFTPEVVQCYNRGSDGIDAQ  84
+
+Query  63   WEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQHG  122
+            WE K D+D  Y+FG+  VSCEGY S  D YVLRGSCGLEY L+ T  G Q+   S    G
+Sbjct  85   WECKADMDNLYRFGRVEVSCEGYNSPNDAYVLRGSCGLEYTLELTAEGKQQQGSS----G  140
+
+Query  123  FASFSDYYYK  132
+            F+ F+  +++
+Sbjct  141  FSGFASNFFQ  150
+
+
+> sp|Q54P59|SARAF_DICDI Store-operated calcium entry-associated 
+regulatory factor OS=Dictyostelium discoideum OX=44689 GN=saraf 
+PE=3 SV=1
+Length=320
+
+ Score = 91.3 bits (225),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 47/107 (44%), Positives = 63/107 (59%), Gaps = 1/107 (1%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGAD-SYTPKVIQBQNKGWDGYDV  61
+             ++LL+DV+ LTL     T +RR  PI Q++ +GGTA  +    PK IQ  N G +G DV
+Sbjct  37   SKILLKDVQVLTLRSGEMTKARRSSPIQQMECIGGTATKELELYPKTIQCYNMGSNGVDV  96
+
+Query  62   QWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTE  108
+            QW+ +  LD   + G   VSCEGY   ED Y+   SCG+ Y L+YT 
+Sbjct  97   QWKCEATLDSTVRLGTIDVSCEGYSYPEDPYITADSCGVFYQLEYTN  143
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.136    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5018979020
+Results from round 2
+
+
+Query= 6O2U:A
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q96BY9|SARAF_HUMAN Store-operated calcium entry-associated r...  236     1e-77
+  sp|Q5R491|SARAF_PONAB Store-operated calcium entry-associated r...  230     1e-75
+  sp|Q8R3Q0|SARAF_MOUSE Store-operated calcium entry-associated r...  225     1e-73
+  sp|Q08E24|SARAF_BOVIN Store-operated calcium entry-associated r...  225     2e-73
+  sp|Q6AYN2|SARAF_RAT Store-operated calcium entry-associated reg...  222     1e-72
+  sp|Q0IHF9|SARAF_XENLA Store-operated calcium entry-associated r...  212     6e-69
+  sp|F7C1E2|SARAF_XENTR Store-operated calcium entry-associated r...  210     7e-68
+  sp|F1QPC3|SARAF_DANRE Store-operated calcium entry-associated r...  193     8e-61
+  sp|Q54P59|SARAF_DICDI Store-operated calcium entry-associated r...  160     2e-48
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q96BY9|SARAF_HUMAN Store-operated calcium entry-associated 
+regulatory factor OS=Homo sapiens OX=9606 GN=SARAF PE=1 SV=1
+Length=339
+
+ Score = 236 bits (601),  Expect = 1e-77, Method: Composition-based stats.
+ Identities = 128/132 (97%), Positives = 128/132 (97%), Gaps = 0/132 (0%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLK VGGTAG DSYTPKVIQ QNKGWDGYD
+Sbjct  33   DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKCVGGTAGCDSYTPKVIQCQNKGWDGYD  92
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+            VQWE KTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ
+Sbjct  93   VQWECKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  152
+
+Query  121  HGFASFSDYYYK  132
+            HGFASFSDYYYK
+Sbjct  153  HGFASFSDYYYK  164
+
+
+> sp|Q5R491|SARAF_PONAB Store-operated calcium entry-associated 
+regulatory factor OS=Pongo abelii OX=9601 GN=SARAF PE=2 SV=2
+Length=339
+
+ Score = 230 bits (587),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 126/132 (95%), Positives = 127/132 (96%), Gaps = 0/132 (0%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            DP+ MLLRDVKALTLHYDRYTTSRRLDPIPQLK VGGTAG DSYTPKVIQ QNKGWDGYD
+Sbjct  33   DPECMLLRDVKALTLHYDRYTTSRRLDPIPQLKCVGGTAGCDSYTPKVIQCQNKGWDGYD  92
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+            VQWE KTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ
+Sbjct  93   VQWECKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  152
+
+Query  121  HGFASFSDYYYK  132
+            HGFASFSDYYYK
+Sbjct  153  HGFASFSDYYYK  164
+
+
+> sp|Q8R3Q0|SARAF_MOUSE Store-operated calcium entry-associated 
+regulatory factor OS=Mus musculus OX=10090 GN=Saraf PE=1 SV=2
+Length=334
+
+ Score = 225 bits (574),  Expect = 1e-73, Method: Composition-based stats.
+ Identities = 115/132 (87%), Positives = 122/132 (92%), Gaps = 3/132 (2%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            DPDR+LLRDVKALTL+ DRYTTSRRLDPIPQLK VGGTAG ++YTP+VIQ QNKGWDGYD
+Sbjct  34   DPDRILLRDVKALTLYSDRYTTSRRLDPIPQLKCVGGTAGCEAYTPRVIQCQNKGWDGYD  93
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+            VQWE KTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGL+KLKESGK 
+Sbjct  94   VQWECKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLKKLKESGKH  153
+
+Query  121  HGFASFSDYYYK  132
+             G   FSDYY+K
+Sbjct  154  QG---FSDYYHK  162
+
+
+> sp|Q08E24|SARAF_BOVIN Store-operated calcium entry-associated 
+regulatory factor OS=Bos taurus OX=9913 GN=SARAF PE=2 SV=1
+Length=335
+
+ Score = 225 bits (573),  Expect = 2e-73, Method: Composition-based stats.
+ Identities = 113/130 (87%), Positives = 123/130 (95%), Gaps = 0/130 (0%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYDVQ  62
+            DR+LLRD+KALTL+YDRYTTSRRL+PIPQLK VGGTAG DSYTPKVIQ QN+GWDGYDVQ
+Sbjct  35   DRILLRDIKALTLYYDRYTTSRRLEPIPQLKCVGGTAGCDSYTPKVIQCQNRGWDGYDVQ  94
+
+Query  63   WEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQHG  122
+            WE KTDLD+AYKFGKTVVSCEGYESSEDQYVLRGSCGLEY LDYTELGL+KL+ESGK+HG
+Sbjct  95   WECKTDLDVAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYQLDYTELGLKKLRESGKEHG  154
+
+Query  123  FASFSDYYYK  132
+            F SFS+YY K
+Sbjct  155  FNSFSNYYSK  164
+
+
+> sp|Q6AYN2|SARAF_RAT Store-operated calcium entry-associated regulatory 
+factor OS=Rattus norvegicus OX=10116 GN=Saraf PE=2 
+SV=1
+Length=334
+
+ Score = 222 bits (567),  Expect = 1e-72, Method: Composition-based stats.
+ Identities = 112/132 (85%), Positives = 121/132 (92%), Gaps = 3/132 (2%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            +PDR+LLRDV+ALTL+ DRYTTSRRLDPIPQLK VGGTAG D+YTPKV+Q QNKGWDGYD
+Sbjct  34   NPDRILLRDVEALTLYSDRYTTSRRLDPIPQLKCVGGTAGCDAYTPKVVQCQNKGWDGYD  93
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+            VQWE KTDLDIAYKFGKTVVSCEGY+SSEDQY+LRGSCGLEYNLDYTELGL KLKESGK 
+Sbjct  94   VQWECKTDLDIAYKFGKTVVSCEGYDSSEDQYILRGSCGLEYNLDYTELGLSKLKESGKH  153
+
+Query  121  HGFASFSDYYYK  132
+                SFSDYY+K
+Sbjct  154  Q---SFSDYYHK  162
+
+
+> sp|Q0IHF9|SARAF_XENLA Store-operated calcium entry-associated 
+regulatory factor OS=Xenopus laevis OX=8355 GN=saraf PE=2 SV=2
+Length=303
+
+ Score = 212 bits (540),  Expect = 6e-69, Method: Composition-based stats.
+ Identities = 67/123 (54%), Positives = 91/123 (74%), Gaps = 0/123 (0%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYDVQ  62
+            DR+LLRD++ +TL+ DRYT +RR  P+PQLK +GG AG  +  P+V+Q  N+GWDG DVQ
+Sbjct  28   DRVLLRDIQTITLYADRYTNARRSAPVPQLKCIGGNAGCHAMVPQVVQCHNRGWDGLDVQ  87
+
+Query  63   WEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQHG  122
+            WE + D+D +Y+FGK  VSCEG++  ED YVLRGSCGLEY L+ TE G ++ ++  +  G
+Sbjct  88   WECRVDMDNSYRFGKVEVSCEGFDFPEDPYVLRGSCGLEYTLELTEEGRKRTQDGYRSAG  147
+
+Query  123  FAS  125
+            F S
+Sbjct  148  FGS  150
+
+
+> sp|F7C1E2|SARAF_XENTR Store-operated calcium entry-associated 
+regulatory factor OS=Xenopus tropicalis OX=8364 GN=saraf PE=3 
+SV=2
+Length=319
+
+ Score = 210 bits (534),  Expect = 7e-68, Method: Composition-based stats.
+ Identities = 68/123 (55%), Positives = 94/123 (76%), Gaps = 0/123 (0%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYDVQ  62
+            +R+LLRD++A+TL+ DRYT +RR  P+PQLK +GG+AG  +  P+V+Q  N+GWDG+DVQ
+Sbjct  31   ERVLLRDIQAITLYADRYTNARRSAPVPQLKCIGGSAGCHTMVPQVVQCHNRGWDGFDVQ  90
+
+Query  63   WEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQHG  122
+            WE K D+D +Y+FGK  VSCEG++  ED YVLRGSCGLEY L+ TE G ++ ++  +  G
+Sbjct  91   WECKVDMDNSYRFGKVEVSCEGFDYPEDPYVLRGSCGLEYTLELTEEGRKRSQDGYRSGG  150
+
+Query  123  FAS  125
+            F S
+Sbjct  151  FGS  153
+
+
+> sp|F1QPC3|SARAF_DANRE Store-operated calcium entry-associated 
+regulatory factor OS=Danio rerio OX=7955 GN=saraf PE=2 SV=1
+Length=345
+
+ Score = 193 bits (490),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 68/132 (52%), Positives = 92/132 (70%), Gaps = 4/132 (3%)
+
+Query  1    DPDRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGADSYTPKVIQBQNKGWDGYD  60
+            + + +LLRDV+ LTL+  RYTT+RR  P+PQL+ +GG+AG  S+TP+V+Q  N+G DG D
+Sbjct  23   NDEAVLLRDVQVLTLYRGRYTTARRSSPVPQLQCIGGSAGCGSFTPEVVQCYNRGSDGID  82
+
+Query  61   VQWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQKLKESGKQ  120
+             QWE K D+D  Y+FG+  VSCEGY S  D YVLRGSCGLEY L+ T  G Q+   S   
+Sbjct  83   AQWECKADMDNLYRFGRVEVSCEGYNSPNDAYVLRGSCGLEYTLELTAEGKQQQGSS---  139
+
+Query  121  HGFASFSDYYYK  132
+             GF+ F+  +++
+Sbjct  140  -GFSGFASNFFQ  150
+
+
+> sp|Q54P59|SARAF_DICDI Store-operated calcium entry-associated 
+regulatory factor OS=Dictyostelium discoideum OX=44689 GN=saraf 
+PE=3 SV=1
+Length=320
+
+ Score = 160 bits (406),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 48/112 (43%), Positives = 65/112 (58%), Gaps = 1/112 (1%)
+
+Query  3    DRMLLRDVKALTLHYDRYTTSRRLDPIPQLKAVGGTAGAD-SYTPKVIQBQNKGWDGYDV  61
+             ++LL+DV+ LTL     T +RR  PI Q++ +GGTA  +    PK IQ  N G +G DV
+Sbjct  37   SKILLKDVQVLTLRSGEMTKARRSSPIQQMECIGGTATKELELYPKTIQCYNMGSNGVDV  96
+
+Query  62   QWEBKTDLDIAYKFGKTVVSCEGYESSEDQYVLRGSCGLEYNLDYTELGLQK  113
+            QW+ +  LD   + G   VSCEGY   ED Y+   SCG+ Y L+YT    +K
+Sbjct  97   QWKCEATLDSTVRLGTIDVSCEGYSYPEDPYITADSCGVFYQLEYTNEQRRK  148
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0411    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5018979020
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

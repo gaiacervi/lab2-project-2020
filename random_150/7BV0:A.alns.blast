@@ -1,0 +1,561 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 7BV0:A
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q00270|CAPSD_HEVRH Capsid protein (Fragment) OS=Hepatitis E ...  138     4e-38
+  sp|Q81871|CAPSD_HEVCH Secreted protein ORF2 OS=Hepatitis E viru...  139     6e-38
+  sp|Q68985|CAPSD_HEVHY Secreted protein ORF2 OS=Hepatitis E viru...  139     6e-38
+  sp|P33426|CAPSD_HEVPA Secreted protein ORF2 OS=Hepatitis E viru...  139     6e-38
+  sp|P29326|CAPSD_HEVBU Secreted protein ORF2 OS=Hepatitis E viru...  138     1e-37
+  sp|Q04611|CAPSD_HEVMY Secreted protein ORF2 OS=Hepatitis E viru...  138     1e-37
+  sp|Q6J8F7|CAPSD_HEVMG Capsid protein OS=Hepatitis E virus genot...  138     2e-37
+  sp|Q9YLQ9|CAPSD_HEVUS Capsid protein OS=Hepatitis E virus genot...  137     2e-37
+  sp|Q03500|CAPSD_HEVME Capsid protein OS=Hepatitis E virus genot...  136     8e-37
+  sp|Q9IVZ8|CAPSD_HEVCT Capsid protein OS=Hepatitis E virus genot...  134     3e-36
+  sp|Q913Y7|CAPSD_AHEV Capsid protein OS=Avian hepatitis E virus ...  50.8    8e-07
+
+
+> sp|Q00270|CAPSD_HEVRH Capsid protein (Fragment) OS=Hepatitis 
+E virus (isolate Rhesus/HT-4) OX=31766 GN=ORF2 PE=1 SV=1
+Length=485
+
+ Score = 138 bits (347),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 69/149 (46%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  326  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTAPVYVSDSVTLVNVATGAQAVARSLDWT  385
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  386  KVTLDGRPLSTIQQYPKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  445
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  + P+
+Sbjct  446  R--VAISTYTTSLGAGPVSISAVAVLAPH  472
+
+
+> sp|Q81871|CAPSD_HEVCH Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/China/HeBei/1987) OX=652674 GN=ORF2 
+PE=1 SV=1
+Length=660
+
+ Score = 139 bits (350),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 69/149 (46%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTTQQYSKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  + P+
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLAPH  604
+
+
+> sp|Q68985|CAPSD_HEVHY Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/India/Hyderabad) OX=512346 GN=ORF2 
+PE=1 SV=1
+Length=660
+
+ Score = 139 bits (350),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 68/149 (46%), Positives = 98/149 (66%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L        +++ LPL GK++FW+ GTT+ GY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTIQQYSKIFFVLPLRGKLSFWEAGTTRPGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  +GP+
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLGPH  604
+
+
+> sp|P33426|CAPSD_HEVPA Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/Pakistan/Sar-55) OX=33774 GN=ORF2 
+PE=1 SV=1
+Length=660
+
+ Score = 139 bits (350),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 70/151 (46%), Positives = 98/151 (65%), Gaps = 2/151 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTIQQYSKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPNPV  151
+            +  + ISTYTT LGAGPV+I+ +  + P+ V
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLAPHSV  606
+
+
+> sp|P29326|CAPSD_HEVBU Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/Burma) OX=31767 GN=ORF2 PE=1 SV=1
+Length=660
+
+ Score = 138 bits (348),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 69/149 (46%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTIQQYSKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  + P+
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLAPH  604
+
+
+> sp|Q04611|CAPSD_HEVMY Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/Myanmar/HEVNE8L) OX=31769 GN=ORF2 
+PE=3 SV=1
+Length=660
+
+ Score = 138 bits (348),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 69/149 (46%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTAPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTIQQYPKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  + P+
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLAPH  604
+
+
+> sp|Q6J8F7|CAPSD_HEVMG Capsid protein OS=Hepatitis E virus genotype 
+3 (isolate Swine/United States/swUS1) OX=512345 GN=ORF2 
+PE=3 SV=1
+Length=660
+
+ Score = 138 bits (347),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 67/149 (45%), Positives = 98/149 (66%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY Q+     ++P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQTTYGSSTNPMYVSDTVTLVNVATGAQAVARSLDWS  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         +Y LPL GK++FW+ GTTKAGY YNYNTT SD + +    G 
+Sbjct  518  KVTLDGRPLTTIQQYSKTFYVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGP +I+ +G + P+
+Sbjct  578  R--VAISTYTTSLGAGPTSISAVGVLAPH  604
+
+
+> sp|Q9YLQ9|CAPSD_HEVUS Capsid protein OS=Hepatitis E virus genotype 
+3 (isolate Human/United States/US2) OX=509615 GN=ORF2 
+PE=3 SV=1
+Length=660
+
+ Score = 137 bits (346),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 67/149 (45%), Positives = 98/149 (66%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY Q+     ++P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQTTYGSSTNPMYVSDTVTLVNVATGAQAVARSLDWS  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         +Y LPL GK++FW+ GTTKAGY YNYNTT SD + +    G 
+Sbjct  518  KVTLDGRPLTTIQQYSKTFYVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGP +I+ +G + P+
+Sbjct  578  R--VAISTYTTSLGAGPTSISAVGVLAPH  604
+
+
+> sp|Q03500|CAPSD_HEVME Capsid protein OS=Hepatitis E virus genotype 
+2 (isolate Human/Mexico) OX=31768 GN=ORF2 PE=3 SV=1
+Length=659
+
+ Score = 136 bits (342),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 67/149 (45%), Positives = 94/149 (63%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  457  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYISDSVTLVNVATGAQAVARSLDWS  516
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD + +    G 
+Sbjct  517  KVTLDGRPLPTVEQYSKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGH  576
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV I+    + P 
+Sbjct  577  R--VAISTYTTRLGAGPVAISAAAVLAPR  603
+
+
+> sp|Q9IVZ8|CAPSD_HEVCT Capsid protein OS=Hepatitis E virus genotype 
+4 (isolate Human/China/T1) OX=509627 GN=ORF2 PE=1 SV=1
+Length=672
+
+ Score = 134 bits (338),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 65/149 (44%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY Q+     ++P Y S+  T +NVATG +    S+ W 
+Sbjct  470  PSRPFSVLRANDVLWLSLTAAEYDQTTYGSSTNPMYVSDTVTFVNVATGAQGVSRSLDWS  529
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         +Y LPL GK++FW+ GTTKAGY YNYNTT SD + +    G 
+Sbjct  530  KVTLDGRPLTTIQQYSKTFYVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGH  589
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LG+GPV+++ +G + P+
+Sbjct  590  R--VCISTYTTNLGSGPVSVSAVGVLAPH  616
+
+
+> sp|Q913Y7|CAPSD_AHEV Capsid protein OS=Avian hepatitis E virus 
+(isolate Chicken/California/Meng) OX=516993 GN=ORF2 PE=3 SV=1
+Length=606
+
+ Score = 50.8 bits (120),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 47/145 (32%), Positives = 70/145 (48%), Gaps = 22/145 (15%)
+
+Query  1    PARPITNWRSGDVVWVT-----LPSAEYAQSQSAMGSHPAYWSEEATII--NVATGQRAA  53
+            P R +   RSGDV+ +T     + +AE      + G    Y+   +T++  N+ TG RA 
+Sbjct  403  PKRALGTLRSGDVLRITGSMQYVTNAELLPQSVSQG----YFGAGSTMMVHNLITGVRAP  458
+
+Query  54   VSSIKWDQVTLNG---KALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSD  110
+             SS+ W + T++G   K +   + S   +  LP  GK   W  G   AGY Y YN+T  +
+Sbjct  459  ASSVDWTKATVDGVQVKTVDASSGSNR-FAALPAFGKPAVW--GPQGAGYFYQYNSTHQE  515
+
+Query  111  SLWVWW-DGGSKAYLYISTYTTMLG  134
+              W+++   GS    Y   YT MLG
+Sbjct  516  --WIYFLQNGSSVVWY--AYTNMLG  536
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.129    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6272168848
+Results from round 2
+
+
+Query= 7BV0:A
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q00270|CAPSD_HEVRH Capsid protein (Fragment) OS=Hepatitis E ...  228     8e-73
+  sp|P33426|CAPSD_HEVPA Secreted protein ORF2 OS=Hepatitis E viru...  231     3e-72
+  sp|Q04611|CAPSD_HEVMY Secreted protein ORF2 OS=Hepatitis E viru...  230     7e-72
+  sp|P29326|CAPSD_HEVBU Secreted protein ORF2 OS=Hepatitis E viru...  230     8e-72
+  sp|Q03500|CAPSD_HEVME Capsid protein OS=Hepatitis E virus genot...  230     1e-71
+  sp|Q9YLQ9|CAPSD_HEVUS Capsid protein OS=Hepatitis E virus genot...  229     2e-71
+  sp|Q81871|CAPSD_HEVCH Secreted protein ORF2 OS=Hepatitis E viru...  229     2e-71
+  sp|Q6J8F7|CAPSD_HEVMG Capsid protein OS=Hepatitis E virus genot...  229     2e-71
+  sp|Q68985|CAPSD_HEVHY Secreted protein ORF2 OS=Hepatitis E viru...  226     2e-70
+  sp|Q9IVZ8|CAPSD_HEVCT Capsid protein OS=Hepatitis E virus genot...  224     2e-69
+  sp|Q913Y7|CAPSD_AHEV Capsid protein OS=Avian hepatitis E virus ...  139     6e-38
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q00270|CAPSD_HEVRH Capsid protein (Fragment) OS=Hepatitis 
+E virus (isolate Rhesus/HT-4) OX=31766 GN=ORF2 PE=1 SV=1
+Length=485
+
+ Score = 228 bits (582),  Expect = 8e-73, Method: Composition-based stats.
+ Identities = 69/149 (46%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  326  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTAPVYVSDSVTLVNVATGAQAVARSLDWT  385
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  386  KVTLDGRPLSTIQQYPKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  445
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  + P+
+Sbjct  446  R--VAISTYTTSLGAGPVSISAVAVLAPH  472
+
+
+> sp|P33426|CAPSD_HEVPA Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/Pakistan/Sar-55) OX=33774 GN=ORF2 
+PE=1 SV=1
+Length=660
+
+ Score = 231 bits (588),  Expect = 3e-72, Method: Composition-based stats.
+ Identities = 70/151 (46%), Positives = 98/151 (65%), Gaps = 2/151 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTIQQYSKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPNPV  151
+            +  + ISTYTT LGAGPV+I+ +  + P+ V
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLAPHSV  606
+
+
+> sp|Q04611|CAPSD_HEVMY Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/Myanmar/HEVNE8L) OX=31769 GN=ORF2 
+PE=3 SV=1
+Length=660
+
+ Score = 230 bits (586),  Expect = 7e-72, Method: Composition-based stats.
+ Identities = 69/149 (46%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTAPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTIQQYPKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  + P+
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLAPH  604
+
+
+> sp|P29326|CAPSD_HEVBU Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/Burma) OX=31767 GN=ORF2 PE=1 SV=1
+Length=660
+
+ Score = 230 bits (586),  Expect = 8e-72, Method: Composition-based stats.
+ Identities = 69/149 (46%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTIQQYSKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  + P+
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLAPH  604
+
+
+> sp|Q03500|CAPSD_HEVME Capsid protein OS=Hepatitis E virus genotype 
+2 (isolate Human/Mexico) OX=31768 GN=ORF2 PE=3 SV=1
+Length=659
+
+ Score = 230 bits (585),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 67/149 (45%), Positives = 94/149 (63%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  457  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYISDSVTLVNVATGAQAVARSLDWS  516
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD + +    G 
+Sbjct  517  KVTLDGRPLPTVEQYSKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGH  576
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV I+    + P 
+Sbjct  577  R--VAISTYTTRLGAGPVAISAAAVLAPR  603
+
+
+> sp|Q9YLQ9|CAPSD_HEVUS Capsid protein OS=Hepatitis E virus genotype 
+3 (isolate Human/United States/US2) OX=509615 GN=ORF2 
+PE=3 SV=1
+Length=660
+
+ Score = 229 bits (584),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 67/149 (45%), Positives = 98/149 (66%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY Q+     ++P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQTTYGSSTNPMYVSDTVTLVNVATGAQAVARSLDWS  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         +Y LPL GK++FW+ GTTKAGY YNYNTT SD + +    G 
+Sbjct  518  KVTLDGRPLTTIQQYSKTFYVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGP +I+ +G + P+
+Sbjct  578  R--VAISTYTTSLGAGPTSISAVGVLAPH  604
+
+
+> sp|Q81871|CAPSD_HEVCH Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/China/HeBei/1987) OX=652674 GN=ORF2 
+PE=1 SV=1
+Length=660
+
+ Score = 229 bits (583),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 69/149 (46%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         ++ LPL GK++FW+ GTTKAGY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTTQQYSKTFFVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  + P+
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLAPH  604
+
+
+> sp|Q6J8F7|CAPSD_HEVMG Capsid protein OS=Hepatitis E virus genotype 
+3 (isolate Swine/United States/swUS1) OX=512345 GN=ORF2 
+PE=3 SV=1
+Length=660
+
+ Score = 229 bits (583),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 67/149 (45%), Positives = 98/149 (66%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY Q+     ++P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQTTYGSSTNPMYVSDTVTLVNVATGAQAVARSLDWS  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         +Y LPL GK++FW+ GTTKAGY YNYNTT SD + +    G 
+Sbjct  518  KVTLDGRPLTTIQQYSKTFYVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGP +I+ +G + P+
+Sbjct  578  R--VAISTYTTSLGAGPTSISAVGVLAPH  604
+
+
+> sp|Q68985|CAPSD_HEVHY Secreted protein ORF2 OS=Hepatitis E virus 
+genotype 1 (isolate Human/India/Hyderabad) OX=512346 GN=ORF2 
+PE=1 SV=1
+Length=660
+
+ Score = 226 bits (576),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 68/149 (46%), Positives = 98/149 (66%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY QS     + P Y S+  T++NVATG +A   S+ W 
+Sbjct  458  PSRPFSVLRANDVLWLSLTAAEYDQSTYGSSTGPVYVSDSVTLVNVATGAQAVARSLDWT  517
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L        +++ LPL GK++FW+ GTT+ GY YNYNTT SD L V    G 
+Sbjct  518  KVTLDGRPLSTIQQYSKIFFVLPLRGKLSFWEAGTTRPGYPYNYNTTASDQLLVENAAGH  577
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LGAGPV+I+ +  +GP+
+Sbjct  578  R--VAISTYTTSLGAGPVSISAVAVLGPH  604
+
+
+> sp|Q9IVZ8|CAPSD_HEVCT Capsid protein OS=Hepatitis E virus genotype 
+4 (isolate Human/China/T1) OX=509627 GN=ORF2 PE=1 SV=1
+Length=672
+
+ Score = 224 bits (570),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 65/149 (44%), Positives = 97/149 (65%), Gaps = 2/149 (1%)
+
+Query  1    PARPITNWRSGDVVWVTLPSAEYAQSQSAMGSHPAYWSEEATIINVATGQRAAVSSIKWD  60
+            P+RP +  R+ DV+W++L +AEY Q+     ++P Y S+  T +NVATG +    S+ W 
+Sbjct  470  PSRPFSVLRANDVLWLSLTAAEYDQTTYGSSTNPMYVSDTVTFVNVATGAQGVSRSLDWS  529
+
+Query  61   QVTLNGKALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSDSLWVWWDGGS  120
+            +VTL+G+ L         +Y LPL GK++FW+ GTTKAGY YNYNTT SD + +    G 
+Sbjct  530  KVTLDGRPLTTIQQYSKTFYVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGH  589
+
+Query  121  KAYLYISTYTTMLGAGPVNITGLGAVGPN  149
+            +  + ISTYTT LG+GPV+++ +G + P+
+Sbjct  590  R--VCISTYTTNLGSGPVSVSAVGVLAPH  616
+
+
+> sp|Q913Y7|CAPSD_AHEV Capsid protein OS=Avian hepatitis E virus 
+(isolate Chicken/California/Meng) OX=516993 GN=ORF2 PE=3 SV=1
+Length=606
+
+ Score = 139 bits (349),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 47/145 (32%), Positives = 70/145 (48%), Gaps = 22/145 (15%)
+
+Query  1    PARPITNWRSGDVVWVT-----LPSAEYAQSQSAMGSHPAYWSEEATII--NVATGQRAA  53
+            P R +   RSGDV+ +T     + +AE      + G    Y+   +T++  N+ TG RA 
+Sbjct  403  PKRALGTLRSGDVLRITGSMQYVTNAELLPQSVSQG----YFGAGSTMMVHNLITGVRAP  458
+
+Query  54   VSSIKWDQVTLNG---KALHKETHSGLVYYQLPLMGKINFWQQGTTKAGYTYNYNTTDSD  110
+             SS+ W + T++G   K +   + S   +  LP  GK   W  G   AGY Y YN+T  +
+Sbjct  459  ASSVDWTKATVDGVQVKTVDASSGSNR-FAALPAFGKPAVW--GPQGAGYFYQYNSTHQE  515
+
+Query  111  SLWVWW-DGGSKAYLYISTYTTMLG  134
+              W+++   GS    Y   YT MLG
+Sbjct  516  --WIYFLQNGSSVVWY--AYTNMLG  536
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.123    0.341    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0377    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6272168848
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2649 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5XV0:E
+
+Length=223
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O28272|RIB7_ARCFU 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  186     2e-58
+  sp|O26337|RIB7_METTH 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  177     8e-55
+  sp|Q58085|RIB7_METJA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  174     2e-53
+  sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Ac...  140     9e-39
+  sp|O66747|RIB7_AQUAE 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  133     2e-37
+  sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Ba...  95.1    9e-22
+  sp|P95872|RIB7_SACS2 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  92.0    1e-21
+  sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Ch...  92.8    7e-21
+  sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Ch...  90.5    5e-20
+  sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Ba...  87.8    4e-19
+  sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Ch...  85.5    3e-18
+  sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Es...  83.2    2e-17
+  sp|K7WIZ6|RIBRX_MAIZE Riboflavin biosynthesis protein PYRR, chl...  83.6    3e-17
+  sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aq...  82.4    3e-17
+  sp|Q9STY4|RIBRX_ARATH Riboflavin biosynthesis protein PYRR, chl...  78.2    2e-15
+  sp|Q8K9A3|RIBD2_BUCAP 5-amino-6-(5-phosphoribosylamino)uracil r...  73.6    8e-15
+  sp|P33312|RIB7_YEAST 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  67.4    2e-12
+  sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Bu...  68.6    2e-12
+  sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Ha...  68.6    3e-12
+  sp|Q6BII9|RIB7_DEBHA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  67.0    4e-12
+  sp|Q6CJ61|RIB7_KLULA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  66.6    5e-12
+  sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Sy...  66.2    1e-11
+  sp|Q9P4B8|RIB7_KLUMA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  63.2    9e-11
+  sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Co...  63.5    1e-10
+  sp|Q757H6|RIB7_ASHGO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  62.4    2e-10
+  sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=My...  62.8    2e-10
+  sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=My...  62.8    2e-10
+  sp|Q6FU96|RIB7_CANGA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  60.8    5e-10
+  sp|P57534|RIBD2_BUCAI 5-amino-6-(5-phosphoribosylamino)uracil r...  47.8    1e-05
+  sp|Q9P7L3|RIB7_SCHPO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  45.8    1e-04
+
+
+> sp|O28272|RIB7_ARCFU 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Archaeoglobus fulgidus (strain 
+ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 
+GN=AF_2007 PE=3 SV=1
+Length=219
+
+ Score = 186 bits (473),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 103/212 (49%), Positives = 134/212 (63%), Gaps = 8/212 (4%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP++F+N A S DGK+S + RKQ++IS + +   +D LRA +DAIMVGIGTVLADDP LT
+Sbjct  2    RPYVFVNVAASLDGKISDESRKQLRISCEEDLRIVDRLRAESDAIMVGIGTVLADDPRLT  61
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+            VKS E +  R+  GK  NP+RVVVDS  R PL A I    E   ++AVS  APEEK+R +
+Sbjct  62   VKSAELREKRQKDGKEPNPLRVVVDSRCRVPLTARIL-NDEARTLVAVSRIAPEEKVREV  120
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            ++ A V   G  RV+L+ L   L   G+  LMVEGG TL   ++S  LVDE+  + G + 
+Sbjct  121  KKVAEVAVFGEERVELSALLEFLHRKGVRRLMVEGGGTLISSLISQNLVDEIRIYYGPIF  180
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKIE  213
+            IGG+ +PT  DGE F       L+    EKIE
+Sbjct  181  IGGRDSPTVCDGESF-------LKKCRIEKIE  205
+
+
+> sp|O26337|RIB7_METTH 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Methanothermobacter thermautotrophicus 
+(strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 
+100330 / Delta H) OX=187420 GN=MTH_235 PE=3 SV=1
+Length=216
+
+ Score = 177 bits (449),  Expect = 8e-55, Method: Compositional matrix adjust.
+ Identities = 100/223 (45%), Positives = 139/223 (62%), Gaps = 10/223 (4%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP++ +N+AM+ DGK++T      +ISG+ +  R+ ELR   DAIMVGI TVLADDP LT
+Sbjct  2    RPYVILNAAMTLDGKIATATGSS-EISGEEDLRRVHELRRECDAIMVGINTVLADDPRLT  60
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+            V        R  A   +NPVRVVVDS ARTP +  +    E   +I VS SAP E++  L
+Sbjct  61   VH-------RVDAAPGDNPVRVVVDSMARTPPHFRVLND-EAPTVIGVSESAPPERVAEL  112
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+             ++A V+  G  RVDL  L  +L  MGI  LM+EGG+TLN+ ML+ GLVDEV   +  +I
+Sbjct  113  RKRAEVVVAGTRRVDLHLLLERLHGMGIERLMLEGGSTLNYSMLTGGLVDEVRVCIAPMI  172
+
+Query  182  IGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKVK  223
+            +GG+ A T  DGEG  E  + + LEL  +  + + +++++ VK
+Sbjct  173  VGGRDARTLVDGEGIDEMADAIRLELKRSYTLGEDLIVEYTVK  215
+
+
+> sp|Q58085|RIB7_METJA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Methanocaldococcus jannaschii 
+(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) 
+OX=243232 GN=arfC PE=1 SV=1
+Length=224
+
+ Score = 174 bits (440),  Expect = 2e-53, Method: Compositional matrix adjust.
+ Identities = 104/227 (46%), Positives = 144/227 (63%), Gaps = 16/227 (7%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            +P+I  N  M+ DGKL+T      +IS + +  R+ ++RA+ D IMVGIGTVL DDP LT
+Sbjct  8    KPYIISNVGMTLDGKLATINNDS-RISCEEDLIRVHKIRANVDGIMVGIGTVLKDDPRLT  66
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVS---NSAPEEKI  118
+            V     K+ R       NPVR+VVDS  R PLNA +  K +   IIA +   N   E+KI
+Sbjct  67   VHKI--KSDR-------NPVRIVVDSKLRVPLNARVLNK-DAKTIIATTEDTNEEKEKKI  116
+
+Query  119  RMLEEKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFV  177
+            ++LE+  + V+K G  +VDL +L   L + GI S+++EGG TLNWGM   GLVDEV  ++
+Sbjct  117  KILEDMGVEVVKCGRGKVDLKKLMDILYDKGIKSILLEGGGTLNWGMFKEGLVDEVSVYI  176
+
+Query  178  GNLIIGGKTAPTFTDGEGF-TENELLGLELSSAEKIEDGILLKWKVK  223
+               I GGK APT+ DGEGF T +E + LEL +  ++ +GI+L++KVK
+Sbjct  177  APKIFGGKEAPTYVDGEGFKTVDECVKLELKNFYRLGEGIVLEFKVK  223
+
+
+> sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Actinobacillus 
+pleuropneumoniae OX=715 GN=ribD PE=3 SV=2
+Length=376
+
+ Score = 140 bits (353),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 84/225 (37%), Positives = 128/225 (57%), Gaps = 14/225 (6%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP++ +  AM+ADGK++T   +   I+G+    R+ + R    AIMVG+ TVLAD+P L 
+Sbjct  158  RPYVLMKYAMTADGKIATGSGESKWITGESARARVQQTRHQYSAIMVGVDTVLADNPMLN  217
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKI---  118
+             + P  K           PVR+V DS  RTPL+  + +  +  R +  + S   +KI   
+Sbjct  218  SRMPNAK----------QPVRIVCDSQLRTPLDCQLVQTAKEYRTVIATVSDDLQKIEQF  267
+
+Query  119  RMLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVG  178
+            R L    LV K    RVDL +L  KL EM I+SL++EGG++LN+  L +G+V+ V+ ++ 
+Sbjct  268  RPLGVDVLVCKARNKRVDLQDLLQKLGEMQIDSLLLEGGSSLNFSALESGIVNRVHCYIA  327
+
+Query  179  NLIIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKV  222
+              ++GGK A T   GEG  + ++ + L+L S E I + ILL + V
+Sbjct  328  PKLVGGKQAKTPIGGEGIQQIDQAVKLKLKSTELIGEDILLDYVV  372
+
+
+> sp|O66747|RIB7_AQUAE 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Aquifex aeolicus (strain VF5) 
+OX=224324 GN=ribD2 PE=1 SV=1
+Length=224
+
+ Score = 133 bits (334),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 85/228 (37%), Positives = 127/228 (56%), Gaps = 16/228 (7%)
+
+Query  1    DRPFIFINSAMSADGKLS----TKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLAD  56
+            +RP++ I S +S DGKL+       ++ + +  +  ++ + E+RA  D IMVG  TV  D
+Sbjct  2    ERPYVIIVSEVSVDGKLTLYRGASSKELMSLMDEEAYKYLHEIRAKVDGIMVGCETVRTD  61
+
+Query  57   DPSLTVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEE  116
+            +PSLTV        R A GK  NPVR++  S+A  PL+A++    E   IIA +  AP+E
+Sbjct  62   NPSLTV--------RYAKGK--NPVRIIPCSTANVPLDANVLNTKEAPTIIATTERAPKE  111
+
+Query  117  KIRMLEE-KALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYT  175
+            ++  ++E  A VI  G   VD  +L  +L   GI SLMVEGGA++NW  +   +VDE+  
+Sbjct  112  RLEKIKELGAEVIVVGDELVDFDKLLPELYRRGIKSLMVEGGASINWEFVRRRVVDEIRL  171
+
+Query  176  FVGNLIIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKV  222
+                +I+GG+  PT   GEGF +   LL L L S       ++ +W+V
+Sbjct  172  IHLPVIVGGENVPTLVGGEGFKKLKNLLHLRLRSHFVRGKQLITEWEV  219
+
+
+> sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Bacillus 
+amyloliquefaciens OX=1390 GN=ribD PE=3 SV=1
+Length=371
+
+ Score = 95.1 bits (235),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 61/197 (31%), Positives = 102/197 (52%), Gaps = 14/197 (7%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DGK +T+      I+ +       + R     I+VG GTV AD+PSLT 
+Sbjct  146  PYVTLKAAASLDGKTATETGDSKWITSEAARLDAQQYRKSHQRILVGAGTVKADNPSLTC  205
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRII---AVSNSAPEEKIR  119
+            + P+           + PVRV++D+    P  A++   G     I   A S+   ++++ 
+Sbjct  206  RLPD---------AVKQPVRVILDTKLTVPETANVLTDGAAPTWIFTAAGSDVRKKDRLT  256
+
+Query  120  MLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGN  179
+             L  K   ++T   R+ + E+ + L E GI S+ VEGGA+++   + AG  DE++ +   
+Sbjct  257  ALGIKVFTLETD--RIHIPEVLSILAENGIMSVYVEGGASVHGSFVKAGCFDELHFYFAP  314
+
+Query  180  LIIGGKTAPTFTDGEGF  196
+            ++IGG  AP+   GEGF
+Sbjct  315  ILIGGTLAPSLISGEGF  331
+
+
+> sp|P95872|RIB7_SACS2 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Saccharolobus solfataricus (strain 
+ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 GN=SSO2097 
+PE=3 SV=1
+Length=213
+
+ Score = 92.0 bits (227),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 71/215 (33%), Positives = 101/215 (47%), Gaps = 18/215 (8%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            +P++ I S +S DG+L+TK     ++S   + +R  E+R+  DA+MVG  TV  D+PSLT
+Sbjct  4    KPYVIIFSTVSIDGRLATKTGYS-ELSCPYDKQRQHEIRSEVDAVMVGANTVRVDNPSLT  62
+
+Query  62   VKSPERKAARKAAGKS-ENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+            VK           GK+  NP+RVVV  S     +  IF       +I  SN    EK+  
+Sbjct  63   VK----------YGKNRRNPIRVVVTRSFNLDPSYKIFTTPPST-VIYTSNYE-SEKVEE  110
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNL  180
+               K ++++   F      L        +  LMVEGG  L W  +   L DE+   +   
+Sbjct  111  FIRKGVIVR--KFLHLDDLLEDLYDNFNVRRLMVEGGGHLIWWFIKDNLYDEIRITISPR  168
+
+Query  181  IIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDG  215
+            I G   +  FT GEGF   +   LEL  A+  E G
+Sbjct  169  IFGNGVS--FTQGEGFIGEDSPRLELIDAKICECG  201
+
+
+> sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=ribD PE=3 
+SV=1
+Length=375
+
+ Score = 92.8 bits (229),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 63/211 (30%), Positives = 102/211 (48%), Gaps = 16/211 (8%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DG+ + +      ISG+L    + +LRA + AI+VG  TV  D+P L+ 
+Sbjct  152  PWVVMKTAASLDGQTADRGGSSQWISGELARADVGKLRAESQAIIVGARTVCLDNPRLSA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P      +       P+RVVVDS    PL + +F    G  + A +   P+E I+ L+
+Sbjct  212  RFPHGDLYER------QPLRVVVDSRGTVPLESRVFDLSSGSTLFATTQQCPKEYIQKLK  265
+
+Query  123  EKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            +  + V ++ + +VDL  L   L E G   ++VEGGA L+       LV+    + G   
+Sbjct  266  DLGVEVWESSSHQVDLKGLLRYLAERGCLQVLVEGGAQLHSAFWQQKLVNAGVIYWGPKF  325
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKI  212
+            +G +  P   D         L L L +AE +
+Sbjct  326  LGDQGQPMLRD---------LQLSLVTAEHV  347
+
+
+> sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=ribD PE=3 
+SV=2
+Length=371
+
+ Score = 90.5 bits (223),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 63/212 (30%), Positives = 103/212 (49%), Gaps = 16/212 (8%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DG+ S +      ISG+     +  LRA + A++VG  TV  D+P L+ 
+Sbjct  152  PWVVMKTAASLDGQTSDRRGISQWISGEQARLDVGRLRAESQAVIVGSRTVCLDNPRLSA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P      +       P+RVVVDS    PL+A ++    G  ++A +    +E I+ LE
+Sbjct  212  RMPSGDLYER------QPLRVVVDSRGSVPLDARVWNPDSGNVLLATTEQCSKEHIQKLE  265
+
+Query  123  EKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            ++ + V K+   +VDL  L   L E G   ++VEGGA L+       LV+    + G   
+Sbjct  266  DRGVEVWKSSPQQVDLKRLLQYLAEKGCLQVLVEGGARLHSAFWREHLVNAGVIYWGPKF  325
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKIE  213
+            +G + +P   D         L L L +AE ++
+Sbjct  326  LGDQGSPMLRD---------LQLCLDNAEHVK  348
+
+
+> sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ribD PE=1 SV=1
+Length=361
+
+ Score = 87.8 bits (216),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 58/195 (30%), Positives = 96/195 (49%), Gaps = 10/195 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DGK++T       I+ +   +   + R    +I+VG+GTV AD+PSLT 
+Sbjct  146  PYVTLKAAASLDGKIATSTGDSKWITSEAARQDAQQYRKTHQSILVGVGTVKADNPSLTC  205
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P           ++ PVRV++D+    P +A +         I  +  A EEK + L 
+Sbjct  206  RLPN---------VTKQPVRVILDTVLSIPEDAKVICDQIAPTWIFTTARADEEKKKRLS  256
+
+Query  123  EKALVIKT-GAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+               + I T    R+ + ++   L E GI S+ VEGG+ ++   +  G   E+  +    +
+Sbjct  257  AFGVNIFTLETERIQIPDVLKILAEEGIMSVYVEGGSAVHGSFVKEGCFQEIIFYFAPKL  316
+
+Query  182  IGGKTAPTFTDGEGF  196
+            IGG  AP+   GEGF
+Sbjct  317  IGGTHAPSLISGEGF  331
+
+
+> sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Chlamydia 
+pneumoniae OX=83558 GN=ribD PE=3 SV=1
+Length=376
+
+ Score = 85.5 bits (210),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 56/189 (30%), Positives = 95/189 (50%), Gaps = 10/189 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+  + SA S DG+++  + K   I+       + +LRA + AI+VG  TVL+DDP LT 
+Sbjct  152  PWTILKSAASVDGQVADSQGKSQWITCPEARHDVGKLRAESQAILVGSRTVLSDDPWLTA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P+     K       P+RVV+DS    P  + +F K     +   +   PE  I++L+
+Sbjct  212  RQPQGMLYPK------QPLRVVLDSRGSVPPTSKVFDKTSP-TLYVTTERCPENYIKVLD  264
+
+Query  123  E---KALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGN  179
+                  L+ ++    VDL ++   L +  I  ++VEGG TL+  +L    V+ +  + G 
+Sbjct  265  SLDVPVLLTESTPSGVDLHKVYEYLAQKKILQVLVEGGTTLHTSLLKERFVNSLVLYSGP  324
+
+Query  180  LIIGGKTAP  188
+            +I+G +  P
+Sbjct  325  MILGDQKRP  333
+
+
+> sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Escherichia 
+coli (strain K12) OX=83333 GN=ribD PE=1 SV=1
+Length=367
+
+ Score = 83.2 bits (204),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 68/225 (30%), Positives = 103/225 (46%), Gaps = 26/225 (12%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+I +    S DG+ +    +   I+       +  LRA + AI+    TVLADDP+LTV
+Sbjct  147  PYIQLKLGASLDGRTAMASGESQWITSPQARRDVQLLRAQSHAILTSSATVLADDPALTV  206
+
+Query  63   KSPERKAARKAAGKSEN---PVRVVVDSSAR-TPLNADIFKKGEGL--RIIAVSNSAPEE  116
+            +  E     +A    +N   P+R+V+DS  R TP++  + + GE    R    S   PE 
+Sbjct  207  RWSELDEQTQALYPQQNLRQPIRIVIDSQNRVTPVHRIVQQPGETWFARTQEDSREWPET  266
+
+Query  117  KIRMLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTF  176
+                   + L+I      +DL  L  +L +  INS+ VE G TL   +L AGLVDE+  +
+Sbjct  267  V------RTLLIPEHKGHLDLVVLMMQLGKQQINSIWVEAGPTLAGALLQAGLVDELIVY  320
+
+Query  177  VGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWK  221
+            +   ++G       +D  G          L   EK+ D    K+K
+Sbjct  321  IAPKLLG-------SDARGLC-------TLPGLEKLADAPQFKFK  351
+
+
+> sp|K7WIZ6|RIBRX_MAIZE Riboflavin biosynthesis protein PYRR, chloroplastic 
+OS=Zea mays OX=4577 GN=PYRR PE=1 SV=1
+Length=623
+
+ Score = 83.6 bits (205),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 66/217 (30%), Positives = 105/217 (48%), Gaps = 12/217 (6%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF  +  AM+ADGK++        ISGK +  R+ ELR  +DA++VG  TV  DDP LT 
+Sbjct  215  PFSVLKYAMTADGKIAASSGHASWISGKASRGRVFELRGRSDAVIVGGNTVRFDDPRLT-  273
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+                   AR   G    PVR+V+  S   P  A+++   +   I+A    A  +  R L 
+Sbjct  274  -------ARHVKGHV--PVRIVMSQSLNLPEEANLWNLNDAYTIVATQRGARRDFQRKLA  324
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+             K + +      ++   + +   + G  +++ E G TL    +SA ++ +VY F    II
+Sbjct  325  MKGVEVVEFDM-LNPRAVMSYCYDRGYLAVLWECGGTLAASAISASVIHKVYAFWAPKII  383
+
+Query  183  GGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILL  218
+            GG  APT     G ++  + + L   S E+I+  +L+
+Sbjct  384  GGLNAPTPVGELGMSQMTQAINLIDVSYEQIDRDMLM  420
+
+
+> sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=ribD PE=3 SV=1
+Length=356
+
+ Score = 82.4 bits (202),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 61/185 (33%), Positives = 89/185 (48%), Gaps = 16/185 (9%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            +RP+I +  A + DGKL+T       I+ K + +    LR  A A++VG+ TV+ DDP L
+Sbjct  148  ERPYITLKWAQTLDGKLATLTGSSKWITSKESRKVAHILRREATAVLVGVNTVIKDDPHL  207
+
+Query  61   TVK-SPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIR  119
+            TV+  P  K           PVR+++D     PL+A +    E   I+        EK  
+Sbjct  208  TVRFVPTEK----------QPVRIILDPELEVPLSAKVLNTEEAPTIVITKKE--NEKAE  255
+
+Query  120  MLEEKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVG  178
+             L+EK + V+    F  +L  +  KLKE+ I  LMVEGG       L  G  D +  F+ 
+Sbjct  256  KLKEKGVQVLILKGF--NLKNILKKLKELEIMHLMVEGGPRTLTSFLKEGFFDRIVVFIA  313
+
+Query  179  NLIIG  183
+              I+G
+Sbjct  314  PKIMG  318
+
+
+> sp|Q9STY4|RIBRX_ARATH Riboflavin biosynthesis protein PYRR, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=PYRR PE=1 SV=1
+Length=599
+
+ Score = 78.2 bits (191),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 57/196 (29%), Positives = 90/196 (46%), Gaps = 11/196 (6%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF  +  AM+ DGK++        IS KL+  R+ ELR  +DA++VG  TV  DDP LT 
+Sbjct  186  PFSVLKYAMTLDGKIAASSGHAAWISSKLSRTRVFELRGGSDAVIVGGNTVRQDDPRLTA  245
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +           G+   P R+V+  S   P  A+++   E   I+     A +   ++L 
+Sbjct  246  RH----------GQGHTPTRIVMTQSLDLPEKANLWDVSEVSTIVVTQRGARKSFQKLLA  295
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+             K + +      ++  E+       G  S++ E G TL    +S+ ++ +V  FV   II
+Sbjct  296  SKGVEVVEFDM-LNPREVMEYFHLRGYLSILWECGGTLAASAISSSVIHKVVAFVAPKII  354
+
+Query  183  GGKTAPTFTDGEGFTE  198
+            GG  AP+     G  E
+Sbjct  355  GGSKAPSPVGDLGMVE  370
+
+
+> sp|Q8K9A3|RIBD2_BUCAP 5-amino-6-(5-phosphoribosylamino)uracil 
+reductase OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=ribD2 PE=3 SV=1
+Length=217
+
+ Score = 73.6 bits (179),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 54/212 (25%), Positives = 100/212 (47%), Gaps = 6/212 (3%)
+
+Query  11   MSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKSPE-RKA  69
+            MS DG+++ K  +   I+ K + E + + RA + AI+    T+L DDP L V+  +  K 
+Sbjct  1    MSIDGRIAMKNGESRWITSKESREDVQKFRAKSSAILTSSATILNDDPLLNVRYKKFDKN  60
+
+Query  70   ARKAAGKS--ENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEEKALV  127
+                  K   + P+R+++DS  R   +  I +  E + ++ +     +++I     K ++
+Sbjct  61   TLSTFPKKIFQQPIRIIIDSKNRVKKSHKIIQTKEKILLMRLK---LDKEIWPENTKQII  117
+
+Query  128  IKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGGKTA  187
+            IK     +DL  +   L  + IN+L +E G+TL+   L   L+DE+  ++   I+G +  
+Sbjct  118  IKPYKENIDLLCVLKFLGNLEINNLWIEAGSTLSGCFLKLELIDEIIIYIAPKILGHEAK  177
+
+Query  188  PTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+            P F         + L  +     +I   I +K
+Sbjct  178  PLFIFNNQLKLFDCLKFDFKDIRQIGPDIRIK  209
+
+
+> sp|P33312|RIB7_YEAST 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Saccharomyces cerevisiae (strain 
+ATCC 204508 / S288c) OX=559292 GN=RIB7 PE=1 SV=1
+Length=244
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 56/187 (30%), Positives = 87/187 (47%), Gaps = 13/187 (7%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  A S D ++S     +  IS          LR H D I+VG GTVLAD+P L  
+Sbjct  30   PFVTLTYAQSLDARVSRGPGVRTTISHPETKTMTHYLRHHHDGILVGSGTVLADNPGLNC  89
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNA----DIFKKGEGLRIIAVSNSAPEEKI  118
+            K     AA        +P  +++D+  +   +     ++F K +G   I V  S P  K 
+Sbjct  90   KWGPDPAA-------NSPRPIIIDTKQKWRFDGSKMQELFIKRQGKPPIVVVTSEPIIKE  142
+
+Query  119  RMLEEKALVIKTGAFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDEVYTF  176
+            + ++     I      VD  +L   LK E  I S+MVEGGA  +N  +L + +V+ +   
+Sbjct  143  QHVDYAICPINDTTKLVDWKKLFEILKEEFNIRSVMVEGGANVINQLLLRSDIVNSLIIT  202
+
+Query  177  VGNLIIG  183
+            +G+  +G
+Sbjct  203  IGSTFLG  209
+
+
+> sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 68.6 bits (166),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 55/207 (27%), Positives = 99/207 (48%), Gaps = 23/207 (11%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+I +  A S DG+ +    K   I+       +  +R  +DAI+    T+L D+P LTV
+Sbjct  147  PWIKLKLASSIDGRTALNNGKSKWITSDKARHDVQHVREKSDAIISSSETILFDNPLLTV  206
+
+Query  63   KSPE-----RKAARKAAGKSENPVRVVVDSSAR-TPLNADIFKKGEGL----RIIAVSNS  112
+            ++       +K  + +    + P+RV++DS  R TP +  I  K  GL    RI + +N 
+Sbjct  207  RNTNNNDNNQKLLKHSKTFLKQPIRVIIDSKNRITPSHKCI--KQPGLLFLIRIHSDNNI  264
+
+Query  113  APEEKIRMLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDE  172
+             P         K +++   + ++DL +L   L +  IN++++E G +L+   L   +++E
+Sbjct  265  WPSH------IKQIILNNKSKKIDLIDLVKMLAKYQINNILIEAGPSLSSSFLKLNIINE  318
+
+Query  173  VYTFVGNLIIGGKTAPTFTDGEGFTEN  199
+            +  ++   I+G    P F     F EN
+Sbjct  319  LIIYIAPKILGNYAKPLF-----FLEN  340
+
+
+> sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 68.6 bits (166),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 55/186 (30%), Positives = 91/186 (49%), Gaps = 12/186 (6%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  AMS DG+ +    +   I+G      + ++RA + A++    TV+ADDPSL V
+Sbjct  152  PFVQLKLAMSLDGRTAMASGESKWITGPDARSDVQKMRAKSSALLSTSTTVIADDPSLNV  211
+
+Query  63   KSPERKAARKAAGKSE---NPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIR  119
+            +  E     K   K E    PVRV++DS  R      +F     + +++   S P +   
+Sbjct  212  RWDEFPENLKTEYKKEWLRQPVRVILDSQHRIQPTHKLFLTHSPVWLVS---SEPRDLTG  268
+
+Query  120  MLE--EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFV  177
+              +  E+ +  K       L EL  +L +  IN+L VE GA L+  ++ A LVDE+  ++
+Sbjct  269  FPDFCEQIIFPKENL----LKELMRELGKRQINTLWVEAGANLSGSLIDAKLVDELIIYI  324
+
+Query  178  GNLIIG  183
+               ++G
+Sbjct  325  APKLLG  330
+
+
+> sp|Q6BII9|RIB7_DEBHA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Debaryomyces hansenii (strain 
+ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 
+GN=RIB7 PE=3 SV=1
+Length=247
+
+ Score = 67.0 bits (162),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 59/203 (29%), Positives = 98/203 (48%), Gaps = 32/203 (16%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            +RPF+ +  A S D +++ K  +Q KIS          +R+  D IMVGIGTVLADDP L
+Sbjct  24   NRPFVTLTYAQSLDSRIAAKPGEQTKISHLETKTMTHYIRSKHDGIMVGIGTVLADDPKL  83
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNS--AP----  114
+              +           G    P  +++D + +       + K + LR +  +N   AP    
+Sbjct  84   NCR------FEAEDGNISTPRPIILDPTGKW-----AYHKSQ-LRSVCDNNKGLAPFILI  131
+
+Query  115  EEKIRMLEEKALVI--KTGAF-RVDLTE----------LAAKLKEMGINSLMVEGGAT-L  160
+            +E +    E   V+  + GAF R+ L            +  KL ++GI S+MVEGGA+ +
+Sbjct  132  DETVTPRNEDVEVLDKQDGAFVRLPLLRNADKVGNWNIILKKLFQLGIKSIMVEGGASII  191
+
+Query  161  NWGMLSAGLVDEVYTFVGNLIIG  183
+            N  ++ + ++D +   +G + +G
+Sbjct  192  NDLLVYSKIIDSLIITIGPVFLG  214
+
+
+> sp|Q6CJ61|RIB7_KLULA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Kluyveromyces lactis (strain 
+ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 
+/ WM37) OX=284590 GN=RIB7 PE=3 SV=1
+Length=252
+
+ Score = 66.6 bits (161),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 53/192 (28%), Positives = 89/192 (46%), Gaps = 13/192 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            ++P++ +  A S D +++  +  +  IS +        LR   D IM+G GTVL DDP L
+Sbjct  29   EKPYVILTYAQSLDARIAKIKGTRTIISHQETNTMTHYLRYKFDGIMLGCGTVLVDDPGL  88
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNAD----IFKKGEGLRIIAVSNSAPEE  116
+              K       +       +P  +++D + +          +F  G+G   I V    PE 
+Sbjct  89   NCKWWPDDEPKPEHFAEHSPRPIILDPNGKWKFEGSKMKTLFDSGDGKAPIVVVKKLPE-  147
+
+Query  117  KIRMLEEKA--LVIKTG-AFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVD  171
+               ++EE    LV++T    +VD  +L  +LK + G+ S+MVEGG   +N  +    L+D
+Sbjct  148  ---VVEENVDYLVMQTNFTGKVDWHDLFIQLKSQFGLKSIMVEGGGIVINDLLQRPHLID  204
+
+Query  172  EVYTFVGNLIIG  183
+             +   VG   +G
+Sbjct  205  ALVITVGATFLG  216
+
+
+> sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=ribD 
+PE=3 SV=1
+Length=368
+
+ Score = 66.2 bits (160),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 55/200 (28%), Positives = 89/200 (45%), Gaps = 15/200 (8%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+             RPF     AM+ DGK++T +     ++       + +LR+   A+++G  TV  D+P L
+Sbjct  146  QRPFGIFKYAMTLDGKIATAQAHSSWVTSSSARHWVHQLRSQCQAVIIGGNTVRRDNPLL  205
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+            T             G+  NP+RVV+  S   P+ A ++ +     ++    +     +  
+Sbjct  206  T---------NHGVGEV-NPLRVVLSRSLDLPIEAQLWDQDVAKTLVITEKTCDRNTLSH  255
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMV--EGGATLNWGMLSAGLVDEVYTFVG  178
+            LE+  L ++T      LT LA   +    N L V  E G  L    ++ G V +V+ F+ 
+Sbjct  256  LEK--LEVETLVLE-QLTPLAVMEELYQRNCLQVLWECGGILAAEAIAMGTVQKVHAFLA  312
+
+Query  179  NLIIGGKTAPTFTDGEGFTE  198
+              IIGG  APT     GF +
+Sbjct  313  PKIIGGVAAPTPVGELGFQQ  332
+
+
+> sp|Q9P4B8|RIB7_KLUMA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Kluyveromyces marxianus OX=4911 
+GN=RIB7 PE=3 SV=1
+Length=249
+
+ Score = 63.2 bits (152),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 54/194 (28%), Positives = 96/194 (49%), Gaps = 14/194 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            ++P++ +  A S D +++  +  +  IS +        LR   DAIM+G GTV+ DDP L
+Sbjct  28   EKPYVILTYAQSLDSRIAKIKGTRTFISHEETKTMTHYLRYKFDAIMLGCGTVMIDDPGL  87
+
+Query  61   TVK-SPERKAARKAAGKSENPVRVVVDSSARTPLNAD-----IFKKGEGLRIIAVSNSAP  114
+              K  PE +     AG S  P  +++D + +    AD     +++ G+G   I V    P
+Sbjct  88   NCKWWPEDEKPEHLAGISPRP--IILDPNCKWKF-ADSKMKKLYEAGDGKAPIIVVKELP  144
+
+Query  115  EEKIRMLEEKALVIKTG-AFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVD  171
+             E    ++   LV++T    ++D +++  +LK +  + S+MVEGG   +N  +    LVD
+Sbjct  145  SEPEEGVD--YLVMRTNFTGKMDWSDMLVQLKSKFNVKSVMVEGGGIVINDLLQRPNLVD  202
+
+Query  172  EVYTFVGNLIIGGK  185
+             +   +G   +G +
+Sbjct  203  ALIITLGATFLGSE  216
+
+
+> sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Corynebacterium 
+ammoniagenes OX=1697 GN=ribD PE=3 SV=1
+Length=337
+
+ Score = 63.5 bits (153),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 51/182 (28%), Positives = 79/182 (43%), Gaps = 32/182 (18%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP + +  A + DG  +  +     I+G++  + +   R H DAI++G GT L D+PSLT
+Sbjct  158  RPHVTLKFAQTIDGFTAAADGTSQWITGEMARDYVHADREHRDAIIIGTGTALIDNPSLT  217
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+             + P+         +   P RVV+                 G R IA +  A     R+ 
+Sbjct  218  ARYPD------GTQREHQPRRVVI-----------------GRRNIADAGDAASNLNRLG  254
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+             E+   I          E  A+L   G   ++VEGGA L  G  + GLVD +  +   L+
+Sbjct  255  FEQYATID---------EALAELYATGARDVLVEGGAGLASGFANQGLVDWLQVYQAPLL  305
+
+Query  182  IG  183
+            +G
+Sbjct  306  LG  307
+
+
+> sp|Q757H6|RIB7_ASHGO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Ashbya gossypii (strain ATCC 
+10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=RIB7 
+PE=3 SV=1
+Length=246
+
+ Score = 62.4 bits (150),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 53/188 (28%), Positives = 87/188 (46%), Gaps = 10/188 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  A S D +++ ++ ++  IS +        LR H   I++G GT LADDP L  
+Sbjct  29   PFVTLTYAQSLDARIAKQKGERTVISHEETKTMTHYLRYHHSGILIGSGTALADDPGLNC  88
+
+Query  63   K-SPERKAARKAAGKSENPVRVVVDSSARTPLNAD----IFKKGEGLRIIAVSNSAPEEK  117
+            + +P    A      S  P  +++D   R          +   G+G   I V+   PE +
+Sbjct  89   RWTPAADGADCTEQSSPRP--IILDVRGRWRYRGSKIEYLHNLGKGKAPIVVTGGEPEVR  146
+
+Query  118  IRMLEEKALVIKTGAFRVDLTELAAKL-KEMGINSLMVEGGA-TLNWGMLSAGLVDEVYT  175
+               +    L +  G  R++  EL  +L  E  + S+MVEGGA  LN  +L   +VD +  
+Sbjct  147  ELGVSYLQLGVDEGG-RLNWGELFERLYSEHHLESVMVEGGAEVLNQLLLRPDIVDSLVI  205
+
+Query  176  FVGNLIIG  183
+             +G+  +G
+Sbjct  206  TIGSKFLG  213
+
+
+> sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ribD PE=1 SV=1
+Length=339
+
+ Score = 62.8 bits (151),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 61/220 (28%), Positives = 92/220 (42%), Gaps = 41/220 (19%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P +    A S DG+ +  +     IS +     +   RA ADAI+VG GTVLADDP+LT 
+Sbjct  154  PHVTWKYATSIDGRSAAADGSSQWISSEAARLDLHRRRAIADAILVGTGTVLADDPALT-  212
+
+Query  63   KSPERKAARKAAGK--SENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+                   AR A G    + P+RVVV      P  A +    +  R + +    P E +R 
+Sbjct  213  -------ARLADGSLAPQQPLRVVVGKR-DIPPEARVLN--DEARTMMIRTHEPMEVLRA  262
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNL  180
+            L ++                           +++EGG TL    L AG ++ +  +V  +
+Sbjct  263  LSDR-------------------------TDVLLEGGPTLAGAFLRAGAINRILAYVAPI  297
+
+Query  181  IIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLK  219
+            ++GG    T  D  G +     L  +  S EK+   +LL 
+Sbjct  298  LLGGPV--TAVDDVGVSNITNALRWQFDSVEKVGPDLLLS  335
+
+
+> sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=ribD PE=3 SV=1
+Length=339
+
+ Score = 62.8 bits (151),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 61/220 (28%), Positives = 92/220 (42%), Gaps = 41/220 (19%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P +    A S DG+ +  +     IS +     +   RA ADAI+VG GTVLADDP+LT 
+Sbjct  154  PHVTWKYATSIDGRSAAADGSSQWISSEAARLDLHRRRAIADAILVGTGTVLADDPALT-  212
+
+Query  63   KSPERKAARKAAGK--SENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+                   AR A G    + P+RVVV      P  A +    +  R + +    P E +R 
+Sbjct  213  -------ARLADGSLAPQQPLRVVVGKR-DIPPEARVLN--DEARTMMIRTHEPMEVLRA  262
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNL  180
+            L ++                           +++EGG TL    L AG ++ +  +V  +
+Sbjct  263  LSDR-------------------------TDVLLEGGPTLAGAFLRAGAINRILAYVAPI  297
+
+Query  181  IIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLK  219
+            ++GG    T  D  G +     L  +  S EK+   +LL 
+Sbjct  298  LLGGPV--TAVDDVGVSNITNALRWQFDSVEKVGPDLLLS  335
+
+
+> sp|Q6FU96|RIB7_CANGA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Candida glabrata (strain ATCC 
+2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 
+GN=RIB7 PE=1 SV=1
+Length=244
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 48/193 (25%), Positives = 91/193 (47%), Gaps = 13/193 (7%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RPF+ +  A S D K++ +   +  IS     E    LR   D I++G GTVLADDP L 
+Sbjct  24   RPFVTLTYAQSIDAKIAKQRGVRTTISHIETKEMTHYLRYFHDGILIGSGTVLADDPGLN  83
+
+Query  62   VK--SPERKAARKAAGKSENPVRVVVDSSARTPLNA----DIFKKGEGLRIIAVSNSAPE  115
+             K   P          KS  P  +++D   +   +     ++  +G G   I ++   P 
+Sbjct  84   CKWIGPNNDPDESMEEKSPRP--IILDPKLKWKYSGSKMEELCNQGMGKPPIVITTKTP-  140
+
+Query  116  EKIRMLEEKALVIKTGAF-RVDLTELAAKL-KEMGINSLMVEGGA-TLNWGMLSAGLVDE  172
+             K++    + ++++  A  R+    +   L +   + S+M+EGG+  +N  ++ + L+D 
+Sbjct  141  -KVKEANVEYMIMEPDANDRISWKSILDTLRRNYDMKSVMIEGGSHVINQLLMCSDLIDS  199
+
+Query  173  VYTFVGNLIIGGK  185
+            +   +G++ +G +
+Sbjct  200  LIVTIGSIYLGSE  212
+
+
+> sp|P57534|RIBD2_BUCAI 5-amino-6-(5-phosphoribosylamino)uracil 
+reductase OS=Buchnera aphidicola subsp. Acyrthosiphon pisum 
+(strain APS) OX=107806 GN=ribD2 PE=3 SV=1
+Length=207
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 41/165 (25%), Positives = 85/165 (52%), Gaps = 6/165 (4%)
+
+Query  27   ISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKSPE--RKAARKAAGK-SENPVRV  83
+            I+ K   + + + RA +  I+    T+L+D+P L V+  E  +K       K  ++P+RV
+Sbjct  9    ITSKQARQDVQKFRAKSSVILSSSSTILSDNPLLNVRYKELDKKTLSIFPNKIFQHPIRV  68
+
+Query  84   VVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEEKALVIKTGAFRVDLTELAAK  143
+            ++DS  R   + +I K    + +I + +   + KI       ++ K    ++++  L   
+Sbjct  69   IIDSKNRVQPSHNIIKTKGKIWLIRLKS---DRKIWPKNTTQIIEKDHNKKINIFSLLKF  125
+
+Query  144  LKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGGKTAP  188
+            L +  IN++ +E G+TL+  +L++ L+DE+  ++   I+G +  P
+Sbjct  126  LGQSEINNVWIEAGSTLSGFLLNSYLIDELIIYMAPKILGHEAKP  170
+
+
+> sp|Q9P7L3|RIB7_SCHPO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Schizosaccharomyces pombe (strain 
+972 / ATCC 24843) OX=284812 GN=SPBC21C3.10c PE=3 SV=1
+Length=268
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 45/157 (29%), Positives = 73/157 (46%), Gaps = 22/157 (14%)
+
+Query  24   QVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKSPERKAARKAAGKSENPVRV  83
+            Q+++S K +F     LR   D IMVG  T   D+PSLT K P+          ++ P+ +
+Sbjct  40   QLRLSSKESFVMTHLLRTKFDGIMVGSRTAENDNPSLTAKLPDPANPDCLLPLNKQPIPI  99
+
+Query  84   VVDSSARTPLNADIFK---------KGEGLRIIAVS-------NSAPEEKIRMLEEKA--  125
+            +VDS+ R  L+    K             L I+A S       +S  +E +++++     
+Sbjct  100  IVDSNLR--LDYASLKVIRLARERLGKPPLIIVAPSIWQQVQHDSKLKEAVKLIQSVGGR  157
+
+Query  126  LVIKTGAFRVDLTELAA--KLKEMGINSLMVEGGATL  160
+             +I+        ++  A  KL + G+N +MVEGGA L
+Sbjct  158  CIIRNEDSPDSWSDYVALDKLLQNGVNRIMVEGGAEL  194
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.133    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15108241262
+Results from round 2
+
+
+Query= 5XV0:E
+
+Length=223
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Ac...  252     5e-82
+  sp|O26337|RIB7_METTH 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  241     4e-80
+  sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Ba...  241     7e-78
+  sp|Q58085|RIB7_METJA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  234     3e-77
+  sp|O28272|RIB7_ARCFU 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  233     1e-76
+  sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Ch...  236     6e-76
+  sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Ba...  233     9e-75
+  sp|Q8K9A3|RIBD2_BUCAP 5-amino-6-(5-phosphoribosylamino)uracil r...  227     1e-74
+  sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Ch...  233     1e-74
+  sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Ch...  224     3e-71
+  sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Es...  223     8e-71
+  sp|O66747|RIB7_AQUAE 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  218     8e-71
+  sp|K7WIZ6|RIBRX_MAIZE Riboflavin biosynthesis protein PYRR, chl...  227     1e-69
+  sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Ha...  220     1e-69
+  sp|Q9STY4|RIBRX_ARATH Riboflavin biosynthesis protein PYRR, chl...  224     8e-69
+  sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Bu...  210     1e-65
+  sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Sy...  209     2e-65
+  sp|Q6CJ61|RIB7_KLULA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  204     5e-65
+  sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aq...  206     2e-64
+  sp|P33312|RIB7_YEAST 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  197     3e-62
+  sp|Q757H6|RIB7_ASHGO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  196     9e-62
+  sp|Q9P4B8|RIB7_KLUMA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  195     3e-61
+  sp|Q6FU96|RIB7_CANGA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  191     7e-60
+  sp|P95872|RIB7_SACS2 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  186     3e-58
+  sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=My...  186     8e-57
+  sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=My...  186     8e-57
+  sp|Q6BII9|RIB7_DEBHA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  179     2e-55
+  sp|P57534|RIBD2_BUCAI 5-amino-6-(5-phosphoribosylamino)uracil r...  176     2e-54
+  sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Co...  163     4e-48
+  sp|Q9P7L3|RIB7_SCHPO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  139     3e-39
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P37508|YYAP_BACSU Uncharacterized protein YyaP OS=Bacillus s...  51.1    8e-07
+  sp|B6TRH4|RIBD_MAIZE Riboflavin biosynthesis protein PYRD, chlo...  49.6    7e-06
+  sp|P45862|YWJB_BACSU Uncharacterized protein YwjB OS=Bacillus s...  47.7    1e-05
+  sp|Q60034|DYR_THEMA Dihydrofolate reductase OS=Thermotoga marit...  43.8    2e-04
+
+
+> sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Actinobacillus 
+pleuropneumoniae OX=715 GN=ribD PE=3 SV=2
+Length=376
+
+ Score = 252 bits (643),  Expect = 5e-82, Method: Composition-based stats.
+ Identities = 84/226 (37%), Positives = 128/226 (57%), Gaps = 14/226 (6%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+             RP++ +  AM+ADGK++T   +   I+G+    R+ + R    AIMVG+ TVLAD+P L
+Sbjct  157  KRPYVLMKYAMTADGKIATGSGESKWITGESARARVQQTRHQYSAIMVGVDTVLADNPML  216
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKI--  118
+              + P  K           PVR+V DS  RTPL+  + +  +  R +  + S   +KI  
+Sbjct  217  NSRMPNAK----------QPVRIVCDSQLRTPLDCQLVQTAKEYRTVIATVSDDLQKIEQ  266
+
+Query  119  -RMLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFV  177
+             R L    LV K    RVDL +L  KL EM I+SL++EGG++LN+  L +G+V+ V+ ++
+Sbjct  267  FRPLGVDVLVCKARNKRVDLQDLLQKLGEMQIDSLLLEGGSSLNFSALESGIVNRVHCYI  326
+
+Query  178  GNLIIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKV  222
+               ++GGK A T   GEG  + ++ + L+L S E I + ILL + V
+Sbjct  327  APKLVGGKQAKTPIGGEGIQQIDQAVKLKLKSTELIGEDILLDYVV  372
+
+
+> sp|O26337|RIB7_METTH 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Methanothermobacter thermautotrophicus 
+(strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 
+100330 / Delta H) OX=187420 GN=MTH_235 PE=3 SV=1
+Length=216
+
+ Score = 241 bits (616),  Expect = 4e-80, Method: Composition-based stats.
+ Identities = 100/223 (45%), Positives = 139/223 (62%), Gaps = 10/223 (4%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP++ +N+AM+ DGK++T      +ISG+ +  R+ ELR   DAIMVGI TVLADDP LT
+Sbjct  2    RPYVILNAAMTLDGKIATATGSS-EISGEEDLRRVHELRRECDAIMVGINTVLADDPRLT  60
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+            V        R  A   +NPVRVVVDS ARTP +  +    E   +I VS SAP E++  L
+Sbjct  61   VH-------RVDAAPGDNPVRVVVDSMARTPPHFRVLN-DEAPTVIGVSESAPPERVAEL  112
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+             ++A V+  G  RVDL  L  +L  MGI  LM+EGG+TLN+ ML+ GLVDEV   +  +I
+Sbjct  113  RKRAEVVVAGTRRVDLHLLLERLHGMGIERLMLEGGSTLNYSMLTGGLVDEVRVCIAPMI  172
+
+Query  182  IGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKVK  223
+            +GG+ A T  DGEG  E  + + LEL  +  + + +++++ VK
+Sbjct  173  VGGRDARTLVDGEGIDEMADAIRLELKRSYTLGEDLIVEYTVK  215
+
+
+> sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ribD PE=1 SV=1
+Length=361
+
+ Score = 241 bits (615),  Expect = 7e-78, Method: Composition-based stats.
+ Identities = 63/221 (29%), Positives = 106/221 (48%), Gaps = 11/221 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DGK++T       I+ +   +   + R    +I+VG+GTV AD+PSLT 
+Sbjct  146  PYVTLKAAASLDGKIATSTGDSKWITSEAARQDAQQYRKTHQSILVGVGTVKADNPSLTC  205
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P           ++ PVRV++D+    P +A +         I  +  A EEK + L 
+Sbjct  206  RLPN---------VTKQPVRVILDTVLSIPEDAKVICDQIAPTWIFTTARADEEKKKRLS  256
+
+Query  123  EKALVIKT-GAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+               + I T    R+ + ++   L E GI S+ VEGG+ ++   +  G   E+  +    +
+Sbjct  257  AFGVNIFTLETERIQIPDVLKILAEEGIMSVYVEGGSAVHGSFVKEGCFQEIIFYFAPKL  316
+
+Query  182  IGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWK  221
+            IGG  AP+   GEGF    ++  L+ +   +I   I L  K
+Sbjct  317  IGGTHAPSLISGEGFQSMKDVPLLQFTDITQIGRDIKLTAK  357
+
+
+> sp|Q58085|RIB7_METJA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Methanocaldococcus jannaschii 
+(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) 
+OX=243232 GN=arfC PE=1 SV=1
+Length=224
+
+ Score = 234 bits (598),  Expect = 3e-77, Method: Composition-based stats.
+ Identities = 101/228 (44%), Positives = 141/228 (62%), Gaps = 16/228 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+             +P+I  N  M+ DGKL+T      +IS + +  R+ ++RA+ D IMVGIGTVL DDP L
+Sbjct  7    KKPYIISNVGMTLDGKLATINNDS-RISCEEDLIRVHKIRANVDGIMVGIGTVLKDDPRL  65
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVS---NSAPEEK  117
+            TV   +            NPVR+VVDS  R PLNA +  K +   IIA +   N   E+K
+Sbjct  66   TVHKIKSD---------RNPVRIVVDSKLRVPLNARVLNK-DAKTIIATTEDTNEEKEKK  115
+
+Query  118  IRMLEEKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTF  176
+            I++LE+  + V+K G  +VDL +L   L + GI S+++EGG TLNWGM   GLVDEV  +
+Sbjct  116  IKILEDMGVEVVKCGRGKVDLKKLMDILYDKGIKSILLEGGGTLNWGMFKEGLVDEVSVY  175
+
+Query  177  VGNLIIGGKTAPTFTDGEGFT-ENELLGLELSSAEKIEDGILLKWKVK  223
+            +   I GGK APT+ DGEGF   +E + LEL +  ++ +GI+L++KVK
+Sbjct  176  IAPKIFGGKEAPTYVDGEGFKTVDECVKLELKNFYRLGEGIVLEFKVK  223
+
+
+> sp|O28272|RIB7_ARCFU 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Archaeoglobus fulgidus (strain 
+ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 
+GN=AF_2007 PE=3 SV=1
+Length=219
+
+ Score = 233 bits (594),  Expect = 1e-76, Method: Composition-based stats.
+ Identities = 101/214 (47%), Positives = 135/214 (63%), Gaps = 5/214 (2%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP++F+N A S DGK+S + RKQ++IS + +   +D LRA +DAIMVGIGTVLADDP LT
+Sbjct  2    RPYVFVNVAASLDGKISDESRKQLRISCEEDLRIVDRLRAESDAIMVGIGTVLADDPRLT  61
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+            VKS E +  R+  GK  NP+RVVVDS  R PL A I    E   ++AVS  APEEK+R +
+Sbjct  62   VKSAELREKRQKDGKEPNPLRVVVDSRCRVPLTARILN-DEARTLVAVSRIAPEEKVREV  120
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            ++ A V   G  RV+L+ L   L   G+  LMVEGG TL   ++S  LVDE+  + G + 
+Sbjct  121  KKVAEVAVFGEERVELSALLEFLHRKGVRRLMVEGGGTLISSLISQNLVDEIRIYYGPIF  180
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKIEDG  215
+            IGG+ +PT  DGE F +       +   E+I +G
+Sbjct  181  IGGRDSPTVCDGESFLK----KCRIEKIERIGEG  210
+
+
+> sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=ribD PE=3 
+SV=2
+Length=371
+
+ Score = 236 bits (602),  Expect = 6e-76, Method: Composition-based stats.
+ Identities = 59/220 (27%), Positives = 104/220 (47%), Gaps = 8/220 (4%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DG+ S +      ISG+     +  LRA + A++VG  TV  D+P L+ 
+Sbjct  152  PWVVMKTAASLDGQTSDRRGISQWISGEQARLDVGRLRAESQAVIVGSRTVCLDNPRLSA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P              P+RVVVDS    PL+A ++    G  ++A +    +E I+ LE
+Sbjct  212  RMPSGDLYE------RQPLRVVVDSRGSVPLDARVWNPDSGNVLLATTEQCSKEHIQKLE  265
+
+Query  123  EKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            ++ + V K+   +VDL  L   L E G   ++VEGGA L+       LV+    + G   
+Sbjct  266  DRGVEVWKSSPQQVDLKRLLQYLAEKGCLQVLVEGGARLHSAFWREHLVNAGVIYWGPKF  325
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWK  221
+            +G + +P   D      +    ++++    + D +   ++
+Sbjct  326  LGDQGSPMLRD-LQLCLDNAEHVKITKTFLVGDSVKTCFE  364
+
+
+> sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Bacillus 
+amyloliquefaciens OX=1390 GN=ribD PE=3 SV=1
+Length=371
+
+ Score = 233 bits (594),  Expect = 9e-75, Method: Composition-based stats.
+ Identities = 63/218 (29%), Positives = 106/218 (49%), Gaps = 11/218 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DGK +T+      I+ +       + R     I+VG GTV AD+PSLT 
+Sbjct  146  PYVTLKAAASLDGKTATETGDSKWITSEAARLDAQQYRKSHQRILVGAGTVKADNPSLTC  205
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P+           + PVRV++D+    P  A++   G     I  +  +   K   L 
+Sbjct  206  RLPDA---------VKQPVRVILDTKLTVPETANVLTDGAAPTWIFTAAGSDVRKKDRLT  256
+
+Query  123  EKALVIKT-GAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+               + + T    R+ + E+ + L E GI S+ VEGGA+++   + AG  DE++ +   ++
+Sbjct  257  ALGIKVFTLETDRIHIPEVLSILAENGIMSVYVEGGASVHGSFVKAGCFDELHFYFAPIL  316
+
+Query  182  IGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILL  218
+            IGG  AP+   GEGF    ++  L+ +   +I   I L
+Sbjct  317  IGGTLAPSLISGEGFQSMKDVPHLQFTQITQIGPDIKL  354
+
+
+> sp|Q8K9A3|RIBD2_BUCAP 5-amino-6-(5-phosphoribosylamino)uracil 
+reductase OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=ribD2 PE=3 SV=1
+Length=217
+
+ Score = 227 bits (580),  Expect = 1e-74, Method: Composition-based stats.
+ Identities = 53/216 (25%), Positives = 101/216 (47%), Gaps = 6/216 (3%)
+
+Query  11   MSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKSPERKAA  70
+            MS DG+++ K  +   I+ K + E + + RA + AI+    T+L DDP L V+  +    
+Sbjct  1    MSIDGRIAMKNGESRWITSKESREDVQKFRAKSSAILTSSATILNDDPLLNVRYKKFDKN  60
+
+Query  71   RKAAGKS---ENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEEKALV  127
+              +       + P+R+++DS  R   +  I +  E + ++ +     +++I     K ++
+Sbjct  61   TLSTFPKKIFQQPIRIIIDSKNRVKKSHKIIQTKEKILLMRLK---LDKEIWPENTKQII  117
+
+Query  128  IKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGGKTA  187
+            IK     +DL  +   L  + IN+L +E G+TL+   L   L+DE+  ++   I+G +  
+Sbjct  118  IKPYKENIDLLCVLKFLGNLEINNLWIEAGSTLSGCFLKLELIDEIIIYIAPKILGHEAK  177
+
+Query  188  PTFTDGEGFTENELLGLELSSAEKIEDGILLKWKVK  223
+            P F         + L  +     +I   I +K + K
+Sbjct  178  PLFIFNNQLKLFDCLKFDFKDIRQIGPDIRIKLEPK  213
+
+
+> sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=ribD PE=3 
+SV=1
+Length=375
+
+ Score = 233 bits (594),  Expect = 1e-74, Method: Composition-based stats.
+ Identities = 63/211 (30%), Positives = 101/211 (48%), Gaps = 16/211 (8%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DG+ + +      ISG+L    + +LRA + AI+VG  TV  D+P L+ 
+Sbjct  152  PWVVMKTAASLDGQTADRGGSSQWISGELARADVGKLRAESQAIIVGARTVCLDNPRLSA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P              P+RVVVDS    PL + +F    G  + A +   P+E I+ L+
+Sbjct  212  RFPHGDLYE------RQPLRVVVDSRGTVPLESRVFDLSSGSTLFATTQQCPKEYIQKLK  265
+
+Query  123  EKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            +  + V ++ + +VDL  L   L E G   ++VEGGA L+       LV+    + G   
+Sbjct  266  DLGVEVWESSSHQVDLKGLLRYLAERGCLQVLVEGGAQLHSAFWQQKLVNAGVIYWGPKF  325
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKI  212
+            +G +  P   D         L L L +AE +
+Sbjct  326  LGDQGQPMLRD---------LQLSLVTAEHV  347
+
+
+> sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Chlamydia 
+pneumoniae OX=83558 GN=ribD PE=3 SV=1
+Length=376
+
+ Score = 224 bits (572),  Expect = 3e-71, Method: Composition-based stats.
+ Identities = 60/223 (27%), Positives = 108/223 (48%), Gaps = 11/223 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+  + SA S DG+++  + K   I+       + +LRA + AI+VG  TVL+DDP LT 
+Sbjct  152  PWTILKSAASVDGQVADSQGKSQWITCPEARHDVGKLRAESQAILVGSRTVLSDDPWLTA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P+           + P+RVV+DS    P  + +F K     +   +   PE  I++L+
+Sbjct  212  RQPQGMLY------PKQPLRVVLDSRGSVPPTSKVFDKTS-PTLYVTTERCPENYIKVLD  264
+
+Query  123  E---KALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGN  179
+                  L+ ++    VDL ++   L +  I  ++VEGG TL+  +L    V+ +  + G 
+Sbjct  265  SLDVPVLLTESTPSGVDLHKVYEYLAQKKILQVLVEGGTTLHTSLLKERFVNSLVLYSGP  324
+
+Query  180  LIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWKV  222
+            +I+G +  P      G        L L S++ + + + + W++
+Sbjct  325  MILGDQKRP-LVGVLGNLLESASPLTLKSSQILGNSLKVVWEI  366
+
+
+> sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Escherichia 
+coli (strain K12) OX=83333 GN=ribD PE=1 SV=1
+Length=367
+
+ Score = 223 bits (568),  Expect = 8e-71, Method: Composition-based stats.
+ Identities = 57/219 (26%), Positives = 92/219 (42%), Gaps = 6/219 (3%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+I +    S DG+ +    +   I+       +  LRA + AI+    TVLADDP+LTV
+Sbjct  147  PYIQLKLGASLDGRTAMASGESQWITSPQARRDVQLLRAQSHAILTSSATVLADDPALTV  206
+
+Query  63   KSPERKAARKAAGKSE---NPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIR  119
+            +  E     +A    +    P+R+V+DS  R      I ++  G    A +     E   
+Sbjct  207  RWSELDEQTQALYPQQNLRQPIRIVIDSQNRVTPVHRIVQQ-PGETWFARTQEDSRE--W  263
+
+Query  120  MLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGN  179
+                + L+I      +DL  L  +L +  INS+ VE G TL   +L AGLVDE+  ++  
+Sbjct  264  PETVRTLLIPEHKGHLDLVVLMMQLGKQQINSIWVEAGPTLAGALLQAGLVDELIVYIAP  323
+
+Query  180  LIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILL  218
+             ++G       T        +    +      +   + L
+Sbjct  324  KLLGSDARGLCTLPGLEKLADAPQFKFKEIRHVGPDVCL  362
+
+
+> sp|O66747|RIB7_AQUAE 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Aquifex aeolicus (strain VF5) 
+OX=224324 GN=ribD2 PE=1 SV=1
+Length=224
+
+ Score = 218 bits (555),  Expect = 8e-71, Method: Composition-based stats.
+ Identities = 82/228 (36%), Positives = 123/228 (54%), Gaps = 16/228 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVK----ISGKLNFERMDELRAHADAIMVGIGTVLAD  56
+            +RP++ I S +S DGKL+       K    +  +  ++ + E+RA  D IMVG  TV  D
+Sbjct  2    ERPYVIIVSEVSVDGKLTLYRGASSKELMSLMDEEAYKYLHEIRAKVDGIMVGCETVRTD  61
+
+Query  57   DPSLTVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEE  116
+            +PSLTV+            K +NPVR++  S+A  PL+A++    E   IIA +  AP+E
+Sbjct  62   NPSLTVRY----------AKGKNPVRIIPCSTANVPLDANVLNTKEAPTIIATTERAPKE  111
+
+Query  117  KIRMLEEKA-LVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYT  175
+            ++  ++E    VI  G   VD  +L  +L   GI SLMVEGGA++NW  +   +VDE+  
+Sbjct  112  RLEKIKELGAEVIVVGDELVDFDKLLPELYRRGIKSLMVEGGASINWEFVRRRVVDEIRL  171
+
+Query  176  FVGNLIIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKV  222
+                +I+GG+  PT   GEGF +   LL L L S       ++ +W+V
+Sbjct  172  IHLPVIVGGENVPTLVGGEGFKKLKNLLHLRLRSHFVRGKQLITEWEV  219
+
+
+> sp|K7WIZ6|RIBRX_MAIZE Riboflavin biosynthesis protein PYRR, chloroplastic 
+OS=Zea mays OX=4577 GN=PYRR PE=1 SV=1
+Length=623
+
+ Score = 227 bits (578),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 64/218 (29%), Positives = 104/218 (48%), Gaps = 12/218 (6%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF  +  AM+ADGK++        ISGK +  R+ ELR  +DA++VG  TV  DDP LT 
+Sbjct  215  PFSVLKYAMTADGKIAASSGHASWISGKASRGRVFELRGRSDAVIVGGNTVRFDDPRLTA  274
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +            K   PVR+V+  S   P  A+++   +   I+A    A  +  R L 
+Sbjct  275  RHV----------KGHVPVRIVMSQSLNLPEEANLWNLNDAYTIVATQRGARRDFQRKLA  324
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+             K + +      ++   + +   + G  +++ E G TL    +SA ++ +VY F    II
+Sbjct  325  MKGVEVVEFDM-LNPRAVMSYCYDRGYLAVLWECGGTLAASAISASVIHKVYAFWAPKII  383
+
+Query  183  GGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLK  219
+            GG  APT     G ++  + + L   S E+I+  +L+ 
+Sbjct  384  GGLNAPTPVGELGMSQMTQAINLIDVSYEQIDRDMLMS  421
+
+
+> sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 220 bits (561),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 61/224 (27%), Positives = 101/224 (45%), Gaps = 8/224 (4%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  AMS DG+ +    +   I+G      + ++RA + A++    TV+ADDPSL V
+Sbjct  152  PFVQLKLAMSLDGRTAMASGESKWITGPDARSDVQKMRAKSSALLSTSTTVIADDPSLNV  211
+
+Query  63   KSPERKAARKAAGKSE---NPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIR  119
+            +  E     K   K E    PVRV++DS  R      +F     + +++   S P +   
+Sbjct  212  RWDEFPENLKTEYKKEWLRQPVRVILDSQHRIQPTHKLFLTHSPVWLVS---SEPRDLTG  268
+
+Query  120  MLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGN  179
+              +    +I        L EL  +L +  IN+L VE GA L+  ++ A LVDE+  ++  
+Sbjct  269  FPDFCEQIIFPKENL--LKELMRELGKRQINTLWVEAGANLSGSLIDAKLVDELIIYIAP  326
+
+Query  180  LIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWKVK  223
+             ++G                +    +L+  E+I D I L +  K
+Sbjct  327  KLLGDNARGLCQLPNLTKLADAPLWQLNELEQIGDDIKLTYTPK  370
+
+
+> sp|Q9STY4|RIBRX_ARATH Riboflavin biosynthesis protein PYRR, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=PYRR PE=1 SV=1
+Length=599
+
+ Score = 224 bits (571),  Expect = 8e-69, Method: Composition-based stats.
+ Identities = 61/218 (28%), Positives = 99/218 (45%), Gaps = 12/218 (6%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF  +  AM+ DGK++        IS KL+  R+ ELR  +DA++VG  TV  DDP LT 
+Sbjct  186  PFSVLKYAMTLDGKIAASSGHAAWISSKLSRTRVFELRGGSDAVIVGGNTVRQDDPRLTA  245
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +           G+   P R+V+  S   P  A+++   E   I+     A +   ++L 
+Sbjct  246  RH----------GQGHTPTRIVMTQSLDLPEKANLWDVSEVSTIVVTQRGARKSFQKLLA  295
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+             K + +      ++  E+       G  S++ E G TL    +S+ ++ +V  FV   II
+Sbjct  296  SKGVEVVEFDM-LNPREVMEYFHLRGYLSILWECGGTLAASAISSSVIHKVVAFVAPKII  354
+
+Query  183  GGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLK  219
+            GG  AP+     G  E  + L L     E++   +L+ 
+Sbjct  355  GGSKAPSPVGDLGMVEMTQALNLIDVCYEQVGPDMLVS  392
+
+
+> sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 210 bits (535),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 48/221 (22%), Positives = 101/221 (46%), Gaps = 8/221 (4%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+I +  A S DG+ +    K   I+       +  +R  +DAI+    T+L D+P LTV
+Sbjct  147  PWIKLKLASSIDGRTALNNGKSKWITSDKARHDVQHVREKSDAIISSSETILFDNPLLTV  206
+
+Query  63   KSPE-----RKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEK  117
+            ++       +K  + +    + P+RV++DS  R   +    K+   L +I + +   +  
+Sbjct  207  RNTNNNDNNQKLLKHSKTFLKQPIRVIIDSKNRITPSHKCIKQPGLLFLIRIHS---DNN  263
+
+Query  118  IRMLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFV  177
+            I     K +++   + ++DL +L   L +  IN++++E G +L+   L   +++E+  ++
+Sbjct  264  IWPSHIKQIILNNKSKKIDLIDLVKMLAKYQINNILIEAGPSLSSSFLKLNIINELIIYI  323
+
+Query  178  GNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILL  218
+               I+G    P F        +++   +     +I   + L
+Sbjct  324  APKILGNYAKPLFFLENYSNLSDVPQFKFEKITQIGKDLKL  364
+
+
+> sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=ribD 
+PE=3 SV=1
+Length=368
+
+ Score = 209 bits (533),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 53/219 (24%), Positives = 92/219 (42%), Gaps = 12/219 (5%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+             RPF     AM+ DGK++T +     ++       + +LR+   A+++G  TV  D+P L
+Sbjct  146  QRPFGIFKYAMTLDGKIATAQAHSSWVTSSSARHWVHQLRSQCQAVIIGGNTVRRDNPLL  205
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+            T             G+  NP+RVV+  S   P+ A ++ +     ++    +     +  
+Sbjct  206  T---------NHGVGEV-NPLRVVLSRSLDLPIEAQLWDQDVAKTLVITEKTCDRNTLSH  255
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNL  180
+            L EK  V      ++    +  +L +     ++ E G  L    ++ G V +V+ F+   
+Sbjct  256  L-EKLEVETLVLEQLTPLAVMEELYQRNCLQVLWECGGILAAEAIAMGTVQKVHAFLAPK  314
+
+Query  181  IIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILL  218
+            IIGG  APT     GF +  + L L     + I    L 
+Sbjct  315  IIGGVAAPTPVGELGFQQMTQALNLTDLHCQAIGPDWLF  353
+
+
+> sp|Q6CJ61|RIB7_KLULA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Kluyveromyces lactis (strain 
+ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 
+/ WM37) OX=284590 GN=RIB7 PE=3 SV=1
+Length=252
+
+ Score = 204 bits (520),  Expect = 5e-65, Method: Composition-based stats.
+ Identities = 51/193 (26%), Positives = 86/193 (45%), Gaps = 9/193 (5%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            ++P++ +  A S D +++  +  +  IS +        LR   D IM+G GTVL DDP L
+Sbjct  29   EKPYVILTYAQSLDARIAKIKGTRTIISHQETNTMTHYLRYKFDGIMLGCGTVLVDDPGL  88
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNAD----IFKKGEGLRIIAVSNSAPEE  116
+              K       +       +P  +++D + +          +F  G+G   I V    PE 
+Sbjct  89   NCKWWPDDEPKPEHFAEHSPRPIILDPNGKWKFEGSKMKTLFDSGDGKAPIVVVKKLPEV  148
+
+Query  117  KIRMLEEKALVIKTG-AFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDEV  173
+                     LV++T    +VD  +L  +LK + G+ S+MVEGG   +N  +    L+D +
+Sbjct  149  VEE--NVDYLVMQTNFTGKVDWHDLFIQLKSQFGLKSIMVEGGGIVINDLLQRPHLIDAL  206
+
+Query  174  YTFVGNLIIGGKT  186
+               VG   +G + 
+Sbjct  207  VITVGATFLGSEG  219
+
+
+> sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=ribD PE=3 SV=1
+Length=356
+
+ Score = 206 bits (524),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 62/222 (28%), Positives = 100/222 (45%), Gaps = 16/222 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            +RP+I +  A + DGKL+T       I+ K + +    LR  A A++VG+ TV+ DDP L
+Sbjct  148  ERPYITLKWAQTLDGKLATLTGSSKWITSKESRKVAHILRREATAVLVGVNTVIKDDPHL  207
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+            TV+              + PVR+++D     PL+A +    E   I+        EK   
+Sbjct  208  TVRF---------VPTEKQPVRIILDPELEVPLSAKVLNTEEAPTIVITKKE--NEKAEK  256
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNL  180
+            L+EK + +       +L  +  KLKE+ I  LMVEGG       L  G  D +  F+   
+Sbjct  257  LKEKGVQVLILKG-FNLKNILKKLKELEIMHLMVEGGPRTLTSFLKEGFFDRIVVFIAPK  315
+
+Query  181  IIGGKTAPTFTDGEGF-TENELLGLELSSAEKIEDGILLKWK  221
+            I+G   +       G  +  E L +     E + + +++ +K
+Sbjct  316  IMGEGLS---IGDLGIRSIEESLKVRKKKVENLGEDLVIFFK  354
+
+
+> sp|P33312|RIB7_YEAST 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Saccharomyces cerevisiae (strain 
+ATCC 204508 / S288c) OX=559292 GN=RIB7 PE=1 SV=1
+Length=244
+
+ Score = 197 bits (500),  Expect = 3e-62, Method: Composition-based stats.
+ Identities = 56/190 (29%), Positives = 87/190 (46%), Gaps = 13/190 (7%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  A S D ++S     +  IS          LR H D I+VG GTVLAD+P L  
+Sbjct  30   PFVTLTYAQSLDARVSRGPGVRTTISHPETKTMTHYLRHHHDGILVGSGTVLADNPGLNC  89
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNA----DIFKKGEGLRIIAVSNSAPEEKI  118
+            K     AA        +P  +++D+  +   +     ++F K +G   I V  S P  K 
+Sbjct  90   KWGPDPAAN-------SPRPIIIDTKQKWRFDGSKMQELFIKRQGKPPIVVVTSEPIIKE  142
+
+Query  119  RMLEEKALVIKTGAFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDEVYTF  176
+            + ++     I      VD  +L   LK E  I S+MVEGGA  +N  +L + +V+ +   
+Sbjct  143  QHVDYAICPINDTTKLVDWKKLFEILKEEFNIRSVMVEGGANVINQLLLRSDIVNSLIIT  202
+
+Query  177  VGNLIIGGKT  186
+            +G+  +G   
+Sbjct  203  IGSTFLGSSG  212
+
+
+> sp|Q757H6|RIB7_ASHGO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Ashbya gossypii (strain ATCC 
+10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=RIB7 
+PE=3 SV=1
+Length=246
+
+ Score = 196 bits (498),  Expect = 9e-62, Method: Composition-based stats.
+ Identities = 53/189 (28%), Positives = 86/189 (46%), Gaps = 10/189 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  A S D +++ ++ ++  IS +        LR H   I++G GT LADDP L  
+Sbjct  29   PFVTLTYAQSLDARIAKQKGERTVISHEETKTMTHYLRYHHSGILIGSGTALADDPGLNC  88
+
+Query  63   KS-PERKAARKAAGKSENPVRVVVDSSARTPLNAD----IFKKGEGLRIIAVSNSAPEEK  117
+            +  P    A      S  P  +++D   R          +   G+G   I V+   PE +
+Sbjct  89   RWTPAADGADCTEQSSPRP--IILDVRGRWRYRGSKIEYLHNLGKGKAPIVVTGGEPEVR  146
+
+Query  118  IRMLEEKALVIKTGAFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDEVYT  175
+               +    L +  G  R++  EL  +L  E  + S+MVEGGA  LN  +L   +VD +  
+Sbjct  147  ELGVSYLQLGVDEG-GRLNWGELFERLYSEHHLESVMVEGGAEVLNQLLLRPDIVDSLVI  205
+
+Query  176  FVGNLIIGG  184
+             +G+  +G 
+Sbjct  206  TIGSKFLGS  214
+
+
+> sp|Q9P4B8|RIB7_KLUMA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Kluyveromyces marxianus OX=4911 
+GN=RIB7 PE=3 SV=1
+Length=249
+
+ Score = 195 bits (495),  Expect = 3e-61, Method: Composition-based stats.
+ Identities = 52/194 (27%), Positives = 94/194 (48%), Gaps = 12/194 (6%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            ++P++ +  A S D +++  +  +  IS +        LR   DAIM+G GTV+ DDP L
+Sbjct  28   EKPYVILTYAQSLDSRIAKIKGTRTFISHEETKTMTHYLRYKFDAIMLGCGTVMIDDPGL  87
+
+Query  61   TVK-SPERKAARKAAGKSENPVRVVVDSSARTPLN----ADIFKKGEGLRIIAVSNSAPE  115
+              K  PE +     AG S  P  +++D + +          +++ G+G   I V    P 
+Sbjct  88   NCKWWPEDEKPEHLAGISPRP--IILDPNCKWKFADSKMKKLYEAGDGKAPIIVVKELPS  145
+
+Query  116  EKIRMLEEKALVIKTG-AFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDE  172
+            E    ++   LV++T    ++D +++  +LK +  + S+MVEGG   +N  +    LVD 
+Sbjct  146  EPEEGVD--YLVMRTNFTGKMDWSDMLVQLKSKFNVKSVMVEGGGIVINDLLQRPNLVDA  203
+
+Query  173  VYTFVGNLIIGGKT  186
+            +   +G   +G + 
+Sbjct  204  LIITLGATFLGSEG  217
+
+
+> sp|Q6FU96|RIB7_CANGA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Candida glabrata (strain ATCC 
+2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 
+GN=RIB7 PE=1 SV=1
+Length=244
+
+ Score = 191 bits (485),  Expect = 7e-60, Method: Composition-based stats.
+ Identities = 49/223 (22%), Positives = 99/223 (44%), Gaps = 14/223 (6%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RPF+ +  A S D K++ +   +  IS     E    LR   D I++G GTVLADDP L 
+Sbjct  24   RPFVTLTYAQSIDAKIAKQRGVRTTISHIETKEMTHYLRYFHDGILIGSGTVLADDPGLN  83
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNA----DIFKKGEGLRIIAVSNSAPEEK  117
+             K          + + ++P  +++D   +   +     ++  +G G   I ++   P+ K
+Sbjct  84   CKWIGPNNDPDESMEEKSPRPIILDPKLKWKYSGSKMEELCNQGMGKPPIVITTKTPKVK  143
+
+Query  118  IRMLEEKALVIKTGAFRVDLTELAAKL-KEMGINSLMVEGGA-TLNWGMLSAGLVDEVYT  175
+               +E   +       R+    +   L +   + S+M+EGG+  +N  ++ + L+D +  
+Sbjct  144  EANVEYMIMEPDAND-RISWKSILDTLRRNYDMKSVMIEGGSHVINQLLMCSDLIDSLIV  202
+
+Query  176  FVGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILL  218
+             +G++ +G +       G   +  + + L+  S  K    +++
+Sbjct  203  TIGSIYLGSE-------GVTVSPPDEVKLKDISWWKGTSDVVM  238
+
+
+> sp|P95872|RIB7_SACS2 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Saccharolobus solfataricus (strain 
+ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 GN=SSO2097 
+PE=3 SV=1
+Length=213
+
+ Score = 186 bits (472),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 69/214 (32%), Positives = 100/214 (47%), Gaps = 16/214 (7%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            +P++ I S +S DG+L+TK     ++S   + +R  E+R+  DA+MVG  TV  D+PSLT
+Sbjct  4    KPYVIIFSTVSIDGRLATKTGYS-ELSCPYDKQRQHEIRSEVDAVMVGANTVRVDNPSLT  62
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+            VK  + +          NP+RVVV  S     +  IF       +I  SN    EK+   
+Sbjct  63   VKYGKNR---------RNPIRVVVTRSFNLDPSYKIFTT-PPSTVIYTSNYE-SEKVEEF  111
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+              K ++++   F      L        +  LMVEGG  L W  +   L DE+   +   I
+Sbjct  112  IRKGVIVR--KFLHLDDLLEDLYDNFNVRRLMVEGGGHLIWWFIKDNLYDEIRITISPRI  169
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKIEDG  215
+             G     +FT GEGF   +   LEL  A+  E G
+Sbjct  170  FGNGV--SFTQGEGFIGEDSPRLELIDAKICECG  201
+
+
+> sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ribD PE=1 SV=1
+Length=339
+
+ Score = 186 bits (473),  Expect = 8e-57, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 92/222 (41%), Gaps = 37/222 (17%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P +    A S DG+ +  +     IS +     +   RA ADAI+VG GTVLADDP+LT 
+Sbjct  154  PHVTWKYATSIDGRSAAADGSSQWISSEAARLDLHRRRAIADAILVGTGTVLADDPALTA  213
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +  +   A       + P+RVVV      P  A +    +  R + +    P E +R L 
+Sbjct  214  RLADGSLA------PQQPLRVVVGKR-DIPPEARVLN--DEARTMMIRTHEPMEVLRALS  264
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+            ++                           +++EGG TL    L AG ++ +  +V  +++
+Sbjct  265  DR-------------------------TDVLLEGGPTLAGAFLRAGAINRILAYVAPILL  299
+
+Query  183  GGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKVK  223
+            GG    T  D  G +     L  +  S EK+   +LL    +
+Sbjct  300  GGPV--TAVDDVGVSNITNALRWQFDSVEKVGPDLLLSLVAR  339
+
+
+> sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=ribD PE=3 SV=1
+Length=339
+
+ Score = 186 bits (473),  Expect = 8e-57, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 92/222 (41%), Gaps = 37/222 (17%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P +    A S DG+ +  +     IS +     +   RA ADAI+VG GTVLADDP+LT 
+Sbjct  154  PHVTWKYATSIDGRSAAADGSSQWISSEAARLDLHRRRAIADAILVGTGTVLADDPALTA  213
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +  +   A       + P+RVVV      P  A +    +  R + +    P E +R L 
+Sbjct  214  RLADGSLA------PQQPLRVVVGKR-DIPPEARVLN--DEARTMMIRTHEPMEVLRALS  264
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+            ++                           +++EGG TL    L AG ++ +  +V  +++
+Sbjct  265  DR-------------------------TDVLLEGGPTLAGAFLRAGAINRILAYVAPILL  299
+
+Query  183  GGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKVK  223
+            GG    T  D  G +     L  +  S EK+   +LL    +
+Sbjct  300  GGPV--TAVDDVGVSNITNALRWQFDSVEKVGPDLLLSLVAR  339
+
+
+> sp|Q6BII9|RIB7_DEBHA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Debaryomyces hansenii (strain 
+ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 
+GN=RIB7 PE=3 SV=1
+Length=247
+
+ Score = 179 bits (455),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 50/197 (25%), Positives = 89/197 (45%), Gaps = 20/197 (10%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            +RPF+ +  A S D +++ K  +Q KIS          +R+  D IMVGIGTVLADDP L
+Sbjct  24   NRPFVTLTYAQSLDSRIAAKPGEQTKISHLETKTMTHYIRSKHDGIMVGIGTVLADDPKL  83
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIF------KKGEGLRIIAVSNSAP  114
+              +           G    P  +++D + +   +           KG    I+      P
+Sbjct  84   NCRF------EAEDGNISTPRPIILDPTGKWAYHKSQLRSVCDNNKGLAPFILIDETVTP  137
+
+Query  115  EEKIRMLEEKAL-------VIKTGAFRVDLTELAAKLKEMGINSLMVEGGAT-LNWGMLS  166
+              +   + +K         +++      +   +  KL ++GI S+MVEGGA+ +N  ++ 
+Sbjct  138  RNEDVEVLDKQDGAFVRLPLLRNADKVGNWNIILKKLFQLGIKSIMVEGGASIINDLLVY  197
+
+Query  167  AGLVDEVYTFVGNLIIG  183
+            + ++D +   +G + +G
+Sbjct  198  SKIIDSLIITIGPVFLG  214
+
+
+> sp|P57534|RIBD2_BUCAI 5-amino-6-(5-phosphoribosylamino)uracil 
+reductase OS=Buchnera aphidicola subsp. Acyrthosiphon pisum 
+(strain APS) OX=107806 GN=ribD2 PE=3 SV=1
+Length=207
+
+ Score = 176 bits (446),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 44/203 (22%), Positives = 94/203 (46%), Gaps = 6/203 (3%)
+
+Query  19   TKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKSPERKAARKAAGKS-  77
+             +      I+ K   + + + RA +  I+    T+L+D+P L V+  E      +   + 
+Sbjct  1    MRNGDSKWITSKQARQDVQKFRAKSSVILSSSSTILSDNPLLNVRYKELDKKTLSIFPNK  60
+
+Query  78   --ENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEEKALVIKTGAFRV  135
+              ++P+RV++DS  R   + +I K    + +I + +   + KI       ++ K    ++
+Sbjct  61   IFQHPIRVIIDSKNRVQPSHNIIKTKGKIWLIRLKS---DRKIWPKNTTQIIEKDHNKKI  117
+
+Query  136  DLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGGKTAPTFTDGEG  195
+            ++  L   L +  IN++ +E G+TL+  +L++ L+DE+  ++   I+G +  P     E 
+Sbjct  118  NIFSLLKFLGQSEINNVWIEAGSTLSGFLLNSYLIDELIIYMAPKILGHEAKPLCMIYEK  177
+
+Query  196  FTENELLGLELSSAEKIEDGILL  218
+               +  L  +  +  +I   I L
+Sbjct  178  LKISNSLQFKFKNICQIGPDIRL  200
+
+
+> sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Corynebacterium 
+ammoniagenes OX=1697 GN=ribD PE=3 SV=1
+Length=337
+
+ Score = 163 bits (414),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 51/182 (28%), Positives = 79/182 (43%), Gaps = 32/182 (18%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP + +  A + DG  +  +     I+G++  + +   R H DAI++G GT L D+PSLT
+Sbjct  158  RPHVTLKFAQTIDGFTAAADGTSQWITGEMARDYVHADREHRDAIIIGTGTALIDNPSLT  217
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+             + P+         +   P RVV+                 G R IA +  A     R+ 
+Sbjct  218  ARYPD------GTQREHQPRRVVI-----------------GRRNIADAGDAASNLNRLG  254
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+             E+   I          E  A+L   G   ++VEGGA L  G  + GLVD +  +   L+
+Sbjct  255  FEQYATID---------EALAELYATGARDVLVEGGAGLASGFANQGLVDWLQVYQAPLL  305
+
+Query  182  IG  183
+            +G
+Sbjct  306  LG  307
+
+
+> sp|Q9P7L3|RIB7_SCHPO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Schizosaccharomyces pombe (strain 
+972 / ATCC 24843) OX=284812 GN=SPBC21C3.10c PE=3 SV=1
+Length=268
+
+ Score = 139 bits (350),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 48/204 (24%), Positives = 86/204 (42%), Gaps = 22/204 (11%)
+
+Query  1    DRPFIFINSAMSADGKLS----TKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLAD  56
+            ++  + +  A S +G++     +    Q+++S K +F     LR   D IMVG  T   D
+Sbjct  13   NKKHVLLTWAQSINGRIGYVVESPSLGQLRLSSKESFVMTHLLRTKFDGIMVGSRTAEND  72
+
+Query  57   DPSLTVKSPERKAARKAAGKSENPVRVVVDSSARTPLN-------ADIFKKGEGLRIIAV  109
+            +PSLT K P+          ++ P+ ++VDS+ R           A        L I+A 
+Sbjct  73   NPSLTAKLPDPANPDCLLPLNKQPIPIIVDSNLRLDYASLKVIRLARERLGKPPLIIVAP  132
+
+Query  110  S-------NSAPEEKIRMLEEKA--LVIKTGAFRVDLTEL--AAKLKEMGINSLMVEGGA  158
+            S       +S  +E +++++      +I+        ++     KL + G+N +MVEGGA
+Sbjct  133  SIWQQVQHDSKLKEAVKLIQSVGGRCIIRNEDSPDSWSDYVALDKLLQNGVNRIMVEGGA  192
+
+Query  159  TLNWGMLSAGLVDEVYTFVGNLII  182
+             L      +  +D     +   I 
+Sbjct  193  ELLAKAFGSTDIDAYVVTIVPKIF  216
+
+
+> sp|P37508|YYAP_BACSU Uncharacterized protein YyaP OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yyaP PE=1 SV=1
+Length=188
+
+ Score = 51.1 bits (121),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 34/213 (16%), Positives = 74/213 (35%), Gaps = 42/213 (20%)
+
+Query  5    IFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKS  64
+            I ++ A++ DG +  K  +        +    D L    D I+ G               
+Sbjct  10   IILDLAVTLDGFIEGKNGEVDWCIMDPDMGFTDFL-NQIDTILYG--------------R  54
+
+Query  65   PERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEEK  124
+                   +   K+E+P               +++       + +            ++ +
+Sbjct  55   KSFDLWGQYIPKNEDP-----------DTEKELW-----KLVHSKKKYVFSRTQNEIDNQ  98
+
+Query  125  ALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGG  184
+            A+ I       ++ E   KLK+     + + GGA+L    ++ GLVDE    +  +++G 
+Sbjct  99   AIFIND-----NILEEVNKLKKNPGKDIWLYGGASLITTFINLGLVDEFRLSIHPVVLG-  152
+
+Query  185  KTAPTFTDGEGFTENELLGLELSSAEKIEDGIL  217
+            +  P F D       + + L++ +      G++
+Sbjct  153  EGKPLFID-----VKQRINLKMVNTRTFSSGVV  180
+
+
+> sp|B6TRH4|RIBD_MAIZE Riboflavin biosynthesis protein PYRD, chloroplastic 
+OS=Zea mays OX=4577 GN=PYRD PE=2 SV=1
+Length=392
+
+ Score = 49.6 bits (117),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 32/214 (15%), Positives = 69/214 (32%), Gaps = 28/214 (13%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            + F  + + +S +G ++ +  K        +     +L    D +++             
+Sbjct  191  KAFATLRATLSMNGIITNQIGKGA----DQSGGYYSQLMKEYDGVIISSDLAKM------  240
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+                           +  P+ +++     + L+     +    R I +++S     +   
+Sbjct  241  -----SALPLSREAGTNQPLCIIIAQGESSRLHIPSLSQEHASRAIVLADS--PVTVEPA  293
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMV---EGG---ATLNWGMLSAGLVDEVYT  175
+              +  V +    ++DL  +   L + G+ S++V   E G   A+L        LV +V  
+Sbjct  294  GVEVAVFR----QIDLESILQLLAQRGLCSVLVDFREAGESFASLLNDFQEDKLVQKVVV  349
+
+Query  176  FVGNLIIGGKTAPTFTDGEGFTENELLGLELSSA  209
+             V    +          G G     L  LEL   
+Sbjct  350  EVLPFWLASDGLSNLAFG-GSQSFPLKNLELRDV  382
+
+
+> sp|P45862|YWJB_BACSU Uncharacterized protein YwjB OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ywjB PE=4 SV=1
+Length=174
+
+ Score = 47.7 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 61/218 (28%), Gaps = 53/218 (24%)
+
+Query  6    FINSAMSADGKLSTKERKQVKISGKLNFERMDE--LRAHADAIMVGIGTVLADDPSLTVK  63
+             +  A+S DG ++ ++     +                  D +++G  T           
+Sbjct  6    VLYIAVSLDGMIAKEDGSIDWLDEFEGEGDNGYSDFYQTVDTVILGRST-----------  54
+
+Query  64   SPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEE  123
+                        K   PV          P                V   +P+      +E
+Sbjct  55   --------YEHVKVLTPV---------FPYQDKTC---------YVFTGSPDSYQ---DE  85
+
+Query  124  KALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIG  183
+                I  GA         A+LK+   +++ + GGA L    +    +DE    V  +++G
+Sbjct  86   HVTFINEGA-----RAFTARLKQEKGSNIWIAGGAELVNDFMKEDAIDEFIITVIPVVLG  140
+
+Query  184  GKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWK  221
+                P F             L L   ++    + L + 
+Sbjct  141  S-GIPLF-----HELTNETKLRLKGTKQFGQAVQLHYV  172
+
+
+> sp|Q60034|DYR_THEMA Dihydrofolate reductase OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=folA PE=1 SV=1
+Length=169
+
+ Score = 43.8 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/88 (27%), Positives = 40/88 (45%), Gaps = 4/88 (5%)
+
+Query  136  DLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGGKTAPTFTDGEG  195
+               ++   L+  G   + V GG T+    L   LVDE++  V   + G K  P F + EG
+Sbjct  82   SPADVVKFLEGKGYERVAVIGGKTVFTEFLREKLVDELFVTVEPYVFG-KGIPFFDEFEG  140
+
+Query  196  FTENELLGLELSSAEKIEDGILLKWKVK  223
+            +   +L  LE+    +    + LK+ V+
+Sbjct  141  YFPLKL--LEMRRLNERGT-LFLKYSVE  165
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.140    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15108241262
+Results from round 3
+
+
+Query= 5XV0:E
+
+Length=223
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Ba...  237     3e-76
+  sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Ba...  235     1e-75
+  sp|O26337|RIB7_METTH 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  229     4e-75
+  sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Ac...  233     1e-74
+  sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Es...  231     4e-74
+  sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Ch...  231     4e-74
+  sp|Q8K9A3|RIBD2_BUCAP 5-amino-6-(5-phosphoribosylamino)uracil r...  221     7e-72
+  sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Ha...  224     2e-71
+  sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Ch...  224     2e-71
+  sp|O28272|RIB7_ARCFU 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  218     6e-71
+  sp|Q58085|RIB7_METJA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  218     1e-70
+  sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Ch...  216     4e-68
+  sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Bu...  214     2e-67
+  sp|K7WIZ6|RIBRX_MAIZE Riboflavin biosynthesis protein PYRR, chl...  221     3e-67
+  sp|O66747|RIB7_AQUAE 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  209     3e-67
+  sp|Q9STY4|RIBRX_ARATH Riboflavin biosynthesis protein PYRR, chl...  218     2e-66
+  sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Sy...  209     3e-65
+  sp|Q6CJ61|RIB7_KLULA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  202     4e-64
+  sp|Q6FU96|RIB7_CANGA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  201     9e-64
+  sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aq...  204     1e-63
+  sp|Q757H6|RIB7_ASHGO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  193     8e-61
+  sp|P33312|RIB7_YEAST 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  193     1e-60
+  sp|Q9P4B8|RIB7_KLUMA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  188     1e-58
+  sp|P57534|RIBD2_BUCAI 5-amino-6-(5-phosphoribosylamino)uracil r...  180     4e-56
+  sp|Q6BII9|RIB7_DEBHA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  181     7e-56
+  sp|P95872|RIB7_SACS2 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  179     2e-55
+  sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=My...  177     2e-53
+  sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=My...  177     2e-53
+  sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Co...  155     5e-45
+  sp|Q9P7L3|RIB7_SCHPO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidin...  151     5e-44
+  sp|P37508|YYAP_BACSU Uncharacterized protein YyaP OS=Bacillus s...  112     6e-30
+  sp|P45862|YWJB_BACSU Uncharacterized protein YwjB OS=Bacillus s...  108     1e-28
+  sp|B6TRH4|RIBD_MAIZE Riboflavin biosynthesis protein PYRD, chlo...  110     2e-27
+  sp|Q60034|DYR_THEMA Dihydrofolate reductase OS=Thermotoga marit...  68.9    2e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8GWP5|RIBD_ARATH Riboflavin biosynthesis protein PYRD, chlo...  54.7    1e-07
+
+
+> sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ribD PE=1 SV=1
+Length=361
+
+ Score = 237 bits (604),  Expect = 3e-76, Method: Composition-based stats.
+ Identities = 63/222 (28%), Positives = 106/222 (48%), Gaps = 11/222 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DGK++T       I+ +   +   + R    +I+VG+GTV AD+PSLT 
+Sbjct  146  PYVTLKAAASLDGKIATSTGDSKWITSEAARQDAQQYRKTHQSILVGVGTVKADNPSLTC  205
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P           ++ PVRV++D+    P +A +         I  +  A EEK + L 
+Sbjct  206  RLPN---------VTKQPVRVILDTVLSIPEDAKVICDQIAPTWIFTTARADEEKKKRLS  256
+
+Query  123  EKALVIKT-GAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+               + I T    R+ + ++   L E GI S+ VEGG+ ++   +  G   E+  +    +
+Sbjct  257  AFGVNIFTLETERIQIPDVLKILAEEGIMSVYVEGGSAVHGSFVKEGCFQEIIFYFAPKL  316
+
+Query  182  IGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKV  222
+            IGG  AP+   GEGF    ++  L+ +   +I   I L  K 
+Sbjct  317  IGGTHAPSLISGEGFQSMKDVPLLQFTDITQIGRDIKLTAKP  358
+
+
+> sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Bacillus 
+amyloliquefaciens OX=1390 GN=ribD PE=3 SV=1
+Length=371
+
+ Score = 235 bits (600),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 64/223 (29%), Positives = 107/223 (48%), Gaps = 11/223 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DGK +T+      I+ +       + R     I+VG GTV AD+PSLT 
+Sbjct  146  PYVTLKAAASLDGKTATETGDSKWITSEAARLDAQQYRKSHQRILVGAGTVKADNPSLTC  205
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P+           + PVRV++D+    P  A++   G     I  +  +   K   L 
+Sbjct  206  RLPDA---------VKQPVRVILDTKLTVPETANVLTDGAAPTWIFTAAGSDVRKKDRLT  256
+
+Query  123  EKALVIKT-GAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+               + + T    R+ + E+ + L E GI S+ VEGGA+++   + AG  DE++ +   ++
+Sbjct  257  ALGIKVFTLETDRIHIPEVLSILAENGIMSVYVEGGASVHGSFVKAGCFDELHFYFAPIL  316
+
+Query  182  IGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKVK  223
+            IGG  AP+   GEGF    ++  L+ +   +I   I L    K
+Sbjct  317  IGGTLAPSLISGEGFQSMKDVPHLQFTQITQIGPDIKLTAIPK  359
+
+
+> sp|O26337|RIB7_METTH 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Methanothermobacter thermautotrophicus 
+(strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 
+100330 / Delta H) OX=187420 GN=MTH_235 PE=3 SV=1
+Length=216
+
+ Score = 229 bits (583),  Expect = 4e-75, Method: Composition-based stats.
+ Identities = 98/223 (44%), Positives = 137/223 (61%), Gaps = 10/223 (4%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP++ +N+AM+ DGK++T       ISG+ +  R+ ELR   DAIMVGI TVLADDP LT
+Sbjct  2    RPYVILNAAMTLDGKIATATGSSE-ISGEEDLRRVHELRRECDAIMVGINTVLADDPRLT  60
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+            V   +           +NPVRVVVDS ARTP +  +    E   +I VS SAP E++  L
+Sbjct  61   VHRVDA-------APGDNPVRVVVDSMARTPPHFRVLN-DEAPTVIGVSESAPPERVAEL  112
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+             ++A V+  G  RVDL  L  +L  MGI  LM+EGG+TLN+ ML+ GLVDEV   +  +I
+Sbjct  113  RKRAEVVVAGTRRVDLHLLLERLHGMGIERLMLEGGSTLNYSMLTGGLVDEVRVCIAPMI  172
+
+Query  182  IGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKVK  223
+            +GG+ A T  DGEG  E  + + LEL  +  + + +++++ VK
+Sbjct  173  VGGRDARTLVDGEGIDEMADAIRLELKRSYTLGEDLIVEYTVK  215
+
+
+> sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Actinobacillus 
+pleuropneumoniae OX=715 GN=ribD PE=3 SV=2
+Length=376
+
+ Score = 233 bits (594),  Expect = 1e-74, Method: Composition-based stats.
+ Identities = 83/226 (37%), Positives = 128/226 (57%), Gaps = 14/226 (6%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+             RP++ +  AM+ADGK++T   +   I+G+    R+ + R    AIMVG+ TVLAD+P L
+Sbjct  157  KRPYVLMKYAMTADGKIATGSGESKWITGESARARVQQTRHQYSAIMVGVDTVLADNPML  216
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKI--  118
+              + P            + PVR+V DS  RTPL+  + +  +  R +  + S   +KI  
+Sbjct  217  NSRMPNA----------KQPVRIVCDSQLRTPLDCQLVQTAKEYRTVIATVSDDLQKIEQ  266
+
+Query  119  -RMLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFV  177
+             R L    LV K    RVDL +L  KL EM I+SL++EGG++LN+  L +G+V+ V+ ++
+Sbjct  267  FRPLGVDVLVCKARNKRVDLQDLLQKLGEMQIDSLLLEGGSSLNFSALESGIVNRVHCYI  326
+
+Query  178  GNLIIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLKWKV  222
+               ++GGK A T   GEG  + ++ + L+L S E I + ILL + V
+Sbjct  327  APKLVGGKQAKTPIGGEGIQQIDQAVKLKLKSTELIGEDILLDYVV  372
+
+
+> sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Escherichia 
+coli (strain K12) OX=83333 GN=ribD PE=1 SV=1
+Length=367
+
+ Score = 231 bits (590),  Expect = 4e-74, Method: Composition-based stats.
+ Identities = 57/222 (26%), Positives = 92/222 (41%), Gaps = 6/222 (3%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+I +    S DG+ +    +   I+       +  LRA + AI+    TVLADDP+LTV
+Sbjct  147  PYIQLKLGASLDGRTAMASGESQWITSPQARRDVQLLRAQSHAILTSSATVLADDPALTV  206
+
+Query  63   KSPERKAARKAAGKSE---NPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIR  119
+            +  E     +A    +    P+R+V+DS  R      I ++  G    A +     E   
+Sbjct  207  RWSELDEQTQALYPQQNLRQPIRIVIDSQNRVTPVHRIVQQ-PGETWFARTQEDSRE--W  263
+
+Query  120  MLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGN  179
+                + L+I      +DL  L  +L +  INS+ VE G TL   +L AGLVDE+  ++  
+Sbjct  264  PETVRTLLIPEHKGHLDLVVLMMQLGKQQINSIWVEAGPTLAGALLQAGLVDELIVYIAP  323
+
+Query  180  LIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWK  221
+             ++G       T        +    +      +   + L   
+Sbjct  324  KLLGSDARGLCTLPGLEKLADAPQFKFKEIRHVGPDVCLHLV  365
+
+
+> sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=ribD PE=3 
+SV=2
+Length=371
+
+ Score = 231 bits (590),  Expect = 4e-74, Method: Composition-based stats.
+ Identities = 59/220 (27%), Positives = 104/220 (47%), Gaps = 8/220 (4%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DG+ S +      ISG+     +  LRA + A++VG  TV  D+P L+ 
+Sbjct  152  PWVVMKTAASLDGQTSDRRGISQWISGEQARLDVGRLRAESQAVIVGSRTVCLDNPRLSA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P              P+RVVVDS    PL+A ++    G  ++A +    +E I+ LE
+Sbjct  212  RMPSGDLY------ERQPLRVVVDSRGSVPLDARVWNPDSGNVLLATTEQCSKEHIQKLE  265
+
+Query  123  EKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            ++ + V K+   +VDL  L   L E G   ++VEGGA L+       LV+    + G   
+Sbjct  266  DRGVEVWKSSPQQVDLKRLLQYLAEKGCLQVLVEGGARLHSAFWREHLVNAGVIYWGPKF  325
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWK  221
+            +G + +P   D      +    ++++    + D +   ++
+Sbjct  326  LGDQGSPMLRD-LQLCLDNAEHVKITKTFLVGDSVKTCFE  364
+
+
+> sp|Q8K9A3|RIBD2_BUCAP 5-amino-6-(5-phosphoribosylamino)uracil 
+reductase OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=ribD2 PE=3 SV=1
+Length=217
+
+ Score = 221 bits (562),  Expect = 7e-72, Method: Composition-based stats.
+ Identities = 53/216 (25%), Positives = 101/216 (47%), Gaps = 6/216 (3%)
+
+Query  11   MSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKSPERKAA  70
+            MS DG+++ K  +   I+ K + E + + RA + AI+    T+L DDP L V+  +    
+Sbjct  1    MSIDGRIAMKNGESRWITSKESREDVQKFRAKSSAILTSSATILNDDPLLNVRYKKFDKN  60
+
+Query  71   RKAAGKSE---NPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEEKALV  127
+              +    +    P+R+++DS  R   +  I +  E + ++ +     +++I     K ++
+Sbjct  61   TLSTFPKKIFQQPIRIIIDSKNRVKKSHKIIQTKEKILLMRLK---LDKEIWPENTKQII  117
+
+Query  128  IKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGGKTA  187
+            IK     +DL  +   L  + IN+L +E G+TL+   L   L+DE+  ++   I+G +  
+Sbjct  118  IKPYKENIDLLCVLKFLGNLEINNLWIEAGSTLSGCFLKLELIDEIIIYIAPKILGHEAK  177
+
+Query  188  PTFTDGEGFTENELLGLELSSAEKIEDGILLKWKVK  223
+            P F         + L  +     +I   I +K + K
+Sbjct  178  PLFIFNNQLKLFDCLKFDFKDIRQIGPDIRIKLEPK  213
+
+
+> sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 224 bits (572),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 60/224 (27%), Positives = 100/224 (45%), Gaps = 8/224 (4%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  AMS DG+ +    +   I+G      + ++RA + A++    TV+ADDPSL V
+Sbjct  152  PFVQLKLAMSLDGRTAMASGESKWITGPDARSDVQKMRAKSSALLSTSTTVIADDPSLNV  211
+
+Query  63   KSPERKAARKAAGKS---ENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIR  119
+            +  E     K   K      PVRV++DS  R      +F     + ++   +S P +   
+Sbjct  212  RWDEFPENLKTEYKKEWLRQPVRVILDSQHRIQPTHKLFLTHSPVWLV---SSEPRDLTG  268
+
+Query  120  MLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGN  179
+              +    +I        L EL  +L +  IN+L VE GA L+  ++ A LVDE+  ++  
+Sbjct  269  FPDFCEQIIFPKENL--LKELMRELGKRQINTLWVEAGANLSGSLIDAKLVDELIIYIAP  326
+
+Query  180  LIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWKVK  223
+             ++G                +    +L+  E+I D I L +  K
+Sbjct  327  KLLGDNARGLCQLPNLTKLADAPLWQLNELEQIGDDIKLTYTPK  370
+
+
+> sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=ribD PE=3 
+SV=1
+Length=375
+
+ Score = 224 bits (572),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 59/220 (27%), Positives = 103/220 (47%), Gaps = 8/220 (4%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P++ + +A S DG+ + +      ISG+L    + +LRA + AI+VG  TV  D+P L+ 
+Sbjct  152  PWVVMKTAASLDGQTADRGGSSQWISGELARADVGKLRAESQAIIVGARTVCLDNPRLSA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P              P+RVVVDS    PL + +F    G  + A +   P+E I+ L+
+Sbjct  212  RFPHGDLY------ERQPLRVVVDSRGTVPLESRVFDLSSGSTLFATTQQCPKEYIQKLK  265
+
+Query  123  EKAL-VIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            +  + V ++ + +VDL  L   L E G   ++VEGGA L+       LV+    + G   
+Sbjct  266  DLGVEVWESSSHQVDLKGLLRYLAERGCLQVLVEGGAQLHSAFWQQKLVNAGVIYWGPKF  325
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWK  221
+            +G +  P   D    +      + ++    + D +   ++
+Sbjct  326  LGDQGQPMLRD-LQLSLVTAEHVRITETSLVRDSVKTCFE  364
+
+
+> sp|O28272|RIB7_ARCFU 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Archaeoglobus fulgidus (strain 
+ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 
+GN=AF_2007 PE=3 SV=1
+Length=219
+
+ Score = 218 bits (556),  Expect = 6e-71, Method: Composition-based stats.
+ Identities = 102/218 (47%), Positives = 136/218 (62%), Gaps = 5/218 (2%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RP++F+N A S DGK+S + RKQ++IS + +   +D LRA +DAIMVGIGTVLADDP LT
+Sbjct  2    RPYVFVNVAASLDGKISDESRKQLRISCEEDLRIVDRLRAESDAIMVGIGTVLADDPRLT  61
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+            VKS E +  R+  GK  NP+RVVVDS  R PL A I    E   ++AVS  APEEK+R +
+Sbjct  62   VKSAELREKRQKDGKEPNPLRVVVDSRCRVPLTARILN-DEARTLVAVSRIAPEEKVREV  120
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+            ++ A V   G  RV+L+ L   L   G+  LMVEGG TL   ++S  LVDE+  + G + 
+Sbjct  121  KKVAEVAVFGEERVELSALLEFLHRKGVRRLMVEGGGTLISSLISQNLVDEIRIYYGPIF  180
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+            IGG+ +PT  DGE F    L    +   E+I +G  + 
+Sbjct  181  IGGRDSPTVCDGESF----LKKCRIEKIERIGEGFAVT  214
+
+
+> sp|Q58085|RIB7_METJA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Methanocaldococcus jannaschii 
+(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) 
+OX=243232 GN=arfC PE=1 SV=1
+Length=224
+
+ Score = 218 bits (555),  Expect = 1e-70, Method: Composition-based stats.
+ Identities = 98/228 (43%), Positives = 136/228 (60%), Gaps = 16/228 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+             +P+I  N  M+ DGKL+T      +IS + +  R+ ++RA+ D IMVGIGTVL DDP L
+Sbjct  7    KKPYIISNVGMTLDGKLATINNDS-RISCEEDLIRVHKIRANVDGIMVGIGTVLKDDPRL  65
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+            TV   +            NPVR+VVDS  R PLNA +  K +   IIA +    EEK + 
+Sbjct  66   TVHKIKSD---------RNPVRIVVDSKLRVPLNARVLNK-DAKTIIATTEDTNEEKEKK  115
+
+Query  121  LEEK----ALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTF  176
+            ++        V+K G  +VDL +L   L + GI S+++EGG TLNWGM   GLVDEV  +
+Sbjct  116  IKILEDMGVEVVKCGRGKVDLKKLMDILYDKGIKSILLEGGGTLNWGMFKEGLVDEVSVY  175
+
+Query  177  VGNLIIGGKTAPTFTDGEGFT-ENELLGLELSSAEKIEDGILLKWKVK  223
+            +   I GGK APT+ DGEGF   +E + LEL +  ++ +GI+L++KVK
+Sbjct  176  IAPKIFGGKEAPTYVDGEGFKTVDECVKLELKNFYRLGEGIVLEFKVK  223
+
+
+> sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Chlamydia 
+pneumoniae OX=83558 GN=ribD PE=3 SV=1
+Length=376
+
+ Score = 216 bits (551),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 60/223 (27%), Positives = 108/223 (48%), Gaps = 11/223 (5%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+  + SA S DG+++  + K   I+       + +LRA + AI+VG  TVL+DDP LT 
+Sbjct  152  PWTILKSAASVDGQVADSQGKSQWITCPEARHDVGKLRAESQAILVGSRTVLSDDPWLTA  211
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            + P+           + P+RVV+DS    P  + +F K     +   +   PE  I++L+
+Sbjct  212  RQPQGMLY------PKQPLRVVLDSRGSVPPTSKVFDKTS-PTLYVTTERCPENYIKVLD  264
+
+Query  123  EK---ALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGN  179
+                  L+ ++    VDL ++   L +  I  ++VEGG TL+  +L    V+ +  + G 
+Sbjct  265  SLDVPVLLTESTPSGVDLHKVYEYLAQKKILQVLVEGGTTLHTSLLKERFVNSLVLYSGP  324
+
+Query  180  LIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWKV  222
+            +I+G +  P      G        L L S++ + + + + W++
+Sbjct  325  MILGDQKRP-LVGVLGNLLESASPLTLKSSQILGNSLKVVWEI  366
+
+
+> sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 214 bits (546),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 48/224 (21%), Positives = 101/224 (45%), Gaps = 8/224 (4%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P+I +  A S DG+ +    K   I+       +  +R  +DAI+    T+L D+P LTV
+Sbjct  147  PWIKLKLASSIDGRTALNNGKSKWITSDKARHDVQHVREKSDAIISSSETILFDNPLLTV  206
+
+Query  63   KSPE-----RKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEK  117
+            ++       +K  + +    + P+RV++DS  R   +    K+   L +I + +   +  
+Sbjct  207  RNTNNNDNNQKLLKHSKTFLKQPIRVIIDSKNRITPSHKCIKQPGLLFLIRIHS---DNN  263
+
+Query  118  IRMLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFV  177
+            I     K +++   + ++DL +L   L +  IN++++E G +L+   L   +++E+  ++
+Sbjct  264  IWPSHIKQIILNNKSKKIDLIDLVKMLAKYQINNILIEAGPSLSSSFLKLNIINELIIYI  323
+
+Query  178  GNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWK  221
+               I+G    P F        +++   +     +I   + L   
+Sbjct  324  APKILGNYAKPLFFLENYSNLSDVPQFKFEKITQIGKDLKLILT  367
+
+
+> sp|K7WIZ6|RIBRX_MAIZE Riboflavin biosynthesis protein PYRR, chloroplastic 
+OS=Zea mays OX=4577 GN=PYRR PE=1 SV=1
+Length=623
+
+ Score = 221 bits (562),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 64/218 (29%), Positives = 104/218 (48%), Gaps = 12/218 (6%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF  +  AM+ADGK++        ISGK +  R+ ELR  +DA++VG  TV  DDP LT 
+Sbjct  215  PFSVLKYAMTADGKIAASSGHASWISGKASRGRVFELRGRSDAVIVGGNTVRFDDPRLTA  274
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +            K   PVR+V+  S   P  A+++   +   I+A    A  +  R L 
+Sbjct  275  R----------HVKGHVPVRIVMSQSLNLPEEANLWNLNDAYTIVATQRGARRDFQRKLA  324
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+             K + +      ++   + +   + G  +++ E G TL    +SA ++ +VY F    II
+Sbjct  325  MKGVEVVEFDM-LNPRAVMSYCYDRGYLAVLWECGGTLAASAISASVIHKVYAFWAPKII  383
+
+Query  183  GGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLK  219
+            GG  APT     G ++  + + L   S E+I+  +L+ 
+Sbjct  384  GGLNAPTPVGELGMSQMTQAINLIDVSYEQIDRDMLMS  421
+
+
+> sp|O66747|RIB7_AQUAE 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Aquifex aeolicus (strain VF5) 
+OX=224324 GN=ribD2 PE=1 SV=1
+Length=224
+
+ Score = 209 bits (531),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 82/228 (36%), Positives = 122/228 (54%), Gaps = 16/228 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVK----ISGKLNFERMDELRAHADAIMVGIGTVLAD  56
+            +RP++ I S +S DGKL+       K    +  +  ++ + E+RA  D IMVG  TV  D
+Sbjct  2    ERPYVIIVSEVSVDGKLTLYRGASSKELMSLMDEEAYKYLHEIRAKVDGIMVGCETVRTD  61
+
+Query  57   DPSLTVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEE  116
+            +PSLTV+            K +NPVR++  S+A  PL+A++    E   IIA +  AP+E
+Sbjct  62   NPSLTVRY----------AKGKNPVRIIPCSTANVPLDANVLNTKEAPTIIATTERAPKE  111
+
+Query  117  KIRMLEEKA-LVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYT  175
+            ++  ++E    VI  G   VD  +L  +L   GI SLMVEGGA++NW  +   +VDE+  
+Sbjct  112  RLEKIKELGAEVIVVGDELVDFDKLLPELYRRGIKSLMVEGGASINWEFVRRRVVDEIRL  171
+
+Query  176  FVGNLIIGGKTAPTFTDGEGF-TENELLGLELSSAEKIEDGILLKWKV  222
+                +I+GG+  PT   GEGF     LL L L S       ++ +W+V
+Sbjct  172  IHLPVIVGGENVPTLVGGEGFKKLKNLLHLRLRSHFVRGKQLITEWEV  219
+
+
+> sp|Q9STY4|RIBRX_ARATH Riboflavin biosynthesis protein PYRR, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=PYRR PE=1 SV=1
+Length=599
+
+ Score = 218 bits (555),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 60/218 (28%), Positives = 98/218 (45%), Gaps = 12/218 (6%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF  +  AM+ DGK++        IS KL+  R+ ELR  +DA++VG  TV  DDP LT 
+Sbjct  186  PFSVLKYAMTLDGKIAASSGHAAWISSKLSRTRVFELRGGSDAVIVGGNTVRQDDPRLTA  245
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +           G+   P R+V+  S   P  A+++   E   I+     A +   ++L 
+Sbjct  246  R----------HGQGHTPTRIVMTQSLDLPEKANLWDVSEVSTIVVTQRGARKSFQKLLA  295
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+             K + +      ++  E+       G  S++ E G TL    +S+ ++ +V  FV   II
+Sbjct  296  SKGVEVVEFDM-LNPREVMEYFHLRGYLSILWECGGTLAASAISSSVIHKVVAFVAPKII  354
+
+Query  183  GGKTAPTFTDGEGF-TENELLGLELSSAEKIEDGILLK  219
+            GG  AP+     G     + L L     E++   +L+ 
+Sbjct  355  GGSKAPSPVGDLGMVEMTQALNLIDVCYEQVGPDMLVS  392
+
+
+> sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=ribD 
+PE=3 SV=1
+Length=368
+
+ Score = 209 bits (531),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 52/220 (24%), Positives = 90/220 (41%), Gaps = 12/220 (5%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+             RPF     AM+ DGK++T +     ++       + +LR+   A+++G  TV  D+P L
+Sbjct  146  QRPFGIFKYAMTLDGKIATAQAHSSWVTSSSARHWVHQLRSQCQAVIIGGNTVRRDNPLL  205
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+            T                 NP+RVV+  S   P+ A ++ +     ++    +     +  
+Sbjct  206  TNH----------GVGEVNPLRVVLSRSLDLPIEAQLWDQDVAKTLVITEKTCDRNTLSH  255
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNL  180
+            L EK  V      ++    +  +L +     ++ E G  L    ++ G V +V+ F+   
+Sbjct  256  L-EKLEVETLVLEQLTPLAVMEELYQRNCLQVLWECGGILAAEAIAMGTVQKVHAFLAPK  314
+
+Query  181  IIGGKTAPTFTDGEGFTE-NELLGLELSSAEKIEDGILLK  219
+            IIGG  APT     GF +  + L L     + I    L  
+Sbjct  315  IIGGVAAPTPVGELGFQQMTQALNLTDLHCQAIGPDWLFT  354
+
+
+> sp|Q6CJ61|RIB7_KLULA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Kluyveromyces lactis (strain 
+ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 
+/ WM37) OX=284590 GN=RIB7 PE=3 SV=1
+Length=252
+
+ Score = 202 bits (513),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 53/225 (24%), Positives = 93/225 (41%), Gaps = 14/225 (6%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            ++P++ +  A S D +++  +  +  IS +        LR   D IM+G GTVL DDP L
+Sbjct  29   EKPYVILTYAQSLDARIAKIKGTRTIISHQETNTMTHYLRYKFDGIMLGCGTVLVDDPGL  88
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNAD----IFKKGEGLRIIAVSNSAPEE  116
+              K       +       +P  +++D + +          +F  G+G   I V    PE 
+Sbjct  89   NCKWWPDDEPKPEHFAEHSPRPIILDPNGKWKFEGSKMKTLFDSGDGKAPIVVVKKLPEV  148
+
+Query  117  KIRMLEEKALVIKTGAFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDEVY  174
+                ++   +       +VD  +L  +LK + G+ S+MVEGG   +N  +    L+D + 
+Sbjct  149  VEENVDYLVMQTN-FTGKVDWHDLFIQLKSQFGLKSIMVEGGGIVINDLLQRPHLIDALV  207
+
+Query  175  TFVGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+              VG   +G +       G   +    + L+  S  K     +L 
+Sbjct  208  ITVGATFLGSE-------GVEVSPLIEINLKDISWWKGTRDSVLC  245
+
+
+> sp|Q6FU96|RIB7_CANGA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Candida glabrata (strain ATCC 
+2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 
+GN=RIB7 PE=1 SV=1
+Length=244
+
+ Score = 201 bits (511),  Expect = 9e-64, Method: Composition-based stats.
+ Identities = 49/224 (22%), Positives = 99/224 (44%), Gaps = 14/224 (6%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            RPF+ +  A S D K++ +   +  IS     E    LR   D I++G GTVLADDP L 
+Sbjct  24   RPFVTLTYAQSIDAKIAKQRGVRTTISHIETKEMTHYLRYFHDGILIGSGTVLADDPGLN  83
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNA----DIFKKGEGLRIIAVSNSAPEEK  117
+             K          + + ++P  +++D   +   +     ++  +G G   I ++   P+ K
+Sbjct  84   CKWIGPNNDPDESMEEKSPRPIILDPKLKWKYSGSKMEELCNQGMGKPPIVITTKTPKVK  143
+
+Query  118  IRMLEEKALVIKTGAFRVDLTELAAKL-KEMGINSLMVEGGAT-LNWGMLSAGLVDEVYT  175
+               +E   +       R+    +   L +   + S+M+EGG+  +N  ++ + L+D +  
+Sbjct  144  EANVEYMIMEPDAND-RISWKSILDTLRRNYDMKSVMIEGGSHVINQLLMCSDLIDSLIV  202
+
+Query  176  FVGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+             +G++ +G +       G   +  + + L+  S  K    +++ 
+Sbjct  203  TIGSIYLGSE-------GVTVSPPDEVKLKDISWWKGTSDVVMC  239
+
+
+> sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=ribD PE=3 SV=1
+Length=356
+
+ Score = 204 bits (519),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 62/222 (28%), Positives = 100/222 (45%), Gaps = 16/222 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            +RP+I +  A + DGKL+T       I+ K + +    LR  A A++VG+ TV+ DDP L
+Sbjct  148  ERPYITLKWAQTLDGKLATLTGSSKWITSKESRKVAHILRREATAVLVGVNTVIKDDPHL  207
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+            TV+              + PVR+++D     PL+A +    E   I+        EK   
+Sbjct  208  TVRF---------VPTEKQPVRIILDPELEVPLSAKVLNTEEAPTIVITKKE--NEKAEK  256
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNL  180
+            L+EK + +       +L  +  KLKE+ I  LMVEGG       L  G  D +  F+   
+Sbjct  257  LKEKGVQVLILKG-FNLKNILKKLKELEIMHLMVEGGPRTLTSFLKEGFFDRIVVFIAPK  315
+
+Query  181  IIGGKTAPTFTDGEGF-TENELLGLELSSAEKIEDGILLKWK  221
+            I+G   +       G  +  E L +     E + + +++ +K
+Sbjct  316  IMGEGLS---IGDLGIRSIEESLKVRKKKVENLGEDLVIFFK  354
+
+
+> sp|Q757H6|RIB7_ASHGO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Ashbya gossypii (strain ATCC 
+10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=RIB7 
+PE=3 SV=1
+Length=246
+
+ Score = 193 bits (491),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 57/224 (25%), Positives = 95/224 (42%), Gaps = 17/224 (8%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  A S D +++ ++ ++  IS +        LR H   I++G GT LADDP L  
+Sbjct  29   PFVTLTYAQSLDARIAKQKGERTVISHEETKTMTHYLRYHHSGILIGSGTALADDPGLNC  88
+
+Query  63   KS-PERKAARKAAGKSENPVRVVVDSSARTPLNAD----IFKKGEGLRIIAVSNSAPEEK  117
+            +  P    A        +P  +++D   R          +   G+G   I V+   PE +
+Sbjct  89   RWTPAADGADCTEQS--SPRPIILDVRGRWRYRGSKIEYLHNLGKGKAPIVVTGGEPEVR  146
+
+Query  118  IRMLEEKALVIKTGAFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDEVYT  175
+               +    L +  G  R++  EL  +L  E  + S+MVEGGA  LN  +L   +VD +  
+Sbjct  147  ELGVSYLQLGVDEG-GRLNWGELFERLYSEHHLESVMVEGGAEVLNQLLLRPDIVDSLVI  205
+
+Query  176  FVGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+             +G+  +G         G   +  E + LE  +        +L 
+Sbjct  206  TIGSKFLGS-------LGVAVSPAEEVNLEHVNWWHGTSDSVLC  242
+
+
+> sp|P33312|RIB7_YEAST 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Saccharomyces cerevisiae (strain 
+ATCC 204508 / S288c) OX=559292 GN=RIB7 PE=1 SV=1
+Length=244
+
+ Score = 193 bits (490),  Expect = 1e-60, Method: Composition-based stats.
+ Identities = 60/223 (27%), Positives = 97/223 (43%), Gaps = 20/223 (9%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            PF+ +  A S D ++S     +  IS          LR H D I+VG GTVLAD+P L  
+Sbjct  30   PFVTLTYAQSLDARVSRGPGVRTTISHPETKTMTHYLRHHHDGILVGSGTVLADNPGLNC  89
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNA----DIFKKGEGLRIIAVSNSAPEEKI  118
+            K     AA        +P  +++D+  +   +     ++F K +G   I V  S P  K 
+Sbjct  90   KWGPDPAAN-------SPRPIIIDTKQKWRFDGSKMQELFIKRQGKPPIVVVTSEPIIKE  142
+
+Query  119  RMLEEKALVIKTGAFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDEVYTF  176
+            + ++     I      VD  +L   LK E  I S+MVEGGA  +N  +L + +V+ +   
+Sbjct  143  QHVDYAICPINDTTKLVDWKKLFEILKEEFNIRSVMVEGGANVINQLLLRSDIVNSLIIT  202
+
+Query  177  VGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+            +G+  +G             +  + + L+  S  K    ++L 
+Sbjct  203  IGSTFLGSSGTE-------VSPPQTVNLKDMSWWKGITDVVLC  238
+
+
+> sp|Q9P4B8|RIB7_KLUMA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Kluyveromyces marxianus OX=4911 
+GN=RIB7 PE=3 SV=1
+Length=249
+
+ Score = 188 bits (477),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 48/225 (21%), Positives = 95/225 (42%), Gaps = 15/225 (7%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            ++P++ +  A S D +++  +  +  IS +        LR   DAIM+G GTV+ DDP L
+Sbjct  28   EKPYVILTYAQSLDSRIAKIKGTRTFISHEETKTMTHYLRYKFDAIMLGCGTVMIDDPGL  87
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLN----ADIFKKGEGLRIIAVSNSAPEE  116
+              K       +       +P  +++D + +          +++ G+G   I V    P E
+Sbjct  88   NCKWWPEDE-KPEHLAGISPRPIILDPNCKWKFADSKMKKLYEAGDGKAPIIVVKELPSE  146
+
+Query  117  KIRMLEEKALVIKTGAFRVDLTELAAKLK-EMGINSLMVEGGA-TLNWGMLSAGLVDEVY  174
+                ++   +       ++D +++  +LK +  + S+MVEGG   +N  +    LVD + 
+Sbjct  147  PEEGVDYLVMRTN-FTGKMDWSDMLVQLKSKFNVKSVMVEGGGIVINDLLQRPNLVDALI  205
+
+Query  175  TFVGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+              +G   +G +       G   +    + L+  S    +   +L 
+Sbjct  206  ITLGATFLGSE-------GVEVSPLVEIKLKDVSWWTGDLDTVLC  243
+
+
+> sp|P57534|RIBD2_BUCAI 5-amino-6-(5-phosphoribosylamino)uracil 
+reductase OS=Buchnera aphidicola subsp. Acyrthosiphon pisum 
+(strain APS) OX=107806 GN=ribD2 PE=3 SV=1
+Length=207
+
+ Score = 180 bits (457),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 45/208 (22%), Positives = 95/208 (46%), Gaps = 6/208 (3%)
+
+Query  19   TKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKSPERKAARKAAGKSE  78
+             +      I+ K   + + + RA +  I+    T+L+D+P L V+  E      +   ++
+Sbjct  1    MRNGDSKWITSKQARQDVQKFRAKSSVILSSSSTILSDNPLLNVRYKELDKKTLSIFPNK  60
+
+Query  79   ---NPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEEKALVIKTGAFRV  135
+               +P+RV++DS  R   + +I K    + +I + +   + KI       ++ K    ++
+Sbjct  61   IFQHPIRVIIDSKNRVQPSHNIIKTKGKIWLIRLKS---DRKIWPKNTTQIIEKDHNKKI  117
+
+Query  136  DLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGGKTAPTFTDGEG  195
+            ++  L   L +  IN++ +E G+TL+  +L++ L+DE+  ++   I+G +  P     E 
+Sbjct  118  NIFSLLKFLGQSEINNVWIEAGSTLSGFLLNSYLIDELIIYMAPKILGHEAKPLCMIYEK  177
+
+Query  196  FTENELLGLELSSAEKIEDGILLKWKVK  223
+               +  L  +  +  +I   I L    K
+Sbjct  178  LKISNSLQFKFKNICQIGPDIRLILSPK  205
+
+
+> sp|Q6BII9|RIB7_DEBHA 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Debaryomyces hansenii (strain 
+ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 
+GN=RIB7 PE=3 SV=1
+Length=247
+
+ Score = 181 bits (459),  Expect = 7e-56, Method: Composition-based stats.
+ Identities = 55/233 (24%), Positives = 98/233 (42%), Gaps = 27/233 (12%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+            +RPF+ +  A S D +++ K  +Q KIS          +R+  D IMVGIGTVLADDP L
+Sbjct  24   NRPFVTLTYAQSLDSRIAAKPGEQTKISHLETKTMTHYIRSKHDGIMVGIGTVLADDPKL  83
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIF------KKGEGLRIIAVSNSAP  114
+              +           G    P  +++D + +   +           KG    I+      P
+Sbjct  84   NCRF------EAEDGNISTPRPIILDPTGKWAYHKSQLRSVCDNNKGLAPFILIDETVTP  137
+
+Query  115  EEKIRMLEEKAL-------VIKTGAFRVDLTELAAKLKEMGINSLMVEGGAT-LNWGMLS  166
+              +   + +K         +++      +   +  KL ++GI S+MVEGGA+ +N  ++ 
+Sbjct  138  RNEDVEVLDKQDGAFVRLPLLRNADKVGNWNIILKKLFQLGIKSIMVEGGASIINDLLVY  197
+
+Query  167  AGLVDEVYTFVGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+            + ++D +   +G + +G        DG   + +   GL      +     +L 
+Sbjct  198  SKIIDSLIITIGPVFLGK-------DGVEVSPSGHAGLIDVKWWQGIQDSVLC  243
+
+
+> sp|P95872|RIB7_SACS2 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Saccharolobus solfataricus (strain 
+ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 GN=SSO2097 
+PE=3 SV=1
+Length=213
+
+ Score = 179 bits (453),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 68/222 (31%), Positives = 101/222 (45%), Gaps = 18/222 (8%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            +P++ I S +S DG+L+TK      +S   + +R  E+R+  DA+MVG  TV  D+PSLT
+Sbjct  4    KPYVIIFSTVSIDGRLATKTGYSE-LSCPYDKQRQHEIRSEVDAVMVGANTVRVDNPSLT  62
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+            VK  + +          NP+RVVV  S     +  IF       +I  SN    EK+   
+Sbjct  63   VKYGKNR---------RNPIRVVVTRSFNLDPSYKIFTT-PPSTVIYTSNYE-SEKVEEF  111
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLI  181
+              K ++++   F      L        +  LMVEGG  L W  +   L DE+   +   I
+Sbjct  112  IRKGVIVR--KFLHLDDLLEDLYDNFNVRRLMVEGGGHLIWWFIKDNLYDEIRITISPRI  169
+
+Query  182  IGGKTAPTFTDGEGFTENELLGLELSS--AEKIEDGILLKWK  221
+             G     +FT GEGF   +   LEL      +  + + L +K
+Sbjct  170  FGNGV--SFTQGEGFIGEDSPRLELIDAKICECGNEVHLTYK  209
+
+
+> sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ribD PE=1 SV=1
+Length=339
+
+ Score = 177 bits (450),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 92/222 (41%), Gaps = 37/222 (17%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P +    A S DG+ +  +     IS +     +   RA ADAI+VG GTVLADDP+LT 
+Sbjct  154  PHVTWKYATSIDGRSAAADGSSQWISSEAARLDLHRRRAIADAILVGTGTVLADDPALTA  213
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +  +   A       + P+RVVV      P  A +    +  R + +    P E +R L 
+Sbjct  214  RLADGSLA------PQQPLRVVVGKR-DIPPEARVLN--DEARTMMIRTHEPMEVLRALS  264
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+            ++                           +++EGG TL    L AG ++ +  +V  +++
+Sbjct  265  DR-------------------------TDVLLEGGPTLAGAFLRAGAINRILAYVAPILL  299
+
+Query  183  GGKTAPTFTDGEGFT-ENELLGLELSSAEKIEDGILLKWKVK  223
+            GG    T  D  G +     L  +  S EK+   +LL    +
+Sbjct  300  GGPV--TAVDDVGVSNITNALRWQFDSVEKVGPDLLLSLVAR  339
+
+
+> sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=ribD PE=3 SV=1
+Length=339
+
+ Score = 177 bits (450),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 92/222 (41%), Gaps = 37/222 (17%)
+
+Query  3    PFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTV  62
+            P +    A S DG+ +  +     IS +     +   RA ADAI+VG GTVLADDP+LT 
+Sbjct  154  PHVTWKYATSIDGRSAAADGSSQWISSEAARLDLHRRRAIADAILVGTGTVLADDPALTA  213
+
+Query  63   KSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLE  122
+            +  +   A       + P+RVVV      P  A +    +  R + +    P E +R L 
+Sbjct  214  RLADGSLA------PQQPLRVVVGKR-DIPPEARVLN--DEARTMMIRTHEPMEVLRALS  264
+
+Query  123  EKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLII  182
+            ++                           +++EGG TL    L AG ++ +  +V  +++
+Sbjct  265  DR-------------------------TDVLLEGGPTLAGAFLRAGAINRILAYVAPILL  299
+
+Query  183  GGKTAPTFTDGEGFT-ENELLGLELSSAEKIEDGILLKWKVK  223
+            GG    T  D  G +     L  +  S EK+   +LL    +
+Sbjct  300  GGPV--TAVDDVGVSNITNALRWQFDSVEKVGPDLLLSLVAR  339
+
+
+> sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Corynebacterium 
+ammoniagenes OX=1697 GN=ribD PE=3 SV=1
+Length=337
+
+ Score = 155 bits (393),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 53/204 (26%), Positives = 82/204 (40%), Gaps = 33/204 (16%)
+
+Query  1    DRPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSL  60
+             RP + +  A + DG  +  +     I+G++  + +   R H DAI++G GT L D+PSL
+Sbjct  157  RRPHVTLKFAQTIDGFTAAADGTSQWITGEMARDYVHADREHRDAIIIGTGTALIDNPSL  216
+
+Query  61   TVKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRM  120
+            T + P+         +   P RVV+                 G R IA +  A     R+
+Sbjct  217  TARYPDG------TQREHQPRRVVI-----------------GRRNIADAGDAASNLNRL  253
+
+Query  121  LEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNL  180
+              E+   I          E  A+L   G   ++VEGGA L  G  + GLVD +  +   L
+Sbjct  254  GFEQYATID---------EALAELYATGARDVLVEGGAGLASGFANQGLVDWLQVYQAPL  304
+
+Query  181  IIGGKTAPTFTDGEGFTENELLGL  204
+            ++G +           T      L
+Sbjct  305  LLG-EGISVLAHPLTNTLKGASAL  327
+
+
+> sp|Q9P7L3|RIB7_SCHPO 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 
+5'-phosphate reductase OS=Schizosaccharomyces pombe (strain 
+972 / ATCC 24843) OX=284812 GN=SPBC21C3.10c PE=3 SV=1
+Length=268
+
+ Score = 151 bits (382),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 48/204 (24%), Positives = 86/204 (42%), Gaps = 22/204 (11%)
+
+Query  1    DRPFIFINSAMSADGKL----STKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLAD  56
+            ++  + +  A S +G++     +    Q+++S K +F     LR   D IMVG  T   D
+Sbjct  13   NKKHVLLTWAQSINGRIGYVVESPSLGQLRLSSKESFVMTHLLRTKFDGIMVGSRTAEND  72
+
+Query  57   DPSLTVKSPERKAARKAAGKSENPVRVVVDSSARTPLN-------ADIFKKGEGLRIIAV  109
+            +PSLT K P+          ++ P+ ++VDS+ R           A        L I+A 
+Sbjct  73   NPSLTAKLPDPANPDCLLPLNKQPIPIIVDSNLRLDYASLKVIRLARERLGKPPLIIVAP  132
+
+Query  110  S-------NSAPEEKIRMLEEKA--LVIKTGAFRVDLTEL--AAKLKEMGINSLMVEGGA  158
+            S       +S  +E +++++      +I+        ++     KL + G+N +MVEGGA
+Sbjct  133  SIWQQVQHDSKLKEAVKLIQSVGGRCIIRNEDSPDSWSDYVALDKLLQNGVNRIMVEGGA  192
+
+Query  159  TLNWGMLSAGLVDEVYTFVGNLII  182
+             L      +  +D     +   I 
+Sbjct  193  ELLAKAFGSTDIDAYVVTIVPKIF  216
+
+
+> sp|P37508|YYAP_BACSU Uncharacterized protein YyaP OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yyaP PE=1 SV=1
+Length=188
+
+ Score = 112 bits (281),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 34/213 (16%), Positives = 74/213 (35%), Gaps = 42/213 (20%)
+
+Query  5    IFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLTVKS  64
+            I ++ A++ DG +  K  +        +    D L    D I+ G               
+Sbjct  10   IILDLAVTLDGFIEGKNGEVDWCIMDPDMGFTDFL-NQIDTILYG--------------R  54
+
+Query  65   PERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEEK  124
+                   +   K+E+P               +++       + +            ++ +
+Sbjct  55   KSFDLWGQYIPKNEDP-----------DTEKELW-----KLVHSKKKYVFSRTQNEIDNQ  98
+
+Query  125  ALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGG  184
+            A+ I       ++ E   KLK+     + + GGA+L    ++ GLVDE    +  +++G 
+Sbjct  99   AIFIND-----NILEEVNKLKKNPGKDIWLYGGASLITTFINLGLVDEFRLSIHPVVLG-  152
+
+Query  185  KTAPTFTDGEGFTENELLGLELSSAEKIEDGIL  217
+            +  P F D       + + L++ +      G++
+Sbjct  153  EGKPLFID-----VKQRINLKMVNTRTFSSGVV  180
+
+
+> sp|P45862|YWJB_BACSU Uncharacterized protein YwjB OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ywjB PE=4 SV=1
+Length=174
+
+ Score = 108 bits (271),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 61/218 (28%), Gaps = 53/218 (24%)
+
+Query  6    FINSAMSADGKLSTKERKQVKISGKLNFERMDE--LRAHADAIMVGIGTVLADDPSLTVK  63
+             +  A+S DG ++ ++     +                  D +++G  T           
+Sbjct  6    VLYIAVSLDGMIAKEDGSIDWLDEFEGEGDNGYSDFYQTVDTVILGRST-----------  54
+
+Query  64   SPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRMLEE  123
+                        K   PV          P                V   +P+      +E
+Sbjct  55   --------YEHVKVLTPV---------FPYQDKTC---------YVFTGSPDSYQ---DE  85
+
+Query  124  KALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIG  183
+                I  GA         A+LK+   +++ + GGA L    +    +DE    V  +++G
+Sbjct  86   HVTFINEGA-----RAFTARLKQEKGSNIWIAGGAELVNDFMKEDAIDEFIITVIPVVLG  140
+
+Query  184  GKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLKWK  221
+                P F             L L   ++    + L + 
+Sbjct  141  S-GIPLF-----HELTNETKLRLKGTKQFGQAVQLHYV  172
+
+
+> sp|B6TRH4|RIBD_MAIZE Riboflavin biosynthesis protein PYRD, chloroplastic 
+OS=Zea mays OX=4577 GN=PYRD PE=2 SV=1
+Length=392
+
+ Score = 110 bits (276),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/215 (15%), Positives = 69/215 (32%), Gaps = 28/215 (13%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            + F  + + +S +G ++ +  K        +     +L    D +++             
+Sbjct  191  KAFATLRATLSMNGIITNQIGKGA----DQSGGYYSQLMKEYDGVIISSDLAKM------  240
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSARTPLNADIFKKGEGLRIIAVSNSAPEEKIRML  121
+                           +  P+ +++     + L+     +    R I +++S     +   
+Sbjct  241  -----SALPLSREAGTNQPLCIIIAQGESSRLHIPSLSQEHASRAIVLADS--PVTVEPA  293
+
+Query  122  EEKALVIKTGAFRVDLTELAAKLKEMGINSLMV---EGG---ATLNWGMLSAGLVDEVYT  175
+              +  V +    ++DL  +   L + G+ S++V   E G   A+L        LV +V  
+Sbjct  294  GVEVAVFR----QIDLESILQLLAQRGLCSVLVDFREAGESFASLLNDFQEDKLVQKVVV  349
+
+Query  176  FVGNLIIGGKTAPTFTDGEGFTENELLGLELSSAE  210
+             V    +          G G     L  LEL    
+Sbjct  350  EVLPFWLASDGLSNLAFG-GSQSFPLKNLELRDVN  383
+
+
+> sp|Q60034|DYR_THEMA Dihydrofolate reductase OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=folA PE=1 SV=1
+Length=169
+
+ Score = 68.9 bits (167),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 24/88 (27%), Positives = 40/88 (45%), Gaps = 4/88 (5%)
+
+Query  136  DLTELAAKLKEMGINSLMVEGGATLNWGMLSAGLVDEVYTFVGNLIIGGKTAPTFTDGEG  195
+               ++   L+  G   + V GG T+    L   LVDE++  V   + G K  P F + EG
+Sbjct  82   SPADVVKFLEGKGYERVAVIGGKTVFTEFLREKLVDELFVTVEPYVFG-KGIPFFDEFEG  140
+
+Query  196  FTENELLGLELSSAEKIEDGILLKWKVK  223
+            +   +L  LE+    +    + LK+ V+
+Sbjct  141  YFPLKL--LEMRRLNERGT-LFLKYSVE  165
+
+
+> sp|Q8GWP5|RIBD_ARATH Riboflavin biosynthesis protein PYRD, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=PYRD PE=1 SV=1
+Length=426
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 32/228 (14%), Positives = 79/228 (35%), Gaps = 31/228 (14%)
+
+Query  2    RPFIFINSAMSADGKLSTKERKQVKISGKLNFERMDELRAHADAIMVGIGTVLADDPSLT  61
+            +PF+ +  +MS +G L  K  +        +     +L    DAI++             
+Sbjct  217  KPFLALRYSMSVNGCLLDKIGQGA----SDSGGYYSKLLQEYDAIILSSSLSDE------  266
+
+Query  62   VKSPERKAARKAAGKSENPVRVVVDSSAR----TPLNADIFKKGEGLRIIAVSNSAPEEK  117
+                   ++++A   S  P++++V S+A+       +  + + G  + +     S  E  
+Sbjct  267  ---LSSISSQEAINVSIQPIQIIVASNAQQSHILASSHTVEESGPKVVVFTAKESVAESG  323
+
+Query  118  IRMLEEKALVIKTGAFRVDLTELAAKLKEMGINSLMVEGGA------TLNWGMLSAGLVD  171
+            I     + +V+     +++L  +       G+ S++++          L        L+ 
+Sbjct  324  ISSSGVETVVL----EKINLDSILDYCYNRGLCSVLLDLRGNVKDLEVLLRDGFEQKLLQ  379
+
+Query  172  EVYTFVGNLIIGGKTAPTFTDGEGFTENELLGLELSSAEKIEDGILLK  219
+            +V   V                      E   ++   ++++   +LL+
+Sbjct  380  KVIIEVLPEWSTKDERQIA----SMKWLESKHVKDLQSKQLGGSVLLE  423
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.337    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15108241262
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

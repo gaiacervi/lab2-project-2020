@@ -1,0 +1,1119 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5Y6H:A
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P76010|YCGR_ECOLI Flagellar brake protein YcgR OS=Escherichi...  221     2e-73
+  sp|Q8ZP19|YCGR_SALTY Flagellar brake protein YcgR OS=Salmonella...  146     5e-44
+  sp|Q66DY7|YCGR_YERPS Flagellar brake protein YcgR OS=Yersinia p...  95.5    3e-24
+  sp|B2VDU2|YCGR_ERWT9 Flagellar brake protein YcgR OS=Erwinia ta...  90.5    3e-22
+  sp|C6DF90|YCGR_PECCP Flagellar brake protein YcgR OS=Pectobacte...  73.2    1e-15
+  sp|A8GEX8|YCGR_SERP5 Flagellar brake protein YcgR OS=Serratia p...  53.5    2e-08
+  sp|B2T792|YCGR1_PARPJ Flagellar brake protein YcgR 1 OS=Parabur...  53.1    3e-08
+  sp|B2TD41|YCGR2_PARPJ Flagellar brake protein YcgR 2 OS=Parabur...  47.4    3e-06
+
+
+> sp|P76010|YCGR_ECOLI Flagellar brake protein YcgR OS=Escherichia 
+coli (strain K12) OX=83333 GN=ycgR PE=1 SV=1
+Length=244
+
+ Score = 221 bits (562),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  60
+            YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI
+Sbjct  4    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  63
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV
+Sbjct  64   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  111
+
+
+> sp|Q8ZP19|YCGR_SALTY Flagellar brake protein YcgR OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=ycgR PE=1 SV=1
+Length=244
+
+ Score = 146 bits (368),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 69/108 (64%), Positives = 87/108 (81%), Gaps = 0/108 (0%)
+
+Query  1    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  60
+            Y+EQFLK+NPLA+LGVLRDL+K  +PLR+SW  GQ ISK+LA+ P+KL++D+GSQ  +N 
+Sbjct  4    YNEQFLKKNPLAILGVLRDLNKNQVPLRISWAHGQFISKILAVDPEKLIVDYGSQEYENS  63
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            AVL+A  + I AETQGAKVEFT+ QL   EY +LPAFIT  P +LWFV
+Sbjct  64   AVLRAGQVAIIAETQGAKVEFTLPQLVTGEYQRLPAFITPLPSSLWFV  111
+
+
+> sp|Q66DY7|YCGR_YERPS Flagellar brake protein YcgR OS=Yersinia 
+pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=ycgR 
+PE=3 SV=1
+Length=252
+
+ Score = 95.5 bits (236),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 46/109 (42%), Positives = 68/109 (62%), Gaps = 2/109 (2%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITP--DKLVLDFGSQAEDN  59
+             EQF+K+N LA+  +LRDL K    + ++   GQ IS++L I P  ++ + DFGS   +N
+Sbjct  9    KEQFVKKNKLAICAILRDLQKNDTAVMVTHARGQFISRILDIQPETNQFIFDFGSVENEN  68
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            +  L A+ +TI  E  GAK+EFT  +L+  EYL LPAF +  P  L+F+
+Sbjct  69   VLALGAEQLTIIVEPTGAKIEFTCNKLKHVEYLSLPAFSSAIPEQLYFI  117
+
+
+> sp|B2VDU2|YCGR_ERWT9 Flagellar brake protein YcgR OS=Erwinia 
+tasmaniensis (strain DSM 17950 / CIP 109463 / Et1/99) OX=465817 
+GN=ycgR PE=3 SV=1
+Length=249
+
+ Score = 90.5 bits (223),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 47/106 (44%), Positives = 65/106 (61%), Gaps = 0/106 (0%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNIAV  62
+            EQ+LKQ  LAVLGVLR+L +   P+R+S   GQ I++LL +    +V+DFGS   DN   
+Sbjct  11   EQYLKQGTLAVLGVLRELLQNQTPMRVSHPRGQFITRLLHVDKTNMVIDFGSNDYDNQLA  70
+
+Query  63   LKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             +A  + I A+T+GA++E  +  LQ SEY  LPAF    P  L  +
+Sbjct  71   QEANELHIVADTRGARIELILTSLQMSEYEGLPAFTAALPGQLKMI  116
+
+
+> sp|C6DF90|YCGR_PECCP Flagellar brake protein YcgR OS=Pectobacterium 
+carotovorum subsp. carotovorum (strain PC1) OX=561230 
+GN=ycgR PE=3 SV=1
+Length=255
+
+ Score = 73.2 bits (178),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 42/108 (39%), Positives = 56/108 (52%), Gaps = 2/108 (2%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDK--LVLDFGSQAEDNI  60
+            EQF+K+N LA+   LR+L K    L +  + GQ ISK+L + PD    V D G    +N 
+Sbjct  14   EQFVKRNKLAICATLRELKKNDTSLMVHHSHGQFISKILDVVPDNNLFVFDLGGIERENN  73
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+              L A  ++  AE  GAKVEF  E  +   Y  LPAF    P  L+ +
+Sbjct  74   RALYAGSLSFVAEPAGAKVEFNAEIAKTVTYDGLPAFSAQIPELLYLI  121
+
+
+> sp|A8GEX8|YCGR_SERP5 Flagellar brake protein YcgR OS=Serratia 
+proteamaculans (strain 568) OX=399741 GN=ycgR PE=3 SV=1
+Length=237
+
+ Score = 53.5 bits (127),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 32/104 (31%), Positives = 56/104 (54%), Gaps = 5/104 (5%)
+
+Query  5    FLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNIAVLK  64
+            F+KQ    VL +LR++ K   PL++  +  Q  S LL++ PD +V   G +A++ +    
+Sbjct  9    FIKQERFEVLAILREICKQRTPLKVVNDRQQFQSLLLSVGPDNIVFS-GDEADNRV----  63
+
+Query  65   AQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+                TI  E+  AK+EF+V Q + +++  + A  T  P  L ++
+Sbjct  64   DGECTIVIESHDAKIEFSVGQAEFTDHQGVNACSTRLPKELIYI  107
+
+
+> sp|B2T792|YCGR1_PARPJ Flagellar brake protein YcgR 1 OS=Paraburkholderia 
+phytofirmans (strain DSM 17436 / LMG 22146 / PsJN) 
+OX=398527 GN=ycgR1 PE=3 SV=1
+Length=257
+
+ Score = 53.1 bits (126),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 31/106 (29%), Positives = 54/106 (51%), Gaps = 2/106 (2%)
+
+Query  5    FLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAI--TPDKLVLDFGSQAEDNIAV  62
+            F ++NPL +   LR+L      L + + GGQL+++LL +         D+G+ ++ N  +
+Sbjct  27   FGRRNPLEIGVQLRNLVNRGDFLTVQYAGGQLVTRLLEVDVRGRTFTFDWGALSDQNRGL  86
+
+Query  63   LKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            L A      A+  G +VEF     +++ +  LPAF    P  L++V
+Sbjct  87   LGAPRCQFHAQPDGVRVEFATATPRETRFEGLPAFEADFPEVLFYV  132
+
+
+> sp|B2TD41|YCGR2_PARPJ Flagellar brake protein YcgR 2 OS=Paraburkholderia 
+phytofirmans (strain DSM 17436 / LMG 22146 / PsJN) 
+OX=398527 GN=ycgR2 PE=3 SV=1
+Length=257
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/109 (28%), Positives = 54/109 (50%), Gaps = 2/109 (2%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPD--KLVLDFGSQAEDN  59
+               F +++PL +   LR L      + + + G Q+++++L +     + V D GS A+DN
+Sbjct  22   DSNFAQRHPLQIAVCLRQLVAGQDFVTVEFGGRQIVTQILDVDSRNARFVFDAGSVADDN  81
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             A+  A+ +T  +   G + EFT      +++  LPAF    P  L +V
+Sbjct  82   DALPSARQLTFRSLPGGIRTEFTTFDATPTQFDGLPAFEAPLPTVLHYV  130
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5084117440
+Results from round 2
+
+
+Query= 5Y6H:A
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8ZP19|YCGR_SALTY Flagellar brake protein YcgR OS=Salmonella...  158     9e-49
+  sp|P76010|YCGR_ECOLI Flagellar brake protein YcgR OS=Escherichi...  151     4e-46
+  sp|Q66DY7|YCGR_YERPS Flagellar brake protein YcgR OS=Yersinia p...  149     3e-45
+  sp|C6DF90|YCGR_PECCP Flagellar brake protein YcgR OS=Pectobacte...  145     1e-43
+  sp|B2VDU2|YCGR_ERWT9 Flagellar brake protein YcgR OS=Erwinia ta...  145     2e-43
+  sp|B2T792|YCGR1_PARPJ Flagellar brake protein YcgR 1 OS=Parabur...  135     7e-40
+  sp|B2TD41|YCGR2_PARPJ Flagellar brake protein YcgR 2 OS=Parabur...  134     3e-39
+  sp|A8GEX8|YCGR_SERP5 Flagellar brake protein YcgR OS=Serratia p...  124     2e-35
+
+Sequences not found previously or not previously below threshold:
+
+  sp|B3RD79|YCGR_CUPTR Flagellar brake protein YcgR OS=Cupriavidu...  70.4    1e-14
+  sp|C1DAJ6|YCGR_LARHH Flagellar brake protein YcgR OS=Laribacter...  70.4    1e-14
+  sp|Q7P0F8|YCGR_CHRVO Flagellar brake protein YcgR OS=Chromobact...  63.5    3e-12
+  sp|Q2Y8L4|YCGR_NITMU Flagellar brake protein YcgR OS=Nitrosospi...  60.0    7e-11
+  sp|C4KAR8|YCGR_THASP Flagellar brake protein YcgR OS=Thauera sp...  55.8    3e-09
+  sp|Q0AI13|YCGR_NITEC Flagellar brake protein YcgR OS=Nitrosomon...  55.0    5e-09
+  sp|A6SXY6|YCGR_JANMA Flagellar brake protein YcgR OS=Janthinoba...  54.6    7e-09
+  sp|Q47AR4|YCGR2_DECAR Flagellar brake protein YcgR 2 OS=Dechlor...  53.1    2e-08
+  sp|B4SHX7|YCGR_STRM5 Flagellar brake protein YcgR OS=Stenotroph...  51.6    9e-08
+  sp|Q3SIH8|YCGR_THIDA Flagellar brake protein YcgR OS=Thiobacill...  51.6    1e-07
+  sp|C6WX20|YCGR_METML Flagellar brake protein YcgR OS=Methyloten...  50.0    3e-07
+  sp|A1K922|YCGR_AZOSB Flagellar brake protein YcgR OS=Azoarcus s...  50.0    4e-07
+  sp|B0RSS7|YCGR_XANCB Flagellar brake protein YcgR OS=Xanthomona...  48.1    2e-06
+  sp|Q47HZ8|YCGR1_DECAR Flagellar brake protein YcgR 1 OS=Dechlor...  39.6    0.002
+  sp|Q88EQ6|YCGR_PSEPK Flagellar brake protein YcgR OS=Pseudomona...  38.5    0.004
+
+
+> sp|Q8ZP19|YCGR_SALTY Flagellar brake protein YcgR OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=ycgR PE=1 SV=1
+Length=244
+
+ Score = 158 bits (399),  Expect = 9e-49, Method: Composition-based stats.
+ Identities = 69/108 (64%), Positives = 87/108 (81%), Gaps = 0/108 (0%)
+
+Query  1    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  60
+            Y+EQFLK+NPLA+LGVLRDL+K  +PLR+SW  GQ ISK+LA+ P+KL++D+GSQ  +N 
+Sbjct  4    YNEQFLKKNPLAILGVLRDLNKNQVPLRISWAHGQFISKILAVDPEKLIVDYGSQEYENS  63
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            AVL+A  + I AETQGAKVEFT+ QL   EY +LPAFIT  P +LWFV
+Sbjct  64   AVLRAGQVAIIAETQGAKVEFTLPQLVTGEYQRLPAFITPLPSSLWFV  111
+
+
+> sp|P76010|YCGR_ECOLI Flagellar brake protein YcgR OS=Escherichia 
+coli (strain K12) OX=83333 GN=ycgR PE=1 SV=1
+Length=244
+
+ Score = 151 bits (382),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  60
+            YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI
+Sbjct  4    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  63
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV
+Sbjct  64   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  111
+
+
+> sp|Q66DY7|YCGR_YERPS Flagellar brake protein YcgR OS=Yersinia 
+pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=ycgR 
+PE=3 SV=1
+Length=252
+
+ Score = 149 bits (377),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 68/109 (62%), Gaps = 2/109 (2%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITP--DKLVLDFGSQAEDN  59
+             EQF+K+N LA+  +LRDL K    + ++   GQ IS++L I P  ++ + DFGS   +N
+Sbjct  9    KEQFVKKNKLAICAILRDLQKNDTAVMVTHARGQFISRILDIQPETNQFIFDFGSVENEN  68
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            +  L A+ +TI  E  GAK+EFT  +L+  EYL LPAF +  P  L+F+
+Sbjct  69   VLALGAEQLTIIVEPTGAKIEFTCNKLKHVEYLSLPAFSSAIPEQLYFI  117
+
+
+> sp|C6DF90|YCGR_PECCP Flagellar brake protein YcgR OS=Pectobacterium 
+carotovorum subsp. carotovorum (strain PC1) OX=561230 
+GN=ycgR PE=3 SV=1
+Length=255
+
+ Score = 145 bits (366),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 42/109 (39%), Positives = 56/109 (51%), Gaps = 2/109 (2%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDK--LVLDFGSQAEDN  59
+             EQF+K+N LA+   LR+L K    L +  + GQ ISK+L + PD    V D G    +N
+Sbjct  13   KEQFVKRNKLAICATLRELKKNDTSLMVHHSHGQFISKILDVVPDNNLFVFDLGGIEREN  72
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+               L A  ++  AE  GAKVEF  E  +   Y  LPAF    P  L+ +
+Sbjct  73   NRALYAGSLSFVAEPAGAKVEFNAEIAKTVTYDGLPAFSAQIPELLYLI  121
+
+
+> sp|B2VDU2|YCGR_ERWT9 Flagellar brake protein YcgR OS=Erwinia 
+tasmaniensis (strain DSM 17950 / CIP 109463 / Et1/99) OX=465817 
+GN=ycgR PE=3 SV=1
+Length=249
+
+ Score = 145 bits (365),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 47/106 (44%), Positives = 65/106 (61%), Gaps = 0/106 (0%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNIAV  62
+            EQ+LKQ  LAVLGVLR+L +   P+R+S   GQ I++LL +    +V+DFGS   DN   
+Sbjct  11   EQYLKQGTLAVLGVLRELLQNQTPMRVSHPRGQFITRLLHVDKTNMVIDFGSNDYDNQLA  70
+
+Query  63   LKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             +A  + I A+T+GA++E  +  LQ SEY  LPAF    P  L  +
+Sbjct  71   QEANELHIVADTRGARIELILTSLQMSEYEGLPAFTAALPGQLKMI  116
+
+
+> sp|B2T792|YCGR1_PARPJ Flagellar brake protein YcgR 1 OS=Paraburkholderia 
+phytofirmans (strain DSM 17436 / LMG 22146 / PsJN) 
+OX=398527 GN=ycgR1 PE=3 SV=1
+Length=257
+
+ Score = 135 bits (341),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 31/106 (29%), Positives = 54/106 (51%), Gaps = 2/106 (2%)
+
+Query  5    FLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAIT--PDKLVLDFGSQAEDNIAV  62
+            F ++NPL +   LR+L      L + + GGQL+++LL +         D+G+ ++ N  +
+Sbjct  27   FGRRNPLEIGVQLRNLVNRGDFLTVQYAGGQLVTRLLEVDVRGRTFTFDWGALSDQNRGL  86
+
+Query  63   LKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            L A      A+  G +VEF     +++ +  LPAF    P  L++V
+Sbjct  87   LGAPRCQFHAQPDGVRVEFATATPRETRFEGLPAFEADFPEVLFYV  132
+
+
+> sp|B2TD41|YCGR2_PARPJ Flagellar brake protein YcgR 2 OS=Paraburkholderia 
+phytofirmans (strain DSM 17436 / LMG 22146 / PsJN) 
+OX=398527 GN=ycgR2 PE=3 SV=1
+Length=257
+
+ Score = 134 bits (337),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 30/109 (28%), Positives = 53/109 (49%), Gaps = 2/109 (2%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDK--LVLDFGSQAEDN  59
+               F +++PL +   LR L      + + + G Q+++++L +       V D GS A+DN
+Sbjct  22   DSNFAQRHPLQIAVCLRQLVAGQDFVTVEFGGRQIVTQILDVDSRNARFVFDAGSVADDN  81
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             A+  A+ +T  +   G + EFT      +++  LPAF    P  L +V
+Sbjct  82   DALPSARQLTFRSLPGGIRTEFTTFDATPTQFDGLPAFEAPLPTVLHYV  130
+
+
+> sp|A8GEX8|YCGR_SERP5 Flagellar brake protein YcgR OS=Serratia 
+proteamaculans (strain 568) OX=399741 GN=ycgR PE=3 SV=1
+Length=237
+
+ Score = 124 bits (311),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 32/104 (31%), Positives = 56/104 (54%), Gaps = 5/104 (5%)
+
+Query  5    FLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNIAVLK  64
+            F+KQ    VL +LR++ K   PL++  +  Q  S LL++ PD +V   G +A++ +    
+Sbjct  9    FIKQERFEVLAILREICKQRTPLKVVNDRQQFQSLLLSVGPDNIVFS-GDEADNRV----  63
+
+Query  65   AQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+                TI  E+  AK+EF+V Q + +++  + A  T  P  L ++
+Sbjct  64   DGECTIVIESHDAKIEFSVGQAEFTDHQGVNACSTRLPKELIYI  107
+
+
+> sp|B3RD79|YCGR_CUPTR Flagellar brake protein YcgR OS=Cupriavidus 
+taiwanensis (strain DSM 17343 / BCRC 17206 / CIP 107171 
+/ LMG 19424 / R1) OX=977880 GN=ycgR PE=3 SV=1
+Length=269
+
+ Score = 70.4 bits (171),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 22/109 (20%), Positives = 47/109 (43%), Gaps = 3/109 (3%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRL-SWNGGQLISKLLAITP--DKLVLDFGSQAED  58
+             +++   +   +  VLRDL      L + +    Q ++ +L + P     V D+ +   +
+Sbjct  39   DDRYRLSHNSQIGTVLRDLAWQKCMLSVRTRTAHQFVTSILHVDPVNRTFVFDWCNAEPE  98
+
+Query  59   NIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWF  107
+             ++++ ++    +   +G  V F V Q   + Y   PAF+   P  L+ 
+Sbjct  99   RMSLMTSEENAFSGLLRGVPVNFVVGQPAATRYDDGPAFVAEFPEKLYH  147
+
+
+> sp|C1DAJ6|YCGR_LARHH Flagellar brake protein YcgR OS=Laribacter 
+hongkongensis (strain HLHK9) OX=557598 GN=ycgR PE=3 SV=1
+Length=271
+
+ Score = 70.4 bits (171),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 27/106 (25%), Positives = 49/106 (46%), Gaps = 4/106 (4%)
+
+Query  4    QFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAIT--PDKLVLDFGSQAEDN  59
+            ++   +PL +   L+ +  A + + +  N G+  +++KLLAI     +   D GS  + N
+Sbjct  35   KYAMTSPLEIGQHLKRIISANVLVTVFSNHGKSFILTKLLAIDLKSGRFAFDAGSSDDAN  94
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTL  105
+              +LK++         G K +F    +Q   Y   PAF+   PP +
+Sbjct  95   RQLLKSERNVFVCTPDGIKTQFVTGPVQSFIYDGAPAFLARLPPEV  140
+
+
+> sp|Q7P0F8|YCGR_CHRVO Flagellar brake protein YcgR OS=Chromobacterium 
+violaceum (strain ATCC 12472 / DSM 30191 / JCM 1249 
+/ NBRC 12614 / NCIMB 9131 / NCTC 9757) OX=243365 GN=ycgR PE=3 
+SV=1
+Length=246
+
+ Score = 63.5 bits (153),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 45/107 (42%), Gaps = 4/107 (4%)
+
+Query  4    QFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAITPDK--LVLDFGSQAEDN  59
+            +F   +P  +   L ++ K    + +  N G+  ++++LL +         D+G++ E N
+Sbjct  13   KFTLSSPTEIAQHLSNIAKHGHMVTVFANKGKNFILTRLLEVDYQAGVFTFDWGAEEETN  72
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLW  106
+              VL ++        +G K +F   Q+ Q      PAF    P  + 
+Sbjct  73   TQVLNSERNVFVCSPEGVKTQFVAGQISQVMVDDRPAFQCRLPEQVI  119
+
+
+> sp|Q2Y8L4|YCGR_NITMU Flagellar brake protein YcgR OS=Nitrosospira 
+multiformis (strain ATCC 25196 / NCIMB 11849 / C 71) OX=323848 
+GN=ycgR PE=3 SV=1
+Length=258
+
+ Score = 60.0 bits (144),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 45/97 (46%), Gaps = 4/97 (4%)
+
+Query  13   VLGVLRDLHKAAIPLRLSW--NGGQLISKLLAITPDK--LVLDFGSQAEDNIAVLKAQHI  68
+            +L VLR + +        +   G    + LL +   +  +VLD+G   E N   L+ +  
+Sbjct  31   ILSVLRVMIRNNSQATCYFGDAGSFFPTALLNLDSQRGEMVLDYGPNEEINQQALQVEKW  90
+
+Query  69   TITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTL  105
+             + A     KV+F+ +Q+ ++E+    AF+   P +L
+Sbjct  91   NVVAFPNQVKVQFSCQQIGKTEFEGRNAFLAQIPTSL  127
+
+
+> sp|C4KAR8|YCGR_THASP Flagellar brake protein YcgR OS=Thauera 
+sp. (strain MZ1T) OX=85643 GN=ycgR PE=3 SV=1
+Length=263
+
+ Score = 55.8 bits (133),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/106 (21%), Positives = 45/106 (42%), Gaps = 3/106 (3%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ-LISKLLAITPDK--LVLDFGSQAEDN  59
+            E+F  +    +L +L+DL      +     GG   ++ +L +  ++  +VLD     + N
+Sbjct  24   EKFTLRGARQILQLLQDLITHRGLITAHTGGGHSFMTAVLKVDEERGRVVLDPSPDPQAN  83
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTL  105
+               L A  +T   +  G +++F +  L + +    PA     P  +
+Sbjct  84   RRALAAPRLTCVTQLDGIRIQFPLVGLGEGQDKGRPALFAPLPAEM  129
+
+
+> sp|Q0AI13|YCGR_NITEC Flagellar brake protein YcgR OS=Nitrosomonas 
+eutropha (strain DSM 101675 / C91 / Nm57) OX=335283 GN=ycgR 
+PE=3 SV=1
+Length=269
+
+ Score = 55.0 bits (131),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 36/77 (47%), Gaps = 2/77 (3%)
+
+Query  32   NGGQLISKLLAITPDK--LVLDFGSQAEDNIAVLKAQHITITAETQGAKVEFTVEQLQQS  89
+            +   ++S +LA+ P +  L++D+G     N   LK  ++         ++EF  + LQ+ 
+Sbjct  55   SHSAILSSILAVDPQQKLLIMDYGINETLNQIALKRGYLRCITSHNQIRIEFDCDNLQRV  114
+
+Query  90   EYLQLPAFITVPPPTLW  106
+            ++    AF    P +L 
+Sbjct  115  QFEGRHAFSADIPESLK  131
+
+
+> sp|A6SXY6|YCGR_JANMA Flagellar brake protein YcgR OS=Janthinobacterium 
+sp. (strain Marseille) OX=375286 GN=ycgR PE=3 SV=1
+Length=252
+
+ Score = 54.6 bits (130),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 23/105 (22%), Positives = 47/105 (45%), Gaps = 4/105 (4%)
+
+Query  5    FLKQNPLAVLGVLRDLHKAAIPLRLSWNGG--QLISKLLAITP--DKLVLDFGSQAEDNI  60
+            F  ++   V+ +LR + +    +R+  N G   +++ +L I    D ++LD    A  N 
+Sbjct  15   FRVRSRREVIALLRSIGERNQLVRMVINHGADTIVTSILNIDETNDTVLLDCAPTAIMNQ  74
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTL  105
+             VL +  ++     +  ++ F     +   Y  LPAF+   P ++
+Sbjct  75   RVLDSNKLSFETVLENIRILFNSPSAESCMYENLPAFVIPLPTSV  119
+
+
+> sp|Q47AR4|YCGR2_DECAR Flagellar brake protein YcgR 2 OS=Dechloromonas 
+aromatica (strain RCB) OX=159087 GN=ycgR2 PE=3 SV=1
+Length=247
+
+ Score = 53.1 bits (126),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 19/86 (22%), Positives = 32/86 (37%), Gaps = 4/86 (5%)
+
+Query  22   KAAIPLRLSWNGG--QLISKLLAITPDK--LVLDFGSQAEDNIAVLKAQHITITAETQGA  77
+            K   P  + +  G    ++  LA+ P+K  L+ D     E N   L++          G 
+Sbjct  33   KEREPFSVHFGAGGEMFLTTPLAVEPEKGLLIFDCSGSVESNQRFLRSDRNIFIGRPGGV  92
+
+Query  78   KVEFTVEQLQQSEYLQLPAFITVPPP  103
+             V+FT    ++  +    AF    P 
+Sbjct  93   HVQFTTGAAREVAHEGGKAFAVALPQ  118
+
+
+> sp|B4SHX7|YCGR_STRM5 Flagellar brake protein YcgR OS=Stenotrophomonas 
+maltophilia (strain R551-3) OX=391008 GN=ycgR PE=3 
+SV=1
+Length=257
+
+ Score = 51.6 bits (122),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 49/111 (44%), Gaps = 4/111 (4%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGG--QLISKLLAITPDK--LVLDFGSQAE  57
+             E+FL +NP  +  +LR L      +    +G      + LL +  D+  L+LD   Q  
+Sbjct  19   DERFLVRNPRQLRQLLRSLIDQRSLINAHIDGRDRSFPTALLELDEDEDYLLLDGSPQEA  78
+
+Query  58   DNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             N A  +A H+   A+ +   V F +++LQ+ +     AF    P  L  +
+Sbjct  79   SNRAAEQADHLLCFAQLERVLVRFRLQELQRVDNDGHVAFRAPLPDELVHL  129
+
+
+> sp|Q3SIH8|YCGR_THIDA Flagellar brake protein YcgR OS=Thiobacillus 
+denitrificans (strain ATCC 25259) OX=292415 GN=ycgR PE=3 
+SV=1
+Length=255
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 49/112 (44%), Gaps = 8/112 (7%)
+
+Query  3    EQFLKQNPL----AVLGVLRDLHKAAIP--LRLSWNGGQLISKLLAITP--DKLVLDFGS  54
+            + FL +  L     +L  LR L K  +   L LS +   +++ +LA+    + +VLD   
+Sbjct  16   DDFLARYTLHSRAEILFQLRALQKRKVLVNLDLSESRQIIVTSVLAVNEADNTVVLDSAR  75
+
+Query  55   QAEDNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLW  106
+                N  ++  +     A+  G  + F++  +   EY +LPA     P +L 
+Sbjct  76   GDALNNELMSGKGAEFVAQLDGVSISFSIGAVSLCEYEKLPALRIPVPTSLI  127
+
+
+> sp|C6WX20|YCGR_METML Flagellar brake protein YcgR OS=Methylotenera 
+mobilis (strain JLW8 / ATCC BAA-1282 / DSM 17540) OX=583345 
+GN=ycgR PE=3 SV=1
+Length=253
+
+ Score = 50.0 bits (118),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 25/108 (23%), Positives = 48/108 (44%), Gaps = 5/108 (5%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAITPDK--LVLDFGSQAE  57
+             EQ++  NP  V  ++ DL K    +++++N G    ++ +++I      + LD G   E
+Sbjct  10   EEQYIVHNPKEVTQIINDLIKHKSMIKVTFNHGADVYLTSIISIDAKTGAVYLDVGVDDE  69
+
+Query  58   DNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTL  105
+             N  +L + H+    E  G K+++T   +   E     A     P  +
+Sbjct  70   FNRRLLASNHVVFIKE-DGVKIKWTSAHIAGVELKDGKAIKIALPKDM  116
+
+
+> sp|A1K922|YCGR_AZOSB Flagellar brake protein YcgR OS=Azoarcus 
+sp. (strain BH72) OX=62928 GN=ycgR PE=3 SV=1
+Length=259
+
+ Score = 50.0 bits (118),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 17/107 (16%), Positives = 40/107 (37%), Gaps = 4/107 (4%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSW--NGGQLISKLLAI--TPDKLVLDFGSQAED  58
+            E++L      +  +L+ L      +           ++ ++A+      +++D G     
+Sbjct  19   EKYLLYGSREIRQILQGLIDHHALITAQTVPGHQSFLTTVVALPDDGASIIIDAGPDEHI  78
+
+Query  59   NIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTL  105
+            N  V  A+ +   ++    +++F +     + Y   PAF    P  L
+Sbjct  79   NQRVGNAERLVCMSQLDKIRIQFDLSAPALTRYENRPAFRAPVPAQL  125
+
+
+> sp|B0RSS7|YCGR_XANCB Flagellar brake protein YcgR OS=Xanthomonas 
+campestris pv. campestris (strain B100) OX=509169 GN=ycgR 
+PE=3 SV=1
+Length=265
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 50/111 (45%), Gaps = 4/111 (4%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLI--SKLLAITPDK--LVLDFGSQAE  57
+             E++L +N   + G+L+ L      + +   G  +   + +L +  D   ++LD      
+Sbjct  24   DERYLLRNKRQIRGLLQQLIDQRAVVTMHVAGRDMAVPTAVLEVDEDDDYVILDGSHNDA  83
+
+Query  58   DNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             N A+ +A+++   A+ +   + F +E  ++ E     AF    P +L+ +
+Sbjct  84   SNRAIEQAKYLLCYAQLERVNIRFRLETPERLERDIHVAFRATLPDSLYHL  134
+
+
+> sp|Q47HZ8|YCGR1_DECAR Flagellar brake protein YcgR 1 OS=Dechloromonas 
+aromatica (strain RCB) OX=159087 GN=ycgR1 PE=3 SV=1
+Length=264
+
+ Score = 39.6 bits (91),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 42/110 (38%), Gaps = 4/110 (4%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAITPDK--LVLDFGSQAED  58
+             Q+    P  +   L  L K    L    + G+   ++ ++A+  +K  + LD     E 
+Sbjct  22   SQYFLTAPREISFYLNLLVKRGSLLTAHIDDGKAFFLTTMIAVDDEKQAIFLDSAQADEL  81
+
+Query  59   NIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            N A   A  IT+TA+    K++  +  L+          +   P  +  +
+Sbjct  82   NTAAKNAHRITLTAKLDRVKIQLRLPPLRHQLVDGQKMLVAAFPQAILRI  131
+
+
+> sp|Q88EQ6|YCGR_PSEPK Flagellar brake protein YcgR OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 / KT2440) 
+OX=160488 GN=ycgR PE=1 SV=1
+Length=247
+
+ Score = 38.5 bits (88),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/103 (17%), Positives = 41/103 (40%), Gaps = 5/103 (5%)
+
+Query  10   PLAVLGVLRDLHKAAIPLRLSWNGG--QLISKLLAIT--PDKLVLDFGSQAEDNIAVLKA  65
+            PL +   LR L ++  PL ++++    +  S ++ +    + L LD     +    +   
+Sbjct  17   PLEIAANLRQLQESHDPLIITFHDRSHRFQSYVVHVDRESNTLALDEMIPRDGEKFIENG  76
+
+Query  66   QHITITAETQGAKVEFTVE-QLQQSEYLQLPAFITVPPPTLWF  107
+            +H  +     G ++ +  +  L+ SE      +    P  + +
+Sbjct  77   EHFRVEGFHDGVRIAWECDHALKISEVDGHRCYSGPLPQEVTY  119
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.138    0.342    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5084117440
+Results from round 3
+
+
+Query= 5Y6H:A
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8ZP19|YCGR_SALTY Flagellar brake protein YcgR OS=Salmonella...  142     2e-42
+  sp|Q66DY7|YCGR_YERPS Flagellar brake protein YcgR OS=Yersinia p...  130     6e-38
+  sp|P76010|YCGR_ECOLI Flagellar brake protein YcgR OS=Escherichi...  129     2e-37
+  sp|B2VDU2|YCGR_ERWT9 Flagellar brake protein YcgR OS=Erwinia ta...  126     2e-36
+  sp|C6DF90|YCGR_PECCP Flagellar brake protein YcgR OS=Pectobacte...  126     3e-36
+  sp|B2T792|YCGR1_PARPJ Flagellar brake protein YcgR 1 OS=Parabur...  123     4e-35
+  sp|B3RD79|YCGR_CUPTR Flagellar brake protein YcgR OS=Cupriavidu...  118     1e-32
+  sp|C4KAR8|YCGR_THASP Flagellar brake protein YcgR OS=Thauera sp...  116     4e-32
+  sp|Q7P0F8|YCGR_CHRVO Flagellar brake protein YcgR OS=Chromobact...  115     7e-32
+  sp|B2TD41|YCGR2_PARPJ Flagellar brake protein YcgR 2 OS=Parabur...  115     8e-32
+  sp|A1K922|YCGR_AZOSB Flagellar brake protein YcgR OS=Azoarcus s...  113     5e-31
+  sp|B4SHX7|YCGR_STRM5 Flagellar brake protein YcgR OS=Stenotroph...  113     6e-31
+  sp|B0RSS7|YCGR_XANCB Flagellar brake protein YcgR OS=Xanthomona...  112     9e-31
+  sp|C1DAJ6|YCGR_LARHH Flagellar brake protein YcgR OS=Laribacter...  112     1e-30
+  sp|Q2Y8L4|YCGR_NITMU Flagellar brake protein YcgR OS=Nitrosospi...  108     3e-29
+  sp|C6WX20|YCGR_METML Flagellar brake protein YcgR OS=Methyloten...  108     4e-29
+  sp|A6SXY6|YCGR_JANMA Flagellar brake protein YcgR OS=Janthinoba...  106     1e-28
+  sp|A8GEX8|YCGR_SERP5 Flagellar brake protein YcgR OS=Serratia p...  103     3e-27
+  sp|Q47HZ8|YCGR1_DECAR Flagellar brake protein YcgR 1 OS=Dechlor...  101     3e-26
+  sp|Q0AI13|YCGR_NITEC Flagellar brake protein YcgR OS=Nitrosomon...  98.5    3e-25
+  sp|Q3SIH8|YCGR_THIDA Flagellar brake protein YcgR OS=Thiobacill...  98.1    3e-25
+  sp|Q47AR4|YCGR2_DECAR Flagellar brake protein YcgR 2 OS=Dechlor...  95.8    2e-24
+
+Sequences not found previously or not previously below threshold:
+
+  sp|B1Y382|YCGR_LEPCP Flagellar brake protein YcgR OS=Leptothrix...  57.2    9e-10
+  sp|Q88EQ6|YCGR_PSEPK Flagellar brake protein YcgR OS=Pseudomona...  53.0    2e-08
+  sp|A2SJS7|YCGR_METPP Flagellar brake protein YcgR OS=Methylibiu...  50.3    2e-07
+  sp|B8GQA2|YCGR_THISH Flagellar brake protein YcgR OS=Thioalkali...  43.0    9e-05
+
+
+> sp|Q8ZP19|YCGR_SALTY Flagellar brake protein YcgR OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=ycgR PE=1 SV=1
+Length=244
+
+ Score = 142 bits (358),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 69/108 (64%), Positives = 87/108 (81%), Gaps = 0/108 (0%)
+
+Query  1    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  60
+            Y+EQFLK+NPLA+LGVLRDL+K  +PLR+SW  GQ ISK+LA+ P+KL++D+GSQ  +N 
+Sbjct  4    YNEQFLKKNPLAILGVLRDLNKNQVPLRISWAHGQFISKILAVDPEKLIVDYGSQEYENS  63
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            AVL+A  + I AETQGAKVEFT+ QL   EY +LPAFIT  P +LWFV
+Sbjct  64   AVLRAGQVAIIAETQGAKVEFTLPQLVTGEYQRLPAFITPLPSSLWFV  111
+
+
+> sp|Q66DY7|YCGR_YERPS Flagellar brake protein YcgR OS=Yersinia 
+pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=ycgR 
+PE=3 SV=1
+Length=252
+
+ Score = 130 bits (328),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 46/109 (42%), Positives = 67/109 (61%), Gaps = 2/109 (2%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDK--LVLDFGSQAEDN  59
+             EQF+K+N LA+  +LRDL K    + ++   GQ IS++L I P+    + DFGS   +N
+Sbjct  9    KEQFVKKNKLAICAILRDLQKNDTAVMVTHARGQFISRILDIQPETNQFIFDFGSVENEN  68
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            +  L A+ +TI  E  GAK+EFT  +L+  EYL LPAF +  P  L+F+
+Sbjct  69   VLALGAEQLTIIVEPTGAKIEFTCNKLKHVEYLSLPAFSSAIPEQLYFI  117
+
+
+> sp|P76010|YCGR_ECOLI Flagellar brake protein YcgR OS=Escherichia 
+coli (strain K12) OX=83333 GN=ycgR PE=1 SV=1
+Length=244
+
+ Score = 129 bits (324),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  60
+            YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI
+Sbjct  4    YHEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNI  63
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV
+Sbjct  64   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  111
+
+
+> sp|B2VDU2|YCGR_ERWT9 Flagellar brake protein YcgR OS=Erwinia 
+tasmaniensis (strain DSM 17950 / CIP 109463 / Et1/99) OX=465817 
+GN=ycgR PE=3 SV=1
+Length=249
+
+ Score = 126 bits (318),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 47/106 (44%), Positives = 65/106 (61%), Gaps = 0/106 (0%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNIAV  62
+            EQ+LKQ  LAVLGVLR+L +   P+R+S   GQ I++LL +    +V+DFGS   DN   
+Sbjct  11   EQYLKQGTLAVLGVLRELLQNQTPMRVSHPRGQFITRLLHVDKTNMVIDFGSNDYDNQLA  70
+
+Query  63   LKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             +A  + I A+T+GA++E  +  LQ SEY  LPAF    P  L  +
+Sbjct  71   QEANELHIVADTRGARIELILTSLQMSEYEGLPAFTAALPGQLKMI  116
+
+
+> sp|C6DF90|YCGR_PECCP Flagellar brake protein YcgR OS=Pectobacterium 
+carotovorum subsp. carotovorum (strain PC1) OX=561230 
+GN=ycgR PE=3 SV=1
+Length=255
+
+ Score = 126 bits (317),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 42/109 (39%), Positives = 56/109 (51%), Gaps = 2/109 (2%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDK--LVLDFGSQAEDN  59
+             EQF+K+N LA+   LR+L K    L +  + GQ ISK+L + PD    V D G    +N
+Sbjct  13   KEQFVKRNKLAICATLRELKKNDTSLMVHHSHGQFISKILDVVPDNNLFVFDLGGIEREN  72
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+               L A  ++  AE  GAKVEF  E  +   Y  LPAF    P  L+ +
+Sbjct  73   NRALYAGSLSFVAEPAGAKVEFNAEIAKTVTYDGLPAFSAQIPELLYLI  121
+
+
+> sp|B2T792|YCGR1_PARPJ Flagellar brake protein YcgR 1 OS=Paraburkholderia 
+phytofirmans (strain DSM 17436 / LMG 22146 / PsJN) 
+OX=398527 GN=ycgR1 PE=3 SV=1
+Length=257
+
+ Score = 123 bits (310),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 31/107 (29%), Positives = 54/107 (50%), Gaps = 2/107 (2%)
+
+Query  4    QFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAIT--PDKLVLDFGSQAEDNIA  61
+             F ++NPL +   LR+L      L + + GGQL+++LL +         D+G+ ++ N  
+Sbjct  26   DFGRRNPLEIGVQLRNLVNRGDFLTVQYAGGQLVTRLLEVDVRGRTFTFDWGALSDQNRG  85
+
+Query  62   VLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            +L A      A+  G +VEF     +++ +  LPAF    P  L++V
+Sbjct  86   LLGAPRCQFHAQPDGVRVEFATATPRETRFEGLPAFEADFPEVLFYV  132
+
+
+> sp|B3RD79|YCGR_CUPTR Flagellar brake protein YcgR OS=Cupriavidus 
+taiwanensis (strain DSM 17343 / BCRC 17206 / CIP 107171 
+/ LMG 19424 / R1) OX=977880 GN=ycgR PE=3 SV=1
+Length=269
+
+ Score = 118 bits (295),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 22/109 (20%), Positives = 47/109 (43%), Gaps = 3/109 (3%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRL-SWNGGQLISKLLAITP--DKLVLDFGSQAED  58
+             +++   +   +  VLRDL      L + +    Q ++ +L + P     V D+ +   +
+Sbjct  39   DDRYRLSHNSQIGTVLRDLAWQKCMLSVRTRTAHQFVTSILHVDPVNRTFVFDWCNAEPE  98
+
+Query  59   NIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWF  107
+             ++++ ++    +   +G  V F V Q   + Y   PAF+   P  L+ 
+Sbjct  99   RMSLMTSEENAFSGLLRGVPVNFVVGQPAATRYDDGPAFVAEFPEKLYH  147
+
+
+> sp|C4KAR8|YCGR_THASP Flagellar brake protein YcgR OS=Thauera 
+sp. (strain MZ1T) OX=85643 GN=ycgR PE=3 SV=1
+Length=263
+
+ Score = 116 bits (290),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 22/109 (20%), Positives = 46/109 (42%), Gaps = 3/109 (3%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ-LISKLLAITPDK--LVLDFGSQAEDN  59
+            E+F  +    +L +L+DL      +     GG   ++ +L +  ++  +VLD     + N
+Sbjct  24   EKFTLRGARQILQLLQDLITHRGLITAHTGGGHSFMTAVLKVDEERGRVVLDPSPDPQAN  83
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+               L A  +T   +  G +++F +  L + +    PA     P  +  +
+Sbjct  84   RRALAAPRLTCVTQLDGIRIQFPLVGLGEGQDKGRPALFAPLPAEMLRL  132
+
+
+> sp|Q7P0F8|YCGR_CHRVO Flagellar brake protein YcgR OS=Chromobacterium 
+violaceum (strain ATCC 12472 / DSM 30191 / JCM 1249 
+/ NBRC 12614 / NCIMB 9131 / NCTC 9757) OX=243365 GN=ycgR PE=3 
+SV=1
+Length=246
+
+ Score = 115 bits (287),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 23/109 (21%), Positives = 46/109 (42%), Gaps = 4/109 (4%)
+
+Query  4    QFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAITPDK--LVLDFGSQAEDN  59
+            +F   +P  +   L ++ K    + +  N G+  ++++LL +         D+G++ E N
+Sbjct  13   KFTLSSPTEIAQHLSNIAKHGHMVTVFANKGKNFILTRLLEVDYQAGVFTFDWGAEEETN  72
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+              VL ++        +G K +F   Q+ Q      PAF    P  +  +
+Sbjct  73   TQVLNSERNVFVCSPEGVKTQFVAGQISQVMVDDRPAFQCRLPEQVIKL  121
+
+
+> sp|B2TD41|YCGR2_PARPJ Flagellar brake protein YcgR 2 OS=Paraburkholderia 
+phytofirmans (strain DSM 17436 / LMG 22146 / PsJN) 
+OX=398527 GN=ycgR2 PE=3 SV=1
+Length=257
+
+ Score = 115 bits (288),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 30/109 (28%), Positives = 53/109 (49%), Gaps = 2/109 (2%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDK--LVLDFGSQAEDN  59
+               F +++PL +   LR L      + + + G Q+++++L +       V D GS A+DN
+Sbjct  22   DSNFAQRHPLQIAVCLRQLVAGQDFVTVEFGGRQIVTQILDVDSRNARFVFDAGSVADDN  81
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             A+  A+ +T  +   G + EFT      +++  LPAF    P  L +V
+Sbjct  82   DALPSARQLTFRSLPGGIRTEFTTFDATPTQFDGLPAFEAPLPTVLHYV  130
+
+
+> sp|A1K922|YCGR_AZOSB Flagellar brake protein YcgR OS=Azoarcus 
+sp. (strain BH72) OX=62928 GN=ycgR PE=3 SV=1
+Length=259
+
+ Score = 113 bits (282),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 17/110 (15%), Positives = 41/110 (37%), Gaps = 4/110 (4%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSW--NGGQLISKLLAI--TPDKLVLDFGSQAED  58
+            E++L      +  +L+ L      +           ++ ++A+      +++D G     
+Sbjct  19   EKYLLYGSREIRQILQGLIDHHALITAQTVPGHQSFLTTVVALPDDGASIIIDAGPDEHI  78
+
+Query  59   NIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            N  V  A+ +   ++    +++F +     + Y   PAF    P  L  +
+Sbjct  79   NQRVGNAERLVCMSQLDKIRIQFDLSAPALTRYENRPAFRAPVPAQLLRL  128
+
+
+> sp|B4SHX7|YCGR_STRM5 Flagellar brake protein YcgR OS=Stenotrophomonas 
+maltophilia (strain R551-3) OX=391008 GN=ycgR PE=3 
+SV=1
+Length=257
+
+ Score = 113 bits (282),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 49/111 (44%), Gaps = 4/111 (4%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGG--QLISKLLAITPDK--LVLDFGSQAE  57
+             E+FL +NP  +  +LR L      +    +G      + LL +  D+  L+LD   Q  
+Sbjct  19   DERFLVRNPRQLRQLLRSLIDQRSLINAHIDGRDRSFPTALLELDEDEDYLLLDGSPQEA  78
+
+Query  58   DNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             N A  +A H+   A+ +   V F +++LQ+ +     AF    P  L  +
+Sbjct  79   SNRAAEQADHLLCFAQLERVLVRFRLQELQRVDNDGHVAFRAPLPDELVHL  129
+
+
+> sp|B0RSS7|YCGR_XANCB Flagellar brake protein YcgR OS=Xanthomonas 
+campestris pv. campestris (strain B100) OX=509169 GN=ycgR 
+PE=3 SV=1
+Length=265
+
+ Score = 112 bits (281),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 50/111 (45%), Gaps = 4/111 (4%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQL--ISKLLAITPDK--LVLDFGSQAE  57
+             E++L +N   + G+L+ L      + +   G  +   + +L +  D   ++LD      
+Sbjct  24   DERYLLRNKRQIRGLLQQLIDQRAVVTMHVAGRDMAVPTAVLEVDEDDDYVILDGSHNDA  83
+
+Query  58   DNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             N A+ +A+++   A+ +   + F +E  ++ E     AF    P +L+ +
+Sbjct  84   SNRAIEQAKYLLCYAQLERVNIRFRLETPERLERDIHVAFRATLPDSLYHL  134
+
+
+> sp|C1DAJ6|YCGR_LARHH Flagellar brake protein YcgR OS=Laribacter 
+hongkongensis (strain HLHK9) OX=557598 GN=ycgR PE=3 SV=1
+Length=271
+
+ Score = 112 bits (281),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 50/109 (46%), Gaps = 4/109 (4%)
+
+Query  4    QFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAIT--PDKLVLDFGSQAEDN  59
+            ++   +PL +   L+ +  A + + +  N G+  +++KLLAI     +   D GS  + N
+Sbjct  35   KYAMTSPLEIGQHLKRIISANVLVTVFSNHGKSFILTKLLAIDLKSGRFAFDAGSSDDAN  94
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+              +LK++         G K +F    +Q   Y   PAF+   PP +  +
+Sbjct  95   RQLLKSERNVFVCTPDGIKTQFVTGPVQSFIYDGAPAFLARLPPEVVKL  143
+
+
+> sp|Q2Y8L4|YCGR_NITMU Flagellar brake protein YcgR OS=Nitrosospira 
+multiformis (strain ATCC 25196 / NCIMB 11849 / C 71) OX=323848 
+GN=ycgR PE=3 SV=1
+Length=258
+
+ Score = 108 bits (270),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 51/111 (46%), Gaps = 4/111 (4%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWN--GGQLISKLLAITPDK--LVLDFGSQAE  57
+            ++++   +   +L VLR + +        +   G    + LL +   +  +VLD+G   E
+Sbjct  20   NKKYRISSKSGILSVLRVMIRNNSQATCYFGDAGSFFPTALLNLDSQRGEMVLDYGPNEE  79
+
+Query  58   DNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             N   L+ +   + A     KV+F+ +Q+ ++E+    AF+   P +L  +
+Sbjct  80   INQQALQVEKWNVVAFPNQVKVQFSCQQIGKTEFEGRNAFLAQIPTSLLRM  130
+
+
+> sp|C6WX20|YCGR_METML Flagellar brake protein YcgR OS=Methylotenera 
+mobilis (strain JLW8 / ATCC BAA-1282 / DSM 17540) OX=583345 
+GN=ycgR PE=3 SV=1
+Length=253
+
+ Score = 108 bits (269),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 49/111 (44%), Gaps = 5/111 (5%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAITPDK--LVLDFGSQAE  57
+             EQ++  NP  V  ++ DL K    +++++N G    ++ +++I      + LD G   E
+Sbjct  10   EEQYIVHNPKEVTQIINDLIKHKSMIKVTFNHGADVYLTSIISIDAKTGAVYLDVGVDDE  69
+
+Query  58   DNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             N  +L + H+    E  G K+++T   +   E     A     P  +  +
+Sbjct  70   FNRRLLASNHVVFIKE-DGVKIKWTSAHIAGVELKDGKAIKIALPKDMVRL  119
+
+
+> sp|A6SXY6|YCGR_JANMA Flagellar brake protein YcgR OS=Janthinobacterium 
+sp. (strain Marseille) OX=375286 GN=ycgR PE=3 SV=1
+Length=252
+
+ Score = 106 bits (266),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 23/108 (21%), Positives = 48/108 (44%), Gaps = 4/108 (4%)
+
+Query  5    FLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAITP--DKLVLDFGSQAEDNI  60
+            F  ++   V+ +LR + +    +R+  N G   +++ +L I    D ++LD    A  N 
+Sbjct  15   FRVRSRREVIALLRSIGERNQLVRMVINHGADTIVTSILNIDETNDTVLLDCAPTAIMNQ  74
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             VL +  ++     +  ++ F     +   Y  LPAF+   P ++  +
+Sbjct  75   RVLDSNKLSFETVLENIRILFNSPSAESCMYENLPAFVIPLPTSVVRL  122
+
+
+> sp|A8GEX8|YCGR_SERP5 Flagellar brake protein YcgR OS=Serratia 
+proteamaculans (strain 568) OX=399741 GN=ycgR PE=3 SV=1
+Length=237
+
+ Score = 103 bits (256),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 32/104 (31%), Positives = 52/104 (50%), Gaps = 5/104 (5%)
+
+Query  5    FLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQLISKLLAITPDKLVLDFGSQAEDNIAVLK  64
+            F+KQ    VL +LR++ K   PL++  +  Q  S LL++ PD +V        DN     
+Sbjct  9    FIKQERFEVLAILREICKQRTPLKVVNDRQQFQSLLLSVGPDNIVF--SGDEADNRV---  63
+
+Query  65   AQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+                TI  E+  AK+EF+V Q + +++  + A  T  P  L ++
+Sbjct  64   DGECTIVIESHDAKIEFSVGQAEFTDHQGVNACSTRLPKELIYI  107
+
+
+> sp|Q47HZ8|YCGR1_DECAR Flagellar brake protein YcgR 1 OS=Dechloromonas 
+aromatica (strain RCB) OX=159087 GN=ycgR1 PE=3 SV=1
+Length=264
+
+ Score = 101 bits (251),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 42/110 (38%), Gaps = 4/110 (4%)
+
+Query  3    EQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAITPDK--LVLDFGSQAED  58
+             Q+    P  +   L  L K    L    + G+   ++ ++A+  +K  + LD     E 
+Sbjct  22   SQYFLTAPREISFYLNLLVKRGSLLTAHIDDGKAFFLTTMIAVDDEKQAIFLDSAQADEL  81
+
+Query  59   NIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+            N A   A  IT+TA+    K++  +  L+          +   P  +  +
+Sbjct  82   NTAAKNAHRITLTAKLDRVKIQLRLPPLRHQLVDGQKMLVAAFPQAILRI  131
+
+
+> sp|Q0AI13|YCGR_NITEC Flagellar brake protein YcgR OS=Nitrosomonas 
+eutropha (strain DSM 101675 / C91 / Nm57) OX=335283 GN=ycgR 
+PE=3 SV=1
+Length=269
+
+ Score = 98.5 bits (244),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWN---GGQLISKLLAITPDK--LVLDFGSQA  56
+               +   +   +   L  + +    + L         ++S +LA+ P +  L++D+G   
+Sbjct  22   EPDYSVNSRPEICFFLNGIMEEKSLISLYLARDSHSAILSSILAVDPQQKLLIMDYGINE  81
+
+Query  57   EDNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+              N   LK  ++         ++EF  + LQ+ ++    AF    P +L  +
+Sbjct  82   TLNQIALKRGYLRCITSHNQIRIEFDCDNLQRVQFEGRHAFSADIPESLKRL  133
+
+
+> sp|Q3SIH8|YCGR_THIDA Flagellar brake protein YcgR OS=Thiobacillus 
+denitrificans (strain ATCC 25259) OX=292415 GN=ycgR PE=3 
+SV=1
+Length=255
+
+ Score = 98.1 bits (243),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 48/109 (44%), Gaps = 4/109 (4%)
+
+Query  4    QFLKQNPLAVLGVLRDLHKAAIP--LRLSWNGGQLISKLLAITP--DKLVLDFGSQAEDN  59
+            ++   +   +L  LR L K  +   L LS +   +++ +LA+    + +VLD       N
+Sbjct  21   RYTLHSRAEILFQLRALQKRKVLVNLDLSESRQIIVTSVLAVNEADNTVVLDSARGDALN  80
+
+Query  60   IAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+              ++  +     A+  G  + F++  +   EY +LPA     P +L  +
+Sbjct  81   NELMSGKGAEFVAQLDGVSISFSIGAVSLCEYEKLPALRIPVPTSLIRL  129
+
+
+> sp|Q47AR4|YCGR2_DECAR Flagellar brake protein YcgR 2 OS=Dechloromonas 
+aromatica (strain RCB) OX=159087 GN=ycgR2 PE=3 SV=1
+Length=247
+
+ Score = 95.8 bits (237),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 21/111 (19%), Positives = 39/111 (35%), Gaps = 4/111 (4%)
+
+Query  2    HEQFLKQNPLAVLGVLRDLHKAAIPLRLSWNGG--QLISKLLAITPDK--LVLDFGSQAE  57
+              +F       V  ++    K   P  + +  G    ++  LA+ P+K  L+ D     E
+Sbjct  13   EARFRVMGTKPVAFLIAGFAKEREPFSVHFGAGGEMFLTTPLAVEPEKGLLIFDCSGSVE  72
+
+Query  58   DNIAVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWFV  108
+             N   L++          G  V+FT    ++  +    AF    P  +  +
+Sbjct  73   SNQRFLRSDRNIFIGRPGGVHVQFTTGAAREVAHEGGKAFAVALPQYIVRL  123
+
+
+> sp|B1Y382|YCGR_LEPCP Flagellar brake protein YcgR OS=Leptothrix 
+cholodnii (strain ATCC 51168 / LMG 8142 / SP-6) OX=395495 
+GN=ycgR PE=3 SV=1
+Length=251
+
+ Score = 57.2 bits (137),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 17/107 (16%), Positives = 38/107 (36%), Gaps = 3/107 (3%)
+
+Query  4    QFLKQNPLAVLGVLRDLHKAAIPLRLSWNGG-QLISKLLAITPDK--LVLDFGSQAEDNI  60
+            ++  +    +  +LR      +P+ L+   G    + L A  P++  LVL   +      
+Sbjct  19   EYRVRAGSEIRALLRRFADEELPITLATPDGVSYTTCLWADDPERAVLVLSADAADARVQ  78
+
+Query  61   AVLKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWF  107
+             +++A+           K++F +  L         A     P  ++ 
+Sbjct  79   RLIEAEEAVAVGYLDSVKIQFDLNGLMLVHGRDASALHAQFPREIYR  125
+
+
+> sp|Q88EQ6|YCGR_PSEPK Flagellar brake protein YcgR OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 / KT2440) 
+OX=160488 GN=ycgR PE=1 SV=1
+Length=247
+
+ Score = 53.0 bits (126),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 17/107 (16%), Positives = 41/107 (38%), Gaps = 5/107 (5%)
+
+Query  6    LKQNPLAVLGVLRDLHKAAIPLRLSWNGGQ--LISKLLAIT--PDKLVLDFGSQAEDNIA  61
+            +   PL +   LR L ++  PL ++++       S ++ +    + L LD     +    
+Sbjct  13   VLSTPLEIAANLRQLQESHDPLIITFHDRSHRFQSYVVHVDRESNTLALDEMIPRDGEKF  72
+
+Query  62   VLKAQHITITAETQGAKVEFTVEQ-LQQSEYLQLPAFITVPPPTLWF  107
+            +   +H  +     G ++ +  +  L+ SE      +    P  + +
+Sbjct  73   IENGEHFRVEGFHDGVRIAWECDHALKISEVDGHRCYSGPLPQEVTY  119
+
+
+> sp|A2SJS7|YCGR_METPP Flagellar brake protein YcgR OS=Methylibium 
+petroleiphilum (strain ATCC BAA-1232 / LMG 22953 / PM1) 
+OX=420662 GN=ycgR PE=3 SV=1
+Length=229
+
+ Score = 50.3 bits (119),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/104 (17%), Positives = 35/104 (34%), Gaps = 3/104 (3%)
+
+Query  7    KQNPLAVLGVLRDLHKAAIPLRLSWNGGQ-LISKLLAITPDK--LVLDFGSQAEDNIAVL  63
+               P  V  +L+      + L LS   G    + + A+ P +  L L           +L
+Sbjct  1    MSAPAEVFSLLKQCADGNVLLSLSSPEGAAYTTTVWALDPARGLLCLSADGGDIKLQRLL  60
+
+Query  64   KAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWF  107
+            +++ +         K++F +  L      +  A     P  L+ 
+Sbjct  61   ESEEVVAVGYLDSVKLQFDLHDLVLVHSGRASALNARFPRELYR  104
+
+
+> sp|B8GQA2|YCGR_THISH Flagellar brake protein YcgR OS=Thioalkalivibrio 
+sulfidiphilus (strain HL-EbGR7) OX=396588 GN=ycgR PE=3 
+SV=1
+Length=246
+
+ Score = 43.0 bits (100),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 18/105 (17%), Positives = 38/105 (36%), Gaps = 4/105 (4%)
+
+Query  7    KQNPLAVLGVLRDLHKAAIPL--RLSWNGGQLISKLLAITPDK--LVLDFGSQAEDNIAV  62
+              +   +L VL  +      L  R+    G   + LL I  +K  + LD  + A+ +  +
+Sbjct  21   ISHRRRILAVLDAMKDGRALLSARIENQRGYFNTTLLKIDAEKGYVFLDELAPADGHEKI  80
+
+Query  63   LKAQHITITAETQGAKVEFTVEQLQQSEYLQLPAFITVPPPTLWF  107
+               Q + +          F +E +   E+  +  +    P  + +
+Sbjct  81   AVGQTLHLYGFYNNLPAHFAIEVIHVGEHEGIAFYAGPLPKLIHY  125
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.148    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0451    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5084117440
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

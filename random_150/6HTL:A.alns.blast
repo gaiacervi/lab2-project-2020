@@ -1,0 +1,596 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6HTL:A
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P35945|PHOSP_RINDK Phosphoprotein OS=Rinderpest virus (strai...  99.8    2e-25
+  sp|Q03335|PHOSP_RINDR Phosphoprotein OS=Rinderpest virus (strai...  99.4    2e-25
+  sp|P35974|PHOSP_MEASA Phosphoprotein OS=Measles virus (strain E...  99.4    3e-25
+  sp|P03422|PHOSP_MEASE Phosphoprotein OS=Measles virus (strain E...  99.4    3e-25
+  sp|Q9WMB4|PHOSP_MEASC Phosphoprotein OS=Measles virus (strain I...  99.4    3e-25
+  sp|P26033|PHOSP_MEASI Phosphoprotein OS=Measles virus (strain I...  97.1    2e-24
+  sp|Q00793|PHOSP_MEASY Phosphoprotein OS=Measles virus (strain Y...  96.3    3e-24
+  sp|P35939|PHOSP_PHODV Phosphoprotein OS=Phocine distemper virus...  79.0    5e-18
+  sp|P06940|PHOSP_CDVO Phosphoprotein OS=Canine distemper virus (...  76.3    4e-17
+
+
+> sp|P35945|PHOSP_RINDK Phosphoprotein OS=Rinderpest virus (strain 
+Kabete O) OX=11242 GN=P/V PE=2 SV=1
+Length=507
+
+ Score = 99.8 bits (247),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 47/63 (75%), Positives = 59/63 (94%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAK+H+D Q II++LES+  +KGE++SIKKQI++QNISIST+EGH
+Sbjct  307  YDDELFSDIQDIKTALAKLHDDQQIIITRLESLVSLKGEIDSIKKQISKQNISISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q03335|PHOSP_RINDR Phosphoprotein OS=Rinderpest virus (strain 
+RBOK) OX=36409 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 99.4 bits (246),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 47/63 (75%), Positives = 59/63 (94%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAK+H+D Q II++LES+  +KGE++SIKKQI++QNISIST+EGH
+Sbjct  307  YDDELFSDIQDIKTALAKLHDDQQIIITRLESLLSLKGEIDSIKKQISKQNISISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P35974|PHOSP_MEASA Phosphoprotein OS=Measles virus (strain 
+Edmonston-AIK-C vaccine) OX=36408 GN=P/V PE=1 SV=1
+Length=507
+
+ Score = 99.4 bits (246),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P03422|PHOSP_MEASE Phosphoprotein OS=Measles virus (strain 
+Edmonston) OX=11235 GN=P/V PE=1 SV=1
+Length=507
+
+ Score = 99.4 bits (246),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q9WMB4|PHOSP_MEASC Phosphoprotein OS=Measles virus (strain 
+Ichinose-B95a) OX=645098 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 99.4 bits (246),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P26033|PHOSP_MEASI Phosphoprotein OS=Measles virus (strain 
+IP-3-Ca) OX=11237 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 97.1 bits (240),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 57/63 (90%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQK+ISKLES+  +KGEVESIKKQIN+QNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKVISKLESLLLLKGEVESIKKQINKQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q00793|PHOSP_MEASY Phosphoprotein OS=Measles virus (strain 
+Yamagata-1) OX=11239 GN=P/V PE=2 SV=1
+Length=507
+
+ Score = 96.3 bits (238),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 57/63 (90%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQIN+QNISISTLEGH
+Sbjct  307  YDDELFSDIQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINKQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P35939|PHOSP_PHODV Phosphoprotein OS=Phocine distemper virus 
+OX=11240 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 79.0 bits (193),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 40/63 (63%), Positives = 58/63 (92%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFS++Q+I++A+ K+ EDNQ I+SKL+++  +KGE++SIKKQI++QNI+IST+EGH
+Sbjct  307  YDDELFSEIQEIRSAITKLTEDNQSILSKLDTLLLLKGEIDSIKKQISKQNIAISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P06940|PHOSP_CDVO Phosphoprotein OS=Canine distemper virus 
+(strain Onderstepoort) OX=11233 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 76.3 bits (186),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 39/63 (62%), Positives = 57/63 (90%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFS++Q+I++A+ K+ EDNQ I++KL+++  +KGE +SIKKQI++QNI+IST+EGH
+Sbjct  307  YDDELFSEIQEIRSAITKLTEDNQAILTKLDTLLLLKGETDSIKKQISKQNIAISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.128    0.327    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5126553488
+Results from round 2
+
+
+Query= 6HTL:A
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q03335|PHOSP_RINDR Phosphoprotein OS=Rinderpest virus (strai...  103     1e-26
+  sp|P35945|PHOSP_RINDK Phosphoprotein OS=Rinderpest virus (strai...  102     1e-26
+  sp|P35974|PHOSP_MEASA Phosphoprotein OS=Measles virus (strain E...  93.2    5e-23
+  sp|P03422|PHOSP_MEASE Phosphoprotein OS=Measles virus (strain E...  92.8    5e-23
+  sp|P26033|PHOSP_MEASI Phosphoprotein OS=Measles virus (strain I...  91.6    2e-22
+  sp|Q9WMB4|PHOSP_MEASC Phosphoprotein OS=Measles virus (strain I...  91.6    2e-22
+  sp|Q00793|PHOSP_MEASY Phosphoprotein OS=Measles virus (strain Y...  91.2    2e-22
+  sp|P35939|PHOSP_PHODV Phosphoprotein OS=Phocine distemper virus...  85.8    2e-20
+  sp|P06940|PHOSP_CDVO Phosphoprotein OS=Canine distemper virus (...  83.5    1e-19
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9WS39|PHOSP_TPMV Phosphoprotein OS=Tupaia paramyxovirus OX=...  39.2    5e-04
+
+
+> sp|Q03335|PHOSP_RINDR Phosphoprotein OS=Rinderpest virus (strain 
+RBOK) OX=36409 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 103 bits (256),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 47/63 (75%), Positives = 59/63 (94%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAK+H+D Q II++LES+  +KGE++SIKKQI++QNISIST+EGH
+Sbjct  307  YDDELFSDIQDIKTALAKLHDDQQIIITRLESLLSLKGEIDSIKKQISKQNISISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P35945|PHOSP_RINDK Phosphoprotein OS=Rinderpest virus (strain 
+Kabete O) OX=11242 GN=P/V PE=2 SV=1
+Length=507
+
+ Score = 102 bits (255),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 47/63 (75%), Positives = 59/63 (94%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAK+H+D Q II++LES+  +KGE++SIKKQI++QNISIST+EGH
+Sbjct  307  YDDELFSDIQDIKTALAKLHDDQQIIITRLESLVSLKGEIDSIKKQISKQNISISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P35974|PHOSP_MEASA Phosphoprotein OS=Measles virus (strain 
+Edmonston-AIK-C vaccine) OX=36408 GN=P/V PE=1 SV=1
+Length=507
+
+ Score = 93.2 bits (230),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P03422|PHOSP_MEASE Phosphoprotein OS=Measles virus (strain 
+Edmonston) OX=11235 GN=P/V PE=1 SV=1
+Length=507
+
+ Score = 92.8 bits (229),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P26033|PHOSP_MEASI Phosphoprotein OS=Measles virus (strain 
+IP-3-Ca) OX=11237 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 91.6 bits (226),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 57/63 (90%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQK+ISKLES+  +KGEVESIKKQIN+QNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKVISKLESLLLLKGEVESIKKQINKQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q9WMB4|PHOSP_MEASC Phosphoprotein OS=Measles virus (strain 
+Ichinose-B95a) OX=645098 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 91.6 bits (226),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q00793|PHOSP_MEASY Phosphoprotein OS=Measles virus (strain 
+Yamagata-1) OX=11239 GN=P/V PE=2 SV=1
+Length=507
+
+ Score = 91.2 bits (225),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 57/63 (90%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQIN+QNISISTLEGH
+Sbjct  307  YDDELFSDIQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINKQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P35939|PHOSP_PHODV Phosphoprotein OS=Phocine distemper virus 
+OX=11240 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 85.8 bits (211),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 40/63 (63%), Positives = 58/63 (92%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFS++Q+I++A+ K+ EDNQ I+SKL+++  +KGE++SIKKQI++QNI+IST+EGH
+Sbjct  307  YDDELFSEIQEIRSAITKLTEDNQSILSKLDTLLLLKGEIDSIKKQISKQNIAISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P06940|PHOSP_CDVO Phosphoprotein OS=Canine distemper virus 
+(strain Onderstepoort) OX=11233 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 83.5 bits (205),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 39/63 (62%), Positives = 57/63 (90%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFS++Q+I++A+ K+ EDNQ I++KL+++  +KGE +SIKKQI++QNI+IST+EGH
+Sbjct  307  YDDELFSEIQEIRSAITKLTEDNQAILTKLDTLLLLKGETDSIKKQISKQNIAISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q9WS39|PHOSP_TPMV Phosphoprotein OS=Tupaia paramyxovirus OX=92129 
+GN=P/V PE=3 SV=1
+Length=527
+
+ Score = 39.2 bits (90),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 20/57 (35%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  7    SDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGHLSS  63
+            SD  +    L +I ++ ++I+++L++I  I+  ++SIK+  ++Q +++STLEG LSS
+Sbjct  337  SDKHNDNGLLLQILKNQEEILNRLKTIGSIQESLDSIKRIQSKQGLALSTLEGLLSS  393
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.331    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5126553488
+Results from round 3
+
+
+Query= 6HTL:A
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q03335|PHOSP_RINDR Phosphoprotein OS=Rinderpest virus (strai...  95.1    9e-24
+  sp|P35945|PHOSP_RINDK Phosphoprotein OS=Rinderpest virus (strai...  94.3    2e-23
+  sp|P35974|PHOSP_MEASA Phosphoprotein OS=Measles virus (strain E...  85.1    4e-20
+  sp|P03422|PHOSP_MEASE Phosphoprotein OS=Measles virus (strain E...  84.7    4e-20
+  sp|P26033|PHOSP_MEASI Phosphoprotein OS=Measles virus (strain I...  83.9    8e-20
+  sp|Q9WMB4|PHOSP_MEASC Phosphoprotein OS=Measles virus (strain I...  83.5    1e-19
+  sp|Q00793|PHOSP_MEASY Phosphoprotein OS=Measles virus (strain Y...  83.5    1e-19
+  sp|P35939|PHOSP_PHODV Phosphoprotein OS=Phocine distemper virus...  77.8    1e-17
+  sp|P06940|PHOSP_CDVO Phosphoprotein OS=Canine distemper virus (...  75.8    6e-17
+  sp|Q9WS39|PHOSP_TPMV Phosphoprotein OS=Tupaia paramyxovirus OX=...  72.0    1e-15
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q03335|PHOSP_RINDR Phosphoprotein OS=Rinderpest virus (strain 
+RBOK) OX=36409 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 95.1 bits (235),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 47/63 (75%), Positives = 59/63 (94%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAK+H+D Q II++LES+  +KGE++SIKKQI++QNISIST+EGH
+Sbjct  307  YDDELFSDIQDIKTALAKLHDDQQIIITRLESLLSLKGEIDSIKKQISKQNISISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P35945|PHOSP_RINDK Phosphoprotein OS=Rinderpest virus (strain 
+Kabete O) OX=11242 GN=P/V PE=2 SV=1
+Length=507
+
+ Score = 94.3 bits (233),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 47/63 (75%), Positives = 59/63 (94%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAK+H+D Q II++LES+  +KGE++SIKKQI++QNISIST+EGH
+Sbjct  307  YDDELFSDIQDIKTALAKLHDDQQIIITRLESLVSLKGEIDSIKKQISKQNISISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P35974|PHOSP_MEASA Phosphoprotein OS=Measles virus (strain 
+Edmonston-AIK-C vaccine) OX=36408 GN=P/V PE=1 SV=1
+Length=507
+
+ Score = 85.1 bits (209),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P03422|PHOSP_MEASE Phosphoprotein OS=Measles virus (strain 
+Edmonston) OX=11235 GN=P/V PE=1 SV=1
+Length=507
+
+ Score = 84.7 bits (208),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P26033|PHOSP_MEASI Phosphoprotein OS=Measles virus (strain 
+IP-3-Ca) OX=11237 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 83.9 bits (206),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 57/63 (90%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQK+ISKLES+  +KGEVESIKKQIN+QNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKVISKLESLLLLKGEVESIKKQINKQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q9WMB4|PHOSP_MEASC Phosphoprotein OS=Measles virus (strain 
+Ichinose-B95a) OX=645098 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 83.5 bits (205),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 59/63 (94%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSDVQDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQINRQNISISTLEGH
+Sbjct  307  YDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q00793|PHOSP_MEASY Phosphoprotein OS=Measles virus (strain 
+Yamagata-1) OX=11239 GN=P/V PE=2 SV=1
+Length=507
+
+ Score = 83.5 bits (205),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 57/63 (90%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFSD+QDIKTALAKIHEDNQKIISKLES+  +KGEVESIKKQIN+QNISISTLEGH
+Sbjct  307  YDDELFSDIQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINKQNISISTLEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P35939|PHOSP_PHODV Phosphoprotein OS=Phocine distemper virus 
+OX=11240 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 77.8 bits (190),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 40/63 (63%), Positives = 58/63 (92%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFS++Q+I++A+ K+ EDNQ I+SKL+++  +KGE++SIKKQI++QNI+IST+EGH
+Sbjct  307  YDDELFSEIQEIRSAITKLTEDNQSILSKLDTLLLLKGEIDSIKKQISKQNIAISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|P06940|PHOSP_CDVO Phosphoprotein OS=Canine distemper virus 
+(strain Onderstepoort) OX=11233 GN=P/V PE=3 SV=1
+Length=507
+
+ Score = 75.8 bits (185),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 39/63 (62%), Positives = 57/63 (90%), Gaps = 0/63 (0%)
+
+Query  1    YDDELFSDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGH  60
+            YDDELFS++Q+I++A+ K+ EDNQ I++KL+++  +KGE +SIKKQI++QNI+IST+EGH
+Sbjct  307  YDDELFSEIQEIRSAITKLTEDNQAILTKLDTLLLLKGETDSIKKQISKQNIAISTIEGH  366
+
+Query  61   LSS  63
+            LSS
+Sbjct  367  LSS  369
+
+
+> sp|Q9WS39|PHOSP_TPMV Phosphoprotein OS=Tupaia paramyxovirus OX=92129 
+GN=P/V PE=3 SV=1
+Length=527
+
+ Score = 72.0 bits (175),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/57 (35%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  7    SDVQDIKTALAKIHEDNQKIISKLESIPKIKGEVESIKKQINRQNISISTLEGHLSS  63
+            SD  +    L +I ++ ++I+++L++I  I+  ++SIK+  ++Q +++STLEG LSS
+Sbjct  337  SDKHNDNGLLLQILKNQEEILNRLKTIGSIQESLDSIKRIQSKQGLALSTLEGLLSS  393
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.326    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5126553488
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

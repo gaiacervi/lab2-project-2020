@@ -1,0 +1,373 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5US1:A
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q52424|AAC2_PROST Aminoglycoside 2'-N-acetyltransferase OS=P...  365     2e-130
+  sp|Q49157|AAC2_MYCFO Aminoglycoside 2'-N-acetyltransferase OS=M...  133     2e-38 
+  sp|P9WQG9|AAC2_MYCTU Aminoglycoside 2'-N-acetyltransferase OS=M...  117     3e-32 
+  sp|P9WQG8|AAC2_MYCTO Aminoglycoside 2'-N-acetyltransferase OS=M...  117     3e-32 
+  sp|P0A5N1|AAC2_MYCBO Aminoglycoside 2'-N-acetyltransferase OS=M...  117     3e-32 
+  sp|P94968|AAC2_MYCS2 Aminoglycoside 2'-N-acetyltransferase OS=M...  84.0    5e-19 
+  sp|Q5UPZ9|GNA1_MIMIV Probable glucosamine 6-phosphate N-acetylt...  39.7    0.003 
+
+
+> sp|Q52424|AAC2_PROST Aminoglycoside 2'-N-acetyltransferase OS=Providencia 
+stuartii OX=588 GN=aac PE=1 SV=1
+Length=178
+
+ Score = 365 bits (938),  Expect = 2e-130, Method: Compositional matrix adjust.
+ Identities = 178/178 (100%), Positives = 178/178 (100%), Gaps = 0/178 (0%)
+
+Query  12   MGIEYRSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVA  71
+            MGIEYRSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVA
+Sbjct  1    MGIEYRSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVA  60
+
+Query  72   IIQRHMALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQ  131
+            IIQRHMALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQ
+Sbjct  61   IIQRHMALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQ  120
+
+Query  132  KLYHSVGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  189
+            KLYHSVGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW
+Sbjct  121  KLYHSVGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  178
+
+
+> sp|Q49157|AAC2_MYCFO Aminoglycoside 2'-N-acetyltransferase OS=Mycolicibacterium 
+fortuitum OX=1766 GN=aac PE=3 SV=1
+Length=195
+
+ Score = 133 bits (335),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 68/177 (38%), Positives = 99/177 (56%), Gaps = 4/177 (2%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVAIIQRH  76
+            R +HTS L    +E    ++IE FEGDFS  D+ H LGGMH        L+ H A++QR 
+Sbjct  19   RLVHTSDLDQETREGARRMVIEAFEGDFSDADWEHALGGMHAFICHHGALIAHAAVVQRR  78
+
+Query  77   MALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQKLYHS  136
+            +   +T +  GYVEA+ V + +R QG+   +M    +++   YQLG LSASD  + +Y S
+Sbjct  79   LLYRDTALRCGYVEAVAVREDWRGQGLATAVMDAVEQVLRGAYQLGALSASDTARGMYLS  138
+
+Query  137  VGWQIWKGKLFELKQGSYIRSIEEEGGV----MGWKADGEVDFTASLYCDFRGGDQW  189
+             GW  W+G    L+     R+ E++ G+    +G  A  E+D TA + CD+R GD W
+Sbjct  139  RGWLPWQGPTSVLQPAGVTRTPEDDEGLFVLPVGLPAGMELDTTAEITCDWRDGDVW  195
+
+
+> sp|P9WQG9|AAC2_MYCTU Aminoglycoside 2'-N-acetyltransferase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=aac PE=1 SV=1
+Length=181
+
+ Score = 117 bits (293),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 57/173 (33%), Positives = 91/173 (53%), Gaps = 0/173 (0%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVAIIQRH  76
+            R +HT+ L    ++ +  ++   F GDF+  D+ HTLGGMH + +    ++ H A+IQR 
+Sbjct  9    RLVHTADLDSETRQDIRQMVTGAFAGDFTETDWEHTLGGMHALIWHHGAIIAHAAVIQRR  68
+
+Query  77   MALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQKLYHS  136
+            +      +  GYVE + V   +R Q +   L+    +++   YQLG LS+S   ++LY S
+Sbjct  69   LIYRGNALRCGYVEGVAVRADWRGQRLVSALLDAVEQVMRGAYQLGALSSSARARRLYAS  128
+
+Query  137  VGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  189
+             GW  W G    L     +R+ +++G V     D  +D +A L CD+R GD W
+Sbjct  129  RGWLPWHGPTSVLAPTGPVRTPDDDGTVFVLPIDISLDTSAELMCDWRAGDVW  181
+
+
+> sp|P9WQG8|AAC2_MYCTO Aminoglycoside 2'-N-acetyltransferase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=aac PE=3 SV=1
+Length=181
+
+ Score = 117 bits (293),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 57/173 (33%), Positives = 91/173 (53%), Gaps = 0/173 (0%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVAIIQRH  76
+            R +HT+ L    ++ +  ++   F GDF+  D+ HTLGGMH + +    ++ H A+IQR 
+Sbjct  9    RLVHTADLDSETRQDIRQMVTGAFAGDFTETDWEHTLGGMHALIWHHGAIIAHAAVIQRR  68
+
+Query  77   MALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQKLYHS  136
+            +      +  GYVE + V   +R Q +   L+    +++   YQLG LS+S   ++LY S
+Sbjct  69   LIYRGNALRCGYVEGVAVRADWRGQRLVSALLDAVEQVMRGAYQLGALSSSARARRLYAS  128
+
+Query  137  VGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  189
+             GW  W G    L     +R+ +++G V     D  +D +A L CD+R GD W
+Sbjct  129  RGWLPWHGPTSVLAPTGPVRTPDDDGTVFVLPIDISLDTSAELMCDWRAGDVW  181
+
+
+> sp|P0A5N1|AAC2_MYCBO Aminoglycoside 2'-N-acetyltransferase OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=aac PE=3 SV=1
+Length=181
+
+ Score = 117 bits (293),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 57/173 (33%), Positives = 91/173 (53%), Gaps = 0/173 (0%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVAIIQRH  76
+            R +HT+ L    ++ +  ++   F GDF+  D+ HTLGGMH + +    ++ H A+IQR 
+Sbjct  9    RLVHTADLDSETRQDIRQMVTGAFAGDFTETDWEHTLGGMHALIWHHGAIIAHAAVIQRR  68
+
+Query  77   MALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQKLYHS  136
+            +      +  GYVE + V   +R Q +   L+    +++   YQLG LS+S   ++LY S
+Sbjct  69   LIYRGNALRCGYVEGVAVRADWRGQRLVSALLDAVEQVMRGAYQLGALSSSARARRLYAS  128
+
+Query  137  VGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  189
+             GW  W G    L     +R+ +++G V     D  +D +A L CD+R GD W
+Sbjct  129  RGWLPWHGPTSVLAPTGPVRTPDDDGTVFVLPIDISLDTSAELMCDWRAGDVW  181
+
+
+> sp|P94968|AAC2_MYCS2 Aminoglycoside 2'-N-acetyltransferase OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) 
+OX=246196 GN=aac PE=1 SV=1
+Length=210
+
+ Score = 84.0 bits (206),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 57/192 (30%), Positives = 90/192 (47%), Gaps = 19/192 (10%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGD---------FSHDDFAHTLGGMHVMAFDQQKLV  67
+            R +HTS L    ++    ++IE F            F+ DD+ H LGGMH +      L+
+Sbjct  19   RLIHTSDLDQETRDGARRMVIEAFRDPSGDSDFTDDFTDDDWDHALGGMHALISHHGALI  78
+
+Query  68   GHVAIIQRHMALDNT-----PISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLG  122
+             H A++QR +           +  GYVEA+ V +  R  G+G  ++    ++I   YQ+G
+Sbjct  79   AHGAVVQRRLMYRGPDGRGHALRCGYVEAVAVREDRRGDGLGTAVLDALEQVIRGAYQIG  138
+
+Query  123  LLSASDDGQKLYHSVGWQIWKGKLFELKQGS-YIRSIEEEGGVMGWKAD----GEVDFTA  177
+             LSASD  + +Y + GW  W+G    L      +R+ E++  +     D     E+D   
+Sbjct  139  ALSASDIARPMYIARGWLSWEGPTSVLTPTEGIVRTPEDDRSLFVLPVDLPDGLELDTAR  198
+
+Query  178  SLYCDFRGGDQW  189
+             + CD+R GD W
+Sbjct  199  EITCDWRSGDPW  210
+
+
+> sp|Q5UPZ9|GNA1_MIMIV Probable glucosamine 6-phosphate N-acetyltransferase 
+OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L316 
+PE=3 SV=1
+Length=148
+
+ Score = 39.7 bits (91),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 43/77 (56%), Gaps = 4/77 (5%)
+
+Query  65   KLVGHVAIIQRHMALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKII--ASCYQLG  122
+            K+VG   ++     + N   SVG++E +VV+Q+YR  GIG+ L+++   I     CY++ 
+Sbjct  60   KIVGSTTVLIEPKFIHNLS-SVGHIEDVVVDQNYRLHGIGKLLIVKAIDICRQERCYKI-  117
+
+Query  123  LLSASDDGQKLYHSVGW  139
+            +L  SD     Y  +G+
+Sbjct  118  ILDCSDKVCGFYCKLGF  134
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10943163192
+Results from round 2
+
+
+Query= 5US1:A
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q49157|AAC2_MYCFO Aminoglycoside 2'-N-acetyltransferase OS=M...  280     3e-96
+  sp|P9WQG9|AAC2_MYCTU Aminoglycoside 2'-N-acetyltransferase OS=M...  274     5e-94
+  sp|P9WQG8|AAC2_MYCTO Aminoglycoside 2'-N-acetyltransferase OS=M...  274     5e-94
+  sp|P0A5N1|AAC2_MYCBO Aminoglycoside 2'-N-acetyltransferase OS=M...  274     5e-94
+  sp|Q52424|AAC2_PROST Aminoglycoside 2'-N-acetyltransferase OS=P...  273     8e-94
+  sp|P94968|AAC2_MYCS2 Aminoglycoside 2'-N-acetyltransferase OS=M...  237     6e-79
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q49157|AAC2_MYCFO Aminoglycoside 2'-N-acetyltransferase OS=Mycolicibacterium 
+fortuitum OX=1766 GN=aac PE=3 SV=1
+Length=195
+
+ Score = 280 bits (716),  Expect = 3e-96, Method: Composition-based stats.
+ Identities = 68/177 (38%), Positives = 98/177 (55%), Gaps = 4/177 (2%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVAIIQRH  76
+            R +HTS L    +E    ++IE FEGDFS  D+ H LGGMH        L+ H A++QR 
+Sbjct  19   RLVHTSDLDQETREGARRMVIEAFEGDFSDADWEHALGGMHAFICHHGALIAHAAVVQRR  78
+
+Query  77   MALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQKLYHS  136
+            +   +T +  GYVEA+ V + +R QG+   +M    +++   YQLG LSASD  + +Y S
+Sbjct  79   LLYRDTALRCGYVEAVAVREDWRGQGLATAVMDAVEQVLRGAYQLGALSASDTARGMYLS  138
+
+Query  137  VGWQIWKGKLFELKQGSYIRSIEEEGGVM----GWKADGEVDFTASLYCDFRGGDQW  189
+             GW  W+G    L+     R+ E++ G+     G  A  E+D TA + CD+R GD W
+Sbjct  139  RGWLPWQGPTSVLQPAGVTRTPEDDEGLFVLPVGLPAGMELDTTAEITCDWRDGDVW  195
+
+
+> sp|P9WQG9|AAC2_MYCTU Aminoglycoside 2'-N-acetyltransferase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=aac PE=1 SV=1
+Length=181
+
+ Score = 274 bits (700),  Expect = 5e-94, Method: Composition-based stats.
+ Identities = 57/173 (33%), Positives = 91/173 (53%), Gaps = 0/173 (0%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVAIIQRH  76
+            R +HT+ L    ++ +  ++   F GDF+  D+ HTLGGMH + +    ++ H A+IQR 
+Sbjct  9    RLVHTADLDSETRQDIRQMVTGAFAGDFTETDWEHTLGGMHALIWHHGAIIAHAAVIQRR  68
+
+Query  77   MALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQKLYHS  136
+            +      +  GYVE + V   +R Q +   L+    +++   YQLG LS+S   ++LY S
+Sbjct  69   LIYRGNALRCGYVEGVAVRADWRGQRLVSALLDAVEQVMRGAYQLGALSSSARARRLYAS  128
+
+Query  137  VGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  189
+             GW  W G    L     +R+ +++G V     D  +D +A L CD+R GD W
+Sbjct  129  RGWLPWHGPTSVLAPTGPVRTPDDDGTVFVLPIDISLDTSAELMCDWRAGDVW  181
+
+
+> sp|P9WQG8|AAC2_MYCTO Aminoglycoside 2'-N-acetyltransferase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=aac PE=3 SV=1
+Length=181
+
+ Score = 274 bits (700),  Expect = 5e-94, Method: Composition-based stats.
+ Identities = 57/173 (33%), Positives = 91/173 (53%), Gaps = 0/173 (0%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVAIIQRH  76
+            R +HT+ L    ++ +  ++   F GDF+  D+ HTLGGMH + +    ++ H A+IQR 
+Sbjct  9    RLVHTADLDSETRQDIRQMVTGAFAGDFTETDWEHTLGGMHALIWHHGAIIAHAAVIQRR  68
+
+Query  77   MALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQKLYHS  136
+            +      +  GYVE + V   +R Q +   L+    +++   YQLG LS+S   ++LY S
+Sbjct  69   LIYRGNALRCGYVEGVAVRADWRGQRLVSALLDAVEQVMRGAYQLGALSSSARARRLYAS  128
+
+Query  137  VGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  189
+             GW  W G    L     +R+ +++G V     D  +D +A L CD+R GD W
+Sbjct  129  RGWLPWHGPTSVLAPTGPVRTPDDDGTVFVLPIDISLDTSAELMCDWRAGDVW  181
+
+
+> sp|P0A5N1|AAC2_MYCBO Aminoglycoside 2'-N-acetyltransferase OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=aac PE=3 SV=1
+Length=181
+
+ Score = 274 bits (700),  Expect = 5e-94, Method: Composition-based stats.
+ Identities = 57/173 (33%), Positives = 91/173 (53%), Gaps = 0/173 (0%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVAIIQRH  76
+            R +HT+ L    ++ +  ++   F GDF+  D+ HTLGGMH + +    ++ H A+IQR 
+Sbjct  9    RLVHTADLDSETRQDIRQMVTGAFAGDFTETDWEHTLGGMHALIWHHGAIIAHAAVIQRR  68
+
+Query  77   MALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQKLYHS  136
+            +      +  GYVE + V   +R Q +   L+    +++   YQLG LS+S   ++LY S
+Sbjct  69   LIYRGNALRCGYVEGVAVRADWRGQRLVSALLDAVEQVMRGAYQLGALSSSARARRLYAS  128
+
+Query  137  VGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  189
+             GW  W G    L     +R+ +++G V     D  +D +A L CD+R GD W
+Sbjct  129  RGWLPWHGPTSVLAPTGPVRTPDDDGTVFVLPIDISLDTSAELMCDWRAGDVW  181
+
+
+> sp|Q52424|AAC2_PROST Aminoglycoside 2'-N-acetyltransferase OS=Providencia 
+stuartii OX=588 GN=aac PE=1 SV=1
+Length=178
+
+ Score = 273 bits (699),  Expect = 8e-94, Method: Composition-based stats.
+ Identities = 178/178 (100%), Positives = 178/178 (100%), Gaps = 0/178 (0%)
+
+Query  12   MGIEYRSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVA  71
+            MGIEYRSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVA
+Sbjct  1    MGIEYRSLHTSQLTLSEKEALYDLLIEGFEGDFSHDDFAHTLGGMHVMAFDQQKLVGHVA  60
+
+Query  72   IIQRHMALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQ  131
+            IIQRHMALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQ
+Sbjct  61   IIQRHMALDNTPISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLGLLSASDDGQ  120
+
+Query  132  KLYHSVGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  189
+            KLYHSVGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW
+Sbjct  121  KLYHSVGWQIWKGKLFELKQGSYIRSIEEEGGVMGWKADGEVDFTASLYCDFRGGDQW  178
+
+
+> sp|P94968|AAC2_MYCS2 Aminoglycoside 2'-N-acetyltransferase OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) 
+OX=246196 GN=aac PE=1 SV=1
+Length=210
+
+ Score = 237 bits (604),  Expect = 6e-79, Method: Composition-based stats.
+ Identities = 57/192 (30%), Positives = 90/192 (47%), Gaps = 19/192 (10%)
+
+Query  17   RSLHTSQLTLSEKEALYDLLIEGFEGD---------FSHDDFAHTLGGMHVMAFDQQKLV  67
+            R +HTS L    ++    ++IE F            F+ DD+ H LGGMH +      L+
+Sbjct  19   RLIHTSDLDQETRDGARRMVIEAFRDPSGDSDFTDDFTDDDWDHALGGMHALISHHGALI  78
+
+Query  68   GHVAIIQRHMALDNT-----PISVGYVEAMVVEQSYRRQGIGRQLMLQTNKIIASCYQLG  122
+             H A++QR +           +  GYVEA+ V +  R  G+G  ++    ++I   YQ+G
+Sbjct  79   AHGAVVQRRLMYRGPDGRGHALRCGYVEAVAVREDRRGDGLGTAVLDALEQVIRGAYQIG  138
+
+Query  123  LLSASDDGQKLYHSVGWQIWKGKLFELKQG-SYIRSIEEEGGVMGWKAD----GEVDFTA  177
+             LSASD  + +Y + GW  W+G    L      +R+ E++  +     D     E+D   
+Sbjct  139  ALSASDIARPMYIARGWLSWEGPTSVLTPTEGIVRTPEDDRSLFVLPVDLPDGLELDTAR  198
+
+Query  178  SLYCDFRGGDQW  189
+             + CD+R GD W
+Sbjct  199  EITCDWRSGDPW  210
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10943163192
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

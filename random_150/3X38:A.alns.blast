@@ -1,0 +1,701 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 3X38:A
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|E7NND9|SLD7_YEASO Mitochondrial morphogenesis protein SLD7 O...  157     1e-48
+  sp|E7QKN3|SLD7_YEASZ Mitochondrial morphogenesis protein SLD7 O...  156     1e-48
+  sp|E7KIF0|SLD7_YEASA Mitochondrial morphogenesis protein SLD7 O...  156     1e-48
+  sp|A6ZNR2|SLD7_YEAS7 Mitochondrial morphogenesis protein SLD7 O...  156     1e-48
+  sp|B5VRV8|SLD7_YEAS6 Mitochondrial morphogenesis protein SLD7 O...  156     1e-48
+  sp|C7GX58|SLD7_YEAS2 Mitochondrial morphogenesis protein SLD7 O...  156     2e-48
+  sp|Q08457|SLD7_YEAST Mitochondrial morphogenesis protein SLD7 O...  156     2e-48
+  sp|B3LJA9|SLD7_YEAS1 Mitochondrial morphogenesis protein SLD7 O...  156     2e-48
+  sp|E7KUA5|SLD7_YEASL Mitochondrial morphogenesis protein SLD7 O...  153     2e-47
+  sp|E7M099|SLD7_YEASV Mitochondrial morphogenesis protein SLD7 O...  153     3e-47
+  sp|C8ZI21|SLD7_YEAS8 Mitochondrial morphogenesis protein SLD7 O...  153     3e-47
+  sp|C5DSD6|SLD7_ZYGRC Mitochondrial morphogenesis protein SLD7 O...  111     5e-31
+  sp|A7TQ35|SLD7_VANPO Mitochondrial morphogenesis protein SLD7 O...  106     1e-28
+  sp|Q6FKM8|SLD7_CANGA Mitochondrial morphogenesis protein SLD7 O...  87.8    1e-21
+  sp|C5DJL7|SLD7_LACTC Mitochondrial morphogenesis protein SLD7 O...  84.7    1e-20
+  sp|Q6CJS0|SLD7_KLULA Mitochondrial morphogenesis protein SLD7 O...  76.3    3e-17
+  sp|Q759S0|SLD7_ASHGO Mitochondrial morphogenesis protein SLD7 O...  68.9    1e-14
+
+
+> sp|E7NND9|SLD7_YEASO Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain FostersO) OX=764101 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 157 bits (396),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|E7QKN3|SLD7_YEASZ Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain Zymaflore VL3) OX=764100 
+GN=SLD7 PE=3 SV=1
+Length=257
+
+ Score = 156 bits (395),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|E7KIF0|SLD7_YEASA Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain AWRI796) OX=764097 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 156 bits (395),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|A6ZNR2|SLD7_YEAS7 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 156 bits (395),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|B5VRV8|SLD7_YEAS6 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain AWRI1631) OX=545124 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 156 bits (395),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|C7GX58|SLD7_YEAS2 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain JAY291) OX=574961 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 156 bits (395),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|Q08457|SLD7_YEAST Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SLD7 PE=1 SV=1
+Length=257
+
+ Score = 156 bits (394),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|B3LJA9|SLD7_YEAS1 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain RM11-1a) OX=285006 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 156 bits (394),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 77/78 (99%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYK+TFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKVTFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|E7KUA5|SLD7_YEASL Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain Lalvin QA23) OX=764098 
+GN=SLD7 PE=3 SV=1
+Length=257
+
+ Score = 153 bits (387),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGS EEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSXEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|E7M099|SLD7_YEASV Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain VIN 13) OX=764099 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 153 bits (386),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGS EEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSVEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|C8ZI21|SLD7_YEAS8 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain Lalvin EC1118 / Prise de 
+mousse) OX=643680 GN=SLD7 PE=3 SV=1
+Length=257
+
+ Score = 153 bits (386),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGS EEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSVEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|C5DSD6|SLD7_ZYGRC Mitochondrial morphogenesis protein SLD7 
+OS=Zygosaccharomyces rouxii (strain ATCC 2623 / CBS 732 / NBRC 
+1130 / NCYC 568 / NRRL Y-229) OX=559307 GN=SLD7 PE=1 SV=1
+Length=243
+
+ Score = 111 bits (277),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 57/78 (73%), Positives = 63/78 (81%), Gaps = 4/78 (5%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            K++ FNETLSKLILGGLRLRGI N+ + +QKLYKITFDAAEF HRDELK     S  EV 
+Sbjct  170  KKITFNETLSKLILGGLRLRGIPNTQSGFQKLYKITFDAAEFAHRDELKH----SDAEVP  225
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FE+LQETVE LLKLF KS
+Sbjct  226  FETLQETVEVLLKLFCKS  243
+
+
+> sp|A7TQ35|SLD7_VANPO Mitochondrial morphogenesis protein SLD7 
+OS=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294) 
+OX=436907 GN=SLD7 PE=3 SV=1
+Length=276
+
+ Score = 106 bits (264),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 51/78 (65%), Positives = 63/78 (81%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KR +FNETLSKLIL GLRLRGI N+ + +QK+YK+TFD  EF HR+EL ++S  +  E+ 
+Sbjct  199  KRQKFNETLSKLILSGLRLRGIPNTQSGFQKIYKMTFDTTEFAHREELVKLSHNTIHEIP  258
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FE +QETVETLLKLFTKS
+Sbjct  259  FEDIQETVETLLKLFTKS  276
+
+
+> sp|Q6FKM8|SLD7_CANGA Mitochondrial morphogenesis protein SLD7 
+OS=Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 
+/ NBRC 0622 / NRRL Y-65) OX=284593 GN=SLD7 PE=3 SV=1
+Length=279
+
+ Score = 87.8 bits (216),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 41/78 (53%), Positives = 60/78 (77%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            K++Q  +TLSKLIL GLRLRG+S++ ++ QKL++IT  A+EF HR +L ++  G  + + 
+Sbjct  201  KKIQVRDTLSKLILAGLRLRGLSSTKSETQKLFRITLSASEFAHRKDLIQLQRGHTKAIP  260
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FE +QETVETLL LFT++
+Sbjct  261  FEEMQETVETLLNLFTRN  278
+
+
+> sp|C5DJL7|SLD7_LACTC Mitochondrial morphogenesis protein SLD7 
+OS=Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / 
+NRRL Y-8284) OX=559295 GN=SLD7 PE=3 SV=1
+Length=241
+
+ Score = 84.7 bits (208),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 44/77 (57%), Positives = 52/77 (68%), Gaps = 4/77 (5%)
+
+Query  2    RLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVSF  61
+            R QF+ T S  ILGGLRLRGI  S  DY K+YK+T+ A EF  R EL   S      +SF
+Sbjct  169  RRQFSSTASSCILGGLRLRGIRESEADYHKIYKMTYSAIEFAFRSELSNAS----PPISF  224
+
+Query  62   ESLQETVETLLKLFTKS  78
+            E +QETVETLLK+FT+S
+Sbjct  225  EQVQETVETLLKVFTRS  241
+
+
+> sp|Q6CJS0|SLD7_KLULA Mitochondrial morphogenesis protein SLD7 
+OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 
+70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=SLD7 PE=3 
+SV=1
+Length=260
+
+ Score = 76.3 bits (186),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 41/75 (55%), Positives = 53/75 (71%), Gaps = 7/75 (9%)
+
+Query  4    QFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVSFES  63
+            QF   LS+ IL GLRLRG+    T ++KLYK+T+ A+EF  RDEL+       E +SFES
+Sbjct  193  QFMSLLSQCILSGLRLRGVHR--TQHEKLYKMTYKASEFAFRDELR-----ETEPISFES  245
+
+Query  64   LQETVETLLKLFTKS  78
+            +Q+ VETLLKLFTK+
+Sbjct  246  IQDCVETLLKLFTKT  260
+
+
+> sp|Q759S0|SLD7_ASHGO Mitochondrial morphogenesis protein SLD7 
+OS=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 
+/ NRRL Y-1056) OX=284811 GN=SLD7 PE=3 SV=2
+Length=243
+
+ Score = 68.9 bits (167),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 39/77 (51%), Positives = 51/77 (66%), Gaps = 7/77 (9%)
+
+Query  2    RLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVSF  61
+            R +F   LS+ ILGGLRLR +  +   Y+KLY+  F A+EF  RDEL      +  +V F
+Sbjct  174  RQRFVARLSQCILGGLRLRAVPQA--RYEKLYRAVFQASEFAFRDEL-----AASADVPF  226
+
+Query  62   ESLQETVETLLKLFTKS  78
+            E+LQ+ VETLLKLFT+S
+Sbjct  227  EALQDCVETLLKLFTRS  243
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5081033392
+Results from round 2
+
+
+Query= 3X38:A
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|E7NND9|SLD7_YEASO Mitochondrial morphogenesis protein SLD7 O...  118     7e-34
+  sp|Q08457|SLD7_YEAST Mitochondrial morphogenesis protein SLD7 O...  118     9e-34
+  sp|E7QKN3|SLD7_YEASZ Mitochondrial morphogenesis protein SLD7 O...  118     1e-33
+  sp|E7KIF0|SLD7_YEASA Mitochondrial morphogenesis protein SLD7 O...  118     1e-33
+  sp|A6ZNR2|SLD7_YEAS7 Mitochondrial morphogenesis protein SLD7 O...  118     1e-33
+  sp|B5VRV8|SLD7_YEAS6 Mitochondrial morphogenesis protein SLD7 O...  118     1e-33
+  sp|C7GX58|SLD7_YEAS2 Mitochondrial morphogenesis protein SLD7 O...  118     1e-33
+  sp|B3LJA9|SLD7_YEAS1 Mitochondrial morphogenesis protein SLD7 O...  118     2e-33
+  sp|A7TQ35|SLD7_VANPO Mitochondrial morphogenesis protein SLD7 O...  118     2e-33
+  sp|E7M099|SLD7_YEASV Mitochondrial morphogenesis protein SLD7 O...  117     3e-33
+  sp|E7KUA5|SLD7_YEASL Mitochondrial morphogenesis protein SLD7 O...  117     3e-33
+  sp|C8ZI21|SLD7_YEAS8 Mitochondrial morphogenesis protein SLD7 O...  117     4e-33
+  sp|C5DSD6|SLD7_ZYGRC Mitochondrial morphogenesis protein SLD7 O...  110     8e-31
+  sp|Q6FKM8|SLD7_CANGA Mitochondrial morphogenesis protein SLD7 O...  105     2e-28
+  sp|C5DJL7|SLD7_LACTC Mitochondrial morphogenesis protein SLD7 O...  100     6e-27
+  sp|Q759S0|SLD7_ASHGO Mitochondrial morphogenesis protein SLD7 O...  95.5    7e-25
+  sp|Q6CJS0|SLD7_KLULA Mitochondrial morphogenesis protein SLD7 O...  94.3    3e-24
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|E7NND9|SLD7_YEASO Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain FostersO) OX=764101 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 118 bits (297),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|Q08457|SLD7_YEAST Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SLD7 PE=1 SV=1
+Length=257
+
+ Score = 118 bits (297),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|E7QKN3|SLD7_YEASZ Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain Zymaflore VL3) OX=764100 
+GN=SLD7 PE=3 SV=1
+Length=257
+
+ Score = 118 bits (296),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|E7KIF0|SLD7_YEASA Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain AWRI796) OX=764097 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 118 bits (296),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|A6ZNR2|SLD7_YEAS7 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 118 bits (296),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|B5VRV8|SLD7_YEAS6 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain AWRI1631) OX=545124 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 118 bits (296),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|C7GX58|SLD7_YEAS2 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain JAY291) OX=574961 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 118 bits (296),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|B3LJA9|SLD7_YEAS1 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain RM11-1a) OX=285006 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 118 bits (295),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 77/78 (99%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYK+TFDAAEFTHRDELKRISMGSGEEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKVTFDAAEFTHRDELKRISMGSGEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|A7TQ35|SLD7_VANPO Mitochondrial morphogenesis protein SLD7 
+OS=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294) 
+OX=436907 GN=SLD7 PE=3 SV=1
+Length=276
+
+ Score = 118 bits (296),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 51/78 (65%), Positives = 63/78 (81%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KR +FNETLSKLIL GLRLRGI N+ + +QK+YK+TFD  EF HR+EL ++S  +  E+ 
+Sbjct  199  KRQKFNETLSKLILSGLRLRGIPNTQSGFQKIYKMTFDTTEFAHREELVKLSHNTIHEIP  258
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FE +QETVETLLKLFTKS
+Sbjct  259  FEDIQETVETLLKLFTKS  276
+
+
+> sp|E7M099|SLD7_YEASV Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain VIN 13) OX=764099 GN=SLD7 
+PE=3 SV=1
+Length=257
+
+ Score = 117 bits (293),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGS EEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSVEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|E7KUA5|SLD7_YEASL Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain Lalvin QA23) OX=764098 
+GN=SLD7 PE=3 SV=1
+Length=257
+
+ Score = 117 bits (293),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGS EEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSXEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|C8ZI21|SLD7_YEAS8 Mitochondrial morphogenesis protein SLD7 
+OS=Saccharomyces cerevisiae (strain Lalvin EC1118 / Prise de 
+mousse) OX=643680 GN=SLD7 PE=3 SV=1
+Length=257
+
+ Score = 117 bits (292),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGS EEVS
+Sbjct  180  KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSVEEVS  239
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FESLQETVETLLKLFTKS
+Sbjct  240  FESLQETVETLLKLFTKS  257
+
+
+> sp|C5DSD6|SLD7_ZYGRC Mitochondrial morphogenesis protein SLD7 
+OS=Zygosaccharomyces rouxii (strain ATCC 2623 / CBS 732 / NBRC 
+1130 / NCYC 568 / NRRL Y-229) OX=559307 GN=SLD7 PE=1 SV=1
+Length=243
+
+ Score = 110 bits (276),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 57/78 (73%), Positives = 63/78 (81%), Gaps = 4/78 (5%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            K++ FNETLSKLILGGLRLRGI N+ + +QKLYKITFDAAEF HRDELK     S  EV 
+Sbjct  170  KKITFNETLSKLILGGLRLRGIPNTQSGFQKLYKITFDAAEFAHRDELKH----SDAEVP  225
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FE+LQETVE LLKLF KS
+Sbjct  226  FETLQETVEVLLKLFCKS  243
+
+
+> sp|Q6FKM8|SLD7_CANGA Mitochondrial morphogenesis protein SLD7 
+OS=Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 
+/ NBRC 0622 / NRRL Y-65) OX=284593 GN=SLD7 PE=3 SV=1
+Length=279
+
+ Score = 105 bits (263),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 60/78 (77%), Gaps = 0/78 (0%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            K++Q  +TLSKLIL GLRLRG+S++ ++ QKL++IT  A+EF HR +L ++  G  + + 
+Sbjct  201  KKIQVRDTLSKLILAGLRLRGLSSTKSETQKLFRITLSASEFAHRKDLIQLQRGHTKAIP  260
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FE +QETVETLL LFT++
+Sbjct  261  FEEMQETVETLLNLFTRN  278
+
+
+> sp|C5DJL7|SLD7_LACTC Mitochondrial morphogenesis protein SLD7 
+OS=Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / 
+NRRL Y-8284) OX=559295 GN=SLD7 PE=3 SV=1
+Length=241
+
+ Score = 100 bits (250),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 44/77 (57%), Positives = 52/77 (68%), Gaps = 4/77 (5%)
+
+Query  2    RLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVSF  61
+            R QF+ T S  ILGGLRLRGI  S  DY K+YK+T+ A EF  R EL   S      +SF
+Sbjct  169  RRQFSSTASSCILGGLRLRGIRESEADYHKIYKMTYSAIEFAFRSELSNAS----PPISF  224
+
+Query  62   ESLQETVETLLKLFTKS  78
+            E +QETVETLLK+FT+S
+Sbjct  225  EQVQETVETLLKVFTRS  241
+
+
+> sp|Q759S0|SLD7_ASHGO Mitochondrial morphogenesis protein SLD7 
+OS=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 
+/ NRRL Y-1056) OX=284811 GN=SLD7 PE=3 SV=2
+Length=243
+
+ Score = 95.5 bits (236),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 39/77 (51%), Positives = 50/77 (65%), Gaps = 7/77 (9%)
+
+Query  2    RLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVSF  61
+            R +F   LS+ ILGGLRLR +      Y+KLY+  F A+EF  RDEL      +  +V F
+Sbjct  174  RQRFVARLSQCILGGLRLRAVP--QARYEKLYRAVFQASEFAFRDEL-----AASADVPF  226
+
+Query  62   ESLQETVETLLKLFTKS  78
+            E+LQ+ VETLLKLFT+S
+Sbjct  227  EALQDCVETLLKLFTRS  243
+
+
+> sp|Q6CJS0|SLD7_KLULA Mitochondrial morphogenesis protein SLD7 
+OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 
+70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=SLD7 PE=3 
+SV=1
+Length=260
+
+ Score = 94.3 bits (233),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 40/78 (51%), Positives = 55/78 (71%), Gaps = 7/78 (9%)
+
+Query  1    KRLQFNETLSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKRISMGSGEEVS  60
+            ++ QF   LS+ IL GLRLRG+  +   ++KLYK+T+ A+EF  RDEL+       E +S
+Sbjct  190  QQQQFMSLLSQCILSGLRLRGVHRTQ--HEKLYKMTYKASEFAFRDELR-----ETEPIS  242
+
+Query  61   FESLQETVETLLKLFTKS  78
+            FES+Q+ VETLLKLFTK+
+Sbjct  243  FESIQDCVETLLKLFTKT  260
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.130    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0398    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5081033392
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

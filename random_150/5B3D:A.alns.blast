@@ -1,0 +1,295 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5B3D:A
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0A1J7|FLGN_SALTY Flagella synthesis protein FlgN OS=Salmone...  220     2e-74
+  sp|P0A1J8|FLGN_SALTI Flagella synthesis protein FlgN OS=Salmone...  220     2e-74
+  sp|P43533|FLGN_ECOLI Flagella synthesis protein FlgN OS=Escheri...  165     8e-53
+  sp|A1JT33|FLGN_YERE8 Flagella synthesis protein FlgN OS=Yersini...  85.9    2e-21
+  sp|P0C2V4|FLGN_YEREN Flagella synthesis protein FlgN OS=Yersini...  84.0    1e-20
+  sp|P96975|FLGN_PROMI Flagella synthesis protein FlgN OS=Proteus...  61.2    6e-12
+
+
+> sp|P0A1J7|FLGN_SALTY Flagella synthesis protein FlgN OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=flgN PE=1 SV=1
+Length=140
+
+ Score = 220 bits (560),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    TRLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  60
+            TRLSEILDQ TTVLNDLKTV DAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR
+Sbjct  2    TRLSEILDQMTTVLNDLKTVMDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  61
+
+Query  61   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  114
+            LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP
+Sbjct  62   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  115
+
+
+> sp|P0A1J8|FLGN_SALTI Flagella synthesis protein FlgN OS=Salmonella 
+typhi OX=90370 GN=flgN PE=3 SV=1
+Length=140
+
+ Score = 220 bits (560),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    TRLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  60
+            TRLSEILDQ TTVLNDLKTV DAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR
+Sbjct  2    TRLSEILDQMTTVLNDLKTVMDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  61
+
+Query  61   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  114
+            LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP
+Sbjct  62   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  115
+
+
+> sp|P43533|FLGN_ECOLI Flagella synthesis protein FlgN OS=Escherichia 
+coli (strain K12) OX=83333 GN=flgN PE=1 SV=2
+Length=138
+
+ Score = 165 bits (417),  Expect = 8e-53, Method: Compositional matrix adjust.
+ Identities = 87/114 (76%), Positives = 95/114 (83%), Gaps = 2/114 (2%)
+
+Query  1    TRLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  60
+            TRL+EILDQ + VLNDLKTV D EQQ LS+GQINGSQLQ ITE+KSSLLATLDYLEQ RR
+Sbjct  2    TRLAEILDQMSAVLNDLKTVMDQEQQHLSMGQINGSQLQWITEQKSSLLATLDYLEQLRR  61
+
+Query  61   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  114
+             E N   S   DI++RWQ IT KTQ LR +NQHNGWLLEGQIERNQQALE+LKP
+Sbjct  62   KEPNTANSV--DISQRWQEITVKTQQLRQMNQHNGWLLEGQIERNQQALEMLKP  113
+
+
+> sp|A1JT33|FLGN_YERE8 Flagella synthesis protein FlgN OS=Yersinia 
+enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 
+/ 8081) OX=393305 GN=flgN PE=3 SV=2
+Length=147
+
+ Score = 85.9 bits (211),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 59/116 (51%), Positives = 69/116 (59%), Gaps = 5/116 (4%)
+
+Query  2    RLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQR-R  60
+            RL   LDQ   +L  LKTV   EQQ L  G+I G  LQ +TE+KSS+LATL YL+Q R  
+Sbjct  5    RLQTNLDQQLELLESLKTVVAQEQQLLCSGRIQGIVLQGVTEQKSSILATLAYLDQTRLT  64
+
+Query  61   LEQN----AQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVL  112
+             E+N    A  S    +AERWQ I E  + LR  N HNG LL+  IE N QAL VL
+Sbjct  65   TEKNINIQAPYSNVPALAERWQRILELAEGLRYGNLHNGLLLQQHIEHNTQALAVL  120
+
+
+> sp|P0C2V4|FLGN_YEREN Flagella synthesis protein FlgN OS=Yersinia 
+enterocolitica OX=630 GN=flgN PE=3 SV=1
+Length=147
+
+ Score = 84.0 bits (206),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 58/116 (50%), Positives = 68/116 (59%), Gaps = 5/116 (4%)
+
+Query  2    RLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQR-R  60
+            RL   L Q   +L  LKTV   EQQ L  G+I G  LQ +TE+KSS+LATL YL+Q R  
+Sbjct  5    RLQTNLGQQLELLESLKTVVAQEQQLLCSGRIQGIVLQGVTEQKSSILATLAYLDQTRLT  64
+
+Query  61   LEQN----AQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVL  112
+             E+N    A  S    +AERWQ I E  + LR  N HNG LL+  IE N QAL VL
+Sbjct  65   TEKNINIQAPYSNVPALAERWQRILELAEGLRYSNLHNGLLLQQHIEHNTQALAVL  120
+
+
+> sp|P96975|FLGN_PROMI Flagella synthesis protein FlgN OS=Proteus 
+mirabilis OX=584 GN=flgN PE=3 SV=1
+Length=146
+
+ Score = 61.2 bits (147),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 39/116 (34%), Positives = 63/116 (54%), Gaps = 5/116 (4%)
+
+Query  3    LSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRRLE  62
+            L + LD   + LN +  +  AEQQ L  G I+ ++L  ITE+K+ +L  L + +Q+R++ 
+Sbjct  5    LRQTLDLQLSQLNTIAGILRAEQQLLCAGSIDINKLHEITEQKNFVLTALGHTDQKRQIL  64
+
+Query  63   Q-----NAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLK  113
+                  +        +A+ W  + + T+ L+ LNQHNG LLE  I RN + L  L+
+Sbjct  65   SKQVGIDRPYQGQPFLADLWGQLVDLTEELKHLNQHNGLLLEQHITRNSETLHFLQ  120
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.126    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5012042944
+Results from round 2
+
+
+Query= 5B3D:A
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0A1J7|FLGN_SALTY Flagella synthesis protein FlgN OS=Salmone...  133     4e-40
+  sp|P0A1J8|FLGN_SALTI Flagella synthesis protein FlgN OS=Salmone...  133     4e-40
+  sp|P43533|FLGN_ECOLI Flagella synthesis protein FlgN OS=Escheri...  127     4e-38
+  sp|P96975|FLGN_PROMI Flagella synthesis protein FlgN OS=Proteus...  127     6e-38
+  sp|A1JT33|FLGN_YERE8 Flagella synthesis protein FlgN OS=Yersini...  127     6e-38
+  sp|P0C2V4|FLGN_YEREN Flagella synthesis protein FlgN OS=Yersini...  124     2e-36
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P0A1J7|FLGN_SALTY Flagella synthesis protein FlgN OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=flgN PE=1 SV=1
+Length=140
+
+ Score = 133 bits (334),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    TRLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  60
+            TRLSEILDQ TTVLNDLKTV DAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR
+Sbjct  2    TRLSEILDQMTTVLNDLKTVMDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  61
+
+Query  61   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  114
+            LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP
+Sbjct  62   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  115
+
+
+> sp|P0A1J8|FLGN_SALTI Flagella synthesis protein FlgN OS=Salmonella 
+typhi OX=90370 GN=flgN PE=3 SV=1
+Length=140
+
+ Score = 133 bits (334),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    TRLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  60
+            TRLSEILDQ TTVLNDLKTV DAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR
+Sbjct  2    TRLSEILDQMTTVLNDLKTVMDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  61
+
+Query  61   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  114
+            LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP
+Sbjct  62   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  115
+
+
+> sp|P43533|FLGN_ECOLI Flagella synthesis protein FlgN OS=Escherichia 
+coli (strain K12) OX=83333 GN=flgN PE=1 SV=2
+Length=138
+
+ Score = 127 bits (320),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 87/114 (76%), Positives = 95/114 (83%), Gaps = 2/114 (2%)
+
+Query  1    TRLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRR  60
+            TRL+EILDQ + VLNDLKTV D EQQ LS+GQINGSQLQ ITE+KSSLLATLDYLEQ RR
+Sbjct  2    TRLAEILDQMSAVLNDLKTVMDQEQQHLSMGQINGSQLQWITEQKSSLLATLDYLEQLRR  61
+
+Query  61   LEQNAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLKP  114
+             E N   S   DI++RWQ IT KTQ LR +NQHNGWLLEGQIERNQQALE+LKP
+Sbjct  62   KEPNTANSV--DISQRWQEITVKTQQLRQMNQHNGWLLEGQIERNQQALEMLKP  113
+
+
+> sp|P96975|FLGN_PROMI Flagella synthesis protein FlgN OS=Proteus 
+mirabilis OX=584 GN=flgN PE=3 SV=1
+Length=146
+
+ Score = 127 bits (320),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 39/116 (34%), Positives = 63/116 (54%), Gaps = 5/116 (4%)
+
+Query  3    LSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQRRLE  62
+            L + LD   + LN +  +  AEQQ L  G I+ ++L  ITE+K+ +L  L + +Q+R++ 
+Sbjct  5    LRQTLDLQLSQLNTIAGILRAEQQLLCAGSIDINKLHEITEQKNFVLTALGHTDQKRQIL  64
+
+Query  63   Q-----NAQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVLK  113
+                  +        +A+ W  + + T+ L+ LNQHNG LLE  I RN + L  L+
+Sbjct  65   SKQVGIDRPYQGQPFLADLWGQLVDLTEELKHLNQHNGLLLEQHITRNSETLHFLQ  120
+
+
+> sp|A1JT33|FLGN_YERE8 Flagella synthesis protein FlgN OS=Yersinia 
+enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 
+/ 8081) OX=393305 GN=flgN PE=3 SV=2
+Length=147
+
+ Score = 127 bits (320),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 59/116 (51%), Positives = 69/116 (59%), Gaps = 5/116 (4%)
+
+Query  2    RLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQR-R  60
+            RL   LDQ   +L  LKTV   EQQ L  G+I G  LQ +TE+KSS+LATL YL+Q R  
+Sbjct  5    RLQTNLDQQLELLESLKTVVAQEQQLLCSGRIQGIVLQGVTEQKSSILATLAYLDQTRLT  64
+
+Query  61   LEQN----AQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVL  112
+             E+N    A  S    +AERWQ I E  + LR  N HNG LL+  IE N QAL VL
+Sbjct  65   TEKNINIQAPYSNVPALAERWQRILELAEGLRYGNLHNGLLLQQHIEHNTQALAVL  120
+
+
+> sp|P0C2V4|FLGN_YEREN Flagella synthesis protein FlgN OS=Yersinia 
+enterocolitica OX=630 GN=flgN PE=3 SV=1
+Length=147
+
+ Score = 124 bits (310),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 58/116 (50%), Positives = 68/116 (59%), Gaps = 5/116 (4%)
+
+Query  2    RLSEILDQXTTVLNDLKTVXDAEQQQLSVGQINGSQLQRITEEKSSLLATLDYLEQQR-R  60
+            RL   L Q   +L  LKTV   EQQ L  G+I G  LQ +TE+KSS+LATL YL+Q R  
+Sbjct  5    RLQTNLGQQLELLESLKTVVAQEQQLLCSGRIQGIVLQGVTEQKSSILATLAYLDQTRLT  64
+
+Query  61   LEQN----AQRSANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQALEVL  112
+             E+N    A  S    +AERWQ I E  + LR  N HNG LL+  IE N QAL VL
+Sbjct  65   TEKNINIQAPYSNVPALAERWQRILELAEGLRYSNLHNGLLLQQHIEHNTQALAVL  120
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.126    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0385    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5012042944
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

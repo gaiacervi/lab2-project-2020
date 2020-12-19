@@ -1,0 +1,988 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6CNZ:A
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|A0QU81|SCMU_MYCS2 Secreted chorismate mutase OS=Mycolicibact...  68.9    7e-14
+  sp|P9WIB9|SCMU_MYCTU Secreted chorismate mutase OS=Mycobacteriu...  66.2    7e-13
+  sp|P9WIB8|SCMU_MYCTO Secreted chorismate mutase OS=Mycobacteriu...  66.2    7e-13
+  sp|Q93LJ4|CHMU_SALTM Monofunctional chorismate mutase OS=Salmon...  52.4    1e-07
+  sp|P42517|CHMU_ENTAG Monofunctional chorismate mutase OS=Entero...  49.7    1e-06
+
+
+> sp|A0QU81|SCMU_MYCS2 Secreted chorismate mutase OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=MSMEG_2111 PE=1 SV=1
+Length=181
+
+ Score = 68.9 bits (167),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 50/155 (32%), Positives = 79/155 (51%), Gaps = 2/155 (1%)
+
+Query  1    DDTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYA  60
+            D + L  LV  A+QRL  A+PVA  K+ +   I DP RE  ++  V   AT + +DP Y 
+Sbjct  22   DASPLVPLVDAAAQRLQTADPVAASKFRSGGAIDDPDREQQVIAAVTGDATRHNIDPGYV  81
+
+Query  61   RTFFDDQIAASKQLQNALFATWRAT-HGPEGPAPDLATSTRPQLDRLTQSLIAALARVAP  119
+               F +QI A+  +++  FA W+         APDL+ S R ++D L ++++  +AR  P
+Sbjct  82   HDVFRNQIDATSSVEHTRFAQWKLDPAAAPSSAPDLSES-RQKIDTLNRTMVDEIARQWP  140
+
+Query  120  LRDAPDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+            +  +P     L R++    T   +D   + AL  A
+Sbjct  141  VLHSPVCRPDLDRALDAVATARGFDPVYRHALEYA  175
+
+
+> sp|P9WIB9|SCMU_MYCTU Secreted chorismate mutase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv1885c 
+PE=1 SV=1
+Length=199
+
+ Score = 66.2 bits (160),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 45/152 (30%), Positives = 76/152 (50%), Gaps = 0/152 (0%)
+
+Query  3    TALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYART  62
+            + L  LV  A++RL +A+PVA +KW  + PI D  R    L  + + A +  +DP Y   
+Sbjct  37   SQLAELVDAAAERLEVADPVAAFKWRAQLPIEDSGRVEQQLAKLGEDARSQHIDPDYVTR  96
+
+Query  63   FFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPLRD  122
+             FDDQI A++ ++ + F+ W+       P P   +++R  +D L   +++ +     L  
+Sbjct  97   VFDDQIRATEAIEYSRFSDWKLNPASAPPEPPDLSASRSAIDSLNNRMLSQIWSHWSLLS  156
+
+Query  123  APDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+            AP   ++L R+  +       DS  + AL TA
+Sbjct  157  APSCAAQLDRAKRDIVRSRHLDSLYQRALTTA  188
+
+
+> sp|P9WIB8|SCMU_MYCTO Secreted chorismate mutase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=MT1933 
+PE=3 SV=1
+Length=199
+
+ Score = 66.2 bits (160),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 45/152 (30%), Positives = 76/152 (50%), Gaps = 0/152 (0%)
+
+Query  3    TALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYART  62
+            + L  LV  A++RL +A+PVA +KW  + PI D  R    L  + + A +  +DP Y   
+Sbjct  37   SQLAELVDAAAERLEVADPVAAFKWRAQLPIEDSGRVEQQLAKLGEDARSQHIDPDYVTR  96
+
+Query  63   FFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPLRD  122
+             FDDQI A++ ++ + F+ W+       P P   +++R  +D L   +++ +     L  
+Sbjct  97   VFDDQIRATEAIEYSRFSDWKLNPASAPPEPPDLSASRSAIDSLNNRMLSQIWSHWSLLS  156
+
+Query  123  APDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+            AP   ++L R+  +       DS  + AL TA
+Sbjct  157  APSCAAQLDRAKRDIVRSRHLDSLYQRALTTA  188
+
+
+> sp|Q93LJ4|CHMU_SALTM Monofunctional chorismate mutase OS=Salmonella 
+typhimurium OX=90371 GN=aroQ PE=1 SV=1
+Length=181
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 32/114 (28%), Positives = 55/114 (48%), Gaps = 1/114 (1%)
+
+Query  3    TALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYART  62
+             +L  L+   ++R+ L + VA +K  +  PI D  RE  +  + E+ A  NG+DP     
+Sbjct  26   VSLGALLTALNERMLLMKDVAAYKMKHHLPIEDFTREQNVFAEAEEEAKNNGLDPHSITP  85
+
+Query  63   FFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALAR  116
+            F    + ASK +Q    A WR    P  P   L+  TR ++ +L   ++  +++
+Sbjct  86   FIRSLMDASKAIQYRYLAQWRTGSEPSFPIQTLSV-TRQRIRQLDNQMLIIISQ  138
+
+
+> sp|P42517|CHMU_ENTAG Monofunctional chorismate mutase OS=Enterobacter 
+agglomerans OX=549 GN=aroQ PE=1 SV=1
+Length=181
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 31/104 (30%), Positives = 54/104 (52%), Gaps = 1/104 (1%)
+
+Query  13   SQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQIAASK  72
+            ++R+ + + VA +K ++  PI D PRE  +L  + + A   G++P     F    + ASK
+Sbjct  36   NERMQVMKAVAGYKALHHLPIEDLPREQVVLDHMLQNAQQAGLEPHSVEPFVHALMNASK  95
+
+Query  73   QLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALAR  116
+             +Q    A W ++     P  DL T TR Q+ +L   L+ A+++
+Sbjct  96   TIQYRYRADWLSSPDSAVPVRDL-TETRQQIQQLDTQLLTAISQ  138
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.127    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7525269130
+Results from round 2
+
+
+Query= 6CNZ:A
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A0QU81|SCMU_MYCS2 Secreted chorismate mutase OS=Mycolicibact...  189     8e-61
+  sp|P9WIB9|SCMU_MYCTU Secreted chorismate mutase OS=Mycobacteriu...  187     4e-60
+  sp|P9WIB8|SCMU_MYCTO Secreted chorismate mutase OS=Mycobacteriu...  187     4e-60
+  sp|Q93LJ4|CHMU_SALTM Monofunctional chorismate mutase OS=Salmon...  155     1e-47
+  sp|P42517|CHMU_ENTAG Monofunctional chorismate mutase OS=Entero...  138     5e-41
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q7CHH5|SCMU_YERPE Secreted chorismate mutase OS=Yersinia pes...  87.2    8e-21
+  sp|Q9HU05|CHMU_PSEAE Monofunctional chorismate mutase OS=Pseudo...  68.3    1e-13
+  sp|P0A9K0|CMPDT_SHIFL Bifunctional chorismate mutase/prephenate...  52.5    2e-07
+  sp|P0A9J8|CMPDT_ECOLI Bifunctional chorismate mutase/prephenate...  52.5    2e-07
+  sp|P0A9J9|CMPDT_ECO57 Bifunctional chorismate mutase/prephenate...  52.5    2e-07
+  sp|Q02287|TYRA_ENTAG T-protein OS=Enterobacter agglomerans OX=5...  51.0    7e-07
+  sp|Q57696|CHMU_METJA Chorismate mutase OS=Methanocaldococcus ja...  48.3    7e-07
+  sp|Q02286|CMPDT_ENTAG Bifunctional chorismate mutase/prephenate...  49.8    2e-06
+  sp|P07023|TYRA_ECOLI T-protein OS=Escherichia coli (strain K12)...  48.3    7e-06
+  sp|Q8EH68|TYRA_SHEON T-protein OS=Shewanella oneidensis (strain...  46.7    2e-05
+  sp|Q8K9F8|CMPDT_BUCAP Bifunctional chorismate mutase/prephenate...  46.0    4e-05
+  sp|P43902|TYRA_HAEIN T-protein OS=Haemophilus influenzae (strai...  45.2    7e-05
+
+
+> sp|A0QU81|SCMU_MYCS2 Secreted chorismate mutase OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=MSMEG_2111 PE=1 SV=1
+Length=181
+
+ Score = 189 bits (479),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 45/154 (29%), Positives = 76/154 (49%), Gaps = 0/154 (0%)
+
+Query  1    DDTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYA  60
+            D + L  LV  A+QRL  A+PVA  K+ +   I DP RE  ++  V   AT + +DP Y 
+Sbjct  22   DASPLVPLVDAAAQRLQTADPVAASKFRSGGAIDDPDREQQVIAAVTGDATRHNIDPGYV  81
+
+Query  61   RTFFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPL  120
+               F +QI A+  +++  FA W+        +    + +R ++D L ++++  +AR  P+
+Sbjct  82   HDVFRNQIDATSSVEHTRFAQWKLDPAAAPSSAPDLSESRQKIDTLNRTMVDEIARQWPV  141
+
+Query  121  RDAPDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+              +P     L R++    T   +D   + AL  A
+Sbjct  142  LHSPVCRPDLDRALDAVATARGFDPVYRHALEYA  175
+
+
+> sp|P9WIB9|SCMU_MYCTU Secreted chorismate mutase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv1885c 
+PE=1 SV=1
+Length=199
+
+ Score = 187 bits (475),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 45/152 (30%), Positives = 76/152 (50%), Gaps = 0/152 (0%)
+
+Query  3    TALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYART  62
+            + L  LV  A++RL +A+PVA +KW  + PI D  R    L  + + A +  +DP Y   
+Sbjct  37   SQLAELVDAAAERLEVADPVAAFKWRAQLPIEDSGRVEQQLAKLGEDARSQHIDPDYVTR  96
+
+Query  63   FFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPLRD  122
+             FDDQI A++ ++ + F+ W+       P P   +++R  +D L   +++ +     L  
+Sbjct  97   VFDDQIRATEAIEYSRFSDWKLNPASAPPEPPDLSASRSAIDSLNNRMLSQIWSHWSLLS  156
+
+Query  123  APDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+            AP   ++L R+  +       DS  + AL TA
+Sbjct  157  APSCAAQLDRAKRDIVRSRHLDSLYQRALTTA  188
+
+
+> sp|P9WIB8|SCMU_MYCTO Secreted chorismate mutase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=MT1933 
+PE=3 SV=1
+Length=199
+
+ Score = 187 bits (475),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 45/152 (30%), Positives = 76/152 (50%), Gaps = 0/152 (0%)
+
+Query  3    TALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYART  62
+            + L  LV  A++RL +A+PVA +KW  + PI D  R    L  + + A +  +DP Y   
+Sbjct  37   SQLAELVDAAAERLEVADPVAAFKWRAQLPIEDSGRVEQQLAKLGEDARSQHIDPDYVTR  96
+
+Query  63   FFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPLRD  122
+             FDDQI A++ ++ + F+ W+       P P   +++R  +D L   +++ +     L  
+Sbjct  97   VFDDQIRATEAIEYSRFSDWKLNPASAPPEPPDLSASRSAIDSLNNRMLSQIWSHWSLLS  156
+
+Query  123  APDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+            AP   ++L R+  +       DS  + AL TA
+Sbjct  157  APSCAAQLDRAKRDIVRSRHLDSLYQRALTTA  188
+
+
+> sp|Q93LJ4|CHMU_SALTM Monofunctional chorismate mutase OS=Salmonella 
+typhimurium OX=90371 GN=aroQ PE=1 SV=1
+Length=181
+
+ Score = 155 bits (391),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 32/115 (28%), Positives = 55/115 (48%), Gaps = 1/115 (1%)
+
+Query  2    DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+              +L  L+   ++R+ L + VA +K  +  PI D  RE  +  + E+ A  NG+DP    
+Sbjct  25   SVSLGALLTALNERMLLMKDVAAYKMKHHLPIEDFTREQNVFAEAEEEAKNNGLDPHSIT  84
+
+Query  62   TFFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALAR  116
+             F    + ASK +Q    A WR    P  P   L+  TR ++ +L   ++  +++
+Sbjct  85   PFIRSLMDASKAIQYRYLAQWRTGSEPSFPIQTLSV-TRQRIRQLDNQMLIIISQ  138
+
+
+> sp|P42517|CHMU_ENTAG Monofunctional chorismate mutase OS=Enterobacter 
+agglomerans OX=549 GN=aroQ PE=1 SV=1
+Length=181
+
+ Score = 138 bits (348),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 31/106 (29%), Positives = 54/106 (51%), Gaps = 1/106 (1%)
+
+Query  11   LASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQIAA  70
+              ++R+ + + VA +K ++  PI D PRE  +L  + + A   G++P     F    + A
+Sbjct  34   ALNERMQVMKAVAGYKALHHLPIEDLPREQVVLDHMLQNAQQAGLEPHSVEPFVHALMNA  93
+
+Query  71   SKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALAR  116
+            SK +Q    A W ++     P  DL T TR Q+ +L   L+ A+++
+Sbjct  94   SKTIQYRYRADWLSSPDSAVPVRDL-TETRQQIQQLDTQLLTAISQ  138
+
+
+> sp|Q7CHH5|SCMU_YERPE Secreted chorismate mutase OS=Yersinia pestis 
+OX=632 GN=pheA2 PE=1 SV=1
+Length=186
+
+ Score = 87.2 bits (214),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 25/116 (22%), Positives = 46/116 (40%), Gaps = 1/116 (1%)
+
+Query  2    DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+                     L ++RL+  + VA +K  N  PI D  +E  ++     +A + G++    +
+Sbjct  30   AQQCGQTAPLINERLSYMKDVAGYKAENHLPIEDRIQEEKVINSAMAQAESLGLNGESIK  89
+
+Query  62   TFFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARV  117
+                 QI A+K +Q    A W +   P      L    R  +  L+  ++  +A  
+Sbjct  90   PLMVAQINAAKAIQYRYRADWLSQPEPGWQPKPL-DDVRANIGELSTKILEQIAEE  144
+
+
+> sp|Q9HU05|CHMU_PSEAE Monofunctional chorismate mutase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=aroQ PE=1 SV=1
+Length=185
+
+ Score = 68.3 bits (165),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 35/136 (26%), Positives = 53/136 (39%), Gaps = 4/136 (3%)
+
+Query  19   AEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQIAASKQLQNAL  78
+            A+ VA  K  + K + D PRE   L  +  +A ++GV     R  F  QI A+K +Q  L
+Sbjct  44   ADQVAQSKAQSGKAVQDSPREEQQLQMLAGQAGSHGVGAEQVRLLFAAQIEANKLVQYRL  103
+
+Query  79   FATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPLRDAPDAPSRLARSIANWK  138
+             +      G            R +L++L   L+   A         D   RL +++    
+Sbjct  104  LSRPLPDAGQAV----DLERIRSRLNQLNLELLRGYAPALAELRVDDCRPRLNQALQRQV  159
+
+Query  139  TLTRYDSAQKDALGTA  154
+             + R D     AL  A
+Sbjct  160  RVDRLDELHAIALSRA  175
+
+
+> sp|P0A9K0|CMPDT_SHIFL Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Shigella flexneri OX=623 GN=pheA PE=3 SV=1
+Length=386
+
+ Score = 52.5 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/74 (31%), Positives = 33/74 (45%), Gaps = 0/74 (0%)
+
+Query  8   LVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQ  67
+           L+AL ++R  LA  V   K ++ +P+ D  RE  LL  +     A+ +D  Y    F   
+Sbjct  21  LLALLAERRELAVEVGKAKLLSHRPVRDIDRERDLLERLITLGKAHHLDAHYITRLFQLI  80
+
+Query  68  IAASKQLQNALFAT  81
+           I  S   Q AL   
+Sbjct  81  IEDSVLTQQALLQQ  94
+
+
+> sp|P0A9J8|CMPDT_ECOLI Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Escherichia coli (strain K12) OX=83333 GN=pheA 
+PE=1 SV=1
+Length=386
+
+ Score = 52.5 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/74 (31%), Positives = 33/74 (45%), Gaps = 0/74 (0%)
+
+Query  8   LVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQ  67
+           L+AL ++R  LA  V   K ++ +P+ D  RE  LL  +     A+ +D  Y    F   
+Sbjct  21  LLALLAERRELAVEVGKAKLLSHRPVRDIDRERDLLERLITLGKAHHLDAHYITRLFQLI  80
+
+Query  68  IAASKQLQNALFAT  81
+           I  S   Q AL   
+Sbjct  81  IEDSVLTQQALLQQ  94
+
+
+> sp|P0A9J9|CMPDT_ECO57 Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Escherichia coli O157:H7 OX=83334 GN=pheA 
+PE=3 SV=1
+Length=386
+
+ Score = 52.5 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/74 (31%), Positives = 33/74 (45%), Gaps = 0/74 (0%)
+
+Query  8   LVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQ  67
+           L+AL ++R  LA  V   K ++ +P+ D  RE  LL  +     A+ +D  Y    F   
+Sbjct  21  LLALLAERRELAVEVGKAKLLSHRPVRDIDRERDLLERLITLGKAHHLDAHYITRLFQLI  80
+
+Query  68  IAASKQLQNALFAT  81
+           I  S   Q AL   
+Sbjct  81  IEDSVLTQQALLQQ  94
+
+
+> sp|Q02287|TYRA_ENTAG T-protein OS=Enterobacter agglomerans OX=549 
+GN=tyrA PE=3 SV=1
+Length=373
+
+ Score = 51.0 bits (120),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 23/75 (31%), Positives = 31/75 (41%), Gaps = 0/75 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+           D+    L+ L ++RL L   V   K     PI  P REA++L    K A A GV P    
+Sbjct  13  DSVDKALLDLLAKRLELVAEVGEVKSRYGLPIYVPEREASMLASRRKEAEALGVPPDLIE  72
+
+Query  62  TFFDDQIAASKQLQN  76
+                 +  S   +N
+Sbjct  73  DVLRRVMRESYTSEN  87
+
+
+> sp|Q57696|CHMU_METJA Chorismate mutase OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 
+/ NBRC 100440) OX=243232 GN=aroQ PE=1 SV=1
+Length=99
+
+ Score = 48.3 bits (113),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 32/74 (43%), Gaps = 0/74 (0%)
+
+Query  8   LVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQ  67
+           ++ L ++R +LA+ VA  K     PI+DP RE  +   + K    + VD       F   
+Sbjct  19  ILKLIAERNSLAKDVAEIKNQLGIPINDPEREKYIYDRIRKLCKEHNVDENIGIKIFQIL  78
+
+Query  68  IAASKQLQNALFAT  81
+           I  +K LQ      
+Sbjct  79  IEHNKALQKQYLEE  92
+
+
+> sp|Q02286|CMPDT_ENTAG Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Enterobacter agglomerans OX=549 GN=pheA PE=3 
+SV=1
+Length=387
+
+ Score = 49.8 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 25/72 (35%), Positives = 33/72 (46%), Gaps = 0/72 (0%)
+
+Query  8   LVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQ  67
+           L+ L ++R  LA  VA  K    +PI D  RE ALL ++     A+ +D  Y    F   
+Sbjct  21  LLTLLAERRLLAVEVAQAKLATHRPIRDVERERALLENLIVLGKAHNLDAHYITRLFQLV  80
+
+Query  68  IAASKQLQNALF  79
+           I  S   Q AL 
+Sbjct  81  IEDSVLTQQALL  92
+
+
+> sp|P07023|TYRA_ECOLI T-protein OS=Escherichia coli (strain K12) 
+OX=83333 GN=tyrA PE=1 SV=1
+Length=373
+
+ Score = 48.3 bits (113),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 28/70 (40%), Gaps = 0/70 (0%)
+
+Query  7   NLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDD  66
+            L+ L ++RL L   V   K     PI  P REA++L      A A GV P         
+Sbjct  18  ALLNLLAKRLELVAEVGEVKSRFGLPIYVPEREASMLASRRAEAEALGVPPDLIEDVLRR  77
+
+Query  67  QIAASKQLQN  76
+            +  S   +N
+Sbjct  78  VMRESYSSEN  87
+
+
+> sp|Q8EH68|TYRA_SHEON T-protein OS=Shewanella oneidensis (strain 
+MR-1) OX=211586 GN=tyrA PE=3 SV=1
+Length=379
+
+ Score = 46.7 bits (109),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 19/65 (29%), Positives = 25/65 (38%), Gaps = 0/65 (0%)
+
+Query  7   NLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDD  66
+            L+ L  +RL L   V   K     PI  P REAA+L    + A   G+ P         
+Sbjct  22  QLLHLLRKRLDLVAQVGTVKHAAGLPIYAPQREAAMLAKRREEAQTMGIAPQLIEDILRR  81
+
+Query  67  QIAAS  71
+            +  S
+Sbjct  82  LMRES  86
+
+
+> sp|Q8K9F8|CMPDT_BUCAP Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=pheA PE=3 SV=1
+Length=385
+
+ Score = 46.0 bits (107),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 22/73 (30%), Positives = 30/73 (41%), Gaps = 0/73 (0%)
+
+Query  7   NLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDD  66
+           N+V L ++R  L   +A  K  N +PI D  RE  LL  +      N ++  Y    F  
+Sbjct  20  NIVQLLAKRKKLVLNIAESKIKNNQPIRDIEREKILLEKLTNLGKKNNLNTNYITRLFQL  79
+
+Query  67  QIAASKQLQNALF  79
+            I  S   Q  L 
+Sbjct  80  IIEESVLTQKKLL  92
+
+
+> sp|P43902|TYRA_HAEIN T-protein OS=Haemophilus influenzae (strain 
+ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=tyrA PE=1 
+SV=1
+Length=377
+
+ Score = 45.2 bits (105),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 26/72 (36%), Gaps = 0/72 (0%)
+
+Query  7   NLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDD  66
+            L+ L ++RL L   V   K  +  PI  P RE A+L      A   G+           
+Sbjct  20  ELIQLFAKRLELVSQVGKVKHQHGLPIYAPEREIAMLQARRLEAEKAGISADLIEDVLRR  79
+
+Query  67  QIAASKQLQNAL  78
+            +  S   +N  
+Sbjct  80  FMRESYANENQF  91
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.120    0.291    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0366    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7525269130
+Results from round 3
+
+
+Query= 6CNZ:A
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A0QU81|SCMU_MYCS2 Secreted chorismate mutase OS=Mycolicibact...  172     3e-54
+  sp|P9WIB9|SCMU_MYCTU Secreted chorismate mutase OS=Mycobacteriu...  163     2e-50
+  sp|P9WIB8|SCMU_MYCTO Secreted chorismate mutase OS=Mycobacteriu...  163     2e-50
+  sp|Q93LJ4|CHMU_SALTM Monofunctional chorismate mutase OS=Salmon...  132     1e-38
+  sp|Q7CHH5|SCMU_YERPE Secreted chorismate mutase OS=Yersinia pes...  126     5e-36
+  sp|P42517|CHMU_ENTAG Monofunctional chorismate mutase OS=Entero...  121     3e-34
+  sp|Q9HU05|CHMU_PSEAE Monofunctional chorismate mutase OS=Pseudo...  117     1e-32
+  sp|Q57696|CHMU_METJA Chorismate mutase OS=Methanocaldococcus ja...  89.8    8e-23
+  sp|Q8K9F8|CMPDT_BUCAP Bifunctional chorismate mutase/prephenate...  90.6    7e-21
+  sp|Q02287|TYRA_ENTAG T-protein OS=Enterobacter agglomerans OX=5...  90.2    1e-20
+  sp|P43902|TYRA_HAEIN T-protein OS=Haemophilus influenzae (strai...  89.4    2e-20
+  sp|P0A9K0|CMPDT_SHIFL Bifunctional chorismate mutase/prephenate...  88.7    4e-20
+  sp|P0A9J8|CMPDT_ECOLI Bifunctional chorismate mutase/prephenate...  88.7    4e-20
+  sp|P0A9J9|CMPDT_ECO57 Bifunctional chorismate mutase/prephenate...  88.7    4e-20
+  sp|Q02286|CMPDT_ENTAG Bifunctional chorismate mutase/prephenate...  88.7    4e-20
+  sp|Q8EH68|TYRA_SHEON T-protein OS=Shewanella oneidensis (strain...  88.3    4e-20
+  sp|P07023|TYRA_ECOLI T-protein OS=Escherichia coli (strain K12)...  88.3    5e-20
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P57472|CMPDT_BUCAI Bifunctional chorismate mutase/prephenate...  79.0    1e-16
+  sp|Q89AE5|CMPDT_BUCBP Bifunctional chorismate mutase/prephenate...  72.9    2e-14
+  sp|P43900|CMPDT_HAEIN Bifunctional chorismate mutase/prephenate...  63.2    4e-11
+  sp|O67085|CMPDT_AQUAE Bifunctional chorismate mutase/prephenate...  50.9    9e-07
+  sp|F2RB77|CMLD_STRVP 4-amino-4-deoxychorismate mutase OS=Strept...  41.3    4e-04
+  sp|Q51507|PCHB_PSEAE Isochorismate pyruvate lyase OS=Pseudomona...  40.1    9e-04
+  sp|Q9HZ67|CMPDT_PSEAE Bifunctional chorismate mutase/prephenate...  40.1    0.004
+  sp|Q8ZW59|AROD_PYRAE 3-dehydroquinate dehydratase OS=Pyrobaculu...  39.4    0.007
+
+
+> sp|A0QU81|SCMU_MYCS2 Secreted chorismate mutase OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=MSMEG_2111 PE=1 SV=1
+Length=181
+
+ Score = 172 bits (435),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 45/154 (29%), Positives = 76/154 (49%), Gaps = 0/154 (0%)
+
+Query  1    DDTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYA  60
+            D + L  LV  A+QRL  A+PVA  K+ +   I DP RE  ++  V   AT + +DP Y 
+Sbjct  22   DASPLVPLVDAAAQRLQTADPVAASKFRSGGAIDDPDREQQVIAAVTGDATRHNIDPGYV  81
+
+Query  61   RTFFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPL  120
+               F +QI A+  +++  FA W+        +    + +R ++D L ++++  +AR  P+
+Sbjct  82   HDVFRNQIDATSSVEHTRFAQWKLDPAAAPSSAPDLSESRQKIDTLNRTMVDEIARQWPV  141
+
+Query  121  RDAPDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+              +P     L R++    T   +D   + AL  A
+Sbjct  142  LHSPVCRPDLDRALDAVATARGFDPVYRHALEYA  175
+
+
+> sp|P9WIB9|SCMU_MYCTU Secreted chorismate mutase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv1885c 
+PE=1 SV=1
+Length=199
+
+ Score = 163 bits (412),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 45/152 (30%), Positives = 76/152 (50%), Gaps = 0/152 (0%)
+
+Query  3    TALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYART  62
+            + L  LV  A++RL +A+PVA +KW  + PI D  R    L  + + A +  +DP Y   
+Sbjct  37   SQLAELVDAAAERLEVADPVAAFKWRAQLPIEDSGRVEQQLAKLGEDARSQHIDPDYVTR  96
+
+Query  63   FFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPLRD  122
+             FDDQI A++ ++ + F+ W+       P P   +++R  +D L   +++ +     L  
+Sbjct  97   VFDDQIRATEAIEYSRFSDWKLNPASAPPEPPDLSASRSAIDSLNNRMLSQIWSHWSLLS  156
+
+Query  123  APDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+            AP   ++L R+  +       DS  + AL TA
+Sbjct  157  APSCAAQLDRAKRDIVRSRHLDSLYQRALTTA  188
+
+
+> sp|P9WIB8|SCMU_MYCTO Secreted chorismate mutase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=MT1933 
+PE=3 SV=1
+Length=199
+
+ Score = 163 bits (412),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 45/152 (30%), Positives = 76/152 (50%), Gaps = 0/152 (0%)
+
+Query  3    TALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYART  62
+            + L  LV  A++RL +A+PVA +KW  + PI D  R    L  + + A +  +DP Y   
+Sbjct  37   SQLAELVDAAAERLEVADPVAAFKWRAQLPIEDSGRVEQQLAKLGEDARSQHIDPDYVTR  96
+
+Query  63   FFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPLRD  122
+             FDDQI A++ ++ + F+ W+       P P   +++R  +D L   +++ +     L  
+Sbjct  97   VFDDQIRATEAIEYSRFSDWKLNPASAPPEPPDLSASRSAIDSLNNRMLSQIWSHWSLLS  156
+
+Query  123  APDAPSRLARSIANWKTLTRYDSAQKDALGTA  154
+            AP   ++L R+  +       DS  + AL TA
+Sbjct  157  APSCAAQLDRAKRDIVRSRHLDSLYQRALTTA  188
+
+
+> sp|Q93LJ4|CHMU_SALTM Monofunctional chorismate mutase OS=Salmonella 
+typhimurium OX=90371 GN=aroQ PE=1 SV=1
+Length=181
+
+ Score = 132 bits (333),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 32/117 (27%), Positives = 55/117 (47%), Gaps = 1/117 (1%)
+
+Query  2    DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+              +L  L+   ++R+ L + VA +K  +  PI D  RE  +  + E+ A  NG+DP    
+Sbjct  25   SVSLGALLTALNERMLLMKDVAAYKMKHHLPIEDFTREQNVFAEAEEEAKNNGLDPHSIT  84
+
+Query  62   TFFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVA  118
+             F    + ASK +Q    A WR    P  P   L+  TR ++ +L   ++  +++  
+Sbjct  85   PFIRSLMDASKAIQYRYLAQWRTGSEPSFPIQTLSV-TRQRIRQLDNQMLIIISQRL  140
+
+
+> sp|Q7CHH5|SCMU_YERPE Secreted chorismate mutase OS=Yersinia pestis 
+OX=632 GN=pheA2 PE=1 SV=1
+Length=186
+
+ Score = 126 bits (316),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 46/117 (39%), Gaps = 1/117 (1%)
+
+Query  2    DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+                     L ++RL+  + VA +K  N  PI D  +E  ++     +A + G++    +
+Sbjct  30   AQQCGQTAPLINERLSYMKDVAGYKAENHLPIEDRIQEEKVINSAMAQAESLGLNGESIK  89
+
+Query  62   TFFDDQIAASKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVA  118
+                 QI A+K +Q    A W +   P      L    R  +  L+  ++  +A   
+Sbjct  90   PLMVAQINAAKAIQYRYRADWLSQPEPGWQPKPL-DDVRANIGELSTKILEQIAEEL  145
+
+
+> sp|P42517|CHMU_ENTAG Monofunctional chorismate mutase OS=Enterobacter 
+agglomerans OX=549 GN=aroQ PE=1 SV=1
+Length=181
+
+ Score = 121 bits (303),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 29/108 (27%), Positives = 52/108 (48%), Gaps = 1/108 (1%)
+
+Query  11   LASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQIAA  70
+              ++R+ + + VA +K ++  PI D PRE  +L  + + A   G++P     F    + A
+Sbjct  34   ALNERMQVMKAVAGYKALHHLPIEDLPREQVVLDHMLQNAQQAGLEPHSVEPFVHALMNA  93
+
+Query  71   SKQLQNALFATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVA  118
+            SK +Q    A W ++     P     T TR Q+ +L   L+ A+++  
+Sbjct  94   SKTIQYRYRADWLSSPDSAVPVR-DLTETRQQIQQLDTQLLTAISQRL  140
+
+
+> sp|Q9HU05|CHMU_PSEAE Monofunctional chorismate mutase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=aroQ PE=1 SV=1
+Length=185
+
+ Score = 117 bits (293),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 35/136 (26%), Positives = 53/136 (39%), Gaps = 4/136 (3%)
+
+Query  19   AEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFFDDQIAASKQLQNAL  78
+            A+ VA  K  + K + D PRE   L  +  +A ++GV     R  F  QI A+K +Q  L
+Sbjct  44   ADQVAQSKAQSGKAVQDSPREEQQLQMLAGQAGSHGVGAEQVRLLFAAQIEANKLVQYRL  103
+
+Query  79   FATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPLRDAPDAPSRLARSIANWK  138
+             +      G            R +L++L   L+   A         D   RL +++    
+Sbjct  104  LSRPLPDAGQAV----DLERIRSRLNQLNLELLRGYAPALAELRVDDCRPRLNQALQRQV  159
+
+Query  139  TLTRYDSAQKDALGTA  154
+             + R D     AL  A
+Sbjct  160  RVDRLDELHAIALSRA  175
+
+
+> sp|Q57696|CHMU_METJA Chorismate mutase OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 
+/ NBRC 100440) OX=243232 GN=aroQ PE=1 SV=1
+Length=99
+
+ Score = 89.8 bits (221),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 33/80 (41%), Gaps = 0/80 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+           D     ++ L ++R +LA+ VA  K     PI+DP RE  +   + K    + VD     
+Sbjct  13  DEIDNKILKLIAERNSLAKDVAEIKNQLGIPINDPEREKYIYDRIRKLCKEHNVDENIGI  72
+
+Query  62  TFFDDQIAASKQLQNALFAT  81
+             F   I  +K LQ      
+Sbjct  73  KIFQILIEHNKALQKQYLEE  92
+
+
+> sp|Q8K9F8|CMPDT_BUCAP Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=pheA PE=3 SV=1
+Length=385
+
+ Score = 90.6 bits (223),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 30/75 (40%), Gaps = 0/75 (0%)
+
+Query  5   LTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFF  64
+             N+V L ++R  L   +A  K  N +PI D  RE  LL  +      N ++  Y    F
+Sbjct  18  DKNIVQLLAKRKKLVLNIAESKIKNNQPIRDIEREKILLEKLTNLGKKNNLNTNYITRLF  77
+
+Query  65  DDQIAASKQLQNALF  79
+              I  S   Q  L 
+Sbjct  78  QLIIEESVLTQKKLL  92
+
+
+> sp|Q02287|TYRA_ENTAG T-protein OS=Enterobacter agglomerans OX=549 
+GN=tyrA PE=3 SV=1
+Length=373
+
+ Score = 90.2 bits (222),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 23/75 (31%), Positives = 31/75 (41%), Gaps = 0/75 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+           D+    L+ L ++RL L   V   K     PI  P REA++L    K A A GV P    
+Sbjct  13  DSVDKALLDLLAKRLELVAEVGEVKSRYGLPIYVPEREASMLASRRKEAEALGVPPDLIE  72
+
+Query  62  TFFDDQIAASKQLQN  76
+                 +  S   +N
+Sbjct  73  DVLRRVMRESYTSEN  87
+
+
+> sp|P43902|TYRA_HAEIN T-protein OS=Haemophilus influenzae (strain 
+ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=tyrA PE=1 
+SV=1
+Length=377
+
+ Score = 89.4 bits (220),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 28/77 (36%), Gaps = 0/77 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+           D+    L+ L ++RL L   V   K  +  PI  P RE A+L      A   G+      
+Sbjct  15  DSLDRELIQLFAKRLELVSQVGKVKHQHGLPIYAPEREIAMLQARRLEAEKAGISADLIE  74
+
+Query  62  TFFDDQIAASKQLQNAL  78
+                 +  S   +N  
+Sbjct  75  DVLRRFMRESYANENQF  91
+
+
+> sp|P0A9K0|CMPDT_SHIFL Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Shigella flexneri OX=623 GN=pheA PE=3 SV=1
+Length=386
+
+ Score = 88.7 bits (218),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 0/80 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+                 L+AL ++R  LA  V   K ++ +P+ D  RE  LL  +     A+ +D  Y  
+Sbjct  15  SALDEKLLALLAERRELAVEVGKAKLLSHRPVRDIDRERDLLERLITLGKAHHLDAHYIT  74
+
+Query  62  TFFDDQIAASKQLQNALFAT  81
+             F   I  S   Q AL   
+Sbjct  75  RLFQLIIEDSVLTQQALLQQ  94
+
+
+> sp|P0A9J8|CMPDT_ECOLI Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Escherichia coli (strain K12) OX=83333 GN=pheA 
+PE=1 SV=1
+Length=386
+
+ Score = 88.7 bits (218),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 0/80 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+                 L+AL ++R  LA  V   K ++ +P+ D  RE  LL  +     A+ +D  Y  
+Sbjct  15  SALDEKLLALLAERRELAVEVGKAKLLSHRPVRDIDRERDLLERLITLGKAHHLDAHYIT  74
+
+Query  62  TFFDDQIAASKQLQNALFAT  81
+             F   I  S   Q AL   
+Sbjct  75  RLFQLIIEDSVLTQQALLQQ  94
+
+
+> sp|P0A9J9|CMPDT_ECO57 Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Escherichia coli O157:H7 OX=83334 GN=pheA 
+PE=3 SV=1
+Length=386
+
+ Score = 88.7 bits (218),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 0/80 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+                 L+AL ++R  LA  V   K ++ +P+ D  RE  LL  +     A+ +D  Y  
+Sbjct  15  SALDEKLLALLAERRELAVEVGKAKLLSHRPVRDIDRERDLLERLITLGKAHHLDAHYIT  74
+
+Query  62  TFFDDQIAASKQLQNALFAT  81
+             F   I  S   Q AL   
+Sbjct  75  RLFQLIIEDSVLTQQALLQQ  94
+
+
+> sp|Q02286|CMPDT_ENTAG Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Enterobacter agglomerans OX=549 GN=pheA PE=3 
+SV=1
+Length=387
+
+ Score = 88.7 bits (218),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 25/85 (29%), Positives = 33/85 (39%), Gaps = 0/85 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+                 L+ L ++R  LA  VA  K    +PI D  RE ALL ++     A+ +D  Y  
+Sbjct  15  SAVDKKLLTLLAERRLLAVEVAQAKLATHRPIRDVERERALLENLIVLGKAHNLDAHYIT  74
+
+Query  62  TFFDDQIAASKQLQNALFATWRATH  86
+             F   I  S   Q AL        
+Sbjct  75  RLFQLVIEDSVLTQQALLQKNLNHP  99
+
+
+> sp|Q8EH68|TYRA_SHEON T-protein OS=Shewanella oneidensis (strain 
+MR-1) OX=211586 GN=tyrA PE=3 SV=1
+Length=379
+
+ Score = 88.3 bits (217),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 28/125 (22%), Positives = 41/125 (33%), Gaps = 6/125 (5%)
+
+Query  2    DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+            D     L+ L  +RL L   V   K     PI  P REAA+L    + A   G+ P    
+Sbjct  17   DGVDQQLLHLLRKRLDLVAQVGTVKHAAGLPIYAPQREAAMLAKRREEAQTMGIAPQLIE  76
+
+Query  62   TFFDDQIAASKQLQNAL-FATWRATHGPEGPAPDLATSTRPQLDRLTQSLIAALARVAPL  120
+                  +  S   +  + F   +   G            + QL  L Q ++        +
+Sbjct  77   DILRRLMRESYLNEKDVGFKQVKNDLGSVV-----IVGGKGQLGGLFQQMLRLSGYQVKV  131
+
+Query  121  RDAPD  125
+             D  D
+Sbjct  132  LDKDD  136
+
+
+> sp|P07023|TYRA_ECOLI T-protein OS=Escherichia coli (strain K12) 
+OX=83333 GN=tyrA PE=1 SV=1
+Length=373
+
+ Score = 88.3 bits (217),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 29/75 (39%), Gaps = 0/75 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+           D     L+ L ++RL L   V   K     PI  P REA++L      A A GV P    
+Sbjct  13  DEVDKALLNLLAKRLELVAEVGEVKSRFGLPIYVPEREASMLASRRAEAEALGVPPDLIE  72
+
+Query  62  TFFDDQIAASKQLQN  76
+                 +  S   +N
+Sbjct  73  DVLRRVMRESYSSEN  87
+
+
+> sp|P57472|CMPDT_BUCAI Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Buchnera aphidicola subsp. Acyrthosiphon pisum 
+(strain APS) OX=107806 GN=pheA PE=3 SV=1
+Length=385
+
+ Score = 79.0 bits (193),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 18/75 (24%), Positives = 26/75 (35%), Gaps = 0/75 (0%)
+
+Query  5   LTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFF  64
+              +V L ++R  L   +A  K  N + I D  RE  +L  +        +   Y    F
+Sbjct  18  DKKIVKLLAERKNLVFKIAQSKIENNQAIRDIEREKKMLQKLIFLGKKYNLKSEYITQLF  77
+
+Query  65  DDQIAASKQLQNALF  79
+              I  S   Q  L 
+Sbjct  78  QLIIEESVATQKKLL  92
+
+
+> sp|Q89AE5|CMPDT_BUCBP Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Buchnera aphidicola subsp. Baizongia pistaciae 
+(strain Bp) OX=224915 GN=pheA PE=3 SV=1
+Length=371
+
+ Score = 72.9 bits (177),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 19/81 (23%), Positives = 33/81 (41%), Gaps = 0/81 (0%)
+
+Query  5   LTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYARTFF  64
+             NL+ L ++R  L+  +AH K  N  P+ D  RE  LL ++      + ++  Y  + F
+Sbjct  18  DKNLINLLAKRKQLSLNIAHTKVKNNYPVRDIEREQMLLKNLTILGEKHFLNKKYIESLF  77
+
+Query  65  DDQIAASKQLQNALFATWRAT  85
+              +  S   Q      +   
+Sbjct  78  SIILEDSVLTQKKWIKKYNLN  98
+
+
+> sp|P43900|CMPDT_HAEIN Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Haemophilus influenzae (strain ATCC 51907 
+/ DSM 11121 / KW20 / Rd) OX=71421 GN=pheA PE=3 SV=1
+Length=385
+
+ Score = 63.2 bits (152),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 33/81 (41%), Gaps = 2/81 (2%)
+
+Query  3   TALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANG--VDPAYA  60
+               +L+ L S+R  LA  V   K I++K + D  RE  LL ++ + A      ++  Y 
+Sbjct  14  QIDRSLLKLLSERHRLAFDVVRSKEISQKSLRDVEREQQLLQELVQFAENENYQLEAQYI  73
+
+Query  61  RTFFDDQIAASKQLQNALFAT  81
+            + F   I  S   Q      
+Sbjct  74  TSIFQKIIEDSVLTQQVYLQN  94
+
+
+> sp|O67085|CMPDT_AQUAE Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Aquifex aeolicus (strain VF5) OX=224324 GN=pheA 
+PE=3 SV=1
+Length=362
+
+ Score = 50.9 bits (120),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 17/79 (22%), Positives = 30/79 (38%), Gaps = 3/79 (4%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATAN--GVDP-A  58
+           D     ++ L ++R  LA+ +   K     PI  P RE  +   + +       GV P  
+Sbjct  12  DRIDEEILRLLNERAKLAKRIGEIKSKANLPIHVPEREREIFEKILRLNKEVYGGVFPQE  71
+
+Query  59  YARTFFDDQIAASKQLQNA  77
+                + + I+A   L+  
+Sbjct  72  ALVHIYREIISACLSLEKK  90
+
+
+> sp|F2RB77|CMLD_STRVP 4-amino-4-deoxychorismate mutase OS=Streptomyces 
+venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 
+/ JCM 4526 / NBRC 13096 / PD 04745) OX=953739 GN=cmlD PE=4 
+SV=1
+Length=103
+
+ Score = 41.3 bits (95),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 15/86 (17%), Positives = 36/86 (42%), Gaps = 0/86 (0%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+           D     L+    +R+ L   +A +K  +  P+  P R + +     + A  +G+D ++  
+Sbjct  15  DALDGTLLDTVRRRIDLGVRIARYKSRHGVPMMQPGRVSLVKDRAARYAADHGLDESFLV  74
+
+Query  62  TFFDDQIAASKQLQNALFATWRATHG  87
+             +D  I    ++++ + +    T  
+Sbjct  75  NLYDVIITEMCRVEDLVMSRESLTAE  100
+
+
+> sp|Q51507|PCHB_PSEAE Isochorismate pyruvate lyase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pchB 
+PE=1 SV=2
+Length=101
+
+ Score = 40.1 bits (92),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 21/88 (24%), Positives = 34/88 (39%), Gaps = 4/88 (5%)
+
+Query  2    DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDVEKRATANGVDPAYAR  61
+            D    ++V    +R+   +  + +K  +   I  P R AA+L +  + A  NG+D  +  
+Sbjct  18   DRIDLDIVQALGRRMDYVKAASRFKA-SEAAIPAPERVAAMLPERARWAEENGLDAPFVE  76
+
+Query  62   TFFDDQIAASKQLQNALFATWRATHGPE  89
+              F   I      Q      WR T G  
+Sbjct  77   GLFAQIIHWYIAEQIKY---WRQTRGAA  101
+
+
+> sp|Q9HZ67|CMPDT_PSEAE Bifunctional chorismate mutase/prephenate 
+dehydratase OS=Pseudomonas aeruginosa (strain ATCC 15692 
+/ DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 
+101 / PAO1) OX=208964 GN=pheA PE=3 SV=1
+Length=365
+
+ Score = 40.1 bits (92),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 19/82 (23%), Positives = 33/82 (40%), Gaps = 6/82 (7%)
+
+Query  2   DTALTNLVALASQRLALAEPVAHWKWIN----RKPI-SDPPREAALLTDVEKRATANGVD  56
+           D+    L+ L S+R   A+ VA  K         P+   P REA +L  + +      +D
+Sbjct  15  DSLDEKLLELISERARCAQDVARVKTQTLGEGEAPVFYRPEREAWVLKHIMQLNKGP-LD  73
+
+Query  57  PAYARTFFDDQIAASKQLQNAL  78
+                  F + +++   L+  L
+Sbjct  74  NEEVARLFREIMSSCLALEQPL  95
+
+
+> sp|Q8ZW59|AROD_PYRAE 3-dehydroquinate dehydratase OS=Pyrobaculum 
+aerophilum (strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 
+/ NBRC 100827) OX=178306 GN=aroD PE=3 SV=1
+Length=301
+
+ Score = 39.4 bits (90),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 13/45 (29%), Positives = 18/45 (40%), Gaps = 0/45 (0%)
+
+Query  2    DTALTNLVALASQRLALAEPVAHWKWINRKPISDPPREAALLTDV  46
+            D     L+ L  +RL +   +   K     PI D  REA +L   
+Sbjct  236  DWVDGGLMYLLKKRLEVCRDMGRLKKDAGLPIYDDVREAQVLRRA  280
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.300    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7525269130
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

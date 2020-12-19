@@ -1,0 +1,465 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5LWA:A
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P28477|POLR_TYMVC RNA replicase polyprotein OS=Turnip yellow...  296     1e-92
+  sp|P10358|POLR_TYMV RNA replicase polyprotein OS=Turnip yellow ...  296     1e-92
+  sp|P20128|POLR_TYMVA RNA replicase polyprotein OS=Turnip yellow...  290     1e-90
+  sp|P36304|POLR_KYMVJ RNA replicase polyprotein OS=Kennedya yell...  147     1e-40
+  sp|P20126|POLR_EPMV RNA replicase polyprotein OS=Eggplant mosai...  125     1e-32
+  sp|P20127|POLR_OYMV RNA replicase polyprotein OS=Ononis yellow ...  103     2e-25
+  sp|P35928|POLR_ELV RNA replicase polyprotein OS=Erysimum latent...  101     2e-24
+  sp|Q91TW9|POLG_MRFVC Genome polyprotein OS=Maize rayado fino vi...  94.4    5e-22
+  sp|Q8UZB6|RDRP_GFKVM RNA replication protein OS=Grapevine fleck...  69.7    2e-13
+
+
+> sp|P28477|POLR_TYMVC RNA replicase polyprotein OS=Turnip yellow 
+mosaic virus (isolate TYMC) OX=31751 PE=3 SV=1
+Length=1844
+
+ Score = 296 bits (757),  Expect = 1e-92, Method: Compositional matrix adjust.
+ Identities = 147/148 (99%), Positives = 147/148 (99%), Gaps = 0/148 (0%)
+
+Query  1    QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  60
+            QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS
+Sbjct  730  QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  789
+
+Query  61   DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALF  120
+            DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGP LF
+Sbjct  790  DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPILF  849
+
+Query  121  GPSDTIKRIDITHTTGPPSHFSPGKRLL  148
+            GPSDTIKRIDITHTTGPPSHFSPGKRLL
+Sbjct  850  GPSDTIKRIDITHTTGPPSHFSPGKRLL  877
+
+
+> sp|P10358|POLR_TYMV RNA replicase polyprotein OS=Turnip yellow 
+mosaic virus OX=12154 PE=1 SV=2
+Length=1844
+
+ Score = 296 bits (757),  Expect = 1e-92, Method: Compositional matrix adjust.
+ Identities = 147/148 (99%), Positives = 147/148 (99%), Gaps = 0/148 (0%)
+
+Query  1    QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  60
+            QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS
+Sbjct  730  QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  789
+
+Query  61   DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALF  120
+            DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGP LF
+Sbjct  790  DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPILF  849
+
+Query  121  GPSDTIKRIDITHTTGPPSHFSPGKRLL  148
+            GPSDTIKRIDITHTTGPPSHFSPGKRLL
+Sbjct  850  GPSDTIKRIDITHTTGPPSHFSPGKRLL  877
+
+
+> sp|P20128|POLR_TYMVA RNA replicase polyprotein OS=Turnip yellow 
+mosaic virus (isolate Australia) OX=12155 PE=3 SV=1
+Length=1844
+
+ Score = 290 bits (742),  Expect = 1e-90, Method: Compositional matrix adjust.
+ Identities = 142/148 (96%), Positives = 145/148 (98%), Gaps = 0/148 (0%)
+
+Query  1    QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  60
+            QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS
+Sbjct  730  QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  789
+
+Query  61   DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALF  120
+            DQTKVSE+HLWESLQTILPDSQL NEE N+LGLSTEHLTALAHLYNFQAT+YSDRGP LF
+Sbjct  790  DQTKVSEDHLWESLQTILPDSQLRNEEINSLGLSTEHLTALAHLYNFQATIYSDRGPILF  849
+
+Query  121  GPSDTIKRIDITHTTGPPSHFSPGKRLL  148
+            GPSDTIKRIDITHTTGPPSHFSPGKRLL
+Sbjct  850  GPSDTIKRIDITHTTGPPSHFSPGKRLL  877
+
+
+> sp|P36304|POLR_KYMVJ RNA replicase polyprotein OS=Kennedya yellow 
+mosaic virus (strain Jervis bay) OX=36392 PE=3 SV=1
+Length=1874
+
+ Score = 147 bits (371),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 73/144 (51%), Positives = 98/144 (68%), Gaps = 0/144 (0%)
+
+Query  5    APLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSDQTK  64
+            +PL  DPT +GP + F  L+PR +  NTA+FLTRLR  P   LP P  NCLL+AV+    
+Sbjct  761  SPLMADPTCVGPAVSFSSLYPRDFFPNTASFLTRLRLSPPTPLPMPKNNCLLTAVAPSLH  820
+
+Query  65   VSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGPSD  124
+            ++   LW SLQ +LPDS LSN E +++G+ST+ LTAL+HL+NFQA V+S+RG  LFG   
+Sbjct  821  INPHRLWTSLQEVLPDSLLSNSEIDSVGMSTDLLTALSHLFNFQAVVHSERGDILFGLQS  880
+
+Query  125  TIKRIDITHTTGPPSHFSPGKRLL  148
+                I I HT GPP+H+SP  +++
+Sbjct  881  AKTVIHIYHTNGPPAHYSPPPKII  904
+
+
+> sp|P20126|POLR_EPMV RNA replicase polyprotein OS=Eggplant mosaic 
+virus OX=12151 PE=3 SV=2
+Length=1839
+
+ Score = 125 bits (313),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 69/142 (49%), Positives = 89/142 (63%), Gaps = 0/142 (0%)
+
+Query  6    PLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSDQTKV  65
+            PL +DPTA+GP LPF  LHP  Y   +A FLTR R +P + L  P LNCLL+  S+ +  
+Sbjct  728  PLADDPTAVGPCLPFHVLHPADYFPLSAEFLTRTRHVPPSSLSHPKLNCLLTCFSELSGH  787
+
+Query  66   SEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGPSDT  125
+            SE  LW SLQ+ILPDSQL N E +TLGLST+ LTAL  +Y+   T+++  G   +G + +
+Sbjct  788  SESDLWLSLQSILPDSQLQNPEVSTLGLSTDILTALCFIYHSSVTLHAPSGVYHYGIASS  847
+
+Query  126  IKRIDITHTTGPPSHFSPGKRL  147
+                 I +  GPP HFS   RL
+Sbjct  848  STVYVIHYQPGPPPHFSLSPRL  869
+
+
+> sp|P20127|POLR_OYMV RNA replicase polyprotein OS=Ononis yellow 
+mosaic virus OX=12153 PE=3 SV=1
+Length=1776
+
+ Score = 103 bits (258),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 53/141 (38%), Positives = 78/141 (55%), Gaps = 0/141 (0%)
+
+Query  7    LTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSDQTKVS  66
+            L +D +  GPV+ FE + P  Y  +  +F TRLR  P +  P P  +CLL+AV+ Q   +
+Sbjct  664  LLSDMSCTGPVVEFETIFPAEYHMSNGSFPTRLRGHPRSSAPFPQKHCLLTAVASQLSYT  723
+
+Query  67   EEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGPSDTI  126
+            E  LWE L  +LPDS L+N E    GLST+HLT L++  +F+  +++      +G     
+Sbjct  724  EHQLWEFLCDMLPDSLLTNSEVENFGLSTDHLTCLSYRLHFECIIHTSHSTIPYGIKKAS  783
+
+Query  127  KRIDITHTTGPPSHFSPGKRL  147
+              I I++  GPP HF    +L
+Sbjct  784  TVIQISYIDGPPKHFKAFIKL  804
+
+
+> sp|P35928|POLR_ELV RNA replicase polyprotein OS=Erysimum latent 
+virus OX=12152 PE=3 SV=1
+Length=1748
+
+ Score = 101 bits (251),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 55/141 (39%), Positives = 81/141 (57%), Gaps = 0/141 (0%)
+
+Query  2    LLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSD  61
+            LLPAPL  D +  GP+  F++L P  Y  +TA F  R +       P P L+C+L A+S 
+Sbjct  628  LLPAPLETDDSCAGPISTFQDLFPASYYPHTANFPCRSKIPGYLEAPYPPLDCMLVALSA  687
+
+Query  62   QTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFG  121
+            Q   S + LW +L T++P S L++     LGL TE LTAL++ Y+FQA ++SD     FG
+Sbjct  688  QMPQSPQELWSALNTLMPLSALTSPSLRVLGLGTEELTALSYYYHFQAEIHSDNEIYRFG  747
+
+Query  122  PSDTIKRIDITHTTGPPSHFS  142
+                  ++ +   +GPP+HF+
+Sbjct  748  IQTASTKLCLIRDSGPPAHFT  768
+
+
+> sp|Q91TW9|POLG_MRFVC Genome polyprotein OS=Maize rayado fino 
+virus (isolate Costa Rica/Guapiles) OX=652669 GN=ORF1 PE=4 SV=1
+Length=2027
+
+ Score = 94.4 bits (233),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 57/138 (41%), Positives = 72/138 (52%), Gaps = 4/138 (3%)
+
+Query  5    APLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPT-LNCLLSAVSDQT  63
+            A L  DP+A GPV+ F EL    Y E T  FLTR R+  S+ +P PT   CLL AVS  T
+Sbjct  672  ARLDADPSASGPVMEFRELQKGAYIEPTGAFLTRARNSVSSSIPYPTRAACLLVAVSQAT  731
+
+Query  64   KVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGPS  123
+             +    LW +L   LPDS L +    TLGL+T+H   LA +++ +    S+ G    G  
+Sbjct  732  GLPTRTLWAALCANLPDSVLDDGSLATLGLTTDHFAVLARIFSLRCRFVSEHGDVELGLH  791
+
+Query  124  DTIKRIDITHTTGPPSHF  141
+            D   R  I HT   P HF
+Sbjct  792  DATSRFTIRHT---PGHF  806
+
+
+> sp|Q8UZB6|RDRP_GFKVM RNA replication protein OS=Grapevine fleck 
+virus (isolate Italy/MT48) OX=652668 PE=4 SV=1
+Length=1949
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 47/132 (36%), Positives = 71/132 (54%), Gaps = 7/132 (5%)
+
+Query  5    APLTNDPTAI--GPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSDQ  62
+            AP+T  P+ +   P  PF EL+P  Y +++ +F  + + L ++ +P P L+CLL + S  
+Sbjct  764  APVTARPSPLPLAPSRPFSELYPGHYADHSGSFFLQ-QPLVASSVPYPALDCLLVSCSAA  822
+
+Query  63   TKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGP  122
+            + + +E LW +L  I P S L ++    LGLST HLTALA  Y +  T+ S       G 
+Sbjct  823  SGIPKEDLWATLCHIFPPSDLVSD----LGLSTNHLTALAFTYQWLVTLRSGELVQRHGL  878
+
+Query  123  SDTIKRIDITHT  134
+                   +ITHT
+Sbjct  879  LSAPFAFEITHT  890
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5844520972
+Results from round 2
+
+
+Query= 5LWA:A
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P28477|POLR_TYMVC RNA replicase polyprotein OS=Turnip yellow...  203     4e-60
+  sp|P10358|POLR_TYMV RNA replicase polyprotein OS=Turnip yellow ...  203     4e-60
+  sp|P20128|POLR_TYMVA RNA replicase polyprotein OS=Turnip yellow...  200     4e-59
+  sp|P36304|POLR_KYMVJ RNA replicase polyprotein OS=Kennedya yell...  187     1e-54
+  sp|P35928|POLR_ELV RNA replicase polyprotein OS=Erysimum latent...  186     5e-54
+  sp|P20127|POLR_OYMV RNA replicase polyprotein OS=Ononis yellow ...  182     8e-53
+  sp|P20126|POLR_EPMV RNA replicase polyprotein OS=Eggplant mosai...  179     1e-51
+  sp|Q91TW9|POLG_MRFVC Genome polyprotein OS=Maize rayado fino vi...  159     1e-44
+  sp|Q8UZB6|RDRP_GFKVM RNA replication protein OS=Grapevine fleck...  137     4e-37
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P28477|POLR_TYMVC RNA replicase polyprotein OS=Turnip yellow 
+mosaic virus (isolate TYMC) OX=31751 PE=3 SV=1
+Length=1844
+
+ Score = 203 bits (516),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 147/148 (99%), Positives = 147/148 (99%), Gaps = 0/148 (0%)
+
+Query  1    QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  60
+            QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS
+Sbjct  730  QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  789
+
+Query  61   DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALF  120
+            DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGP LF
+Sbjct  790  DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPILF  849
+
+Query  121  GPSDTIKRIDITHTTGPPSHFSPGKRLL  148
+            GPSDTIKRIDITHTTGPPSHFSPGKRLL
+Sbjct  850  GPSDTIKRIDITHTTGPPSHFSPGKRLL  877
+
+
+> sp|P10358|POLR_TYMV RNA replicase polyprotein OS=Turnip yellow 
+mosaic virus OX=12154 PE=1 SV=2
+Length=1844
+
+ Score = 203 bits (516),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 147/148 (99%), Positives = 147/148 (99%), Gaps = 0/148 (0%)
+
+Query  1    QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  60
+            QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS
+Sbjct  730  QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  789
+
+Query  61   DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALF  120
+            DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGP LF
+Sbjct  790  DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPILF  849
+
+Query  121  GPSDTIKRIDITHTTGPPSHFSPGKRLL  148
+            GPSDTIKRIDITHTTGPPSHFSPGKRLL
+Sbjct  850  GPSDTIKRIDITHTTGPPSHFSPGKRLL  877
+
+
+> sp|P20128|POLR_TYMVA RNA replicase polyprotein OS=Turnip yellow 
+mosaic virus (isolate Australia) OX=12155 PE=3 SV=1
+Length=1844
+
+ Score = 200 bits (509),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 142/148 (96%), Positives = 145/148 (98%), Gaps = 0/148 (0%)
+
+Query  1    QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  60
+            QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS
+Sbjct  730  QLLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVS  789
+
+Query  61   DQTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALF  120
+            DQTKVSE+HLWESLQTILPDSQL NEE N+LGLSTEHLTALAHLYNFQAT+YSDRGP LF
+Sbjct  790  DQTKVSEDHLWESLQTILPDSQLRNEEINSLGLSTEHLTALAHLYNFQATIYSDRGPILF  849
+
+Query  121  GPSDTIKRIDITHTTGPPSHFSPGKRLL  148
+            GPSDTIKRIDITHTTGPPSHFSPGKRLL
+Sbjct  850  GPSDTIKRIDITHTTGPPSHFSPGKRLL  877
+
+
+> sp|P36304|POLR_KYMVJ RNA replicase polyprotein OS=Kennedya yellow 
+mosaic virus (strain Jervis bay) OX=36392 PE=3 SV=1
+Length=1874
+
+ Score = 187 bits (475),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 73/144 (51%), Positives = 98/144 (68%), Gaps = 0/144 (0%)
+
+Query  5    APLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSDQTK  64
+            +PL  DPT +GP + F  L+PR +  NTA+FLTRLR  P   LP P  NCLL+AV+    
+Sbjct  761  SPLMADPTCVGPAVSFSSLYPRDFFPNTASFLTRLRLSPPTPLPMPKNNCLLTAVAPSLH  820
+
+Query  65   VSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGPSD  124
+            ++   LW SLQ +LPDS LSN E +++G+ST+ LTAL+HL+NFQA V+S+RG  LFG   
+Sbjct  821  INPHRLWTSLQEVLPDSLLSNSEIDSVGMSTDLLTALSHLFNFQAVVHSERGDILFGLQS  880
+
+Query  125  TIKRIDITHTTGPPSHFSPGKRLL  148
+                I I HT GPP+H+SP  +++
+Sbjct  881  AKTVIHIYHTNGPPAHYSPPPKII  904
+
+
+> sp|P35928|POLR_ELV RNA replicase polyprotein OS=Erysimum latent 
+virus OX=12152 PE=3 SV=1
+Length=1748
+
+ Score = 186 bits (471),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 56/146 (38%), Positives = 82/146 (56%), Gaps = 0/146 (0%)
+
+Query  2    LLPAPLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSD  61
+            LLPAPL  D +  GP+  F++L P  Y  +TA F  R +       P P L+C+L A+S 
+Sbjct  628  LLPAPLETDDSCAGPISTFQDLFPASYYPHTANFPCRSKIPGYLEAPYPPLDCMLVALSA  687
+
+Query  62   QTKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFG  121
+            Q   S + LW +L T++P S L++     LGL TE LTAL++ Y+FQA ++SD     FG
+Sbjct  688  QMPQSPQELWSALNTLMPLSALTSPSLRVLGLGTEELTALSYYYHFQAEIHSDNEIYRFG  747
+
+Query  122  PSDTIKRIDITHTTGPPSHFSPGKRL  147
+                  ++ +   +GPP+HF+    L
+Sbjct  748  IQTASTKLCLIRDSGPPAHFTAPDPL  773
+
+
+> sp|P20127|POLR_OYMV RNA replicase polyprotein OS=Ononis yellow 
+mosaic virus OX=12153 PE=3 SV=1
+Length=1776
+
+ Score = 182 bits (462),  Expect = 8e-53, Method: Composition-based stats.
+ Identities = 53/143 (37%), Positives = 79/143 (55%), Gaps = 0/143 (0%)
+
+Query  5    APLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSDQTK  64
+            + L +D +  GPV+ FE + P  Y  +  +F TRLR  P +  P P  +CLL+AV+ Q  
+Sbjct  662  SDLLSDMSCTGPVVEFETIFPAEYHMSNGSFPTRLRGHPRSSAPFPQKHCLLTAVASQLS  721
+
+Query  65   VSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGPSD  124
+             +E  LWE L  +LPDS L+N E    GLST+HLT L++  +F+  +++      +G   
+Sbjct  722  YTEHQLWEFLCDMLPDSLLTNSEVENFGLSTDHLTCLSYRLHFECIIHTSHSTIPYGIKK  781
+
+Query  125  TIKRIDITHTTGPPSHFSPGKRL  147
+                I I++  GPP HF    +L
+Sbjct  782  ASTVIQISYIDGPPKHFKAFIKL  804
+
+
+> sp|P20126|POLR_EPMV RNA replicase polyprotein OS=Eggplant mosaic 
+virus OX=12151 PE=3 SV=2
+Length=1839
+
+ Score = 179 bits (453),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 69/143 (48%), Positives = 89/143 (62%), Gaps = 0/143 (0%)
+
+Query  5    APLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSDQTK  64
+             PL +DPTA+GP LPF  LHP  Y   +A FLTR R +P + L  P LNCLL+  S+ + 
+Sbjct  727  TPLADDPTAVGPCLPFHVLHPADYFPLSAEFLTRTRHVPPSSLSHPKLNCLLTCFSELSG  786
+
+Query  65   VSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGPSD  124
+             SE  LW SLQ+ILPDSQL N E +TLGLST+ LTAL  +Y+   T+++  G   +G + 
+Sbjct  787  HSESDLWLSLQSILPDSQLQNPEVSTLGLSTDILTALCFIYHSSVTLHAPSGVYHYGIAS  846
+
+Query  125  TIKRIDITHTTGPPSHFSPGKRL  147
+            +     I +  GPP HFS   RL
+Sbjct  847  SSTVYVIHYQPGPPPHFSLSPRL  869
+
+
+> sp|Q91TW9|POLG_MRFVC Genome polyprotein OS=Maize rayado fino 
+virus (isolate Costa Rica/Guapiles) OX=652669 GN=ORF1 PE=4 SV=1
+Length=2027
+
+ Score = 159 bits (401),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 57/140 (41%), Positives = 72/140 (51%), Gaps = 4/140 (3%)
+
+Query  5    APLTNDPTAIGPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPT-LNCLLSAVSDQT  63
+            A L  DP+A GPV+ F EL    Y E T  FLTR R+  S+ +P PT   CLL AVS  T
+Sbjct  672  ARLDADPSASGPVMEFRELQKGAYIEPTGAFLTRARNSVSSSIPYPTRAACLLVAVSQAT  731
+
+Query  64   KVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGPS  123
+             +    LW +L   LPDS L +    TLGL+T+H   LA +++ +    S+ G    G  
+Sbjct  732  GLPTRTLWAALCANLPDSVLDDGSLATLGLTTDHFAVLARIFSLRCRFVSEHGDVELGLH  791
+
+Query  124  DTIKRIDITHTTGPPSHFSP  143
+            D   R  I HT   P HF  
+Sbjct  792  DATSRFTIRHT---PGHFEL  808
+
+
+> sp|Q8UZB6|RDRP_GFKVM RNA replication protein OS=Grapevine fleck 
+virus (isolate Italy/MT48) OX=652668 PE=4 SV=1
+Length=1949
+
+ Score = 137 bits (345),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 51/149 (34%), Positives = 76/149 (51%), Gaps = 11/149 (7%)
+
+Query  5    APLTNDPTAI--GPVLPFEELHPRRYPENTATFLTRLRSLPSNHLPQPTLNCLLSAVSDQ  62
+            AP+T  P+ +   P  PF EL+P  Y +++ +F  + + L ++ +P P L+CLL + S  
+Sbjct  764  APVTARPSPLPLAPSRPFSELYPGHYADHSGSFFLQ-QPLVASSVPYPALDCLLVSCSAA  822
+
+Query  63   TKVSEEHLWESLQTILPDSQLSNEETNTLGLSTEHLTALAHLYNFQATVYSDRGPALFGP  122
+            + + +E LW +L  I P S L ++    LGLST HLTALA  Y +  T+ S       G 
+Sbjct  823  SGIPKEDLWATLCHIFPPSDLVSD----LGLSTNHLTALAFTYQWLVTLRSGELVQRHGL  878
+
+Query  123  SDTIKRIDITHTTGPPS----HFSPGKRL  147
+                   +ITHT   P     HF+    L
+Sbjct  879  LSAPFAFEITHTPPVPPATVGHFALSAPL  907
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0403    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5844520972
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

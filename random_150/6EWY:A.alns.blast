@@ -1,0 +1,200 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6EWY:A
+
+Length=201
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O53168|RIPA_MYCTU Peptidoglycan endopeptidase RipA OS=Mycoba...  388     1e-134
+  sp|A0QX22|RIPA_MYCS2 Peptidoglycan endopeptidase RipA OS=Mycoli...  167     2e-48 
+
+
+> sp|O53168|RIPA_MYCTU Peptidoglycan endopeptidase RipA OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ripA PE=1 SV=1
+Length=472
+
+ Score = 388 bits (996),  Expect = 1e-134, Method: Compositional matrix adjust.
+ Identities = 201/201 (100%), Positives = 201/201 (100%), Gaps = 0/201 (0%)
+
+Query  1    DPQTDTIAALIADVAKANQRLQDLSDEVQAEQESVNKAMVDVETARDNAAAAEDDLEVSQ  60
+            DPQTDTIAALIADVAKANQRLQDLSDEVQAEQESVNKAMVDVETARDNAAAAEDDLEVSQ
+Sbjct  40   DPQTDTIAALIADVAKANQRLQDLSDEVQAEQESVNKAMVDVETARDNAAAAEDDLEVSQ  99
+
+Query  61   RAVKDANAAIAAAQHRFDTFAAATYMNGPSVSYLSASSPDEIIATVTAAKTLSASSQAVM  120
+            RAVKDANAAIAAAQHRFDTFAAATYMNGPSVSYLSASSPDEIIATVTAAKTLSASSQAVM
+Sbjct  100  RAVKDANAAIAAAQHRFDTFAAATYMNGPSVSYLSASSPDEIIATVTAAKTLSASSQAVM  159
+
+Query  121  ANLQRARTERVNTESAARLAKQKADKAAADAKASQDAAVAALTETRRKFDEQREEVQRLA  180
+            ANLQRARTERVNTESAARLAKQKADKAAADAKASQDAAVAALTETRRKFDEQREEVQRLA
+Sbjct  160  ANLQRARTERVNTESAARLAKQKADKAAADAKASQDAAVAALTETRRKFDEQREEVQRLA  219
+
+Query  181  AERDAAQARLQAARLVAWSSE  201
+            AERDAAQARLQAARLVAWSSE
+Sbjct  220  AERDAAQARLQAARLVAWSSE  240
+
+
+> sp|A0QX22|RIPA_MYCS2 Peptidoglycan endopeptidase RipA OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=ripA PE=1 SV=1
+Length=497
+
+ Score = 167 bits (424),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 104/167 (62%), Positives = 132/167 (79%), Gaps = 0/167 (0%)
+
+Query  7    IAALIADVAKANQRLQDLSDEVQAEQESVNKAMVDVETARDNAAAAEDDLEVSQRAVKDA  66
+            +A L+A VA A+Q+LQ+L   +Q +QE+VNKA+VDV+ ARD AAAA+ +LE  QR V DA
+Sbjct  47   LATLVAKVASADQKLQELGAAIQTQQETVNKAIVDVQAARDAAAAAQRELEAGQRGVADA  106
+
+Query  67   NAAIAAAQHRFDTFAAATYMNGPSVSYLSASSPDEIIATVTAAKTLSASSQAVMANLQRA  126
+            NAAI AAQ RFD+FAAATYMNGPS SYL+A+ P +I+ T    + L ASSQ VMA LQRA
+Sbjct  107  NAAIEAAQKRFDSFAAATYMNGPSRSYLTATDPADIVNTTATGQALIASSQQVMAKLQRA  166
+
+Query  127  RTERVNTESAARLAKQKADKAAADAKASQDAAVAALTETRRKFDEQR  173
+            RTE+VN ESAARLAK+KAD+AA DA++SQD AVAAL + ++ F+ Q+
+Sbjct  167  RTEQVNRESAARLAKEKADQAARDAESSQDNAVAALKQAQQTFNAQQ  213
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.115    0.287    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12436315498
+Results from round 2
+
+
+Query= 6EWY:A
+
+Length=201
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O53168|RIPA_MYCTU Peptidoglycan endopeptidase RipA OS=Mycoba...  252     3e-81
+  sp|A0QX22|RIPA_MYCS2 Peptidoglycan endopeptidase RipA OS=Mycoli...  216     3e-67
+
+Sequences not found previously or not previously below threshold:
+
+  sp|F4JQ51|KN7I_ARATH Kinesin-like protein KIN-7I OS=Arabidopsis...  40.6    0.007
+
+
+> sp|O53168|RIPA_MYCTU Peptidoglycan endopeptidase RipA OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ripA PE=1 SV=1
+Length=472
+
+ Score = 252 bits (642),  Expect = 3e-81, Method: Composition-based stats.
+ Identities = 201/201 (100%), Positives = 201/201 (100%), Gaps = 0/201 (0%)
+
+Query  1    DPQTDTIAALIADVAKANQRLQDLSDEVQAEQESVNKAMVDVETARDNAAAAEDDLEVSQ  60
+            DPQTDTIAALIADVAKANQRLQDLSDEVQAEQESVNKAMVDVETARDNAAAAEDDLEVSQ
+Sbjct  40   DPQTDTIAALIADVAKANQRLQDLSDEVQAEQESVNKAMVDVETARDNAAAAEDDLEVSQ  99
+
+Query  61   RAVKDANAAIAAAQHRFDTFAAATYMNGPSVSYLSASSPDEIIATVTAAKTLSASSQAVM  120
+            RAVKDANAAIAAAQHRFDTFAAATYMNGPSVSYLSASSPDEIIATVTAAKTLSASSQAVM
+Sbjct  100  RAVKDANAAIAAAQHRFDTFAAATYMNGPSVSYLSASSPDEIIATVTAAKTLSASSQAVM  159
+
+Query  121  ANLQRARTERVNTESAARLAKQKADKAAADAKASQDAAVAALTETRRKFDEQREEVQRLA  180
+            ANLQRARTERVNTESAARLAKQKADKAAADAKASQDAAVAALTETRRKFDEQREEVQRLA
+Sbjct  160  ANLQRARTERVNTESAARLAKQKADKAAADAKASQDAAVAALTETRRKFDEQREEVQRLA  219
+
+Query  181  AERDAAQARLQAARLVAWSSE  201
+            AERDAAQARLQAARLVAWSSE
+Sbjct  220  AERDAAQARLQAARLVAWSSE  240
+
+
+> sp|A0QX22|RIPA_MYCS2 Peptidoglycan endopeptidase RipA OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=ripA PE=1 SV=1
+Length=497
+
+ Score = 216 bits (551),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 104/167 (62%), Positives = 132/167 (79%), Gaps = 0/167 (0%)
+
+Query  7    IAALIADVAKANQRLQDLSDEVQAEQESVNKAMVDVETARDNAAAAEDDLEVSQRAVKDA  66
+            +A L+A VA A+Q+LQ+L   +Q +QE+VNKA+VDV+ ARD AAAA+ +LE  QR V DA
+Sbjct  47   LATLVAKVASADQKLQELGAAIQTQQETVNKAIVDVQAARDAAAAAQRELEAGQRGVADA  106
+
+Query  67   NAAIAAAQHRFDTFAAATYMNGPSVSYLSASSPDEIIATVTAAKTLSASSQAVMANLQRA  126
+            NAAI AAQ RFD+FAAATYMNGPS SYL+A+ P +I+ T    + L ASSQ VMA LQRA
+Sbjct  107  NAAIEAAQKRFDSFAAATYMNGPSRSYLTATDPADIVNTTATGQALIASSQQVMAKLQRA  166
+
+Query  127  RTERVNTESAARLAKQKADKAAADAKASQDAAVAALTETRRKFDEQR  173
+            RTE+VN ESAARLAK+KAD+AA DA++SQD AVAAL + ++ F+ Q+
+Sbjct  167  RTEQVNRESAARLAKEKADQAARDAESSQDNAVAALKQAQQTFNAQQ  213
+
+
+> sp|F4JQ51|KN7I_ARATH Kinesin-like protein KIN-7I OS=Arabidopsis 
+thaliana OX=3702 GN=KIN7I PE=1 SV=1
+Length=1004
+
+ Score = 40.6 bits (93),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 24/103 (23%), Positives = 50/103 (49%), Gaps = 3/103 (3%)
+
+Query  89   PSVSYLSASSPDEIIATVTAAKTLSASSQAVMANLQRARTERVNTESAARLAKQKADKAA  148
+            P+ S+L  S    + AT   AK ++ ++Q  +   ++A  +++  E  AR+  +  +   
+Sbjct  305  PARSHLEQSRNTLLFAT--CAKEVTTNAQVNLVVSEKALVKQLQRE-LARMENELKNLGP  361
+
+Query  149  ADAKASQDAAVAALTETRRKFDEQREEVQRLAAERDAAQARLQ  191
+            A A ++ D     L +      +  E++  L  +RD AQ+R++
+Sbjct  362  ASASSTSDFYALMLKQKEELIAKMEEQIHELKWQRDVAQSRVE  404
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.115    0.270    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0351    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12436315498
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

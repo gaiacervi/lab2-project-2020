@@ -1,0 +1,786 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6O56:B
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q99ZW2|CAS9_STRP1 CRISPR-associated endonuclease Cas9/Csn1 O...  275     2e-85
+  sp|Q8DTE3|CAS9_STRMU CRISPR-associated endonuclease Cas9 OS=Str...  213     7e-64
+  sp|Q03JI6|CAS9B_STRTD CRISPR-associated endonuclease Cas9 2 OS=...  192     2e-56
+  sp|G3ECR1|CAS9_STRTR CRISPR-associated endonuclease Cas9 OS=Str...  190     7e-56
+  sp|Q927P4|CAS9_LISIN CRISPR-associated endonuclease Cas9 OS=Lis...  179     5e-52
+  sp|J7RUA5|CAS9_STAAU CRISPR-associated endonuclease Cas9 OS=Sta...  50.8    5e-07
+  sp|Q9CLT2|CAS9_PASMU CRISPR-associated endonuclease Cas9 OS=Pas...  50.4    7e-07
+  sp|C9X1G5|CAS9_NEIM8 CRISPR-associated endonuclease Cas9 OS=Nei...  48.1    4e-06
+  sp|A1IQ68|CAS9_NEIMA CRISPR-associated endonuclease Cas9 OS=Nei...  48.1    5e-06
+  sp|Q03LF7|CAS9A_STRTD CRISPR-associated endonuclease Cas9 1 OS=...  43.9    1e-04
+
+
+> sp|Q99ZW2|CAS9_STRP1 CRISPR-associated endonuclease Cas9/Csn1 
+OS=Streptococcus pyogenes serotype M1 OX=301447 GN=cas9 PE=1 
+SV=1
+Length=1368
+
+ Score = 275 bits (702),  Expect = 2e-85, Method: Compositional matrix adjust.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS
+Sbjct  775  KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  834
+
+Query  62   DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  121
+            DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ
+Sbjct  835  DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  894
+
+Query  122  RKFDNLTKAERGGL  135
+            RKFDNLTKAERGGL
+Sbjct  895  RKFDNLTKAERGGL  908
+
+
+> sp|Q8DTE3|CAS9_STRMU CRISPR-associated endonuclease Cas9 OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) 
+OX=210007 GN=cas9 PE=1 SV=1
+Length=1345
+
+ Score = 213 bits (542),  Expect = 7e-64, Method: Compositional matrix adjust.
+ Identities = 97/134 (72%), Positives = 123/134 (92%), Gaps = 0/134 (0%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            +NS++R+K + + IKE GSQILKEHPVEN+QLQN++L+LYYLQNGRDMY  +ELDI+ LS
+Sbjct  775  RNSQQRLKGLTDSIKEFGSQILKEHPVENSQLQNDRLFLYYLQNGRDMYTGEELDIDYLS  834
+
+Query  62   DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  121
+             YD+DHI+PQ+F+KD+SIDN+VLT S +NRGKSD+VPS++VV+KMK+YW +LL+AKLITQ
+Sbjct  835  QYDIDHIIPQAFIKDNSIDNRVLTSSKENRGKSDDVPSKDVVRKMKSYWSKLLSAKLITQ  894
+
+Query  122  RKFDNLTKAERGGL  135
+            RKFDNLTKAERGGL
+Sbjct  895  RKFDNLTKAERGGL  908
+
+
+> sp|Q03JI6|CAS9B_STRTD CRISPR-associated endonuclease Cas9 2 OS=Streptococcus 
+thermophilus (strain ATCC BAA-491 / LMD-9) OX=322159 
+GN=cas9-2 PE=1 SV=1
+Length=1388
+
+ Score = 192 bits (487),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 93/139 (67%), Positives = 117/139 (84%), Gaps = 6/139 (4%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEH------PVENTQLQNEKLYLYYLQNGRDMYVDQELD  56
+            NS++R+KR+E+ +KELGS+ILKE+       ++N  LQN++LYLYYLQNG+DMY   +LD
+Sbjct  777  NSQQRLKRLEKSLKELGSKILKENIPAKLSKIDNNALQNDRLYLYYLQNGKDMYTGDDLD  836
+
+Query  57   INRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNA  116
+            I+RLS+YD+DHI+PQ+FLKD+SIDNKVL  S  NRGKSD+VPS EVVKK K +W QLL +
+Sbjct  837  IDRLSNYDIDHIIPQAFLKDNSIDNKVLVSSASNRGKSDDVPSLEVVKKRKTFWYQLLKS  896
+
+Query  117  KLITQRKFDNLTKAERGGL  135
+            KLI+QRKFDNLTKAERGGL
+Sbjct  897  KLISQRKFDNLTKAERGGL  915
+
+
+> sp|G3ECR1|CAS9_STRTR CRISPR-associated endonuclease Cas9 OS=Streptococcus 
+thermophilus OX=1308 GN=cas9 PE=1 SV=2
+Length=1409
+
+ Score = 190 bits (483),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 92/139 (66%), Positives = 116/139 (83%), Gaps = 6/139 (4%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEH------PVENTQLQNEKLYLYYLQNGRDMYVDQELD  56
+            NS++R+KR+E+ +KELGS+ILKE+       ++N  LQN++LYLYYLQNG+DMY   +LD
+Sbjct  798  NSQQRLKRLEKSLKELGSKILKENIPAKLSKIDNNALQNDRLYLYYLQNGKDMYTGDDLD  857
+
+Query  57   INRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNA  116
+            I+RLS+YD+DHI+PQ+FLKD+SIDNKVL  S  NRGKSD+ PS EVVKK K +W QLL +
+Sbjct  858  IDRLSNYDIDHIIPQAFLKDNSIDNKVLVSSASNRGKSDDFPSLEVVKKRKTFWYQLLKS  917
+
+Query  117  KLITQRKFDNLTKAERGGL  135
+            KLI+QRKFDNLTKAERGGL
+Sbjct  918  KLISQRKFDNLTKAERGGL  936
+
+
+> sp|Q927P4|CAS9_LISIN CRISPR-associated endonuclease Cas9 OS=Listeria 
+innocua serovar 6a (strain ATCC BAA-680 / CLIP 11262) 
+OX=272626 GN=cas9 PE=1 SV=1
+Length=1334
+
+ Score = 179 bits (454),  Expect = 5e-52, Method: Compositional matrix adjust.
+ Identities = 84/133 (63%), Positives = 105/133 (79%), Gaps = 0/133 (0%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSD  62
+            NSR R K +E+ IKE GSQILKEHP +N +L+N +LYLYYLQNG+DMY  Q+LDI+ LS+
+Sbjct  779  NSRPRYKSLEKAIKEFGSQILKEHPTDNQELRNNRLYLYYLQNGKDMYTGQDLDIHNLSN  838
+
+Query  63   YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQR  122
+            YD+DHIVPQSF+ D+SIDN VLT S  NR K D+VP  E+V+K K +W +L    L+++R
+Sbjct  839  YDIDHIVPQSFITDNSIDNLVLTSSAGNREKGDDVPPLEIVRKRKVFWEKLYQGNLMSKR  898
+
+Query  123  KFDNLTKAERGGL  135
+            KFD LTKAERGGL
+Sbjct  899  KFDYLTKAERGGL  911
+
+
+> sp|J7RUA5|CAS9_STAAU CRISPR-associated endonuclease Cas9 OS=Staphylococcus 
+aureus OX=1280 GN=cas9 PE=1 SV=1
+Length=1053
+
+ Score = 50.8 bits (120),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 33/101 (33%), Positives = 56/101 (55%), Gaps = 12/101 (12%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDI----  57
+            K +R+  +RIEE I+  G         EN +   EK+ L+ +Q G+ +Y  + + +    
+Sbjct  496  KRNRQTNERIEEIIRTTGK--------ENAKYLIEKIKLHDMQEGKCLYSLEAIPLEDLL  547
+
+Query  58   NRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVP  98
+            N   +Y+VDHI+P+S   D+S +NKVL + ++N  K +  P
+Sbjct  548  NNPFNYEVDHIIPRSVSFDNSFNNKVLVKQEENSKKGNRTP  588
+
+
+> sp|Q9CLT2|CAS9_PASMU CRISPR-associated endonuclease Cas9 OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=cas9 PE=1 SV=1
+Length=1056
+
+ Score = 50.4 bits (119),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 29/89 (33%), Positives = 52/89 (58%), Gaps = 4/89 (4%)
+
+Query  37   KLYLYYLQNGRDMYVDQELDINRLSD---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGK  93
+            K  LY  Q+G+ +Y  +E++I+RL++    ++DH +P S   DDS +NKVL  + +N+ K
+Sbjct  547  KFRLYEQQHGKCLYSGKEINIHRLNEKGYVEIDHALPFSRTWDDSFNNKVLVLASENQNK  606
+
+Query  94   SDNVPSEEVVKKMKN-YWRQLLNAKLITQ  121
+             +  P E +  K+ +  W+  +   L +Q
+Sbjct  607  GNQTPYEWLQGKINSERWKNFVALVLGSQ  635
+
+
+> sp|C9X1G5|CAS9_NEIM8 CRISPR-associated endonuclease Cas9 OS=Neisseria 
+meningitidis serogroup C (strain 8013) OX=604162 GN=cas9 
+PE=1 SV=1
+Length=1082
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 41/67 (61%), Gaps = 3/67 (4%)
+
+Query  37   KLYLYYLQNGRDMYVDQELDINRLSD---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGK  93
+            KL LY  Q+G+ +Y  +E+++ RL++    ++DH +P S   DDS +NKVL    +N+ K
+Sbjct  555  KLRLYEQQHGKCLYSGKEINLGRLNEKGYVEIDHALPFSRTWDDSFNNKVLVLGSENQNK  614
+
+Query  94   SDNVPSE  100
+             +  P E
+Sbjct  615  GNQTPYE  621
+
+
+> sp|A1IQ68|CAS9_NEIMA CRISPR-associated endonuclease Cas9 OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) 
+OX=122587 GN=cas9 PE=1 SV=1
+Length=1082
+
+ Score = 48.1 bits (113),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 41/67 (61%), Gaps = 3/67 (4%)
+
+Query  37   KLYLYYLQNGRDMYVDQELDINRLSD---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGK  93
+            KL LY  Q+G+ +Y  +E+++ RL++    ++DH +P S   DDS +NKVL    +N+ K
+Sbjct  555  KLRLYEQQHGKCLYSGKEINLGRLNEKGYVEIDHALPFSRTWDDSFNNKVLVLGSENQNK  614
+
+Query  94   SDNVPSE  100
+             +  P E
+Sbjct  615  GNQTPYE  621
+
+
+> sp|Q03LF7|CAS9A_STRTD CRISPR-associated endonuclease Cas9 1 OS=Streptococcus 
+thermophilus (strain ATCC BAA-491 / LMD-9) OX=322159 
+GN=cas9-1 PE=1 SV=1
+Length=1121
+
+ Score = 43.9 bits (102),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/78 (32%), Positives = 42/78 (54%), Gaps = 5/78 (6%)
+
+Query  37   KLYLYYLQNGRDMYVDQELDINRL----SDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRG  92
+            K+ L++ Q  R +Y  + + I+ L    + ++VDHI+P S   DDS+ NKVL  +  N+ 
+Sbjct  565  KIRLWHQQGERCLYTGKTISIHDLINNSNQFEVDHILPLSITFDDSLANKVLVYATANQE  624
+
+Query  93   KSDNVPSEEVVKKMKNYW  110
+            K    P  + +  M + W
+Sbjct  625  KGQRTPY-QALDSMDDAW  641
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.132    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4961544656
+Results from round 2
+
+
+Query= 6O56:B
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q99ZW2|CAS9_STRP1 CRISPR-associated endonuclease Cas9/Csn1 O...  204     6e-61
+  sp|Q8DTE3|CAS9_STRMU CRISPR-associated endonuclease Cas9 OS=Str...  200     2e-59
+  sp|Q927P4|CAS9_LISIN CRISPR-associated endonuclease Cas9 OS=Lis...  199     4e-59
+  sp|Q03JI6|CAS9B_STRTD CRISPR-associated endonuclease Cas9 2 OS=...  189     2e-55
+  sp|G3ECR1|CAS9_STRTR CRISPR-associated endonuclease Cas9 OS=Str...  188     6e-55
+  sp|Q9CLT2|CAS9_PASMU CRISPR-associated endonuclease Cas9 OS=Pas...  123     2e-32
+  sp|J7RUA5|CAS9_STAAU CRISPR-associated endonuclease Cas9 OS=Sta...  106     1e-26
+  sp|A1IQ68|CAS9_NEIMA CRISPR-associated endonuclease Cas9 OS=Nei...  105     3e-26
+  sp|C9X1G5|CAS9_NEIM8 CRISPR-associated endonuclease Cas9 OS=Nei...  105     5e-26
+  sp|Q03LF7|CAS9A_STRTD CRISPR-associated endonuclease Cas9 1 OS=...  96.3    7e-23
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q0P897|CAS9_CAMJE CRISPR-associated endonuclease Cas9 OS=Cam...  65.1    5e-12
+
+
+> sp|Q99ZW2|CAS9_STRP1 CRISPR-associated endonuclease Cas9/Csn1 
+OS=Streptococcus pyogenes serotype M1 OX=301447 GN=cas9 PE=1 
+SV=1
+Length=1368
+
+ Score = 204 bits (520),  Expect = 6e-61, Method: Composition-based stats.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS
+Sbjct  775  KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  834
+
+Query  62   DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  121
+            DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ
+Sbjct  835  DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  894
+
+Query  122  RKFDNLTKAERGGL  135
+            RKFDNLTKAERGGL
+Sbjct  895  RKFDNLTKAERGGL  908
+
+
+> sp|Q8DTE3|CAS9_STRMU CRISPR-associated endonuclease Cas9 OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) 
+OX=210007 GN=cas9 PE=1 SV=1
+Length=1345
+
+ Score = 200 bits (509),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 97/134 (72%), Positives = 123/134 (92%), Gaps = 0/134 (0%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            +NS++R+K + + IKE GSQILKEHPVEN+QLQN++L+LYYLQNGRDMY  +ELDI+ LS
+Sbjct  775  RNSQQRLKGLTDSIKEFGSQILKEHPVENSQLQNDRLFLYYLQNGRDMYTGEELDIDYLS  834
+
+Query  62   DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  121
+             YD+DHI+PQ+F+KD+SIDN+VLT S +NRGKSD+VPS++VV+KMK+YW +LL+AKLITQ
+Sbjct  835  QYDIDHIIPQAFIKDNSIDNRVLTSSKENRGKSDDVPSKDVVRKMKSYWSKLLSAKLITQ  894
+
+Query  122  RKFDNLTKAERGGL  135
+            RKFDNLTKAERGGL
+Sbjct  895  RKFDNLTKAERGGL  908
+
+
+> sp|Q927P4|CAS9_LISIN CRISPR-associated endonuclease Cas9 OS=Listeria 
+innocua serovar 6a (strain ATCC BAA-680 / CLIP 11262) 
+OX=272626 GN=cas9 PE=1 SV=1
+Length=1334
+
+ Score = 199 bits (506),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 84/133 (63%), Positives = 105/133 (79%), Gaps = 0/133 (0%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSD  62
+            NSR R K +E+ IKE GSQILKEHP +N +L+N +LYLYYLQNG+DMY  Q+LDI+ LS+
+Sbjct  779  NSRPRYKSLEKAIKEFGSQILKEHPTDNQELRNNRLYLYYLQNGKDMYTGQDLDIHNLSN  838
+
+Query  63   YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQR  122
+            YD+DHIVPQSF+ D+SIDN VLT S  NR K D+VP  E+V+K K +W +L    L+++R
+Sbjct  839  YDIDHIVPQSFITDNSIDNLVLTSSAGNREKGDDVPPLEIVRKRKVFWEKLYQGNLMSKR  898
+
+Query  123  KFDNLTKAERGGL  135
+            KFD LTKAERGGL
+Sbjct  899  KFDYLTKAERGGL  911
+
+
+> sp|Q03JI6|CAS9B_STRTD CRISPR-associated endonuclease Cas9 2 OS=Streptococcus 
+thermophilus (strain ATCC BAA-491 / LMD-9) OX=322159 
+GN=cas9-2 PE=1 SV=1
+Length=1388
+
+ Score = 189 bits (479),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 93/139 (67%), Positives = 117/139 (84%), Gaps = 6/139 (4%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEH------PVENTQLQNEKLYLYYLQNGRDMYVDQELD  56
+            NS++R+KR+E+ +KELGS+ILKE+       ++N  LQN++LYLYYLQNG+DMY   +LD
+Sbjct  777  NSQQRLKRLEKSLKELGSKILKENIPAKLSKIDNNALQNDRLYLYYLQNGKDMYTGDDLD  836
+
+Query  57   INRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNA  116
+            I+RLS+YD+DHI+PQ+FLKD+SIDNKVL  S  NRGKSD+VPS EVVKK K +W QLL +
+Sbjct  837  IDRLSNYDIDHIIPQAFLKDNSIDNKVLVSSASNRGKSDDVPSLEVVKKRKTFWYQLLKS  896
+
+Query  117  KLITQRKFDNLTKAERGGL  135
+            KLI+QRKFDNLTKAERGGL
+Sbjct  897  KLISQRKFDNLTKAERGGL  915
+
+
+> sp|G3ECR1|CAS9_STRTR CRISPR-associated endonuclease Cas9 OS=Streptococcus 
+thermophilus OX=1308 GN=cas9 PE=1 SV=2
+Length=1409
+
+ Score = 188 bits (476),  Expect = 6e-55, Method: Composition-based stats.
+ Identities = 92/139 (66%), Positives = 116/139 (83%), Gaps = 6/139 (4%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEH------PVENTQLQNEKLYLYYLQNGRDMYVDQELD  56
+            NS++R+KR+E+ +KELGS+ILKE+       ++N  LQN++LYLYYLQNG+DMY   +LD
+Sbjct  798  NSQQRLKRLEKSLKELGSKILKENIPAKLSKIDNNALQNDRLYLYYLQNGKDMYTGDDLD  857
+
+Query  57   INRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNA  116
+            I+RLS+YD+DHI+PQ+FLKD+SIDNKVL  S  NRGKSD+ PS EVVKK K +W QLL +
+Sbjct  858  IDRLSNYDIDHIIPQAFLKDNSIDNKVLVSSASNRGKSDDFPSLEVVKKRKTFWYQLLKS  917
+
+Query  117  KLITQRKFDNLTKAERGGL  135
+            KLI+QRKFDNLTKAERGGL
+Sbjct  918  KLISQRKFDNLTKAERGGL  936
+
+
+> sp|Q9CLT2|CAS9_PASMU CRISPR-associated endonuclease Cas9 OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=cas9 PE=1 SV=1
+Length=1056
+
+ Score = 123 bits (308),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 35/124 (28%), Positives = 66/124 (53%), Gaps = 8/124 (6%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            +++R + +   +  KEL S    E   ++      K  LY  Q+G+ +Y  +E++I+RL+
+Sbjct  516  EDNRTKRESAVQKFKELFSDFSSEPKSKD----ILKFRLYEQQHGKCLYSGKEINIHRLN  571
+
+Query  62   D---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKN-YWRQLLNAK  117
+            +    ++DH +P S   DDS +NKVL  + +N+ K +  P E +  K+ +  W+  +   
+Sbjct  572  EKGYVEIDHALPFSRTWDDSFNNKVLVLASENQNKGNQTPYEWLQGKINSERWKNFVALV  631
+
+Query  118  LITQ  121
+            L +Q
+Sbjct  632  LGSQ  635
+
+
+> sp|J7RUA5|CAS9_STAAU CRISPR-associated endonuclease Cas9 OS=Staphylococcus 
+aureus OX=1280 GN=cas9 PE=1 SV=1
+Length=1053
+
+ Score = 106 bits (265),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 33/105 (31%), Positives = 58/105 (55%), Gaps = 12/105 (11%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDI----  57
+            K +R+  +RIEE I+  G         EN +   EK+ L+ +Q G+ +Y  + + +    
+Sbjct  496  KRNRQTNERIEEIIRTTGK--------ENAKYLIEKIKLHDMQEGKCLYSLEAIPLEDLL  547
+
+Query  58   NRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEV  102
+            N   +Y+VDHI+P+S   D+S +NKVL + ++N  K +  P + +
+Sbjct  548  NNPFNYEVDHIIPRSVSFDNSFNNKVLVKQEENSKKGNRTPFQYL  592
+
+
+> sp|A1IQ68|CAS9_NEIMA CRISPR-associated endonuclease Cas9 OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) 
+OX=122587 GN=cas9 PE=1 SV=1
+Length=1082
+
+ Score = 105 bits (262),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 30/89 (34%), Positives = 49/89 (55%), Gaps = 3/89 (3%)
+
+Query  37   KLYLYYLQNGRDMYVDQELDINRLSD---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGK  93
+            KL LY  Q+G+ +Y  +E+++ RL++    ++DH +P S   DDS +NKVL    +N+ K
+Sbjct  555  KLRLYEQQHGKCLYSGKEINLGRLNEKGYVEIDHALPFSRTWDDSFNNKVLVLGSENQNK  614
+
+Query  94   SDNVPSEEVVKKMKNYWRQLLNAKLITQR  122
+             +  P E    K  +   Q   A++ T R
+Sbjct  615  GNQTPYEYFNGKDNSREWQEFKARVETSR  643
+
+
+> sp|C9X1G5|CAS9_NEIM8 CRISPR-associated endonuclease Cas9 OS=Neisseria 
+meningitidis serogroup C (strain 8013) OX=604162 GN=cas9 
+PE=1 SV=1
+Length=1082
+
+ Score = 105 bits (261),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 30/89 (34%), Positives = 49/89 (55%), Gaps = 3/89 (3%)
+
+Query  37   KLYLYYLQNGRDMYVDQELDINRLSD---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGK  93
+            KL LY  Q+G+ +Y  +E+++ RL++    ++DH +P S   DDS +NKVL    +N+ K
+Sbjct  555  KLRLYEQQHGKCLYSGKEINLGRLNEKGYVEIDHALPFSRTWDDSFNNKVLVLGSENQNK  614
+
+Query  94   SDNVPSEEVVKKMKNYWRQLLNAKLITQR  122
+             +  P E    K  +   Q   A++ T R
+Sbjct  615  GNQTPYEYFNGKDNSREWQEFKARVETSR  643
+
+
+> sp|Q03LF7|CAS9A_STRTD CRISPR-associated endonuclease Cas9 1 OS=Streptococcus 
+thermophilus (strain ATCC BAA-491 / LMD-9) OX=322159 
+GN=cas9-1 PE=1 SV=1
+Length=1121
+
+ Score = 96.3 bits (238),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 27/97 (28%), Positives = 45/97 (46%), Gaps = 5/97 (5%)
+
+Query  19   GSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRL----SDYDVDHIVPQSFL  74
+            G   L        +    K+ L++ Q  R +Y  + + I+ L    + ++VDHI+P S  
+Sbjct  547  GKAELPHSVFHGHKQLATKIRLWHQQGERCLYTGKTISIHDLINNSNQFEVDHILPLSIT  606
+
+Query  75   KDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWR  111
+             DDS+ NKVL  +  N+ K    P  + +  M + W 
+Sbjct  607  FDDSLANKVLVYATANQEKGQRTPY-QALDSMDDAWS  642
+
+
+> sp|Q0P897|CAS9_CAMJE CRISPR-associated endonuclease Cas9 OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 
+700819 / NCTC 11168) OX=192222 GN=cas9 PE=1 SV=1
+Length=984
+
+ Score = 65.1 bits (157),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 36/132 (27%), Positives = 59/132 (45%), Gaps = 11/132 (8%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNE-----KLYLYYLQNGRDMYVDQELD  56
+            KN  +R K  +E  +   ++   E   E   L+       KL L+  Q     Y  +++ 
+Sbjct  486  KNHSQRAKIEKEQNENYKAKKDAELECEKLGLKINSKNILKLRLFKEQKEFCAYSGEKIK  545
+
+Query  57   INRLSD---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQL  113
+            I+ L D    ++DHI P S   DDS  NKVL  + +N+ K +  P  E        W+++
+Sbjct  546  ISDLQDEKMLEIDHIYPYSRSFDDSYMNKVLVFTKQNQEKLNQTPF-EAFGNDSAKWQKI  604
+
+Query  114  --LNAKLITQRK  123
+              L   L T+++
+Sbjct  605  EVLAKNLPTKKQ  616
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.327    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4961544656
+Results from round 3
+
+
+Query= 6O56:B
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q99ZW2|CAS9_STRP1 CRISPR-associated endonuclease Cas9/Csn1 O...  187     8e-55
+  sp|Q927P4|CAS9_LISIN CRISPR-associated endonuclease Cas9 OS=Lis...  184     1e-53
+  sp|Q8DTE3|CAS9_STRMU CRISPR-associated endonuclease Cas9 OS=Str...  183     2e-53
+  sp|Q03JI6|CAS9B_STRTD CRISPR-associated endonuclease Cas9 2 OS=...  173     1e-49
+  sp|G3ECR1|CAS9_STRTR CRISPR-associated endonuclease Cas9 OS=Str...  171     3e-49
+  sp|Q9CLT2|CAS9_PASMU CRISPR-associated endonuclease Cas9 OS=Pas...  134     3e-36
+  sp|A1IQ68|CAS9_NEIMA CRISPR-associated endonuclease Cas9 OS=Nei...  131     3e-35
+  sp|C9X1G5|CAS9_NEIM8 CRISPR-associated endonuclease Cas9 OS=Nei...  131     4e-35
+  sp|Q0P897|CAS9_CAMJE CRISPR-associated endonuclease Cas9 OS=Cam...  113     6e-29
+  sp|Q03LF7|CAS9A_STRTD CRISPR-associated endonuclease Cas9 1 OS=...  104     7e-26
+  sp|J7RUA5|CAS9_STAAU CRISPR-associated endonuclease Cas9 OS=Sta...  102     3e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|J3F2B0|CAS9_ACTNH CRISPR-associated endonuclease Cas9 OS=Act...  42.0    6e-04
+
+
+> sp|Q99ZW2|CAS9_STRP1 CRISPR-associated endonuclease Cas9/Csn1 
+OS=Streptococcus pyogenes serotype M1 OX=301447 GN=cas9 PE=1 
+SV=1
+Length=1368
+
+ Score = 187 bits (475),  Expect = 8e-55, Method: Composition-based stats.
+ Identities = 134/134 (100%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS
+Sbjct  775  KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  834
+
+Query  62   DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  121
+            DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ
+Sbjct  835  DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  894
+
+Query  122  RKFDNLTKAERGGL  135
+            RKFDNLTKAERGGL
+Sbjct  895  RKFDNLTKAERGGL  908
+
+
+> sp|Q927P4|CAS9_LISIN CRISPR-associated endonuclease Cas9 OS=Listeria 
+innocua serovar 6a (strain ATCC BAA-680 / CLIP 11262) 
+OX=272626 GN=cas9 PE=1 SV=1
+Length=1334
+
+ Score = 184 bits (466),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 84/133 (63%), Positives = 105/133 (79%), Gaps = 0/133 (0%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSD  62
+            NSR R K +E+ IKE GSQILKEHP +N +L+N +LYLYYLQNG+DMY  Q+LDI+ LS+
+Sbjct  779  NSRPRYKSLEKAIKEFGSQILKEHPTDNQELRNNRLYLYYLQNGKDMYTGQDLDIHNLSN  838
+
+Query  63   YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQR  122
+            YD+DHIVPQSF+ D+SIDN VLT S  NR K D+VP  E+V+K K +W +L    L+++R
+Sbjct  839  YDIDHIVPQSFITDNSIDNLVLTSSAGNREKGDDVPPLEIVRKRKVFWEKLYQGNLMSKR  898
+
+Query  123  KFDNLTKAERGGL  135
+            KFD LTKAERGGL
+Sbjct  899  KFDYLTKAERGGL  911
+
+
+> sp|Q8DTE3|CAS9_STRMU CRISPR-associated endonuclease Cas9 OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) 
+OX=210007 GN=cas9 PE=1 SV=1
+Length=1345
+
+ Score = 183 bits (465),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 97/134 (72%), Positives = 123/134 (92%), Gaps = 0/134 (0%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            +NS++R+K + + IKE GSQILKEHPVEN+QLQN++L+LYYLQNGRDMY  +ELDI+ LS
+Sbjct  775  RNSQQRLKGLTDSIKEFGSQILKEHPVENSQLQNDRLFLYYLQNGRDMYTGEELDIDYLS  834
+
+Query  62   DYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQ  121
+             YD+DHI+PQ+F+KD+SIDN+VLT S +NRGKSD+VPS++VV+KMK+YW +LL+AKLITQ
+Sbjct  835  QYDIDHIIPQAFIKDNSIDNRVLTSSKENRGKSDDVPSKDVVRKMKSYWSKLLSAKLITQ  894
+
+Query  122  RKFDNLTKAERGGL  135
+            RKFDNLTKAERGGL
+Sbjct  895  RKFDNLTKAERGGL  908
+
+
+> sp|Q03JI6|CAS9B_STRTD CRISPR-associated endonuclease Cas9 2 OS=Streptococcus 
+thermophilus (strain ATCC BAA-491 / LMD-9) OX=322159 
+GN=cas9-2 PE=1 SV=1
+Length=1388
+
+ Score = 173 bits (437),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 93/139 (67%), Positives = 117/139 (84%), Gaps = 6/139 (4%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEH------PVENTQLQNEKLYLYYLQNGRDMYVDQELD  56
+            NS++R+KR+E+ +KELGS+ILKE+       ++N  LQN++LYLYYLQNG+DMY   +LD
+Sbjct  777  NSQQRLKRLEKSLKELGSKILKENIPAKLSKIDNNALQNDRLYLYYLQNGKDMYTGDDLD  836
+
+Query  57   INRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNA  116
+            I+RLS+YD+DHI+PQ+FLKD+SIDNKVL  S  NRGKSD+VPS EVVKK K +W QLL +
+Sbjct  837  IDRLSNYDIDHIIPQAFLKDNSIDNKVLVSSASNRGKSDDVPSLEVVKKRKTFWYQLLKS  896
+
+Query  117  KLITQRKFDNLTKAERGGL  135
+            KLI+QRKFDNLTKAERGGL
+Sbjct  897  KLISQRKFDNLTKAERGGL  915
+
+
+> sp|G3ECR1|CAS9_STRTR CRISPR-associated endonuclease Cas9 OS=Streptococcus 
+thermophilus OX=1308 GN=cas9 PE=1 SV=2
+Length=1409
+
+ Score = 171 bits (434),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 92/139 (66%), Positives = 116/139 (83%), Gaps = 6/139 (4%)
+
+Query  3    NSRERMKRIEEGIKELGSQILKEH------PVENTQLQNEKLYLYYLQNGRDMYVDQELD  56
+            NS++R+KR+E+ +KELGS+ILKE+       ++N  LQN++LYLYYLQNG+DMY   +LD
+Sbjct  798  NSQQRLKRLEKSLKELGSKILKENIPAKLSKIDNNALQNDRLYLYYLQNGKDMYTGDDLD  857
+
+Query  57   INRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNA  116
+            I+RLS+YD+DHI+PQ+FLKD+SIDNKVL  S  NRGKSD+ PS EVVKK K +W QLL +
+Sbjct  858  IDRLSNYDIDHIIPQAFLKDNSIDNKVLVSSASNRGKSDDFPSLEVVKKRKTFWYQLLKS  917
+
+Query  117  KLITQRKFDNLTKAERGGL  135
+            KLI+QRKFDNLTKAERGGL
+Sbjct  918  KLISQRKFDNLTKAERGGL  936
+
+
+> sp|Q9CLT2|CAS9_PASMU CRISPR-associated endonuclease Cas9 OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=cas9 PE=1 SV=1
+Length=1056
+
+ Score = 134 bits (337),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 35/124 (28%), Positives = 66/124 (53%), Gaps = 8/124 (6%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            +++R + +   +  KEL S    E   ++      K  LY  Q+G+ +Y  +E++I+RL+
+Sbjct  516  EDNRTKRESAVQKFKELFSDFSSEPKSKD----ILKFRLYEQQHGKCLYSGKEINIHRLN  571
+
+Query  62   D---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKN-YWRQLLNAK  117
+            +    ++DH +P S   DDS +NKVL  + +N+ K +  P E +  K+ +  W+  +   
+Sbjct  572  EKGYVEIDHALPFSRTWDDSFNNKVLVLASENQNKGNQTPYEWLQGKINSERWKNFVALV  631
+
+Query  118  LITQ  121
+            L +Q
+Sbjct  632  LGSQ  635
+
+
+> sp|A1IQ68|CAS9_NEIMA CRISPR-associated endonuclease Cas9 OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) 
+OX=122587 GN=cas9 PE=1 SV=1
+Length=1082
+
+ Score = 131 bits (330),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 33/124 (27%), Positives = 61/124 (49%), Gaps = 7/124 (6%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            + +R+  ++     +E     + E   ++      KL LY  Q+G+ +Y  +E+++ RL+
+Sbjct  524  EENRKDREKAAAKFREYFPNFVGEPKSKD----ILKLRLYEQQHGKCLYSGKEINLGRLN  579
+
+Query  62   D---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKL  118
+            +    ++DH +P S   DDS +NKVL    +N+ K +  P E    K  +   Q   A++
+Sbjct  580  EKGYVEIDHALPFSRTWDDSFNNKVLVLGSENQNKGNQTPYEYFNGKDNSREWQEFKARV  639
+
+Query  119  ITQR  122
+             T R
+Sbjct  640  ETSR  643
+
+
+> sp|C9X1G5|CAS9_NEIM8 CRISPR-associated endonuclease Cas9 OS=Neisseria 
+meningitidis serogroup C (strain 8013) OX=604162 GN=cas9 
+PE=1 SV=1
+Length=1082
+
+ Score = 131 bits (329),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 33/124 (27%), Positives = 61/124 (49%), Gaps = 7/124 (6%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            + +R+  ++     +E     + E   ++      KL LY  Q+G+ +Y  +E+++ RL+
+Sbjct  524  EENRKDREKAAAKFREYFPNFVGEPKSKD----ILKLRLYEQQHGKCLYSGKEINLGRLN  579
+
+Query  62   D---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKL  118
+            +    ++DH +P S   DDS +NKVL    +N+ K +  P E    K  +   Q   A++
+Sbjct  580  EKGYVEIDHALPFSRTWDDSFNNKVLVLGSENQNKGNQTPYEYFNGKDNSREWQEFKARV  639
+
+Query  119  ITQR  122
+             T R
+Sbjct  640  ETSR  643
+
+
+> sp|Q0P897|CAS9_CAMJE CRISPR-associated endonuclease Cas9 OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 
+700819 / NCTC 11168) OX=192222 GN=cas9 PE=1 SV=1
+Length=984
+
+ Score = 113 bits (283),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 36/132 (27%), Positives = 59/132 (45%), Gaps = 11/132 (8%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNE-----KLYLYYLQNGRDMYVDQELD  56
+            KN  +R K  +E  +   ++   E   E   L+       KL L+  Q     Y  +++ 
+Sbjct  486  KNHSQRAKIEKEQNENYKAKKDAELECEKLGLKINSKNILKLRLFKEQKEFCAYSGEKIK  545
+
+Query  57   INRLSD---YDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQL  113
+            I+ L D    ++DHI P S   DDS  NKVL  + +N+ K +  P  E        W+++
+Sbjct  546  ISDLQDEKMLEIDHIYPYSRSFDDSYMNKVLVFTKQNQEKLNQTPF-EAFGNDSAKWQKI  604
+
+Query  114  --LNAKLITQRK  123
+              L   L T+++
+Sbjct  605  EVLAKNLPTKKQ  616
+
+
+> sp|Q03LF7|CAS9A_STRTD CRISPR-associated endonuclease Cas9 1 OS=Streptococcus 
+thermophilus (strain ATCC BAA-491 / LMD-9) OX=322159 
+GN=cas9-1 PE=1 SV=1
+Length=1121
+
+ Score = 104 bits (260),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 31/124 (25%), Positives = 55/124 (44%), Gaps = 6/124 (5%)
+
+Query  11   IEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRL----SDYDVD  66
+            ++   +  G   L        +    K+ L++ Q  R +Y  + + I+ L    + ++VD
+Sbjct  539  LKAANQYNGKAELPHSVFHGHKQLATKIRLWHQQGERCLYTGKTISIHDLINNSNQFEVD  598
+
+Query  67   HIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWR-QLLNAKLITQRKFD  125
+            HI+P S   DDS+ NKVL  +  N+ K    P +  +  M + W  + L A +   +   
+Sbjct  599  HILPLSITFDDSLANKVLVYATANQEKGQRTPYQ-ALDSMDDAWSFRELKAFVRESKTLS  657
+
+Query  126  NLTK  129
+            N  K
+Sbjct  658  NKKK  661
+
+
+> sp|J7RUA5|CAS9_STAAU CRISPR-associated endonuclease Cas9 OS=Staphylococcus 
+aureus OX=1280 GN=cas9 PE=1 SV=1
+Length=1053
+
+ Score = 102 bits (255),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 34/126 (27%), Positives = 62/126 (49%), Gaps = 12/126 (10%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDI----  57
+            K +R+  +RIEE I+  G         EN +   EK+ L+ +Q G+ +Y  + + +    
+Sbjct  496  KRNRQTNERIEEIIRTTGK--------ENAKYLIEKIKLHDMQEGKCLYSLEAIPLEDLL  547
+
+Query  58   NRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAK  117
+            N   +Y+VDHI+P+S   D+S +NKVL + ++N  K +  P + +         +     
+Sbjct  548  NNPFNYEVDHIIPRSVSFDNSFNNKVLVKQEENSKKGNRTPFQYLSSSDSKISYETFKKH  607
+
+Query  118  LITQRK  123
+            ++   K
+Sbjct  608  ILNLAK  613
+
+
+> sp|J3F2B0|CAS9_ACTNH CRISPR-associated endonuclease Cas9 OS=Actinomyces 
+naeslundii (strain ATCC 12104 / DSM 43013 / JCM 8349 
+/ NCTC 10301 / Howell 279) OX=1115803 GN=cas9 PE=1 SV=1
+Length=1101
+
+ Score = 42.0 bits (97),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 24/99 (24%), Positives = 39/99 (39%), Gaps = 7/99 (7%)
+
+Query  2    KNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLS  61
+            K +R R    +E +K++     KE  +        +L    LQ    +Y    +  +   
+Sbjct  522  KANRRRYNDNQEAMKKIQRDYGKEGYISRGD--IVRLDALELQGCACLYCGTTIGYHTCQ  579
+
+Query  62   DYDVDHIVPQSFL-KDDSIDNKVLTRSDKNRGKSDNVPS  99
+               +DHIVPQ+    ++   N V      NR KS+  P 
+Sbjct  580  ---LDHIVPQAGPGSNNRRGNLVAVCERCNRSKSN-TPF  614
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.126    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0385    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4961544656
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

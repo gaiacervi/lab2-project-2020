@@ -1,0 +1,3658 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 4XHF:A
+
+Length=223
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8ZBZ2|NQRC_YERPE Na(+)-translocating NADH-quinone reductase...  171     8e-52
+  sp|P0C6E0|NQRC_VIBCH Na(+)-translocating NADH-quinone reductase...  170     2e-51
+  sp|A5F5Y7|NQRC_VIBC3 Na(+)-translocating NADH-quinone reductase...  170     2e-51
+  sp|Q56582|NQRC_VIBAL Na(+)-translocating NADH-quinone reductase...  167     1e-50
+  sp|Q7VNU7|NQRC_HAEDU Na(+)-translocating NADH-quinone reductase...  167     2e-50
+  sp|Q9RFV9|NQRC_VIBCB Na(+)-translocating NADH-quinone reductase...  164     2e-49
+  sp|Q9CLA9|NQRC_PASMU Na(+)-translocating NADH-quinone reductase...  164     3e-49
+  sp|Q75R62|NQRC_VIBAN Na(+)-translocating NADH-quinone reductase...  164     3e-49
+  sp|Q9JVQ0|NQRC_NEIMA Na(+)-translocating NADH-quinone reductase...  164     3e-49
+  sp|P43957|NQRC_HAEIN Na(+)-translocating NADH-quinone reductase...  164     4e-49
+  sp|Q7MIC9|NQRC_VIBVY Na(+)-translocating NADH-quinone reductase...  162     1e-48
+  sp|Q8DBJ4|NQRC_VIBVU Na(+)-translocating NADH-quinone reductase...  162     1e-48
+  sp|Q9K0M5|NQRC_NEIMB Na(+)-translocating NADH-quinone reductase...  162     1e-48
+  sp|Q87MA8|NQRC_VIBPA Na(+)-translocating NADH-quinone reductase...  162     2e-48
+  sp|Q9HZK8|NQRC_PSEAE Na(+)-translocating NADH-quinone reductase...  145     8e-42
+  sp|Q9PKB5|NQRC_CHLMU Na(+)-translocating NADH-quinone reductase...  86.7    6e-19
+  sp|Q9Z8B5|NQRC_CHLPN Na(+)-translocating NADH-quinone reductase...  85.5    2e-18
+  sp|O84281|NQRC_CHLTR Na(+)-translocating NADH-quinone reductase...  82.4    2e-17
+  sp|Q823P3|NQRC_CHLCV Na(+)-translocating NADH-quinone reductase...  76.6    2e-15
+  sp|Q8TSY2|RNFG_METAC Ion-translocating oxidoreductase complex s...  51.6    6e-07
+  sp|D8GR68|RNFG_CLOLD Proton-translocating ferredoxin:NAD(+) oxi...  41.6    0.002
+  sp|Q3IXC2|RNFG_RHOS4 Ion-translocating oxidoreductase complex s...  40.8    0.004
+  sp|P97054|RNFG_RHOCA Ion-translocating oxidoreductase complex s...  39.7    0.008
+
+
+> sp|Q8ZBZ2|NQRC_YERPE Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Yersinia pestis OX=632 GN=nqrC PE=3 SV=1
+Length=266
+
+ Score = 171 bits (433),  Expect = 8e-52, Method: Compositional matrix adjust.
+ Identities = 83/223 (37%), Positives = 134/223 (60%), Gaps = 3/223 (1%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQ--GNEFRDIFAKSVKPLLINLDTGK-VDSDANV  58
+            LK ++  ++  + QR +L  A +   +    E +  FA  ++P L++L +G+ +  D   
+Sbjct  37   LKAKQQEQRLLDKQRNILAVAGLLQPRMLAEEVQQAFATRIEPRLLDLQSGEFLKQDPAT  96
+
+Query  59   LDFDERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMI  118
+             D  + +       + TP +DIA I+ RAN   ++ V  D G+++ V++P YG GLWSM+
+Sbjct  97   FDRSQALRDNQMSIALTPAQDIAGIRRRANVVEIYLVRGDGGQINKVILPIYGSGLWSMM  156
+
+Query  119  YGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGG  178
+            Y +VA++ D  T++G+  Y+HGETPG+G  + +P W + W GK+LFDD+G+ A+R+VKG 
+Sbjct  157  YAFVAIDTDGKTVRGITYYDHGETPGLGGEIENPIWRNQWIGKRLFDDQGQPAIRIVKGR  216
+
+Query  179  VKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+                D H VD +SGAT+T  GVQ +  FW G  GF  F  +++
+Sbjct  217  APANDPHAVDGLSGATLTSNGVQNSFNFWLGENGFGPFLKKVR  259
+
+
+> sp|P0C6E0|NQRC_VIBCH Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio cholerae serotype O1 (strain ATCC 39315 
+/ El Tor Inaba N16961) OX=243277 GN=nqrC PE=1 SV=1
+Length=257
+
+ Score = 170 bits (430),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 90/210 (43%), Positives = 130/210 (62%), Gaps = 6/210 (3%)
+
+Query  15   QRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGK-VDSDANVLDFDERMAAINPETS  73
+            Q  +L  A +      +  ++F KS++P L++ +TG  V+ DA   ++D+R AA     S
+Sbjct  46   QSKILQVAGIEAKGSKQIVELFNKSIEPRLVDFNTGDFVEGDA--ANYDQRKAAKEASES  103
+
+Query  74   S--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTI  131
+               T ++D AKI+ RAN   V+ V  D  K S V++P +G GLWSM+Y +VAVE D NT+
+Sbjct  104  IKLTAEQDKAKIQRRANVGVVYLV-KDGDKTSKVILPVHGNGLWSMMYAFVAVETDGNTV  162
+
+Query  132  KGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVS  191
+             G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++VKGG  +G  HGVD +S
+Sbjct  163  SGLTYYEQGETPGLGGEVENPAWRAQWVGKKLFDENHKPAIKIVKGGAPQGSEHGVDGLS  222
+
+Query  192  GATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            GAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  223  GATLTSNGVQNTFDFWLGDMGFGPFLTKVR  252
+
+
+> sp|A5F5Y7|NQRC_VIBC3 Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio cholerae serotype O1 (strain ATCC 39541 
+/ Classical Ogawa 395 / O395) OX=345073 GN=nqrC PE=1 SV=1
+Length=257
+
+ Score = 170 bits (430),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 90/210 (43%), Positives = 130/210 (62%), Gaps = 6/210 (3%)
+
+Query  15   QRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGK-VDSDANVLDFDERMAAINPETS  73
+            Q  +L  A +      +  ++F KS++P L++ +TG  V+ DA   ++D+R AA     S
+Sbjct  46   QSKILQVAGIEAKGSKQIVELFNKSIEPRLVDFNTGDFVEGDA--ANYDQRKAAKEASES  103
+
+Query  74   S--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTI  131
+               T ++D AKI+ RAN   V+ V  D  K S V++P +G GLWSM+Y +VAVE D NT+
+Sbjct  104  IKLTAEQDKAKIQRRANVGVVYLV-KDGDKTSKVILPVHGNGLWSMMYAFVAVETDGNTV  162
+
+Query  132  KGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVS  191
+             G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++VKGG  +G  HGVD +S
+Sbjct  163  SGLTYYEQGETPGLGGEVENPAWRAQWVGKKLFDENHKPAIKIVKGGAPQGSEHGVDGLS  222
+
+Query  192  GATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            GAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  223  GATLTSNGVQNTFDFWLGDMGFGPFLTKVR  252
+
+
+> sp|Q56582|NQRC_VIBAL Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio alginolyticus OX=663 GN=nqrC PE=1 SV=3
+Length=256
+
+ Score = 167 bits (424),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 85/222 (38%), Positives = 142/222 (64%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++   G +  ++FA+ ++P L++L+TG   ++ N   +
+Sbjct  33   LRDKQKANAVLDKQSKIVEVAGID-ANGKKVPELFAEYIEPRLVDLETGNF-TEGNASTY  90
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R A+ + E S   TP++D+A I+ RAN A V+ V  D  ++  V++P +GKGLWSM+Y
+Sbjct  91   DQREASKDAERSIALTPEEDVADIRRRANTAVVYLV-KDQDEVQKVILPMHGKGLWSMMY  149
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+  +  YE GETPG+G  V +P W   + GK+L+++  + A+++VKGG 
+Sbjct  150  AFVAVETDGNTVSAITYYEQGETPGLGGEVENPSWRDQFIGKKLYNEDHQPAIKVVKGGA  209
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+             +G  HGVD +SGAT+T  GVQ   +FW G +GF  F  +++
+Sbjct  210  PQGSEHGVDGLSGATLTSNGVQHTFDFWLGDKGFGPFLAKVR  251
+
+
+> sp|Q7VNU7|NQRC_HAEDU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Haemophilus ducreyi (strain 35000HP / ATCC 700724) 
+OX=233412 GN=nqrC PE=3 SV=1
+Length=257
+
+ Score = 167 bits (423),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 86/222 (39%), Positives = 139/222 (63%), Gaps = 11/222 (5%)
+
+Query  4    ERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDFDE  63
+            +++L K+++ LQ   LM  + N+      ++ +AK ++P +++L TG  D   +V +FD 
+Sbjct  41   QKQLDKQKNILQAAGLMHENTNV------QETYAKFIEPKIVDLATG--DYVEDVANFDA  92
+
+Query  64   RMAAINPETSST--PKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGY  121
+            +  A +P TS    P+ D A I+ RA  A V+ V D+ G+ + VV+P YG GLWSM+YG+
+Sbjct  93   KAFAKDPATSVAIKPEDDKANIRMRAKYAEVYLVKDEMGQTTQVVLPMYGNGLWSMMYGF  152
+
+Query  122  VAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKE  181
+            VAV+PD NT+ G+  YE GET G+G  + +P+W   + GK+LF+   + A+ + KG   +
+Sbjct  153  VAVQPDANTVNGITYYEQGETAGLGGEIANPNWQKSFVGKKLFNANNEVALTIGKGASAD  212
+
+Query  182  GDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             + HGVD +SGAT+T +GV  + ++WFG  GF  +  + KA+
+Sbjct  213  KE-HGVDGLSGATLTSKGVDNSFKYWFGTNGFGPYLAKFKAT  253
+
+
+> sp|Q9RFV9|NQRC_VIBCB Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio campbellii (strain ATCC BAA-1116 / BB120) 
+OX=338187 GN=nqrC PE=1 SV=4
+Length=261
+
+ Score = 164 bits (416),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 89/226 (39%), Positives = 139/226 (62%), Gaps = 8/226 (4%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTG----KVDSDAN  57
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG    K +  + 
+Sbjct  33   LRDQQKANAVLDKQSKIVEVAGID-AEGKKVPELFAEYIEPRLVDFKTGDFVEKAEDGST  91
+
+Query  58   VLDFDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLW  115
+              ++D+R AA +P  S   T  +D AKI  RAN   V+ V  +   +S V++P +G GLW
+Sbjct  92   AANYDQRKAAKDPAESIKLTADEDKAKILRRANTGIVYLV-KNGDDISKVIIPVHGNGLW  150
+
+Query  116  SMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLV  175
+            SM+Y +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++V
+Sbjct  151  SMMYAFVAVETDGNTVSGITYYEQGETPGLGGEVENPVWRAQFVGKKLFDENHKPAIKIV  210
+
+Query  176  KGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            KGG  EG  HGVD +SGAT+TG GVQ   +FW G  GF  F  +++
+Sbjct  211  KGGAPEGSEHGVDGLSGATLTGNGVQGTFDFWLGDMGFGPFLAKVR  256
+
+
+> sp|Q9CLA9|NQRC_PASMU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Pasteurella multocida (strain Pm70) OX=272843 
+GN=nqrC PE=3 SV=1
+Length=260
+
+ Score = 164 bits (416),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 84/225 (37%), Positives = 140/225 (62%), Gaps = 7/225 (3%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADV--NLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVL  59
+            LK  ++ +K  + Q+ +L  A +     + +E + I+A +++  L++L+TG  D      
+Sbjct  33   LKPTQIEQKELDKQKNILSVAGLLQPTTKNSEIKTIYANNIEARLVDLNTG--DFAPAQP  90
+
+Query  60   DFDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSM  117
+             FD   A  NP  S+  + + D+A I+ RAN A V+ V +D+G+++ VV+PFYGKGLWSM
+Sbjct  91   GFDAAKAVKNPAESTALSAEDDVAGIRVRANFAEVYLVKNDAGQVTQVVLPFYGKGLWSM  150
+
+Query  118  IYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKG  177
+            +YG+++V+PD NT+ G+  Y+ GETPG+G  + +P W + + GK+L+    +  + + KG
+Sbjct  151  MYGFMSVQPDGNTVNGITYYDQGETPGLGGEIENPKWQAQFPGKKLYTADNQVGLYVGKG  210
+
+Query  178  GVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKA  222
+                 + HG+DA+SG+T+T  GV  + +FW G +GF  F  +LKA
+Sbjct  211  ASANAE-HGIDAISGSTLTSNGVNNSFKFWLGQKGFGPFLAKLKA  254
+
+
+> sp|Q75R62|NQRC_VIBAN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio anguillarum OX=55601 GN=nqrC PE=3 SV=1
+Length=255
+
+ Score = 164 bits (415),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 91/223 (41%), Positives = 135/223 (61%), Gaps = 8/223 (4%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGK-VDSDANVLD  60
+            L++++      + Q  ++  A +N  +     ++FAK ++P LI+  TG  VD DA    
+Sbjct  33   LRDKQKVNAVLDKQSKIVEVAGIN--ESGSVPELFAKYIEPRLIDFKTGNFVDGDATA--  88
+
+Query  61   FDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMI  118
+            +D+R A+ +P  S   T ++D AKI  RAN   V+ V     ++S V+VP +G GLWSM+
+Sbjct  89   YDQRKASKDPAQSIKLTAEQDKAKIIRRANTGVVYLV-KSGDEISKVIVPVHGNGLWSMM  147
+
+Query  119  YGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGG  178
+            Y +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFDD  + A+++VKGG
+Sbjct  148  YAFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDDNHQPAIKVVKGG  207
+
+Query  179  VKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+               G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  208  APAGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q9JVQ0|NQRC_NEIMA Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Neisseria meningitidis serogroup A / serotype 
+4A (strain Z2491) OX=122587 GN=nqrC PE=3 SV=1
+Length=258
+
+ Score = 164 bits (415),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 86/224 (38%), Positives = 140/224 (63%), Gaps = 5/224 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q Y+L  A + + +  +    FA+ ++  +++L TG+   DA   DF
+Sbjct  35   LKPIQEKQKLQDKQGYILSVAGL-MDKDTDIGKTFAERIEQRVVDLATGEYVKDAPK-DF  92
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+              R+A  +P  S    P+ D+A IK+RA    V+ V  + GK+  +++P +G GLWS++Y
+Sbjct  93   SARIAGKDPAQSIRIKPEDDLAGIKSRAKYTEVYLVKGEDGKIGQIILPMHGNGLWSVMY  152
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+            G+VA++PD NTI G+  YE GETPG+G  + +P W   + GK+LFD +GK A+ + KG  
+Sbjct  153  GFVAIQPDGNTINGITYYEQGETPGLGGEIGNPLWQQKFVGKKLFDGQGKLALHVGKGAG  212
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             + + HGVDA+SGA++T +GVQ +  +WFG  G+  + N+LK++
+Sbjct  213  SDKE-HGVDALSGASLTSKGVQGSFAYWFGENGYIPYLNKLKSA  255
+
+
+> sp|P43957|NQRC_HAEIN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Haemophilus influenzae (strain ATCC 51907 / 
+DSM 11121 / KW20 / Rd) OX=71421 GN=nqrC PE=3 SV=1
+Length=244
+
+ Score = 164 bits (414),  Expect = 4e-49, Method: Compositional matrix adjust.
+ Identities = 83/221 (38%), Positives = 135/221 (61%), Gaps = 13/221 (6%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q+ +L  A + L +    ++ +AK ++P  ++L TG+    A     
+Sbjct  34   LKPAQEEQKLLDKQKNILNVAGL-LQENTNVKETYAKFIEPRFVDLATGEYTQQA-----  87
+
+Query  62   DERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGY  121
+            D+   AI  +       D A+I++R+    V+ V D+ G+   V++P YG GLWS++YG 
+Sbjct  88   DDSQQAIPADA------DKARIRSRSKTTEVYLVKDEQGQTQQVILPIYGTGLWSVMYGL  141
+
+Query  122  VAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKE  181
+            V+V+PD NTI G+  Y+HGETPG+G  + +P+W SL+KGK+LFD++ + A+R+VKG   +
+Sbjct  142  VSVQPDGNTINGITYYQHGETPGLGGEIENPNWASLFKGKKLFDEQHQPAIRIVKGQAPQ  201
+
+Query  182  GDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKA  222
+             D H +D +SGAT+TG GVQ    +WF  +GF  +  +L +
+Sbjct  202  -DEHSIDGLSGATLTGNGVQGTFNYWFSKDGFGPYLEKLHS  241
+
+
+> sp|Q7MIC9|NQRC_VIBVY Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio vulnificus (strain YJ016) OX=196600 GN=nqrC 
+PE=3 SV=2
+Length=255
+
+ Score = 162 bits (411),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 87/222 (39%), Positives = 136/222 (61%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG    D N   +
+Sbjct  32   LRDQQKANAVLDKQSKIIEVAGID-SKGKKVPELFAQYIEPRLVDFATGDF-VDGNAATY  89
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA +P  S   T ++D AKI  RAN   V+ V  +   +S +++P +G GLWSM+Y
+Sbjct  90   DQRKAAKDPAQSIKLTAEQDDAKILRRANTGVVYLV-KNGDSISKIILPVHGNGLWSMMY  148
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++VKGG 
+Sbjct  149  AFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDENHKPAIKVVKGGA  208
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+              G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  209  PVGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q8DBJ4|NQRC_VIBVU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio vulnificus (strain CMCP6) OX=216895 GN=nqrC 
+PE=3 SV=1
+Length=255
+
+ Score = 162 bits (411),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 87/222 (39%), Positives = 136/222 (61%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG    D N   +
+Sbjct  32   LRDQQKANAVLDKQSKIIEVAGID-SKGKKVPELFAQYIEPRLVDFATGDF-VDGNAATY  89
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA +P  S   T ++D AKI  RAN   V+ V  +   +S +++P +G GLWSM+Y
+Sbjct  90   DQRKAAKDPAQSIKLTAEQDDAKILRRANTGVVYLV-KNGDSISKIILPVHGNGLWSMMY  148
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++VKGG 
+Sbjct  149  AFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDENHKPAIKVVKGGA  208
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+              G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  209  PVGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q9K0M5|NQRC_NEIMB Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Neisseria meningitidis serogroup B (strain MC58) 
+OX=122586 GN=nqrC PE=3 SV=1
+Length=258
+
+ Score = 162 bits (411),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 86/224 (38%), Positives = 140/224 (63%), Gaps = 5/224 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q Y+L  A + + +  +    FA+ ++  +++L TG+  +DA   DF
+Sbjct  35   LKPIQEKQKLQDKQGYILSVAGL-MDKDTDIGKTFAERIEQRVVDLATGEYVADAPK-DF  92
+
+Query  62   DERMAAINPETSSTPKK--DIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+              R+A  +P  S   K   D+A IK+RA    V+ V  + GK+  +++P +G GLWS++Y
+Sbjct  93   SARIAGKDPAQSIRIKTEDDLAGIKSRAKYTEVYLVKGEDGKIGQIILPMHGNGLWSVMY  152
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+            G+VA++PD NTI G+  YE GETPG+G  + +P W   + GK+LFD +GK A+ + KG  
+Sbjct  153  GFVAIQPDGNTINGITYYEQGETPGLGGEIGNPLWQQKFVGKKLFDGQGKLALHVGKGAG  212
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             + + HGVDA+SGA++T +GVQ +  +WFG  G+  + N+LK++
+Sbjct  213  SDKE-HGVDALSGASLTSKGVQGSFAYWFGENGYIPYLNKLKSA  255
+
+
+> sp|Q87MA8|NQRC_VIBPA Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio parahaemolyticus serotype O3:K6 (strain 
+RIMD 2210633) OX=223926 GN=nqrC PE=3 SV=1
+Length=261
+
+ Score = 162 bits (410),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 88/226 (39%), Positives = 137/226 (61%), Gaps = 8/226 (4%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDA----N  57
+            L++++ A    + Q  ++  A +    G +  +++A+ ++P L++  TG+   +A     
+Sbjct  33   LRDKQKANAVLDKQSKIVEVAGIE-ANGKKVPELYAEYIEPRLVDFATGEFVEEAADGSK  91
+
+Query  58   VLDFDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLW  115
+              ++D+R AA +  TS   T ++D AKI  RAN   V+ V  +   +S V++P +G GLW
+Sbjct  92   AANYDQRKAAKDNATSIKLTAEQDKAKIIRRANTGIVYLV-KNGDDVSKVIIPVHGNGLW  150
+
+Query  116  SMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLV  175
+            SM+Y +VAVE D NT+ G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++V
+Sbjct  151  SMMYAFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQWVGKKLFDENHKPAIKVV  210
+
+Query  176  KGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            KGG   G  HGVD +SGAT+TG GVQ   +FW G  GF  F  +++
+Sbjct  211  KGGAPAGSEHGVDGLSGATLTGNGVQGTFDFWLGDMGFGPFLAKVR  256
+
+
+> sp|Q9HZK8|NQRC_PSEAE Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Pseudomonas aeruginosa (strain ATCC 15692 / 
+DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 
+/ PAO1) OX=208964 GN=nqrC PE=3 SV=1
+Length=261
+
+ Score = 145 bits (366),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 82/230 (36%), Positives = 127/230 (55%), Gaps = 12/230 (5%)
+
+Query  1    SLKERKLAKKRDELQRYVLMAADVNLGQ----GNEFRDIFAKSVKPLLINLDTGKVDSDA  56
+            +LK  +   +  + QR +L  A   LG+    G E + +F   +   +++L +G      
+Sbjct  31   ALKPTQAENRLLDKQRSILAIA--GLGEPGMSGKEVKALFDSRITAKVVDLQSGTFSDAQ  88
+
+Query  57   NVLDFDERMAAINPETSST--PKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGL  114
+            + L +D   AA +P  S      +DIA IK R     V+ V  D GKL ++++P  G GL
+Sbjct  89   DPLGYDPLKAAKDPALSDALPAAEDIASIKRRERYTTVYLVETD-GKLDTLILPVRGYGL  147
+
+Query  115  WSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRL  174
+            WS +YG++A++ D NT+ G   Y+HGETPG+G  V +P W +LW GK L+D +G  A+++
+Sbjct  148  WSTLYGFLALKGDLNTVAGFGFYQHGETPGLGGEVDNPKWKALWVGKTLYDAQGDLAVQI  207
+
+Query  175  VKGGVKEGD---IHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            +KG V        H VD ++GAT+T +GV   + FW G +GF  F   L+
+Sbjct  208  IKGSVDPQSAKATHQVDGLAGATLTSKGVDNLLHFWLGKDGFDAFLANLR  257
+
+
+> sp|Q9PKB5|NQRC_CHLMU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia muridarum (strain MoPn / Nigg) OX=243161 
+GN=nqrC PE=3 SV=1
+Length=318
+
+ Score = 86.7 bits (213),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 51/146 (35%), Positives = 75/146 (51%), Gaps = 16/146 (11%)
+
+Query  94   KVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPH  153
+            +V  +   + S+++P  G GLW  IYG++A+E D NT+ G   Y+HGETPG+G  +T+P 
+Sbjct  166  QVAKNPVSIESIILPIKGFGLWGPIYGFLALEKDGNTVLGTCWYQHGETPGLGANITNPQ  225
+
+Query  154  WLSLWKGKQLFD---------DKGKFAMRLVKGGVKE--GDI----HGVDAVSGATMTGR  198
+            W   ++GK++F           K    + ++KG V    GD       VD +SGAT+T  
+Sbjct  226  WQQNFRGKKVFLASSSGETDFAKTTLGLEVIKGSVSALLGDSPKANSAVDGISGATLTCN  285
+
+Query  199  GVQRAMEFWFG-VEGFQTFFNQLKAS  223
+            GV  A            TFF  L +S
+Sbjct  286  GVTEAFANSLAPYRPLLTFFANLNSS  311
+
+
+> sp|Q9Z8B5|NQRC_CHLPN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia pneumoniae OX=83558 GN=nqrC PE=3 SV=1
+Length=320
+
+ Score = 85.5 bits (210),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 59/184 (32%), Positives = 93/184 (51%), Gaps = 21/184 (11%)
+
+Query  40   VKPLLINLDTGKV----DSDANVLDFDERMAAINP-ETSSTPKKDIAKIKTRANDARVFK  94
+            V+PLL +   GKV    + + N ++F E+     P + S  P   I +  +R  +     
+Sbjct  112  VRPLLTDAQ-GKVFSFEEKNLNPIEFFEKYQESPPCQQSPLPFYVILENTSRTENMSGAD  170
+
+Query  95   VFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHW  154
+            V  D   + +++ P  G GLW  I+GY+ V+ D +T+ G   Y+ GETPG+G  +T+P W
+Sbjct  171  VAKDLSTVQALIFPISGFGLWGPIHGYLGVKNDGDTVLGTAWYQQGETPGLGANITNPEW  230
+
+Query  155  LSLWKGKQLF--DDKGK-------FAMRLVKGGVKE--GD----IHGVDAVSGATMTGRG  199
+               + GK++F  D  G          + +VKG V+   GD    +  +D +SGAT+T  G
+Sbjct  231  QEQFYGKKIFLQDSSGTTNFATTDLGLEVVKGSVRTTLGDSPKALSAIDGISGATLTCNG  290
+
+Query  200  VQRA  203
+            V  A
+Sbjct  291  VTEA  294
+
+
+> sp|O84281|NQRC_CHLTR Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia trachomatis (strain D/UW-3/Cx) OX=272561 
+GN=nqrC PE=3 SV=1
+Length=316
+
+ Score = 82.4 bits (202),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 49/146 (34%), Positives = 73/146 (50%), Gaps = 16/146 (11%)
+
+Query  94   KVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPH  153
+            +V  +   + S+V+P  G GLW  IYG++A+E D NT+ G   Y+HGETPG+G  + +P 
+Sbjct  165  QVAKNPTAIESIVLPIEGFGLWGPIYGFLALEKDGNTVLGTSWYQHGETPGLGANIANPQ  224
+
+Query  154  WLSLWKGKQLFD---------DKGKFAMRLVKGGVKE--GD----IHGVDAVSGATMTGR  198
+            W   ++GK++F           K    + ++KG V    GD       +D +SGAT+T  
+Sbjct  225  WQKNFRGKKVFLVSASGETDFAKTTLGLEVIKGSVSAALGDSPKAASSIDGISGATLTCN  284
+
+Query  199  GVQRAMEFWFG-VEGFQTFFNQLKAS  223
+            GV  +            TFF   K S
+Sbjct  285  GVTESFSHSLAPYRALLTFFANSKPS  310
+
+
+> sp|Q823P3|NQRC_CHLCV Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydophila caviae (strain ATCC VR-813 / DSM 
+19441 / GPIC) OX=227941 GN=nqrC PE=3 SV=1
+Length=319
+
+ Score = 76.6 bits (187),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 52/186 (28%), Positives = 85/186 (46%), Gaps = 25/186 (13%)
+
+Query  40   VKPLLINLDTGKV----DSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDARVFK-  94
+            V+PLL +   G++    + + NV +F E+    N      P      I      AR    
+Sbjct  110  VRPLLAD-KLGQMFSFEEKNINVTEFIEKHQ--NGHFYQQPLLLFYVILANTEQARAMSA  166
+
+Query  95   --VFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDP  152
+              V  +   + ++++P  G GLW  IYGY+AVE + +T+ G   Y+  ETPG+G  + +P
+Sbjct  167  ADVIKNPSVVRAIIIPISGFGLWGPIYGYLAVENNGDTVLGTAWYQQAETPGLGANIANP  226
+
+Query  153  HWLSLWKGKQLFDDKG---------KFAMRLVKGGVKEG------DIHGVDAVSGATMTG  197
+             W   + GK++F                + ++KG V+         +  +D +SGAT+T 
+Sbjct  227  QWQKQFYGKKIFLQAAAGNTDFATTPLGLEVIKGSVQSAFGTTPKALSSIDGISGATLTC  286
+
+Query  198  RGVQRA  203
+             GV  A
+Sbjct  287  NGVTEA  292
+
+
+> sp|Q8TSY2|RNFG_METAC Ion-translocating oxidoreductase complex 
+subunit G OS=Methanosarcina acetivorans (strain ATCC 35395 
+/ DSM 2834 / JCM 12185 / C2A) OX=188937 GN=rnfG PE=1 SV=1
+Length=188
+
+ Score = 51.6 bits (122),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 38/112 (34%), Positives = 54/112 (48%), Gaps = 12/112 (11%)
+
+Query  93   FKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDP  152
+            +K  D SG +   VV     G   MI     +  DF+TI G  V +H ETPG+G  +T P
+Sbjct  77   YKGVDSSGNVVGYVVERNQVGAQGMIQLLAGISSDFSTITGFQVMKHSETPGLGALITTP  136
+
+Query  153  HWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+                 ++G+  F D       L K G +      VDA+SGAT++ + V  A+
+Sbjct  137  E----FQGQ--FVDLPVADTSLTKNGGQ------VDAISGATISSQAVVDAL  176
+
+
+> sp|D8GR68|RNFG_CLOLD Proton-translocating ferredoxin:NAD(+) oxidoreductase 
+complex subunit G OS=Clostridium ljungdahlii (strain 
+ATCC 55383 / DSM 13528 / PETC) OX=748727 GN=rnfG PE=3 
+SV=1
+Length=185
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 37/116 (32%), Positives = 56/116 (48%), Gaps = 12/116 (10%)
+
+Query  101  KLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKG  160
+            K  + VVP   KG    I   VAV PD   I   +V  H ETPG+G   +       ++G
+Sbjct  78   KTIAYVVPAESKGYGGAIELLVAVTPDGKVIDFSIV-SHNETPGLGANASKDS----FRG  132
+
+Query  161  KQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTF  216
+            +  F DK   A+ +VK    + +   + A++GAT+T + V + ++    VE   TF
+Sbjct  133  Q--FKDKKADALTVVK---DKSNTKNIQAMTGATITSKAVTKGVK--EAVEQVTTF  181
+
+
+> sp|Q3IXC2|RNFG_RHOS4 Ion-translocating oxidoreductase complex 
+subunit G OS=Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 
+/ NCIB 8253 / DSM 158) OX=272943 GN=rnfG PE=3 SV=1
+Length=219
+
+ Score = 40.8 bits (94),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 45/146 (31%), Positives = 62/146 (42%), Gaps = 14/146 (10%)
+
+Query  60   DFDERMAAINPET--SSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSM  117
+            D    +A + PET   + P  DI  +      A    V    G +++V     G G    
+Sbjct  57   DLLASLAQVLPETLHDNDPTADIRTLSDADEGAVRVYVAARGGAVTAVTFELTGYGYGGA  116
+
+Query  118  IYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLV  175
+            I   +AV  D  TI G  V  H ETPG+GD +      W+  + G+ L  D G    ++ 
+Sbjct  117  IRVLMAVAAD-GTILGARVLSHTETPGLGDKIEIGKDDWIEGFAGRSLT-DPGPAGWKVR  174
+
+Query  176  K-GGVKEGDIHGVDAVSGATMTGRGV  200
+            + GGV        D  SGAT+T R V
+Sbjct  175  RDGGV-------FDQFSGATITPRAV  193
+
+
+> sp|P97054|RNFG_RHOCA Ion-translocating oxidoreductase complex 
+subunit G OS=Rhodobacter capsulatus OX=1061 GN=rnfG PE=1 SV=1
+Length=217
+
+ Score = 39.7 bits (91),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 41/133 (31%), Positives = 61/133 (46%), Gaps = 16/133 (12%)
+
+Query  79   DIAKIKTRANDAR--VFKVF--DDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGV  134
+            D+A      +DA     KV+    +G ++ +     G G    I   + + PD  T+ GV
+Sbjct  72   DLAAAMRPVSDAEEGTIKVYVATKAGAVTGLAYELSGPGYSGQIRVLLGIAPD-GTLLGV  130
+
+Query  135  VVYEHGETPGIGD--FVTDPHWLSLWKGKQLFD-DKGKFAMRLVKGGVKEGDIHGVDAVS  191
+             V  H ETPG+GD   V    W+  + GK L D + G + ++   GGV        D  S
+Sbjct  131  RVLSHTETPGLGDKIEVAKDDWILGFAGKSLADPEPGHWKVKR-DGGV-------FDQFS  182
+
+Query  192  GATMTGRGVQRAM  204
+            GAT+T R V + +
+Sbjct  183  GATITPRAVVKTI  195
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15108241262
+Results from round 2
+
+
+Query= 4XHF:A
+
+Length=223
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q7MIC9|NQRC_VIBVY Na(+)-translocating NADH-quinone reductase...  321     5e-111
+  sp|Q8DBJ4|NQRC_VIBVU Na(+)-translocating NADH-quinone reductase...  321     5e-111
+  sp|Q75R62|NQRC_VIBAN Na(+)-translocating NADH-quinone reductase...  319     2e-110
+  sp|Q9RFV9|NQRC_VIBCB Na(+)-translocating NADH-quinone reductase...  316     8e-109
+  sp|Q56582|NQRC_VIBAL Na(+)-translocating NADH-quinone reductase...  315     8e-109
+  sp|Q87MA8|NQRC_VIBPA Na(+)-translocating NADH-quinone reductase...  314     5e-108
+  sp|P0C6E0|NQRC_VIBCH Na(+)-translocating NADH-quinone reductase...  311     5e-107
+  sp|A5F5Y7|NQRC_VIBC3 Na(+)-translocating NADH-quinone reductase...  311     5e-107
+  sp|Q8ZBZ2|NQRC_YERPE Na(+)-translocating NADH-quinone reductase...  305     1e-104
+  sp|Q9CLA9|NQRC_PASMU Na(+)-translocating NADH-quinone reductase...  290     8e-99 
+  sp|Q7VNU7|NQRC_HAEDU Na(+)-translocating NADH-quinone reductase...  290     8e-99 
+  sp|Q9JVQ0|NQRC_NEIMA Na(+)-translocating NADH-quinone reductase...  286     3e-97 
+  sp|P43957|NQRC_HAEIN Na(+)-translocating NADH-quinone reductase...  285     6e-97 
+  sp|Q9K0M5|NQRC_NEIMB Na(+)-translocating NADH-quinone reductase...  282     1e-95 
+  sp|Q9HZK8|NQRC_PSEAE Na(+)-translocating NADH-quinone reductase...  270     9e-91 
+  sp|Q9Z8B5|NQRC_CHLPN Na(+)-translocating NADH-quinone reductase...  199     4e-62 
+  sp|Q823P3|NQRC_CHLCV Na(+)-translocating NADH-quinone reductase...  190     2e-58 
+  sp|O84281|NQRC_CHLTR Na(+)-translocating NADH-quinone reductase...  186     7e-57 
+  sp|Q9PKB5|NQRC_CHLMU Na(+)-translocating NADH-quinone reductase...  184     4e-56 
+  sp|Q8TSY2|RNFG_METAC Ion-translocating oxidoreductase complex s...  106     3e-27 
+  sp|D8GR68|RNFG_CLOLD Proton-translocating ferredoxin:NAD(+) oxi...  97.5    4e-24 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|A3PRP7|RNFG_RHOS1 Ion-translocating oxidoreductase complex s...  74.4    4e-15
+  sp|Q3IXC2|RNFG_RHOS4 Ion-translocating oxidoreductase complex s...  74.0    7e-15
+  sp|H6LC30|RNFG_ACEWD Na(+)-translocating ferredoxin:NAD(+) oxid...  70.6    9e-14
+  sp|P97054|RNFG_RHOCA Ion-translocating oxidoreductase complex s...  69.0    5e-13
+  sp|Q7N4F7|RNFG_PHOLL Ion-translocating oxidoreductase complex s...  64.0    3e-11
+  sp|Q8ZPM4|RSXG_SALTY Ion-translocating oxidoreductase complex s...  63.6    3e-11
+  sp|A4XS49|RNFG_PSEMY Ion-translocating oxidoreductase complex s...  63.6    3e-11
+  sp|Q8Z6Q7|RSXG_SALTI Ion-translocating oxidoreductase complex s...  63.6    3e-11
+  sp|Q2NSZ9|RNFG_SODGM Ion-translocating oxidoreductase complex s...  62.9    7e-11
+  sp|C3LTR1|RNFG_VIBCM Ion-translocating oxidoreductase complex s...  62.9    7e-11
+  sp|Q9KT90|RNFG_VIBCH Ion-translocating oxidoreductase complex s...  62.9    7e-11
+  sp|B6EGH3|RNFG_ALISL Ion-translocating oxidoreductase complex s...  62.9    7e-11
+  sp|P58345|RSXG_ECO57 Ion-translocating oxidoreductase complex s...  62.5    8e-11
+  sp|C5BDE9|RNFG_EDWI9 Ion-translocating oxidoreductase complex s...  62.1    1e-10
+  sp|P77285|RSXG_ECOLI Ion-translocating oxidoreductase complex s...  61.7    2e-10
+  sp|A5F2S8|RNFG_VIBC3 Ion-translocating oxidoreductase complex s...  61.3    3e-10
+  sp|Q8ZED3|RNFG_YERPE Ion-translocating oxidoreductase complex s...  59.0    2e-09
+  sp|B7VLT4|RNFG_VIBTL Ion-translocating oxidoreductase complex s...  57.9    4e-09
+  sp|Q15RL1|RNFG_PSEA6 Ion-translocating oxidoreductase complex s...  57.9    5e-09
+  sp|Q7MM85|RNFG_VIBVY Ion-translocating oxidoreductase complex s...  57.9    5e-09
+  sp|B5FCN1|RNFG_ALIFM Ion-translocating oxidoreductase complex s...  57.5    5e-09
+  sp|Q5E6C0|RNFG_ALIF1 Ion-translocating oxidoreductase complex s...  57.5    6e-09
+  sp|Q89AW6|RNFG_BUCBP Ion-translocating oxidoreductase complex s...  57.5    6e-09
+  sp|Q9CNP4|RNFG_PASMU Ion-translocating oxidoreductase complex s...  57.1    8e-09
+  sp|B2VEQ5|RNFG_ERWT9 Ion-translocating oxidoreductase complex s...  57.1    9e-09
+  sp|Q9HYB6|RNFG_PSEAE Ion-translocating oxidoreductase complex s...  56.3    1e-08
+  sp|Q02QY2|RNFG_PSEAB Ion-translocating oxidoreductase complex s...  56.3    1e-08
+  sp|B7UVW9|RNFG_PSEA8 Ion-translocating oxidoreductase complex s...  56.3    1e-08
+  sp|Q9EVN3|RNFG_PSEST Ion-translocating oxidoreductase complex s...  55.9    2e-08
+  sp|C6DH13|RNFG_PECCP Ion-translocating oxidoreductase complex s...  55.2    4e-08
+  sp|B8E552|RNFG_SHEB2 Ion-translocating oxidoreductase complex s...  54.4    7e-08
+  sp|A7MML1|RNFG_CROS8 Ion-translocating oxidoreductase complex s...  54.0    8e-08
+  sp|Q4QJQ4|RNFG_HAEI8 Ion-translocating oxidoreductase complex s...  54.0    9e-08
+  sp|A5UBI8|RNFG_HAEIE Ion-translocating oxidoreductase complex s...  54.0    9e-08
+  sp|P44291|RNFG_HAEIN Ion-translocating oxidoreductase complex s...  54.0    9e-08
+  sp|A3QEN8|RNFG_SHELP Ion-translocating oxidoreductase complex s...  54.0    1e-07
+  sp|Q87MX0|RNFG_VIBPA Ion-translocating oxidoreductase complex s...  53.6    1e-07
+  sp|Q6D4W0|RNFG_PECAS Ion-translocating oxidoreductase complex s...  51.7    6e-07
+  sp|Q8EE77|RNFG_SHEON Ion-translocating oxidoreductase complex s...  50.9    1e-06
+  sp|B8CM54|RNFG_SHEPW Ion-translocating oxidoreductase complex s...  50.9    1e-06
+  sp|A1S6N3|RNFG_SHEAM Ion-translocating oxidoreductase complex s...  50.9    1e-06
+  sp|Q8KA18|RNFG_BUCAP Ion-translocating oxidoreductase complex s...  49.8    3e-06
+  sp|P57217|RNFG_BUCAI Ion-translocating oxidoreductase complex s...  45.9    4e-05
+
+
+> sp|Q7MIC9|NQRC_VIBVY Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio vulnificus (strain YJ016) OX=196600 GN=nqrC 
+PE=3 SV=2
+Length=255
+
+ Score = 321 bits (823),  Expect = 5e-111, Method: Composition-based stats.
+ Identities = 87/222 (39%), Positives = 136/222 (61%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG    D N   +
+Sbjct  32   LRDQQKANAVLDKQSKIIEVAGID-SKGKKVPELFAQYIEPRLVDFATGDFV-DGNAATY  89
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA +P  S   T ++D AKI  RAN   V+ V  +   +S +++P +G GLWSM+Y
+Sbjct  90   DQRKAAKDPAQSIKLTAEQDDAKILRRANTGVVYLV-KNGDSISKIILPVHGNGLWSMMY  148
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++VKGG 
+Sbjct  149  AFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDENHKPAIKVVKGGA  208
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+              G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  209  PVGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q8DBJ4|NQRC_VIBVU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio vulnificus (strain CMCP6) OX=216895 GN=nqrC 
+PE=3 SV=1
+Length=255
+
+ Score = 321 bits (823),  Expect = 5e-111, Method: Composition-based stats.
+ Identities = 87/222 (39%), Positives = 136/222 (61%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG    D N   +
+Sbjct  32   LRDQQKANAVLDKQSKIIEVAGID-SKGKKVPELFAQYIEPRLVDFATGDFV-DGNAATY  89
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA +P  S   T ++D AKI  RAN   V+ V  +   +S +++P +G GLWSM+Y
+Sbjct  90   DQRKAAKDPAQSIKLTAEQDDAKILRRANTGVVYLV-KNGDSISKIILPVHGNGLWSMMY  148
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++VKGG 
+Sbjct  149  AFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDENHKPAIKVVKGGA  208
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+              G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  209  PVGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q75R62|NQRC_VIBAN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio anguillarum OX=55601 GN=nqrC PE=3 SV=1
+Length=255
+
+ Score = 319 bits (818),  Expect = 2e-110, Method: Composition-based stats.
+ Identities = 88/222 (40%), Positives = 133/222 (60%), Gaps = 6/222 (3%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++      + Q  ++  A +N  +     ++FAK ++P LI+  TG    D +   +
+Sbjct  33   LRDKQKVNAVLDKQSKIVEVAGIN--ESGSVPELFAKYIEPRLIDFKTGNFV-DGDATAY  89
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R A+ +P  S   T ++D AKI  RAN   V+ V     ++S V+VP +G GLWSM+Y
+Sbjct  90   DQRKASKDPAQSIKLTAEQDKAKIIRRANTGVVYLV-KSGDEISKVIVPVHGNGLWSMMY  148
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFDD  + A+++VKGG 
+Sbjct  149  AFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDDNHQPAIKVVKGGA  208
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+              G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  209  PAGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q9RFV9|NQRC_VIBCB Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio campbellii (strain ATCC BAA-1116 / BB120) 
+OX=338187 GN=nqrC PE=1 SV=4
+Length=261
+
+ Score = 316 bits (809),  Expect = 8e-109, Method: Composition-based stats.
+ Identities = 88/226 (39%), Positives = 138/226 (61%), Gaps = 8/226 (4%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKV----DSDAN  57
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG      +  + 
+Sbjct  33   LRDQQKANAVLDKQSKIVEVAGID-AEGKKVPELFAEYIEPRLVDFKTGDFVEKAEDGST  91
+
+Query  58   VLDFDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLW  115
+              ++D+R AA +P  S   T  +D AKI  RAN   V+ V  +   +S V++P +G GLW
+Sbjct  92   AANYDQRKAAKDPAESIKLTADEDKAKILRRANTGIVYLV-KNGDDISKVIIPVHGNGLW  150
+
+Query  116  SMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLV  175
+            SM+Y +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++V
+Sbjct  151  SMMYAFVAVETDGNTVSGITYYEQGETPGLGGEVENPVWRAQFVGKKLFDENHKPAIKIV  210
+
+Query  176  KGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            KGG  EG  HGVD +SGAT+TG GVQ   +FW G  GF  F  +++
+Sbjct  211  KGGAPEGSEHGVDGLSGATLTGNGVQGTFDFWLGDMGFGPFLAKVR  256
+
+
+> sp|Q56582|NQRC_VIBAL Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio alginolyticus OX=663 GN=nqrC PE=1 SV=3
+Length=256
+
+ Score = 315 bits (808),  Expect = 8e-109, Method: Composition-based stats.
+ Identities = 85/222 (38%), Positives = 141/222 (64%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++   G +  ++FA+ ++P L++L+TG    + N   +
+Sbjct  33   LRDKQKANAVLDKQSKIVEVAGID-ANGKKVPELFAEYIEPRLVDLETGNFT-EGNASTY  90
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R A+ + E S   TP++D+A I+ RAN A V+ V  D  ++  V++P +GKGLWSM+Y
+Sbjct  91   DQREASKDAERSIALTPEEDVADIRRRANTAVVYLV-KDQDEVQKVILPMHGKGLWSMMY  149
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+  +  YE GETPG+G  V +P W   + GK+L+++  + A+++VKGG 
+Sbjct  150  AFVAVETDGNTVSAITYYEQGETPGLGGEVENPSWRDQFIGKKLYNEDHQPAIKVVKGGA  209
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+             +G  HGVD +SGAT+T  GVQ   +FW G +GF  F  +++
+Sbjct  210  PQGSEHGVDGLSGATLTSNGVQHTFDFWLGDKGFGPFLAKVR  251
+
+
+> sp|Q87MA8|NQRC_VIBPA Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio parahaemolyticus serotype O3:K6 (strain 
+RIMD 2210633) OX=223926 GN=nqrC PE=3 SV=1
+Length=261
+
+ Score = 314 bits (804),  Expect = 5e-108, Method: Composition-based stats.
+ Identities = 88/226 (39%), Positives = 137/226 (61%), Gaps = 8/226 (4%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDAN----  57
+            L++++ A    + Q  ++  A +    G +  +++A+ ++P L++  TG+   +A     
+Sbjct  33   LRDKQKANAVLDKQSKIVEVAGIE-ANGKKVPELYAEYIEPRLVDFATGEFVEEAADGSK  91
+
+Query  58   VLDFDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLW  115
+              ++D+R AA +  TS   T ++D AKI  RAN   V+ V  +   +S V++P +G GLW
+Sbjct  92   AANYDQRKAAKDNATSIKLTAEQDKAKIIRRANTGIVYLV-KNGDDVSKVIIPVHGNGLW  150
+
+Query  116  SMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLV  175
+            SM+Y +VAVE D NT+ G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++V
+Sbjct  151  SMMYAFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQWVGKKLFDENHKPAIKVV  210
+
+Query  176  KGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            KGG   G  HGVD +SGAT+TG GVQ   +FW G  GF  F  +++
+Sbjct  211  KGGAPAGSEHGVDGLSGATLTGNGVQGTFDFWLGDMGFGPFLAKVR  256
+
+
+> sp|P0C6E0|NQRC_VIBCH Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio cholerae serotype O1 (strain ATCC 39315 
+/ El Tor Inaba N16961) OX=243277 GN=nqrC PE=1 SV=1
+Length=257
+
+ Score = 311 bits (797),  Expect = 5e-107, Method: Composition-based stats.
+ Identities = 88/222 (40%), Positives = 134/222 (60%), Gaps = 4/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++      + Q  +L  A +      +  ++F KS++P L++ +TG    + +  ++
+Sbjct  33   LRDKQKENAALDKQSKILQVAGIEAKGSKQIVELFNKSIEPRLVDFNTGDFV-EGDAANY  91
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA     S   T ++D AKI+ RAN   V+ V  D  K S V++P +G GLWSM+Y
+Sbjct  92   DQRKAAKEASESIKLTAEQDKAKIQRRANVGVVYLV-KDGDKTSKVILPVHGNGLWSMMY  150
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++VKGG 
+Sbjct  151  AFVAVETDGNTVSGLTYYEQGETPGLGGEVENPAWRAQWVGKKLFDENHKPAIKIVKGGA  210
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+             +G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  211  PQGSEHGVDGLSGATLTSNGVQNTFDFWLGDMGFGPFLTKVR  252
+
+
+> sp|A5F5Y7|NQRC_VIBC3 Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio cholerae serotype O1 (strain ATCC 39541 
+/ Classical Ogawa 395 / O395) OX=345073 GN=nqrC PE=1 SV=1
+Length=257
+
+ Score = 311 bits (797),  Expect = 5e-107, Method: Composition-based stats.
+ Identities = 88/222 (40%), Positives = 134/222 (60%), Gaps = 4/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++      + Q  +L  A +      +  ++F KS++P L++ +TG    + +  ++
+Sbjct  33   LRDKQKENAALDKQSKILQVAGIEAKGSKQIVELFNKSIEPRLVDFNTGDFV-EGDAANY  91
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA     S   T ++D AKI+ RAN   V+ V  D  K S V++P +G GLWSM+Y
+Sbjct  92   DQRKAAKEASESIKLTAEQDKAKIQRRANVGVVYLV-KDGDKTSKVILPVHGNGLWSMMY  150
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++VKGG 
+Sbjct  151  AFVAVETDGNTVSGLTYYEQGETPGLGGEVENPAWRAQWVGKKLFDENHKPAIKIVKGGA  210
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+             +G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  211  PQGSEHGVDGLSGATLTSNGVQNTFDFWLGDMGFGPFLTKVR  252
+
+
+> sp|Q8ZBZ2|NQRC_YERPE Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Yersinia pestis OX=632 GN=nqrC PE=3 SV=1
+Length=266
+
+ Score = 305 bits (782),  Expect = 1e-104, Method: Composition-based stats.
+ Identities = 83/223 (37%), Positives = 133/223 (60%), Gaps = 3/223 (1%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQ--GNEFRDIFAKSVKPLLINLDTGKV-DSDANV  58
+            LK ++  ++  + QR +L  A +   +    E +  FA  ++P L++L +G+    D   
+Sbjct  37   LKAKQQEQRLLDKQRNILAVAGLLQPRMLAEEVQQAFATRIEPRLLDLQSGEFLKQDPAT  96
+
+Query  59   LDFDERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMI  118
+             D  + +       + TP +DIA I+ RAN   ++ V  D G+++ V++P YG GLWSM+
+Sbjct  97   FDRSQALRDNQMSIALTPAQDIAGIRRRANVVEIYLVRGDGGQINKVILPIYGSGLWSMM  156
+
+Query  119  YGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGG  178
+            Y +VA++ D  T++G+  Y+HGETPG+G  + +P W + W GK+LFDD+G+ A+R+VKG 
+Sbjct  157  YAFVAIDTDGKTVRGITYYDHGETPGLGGEIENPIWRNQWIGKRLFDDQGQPAIRIVKGR  216
+
+Query  179  VKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+                D H VD +SGAT+T  GVQ +  FW G  GF  F  +++
+Sbjct  217  APANDPHAVDGLSGATLTSNGVQNSFNFWLGENGFGPFLKKVR  259
+
+
+> sp|Q9CLA9|NQRC_PASMU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Pasteurella multocida (strain Pm70) OX=272843 
+GN=nqrC PE=3 SV=1
+Length=260
+
+ Score = 290 bits (743),  Expect = 8e-99, Method: Composition-based stats.
+ Identities = 83/225 (37%), Positives = 137/225 (61%), Gaps = 7/225 (3%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADV--NLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVL  59
+            LK  ++ +K  + Q+ +L  A +     + +E + I+A +++  L++L+TG         
+Sbjct  33   LKPTQIEQKELDKQKNILSVAGLLQPTTKNSEIKTIYANNIEARLVDLNTGDF--APAQP  90
+
+Query  60   DFDERMAAINPETSST--PKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSM  117
+             FD   A  NP  S+    + D+A I+ RAN A V+ V +D+G+++ VV+PFYGKGLWSM
+Sbjct  91   GFDAAKAVKNPAESTALSAEDDVAGIRVRANFAEVYLVKNDAGQVTQVVLPFYGKGLWSM  150
+
+Query  118  IYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKG  177
+            +YG+++V+PD NT+ G+  Y+ GETPG+G  + +P W + + GK+L+    +  + + KG
+Sbjct  151  MYGFMSVQPDGNTVNGITYYDQGETPGLGGEIENPKWQAQFPGKKLYTADNQVGLYVGKG  210
+
+Query  178  GVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKA  222
+                   HG+DA+SG+T+T  GV  + +FW G +GF  F  +LKA
+Sbjct  211  -ASANAEHGIDAISGSTLTSNGVNNSFKFWLGQKGFGPFLAKLKA  254
+
+
+> sp|Q7VNU7|NQRC_HAEDU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Haemophilus ducreyi (strain 35000HP / ATCC 700724) 
+OX=233412 GN=nqrC PE=3 SV=1
+Length=257
+
+ Score = 290 bits (743),  Expect = 8e-99, Method: Composition-based stats.
+ Identities = 86/224 (38%), Positives = 138/224 (62%), Gaps = 6/224 (3%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K+ + Q+ +L AA + + +    ++ +AK ++P +++L TG    D  V +F
+Sbjct  34   LKPTQDIQKQLDKQKNILQAAGL-MHENTNVQETYAKFIEPKIVDLATGDYVED--VANF  90
+
+Query  62   DERMAAINPETS--STPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D +  A +P TS    P+ D A I+ RA  A V+ V D+ G+ + VV+P YG GLWSM+Y
+Sbjct  91   DAKAFAKDPATSVAIKPEDDKANIRMRAKYAEVYLVKDEMGQTTQVVLPMYGNGLWSMMY  150
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+            G+VAV+PD NT+ G+  YE GET G+G  + +P+W   + GK+LF+   + A+ + KG  
+Sbjct  151  GFVAVQPDANTVNGITYYEQGETAGLGGEIANPNWQKSFVGKKLFNANNEVALTIGKGAS  210
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             +   HGVD +SGAT+T +GV  + ++WFG  GF  +  + KA+
+Sbjct  211  ADK-EHGVDGLSGATLTSKGVDNSFKYWFGTNGFGPYLAKFKAT  253
+
+
+> sp|Q9JVQ0|NQRC_NEIMA Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Neisseria meningitidis serogroup A / serotype 
+4A (strain Z2491) OX=122587 GN=nqrC PE=3 SV=1
+Length=258
+
+ Score = 286 bits (732),  Expect = 3e-97, Method: Composition-based stats.
+ Identities = 86/224 (38%), Positives = 139/224 (62%), Gaps = 5/224 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q Y+L  A + + +  +    FA+ ++  +++L TG+   DA   DF
+Sbjct  35   LKPIQEKQKLQDKQGYILSVAGL-MDKDTDIGKTFAERIEQRVVDLATGEYVKDA-PKDF  92
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+              R+A  +P  S    P+ D+A IK+RA    V+ V  + GK+  +++P +G GLWS++Y
+Sbjct  93   SARIAGKDPAQSIRIKPEDDLAGIKSRAKYTEVYLVKGEDGKIGQIILPMHGNGLWSVMY  152
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+            G+VA++PD NTI G+  YE GETPG+G  + +P W   + GK+LFD +GK A+ + KG  
+Sbjct  153  GFVAIQPDGNTINGITYYEQGETPGLGGEIGNPLWQQKFVGKKLFDGQGKLALHVGKGAG  212
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             +   HGVDA+SGA++T +GVQ +  +WFG  G+  + N+LK++
+Sbjct  213  SDK-EHGVDALSGASLTSKGVQGSFAYWFGENGYIPYLNKLKSA  255
+
+
+> sp|P43957|NQRC_HAEIN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Haemophilus influenzae (strain ATCC 51907 / 
+DSM 11121 / KW20 / Rd) OX=71421 GN=nqrC PE=3 SV=1
+Length=244
+
+ Score = 285 bits (729),  Expect = 6e-97, Method: Composition-based stats.
+ Identities = 80/221 (36%), Positives = 134/221 (61%), Gaps = 13/221 (6%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q+ +L  A + L +    ++ +AK ++P  ++L TG+    A+    
+Sbjct  34   LKPAQEEQKLLDKQKNILNVAGL-LQENTNVKETYAKFIEPRFVDLATGEYTQQAD----  88
+
+Query  62   DERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGY  121
+                   + + +     D A+I++R+    V+ V D+ G+   V++P YG GLWS++YG 
+Sbjct  89   -------DSQQAIPADADKARIRSRSKTTEVYLVKDEQGQTQQVILPIYGTGLWSVMYGL  141
+
+Query  122  VAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKE  181
+            V+V+PD NTI G+  Y+HGETPG+G  + +P+W SL+KGK+LFD++ + A+R+VKG   +
+Sbjct  142  VSVQPDGNTINGITYYQHGETPGLGGEIENPNWASLFKGKKLFDEQHQPAIRIVKGQAPQ  201
+
+Query  182  GDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKA  222
+             D H +D +SGAT+TG GVQ    +WF  +GF  +  +L +
+Sbjct  202  -DEHSIDGLSGATLTGNGVQGTFNYWFSKDGFGPYLEKLHS  241
+
+
+> sp|Q9K0M5|NQRC_NEIMB Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Neisseria meningitidis serogroup B (strain MC58) 
+OX=122586 GN=nqrC PE=3 SV=1
+Length=258
+
+ Score = 282 bits (721),  Expect = 1e-95, Method: Composition-based stats.
+ Identities = 85/224 (38%), Positives = 139/224 (62%), Gaps = 5/224 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q Y+L  A + + +  +    FA+ ++  +++L TG+  +DA   DF
+Sbjct  35   LKPIQEKQKLQDKQGYILSVAGL-MDKDTDIGKTFAERIEQRVVDLATGEYVADA-PKDF  92
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+              R+A  +P  S     + D+A IK+RA    V+ V  + GK+  +++P +G GLWS++Y
+Sbjct  93   SARIAGKDPAQSIRIKTEDDLAGIKSRAKYTEVYLVKGEDGKIGQIILPMHGNGLWSVMY  152
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+            G+VA++PD NTI G+  YE GETPG+G  + +P W   + GK+LFD +GK A+ + KG  
+Sbjct  153  GFVAIQPDGNTINGITYYEQGETPGLGGEIGNPLWQQKFVGKKLFDGQGKLALHVGKGAG  212
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             +   HGVDA+SGA++T +GVQ +  +WFG  G+  + N+LK++
+Sbjct  213  SDK-EHGVDALSGASLTSKGVQGSFAYWFGENGYIPYLNKLKSA  255
+
+
+> sp|Q9HZK8|NQRC_PSEAE Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Pseudomonas aeruginosa (strain ATCC 15692 / 
+DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 
+/ PAO1) OX=208964 GN=nqrC PE=3 SV=1
+Length=261
+
+ Score = 270 bits (690),  Expect = 9e-91, Method: Composition-based stats.
+ Identities = 80/228 (35%), Positives = 125/228 (55%), Gaps = 8/228 (4%)
+
+Query  1    SLKERKLAKKRDELQRYVLMAADVNLGQ--GNEFRDIFAKSVKPLLINLDTGKVDSDANV  58
+            +LK  +   +  + QR +L  A +      G E + +F   +   +++L +G      + 
+Sbjct  31   ALKPTQAENRLLDKQRSILAIAGLGEPGMSGKEVKALFDSRITAKVVDLQSGTFSDAQDP  90
+
+Query  59   LDFDERMAAINPETSST--PKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWS  116
+            L +D   AA +P  S      +DIA IK R     V+ V  D GKL ++++P  G GLWS
+Sbjct  91   LGYDPLKAAKDPALSDALPAAEDIASIKRRERYTTVYLVETD-GKLDTLILPVRGYGLWS  149
+
+Query  117  MIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVK  176
+             +YG++A++ D NT+ G   Y+HGETPG+G  V +P W +LW GK L+D +G  A++++K
+Sbjct  150  TLYGFLALKGDLNTVAGFGFYQHGETPGLGGEVDNPKWKALWVGKTLYDAQGDLAVQIIK  209
+
+Query  177  GGVKEGD---IHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            G V        H VD ++GAT+T +GV   + FW G +GF  F   L+
+Sbjct  210  GSVDPQSAKATHQVDGLAGATLTSKGVDNLLHFWLGKDGFDAFLANLR  257
+
+
+> sp|Q9Z8B5|NQRC_CHLPN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia pneumoniae OX=83558 GN=nqrC PE=3 SV=1
+Length=320
+
+ Score = 199 bits (506),  Expect = 4e-62, Method: Composition-based stats.
+ Identities = 60/234 (26%), Positives = 104/234 (44%), Gaps = 24/234 (10%)
+
+Query  10   KRDELQRYVLMAADVNLGQGNEFR-DIFAKS-VKPLLINLDTGKV----DSDANVLDFDE  63
+               + +  +L  A   + + +    +++A+  V+PLL +   GKV    + + N ++F E
+Sbjct  80   ATFDKKTQLLEVATKKVSEVSYPELELYAERFVRPLLTDAQ-GKVFSFEEKNLNPIEFFE  138
+
+Query  64   RMAAINP-ETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYV  122
+            +     P + S  P   I +  +R  +     V  D   + +++ P  G GLW  I+GY+
+Sbjct  139  KYQESPPCQQSPLPFYVILENTSRTENMSGADVAKDLSTVQALIFPISGFGLWGPIHGYL  198
+
+Query  123  AVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDK---------GKFAMR  173
+             V+ D +T+ G   Y+ GETPG+G  +T+P W   + GK++F                + 
+Sbjct  199  GVKNDGDTVLGTAWYQQGETPGLGANITNPEWQEQFYGKKIFLQDSSGTTNFATTDLGLE  258
+
+Query  174  LVKGGV------KEGDIHGVDAVSGATMTGRGVQRAMEFWFG-VEGFQTFFNQL  220
+            +VKG V          +  +D +SGAT+T  GV  A              F+ L
+Sbjct  259  VVKGSVRTTLGDSPKALSAIDGISGATLTCNGVTEAYVQSLACYRQLLINFSNL  312
+
+
+> sp|Q823P3|NQRC_CHLCV Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydophila caviae (strain ATCC VR-813 / DSM 
+19441 / GPIC) OX=227941 GN=nqrC PE=3 SV=1
+Length=319
+
+ Score = 190 bits (482),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 58/237 (24%), Positives = 100/237 (42%), Gaps = 28/237 (12%)
+
+Query  10   KRDELQRYVLMAADVNLGQ-GNEFRDIFAK-SVKPLLINLDTGKV----DSDANVLDFDE  63
+               + + ++L  AD +     +   D + +  V+PLL +   G++    + + NV +F E
+Sbjct  78   AVYDKKSHLLKVADQHAPVVTSSVLDAYTQGFVRPLLAD-KLGQMFSFEEKNINVTEFIE  136
+
+Query  64   RMAAINPETSSTPKKDIAKIKTRANDARVF---KVFDDSGKLSSVVVPFYGKGLWSMIYG  120
+            +    N      P      I      AR      V  +   + ++++P  G GLW  IYG
+Sbjct  137  KHQ--NGHFYQQPLLLFYVILANTEQARAMSAADVIKNPSVVRAIIIPISGFGLWGPIYG  194
+
+Query  121  YVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFD---------DKGKFA  171
+            Y+AVE + +T+ G   Y+  ETPG+G  + +P W   + GK++F                
+Sbjct  195  YLAVENNGDTVLGTAWYQQAETPGLGANIANPQWQKQFYGKKIFLQAAAGNTDFATTPLG  254
+
+Query  172  MRLVKGGVK------EGDIHGVDAVSGATMTGRGVQRAMEFWFG-VEGFQTFFNQLK  221
+            + ++KG V+         +  +D +SGAT+T  GV  A              F +L 
+Sbjct  255  LEVIKGSVQSAFGTTPKALSSIDGISGATLTCNGVTEAYAQSLAPYRNLLISFAKLN  311
+
+
+> sp|O84281|NQRC_CHLTR Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia trachomatis (strain D/UW-3/Cx) OX=272561 
+GN=nqrC PE=3 SV=1
+Length=316
+
+ Score = 186 bits (471),  Expect = 7e-57, Method: Composition-based stats.
+ Identities = 56/234 (24%), Positives = 95/234 (41%), Gaps = 20/234 (9%)
+
+Query  10   KRDELQRYVLMAADVNLGQG-NEFRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAI  68
+                 ++ +L  +              F   V+ LL +        + + L+ +E ++  
+Sbjct  77   ALYNTKKQLLEISSTPPKVTVTTLSSYFQNFVRVLLTDTQGNLSSFEDHNLNLEEFLSQP  136
+
+Query  69   NPETSSTPKKDIAKIKTR---ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVE  125
+             P         +  I      ++     +V  +   + S+V+P  G GLW  IYG++A+E
+Sbjct  137  TPVIHGLALYVVYAILHNDAASSKLSASQVAKNPTAIESIVLPIEGFGLWGPIYGFLALE  196
+
+Query  126  PDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFD---------DKGKFAMRLVK  176
+             D NT+ G   Y+HGETPG+G  + +P W   ++GK++F           K    + ++K
+Sbjct  197  KDGNTVLGTSWYQHGETPGLGANIANPQWQKNFRGKKVFLVSASGETDFAKTTLGLEVIK  256
+
+Query  177  GGV------KEGDIHGVDAVSGATMTGRGVQRAMEFWFG-VEGFQTFFNQLKAS  223
+            G V             +D +SGAT+T  GV  +            TFF   K S
+Sbjct  257  GSVSAALGDSPKAASSIDGISGATLTCNGVTESFSHSLAPYRALLTFFANSKPS  310
+
+
+> sp|Q9PKB5|NQRC_CHLMU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia muridarum (strain MoPn / Nigg) OX=243161 
+GN=nqrC PE=3 SV=1
+Length=318
+
+ Score = 184 bits (466),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 57/207 (28%), Positives = 90/207 (43%), Gaps = 19/207 (9%)
+
+Query  36   FAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTR---ANDARV  92
+            F   V+ LL +        + + L+ +E ++             I  I      +     
+Sbjct  105  FQNFVRVLLTDSQGNLSSFEDHNLNLEEFLSHPTSSVQDHSLHVIYAILANDESSKKLSS  164
+
+Query  93   FKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDP  152
+             +V  +   + S+++P  G GLW  IYG++A+E D NT+ G   Y+HGETPG+G  +T+P
+Sbjct  165  SQVAKNPVSIESIILPIKGFGLWGPIYGFLALEKDGNTVLGTCWYQHGETPGLGANITNP  224
+
+Query  153  HWLSLWKGKQLFD---------DKGKFAMRLVKGGV------KEGDIHGVDAVSGATMTG  197
+             W   ++GK++F           K    + ++KG V             VD +SGAT+T 
+Sbjct  225  QWQQNFRGKKVFLASSSGETDFAKTTLGLEVIKGSVSALLGDSPKANSAVDGISGATLTC  284
+
+Query  198  RGVQRAMEFWFG-VEGFQTFFNQLKAS  223
+             GV  A            TFF  L +S
+Sbjct  285  NGVTEAFANSLAPYRPLLTFFANLNSS  311
+
+
+> sp|Q8TSY2|RNFG_METAC Ion-translocating oxidoreductase complex 
+subunit G OS=Methanosarcina acetivorans (strain ATCC 35395 
+/ DSM 2834 / JCM 12185 / C2A) OX=188937 GN=rnfG PE=1 SV=1
+Length=188
+
+ Score = 106 bits (263),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 36/113 (32%), Positives = 51/113 (45%), Gaps = 12/113 (11%)
+
+Query  93   FKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDP  152
+            +K  D SG +   VV     G   MI     +  DF+TI G  V +H ETPG+G  +T P
+Sbjct  77   YKGVDSSGNVVGYVVERNQVGAQGMIQLLAGISSDFSTITGFQVMKHSETPGLGALITTP  136
+
+Query  153  HWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+             +   +       D       L K G +      VDA+SGAT++ + V  A+ 
+Sbjct  137  EFQGQFV------DLPVADTSLTKNGGQ------VDAISGATISSQAVVDALH  177
+
+
+> sp|D8GR68|RNFG_CLOLD Proton-translocating ferredoxin:NAD(+) oxidoreductase 
+complex subunit G OS=Clostridium ljungdahlii (strain 
+ATCC 55383 / DSM 13528 / PETC) OX=748727 GN=rnfG PE=3 
+SV=1
+Length=185
+
+ Score = 97.5 bits (241),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 37/121 (31%), Positives = 56/121 (46%), Gaps = 12/121 (10%)
+
+Query  96   FDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWL  155
+                 K  + VVP   KG    I   VAV PD   I   +V  H ETPG+G   +     
+Sbjct  73   AQKGNKTIAYVVPAESKGYGGAIELLVAVTPDGKVIDFSIV-SHNETPGLGANASKDS--  129
+
+Query  156  SLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQT  215
+              ++G+  F DK   A+ +VK    + +   + A++GAT+T + V + ++    VE   T
+Sbjct  130  --FRGQ--FKDKKADALTVVK---DKSNTKNIQAMTGATITSKAVTKGVK--EAVEQVTT  180
+
+Query  216  F  216
+            F
+Sbjct  181  F  181
+
+
+> sp|A3PRP7|RNFG_RHOS1 Ion-translocating oxidoreductase complex 
+subunit G OS=Rhodobacter sphaeroides (strain ATCC 17029 / ATH 
+2.4.9) OX=349101 GN=rnfG PE=3 SV=1
+Length=219
+
+ Score = 74.4 bits (181),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 40/131 (31%), Positives = 57/131 (44%), Gaps = 15/131 (11%)
+
+Query  81   AKIKTRAND----ARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVV  136
+            A I+T A+      RV+ V    G +++V     G G    I   +AV  D  TI G  V
+Sbjct  77   ADIRTLADADEGAVRVY-VATRGGAVTAVTFELTGYGYGGAIRVLMAVAADG-TILGARV  134
+
+Query  137  YEHGETPGIGD--FVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGAT  194
+              H ETPG+GD   +    W+  + G+ L  D G    ++ + G         D  SGAT
+Sbjct  135  LSHTETPGLGDKIEIGKDDWIEGFAGRSL-TDPGPAGWKVRRDGG------VFDQFSGAT  187
+
+Query  195  MTGRGVQRAME  205
+            +T R V   + 
+Sbjct  188  ITPRAVVGTIH  198
+
+
+> sp|Q3IXC2|RNFG_RHOS4 Ion-translocating oxidoreductase complex 
+subunit G OS=Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 
+/ NCIB 8253 / DSM 158) OX=272943 GN=rnfG PE=3 SV=1
+Length=219
+
+ Score = 74.0 bits (180),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 38/132 (29%), Positives = 53/132 (40%), Gaps = 10/132 (8%)
+
+Query  76   PKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVV  135
+            P  DI  +      A    V    G +++V     G G    I   +AV  D  TI G  
+Sbjct  75   PTADIRTLSDADEGAVRVYVAARGGAVTAVTFELTGYGYGGAIRVLMAVAADG-TILGAR  133
+
+Query  136  VYEHGETPGIGD--FVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGA  193
+            V  H ETPG+GD   +    W+  + G+ L  D G    ++ + G         D  SGA
+Sbjct  134  VLSHTETPGLGDKIEIGKDDWIEGFAGRSL-TDPGPAGWKVRRDGG------VFDQFSGA  186
+
+Query  194  TMTGRGVQRAME  205
+            T+T R V   + 
+Sbjct  187  TITPRAVVGTIH  198
+
+
+> sp|H6LC30|RNFG_ACEWD Na(+)-translocating ferredoxin:NAD(+) oxidoreductase 
+complex subunit G OS=Acetobacterium woodii (strain 
+ATCC 29683 / DSM 1030 / JCM 2381 / KCTC 1655 / WB1) OX=931626 
+GN=rnfG PE=1 SV=1
+Length=207
+
+ Score = 70.6 bits (171),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 31/147 (21%), Positives = 56/147 (38%), Gaps = 14/147 (10%)
+
+Query  68   INPETSSTPKKDIAKIKTR------ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGY  121
+               +  + P KD+ KI +            V+    +   +   V      G    +   
+Sbjct  61   KAADFEAVPAKDVEKIASEIGMEKPEELLEVYIGKSNGEVVGYTVKTGPTSGYAGEVQVL  120
+
+Query  122  VAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKE  181
+              +  D   I G+ + +  ETPG+G   +   W   + GK       K  + +VKG  KE
+Sbjct  121  TGISADG-VITGITIIKSNETPGLGAKASG-VWNDQFTGK-----SAKEELVVVKGTTKE  173
+
+Query  182  GDIHGVDAVSGATMTGRGVQRAMEFWF  208
+            G  + + A++G+T+T + V   +    
+Sbjct  174  GS-NEIQAITGSTITSKAVTSGVNMSI  199
+
+
+> sp|P97054|RNFG_RHOCA Ion-translocating oxidoreductase complex 
+subunit G OS=Rhodobacter capsulatus OX=1061 GN=rnfG PE=1 SV=1
+Length=217
+
+ Score = 69.0 bits (167),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 37/140 (26%), Positives = 55/140 (39%), Gaps = 16/140 (11%)
+
+Query  67   AINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEP  126
+              +   +  P  D           +V+ V   +G ++ +     G G    I   + + P
+Sbjct  70   DNDLAAAMRPVSD-----AEEGTIKVY-VATKAGAVTGLAYELSGPGYSGQIRVLLGIAP  123
+
+Query  127  DFNTIKGVVVYEHGETPGIGD--FVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDI  184
+            D  T+ GV V  H ETPG+GD   V    W+  + GK L     +     VK      D 
+Sbjct  124  DG-TLLGVRVLSHTETPGLGDKIEVAKDDWILGFAGKSL--ADPEPGHWKVK-----RDG  175
+
+Query  185  HGVDAVSGATMTGRGVQRAM  204
+               D  SGAT+T R V + +
+Sbjct  176  GVFDQFSGATITPRAVVKTI  195
+
+
+> sp|Q7N4F7|RNFG_PHOLL Ion-translocating oxidoreductase complex 
+subunit G OS=Photorhabdus laumondii subsp. laumondii (strain 
+DSM 15139 / CIP 105565 / TT01) OX=243265 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 64.0 bits (154),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/117 (23%), Positives = 51/117 (44%), Gaps = 10/117 (9%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT  150
+            R++    +   +++ +      G    I   V  +     + GV V EH ETPG+GD + 
+Sbjct  78   RLYLARKNGHPVAAALESTAPDGYSGAIQLLVGADFSGK-VLGVRVTEHHETPGLGDKIE  136
+
+Query  151  D--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+                +W++++ GK +          + K G +       D  +GAT+T R V  +++
+Sbjct  137  TRISNWINVFSGKTI-TSNHDQHWAVKKDGGE------FDQFTGATITPRAVVNSVK  186
+
+
+> sp|Q8ZPM4|RSXG_SALTY Ion-translocating oxidoreductase complex 
+subunit G OS=Salmonella typhimurium (strain LT2 / SGSC1412 
+/ ATCC 700720) OX=99287 GN=rsxG PE=3 SV=1
+Length=206
+
+ Score = 63.6 bits (153),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 31/119 (26%), Positives = 51/119 (43%), Gaps = 10/119 (8%)
+
+Query  89   DARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDF  148
+              RVF    D   +++++      G    I   V  + +  T+ G  V EH ETPG+GD 
+Sbjct  75   THRVFIARKDDKPVAAIIEATAPDGYSGAIQLIVGADFNG-TVLGTRVTEHHETPGLGDK  133
+
+Query  149  VTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+            +      W++ + GK +   +      + K G         D  +GAT+T R V  A++
+Sbjct  134  IERRLSDWITHFSGKTI-SGENDTHWAVKKDGGD------FDQFTGATITPRAVVNAVK  185
+
+
+> sp|A4XS49|RNFG_PSEMY Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas mendocina (strain ymp) OX=399739 GN=rnfG 
+PE=3 SV=1
+Length=211
+
+ Score = 63.6 bits (153),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 34/135 (25%), Positives = 57/135 (42%), Gaps = 18/135 (13%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYG-KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFV  149
+              +       + S++++P     G    I+  V +  D   + GV V  H ETPG+GD +
+Sbjct  82   SAYLALK-GEQPSALILPVTAPDGYSGAIHLLVGIFADGR-LAGVRVLGHRETPGLGDKI  139
+
+Query  150  T--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFW  207
+                  W+  ++GK L D           G   + D    D  +GAT+T R V +A+   
+Sbjct  140  ELAKSDWIRSFEGKSLSDPNED-------GWAVKKDRGEFDQFAGATITPRAVVKAVH--  190
+
+Query  208  FGVEGFQTFFNQLKA  222
+                G   +F++ +A
+Sbjct  191  ----GALRYFDKHRA  201
+
+
+> sp|Q8Z6Q7|RSXG_SALTI Ion-translocating oxidoreductase complex 
+subunit G OS=Salmonella typhi OX=90370 GN=rsxG PE=3 SV=1
+Length=206
+
+ Score = 63.6 bits (153),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 32/119 (27%), Positives = 51/119 (43%), Gaps = 10/119 (8%)
+
+Query  89   DARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDF  148
+              RVF    D   +++++      G    I   V  + +  TI G  V EH ETPG+GD 
+Sbjct  75   THRVFIARKDDKPVAAIIEATAPDGYSGAIQLIVGADFNG-TILGTRVTEHHETPGLGDK  133
+
+Query  149  VTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+            +      W++ + GK +   +      + K G         D  +GAT+T R V  A++
+Sbjct  134  IERRLSDWITHFSGKTI-SGENDTHWAVKKDGGD------FDQFTGATITPRAVVNAVK  185
+
+
+> sp|Q2NSZ9|RNFG_SODGM Ion-translocating oxidoreductase complex 
+subunit G OS=Sodalis glossinidius (strain morsitans) OX=343509 
+GN=rnfG PE=3 SV=1
+Length=211
+
+ Score = 62.9 bits (151),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 39/186 (21%), Positives = 66/186 (35%), Gaps = 15/186 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDA-  90
+                 A  +  L+  L T  ++  A           + P+  +    D   + T      
+Sbjct  14   VFAALATGLTALVNGLTTSTIERQAARQQMQLLDQVVPPDLYNNQLLDECYLVTDPALGS  73
+
+Query  91   ----RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+                R++    D   +++ +      G    I   V  +   N + G  V  H ETPG+G
+Sbjct  74   DAPHRLYLARKDGTPVAAAIETTAPDGYAGAIDLLVGADFSGN-VLGARVTSHHETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +      W++ + GK L  D    +  + K G         D  +GAT+T R V  A+
+Sbjct  133  DKIELRLSDWITHFSGKSLRSDN-DMSWAVKKEGG------MFDQFTGATITPRAVMNAV  185
+
+Query  205  EFWFGV  210
+            +   G 
+Sbjct  186  KRTAGY  191
+
+
+> sp|C3LTR1|RNFG_VIBCM Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio cholerae serotype O1 (strain M66-2) OX=579112 
+GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 62.9 bits (151),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 29/121 (24%), Positives = 50/121 (41%), Gaps = 10/121 (8%)
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            A     +    D    +  +      G    I   V +  +  T+ GV V  H ETPG+G
+Sbjct  74   AKTMHAYLAQRDGQPTAIAIETIAPDGYNGEIKLIVGIANNG-TVLGVRVLAHQETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +     +W+  + G+Q+     +   ++ K G +       D  +GAT+T R V  A+
+Sbjct  133  DKIDLRISNWVLGFNGQQV-TADNQDDWKVRKDGGQ------FDQFTGATITPRAVVLAV  185
+
+Query  205  E  205
+            +
+Sbjct  186  K  186
+
+
+> sp|Q9KT90|RNFG_VIBCH Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio cholerae serotype O1 (strain ATCC 39315 
+/ El Tor Inaba N16961) OX=243277 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 62.9 bits (151),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 29/121 (24%), Positives = 50/121 (41%), Gaps = 10/121 (8%)
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            A     +    D    +  +      G    I   V +  +  T+ GV V  H ETPG+G
+Sbjct  74   AKTMHAYLAQRDGQPTAIAIETIAPDGYNGEIKLIVGIANNG-TVLGVRVLAHQETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +     +W+  + G+Q+     +   ++ K G +       D  +GAT+T R V  A+
+Sbjct  133  DKIDLRISNWVLGFNGQQV-TADNQDDWKVRKDGGQ------FDQFTGATITPRAVVLAV  185
+
+Query  205  E  205
+            +
+Sbjct  186  K  186
+
+
+> sp|B6EGH3|RNFG_ALISL Ion-translocating oxidoreductase complex 
+subunit G OS=Aliivibrio salmonicida (strain LFI1238) OX=316275 
+GN=rnfG PE=3 SV=1
+Length=210
+
+ Score = 62.9 bits (151),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 31/121 (26%), Positives = 52/121 (43%), Gaps = 12/121 (10%)
+
+Query  92   VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTD  151
+            ++    +     + +      G    I   V V+ D + + GV V  H ETPG+GD +  
+Sbjct  80   IYLASMNGKHTGAAIEAIAPDGYSGAIKIIVGVDSD-SIVTGVRVLSHQETPGLGDKIDT  138
+
+Query  152  --PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME--FW  207
+                W+  + GK + D     +  + K G +       D  +GAT+T R V +A++   W
+Sbjct  139  RITRWVDGFLGKTV-DSADDSSWAVQKDGGQ------FDQFTGATITPRAVVKAVKRAVW  191
+
+Query  208  F  208
+            F
+Sbjct  192  F  192
+
+
+> sp|P58345|RSXG_ECO57 Ion-translocating oxidoreductase complex 
+subunit G OS=Escherichia coli O157:H7 OX=83334 GN=rsxG PE=3 
+SV=1
+Length=206
+
+ Score = 62.5 bits (150),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 33/117 (28%), Positives = 52/117 (44%), Gaps = 10/117 (9%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT  150
+            RV+    D   +++V+      G    I   V  + +  T+ G  V EH ETPG+GD + 
+Sbjct  77   RVYIAKQDDKPVAAVLEATAPDGYSGAIQLLVGADFNG-TVLGTRVTEHHETPGLGDKIE  135
+
+Query  151  --DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+                 W++ + GK++       A   VK      D    D  +GAT+T R V  A++
+Sbjct  136  LRLSDWITHFAGKKI--SGADDAHWAVK-----KDGGNFDQFTGATITPRAVVNAVK  185
+
+
+> sp|C5BDE9|RNFG_EDWI9 Ion-translocating oxidoreductase complex 
+subunit G OS=Edwardsiella ictaluri (strain 93-146) OX=634503 
+GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 62.1 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 30/133 (23%), Positives = 52/133 (39%), Gaps = 11/133 (8%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD--F  148
+            R++        ++++V      G    I   V  +     + GV V E  ETPG+GD   
+Sbjct  78   RLYLAQRQGQPIAALVETTAPDGYAGAIRLLVGADFSGK-VLGVRVQEQHETPGLGDKIE  136
+
+Query  149  VTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM-EFW  207
+            +    W+  ++ K +   +   A R+ K G +       D  +GAT+T R V  A+    
+Sbjct  137  IRISDWIDSFRNKVVHGAQ-DPAFRVKKDGGE------FDQFTGATITPRAVVNAVRRTT  189
+
+Query  208  FGVEGFQTFFNQL  220
+              +   +     L
+Sbjct  190  LAIRDIRPHLASL  202
+
+
+> sp|P77285|RSXG_ECOLI Ion-translocating oxidoreductase complex 
+subunit G OS=Escherichia coli (strain K12) OX=83333 GN=rsxG 
+PE=1 SV=1
+Length=206
+
+ Score = 61.7 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 31/117 (26%), Positives = 51/117 (44%), Gaps = 10/117 (9%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT  150
+            RV+    D   +++V+      G    I   V  + +  T+ G  V EH ETPG+GD + 
+Sbjct  77   RVYIAKQDDKPVAAVLEATAPDGYSGAIQLLVGADFNG-TVLGTRVTEHHETPGLGDKIE  135
+
+Query  151  --DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+                 W++ + GK++          + K G         D  +GAT+T R V  A++
+Sbjct  136  LRLSDWITHFAGKKI-SGADDAHWAVKKDGGD------FDQFTGATITPRAVVNAVK  185
+
+
+> sp|A5F2S8|RNFG_VIBC3 Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio cholerae serotype O1 (strain ATCC 39541 
+/ Classical Ogawa 395 / O395) OX=345073 GN=rnfG PE=1 SV=1
+Length=209
+
+ Score = 61.3 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 29/121 (24%), Positives = 50/121 (41%), Gaps = 10/121 (8%)
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            A     +    D    +  +      G    I   V +  +  T+ GV V  H ETPG+G
+Sbjct  74   AKPMHAYLAQRDGQPTAIAIETIAPDGYNGEIKLIVGIANNG-TVLGVRVLAHQETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +     +W+  + G+Q+     +   ++ K G +       D  +GAT+T R V  A+
+Sbjct  133  DKIDLRISNWVLGFNGQQV-TADNQDDWKVRKDGGQ------FDQFTGATITPRAVVLAV  185
+
+Query  205  E  205
+            +
+Sbjct  186  K  186
+
+
+> sp|Q8ZED3|RNFG_YERPE Ion-translocating oxidoreductase complex 
+subunit G OS=Yersinia pestis OX=632 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 59.0 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 33/157 (21%), Positives = 62/157 (39%), Gaps = 17/157 (11%)
+
+Query  52   VDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYG  111
+            +D      ++D  M A     + +   ++A  +       ++     +  +++ +     
+Sbjct  46   LDQVVPAENYDNDMQAECYVVTDSALGNMAPHR-------LYLARKGNQPVAAAIETTAP  98
+
+Query  112  KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGK  169
+             G    I   V  +   N + G  V EH ETPG+GD +      W++ + G+ +  D   
+Sbjct  99   DGYSGAIQLLVGADFHGN-VLGSRVIEHHETPGLGDKIDIRISDWINHFSGQHVTGDDD-  156
+
+Query  170  FAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEF  206
+                  K    + D    D  +GAT+T R V RA++ 
+Sbjct  157  ------KRWAVKKDGGSFDQFTGATITPRAVVRAVKN  187
+
+
+> sp|B7VLT4|RNFG_VIBTL Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio tasmaniensis (strain LGP32) OX=575788 GN=rnfG 
+PE=3 SV=1
+Length=209
+
+ Score = 57.9 bits (138),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 32/122 (26%), Positives = 53/122 (43%), Gaps = 11/122 (9%)
+
+Query  87   ANDARVFKVFDDSGKLSSVVVP-FYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGI  145
+               A    +   +G+ S++ +      G    I   V ++ D  TI G  V  H ETPG+
+Sbjct  73   TEQAMPAYIAKINGEPSAIAIEAIAPDGYNGAIKVIVGMKIDG-TILGTRVLSHQETPGL  131
+
+Query  146  GDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRA  203
+            GD +      W+  + GKQ+  D      ++ K G         D  +GAT+T R V ++
+Sbjct  132  GDKIDLRVSDWILSFAGKQV-TDSNLDRWKVRKDGGD------FDQFTGATITPRAVVKS  184
+
+Query  204  ME  205
+            ++
+Sbjct  185  VK  186
+
+
+> sp|Q15RL1|RNFG_PSEA6 Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudoalteromonas atlantica (strain T6c / ATCC 
+BAA-1087) OX=342610 GN=rnfG PE=3 SV=1
+Length=215
+
+ Score = 57.9 bits (138),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 29/117 (25%), Positives = 49/117 (42%), Gaps = 10/117 (9%)
+
+Query  92   VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT-  150
+            +++       +++V+      G    I   V +  D  T+ GV V +H ETPG+GD +  
+Sbjct  80   IYRATRAGEPVAAVIEATAPNGYSGRIELVVGLSGDA-TVSGVRVIDHKETPGLGDKIDL  138
+
+Query  151  -DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEF  206
+                W+  +  +QL  D              + D    D  +GAT+T R V  A++ 
+Sbjct  139  RISDWVLGFNNQQLTQDNAS-------NWAVKKDGGQFDQFTGATITPRAVVSAVKN  188
+
+
+> sp|Q7MM85|RNFG_VIBVY Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio vulnificus (strain YJ016) OX=196600 GN=rnfG 
+PE=3 SV=1
+Length=211
+
+ Score = 57.9 bits (138),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 28/121 (23%), Positives = 48/121 (40%), Gaps = 10/121 (8%)
+
+Query  88   NDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD  147
+                 +    +    +  +      G    I     ++    T+ G  V  H ETPG+GD
+Sbjct  75   KAMPAYIATRNGQATAIAIESVAPDGYNGAIKIITGIDTSG-TVLGTRVLSHQETPGLGD  133
+
+Query  148  FVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+             +      W++ + GKQL D     + ++ K G +       D  +GAT+T R V +A+ 
+Sbjct  134  KIDLRVTDWITSFTGKQLNDGNYN-SWKVRKDGGE------FDQFTGATITPRAVVKAVR  186
+
+Query  206  F  206
+             
+Sbjct  187  N  187
+
+
+> sp|B5FCN1|RNFG_ALIFM Ion-translocating oxidoreductase complex 
+subunit G OS=Aliivibrio fischeri (strain MJ11) OX=388396 GN=rnfG 
+PE=3 SV=1
+Length=210
+
+ Score = 57.5 bits (137),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 36/150 (24%), Positives = 58/150 (39%), Gaps = 19/150 (13%)
+
+Query  70   PETSSTPKKDIAKIKTRANDAR-------VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYV  122
+            P+     +   A I  + NDA        ++    +     + +      G    I   V
+Sbjct  51   PKEQHDNELYKACILVKNNDALGSKQAMPIYLASLNGKHSGAAIEAIAPDGYSGNIKIIV  110
+
+Query  123  AVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVK  180
+             V+ D   + GV V  H ETPG+GD +      W+  + GK +   +        K    
+Sbjct  111  GVDSDA-IVTGVRVLSHQETPGLGDKIDIRITRWVDAFLGKTVESSED-------KNWAV  162
+
+Query  181  EGDIHGVDAVSGATMTGRGVQRAME--FWF  208
+            + D    D  +GAT+T R V +A++   WF
+Sbjct  163  QKDGGQFDQFTGATITPRAVVKAVKRAVWF  192
+
+
+> sp|Q5E6C0|RNFG_ALIF1 Ion-translocating oxidoreductase complex 
+subunit G OS=Aliivibrio fischeri (strain ATCC 700601 / ES114) 
+OX=312309 GN=rnfG PE=3 SV=1
+Length=210
+
+ Score = 57.5 bits (137),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 30/121 (25%), Positives = 50/121 (41%), Gaps = 12/121 (10%)
+
+Query  92   VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT-  150
+            ++    +     + +      G    I   V V+ D   + GV V  H ETPG+GD +  
+Sbjct  80   IYLASLNGQHSGAAIEAIAPDGYSGNIKIIVGVDSDA-MVTGVRVLSHQETPGLGDKIDI  138
+
+Query  151  -DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME--FW  207
+                W+  + GK + + +        K    + D    D  +GAT+T R V +A++   W
+Sbjct  139  RITRWVDGFLGKTVENAED-------KNWAVQKDGGQFDQFTGATITPRAVVKAVKRAVW  191
+
+Query  208  F  208
+            F
+Sbjct  192  F  192
+
+
+> sp|Q89AW6|RNFG_BUCBP Ion-translocating oxidoreductase complex 
+subunit G OS=Buchnera aphidicola subsp. Baizongia pistaciae 
+(strain Bp) OX=224915 GN=rnfG PE=3 SV=1
+Length=216
+
+ Score = 57.5 bits (137),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 26/113 (23%), Positives = 51/113 (45%), Gaps = 10/113 (9%)
+
+Query  96   FDDSGKLSSVVVP-FYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTD--P  152
+                  +++V+       G   +I   ++++     I GV V  H ETPG+GD +     
+Sbjct  87   AKKKQDITAVIFETIAPDGYSGIIKMVISLDIKNGKILGVRVLSHNETPGLGDKIDVNIS  146
+
+Query  153  HWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+            +W++ + G ++F    +  + L K G        +D  +GAT+T   V  +++
+Sbjct  147  NWITKFSGVKIF-SLDERDLSLKKYGG------NIDQFTGATITPLAVVNSIK  192
+
+
+> sp|Q9CNP4|RNFG_PASMU Ion-translocating oxidoreductase complex 
+subunit G OS=Pasteurella multocida (strain Pm70) OX=272843 
+GN=rnfG PE=3 SV=1
+Length=202
+
+ Score = 57.1 bits (136),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 31/95 (33%), Positives = 42/95 (44%), Gaps = 10/95 (11%)
+
+Query  113  GLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTD--PHWLSLWKGKQLFDDKGKF  170
+            G    I   V + P   TI GV V EH ETPG+GD +      W+  +  +QL  D    
+Sbjct  102  GYAGRIRLLVGITPTG-TILGVRVLEHQETPGLGDKIETRISDWILSFSQQQLRSDN-LA  159
+
+Query  171  AMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+               + K G K       D  +GAT+T R V   ++
+Sbjct  160  DWAVKKDGGK------FDQFAGATITPRAVVNQVK  188
+
+
+> sp|B2VEQ5|RNFG_ERWT9 Ion-translocating oxidoreductase complex 
+subunit G OS=Erwinia tasmaniensis (strain DSM 17950 / CIP 109463 
+/ Et1/99) OX=465817 GN=rnfG PE=3 SV=1
+Length=210
+
+ Score = 57.1 bits (136),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 29/122 (24%), Positives = 48/122 (39%), Gaps = 10/122 (8%)
+
+Query  86   RANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGI  145
+              N   ++    D   ++  +      G    I   V    D   + G  V EH ETPG+
+Sbjct  73   NTNPHHLYLARKDDKPVAVALETTAPDGYSGNIQMIVGASFDG-IVYGTRVVEHHETPGL  131
+
+Query  146  GDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRA  203
+            GD +      W++ + GK++ +        + K G         D  +GAT+T R V  A
+Sbjct  132  GDKIELRISDWINSFNGKKV-NGPSDGHFAVKKDGGD------FDQFTGATITPRAVVNA  184
+
+Query  204  ME  205
+            ++
+Sbjct  185  VK  186
+
+
+> sp|Q9HYB6|RNFG_PSEAE Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 
+22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 
+/ PAO1) OX=208964 GN=rnfG PE=3 SV=1
+Length=214
+
+ Score = 56.3 bits (134),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 34/114 (30%), Positives = 47/114 (41%), Gaps = 11/114 (10%)
+
+Query  95   VFDDSGKLSSVVVPFYG-KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--D  151
+            V    G+ S+V++      G    I   V V      + GV V  H ETPG+GD +    
+Sbjct  86   VARLHGQASAVILQASAPDGYSGAIQLLVGVTAQGR-LLGVRVVAHKETPGLGDRIELAK  144
+
+Query  152  PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+              W+  + GK L       A     G   + D    D  +GAT+T R V RA+ 
+Sbjct  145  SPWVHGFDGKSL--GDPADA-----GWAVKKDGGTFDQFAGATVTPRAVVRAVH  191
+
+
+> sp|Q02QY2|RNFG_PSEAB Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas aeruginosa (strain UCBPP-PA14) OX=208963 
+GN=rnfG PE=3 SV=1
+Length=214
+
+ Score = 56.3 bits (134),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 34/114 (30%), Positives = 47/114 (41%), Gaps = 11/114 (10%)
+
+Query  95   VFDDSGKLSSVVVPFYG-KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--D  151
+            V    G+ S+V++      G    I   V V      + GV V  H ETPG+GD +    
+Sbjct  86   VARLHGQASAVILQASAPDGYSGAIQLLVGVTAQGR-LLGVRVVAHKETPGLGDRIELAK  144
+
+Query  152  PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+              W+  + GK L       A     G   + D    D  +GAT+T R V RA+ 
+Sbjct  145  SPWVHGFDGKSL--GDPADA-----GWAVKKDGGTFDQFAGATVTPRAVVRAVH  191
+
+
+> sp|B7UVW9|RNFG_PSEA8 Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas aeruginosa (strain LESB58) OX=557722 
+GN=rnfG PE=3 SV=1
+Length=214
+
+ Score = 56.3 bits (134),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 34/114 (30%), Positives = 47/114 (41%), Gaps = 11/114 (10%)
+
+Query  95   VFDDSGKLSSVVVPFYG-KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--D  151
+            V    G+ S+V++      G    I   V V      + GV V  H ETPG+GD +    
+Sbjct  86   VARLHGQASAVILQASAPDGYSGAIQLLVGVTAQGR-LLGVRVVAHKETPGLGDRIELAK  144
+
+Query  152  PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+              W+  + GK L       A     G   + D    D  +GAT+T R V RA+ 
+Sbjct  145  SPWVHGFDGKSL--GDPADA-----GWAVKKDGGTFDQFAGATVTPRAVVRAVH  191
+
+
+> sp|Q9EVN3|RNFG_PSEST Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas stutzeri OX=316 GN=rnfG PE=3 SV=1
+Length=228
+
+ Score = 55.9 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 30/116 (26%), Positives = 48/116 (41%), Gaps = 11/116 (9%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD--F  148
+             V+     +G+L++        G    I  ++A++ +   I GV V  H ETPG+ D   
+Sbjct  101  EVYPARR-AGQLTATAFQISTVGYGGPIVQFIALDSEGR-ILGVRVLSHKETPGLADKIE  158
+
+Query  149  VTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            VT   W+  + G  L           VK      D    D  +GAT+T R + + +
+Sbjct  159  VTRSDWIKAFDG--LSLASTPLDQWAVK-----KDGGQFDQFAGATITPRAIVKGV  207
+
+
+> sp|C6DH13|RNFG_PECCP Ion-translocating oxidoreductase complex 
+subunit G OS=Pectobacterium carotovorum subsp. carotovorum 
+(strain PC1) OX=561230 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 55.2 bits (131),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 30/127 (24%), Positives = 50/127 (39%), Gaps = 10/127 (8%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT  150
+            RVF    D   +++ +      G    I   V  +     + GV V EH ETPG+GD + 
+Sbjct  78   RVFIARQDGEPVAAALESTAPDGYSGAIRLLVGADFHGK-VLGVRVTEHHETPGLGDKIE  136
+
+Query  151  D--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+                 W++ + G+ +     + A   VK      +    D  +GAT+T R V  +++   
+Sbjct  137  VRISDWITRFSGQTV--QSEQDARWAVK-----KEGGMFDQFTGATITPRAVINSVKRSA  189
+
+Query  209  GVEGFQT  215
+                   
+Sbjct  190  LYLQTLP  196
+
+
+> sp|B8E552|RNFG_SHEB2 Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella baltica (strain OS223) OX=407976 GN=rnfG 
+PE=3 SV=1
+Length=212
+
+ Score = 54.4 bits (129),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 29/115 (25%), Positives = 48/115 (42%), Gaps = 11/115 (10%)
+
+Query  95   VFDDSGKLSSVVVP-FYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--D  151
+            +   +GK  ++ +      G    I   V +      + GV    H ETPG+GD +    
+Sbjct  82   IATSAGKPVAIAIEAIAPDGYNGNIKLIVGISTKGE-VLGVRTLAHQETPGLGDKIDLRK  140
+
+Query  152  PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEF  206
+             +W+S + GK L     K  + + K G         D  +GAT+T R   +A++ 
+Sbjct  141  SNWVSQFVGKVLGSADDKQWL-VKKDGGD------FDQFTGATITPRAYVKAVKN  188
+
+
+> sp|A7MML1|RNFG_CROS8 Ion-translocating oxidoreductase complex 
+subunit G OS=Cronobacter sakazakii (strain ATCC BAA-894) OX=290339 
+GN=rnfG PE=3 SV=1
+Length=208
+
+ Score = 54.0 bits (128),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 29/114 (25%), Positives = 46/114 (40%), Gaps = 11/114 (10%)
+
+Query  95   VFDDSGKLSSVVVPFYG-KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTD--  151
+            V        +VV+      G    I   V  +    T+ G  V EH ETPG+GD +    
+Sbjct  80   VARKGDTPVAVVMQATAPDGYSGAIQLLVGADFKG-TVLGTRVTEHHETPGLGDKIETRI  138
+
+Query  152  PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+              W++ + G+ +          + K G +       D  +GAT+T R V  A++
+Sbjct  139  SDWITGFAGQVIH-GPNDTRWAVKKDGGQ------FDQFTGATITPRAVVNAVK  185
+
+
+> sp|Q4QJQ4|RNFG_HAEI8 Ion-translocating oxidoreductase complex 
+subunit G OS=Haemophilus influenzae (strain 86-028NP) OX=281310 
+GN=rnfG PE=3 SV=1
+Length=207
+
+ Score = 54.0 bits (128),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 49/115 (43%), Gaps = 12/115 (10%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYG-KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFV  149
+            +++    D G +S+         G    I   V ++P    + GV V EH ETPG+GD +
+Sbjct  78   KIYFAKKD-GNISAYAYETTAPDGYSGDIRLLVGLDPKGE-VLGVRVIEHHETPGLGDKI  135
+
+Query  150  TD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQR  202
+                 +W+  +  + + ++       + K G K       D  SGAT+T R V  
+Sbjct  136  ERRISNWILGFTNQSI-NEHNLSEWAVKKDGGK------FDQFSGATITPRAVVN  183
+
+
+> sp|A5UBI8|RNFG_HAEIE Ion-translocating oxidoreductase complex 
+subunit G OS=Haemophilus influenzae (strain PittEE) OX=374930 
+GN=rnfG PE=3 SV=1
+Length=207
+
+ Score = 54.0 bits (128),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 49/115 (43%), Gaps = 12/115 (10%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYG-KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFV  149
+            +++    D G +S+         G    I   V ++P    + GV V EH ETPG+GD +
+Sbjct  78   KIYFAKKD-GNISAYAYETTAPDGYSGDIRLLVGLDPKGE-VLGVRVIEHHETPGLGDKI  135
+
+Query  150  TD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQR  202
+                 +W+  +  + + ++       + K G K       D  SGAT+T R V  
+Sbjct  136  ERRISNWILGFTNQSI-NEHNLSEWAVKKDGGK------FDQFSGATITPRAVVN  183
+
+
+> sp|P44291|RNFG_HAEIN Ion-translocating oxidoreductase complex 
+subunit G OS=Haemophilus influenzae (strain ATCC 51907 / DSM 
+11121 / KW20 / Rd) OX=71421 GN=rnfG PE=3 SV=1
+Length=207
+
+ Score = 54.0 bits (128),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 49/115 (43%), Gaps = 12/115 (10%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYG-KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFV  149
+            +++    D G +S+         G    I   V ++P    + GV V EH ETPG+GD +
+Sbjct  78   KIYFAKKD-GNVSAYAYETTAPDGYSGDIRLLVGLDPKGE-VLGVRVIEHHETPGLGDKI  135
+
+Query  150  TD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQR  202
+                 +W+  +  + + ++       + K G K       D  SGAT+T R V  
+Sbjct  136  ERRISNWILGFTNQSI-NEHNLSEWAVKKDGGK------FDQFSGATITPRAVVN  183
+
+
+> sp|A3QEN8|RNFG_SHELP Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella loihica (strain ATCC BAA-1088 / PV-4) 
+OX=323850 GN=rnfG PE=3 SV=1
+Length=212
+
+ Score = 54.0 bits (128),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 26/119 (22%), Positives = 47/119 (39%), Gaps = 11/119 (9%)
+
+Query  95   VFDDSGKLSSVVVP-FYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--D  151
+            +    G+  ++ +      G    I   VA++     + GV    H ETPG+GD +    
+Sbjct  82   IASQGGEPVAIAMETVAPDGYNGQIKLIVAIDAKGE-VLGVRTLNHNETPGLGDKIDLRK  140
+
+Query  152  PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGV  210
+              W+  +KG+ +  ++        K    + D    D  +GAT+T R    A++     
+Sbjct  141  SSWVLGFKGQSIQGEQD-------KRWAVKKDGGQFDQFTGATITPRAYVGAVKRTLAY  192
+
+
+> sp|Q87MX0|RNFG_VIBPA Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio parahaemolyticus serotype O3:K6 (strain 
+RIMD 2210633) OX=223926 GN=rnfG PE=3 SV=1
+Length=211
+
+ Score = 53.6 bits (127),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 46/116 (40%), Gaps = 10/116 (9%)
+
+Query  93   FKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--  150
+            +    +    +  +      G    I     ++     I G  V  H ETPG+GD +   
+Sbjct  80   YIATKNGEPTAIAIESIAPDGYNGEIKVITGIDNQGK-ILGTRVLSHQETPGLGDKIDLR  138
+
+Query  151  DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEF  206
+               W+  + GKQ+ +D    + ++ K G         D  +GAT+T R V +A+  
+Sbjct  139  VTSWILGFTGKQVTEDNWN-SWKVRKDGGD------FDQFTGATITPRAVIKAVRN  187
+
+
+> sp|Q6D4W0|RNFG_PECAS Ion-translocating oxidoreductase complex 
+subunit G OS=Pectobacterium atrosepticum (strain SCRI 1043 
+/ ATCC BAA-672) OX=218491 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 51.7 bits (122),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 28/127 (22%), Positives = 48/127 (38%), Gaps = 10/127 (8%)
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT  150
+            RVF    +   +++ +      G    I   V  +     + GV V EH ETPG+GD + 
+Sbjct  78   RVFIARQNGEPVAAALESTAPDGYSGAIRLLVGADFHGK-VLGVRVTEHHETPGLGDKIE  136
+
+Query  151  D--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+                 W++ + G  +   +      + K G         D  +GAT+T R V  +++   
+Sbjct  137  VRISDWITRFNG-LMVQGEHDARWAVKKEGG------MFDQFTGATITPRAVINSVKRSA  189
+
+Query  209  GVEGFQT  215
+                   
+Sbjct  190  LYLQTLP  196
+
+
+> sp|Q8EE77|RNFG_SHEON Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella oneidensis (strain MR-1) OX=211586 
+GN=rnfG PE=3 SV=1
+Length=212
+
+ Score = 50.9 bits (120),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 30/122 (25%), Positives = 50/122 (41%), Gaps = 11/122 (9%)
+
+Query  87   ANDARVFKVFDDSGKLSSVVVP-FYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGI  145
+              DA    +   +GK  ++ +      G    I   V +      + GV    H ETPG+
+Sbjct  74   TEDAMPAYIATAAGKPVAIAMEAIAPDGYNGNIKLIVGINTQGE-VLGVRTLAHQETPGL  132
+
+Query  146  GDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRA  203
+            GD +      W++ + GK L  +  K   ++ K G         D  +GAT+T R   +A
+Sbjct  133  GDKIELRKSDWVTKFVGKVLKSEDDK-QWQVQKDGGD------FDQFTGATITPRAYVKA  185
+
+Query  204  ME  205
+            ++
+Sbjct  186  VK  187
+
+
+> sp|B8CM54|RNFG_SHEPW Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella piezotolerans (strain WP3 / JCM 13877) 
+OX=225849 GN=rnfG PE=3 SV=1
+Length=212
+
+ Score = 50.9 bits (120),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 24/116 (21%), Positives = 46/116 (40%), Gaps = 10/116 (9%)
+
+Query  92   VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT-  150
+             +    +   ++  +      G    I   + +      + GV    H ETPG+GD +  
+Sbjct  80   AYIATRNGDGVAIAIETVAPDGYNGNIKIIIGLNKAGE-VLGVRTLSHQETPGLGDKIEL  138
+
+Query  151  -DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+                W++ + G  +  +K K    + K G +      +D  +GAT+T R    A++
+Sbjct  139  RKSDWVTKFNGLTVSSEKDK-RWHVKKDGGQ------IDQFTGATITPRAYVNAVK  187
+
+
+> sp|A1S6N3|RNFG_SHEAM Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella amazonensis (strain ATCC BAA-1098 / 
+SB2B) OX=326297 GN=rnfG PE=3 SV=1
+Length=215
+
+ Score = 50.9 bits (120),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 26/116 (22%), Positives = 47/116 (41%), Gaps = 10/116 (9%)
+
+Query  92   VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT-  150
+            V+     +  ++  +      G    I   + V+     + GV    H ETPG+GD +  
+Sbjct  80   VYLASSANEPVALAIETIAPDGYNGNIRLIIGVDLKGK-VLGVRTLTHQETPGLGDKIEL  138
+
+Query  151  -DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+               +W+  +   ++F DK     ++ K G         D  +GAT+T R   +A+ 
+Sbjct  139  RKSNWVLSF-NDKVFSDKANDRWKVKKDGGD------FDQFTGATITPRAYLKAVS  187
+
+
+> sp|Q8KA18|RNFG_BUCAP Ion-translocating oxidoreductase complex 
+subunit G OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=rnfG PE=3 SV=1
+Length=202
+
+ Score = 49.8 bits (117),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 31/116 (27%), Positives = 53/116 (46%), Gaps = 10/116 (9%)
+
+Query  92   VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD--FV  149
+            ++ +F +     +VV      G    I   VA   +   I GV V  H ETPGIGD   +
+Sbjct  80   LWLLFKNKQAKVAVVESIAPDGYSGSISILVAAYLNGKII-GVRVLSHKETPGIGDKIEI  138
+
+Query  150  TDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+            +  +W++ ++   + D K K  +    GG        ++  +GAT+T + V  A++
+Sbjct  139  SISNWITKFQDMNVIDLKDKKFLLKKYGG-------KIEQFTGATITPQSVSNAVK  187
+
+
+> sp|P57217|RNFG_BUCAI Ion-translocating oxidoreductase complex 
+subunit G OS=Buchnera aphidicola subsp. Acyrthosiphon pisum 
+(strain APS) OX=107806 GN=rnfG PE=3 SV=1
+Length=164
+
+ Score = 45.9 bits (107),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 28/129 (22%), Positives = 55/129 (43%), Gaps = 12/129 (9%)
+
+Query  92   VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFV--  149
+            ++ +F +   ++++V      G    I   VA   +   I    V  H ETPGIGD +  
+Sbjct  29   LWVLFKNKKPVAAIVETTAPDGYSGAINMLVAAYFNGEIINA-RVLSHKETPGIGDKIDL  87
+
+Query  150  TDPHWLSLWKGKQLFDDKGKF-AMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+            +  +W++ + G  ++    +    +L K G K      ++  +GAT+T + V  +++   
+Sbjct  88   SISNWITRFTG--MYVASIEDKDFKLRKYGGK------IEQFTGATITPQSVTNSIKRTV  139
+
+Query  209  GVEGFQTFF  217
+                   F 
+Sbjct  140  VFIKKIPFI  148
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.325    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15108241262
+Results from round 3
+
+
+Query= 4XHF:A
+
+Length=223
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q7MIC9|NQRC_VIBVY Na(+)-translocating NADH-quinone reductase...  277     1e-93
+  sp|Q8DBJ4|NQRC_VIBVU Na(+)-translocating NADH-quinone reductase...  277     1e-93
+  sp|Q75R62|NQRC_VIBAN Na(+)-translocating NADH-quinone reductase...  274     3e-92
+  sp|Q9RFV9|NQRC_VIBCB Na(+)-translocating NADH-quinone reductase...  272     1e-91
+  sp|Q56582|NQRC_VIBAL Na(+)-translocating NADH-quinone reductase...  270     6e-91
+  sp|Q87MA8|NQRC_VIBPA Na(+)-translocating NADH-quinone reductase...  270     7e-91
+  sp|P0C6E0|NQRC_VIBCH Na(+)-translocating NADH-quinone reductase...  270     1e-90
+  sp|A5F5Y7|NQRC_VIBC3 Na(+)-translocating NADH-quinone reductase...  270     1e-90
+  sp|Q8ZBZ2|NQRC_YERPE Na(+)-translocating NADH-quinone reductase...  268     6e-90
+  sp|Q7VNU7|NQRC_HAEDU Na(+)-translocating NADH-quinone reductase...  256     3e-85
+  sp|Q9CLA9|NQRC_PASMU Na(+)-translocating NADH-quinone reductase...  255     6e-85
+  sp|P43957|NQRC_HAEIN Na(+)-translocating NADH-quinone reductase...  250     3e-83
+  sp|Q9JVQ0|NQRC_NEIMA Na(+)-translocating NADH-quinone reductase...  247     8e-82
+  sp|Q9K0M5|NQRC_NEIMB Na(+)-translocating NADH-quinone reductase...  243     4e-80
+  sp|Q9HZK8|NQRC_PSEAE Na(+)-translocating NADH-quinone reductase...  231     1e-75
+  sp|O84281|NQRC_CHLTR Na(+)-translocating NADH-quinone reductase...  201     1e-62
+  sp|Q9PKB5|NQRC_CHLMU Na(+)-translocating NADH-quinone reductase...  198     7e-62
+  sp|Q2NSZ9|RNFG_SODGM Ion-translocating oxidoreductase complex s...  191     2e-60
+  sp|Q9Z8B5|NQRC_CHLPN Na(+)-translocating NADH-quinone reductase...  191     9e-59
+  sp|Q7N4F7|RNFG_PHOLL Ion-translocating oxidoreductase complex s...  182     8e-57
+  sp|Q823P3|NQRC_CHLCV Na(+)-translocating NADH-quinone reductase...  181     3e-55
+  sp|Q8ZED3|RNFG_YERPE Ion-translocating oxidoreductase complex s...  175     3e-54
+  sp|C6DH13|RNFG_PECCP Ion-translocating oxidoreductase complex s...  171     1e-52
+  sp|C5BDE9|RNFG_EDWI9 Ion-translocating oxidoreductase complex s...  170     4e-52
+  sp|Q8Z6Q7|RSXG_SALTI Ion-translocating oxidoreductase complex s...  169     5e-52
+  sp|Q8ZPM4|RSXG_SALTY Ion-translocating oxidoreductase complex s...  169     6e-52
+  sp|Q6D4W0|RNFG_PECAS Ion-translocating oxidoreductase complex s...  167     5e-51
+  sp|B2VEQ5|RNFG_ERWT9 Ion-translocating oxidoreductase complex s...  167     5e-51
+  sp|P58345|RSXG_ECO57 Ion-translocating oxidoreductase complex s...  165     4e-50
+  sp|P77285|RSXG_ECOLI Ion-translocating oxidoreductase complex s...  165     4e-50
+  sp|A7MML1|RNFG_CROS8 Ion-translocating oxidoreductase complex s...  157     3e-47
+  sp|A3QEN8|RNFG_SHELP Ion-translocating oxidoreductase complex s...  153     1e-45
+  sp|B5FCN1|RNFG_ALIFM Ion-translocating oxidoreductase complex s...  152     6e-45
+  sp|C3LTR1|RNFG_VIBCM Ion-translocating oxidoreductase complex s...  151     1e-44
+  sp|Q9KT90|RNFG_VIBCH Ion-translocating oxidoreductase complex s...  151     1e-44
+  sp|A5F2S8|RNFG_VIBC3 Ion-translocating oxidoreductase complex s...  150     2e-44
+  sp|Q5E6C0|RNFG_ALIF1 Ion-translocating oxidoreductase complex s...  150     3e-44
+  sp|Q7MM85|RNFG_VIBVY Ion-translocating oxidoreductase complex s...  149     1e-43
+  sp|B7VLT4|RNFG_VIBTL Ion-translocating oxidoreductase complex s...  148     1e-43
+  sp|P44291|RNFG_HAEIN Ion-translocating oxidoreductase complex s...  147     4e-43
+  sp|Q87MX0|RNFG_VIBPA Ion-translocating oxidoreductase complex s...  147     5e-43
+  sp|A5UBI8|RNFG_HAEIE Ion-translocating oxidoreductase complex s...  146     7e-43
+  sp|B6EGH3|RNFG_ALISL Ion-translocating oxidoreductase complex s...  146     9e-43
+  sp|Q4QJQ4|RNFG_HAEI8 Ion-translocating oxidoreductase complex s...  146     1e-42
+  sp|B8E552|RNFG_SHEB2 Ion-translocating oxidoreductase complex s...  145     2e-42
+  sp|A1S6N3|RNFG_SHEAM Ion-translocating oxidoreductase complex s...  145     2e-42
+  sp|Q15RL1|RNFG_PSEA6 Ion-translocating oxidoreductase complex s...  144     9e-42
+  sp|Q9CNP4|RNFG_PASMU Ion-translocating oxidoreductase complex s...  142     4e-41
+  sp|A4XS49|RNFG_PSEMY Ion-translocating oxidoreductase complex s...  141     7e-41
+  sp|B8CM54|RNFG_SHEPW Ion-translocating oxidoreductase complex s...  141     1e-40
+  sp|Q8EE77|RNFG_SHEON Ion-translocating oxidoreductase complex s...  140     2e-40
+  sp|A3PRP7|RNFG_RHOS1 Ion-translocating oxidoreductase complex s...  140     3e-40
+  sp|P57217|RNFG_BUCAI Ion-translocating oxidoreductase complex s...  136     1e-39
+  sp|Q3IXC2|RNFG_RHOS4 Ion-translocating oxidoreductase complex s...  137     3e-39
+  sp|Q89AW6|RNFG_BUCBP Ion-translocating oxidoreductase complex s...  137     4e-39
+  sp|P97054|RNFG_RHOCA Ion-translocating oxidoreductase complex s...  133     9e-38
+  sp|Q8KA18|RNFG_BUCAP Ion-translocating oxidoreductase complex s...  128     6e-36
+  sp|Q9HYB6|RNFG_PSEAE Ion-translocating oxidoreductase complex s...  129     6e-36
+  sp|Q02QY2|RNFG_PSEAB Ion-translocating oxidoreductase complex s...  129     6e-36
+  sp|B7UVW9|RNFG_PSEA8 Ion-translocating oxidoreductase complex s...  129     6e-36
+  sp|Q9EVN3|RNFG_PSEST Ion-translocating oxidoreductase complex s...  119     6e-32
+  sp|H6LC30|RNFG_ACEWD Na(+)-translocating ferredoxin:NAD(+) oxid...  107     1e-27
+  sp|D8GR68|RNFG_CLOLD Proton-translocating ferredoxin:NAD(+) oxi...  99.0    1e-24
+  sp|Q8TSY2|RNFG_METAC Ion-translocating oxidoreductase complex s...  97.1    7e-24
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q7MIC9|NQRC_VIBVY Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio vulnificus (strain YJ016) OX=196600 GN=nqrC 
+PE=3 SV=2
+Length=255
+
+ Score = 277 bits (708),  Expect = 1e-93, Method: Composition-based stats.
+ Identities = 87/222 (39%), Positives = 136/222 (61%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG    D N   +
+Sbjct  32   LRDQQKANAVLDKQSKIIEVAGID-SKGKKVPELFAQYIEPRLVDFATGDFV-DGNAATY  89
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA +P  S   T ++D AKI  RAN   V+ V  +   +S +++P +G GLWSM+Y
+Sbjct  90   DQRKAAKDPAQSIKLTAEQDDAKILRRANTGVVYLV-KNGDSISKIILPVHGNGLWSMMY  148
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++VKGG 
+Sbjct  149  AFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDENHKPAIKVVKGGA  208
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+              G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  209  PVGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q8DBJ4|NQRC_VIBVU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio vulnificus (strain CMCP6) OX=216895 GN=nqrC 
+PE=3 SV=1
+Length=255
+
+ Score = 277 bits (708),  Expect = 1e-93, Method: Composition-based stats.
+ Identities = 87/222 (39%), Positives = 136/222 (61%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG    D N   +
+Sbjct  32   LRDQQKANAVLDKQSKIIEVAGID-SKGKKVPELFAQYIEPRLVDFATGDFV-DGNAATY  89
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA +P  S   T ++D AKI  RAN   V+ V  +   +S +++P +G GLWSM+Y
+Sbjct  90   DQRKAAKDPAQSIKLTAEQDDAKILRRANTGVVYLV-KNGDSISKIILPVHGNGLWSMMY  148
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++VKGG 
+Sbjct  149  AFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDENHKPAIKVVKGGA  208
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+              G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  209  PVGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q75R62|NQRC_VIBAN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio anguillarum OX=55601 GN=nqrC PE=3 SV=1
+Length=255
+
+ Score = 274 bits (700),  Expect = 3e-92, Method: Composition-based stats.
+ Identities = 88/222 (40%), Positives = 133/222 (60%), Gaps = 6/222 (3%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++      + Q  ++  A +N  +     ++FAK ++P LI+  TG    D +   +
+Sbjct  33   LRDKQKVNAVLDKQSKIVEVAGIN--ESGSVPELFAKYIEPRLIDFKTGNFV-DGDATAY  89
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R A+ +P  S   T ++D AKI  RAN   V+ V     ++S V+VP +G GLWSM+Y
+Sbjct  90   DQRKASKDPAQSIKLTAEQDKAKIIRRANTGVVYLV-KSGDEISKVIVPVHGNGLWSMMY  148
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFDD  + A+++VKGG 
+Sbjct  149  AFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQFVGKKLFDDNHQPAIKVVKGGA  208
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+              G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  209  PAGSEHGVDGLSGATLTSNGVQHTFDFWLGDMGFGPFLAKVR  250
+
+
+> sp|Q9RFV9|NQRC_VIBCB Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio campbellii (strain ATCC BAA-1116 / BB120) 
+OX=338187 GN=nqrC PE=1 SV=4
+Length=261
+
+ Score = 272 bits (696),  Expect = 1e-91, Method: Composition-based stats.
+ Identities = 89/226 (39%), Positives = 137/226 (61%), Gaps = 8/226 (4%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDA----N  57
+            L++++ A    + Q  ++  A ++  +G +  ++FA+ ++P L++  TG     A     
+Sbjct  33   LRDQQKANAVLDKQSKIVEVAGID-AEGKKVPELFAEYIEPRLVDFKTGDFVEKAEDGST  91
+
+Query  58   VLDFDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLW  115
+              ++D+R AA +P  S   T  +D AKI  RAN   V+ V  +   +S V++P +G GLW
+Sbjct  92   AANYDQRKAAKDPAESIKLTADEDKAKILRRANTGIVYLV-KNGDDISKVIIPVHGNGLW  150
+
+Query  116  SMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLV  175
+            SM+Y +VAVE D NT+ G+  YE GETPG+G  V +P W + + GK+LFD+  K A+++V
+Sbjct  151  SMMYAFVAVETDGNTVSGITYYEQGETPGLGGEVENPVWRAQFVGKKLFDENHKPAIKIV  210
+
+Query  176  KGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            KGG  EG  HGVD +SGAT+TG GVQ   +FW G  GF  F  +++
+Sbjct  211  KGGAPEGSEHGVDGLSGATLTGNGVQGTFDFWLGDMGFGPFLAKVR  256
+
+
+> sp|Q56582|NQRC_VIBAL Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio alginolyticus OX=663 GN=nqrC PE=1 SV=3
+Length=256
+
+ Score = 270 bits (691),  Expect = 6e-91, Method: Composition-based stats.
+ Identities = 85/222 (38%), Positives = 141/222 (64%), Gaps = 5/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++ A    + Q  ++  A ++   G +  ++FA+ ++P L++L+TG    + N   +
+Sbjct  33   LRDKQKANAVLDKQSKIVEVAGID-ANGKKVPELFAEYIEPRLVDLETGNFT-EGNASTY  90
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R A+ + E S   TP++D+A I+ RAN A V+ V  D  ++  V++P +GKGLWSM+Y
+Sbjct  91   DQREASKDAERSIALTPEEDVADIRRRANTAVVYLV-KDQDEVQKVILPMHGKGLWSMMY  149
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+  +  YE GETPG+G  V +P W   + GK+L+++  + A+++VKGG 
+Sbjct  150  AFVAVETDGNTVSAITYYEQGETPGLGGEVENPSWRDQFIGKKLYNEDHQPAIKVVKGGA  209
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+             +G  HGVD +SGAT+T  GVQ   +FW G +GF  F  +++
+Sbjct  210  PQGSEHGVDGLSGATLTSNGVQHTFDFWLGDKGFGPFLAKVR  251
+
+
+> sp|Q87MA8|NQRC_VIBPA Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio parahaemolyticus serotype O3:K6 (strain 
+RIMD 2210633) OX=223926 GN=nqrC PE=3 SV=1
+Length=261
+
+ Score = 270 bits (691),  Expect = 7e-91, Method: Composition-based stats.
+ Identities = 88/226 (39%), Positives = 137/226 (61%), Gaps = 8/226 (4%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDAN----  57
+            L++++ A    + Q  ++  A +    G +  +++A+ ++P L++  TG+   +A     
+Sbjct  33   LRDKQKANAVLDKQSKIVEVAGIE-ANGKKVPELYAEYIEPRLVDFATGEFVEEAADGSK  91
+
+Query  58   VLDFDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLW  115
+              ++D+R AA +  TS   T ++D AKI  RAN   V+ V  +   +S V++P +G GLW
+Sbjct  92   AANYDQRKAAKDNATSIKLTAEQDKAKIIRRANTGIVYLV-KNGDDVSKVIIPVHGNGLW  150
+
+Query  116  SMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLV  175
+            SM+Y +VAVE D NT+ G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++V
+Sbjct  151  SMMYAFVAVETDGNTVSGITYYEQGETPGLGGEVENPSWRAQWVGKKLFDENHKPAIKVV  210
+
+Query  176  KGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            KGG   G  HGVD +SGAT+TG GVQ   +FW G  GF  F  +++
+Sbjct  211  KGGAPAGSEHGVDGLSGATLTGNGVQGTFDFWLGDMGFGPFLAKVR  256
+
+
+> sp|P0C6E0|NQRC_VIBCH Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio cholerae serotype O1 (strain ATCC 39315 
+/ El Tor Inaba N16961) OX=243277 GN=nqrC PE=1 SV=1
+Length=257
+
+ Score = 270 bits (689),  Expect = 1e-90, Method: Composition-based stats.
+ Identities = 88/222 (40%), Positives = 134/222 (60%), Gaps = 4/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++      + Q  +L  A +      +  ++F KS++P L++ +TG    + +  ++
+Sbjct  33   LRDKQKENAALDKQSKILQVAGIEAKGSKQIVELFNKSIEPRLVDFNTGDFV-EGDAANY  91
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA     S   T ++D AKI+ RAN   V+ V  D  K S V++P +G GLWSM+Y
+Sbjct  92   DQRKAAKEASESIKLTAEQDKAKIQRRANVGVVYLV-KDGDKTSKVILPVHGNGLWSMMY  150
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++VKGG 
+Sbjct  151  AFVAVETDGNTVSGLTYYEQGETPGLGGEVENPAWRAQWVGKKLFDENHKPAIKIVKGGA  210
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+             +G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  211  PQGSEHGVDGLSGATLTSNGVQNTFDFWLGDMGFGPFLTKVR  252
+
+
+> sp|A5F5Y7|NQRC_VIBC3 Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Vibrio cholerae serotype O1 (strain ATCC 39541 
+/ Classical Ogawa 395 / O395) OX=345073 GN=nqrC PE=1 SV=1
+Length=257
+
+ Score = 270 bits (689),  Expect = 1e-90, Method: Composition-based stats.
+ Identities = 88/222 (40%), Positives = 134/222 (60%), Gaps = 4/222 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            L++++      + Q  +L  A +      +  ++F KS++P L++ +TG    + +  ++
+Sbjct  33   LRDKQKENAALDKQSKILQVAGIEAKGSKQIVELFNKSIEPRLVDFNTGDFV-EGDAANY  91
+
+Query  62   DERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D+R AA     S   T ++D AKI+ RAN   V+ V  D  K S V++P +G GLWSM+Y
+Sbjct  92   DQRKAAKEASESIKLTAEQDKAKIQRRANVGVVYLV-KDGDKTSKVILPVHGNGLWSMMY  150
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+             +VAVE D NT+ G+  YE GETPG+G  V +P W + W GK+LFD+  K A+++VKGG 
+Sbjct  151  AFVAVETDGNTVSGLTYYEQGETPGLGGEVENPAWRAQWVGKKLFDENHKPAIKIVKGGA  210
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+             +G  HGVD +SGAT+T  GVQ   +FW G  GF  F  +++
+Sbjct  211  PQGSEHGVDGLSGATLTSNGVQNTFDFWLGDMGFGPFLTKVR  252
+
+
+> sp|Q8ZBZ2|NQRC_YERPE Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Yersinia pestis OX=632 GN=nqrC PE=3 SV=1
+Length=266
+
+ Score = 268 bits (686),  Expect = 6e-90, Method: Composition-based stats.
+ Identities = 83/223 (37%), Positives = 133/223 (60%), Gaps = 3/223 (1%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQ--GNEFRDIFAKSVKPLLINLDTGKV-DSDANV  58
+            LK ++  ++  + QR +L  A +   +    E +  FA  ++P L++L +G+    D   
+Sbjct  37   LKAKQQEQRLLDKQRNILAVAGLLQPRMLAEEVQQAFATRIEPRLLDLQSGEFLKQDPAT  96
+
+Query  59   LDFDERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMI  118
+             D  + +       + TP +DIA I+ RAN   ++ V  D G+++ V++P YG GLWSM+
+Sbjct  97   FDRSQALRDNQMSIALTPAQDIAGIRRRANVVEIYLVRGDGGQINKVILPIYGSGLWSMM  156
+
+Query  119  YGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGG  178
+            Y +VA++ D  T++G+  Y+HGETPG+G  + +P W + W GK+LFDD+G+ A+R+VKG 
+Sbjct  157  YAFVAIDTDGKTVRGITYYDHGETPGLGGEIENPIWRNQWIGKRLFDDQGQPAIRIVKGR  216
+
+Query  179  VKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+                D H VD +SGAT+T  GVQ +  FW G  GF  F  +++
+Sbjct  217  APANDPHAVDGLSGATLTSNGVQNSFNFWLGENGFGPFLKKVR  259
+
+
+> sp|Q7VNU7|NQRC_HAEDU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Haemophilus ducreyi (strain 35000HP / ATCC 700724) 
+OX=233412 GN=nqrC PE=3 SV=1
+Length=257
+
+ Score = 256 bits (653),  Expect = 3e-85, Method: Composition-based stats.
+ Identities = 85/224 (38%), Positives = 137/224 (61%), Gaps = 6/224 (3%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K+ + Q+ +L AA + + +    ++ +AK ++P +++L TG    D    +F
+Sbjct  34   LKPTQDIQKQLDKQKNILQAAGL-MHENTNVQETYAKFIEPKIVDLATGDYVEDVA--NF  90
+
+Query  62   DERMAAINPETS--STPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+            D +  A +P TS    P+ D A I+ RA  A V+ V D+ G+ + VV+P YG GLWSM+Y
+Sbjct  91   DAKAFAKDPATSVAIKPEDDKANIRMRAKYAEVYLVKDEMGQTTQVVLPMYGNGLWSMMY  150
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+            G+VAV+PD NT+ G+  YE GET G+G  + +P+W   + GK+LF+   + A+ + KG  
+Sbjct  151  GFVAVQPDANTVNGITYYEQGETAGLGGEIANPNWQKSFVGKKLFNANNEVALTIGKGAS  210
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             +   HGVD +SGAT+T +GV  + ++WFG  GF  +  + KA+
+Sbjct  211  ADK-EHGVDGLSGATLTSKGVDNSFKYWFGTNGFGPYLAKFKAT  253
+
+
+> sp|Q9CLA9|NQRC_PASMU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Pasteurella multocida (strain Pm70) OX=272843 
+GN=nqrC PE=3 SV=1
+Length=260
+
+ Score = 255 bits (652),  Expect = 6e-85, Method: Composition-based stats.
+ Identities = 83/225 (37%), Positives = 138/225 (61%), Gaps = 7/225 (3%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADV--NLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVL  59
+            LK  ++ +K  + Q+ +L  A +     + +E + I+A +++  L++L+TG         
+Sbjct  33   LKPTQIEQKELDKQKNILSVAGLLQPTTKNSEIKTIYANNIEARLVDLNTGDF--APAQP  90
+
+Query  60   DFDERMAAINPETSS--TPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSM  117
+             FD   A  NP  S+  + + D+A I+ RAN A V+ V +D+G+++ VV+PFYGKGLWSM
+Sbjct  91   GFDAAKAVKNPAESTALSAEDDVAGIRVRANFAEVYLVKNDAGQVTQVVLPFYGKGLWSM  150
+
+Query  118  IYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKG  177
+            +YG+++V+PD NT+ G+  Y+ GETPG+G  + +P W + + GK+L+    +  + + K 
+Sbjct  151  MYGFMSVQPDGNTVNGITYYDQGETPGLGGEIENPKWQAQFPGKKLYTADNQVGLYVGK-  209
+
+Query  178  GVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKA  222
+            G      HG+DA+SG+T+T  GV  + +FW G +GF  F  +LKA
+Sbjct  210  GASANAEHGIDAISGSTLTSNGVNNSFKFWLGQKGFGPFLAKLKA  254
+
+
+> sp|P43957|NQRC_HAEIN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Haemophilus influenzae (strain ATCC 51907 / 
+DSM 11121 / KW20 / Rd) OX=71421 GN=nqrC PE=3 SV=1
+Length=244
+
+ Score = 250 bits (639),  Expect = 3e-83, Method: Composition-based stats.
+ Identities = 80/221 (36%), Positives = 134/221 (61%), Gaps = 13/221 (6%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q+ +L  A + L +    ++ +AK ++P  ++L TG+    A+    
+Sbjct  34   LKPAQEEQKLLDKQKNILNVAGL-LQENTNVKETYAKFIEPRFVDLATGEYTQQAD----  88
+
+Query  62   DERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGY  121
+                   + + +     D A+I++R+    V+ V D+ G+   V++P YG GLWS++YG 
+Sbjct  89   -------DSQQAIPADADKARIRSRSKTTEVYLVKDEQGQTQQVILPIYGTGLWSVMYGL  141
+
+Query  122  VAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGVKE  181
+            V+V+PD NTI G+  Y+HGETPG+G  + +P+W SL+KGK+LFD++ + A+R+VKG   +
+Sbjct  142  VSVQPDGNTINGITYYQHGETPGLGGEIENPNWASLFKGKKLFDEQHQPAIRIVKGQAPQ  201
+
+Query  182  GDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKA  222
+             D H +D +SGAT+TG GVQ    +WF  +GF  +  +L +
+Sbjct  202  -DEHSIDGLSGATLTGNGVQGTFNYWFSKDGFGPYLEKLHS  241
+
+
+> sp|Q9JVQ0|NQRC_NEIMA Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Neisseria meningitidis serogroup A / serotype 
+4A (strain Z2491) OX=122587 GN=nqrC PE=3 SV=1
+Length=258
+
+ Score = 247 bits (631),  Expect = 8e-82, Method: Composition-based stats.
+ Identities = 86/224 (38%), Positives = 139/224 (62%), Gaps = 5/224 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q Y+L  A + + +  +    FA+ ++  +++L TG+   DA   DF
+Sbjct  35   LKPIQEKQKLQDKQGYILSVAGL-MDKDTDIGKTFAERIEQRVVDLATGEYVKDA-PKDF  92
+
+Query  62   DERMAAINPETSST--PKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+              R+A  +P  S    P+ D+A IK+RA    V+ V  + GK+  +++P +G GLWS++Y
+Sbjct  93   SARIAGKDPAQSIRIKPEDDLAGIKSRAKYTEVYLVKGEDGKIGQIILPMHGNGLWSVMY  152
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+            G+VA++PD NTI G+  YE GETPG+G  + +P W   + GK+LFD +GK A+ + KG  
+Sbjct  153  GFVAIQPDGNTINGITYYEQGETPGLGGEIGNPLWQQKFVGKKLFDGQGKLALHVGKGAG  212
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             +   HGVDA+SGA++T +GVQ +  +WFG  G+  + N+LK++
+Sbjct  213  SDK-EHGVDALSGASLTSKGVQGSFAYWFGENGYIPYLNKLKSA  255
+
+
+> sp|Q9K0M5|NQRC_NEIMB Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Neisseria meningitidis serogroup B (strain MC58) 
+OX=122586 GN=nqrC PE=3 SV=1
+Length=258
+
+ Score = 243 bits (619),  Expect = 4e-80, Method: Composition-based stats.
+ Identities = 85/224 (38%), Positives = 139/224 (62%), Gaps = 5/224 (2%)
+
+Query  2    LKERKLAKKRDELQRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDF  61
+            LK  +  +K  + Q Y+L  A + + +  +    FA+ ++  +++L TG+  +DA   DF
+Sbjct  35   LKPIQEKQKLQDKQGYILSVAGL-MDKDTDIGKTFAERIEQRVVDLATGEYVADA-PKDF  92
+
+Query  62   DERMAAINPETSST--PKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIY  119
+              R+A  +P  S     + D+A IK+RA    V+ V  + GK+  +++P +G GLWS++Y
+Sbjct  93   SARIAGKDPAQSIRIKTEDDLAGIKSRAKYTEVYLVKGEDGKIGQIILPMHGNGLWSVMY  152
+
+Query  120  GYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVKGGV  179
+            G+VA++PD NTI G+  YE GETPG+G  + +P W   + GK+LFD +GK A+ + KG  
+Sbjct  153  GFVAIQPDGNTINGITYYEQGETPGLGGEIGNPLWQQKFVGKKLFDGQGKLALHVGKGAG  212
+
+Query  180  KEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+             +   HGVDA+SGA++T +GVQ +  +WFG  G+  + N+LK++
+Sbjct  213  SDK-EHGVDALSGASLTSKGVQGSFAYWFGENGYIPYLNKLKSA  255
+
+
+> sp|Q9HZK8|NQRC_PSEAE Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Pseudomonas aeruginosa (strain ATCC 15692 / 
+DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 
+/ PAO1) OX=208964 GN=nqrC PE=3 SV=1
+Length=261
+
+ Score = 231 bits (590),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 79/228 (35%), Positives = 124/228 (54%), Gaps = 8/228 (4%)
+
+Query  1    SLKERKLAKKRDELQRYVLMAADVNLGQ--GNEFRDIFAKSVKPLLINLDTGKVDSDANV  58
+            +LK  +   +  + QR +L  A +      G E + +F   +   +++L +G      + 
+Sbjct  31   ALKPTQAENRLLDKQRSILAIAGLGEPGMSGKEVKALFDSRITAKVVDLQSGTFSDAQDP  90
+
+Query  59   LDFDERMAAINPETSST--PKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWS  116
+            L +D   AA +P  S      +DIA IK R     V+ V  D  KL ++++P  G GLWS
+Sbjct  91   LGYDPLKAAKDPALSDALPAAEDIASIKRRERYTTVYLVETDG-KLDTLILPVRGYGLWS  149
+
+Query  117  MIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDKGKFAMRLVK  176
+             +YG++A++ D NT+ G   Y+HGETPG+G  V +P W +LW GK L+D +G  A++++K
+Sbjct  150  TLYGFLALKGDLNTVAGFGFYQHGETPGLGGEVDNPKWKALWVGKTLYDAQGDLAVQIIK  209
+
+Query  177  GGVKE---GDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLK  221
+            G V        H VD ++GAT+T +GV   + FW G +GF  F   L+
+Sbjct  210  GSVDPQSAKATHQVDGLAGATLTSKGVDNLLHFWLGKDGFDAFLANLR  257
+
+
+> sp|O84281|NQRC_CHLTR Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia trachomatis (strain D/UW-3/Cx) OX=272561 
+GN=nqrC PE=3 SV=1
+Length=316
+
+ Score = 201 bits (510),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 56/234 (24%), Positives = 95/234 (41%), Gaps = 20/234 (9%)
+
+Query  10   KRDELQRYVLMAADVNLGQG-NEFRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAI  68
+                 ++ +L  +              F   V+ LL +        + + L+ +E ++  
+Sbjct  77   ALYNTKKQLLEISSTPPKVTVTTLSSYFQNFVRVLLTDTQGNLSSFEDHNLNLEEFLSQP  136
+
+Query  69   NPETSSTPKKDIAKIKTR---ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVE  125
+             P         +  I      ++     +V  +   + S+V+P  G GLW  IYG++A+E
+Sbjct  137  TPVIHGLALYVVYAILHNDAASSKLSASQVAKNPTAIESIVLPIEGFGLWGPIYGFLALE  196
+
+Query  126  PDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFD---------DKGKFAMRLVK  176
+             D NT+ G   Y+HGETPG+G  + +P W   ++GK++F           K    + ++K
+Sbjct  197  KDGNTVLGTSWYQHGETPGLGANIANPQWQKNFRGKKVFLVSASGETDFAKTTLGLEVIK  256
+
+Query  177  G------GVKEGDIHGVDAVSGATMTGRGVQRAMEFWFG-VEGFQTFFNQLKAS  223
+            G      G        +D +SGAT+T  GV  +            TFF   K S
+Sbjct  257  GSVSAALGDSPKAASSIDGISGATLTCNGVTESFSHSLAPYRALLTFFANSKPS  310
+
+
+> sp|Q9PKB5|NQRC_CHLMU Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia muridarum (strain MoPn / Nigg) OX=243161 
+GN=nqrC PE=3 SV=1
+Length=318
+
+ Score = 198 bits (504),  Expect = 7e-62, Method: Composition-based stats.
+ Identities = 59/235 (25%), Positives = 96/235 (41%), Gaps = 21/235 (9%)
+
+Query  10   KRDELQRYVLMAADVNLGQGN--EFRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAA  67
+                 ++ +L  +     Q         F   V+ LL +        + + L+ +E ++ 
+Sbjct  77   AVYNTKKQILEKSSSTPPQVTVATLCSYFQNFVRVLLTDSQGNLSSFEDHNLNLEEFLSH  136
+
+Query  68   INPETSSTPKKDIAKIKTR---ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAV  124
+                        I  I      +      +V  +   + S+++P  G GLW  IYG++A+
+Sbjct  137  PTSSVQDHSLHVIYAILANDESSKKLSSSQVAKNPVSIESIILPIKGFGLWGPIYGFLAL  196
+
+Query  125  EPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFD---------DKGKFAMRLV  175
+            E D NT+ G   Y+HGETPG+G  +T+P W   ++GK++F           K    + ++
+Sbjct  197  EKDGNTVLGTCWYQHGETPGLGANITNPQWQQNFRGKKVFLASSSGETDFAKTTLGLEVI  256
+
+Query  176  KG------GVKEGDIHGVDAVSGATMTGRGVQRAMEFWFG-VEGFQTFFNQLKAS  223
+            KG      G        VD +SGAT+T  GV  A            TFF  L +S
+Sbjct  257  KGSVSALLGDSPKANSAVDGISGATLTCNGVTEAFANSLAPYRPLLTFFANLNSS  311
+
+
+> sp|Q2NSZ9|RNFG_SODGM Ion-translocating oxidoreductase complex 
+subunit G OS=Sodalis glossinidius (strain morsitans) OX=343509 
+GN=rnfG PE=3 SV=1
+Length=211
+
+ Score = 191 bits (485),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 39/188 (21%), Positives = 66/188 (35%), Gaps = 15/188 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDA-  90
+                 A  +  L+  L T  ++  A           + P+  +    D   + T      
+Sbjct  14   VFAALATGLTALVNGLTTSTIERQAARQQMQLLDQVVPPDLYNNQLLDECYLVTDPALGS  73
+
+Query  91   ----RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+                R++    D   +++ +      G    I   V  +   N + G  V  H ETPG+G
+Sbjct  74   DAPHRLYLARKDGTPVAAAIETTAPDGYAGAIDLLVGADFSGN-VLGARVTSHHETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +      W++ + GK L  D    +  + K G         D  +GAT+T R V  A+
+Sbjct  133  DKIELRLSDWITHFSGKSLRSDN-DMSWAVKKEGG------MFDQFTGATITPRAVMNAV  185
+
+Query  205  EFWFGVEG  212
+            +   G   
+Sbjct  186  KRTAGYLK  193
+
+
+> sp|Q9Z8B5|NQRC_CHLPN Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydia pneumoniae OX=83558 GN=nqrC PE=3 SV=1
+Length=320
+
+ Score = 191 bits (484),  Expect = 9e-59, Method: Composition-based stats.
+ Identities = 57/233 (24%), Positives = 101/233 (43%), Gaps = 22/233 (9%)
+
+Query  10   KRDELQRYVLMAADVNLGQGNEFR-DIFAK-SVKPLLINLDTGKV---DSDANVLDFDER  64
+               + +  +L  A   + + +    +++A+  V+PLL +         + + N ++F E+
+Sbjct  80   ATFDKKTQLLEVATKKVSEVSYPELELYAERFVRPLLTDAQGKVFSFEEKNLNPIEFFEK  139
+
+Query  65   MAAINP-ETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVA  123
+                 P + S  P   I +  +R  +     V  D   + +++ P  G GLW  I+GY+ 
+Sbjct  140  YQESPPCQQSPLPFYVILENTSRTENMSGADVAKDLSTVQALIFPISGFGLWGPIHGYLG  199
+
+Query  124  VEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFDDK---------GKFAMRL  174
+            V+ D +T+ G   Y+ GETPG+G  +T+P W   + GK++F                + +
+Sbjct  200  VKNDGDTVLGTAWYQQGETPGLGANITNPEWQEQFYGKKIFLQDSSGTTNFATTDLGLEV  259
+
+Query  175  VKG------GVKEGDIHGVDAVSGATMTGRGVQRAMEFWFG-VEGFQTFFNQL  220
+            VKG      G     +  +D +SGAT+T  GV  A              F+ L
+Sbjct  260  VKGSVRTTLGDSPKALSAIDGISGATLTCNGVTEAYVQSLACYRQLLINFSNL  312
+
+
+> sp|Q7N4F7|RNFG_PHOLL Ion-translocating oxidoreductase complex 
+subunit G OS=Photorhabdus laumondii subsp. laumondii (strain 
+DSM 15139 / CIP 105565 / TT01) OX=243265 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 182 bits (461),  Expect = 8e-57, Method: Composition-based stats.
+ Identities = 32/199 (16%), Positives = 67/199 (34%), Gaps = 16/199 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKI-----KTR  86
+                    +  ++ +L    +   A +         I P       ++   +        
+Sbjct  14   IFAALTTGLTAVVNSLTKSTIAEQAALQHKSLLDQVIPPALYDNDIQNECYLVNANALGN  73
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+                R++    +   +++ +      G    I   V  +     + GV V EH ETPG+G
+Sbjct  74   NLPHRLYLARKNGHPVAAALESTAPDGYSGAIQLLVGADFSGK-VLGVRVTEHHETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +     +W++++ GK +          + K G         D  +GAT+T R V  ++
+Sbjct  133  DKIETRISNWINVFSGKTI-TSNHDQHWAVKKDGG------EFDQFTGATITPRAVVNSV  185
+
+Query  205  EFWFGVEGFQT-FFNQLKA  222
+            +             + L++
+Sbjct  186  KRTALYLQTIPEHLSSLES  204
+
+
+> sp|Q823P3|NQRC_CHLCV Na(+)-translocating NADH-quinone reductase 
+subunit C OS=Chlamydophila caviae (strain ATCC VR-813 / DSM 
+19441 / GPIC) OX=227941 GN=nqrC PE=3 SV=1
+Length=319
+
+ Score = 181 bits (460),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 56/236 (24%), Positives = 95/236 (40%), Gaps = 26/236 (11%)
+
+Query  10   KRDELQRYVLMAADVNLGQ-GNEFRDIFAK-SVKPLLINLDTGKV---DSDANVLDFDER  64
+               + + ++L  AD +     +   D + +  V+PLL +         + + NV +F E+
+Sbjct  78   AVYDKKSHLLKVADQHAPVVTSSVLDAYTQGFVRPLLADKLGQMFSFEEKNINVTEFIEK  137
+
+Query  65   MAAINPETSSTPKKDIAKIKTRANDARVFKVF---DDSGKLSSVVVPFYGKGLWSMIYGY  121
+                N      P      I      AR         +   + ++++P  G GLW  IYGY
+Sbjct  138  HQ--NGHFYQQPLLLFYVILANTEQARAMSAADVIKNPSVVRAIIIPISGFGLWGPIYGY  195
+
+Query  122  VAVEPDFNTIKGVVVYEHGETPGIGDFVTDPHWLSLWKGKQLFD---------DKGKFAM  172
+            +AVE + +T+ G   Y+  ETPG+G  + +P W   + GK++F                +
+Sbjct  196  LAVENNGDTVLGTAWYQQAETPGLGANIANPQWQKQFYGKKIFLQAAAGNTDFATTPLGL  255
+
+Query  173  RLVKG------GVKEGDIHGVDAVSGATMTGRGVQRAMEFWFG-VEGFQTFFNQLK  221
+             ++KG      G     +  +D +SGAT+T  GV  A              F +L 
+Sbjct  256  EVIKGSVQSAFGTTPKALSSIDGISGATLTCNGVTEAYAQSLAPYRNLLISFAKLN  311
+
+
+> sp|Q8ZED3|RNFG_YERPE Ion-translocating oxidoreductase complex 
+subunit G OS=Yersinia pestis OX=632 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 175 bits (444),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 35/198 (18%), Positives = 68/198 (34%), Gaps = 29/198 (15%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKV------------DSDANVLDFDERMAAINPETSSTPKKD  79
+                 A  +  ++ +L    +            D      ++D  M A     + +   +
+Sbjct  14   LFAAGATGLTAVVNSLTENTIAHQAALQQKALLDQVVPAENYDNDMQAECYVVTDSALGN  73
+
+Query  80   IAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEH  139
+            +A  +       ++     +  +++ +      G    I   V  +   N + G  V EH
+Sbjct  74   MAPHR-------LYLARKGNQPVAAAIETTAPDGYSGAIQLLVGADFHGN-VLGSRVIEH  125
+
+Query  140  GETPGIGDFVTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTG  197
+             ETPG+GD +      W++ + G+ +  D         K    + D    D  +GAT+T 
+Sbjct  126  HETPGLGDKIDIRISDWINHFSGQHVTGDDD-------KRWAVKKDGGSFDQFTGATITP  178
+
+Query  198  RGVQRAMEFWFGVEGFQT  215
+            R V RA++          
+Sbjct  179  RAVVRAVKNAALYLQTLP  196
+
+
+> sp|C6DH13|RNFG_PECCP Ion-translocating oxidoreductase complex 
+subunit G OS=Pectobacterium carotovorum subsp. carotovorum 
+(strain PC1) OX=561230 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 171 bits (434),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 35/191 (18%), Positives = 67/191 (35%), Gaps = 15/191 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTR-----  86
+                F  +V  ++  L    +   A +         +  E  ++  +    + T      
+Sbjct  14   LFAAFTTAVTAVVNMLTEPTISHQAMLQQKMLLDQVVPAELYNSDMQKECYVVTNPALGS  73
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            +   RVF    D   +++ +      G    I   V  +     + GV V EH ETPG+G
+Sbjct  74   SAPHRVFIARQDGEPVAAALESTAPDGYSGAIRLLVGADFHGK-VLGVRVTEHHETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +      W++ + G+ +  ++      + K G         D  +GAT+T R V  ++
+Sbjct  133  DKIEVRISDWITRFSGQTVQSEQ-DARWAVKKEGG------MFDQFTGATITPRAVINSV  185
+
+Query  205  EFWFGVEGFQT  215
+            +          
+Sbjct  186  KRSALYLQTLP  196
+
+
+> sp|C5BDE9|RNFG_EDWI9 Ion-translocating oxidoreductase complex 
+subunit G OS=Edwardsiella ictaluri (strain 93-146) OX=634503 
+GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 170 bits (431),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 37/197 (19%), Positives = 67/197 (34%), Gaps = 16/197 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDA-  90
+               I A ++  ++  L T  +   A +         I P+      +    +        
+Sbjct  14   LFAILATALTAIVHQLTTRTIAHQAALQQQRLFDQVIAPDGYDNDLQRSCLLLRDPRLGD  73
+
+Query  91   ----RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+                R++        ++++V      G    I   V  +     + GV V E  ETPG+G
+Sbjct  74   SSAHRLYLAQRQGQPIAALVETTAPDGYAGAIRLLVGADFSGK-VLGVRVQEQHETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +      W+  ++ K +   +   A R+ K G         D  +GAT+T R V  A+
+Sbjct  133  DKIEIRISDWIDSFRNKVVHGAQ-DPAFRVKKDGG------EFDQFTGATITPRAVVNAV  185
+
+Query  205  EF-WFGVEGFQTFFNQL  220
+                  +   +     L
+Sbjct  186  RRTTLAIRDIRPHLASL  202
+
+
+> sp|Q8Z6Q7|RSXG_SALTI Ion-translocating oxidoreductase complex 
+subunit G OS=Salmonella typhi OX=90370 GN=rsxG PE=3 SV=1
+Length=206
+
+ Score = 169 bits (429),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 34/190 (18%), Positives = 65/190 (34%), Gaps = 14/190 (7%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRA----  87
+                 +  +  ++  +    +   A           + P+  +   ++   +        
+Sbjct  14   LFAAGSTGLTAVINQMTKSTIHEQALQQQHALFDQVLPPDRYNNNLQESCYLVDAPALGK  73
+
+Query  88   NDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD  147
+               RVF    D   +++++      G    I   V  + +  TI G  V EH ETPG+GD
+Sbjct  74   GTHRVFIARKDDKPVAAIIEATAPDGYSGAIQLIVGADFNG-TILGTRVTEHHETPGLGD  132
+
+Query  148  FVTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+             +      W++ + GK +   +      + K G         D  +GAT+T R V  A++
+Sbjct  133  KIERRLSDWITHFSGKTI-SGENDTHWAVKKDGGD------FDQFTGATITPRAVVNAVK  185
+
+Query  206  FWFGVEGFQT  215
+                      
+Sbjct  186  RAGLYAESLP  195
+
+
+> sp|Q8ZPM4|RSXG_SALTY Ion-translocating oxidoreductase complex 
+subunit G OS=Salmonella typhimurium (strain LT2 / SGSC1412 
+/ ATCC 700720) OX=99287 GN=rsxG PE=3 SV=1
+Length=206
+
+ Score = 169 bits (429),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 33/190 (17%), Positives = 65/190 (34%), Gaps = 14/190 (7%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRA----  87
+                 +  +  ++  +    +   A           + P+  +   ++   +        
+Sbjct  14   LFAAGSTGLTAVINQMTKSTIHEQALQQQHALFDQVLPPDRYNNNLQESCYLVDAPALGK  73
+
+Query  88   NDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD  147
+               RVF    D   +++++      G    I   V  + +  T+ G  V EH ETPG+GD
+Sbjct  74   GTHRVFIARKDDKPVAAIIEATAPDGYSGAIQLIVGADFNG-TVLGTRVTEHHETPGLGD  132
+
+Query  148  FVTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+             +      W++ + GK +   +      + K G         D  +GAT+T R V  A++
+Sbjct  133  KIERRLSDWITHFSGKTI-SGENDTHWAVKKDGGD------FDQFTGATITPRAVVNAVK  185
+
+Query  206  FWFGVEGFQT  215
+                      
+Sbjct  186  RAGLYAESLP  195
+
+
+> sp|Q6D4W0|RNFG_PECAS Ion-translocating oxidoreductase complex 
+subunit G OS=Pectobacterium atrosepticum (strain SCRI 1043 
+/ ATCC BAA-672) OX=218491 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 167 bits (423),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 33/191 (17%), Positives = 64/191 (34%), Gaps = 15/191 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTR-----  86
+                   +V  ++  L    +   A +         +  E  ++  +    + T      
+Sbjct  14   LFAASTTAVTAVVNMLTEPTISHQAMLQQKMLLDQVVPAELYNSDIQKECYVVTNPALGS  73
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            +   RVF    +   +++ +      G    I   V  +     + GV V EH ETPG+G
+Sbjct  74   SAPHRVFIARQNGEPVAAALESTAPDGYSGAIRLLVGADFHGK-VLGVRVTEHHETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +      W++ + G  +   +      + K G         D  +GAT+T R V  ++
+Sbjct  133  DKIEVRISDWITRFNG-LMVQGEHDARWAVKKEGG------MFDQFTGATITPRAVINSV  185
+
+Query  205  EFWFGVEGFQT  215
+            +          
+Sbjct  186  KRSALYLQTLP  196
+
+
+> sp|B2VEQ5|RNFG_ERWT9 Ion-translocating oxidoreductase complex 
+subunit G OS=Erwinia tasmaniensis (strain DSM 17950 / CIP 109463 
+/ Et1/99) OX=465817 GN=rnfG PE=3 SV=1
+Length=210
+
+ Score = 167 bits (423),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 34/191 (18%), Positives = 62/191 (32%), Gaps = 15/191 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKT-----R  86
+                    +  ++  +    ++    V         + PE  +   +D     T      
+Sbjct  14   VFAAITTGLTAVINAVTKPTIEHQTAVQQKILLDQVVPPELYNNRIQDECYSVTDPALGN  73
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+             N   ++    D   ++  +      G    I   V    D   + G  V EH ETPG+G
+Sbjct  74   TNPHHLYLARKDDKPVAVALETTAPDGYSGNIQMIVGASFDG-IVYGTRVVEHHETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +      W++ + GK++ +        + K G         D  +GAT+T R V  A+
+Sbjct  133  DKIELRISDWINSFNGKKV-NGPSDGHFAVKKDGGD------FDQFTGATITPRAVVNAV  185
+
+Query  205  EFWFGVEGFQT  215
+            +          
+Sbjct  186  KRTTLYIETLP  196
+
+
+> sp|P58345|RSXG_ECO57 Ion-translocating oxidoreductase complex 
+subunit G OS=Escherichia coli O157:H7 OX=83334 GN=rsxG PE=3 
+SV=1
+Length=206
+
+ Score = 165 bits (417),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 34/190 (18%), Positives = 64/190 (34%), Gaps = 14/190 (7%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDA-  90
+                 +  +   +  +    +   A++         +  E  +        + T      
+Sbjct  14   LFAAGSTGLTAAINQMTKTTIAEQASLQQKALFDQVLPAERYNNALAQSCYLVTAPELGK  73
+
+Query  91   ---RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD  147
+               RV+    D   +++V+      G    I   V  + +  T+ G  V EH ETPG+GD
+Sbjct  74   GEHRVYIAKQDDKPVAAVLEATAPDGYSGAIQLLVGADFNG-TVLGTRVTEHHETPGLGD  132
+
+Query  148  FVTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+             +      W++ + GK++          + K G         D  +GAT+T R V  A++
+Sbjct  133  KIELRLSDWITHFAGKKISGA-DDAHWAVKKDGG------NFDQFTGATITPRAVVNAVK  185
+
+Query  206  FWFGVEGFQT  215
+                      
+Sbjct  186  RAGLYAQTLP  195
+
+
+> sp|P77285|RSXG_ECOLI Ion-translocating oxidoreductase complex 
+subunit G OS=Escherichia coli (strain K12) OX=83333 GN=rsxG 
+PE=1 SV=1
+Length=206
+
+ Score = 165 bits (417),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 34/190 (18%), Positives = 64/190 (34%), Gaps = 14/190 (7%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDA-  90
+                 +  +   +  +    +   A++         +  E  +        + T      
+Sbjct  14   LFAAGSTGLTAAINQMTKTTIAEQASLQQKALFDQVLPAERYNNALAQSCYLVTAPELGK  73
+
+Query  91   ---RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD  147
+               RV+    D   +++V+      G    I   V  + +  T+ G  V EH ETPG+GD
+Sbjct  74   GEHRVYIAKQDDKPVAAVLEATAPDGYSGAIQLLVGADFNG-TVLGTRVTEHHETPGLGD  132
+
+Query  148  FVTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+             +      W++ + GK++          + K G         D  +GAT+T R V  A++
+Sbjct  133  KIELRLSDWITHFAGKKISGA-DDAHWAVKKDGGD------FDQFTGATITPRAVVNAVK  185
+
+Query  206  FWFGVEGFQT  215
+                      
+Sbjct  186  RAGLYAQTLP  195
+
+
+> sp|A7MML1|RNFG_CROS8 Ion-translocating oxidoreductase complex 
+subunit G OS=Cronobacter sakazakii (strain ATCC BAA-894) OX=290339 
+GN=rnfG PE=3 SV=1
+Length=208
+
+ Score = 157 bits (398),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 32/189 (17%), Positives = 62/189 (33%), Gaps = 14/189 (7%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDAR  91
+                    +  ++  L    ++  A +         + PE      +    + +     R
+Sbjct  14   VFAALTTGLTAMVNALTKTTIEGQAALQQKQLFDQVLPPEMYDNDIQQSCYLVSAPALGR  73
+
+Query  92   ----VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGD  147
+                ++        ++ V+      G    I   V  +    T+ G  V EH ETPG+GD
+Sbjct  74   GEKQLWVARKGDTPVAVVMQATAPDGYSGAIQLLVGADFKG-TVLGTRVTEHHETPGLGD  132
+
+Query  148  FVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAME  205
+             +      W++ + G+ +          + K G +       D  +GAT+T R V  A++
+Sbjct  133  KIETRISDWITGFAGQVIH-GPNDTRWAVKKDGGQ------FDQFTGATITPRAVVNAVK  185
+
+Query  206  FWFGVEGFQ  214
+                     
+Sbjct  186  RAGLYAQTL  194
+
+
+> sp|A3QEN8|RNFG_SHELP Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella loihica (strain ATCC BAA-1088 / PV-4) 
+OX=323850 GN=rnfG PE=3 SV=1
+Length=212
+
+ Score = 153 bits (387),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 31/204 (15%), Positives = 65/204 (32%), Gaps = 21/204 (10%)
+
+Query  15   QRYVLMAADVNLGQGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSS  74
+            +R ++  A +          +   ++  L+      ++    ++         I  E   
+Sbjct  2    KRSIVKNASLLG-----LFALLCTALVALVNQFTFERIKQQQDLELMRTLHQIIPDEMHD  56
+
+Query  75   TPKKDIAKIKTRA------NDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDF  128
+                +   +   A           +        ++  +      G    I   VA++   
+Sbjct  57   NALIEHCILIQDADVLGIDEPLPAYIASQGGEPVAIAMETVAPDGYNGQIKLIVAIDAKG  116
+
+Query  129  NTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHG  186
+              + GV    H ETPG+GD +      W+  +KG+ +  ++        K    + D   
+Sbjct  117  E-VLGVRTLNHNETPGLGDKIDLRKSSWVLGFKGQSIQGEQD-------KRWAVKKDGGQ  168
+
+Query  187  VDAVSGATMTGRGVQRAMEFWFGV  210
+             D  +GAT+T R    A++     
+Sbjct  169  FDQFTGATITPRAYVGAVKRTLAY  192
+
+
+> sp|B5FCN1|RNFG_ALIFM Ion-translocating oxidoreductase complex 
+subunit G OS=Aliivibrio fischeri (strain MJ11) OX=388396 GN=rnfG 
+PE=3 SV=1
+Length=210
+
+ Score = 152 bits (383),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 40/197 (20%), Positives = 71/197 (36%), Gaps = 23/197 (12%)
+
+Query  26   LGQGNEFRDIFAKSVKPLLI---NLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAK  82
+            + + +    +FA +   L+     L   ++               + P+     +   A 
+Sbjct  5    MKKSSLVLALFAIAATALVTITYALTKDQIAYQQQQQLLSVLNQVV-PKEQHDNELYKAC  63
+
+Query  83   IKTRANDA-------RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVV  135
+            I  + NDA        ++    +     + +      G    I   V V+ D   + GV 
+Sbjct  64   ILVKNNDALGSKQAMPIYLASLNGKHSGAAIEAIAPDGYSGNIKIIVGVDSDA-IVTGVR  122
+
+Query  136  VYEHGETPGIGDFVTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGA  193
+            V  H ETPG+GD +      W+  + GK +   +        K    + D    D  +GA
+Sbjct  123  VLSHQETPGLGDKIDIRITRWVDAFLGKTVESSED-------KNWAVQKDGGQFDQFTGA  175
+
+Query  194  TMTGRGVQRAMEF--WF  208
+            T+T R V +A++   WF
+Sbjct  176  TITPRAVVKAVKRAVWF  192
+
+
+> sp|C3LTR1|RNFG_VIBCM Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio cholerae serotype O1 (strain M66-2) OX=579112 
+GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 151 bits (381),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 33/186 (18%), Positives = 60/186 (32%), Gaps = 15/186 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTR-----  86
+                 +  +  L   L   ++               I  +    P      +        
+Sbjct  14   VFACVSTGLVALTYALTAEQIQQQEQKQLLQVLNQVIPHKYHDNPLAQACTLVNDDKLGT  73
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            A     +    D    +  +      G    I   V +  +  T+ GV V  H ETPG+G
+Sbjct  74   AKTMHAYLAQRDGQPTAIAIETIAPDGYNGEIKLIVGIANNG-TVLGVRVLAHQETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +     +W+  + G+Q+     +   ++ K G +       D  +GAT+T R V  A+
+Sbjct  133  DKIDLRISNWVLGFNGQQV-TADNQDDWKVRKDGGQ------FDQFTGATITPRAVVLAV  185
+
+Query  205  EFWFGV  210
+            +     
+Sbjct  186  KKAVEY  191
+
+
+> sp|Q9KT90|RNFG_VIBCH Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio cholerae serotype O1 (strain ATCC 39315 
+/ El Tor Inaba N16961) OX=243277 GN=rnfG PE=3 SV=1
+Length=209
+
+ Score = 151 bits (381),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 33/186 (18%), Positives = 60/186 (32%), Gaps = 15/186 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTR-----  86
+                 +  +  L   L   ++               I  +    P      +        
+Sbjct  14   VFACVSTGLVALTYALTAEQIQQQEQKQLLQVLNQVIPHKYHDNPLAQACTLVNDDKLGT  73
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            A     +    D    +  +      G    I   V +  +  T+ GV V  H ETPG+G
+Sbjct  74   AKTMHAYLAQRDGQPTAIAIETIAPDGYNGEIKLIVGIANNG-TVLGVRVLAHQETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +     +W+  + G+Q+     +   ++ K G +       D  +GAT+T R V  A+
+Sbjct  133  DKIDLRISNWVLGFNGQQV-TADNQDDWKVRKDGGQ------FDQFTGATITPRAVVLAV  185
+
+Query  205  EFWFGV  210
+            +     
+Sbjct  186  KKAVEY  191
+
+
+> sp|A5F2S8|RNFG_VIBC3 Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio cholerae serotype O1 (strain ATCC 39541 
+/ Classical Ogawa 395 / O395) OX=345073 GN=rnfG PE=1 SV=1
+Length=209
+
+ Score = 150 bits (379),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 33/186 (18%), Positives = 60/186 (32%), Gaps = 15/186 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTR-----  86
+                 +  +  L   L   ++               I  +    P      +        
+Sbjct  14   VFACVSTGLVALTYALTAEQIQQQEQKQLLQVLNQVIPHKYHDNPLAQACTLVNDDKLGT  73
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            A     +    D    +  +      G    I   V +  +  T+ GV V  H ETPG+G
+Sbjct  74   AKPMHAYLAQRDGQPTAIAIETIAPDGYNGEIKLIVGIANNG-TVLGVRVLAHQETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +     +W+  + G+Q+     +   ++ K G +       D  +GAT+T R V  A+
+Sbjct  133  DKIDLRISNWVLGFNGQQV-TADNQDDWKVRKDGGQ------FDQFTGATITPRAVVLAV  185
+
+Query  205  EFWFGV  210
+            +     
+Sbjct  186  KKAVEY  191
+
+
+> sp|Q5E6C0|RNFG_ALIF1 Ion-translocating oxidoreductase complex 
+subunit G OS=Aliivibrio fischeri (strain ATCC 700601 / ES114) 
+OX=312309 GN=rnfG PE=3 SV=1
+Length=210
+
+ Score = 150 bits (378),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 36/193 (19%), Positives = 69/193 (36%), Gaps = 21/193 (11%)
+
+Query  26   LGQGNEFRDIFAKSVKPLLI---NLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAK  82
+            + + +    +FA +   L+     L   ++               + P+     +   A 
+Sbjct  5    MKKSSLVLALFAIAATALVTITYALTKDQIAYQQQQQLLSVLNQVV-PKEQHDNELYKAC  63
+
+Query  83   IKTRANDA-------RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVV  135
+            +  +  DA        ++    +     + +      G    I   V V+ D   + GV 
+Sbjct  64   VLVKNKDALGSKQAMPIYLASLNGQHSGAAIEAIAPDGYSGNIKIIVGVDSDA-MVTGVR  122
+
+Query  136  VYEHGETPGIGDFVTD--PHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGA  193
+            V  H ETPG+GD +      W+  + GK + + +        K    + D    D  +GA
+Sbjct  123  VLSHQETPGLGDKIDIRITRWVDGFLGKTVENAED-------KNWAVQKDGGQFDQFTGA  175
+
+Query  194  TMTGRGVQRAMEF  206
+            T+T R V +A++ 
+Sbjct  176  TITPRAVVKAVKR  188
+
+
+> sp|Q7MM85|RNFG_VIBVY Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio vulnificus (strain YJ016) OX=196600 GN=rnfG 
+PE=3 SV=1
+Length=211
+
+ Score = 149 bits (375),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 30/162 (19%), Positives = 54/162 (33%), Gaps = 17/162 (10%)
+
+Query  49   TGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVP  108
+            +  ++        D  +       S +                 +    +    +  +  
+Sbjct  43   SSVLNQVIPESAHDNLLFESCTLVSDSALG-------SDKAMPAYIATRNGQATAIAIES  95
+
+Query  109  FYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDD  166
+                G    I     ++    T+ G  V  H ETPG+GD +      W++ + GKQL D 
+Sbjct  96   VAPDGYNGAIKIITGIDTSG-TVLGTRVLSHQETPGLGDKIDLRVTDWITSFTGKQLNDG  154
+
+Query  167  KGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+                + ++ K G         D  +GAT+T R V +A+    
+Sbjct  155  NYN-SWKVRKDGG------EFDQFTGATITPRAVVKAVRNTV  189
+
+
+> sp|B7VLT4|RNFG_VIBTL Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio tasmaniensis (strain LGP32) OX=575788 GN=rnfG 
+PE=3 SV=1
+Length=209
+
+ Score = 148 bits (374),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 34/195 (17%), Positives = 61/195 (31%), Gaps = 18/195 (9%)
+
+Query  26   LGQGNEFRDIFA---KSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAK  82
+            + +      IFA     +  +   L   ++               I  +           
+Sbjct  5    IKKNGLVLAIFACASTGLVAVTHYLTKDQIKQQEQAQLLSVLNQVIPHDLHDNELFSSCT  64
+
+Query  83   IKTRANDAR-----VFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVY  137
+            +              +    +    +  +      G    I   V ++ D  TI G  V 
+Sbjct  65   LVQAEELGTEQAMPAYIAKINGEPSAIAIEAIAPDGYNGAIKVIVGMKIDG-TILGTRVL  123
+
+Query  138  EHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATM  195
+             H ETPG+GD +      W+  + GKQ+  D      ++ K G         D  +GAT+
+Sbjct  124  SHQETPGLGDKIDLRVSDWILSFAGKQV-TDSNLDRWKVRKDGGD------FDQFTGATI  176
+
+Query  196  TGRGVQRAMEFWFGV  210
+            T R V ++++     
+Sbjct  177  TPRAVVKSVKQAVQY  191
+
+
+> sp|P44291|RNFG_HAEIN Ion-translocating oxidoreductase complex 
+subunit G OS=Haemophilus influenzae (strain ATCC 51907 / DSM 
+11121 / KW20 / Rd) OX=71421 GN=rnfG PE=3 SV=1
+Length=207
+
+ Score = 147 bits (371),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 35/183 (19%), Positives = 65/183 (36%), Gaps = 13/183 (7%)
+
+Query  34   DIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDA---  90
+             +    +   +  L   K+D+       +  +  I  +  +    + A I    N     
+Sbjct  18   ALLCTIISAGIFFLTKDKIDAVIAAQQRELLLQVIPQDYFNNNLLESAVIPQDKNFVGIQ  77
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT  150
+            +++    D    +         G    I   V ++P    + GV V EH ETPG+GD + 
+Sbjct  78   KIYFAKKDGNVSAYAYETTAPDGYSGDIRLLVGLDPKGE-VLGVRVIEHHETPGLGDKIE  136
+
+Query  151  --DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+                +W+  +  + + ++       + K G K       D  SGAT+T R V    +   
+Sbjct  137  RRISNWILGFTNQSI-NEHNLSEWAVKKDGGK------FDQFSGATITPRAVVNQTKRSA  189
+
+Query  209  GVE  211
+             + 
+Sbjct  190  LIM  192
+
+
+> sp|Q87MX0|RNFG_VIBPA Ion-translocating oxidoreductase complex 
+subunit G OS=Vibrio parahaemolyticus serotype O3:K6 (strain 
+RIMD 2210633) OX=223926 GN=rnfG PE=3 SV=1
+Length=211
+
+ Score = 147 bits (370),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 31/186 (17%), Positives = 55/186 (30%), Gaps = 15/186 (8%)
+
+Query  32   FRDIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDAR  91
+                    +  L   L   ++               I              + T      
+Sbjct  14   IFACATTGLVALTQYLTEDQIKLQEQKQLLSVLNQVIPETMHDNALTQSCTLVTSPELGT  73
+
+Query  92   V-----FKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+            +     +    +    +  +      G    I     ++     I G  V  H ETPG+G
+Sbjct  74   MHAMPTYIATKNGEPTAIAIESIAPDGYNGEIKVITGIDNQGK-ILGTRVLSHQETPGLG  132
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +      W+  + GKQ+ +D    + ++ K G         D  +GAT+T R V +A+
+Sbjct  133  DKIDLRVTSWILGFTGKQVTEDNWN-SWKVRKDGGD------FDQFTGATITPRAVIKAV  185
+
+Query  205  EFWFGV  210
+                  
+Sbjct  186  RNTVNY  191
+
+
+> sp|A5UBI8|RNFG_HAEIE Ion-translocating oxidoreductase complex 
+subunit G OS=Haemophilus influenzae (strain PittEE) OX=374930 
+GN=rnfG PE=3 SV=1
+Length=207
+
+ Score = 146 bits (369),  Expect = 7e-43, Method: Composition-based stats.
+ Identities = 35/183 (19%), Positives = 65/183 (36%), Gaps = 13/183 (7%)
+
+Query  34   DIFAKSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDA---  90
+             +    +   +  L   K+D+       +  +  I  +  +    + A I    N     
+Sbjct  18   ALLCTIISAGIYFLTKDKIDAVIAAQQRELLLQVIPQDYFNNNLLESAVIPQDKNFVGIQ  77
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT  150
+            +++    D    +         G    I   V ++P    + GV V EH ETPG+GD + 
+Sbjct  78   KIYFAKKDGNISAYAYETTAPDGYSGDIRLLVGLDPKGE-VLGVRVIEHHETPGLGDKIE  136
+
+Query  151  --DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+                +W+  +  + + ++       + K G K       D  SGAT+T R V    +   
+Sbjct  137  RRISNWILGFTNQSI-NEHNLSEWAVKKDGGK------FDQFSGATITPRAVVNQTKRSA  189
+
+Query  209  GVE  211
+             + 
+Sbjct  190  LIM  192
+
+
+> sp|B6EGH3|RNFG_ALISL Ion-translocating oxidoreductase complex 
+subunit G OS=Aliivibrio salmonicida (strain LFI1238) OX=316275 
+GN=rnfG PE=3 SV=1
+Length=210
+
+ Score = 146 bits (368),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 33/150 (22%), Positives = 56/150 (37%), Gaps = 19/150 (13%)
+
+Query  70   PETSSTPKKDIAKIKTRA-------NDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYV  122
+            P+     +   A                 ++    +     + +      G    I   V
+Sbjct  51   PKEQHDNELFKACTLVNNIDALGTNTPMPIYLASMNGKHTGAAIEAIAPDGYSGAIKIIV  110
+
+Query  123  AVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVK  180
+             V+ D + + GV V  H ETPG+GD +      W+  + GK + D     +  + K G +
+Sbjct  111  GVDSD-SIVTGVRVLSHQETPGLGDKIDTRITRWVDGFLGKTV-DSADDSSWAVQKDGGQ  168
+
+Query  181  EGDIHGVDAVSGATMTGRGVQRAMEF--WF  208
+                   D  +GAT+T R V +A++   WF
+Sbjct  169  ------FDQFTGATITPRAVVKAVKRAVWF  192
+
+
+> sp|Q4QJQ4|RNFG_HAEI8 Ion-translocating oxidoreductase complex 
+subunit G OS=Haemophilus influenzae (strain 86-028NP) OX=281310 
+GN=rnfG PE=3 SV=1
+Length=207
+
+ Score = 146 bits (367),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 35/170 (21%), Positives = 62/170 (36%), Gaps = 13/170 (8%)
+
+Query  47   LDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDA---RVFKVFDDSGKLS  103
+            L   K+D+       +  +  I  +  +    + A I    N     +++    D    +
+Sbjct  31   LTKDKIDAVIAAQQRELLLQVIPQDYFNNNLLESAVIPQDKNFVGIQKIYFAKKDGNISA  90
+
+Query  104  SVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGK  161
+                     G    I   V ++P    + GV V EH ETPG+GD +     +W+  +  +
+Sbjct  91   YAYETTAPDGYSGDIRLLVGLDPKGE-VLGVRVIEHHETPGLGDKIERRISNWILGFTNQ  149
+
+Query  162  QLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVE  211
+             + ++       + K G K       D  SGAT+T R V    +    + 
+Sbjct  150  SI-NEHNLSEWAVKKDGGK------FDQFSGATITPRAVVNQTKRSALIM  192
+
+
+> sp|B8E552|RNFG_SHEB2 Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella baltica (strain OS223) OX=407976 GN=rnfG 
+PE=3 SV=1
+Length=212
+
+ Score = 145 bits (366),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 35/197 (18%), Positives = 62/197 (31%), Gaps = 19/197 (10%)
+
+Query  25   NLGQGNEFRDIFAKSVKPLL--INLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAK  82
+             + +      +FA     L+  +N  T          +    +  + P+     +     
+Sbjct  4    PMIKNGFLLALFALICTGLVAAVNQQTVDKIKQQEQQELMRVLHQLIPDEMHDNELTAQC  63
+
+Query  83   IKTRANDA-------RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVV  135
+                  DA         +        ++  +      G    I   V +      + GV 
+Sbjct  64   TLLLDKDALGTDSPMPAYIATSAGKPVAIAIEAIAPDGYNGNIKLIVGISTKGE-VLGVR  122
+
+Query  136  VYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGA  193
+               H ETPG+GD +     +W+S + GK L     K    + K G         D  +GA
+Sbjct  123  TLAHQETPGLGDKIDLRKSNWVSQFVGKVLGSADDKQ-WLVKKDGGD------FDQFTGA  175
+
+Query  194  TMTGRGVQRAMEFWFGV  210
+            T+T R   +A++     
+Sbjct  176  TITPRAYVKAVKNAVWY  192
+
+
+> sp|A1S6N3|RNFG_SHEAM Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella amazonensis (strain ATCC BAA-1098 / 
+SB2B) OX=326297 GN=rnfG PE=3 SV=1
+Length=215
+
+ Score = 145 bits (366),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 34/176 (19%), Positives = 61/176 (35%), Gaps = 17/176 (10%)
+
+Query  44   LINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRA-------NDARVFKVF  96
+            L+N  T    ++   L+    +  I P+         + I               V+   
+Sbjct  25   LVNEATKDKIAEQQRLELTRILHQIVPDEIHDNDLGGSCILVHNADALGTDEPMPVYLAS  84
+
+Query  97   DDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHW  154
+              +  ++  +      G    I   + V+     + GV    H ETPG+GD +     +W
+Sbjct  85   SANEPVALAIETIAPDGYNGNIRLIIGVDLKGK-VLGVRTLTHQETPGLGDKIELRKSNW  143
+
+Query  155  LSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGV  210
+            +  +  K +F DK     ++ K G         D  +GAT+T R   +A+      
+Sbjct  144  VLSFNDK-VFSDKANDRWKVKKDGGD------FDQFTGATITPRAYLKAVSRTLIF  192
+
+
+> sp|Q15RL1|RNFG_PSEA6 Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudoalteromonas atlantica (strain T6c / ATCC 
+BAA-1087) OX=342610 GN=rnfG PE=3 SV=1
+Length=215
+
+ Score = 144 bits (362),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 33/163 (20%), Positives = 57/163 (35%), Gaps = 16/163 (10%)
+
+Query  52   VDSDANVLDFDERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYG  111
+            +D       +D  M       +S             +   +++       +++V+     
+Sbjct  46   LDELVPRGSYDNLMQHDCVLVTSQAY------LGSNSPQHIYRATRAGEPVAAVIEATAP  99
+
+Query  112  KGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGK  169
+             G    I   V +  D  T+ GV V +H ETPG+GD +      W+  +  +QL  D   
+Sbjct  100  NGYSGRIELVVGLSGDA-TVSGVRVIDHKETPGLGDKIDLRISDWVLGFNNQQLTQDNAS  158
+
+Query  170  FAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEG  212
+                       + D    D  +GAT+T R V  A++       
+Sbjct  159  -------NWAVKKDGGQFDQFTGATITPRAVVSAVKNTALYYQ  194
+
+
+> sp|Q9CNP4|RNFG_PASMU Ion-translocating oxidoreductase complex 
+subunit G OS=Pasteurella multocida (strain Pm70) OX=272843 
+GN=rnfG PE=3 SV=1
+Length=202
+
+ Score = 142 bits (357),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 37/169 (22%), Positives = 59/169 (35%), Gaps = 15/169 (9%)
+
+Query  47   LDTGKVDSDANVLDFDERMAAINPETSSTPKKDIA-----KIKTRANDARVFKVFDDSGK  101
+            L   K++ + N       +  +       P  +       +        R+     ++ K
+Sbjct  31   LTKSKIEDEINKQRQALLLEVVPQAYFDNPLSENCQRPNSEKLRAQRIDRLCIATKNNQK  90
+
+Query  102  LSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWK  159
+             +         G    I   V + P   TI GV V EH ETPG+GD +      W+  + 
+Sbjct  91   TAYAFETVAPDGYAGRIRLLVGITPTG-TILGVRVLEHQETPGLGDKIETRISDWILSFS  149
+
+Query  160  GKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+             +QL  D       + K G K       D  +GAT+T R V   ++   
+Sbjct  150  QQQLRSDN-LADWAVKKDGGK------FDQFAGATITPRAVVNQVKQSA  191
+
+
+> sp|A4XS49|RNFG_PSEMY Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas mendocina (strain ymp) OX=399739 GN=rnfG 
+PE=3 SV=1
+Length=211
+
+ Score = 141 bits (356),  Expect = 7e-41, Method: Composition-based stats.
+ Identities = 45/206 (22%), Positives = 76/206 (37%), Gaps = 26/206 (13%)
+
+Query  28   QGNEFRDIFAKSVKPLLINLDTGKVDSDANVLDFDE--RMAAINPETSSTPKKDIAKIKT  85
+            +      +FA      +  L  G     A      +   +A I P  S        +I+ 
+Sbjct  11   KNALVLGLFAIGTVGSVALLQQGTATRIAAAEREAQVRALAEILPAGSYDNHLLDNRIEL  70
+
+Query  86   RA------NDARVFKVFDDSGKLSSVVVPF-YGKGLWSMIYGYVAVEPDFNTIKGVVVYE  138
+             A      +    +       + S++++P     G    I+  V +  D   + GV V  
+Sbjct  71   NAPELGHRSPQSAYLALK-GEQPSALILPVTAPDGYSGAIHLLVGIFADGR-LAGVRVLG  128
+
+Query  139  HGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMT  196
+            H ETPG+GD +      W+  ++GK L D           G   + D    D  +GAT+T
+Sbjct  129  HRETPGLGDKIELAKSDWIRSFEGKSLSDPNED-------GWAVKKDRGEFDQFAGATIT  181
+
+Query  197  GRGVQRAMEFWFGVEGFQTFFNQLKA  222
+             R V +A+       G   +F++ +A
+Sbjct  182  PRAVVKAVH------GALRYFDKHRA  201
+
+
+> sp|B8CM54|RNFG_SHEPW Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella piezotolerans (strain WP3 / JCM 13877) 
+OX=225849 GN=rnfG PE=3 SV=1
+Length=212
+
+ Score = 141 bits (354),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 29/182 (16%), Positives = 61/182 (34%), Gaps = 18/182 (10%)
+
+Query  38   KSVKPLLINLDTGKVDSDANVLDFDERMAAINPETSSTPKKDIAKIKTR-------ANDA  90
+              +  ++  L   K+      ++    +  I P+     +     I  +           
+Sbjct  20   TGLVAIVNQLTYAKIKQQ-EQIELSRVLHQIIPDEIHDNELTEHCITIQDSDFLGTTQPL  78
+
+Query  91   RVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT  150
+              +    +   ++  +      G    I   + +      + GV    H ETPG+GD + 
+Sbjct  79   PAYIATRNGDGVAIAIETVAPDGYNGNIKIIIGLNKAGE-VLGVRTLSHQETPGLGDKIE  137
+
+Query  151  --DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+                 W++ + G  +  +K K    + K G +      +D  +GAT+T R    A++   
+Sbjct  138  LRKSDWVTKFNGLTVSSEKDK-RWHVKKDGGQ------IDQFTGATITPRAYVNAVKLAT  190
+
+Query  209  GV  210
+              
+Sbjct  191  LY  192
+
+
+> sp|Q8EE77|RNFG_SHEON Ion-translocating oxidoreductase complex 
+subunit G OS=Shewanella oneidensis (strain MR-1) OX=211586 
+GN=rnfG PE=3 SV=1
+Length=212
+
+ Score = 140 bits (352),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 26/126 (21%), Positives = 46/126 (37%), Gaps = 10/126 (8%)
+
+Query  87   ANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIG  146
+             +    +        ++  +      G    I   V +      + GV    H ETPG+G
+Sbjct  75   EDAMPAYIATAAGKPVAIAMEAIAPDGYNGNIKLIVGINTQGE-VLGVRTLAHQETPGLG  133
+
+Query  147  DFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAM  204
+            D +      W++ + GK L  +  K   ++ K G         D  +GAT+T R   +A+
+Sbjct  134  DKIELRKSDWVTKFVGKVLKSEDDKQ-WQVQKDGGD------FDQFTGATITPRAYVKAV  186
+
+Query  205  EFWFGV  210
+            +     
+Sbjct  187  KRAVWY  192
+
+
+> sp|A3PRP7|RNFG_RHOS1 Ion-translocating oxidoreductase complex 
+subunit G OS=Rhodobacter sphaeroides (strain ATCC 17029 / ATH 
+2.4.9) OX=349101 GN=rnfG PE=3 SV=1
+Length=219
+
+ Score = 140 bits (352),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 43/184 (23%), Positives = 66/184 (36%), Gaps = 17/184 (9%)
+
+Query  42   PLLINLDTGKVDSDANVLDFDERMAAINPETSST-PKKDIAKIKTRANDARVFKVFDDSG  100
+             L  +   G + + +           +        P  DI  +      A    V    G
+Sbjct  40   ALASDATRGPIAARSAEDLLASLAQVLPAALHDNDPTADIRTLADADEGAVRVYVATRGG  99
+
+Query  101  KLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLW  158
+             +++V     G G    I   +AV  D  TI G  V  H ETPG+GD +      W+  +
+Sbjct  100  AVTAVTFELTGYGYGGAIRVLMAVAADG-TILGARVLSHTETPGLGDKIEIGKDDWIEGF  158
+
+Query  159  KGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFN  218
+             G+ L  D G    ++ + G         D  SGAT+T R V   +          T F+
+Sbjct  159  AGRSL-TDPGPAGWKVRRDGGV------FDQFSGATITPRAVVGTIHRGL------TLFD  205
+
+Query  219  QLKA  222
+            + +A
+Sbjct  206  RHRA  209
+
+
+> sp|P57217|RNFG_BUCAI Ion-translocating oxidoreductase complex 
+subunit G OS=Buchnera aphidicola subsp. Acyrthosiphon pisum 
+(strain APS) OX=107806 GN=rnfG PE=3 SV=1
+Length=164
+
+ Score = 136 bits (343),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 30/138 (22%), Positives = 56/138 (41%), Gaps = 10/138 (7%)
+
+Query  82   KIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGE  141
+            K+        ++ +F +   ++++V      G    I   VA   +   I    V  H E
+Sbjct  19   KLLGDHKIHNLWVLFKNKKPVAAIVETTAPDGYSGAINMLVAAYFNGEIINA-RVLSHKE  77
+
+Query  142  TPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRG  199
+            TPGIGD +     +W++ + G  +   + K   +L K G K      ++  +GAT+T + 
+Sbjct  78   TPGIGDKIDLSISNWITRFTGMYVASIEDK-DFKLRKYGGK------IEQFTGATITPQS  130
+
+Query  200  VQRAMEFWFGVEGFQTFF  217
+            V  +++          F 
+Sbjct  131  VTNSIKRTVVFIKKIPFI  148
+
+
+> sp|Q3IXC2|RNFG_RHOS4 Ion-translocating oxidoreductase complex 
+subunit G OS=Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 
+/ NCIB 8253 / DSM 158) OX=272943 GN=rnfG PE=3 SV=1
+Length=219
+
+ Score = 137 bits (345),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 41/151 (27%), Positives = 60/151 (40%), Gaps = 16/151 (11%)
+
+Query  74   STPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKG  133
+            + P  DI  +      A    V    G +++V     G G    I   +AV  D  TI G
+Sbjct  73   NDPTADIRTLSDADEGAVRVYVAARGGAVTAVTFELTGYGYGGAIRVLMAVAADG-TILG  131
+
+Query  134  VVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVS  191
+              V  H ETPG+GD +      W+  + G+ L  D G    ++ + G         D  S
+Sbjct  132  ARVLSHTETPGLGDKIEIGKDDWIEGFAGRSL-TDPGPAGWKVRRDGGV------FDQFS  184
+
+Query  192  GATMTGRGVQRAMEFWFGVEGFQTFFNQLKA  222
+            GAT+T R V   +          T F++ +A
+Sbjct  185  GATITPRAVVGTIHRGL------TLFDRHRA  209
+
+
+> sp|Q89AW6|RNFG_BUCBP Ion-translocating oxidoreductase complex 
+subunit G OS=Buchnera aphidicola subsp. Baizongia pistaciae 
+(strain Bp) OX=224915 GN=rnfG PE=3 SV=1
+Length=216
+
+ Score = 137 bits (345),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 26/135 (19%), Positives = 54/135 (40%), Gaps = 9/135 (7%)
+
+Query  82   KIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGE  141
+            K+     +  ++         + +       G   +I   ++++     I GV V  H E
+Sbjct  74   KLLGDKKNHYLWLAKKKQDITAVIFETIAPDGYSGIIKMVISLDIKNGKILGVRVLSHNE  133
+
+Query  142  TPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRG  199
+            TPG+GD +     +W++ + G ++F    +  + L K G        +D  +GAT+T   
+Sbjct  134  TPGLGDKIDVNISNWITKFSGVKIFS-LDERDLSLKKYGG------NIDQFTGATITPLA  186
+
+Query  200  VQRAMEFWFGVEGFQ  214
+            V  +++    +    
+Sbjct  187  VVNSIKRTIVLVKML  201
+
+
+> sp|P97054|RNFG_RHOCA Ion-translocating oxidoreductase complex 
+subunit G OS=Rhodobacter capsulatus OX=1061 GN=rnfG PE=1 SV=1
+Length=217
+
+ Score = 133 bits (335),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 40/162 (25%), Positives = 65/162 (40%), Gaps = 22/162 (14%)
+
+Query  64   RMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVA  123
+             +   +   +  P  D           +V+ V   +G ++ +     G G    I   + 
+Sbjct  67   DLHDNDLAAAMRPVSD-----AEEGTIKVY-VATKAGAVTGLAYELSGPGYSGQIRVLLG  120
+
+Query  124  VEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKE  181
+            + PD  T+ GV V  H ETPG+GD +      W+  + GK L  D      ++ + G   
+Sbjct  121  IAPDG-TLLGVRVLSHTETPGLGDKIEVAKDDWILGFAGKSL-ADPEPGHWKVKRDGGV-  177
+
+Query  182  GDIHGVDAVSGATMTGRGVQRAMEFWFGVEGFQTFFNQLKAS  223
+                  D  SGAT+T R V + +       G   FF++ KA+
+Sbjct  178  -----FDQFSGATITPRAVVKTI-----YRGLM-FFDRNKAA  208
+
+
+> sp|Q8KA18|RNFG_BUCAP Ion-translocating oxidoreductase complex 
+subunit G OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=rnfG PE=3 SV=1
+Length=202
+
+ Score = 128 bits (322),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 33/141 (23%), Positives = 55/141 (39%), Gaps = 10/141 (7%)
+
+Query  82   KIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGE  141
+            K+        ++ +F +     +VV      G    I   VA   +   I GV V  H E
+Sbjct  70   KLLGDQKKHNLWLLFKNKQAKVAVVESIAPDGYSGSISILVAAYLNGKII-GVRVLSHKE  128
+
+Query  142  TPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRG  199
+            TPGIGD +     +W++ ++   + D K K  +    GG        ++  +GAT+T + 
+Sbjct  129  TPGIGDKIEISISNWITKFQDMNVIDLKDKKFLLKKYGG-------KIEQFTGATITPQS  181
+
+Query  200  VQRAMEFWFGVEGFQTFFNQL  220
+            V  A++              L
+Sbjct  182  VSNAVKRTVVFIKKIPLIFSL  202
+
+
+> sp|Q9HYB6|RNFG_PSEAE Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 
+22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 
+/ PAO1) OX=208964 GN=rnfG PE=3 SV=1
+Length=214
+
+ Score = 129 bits (323),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 36/194 (19%), Positives = 58/194 (30%), Gaps = 20/194 (10%)
+
+Query  23   DVNLGQGNEFRDIFAKSVKPLLINLD----TGKVDSDANVLDFDERMAAINPETSSTPKK  78
+             +    G     +  +  +  +           +        +D      +P  S  P  
+Sbjct  17   GLFALVGVGLVALVQQFTEARIAEAQREARGRALLELLPPGSYD-----NHPLDSQVPTF  71
+
+Query  79   DIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYE  138
+               K+         +         + ++      G    I   V V      + GV V  
+Sbjct  72   -APKLLGLDAPRPAYVARLHGQASAVILQASAPDGYSGAIQLLVGVTAQGR-LLGVRVVA  129
+
+Query  139  HGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMT  196
+            H ETPG+GD +      W+  + GK L  D       + K G         D  +GAT+T
+Sbjct  130  HKETPGLGDRIELAKSPWVHGFDGKSL-GDPADAGWAVKKDGG------TFDQFAGATVT  182
+
+Query  197  GRGVQRAMEFWFGV  210
+             R V RA+      
+Sbjct  183  PRAVVRAVHKALRY  196
+
+
+> sp|Q02QY2|RNFG_PSEAB Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas aeruginosa (strain UCBPP-PA14) OX=208963 
+GN=rnfG PE=3 SV=1
+Length=214
+
+ Score = 129 bits (323),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 36/194 (19%), Positives = 58/194 (30%), Gaps = 20/194 (10%)
+
+Query  23   DVNLGQGNEFRDIFAKSVKPLLINLD----TGKVDSDANVLDFDERMAAINPETSSTPKK  78
+             +    G     +  +  +  +           +        +D      +P  S  P  
+Sbjct  17   GLFALVGVGLVALVQQFTEARIAEAQREARGRALLELLPPGSYD-----NHPLDSQVPTF  71
+
+Query  79   DIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYE  138
+               K+         +         + ++      G    I   V V      + GV V  
+Sbjct  72   -APKLLGLDAPRPAYVARLHGQASAVILQASAPDGYSGAIQLLVGVTAQGR-LLGVRVVA  129
+
+Query  139  HGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMT  196
+            H ETPG+GD +      W+  + GK L  D       + K G         D  +GAT+T
+Sbjct  130  HKETPGLGDRIELAKSPWVHGFDGKSL-GDPADAGWAVKKDGG------TFDQFAGATVT  182
+
+Query  197  GRGVQRAMEFWFGV  210
+             R V RA+      
+Sbjct  183  PRAVVRAVHKALRY  196
+
+
+> sp|B7UVW9|RNFG_PSEA8 Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas aeruginosa (strain LESB58) OX=557722 
+GN=rnfG PE=3 SV=1
+Length=214
+
+ Score = 129 bits (323),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 36/194 (19%), Positives = 58/194 (30%), Gaps = 20/194 (10%)
+
+Query  23   DVNLGQGNEFRDIFAKSVKPLLINLD----TGKVDSDANVLDFDERMAAINPETSSTPKK  78
+             +    G     +  +  +  +           +        +D      +P  S  P  
+Sbjct  17   GLFALVGVGLVALVQQFTEARIAEAQREARGRALLELLPPGSYD-----NHPLDSQVPTF  71
+
+Query  79   DIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYE  138
+               K+         +         + ++      G    I   V V      + GV V  
+Sbjct  72   -APKLLGLDAPRPAYVARLHGQASAVILQASAPDGYSGAIQLLVGVTAQGR-LLGVRVVA  129
+
+Query  139  HGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMT  196
+            H ETPG+GD +      W+  + GK L  D       + K G         D  +GAT+T
+Sbjct  130  HKETPGLGDRIELAKSPWVHGFDGKSL-GDPADAGWAVKKDGG------TFDQFAGATVT  182
+
+Query  197  GRGVQRAMEFWFGV  210
+             R V RA+      
+Sbjct  183  PRAVVRAVHKALRY  196
+
+
+> sp|Q9EVN3|RNFG_PSEST Ion-translocating oxidoreductase complex 
+subunit G OS=Pseudomonas stutzeri OX=316 GN=rnfG PE=3 SV=1
+Length=228
+
+ Score = 119 bits (297),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 29/148 (20%), Positives = 55/148 (37%), Gaps = 16/148 (11%)
+
+Query  63   ERMAAINPETSSTPKKDIAKIKTRANDARVFKVFDDSGKLSSVVVPFYGKGLWSMIYGYV  122
+            + +   +P   +   +D            V+     +G+L++        G    I  ++
+Sbjct  78   QALYDNDPLADAFNVED-----AELGLIEVYPARR-AGQLTATAFQISTVGYGGPIVQFI  131
+
+Query  123  AVEPDFNTIKGVVVYEHGETPGIGDFVT--DPHWLSLWKGKQLFDDKGKFAMRLVKGGVK  180
+            A++ +   I GV V  H ETPG+ D +      W+  + G  L          + K G +
+Sbjct  132  ALDSEGR-ILGVRVLSHKETPGLADKIEVTRSDWIKAFDGLSLAS-TPLDQWAVKKDGGQ  189
+
+Query  181  EGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+                   D  +GAT+T R + + +    
+Sbjct  190  ------FDQFAGATITPRAIVKGVLRAL  211
+
+
+> sp|H6LC30|RNFG_ACEWD Na(+)-translocating ferredoxin:NAD(+) oxidoreductase 
+complex subunit G OS=Acetobacterium woodii (strain 
+ATCC 29683 / DSM 1030 / JCM 2381 / KCTC 1655 / WB1) OX=931626 
+GN=rnfG PE=1 SV=1
+Length=207
+
+ Score = 107 bits (267),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 34/175 (19%), Positives = 63/175 (36%), Gaps = 16/175 (9%)
+
+Query  42   PLLINLDTGKVDSDANVLDFDERMAA--INPETSSTPKKDIAKIKTR------ANDARVF  93
+             L   +  G ++      +   R        +  + P KD+ KI +            V+
+Sbjct  33   ALTNYVTAGTIEEMNVQTNTVARQEVLPKAADFEAVPAKDVEKIASEIGMEKPEELLEVY  92
+
+Query  94   KVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDPH  153
+                +   +   V      G    +     +  D   I G+ + +  ETPG+G   +   
+Sbjct  93   IGKSNGEVVGYTVKTGPTSGYAGEVQVLTGISADG-VITGITIIKSNETPGLGAKASG-V  150
+
+Query  154  WLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWF  208
+            W   + GK       K  + +VKG  KEG  + + A++G+T+T + V   +    
+Sbjct  151  WNDQFTGKS-----AKEELVVVKGTTKEGS-NEIQAITGSTITSKAVTSGVNMSI  199
+
+
+> sp|D8GR68|RNFG_CLOLD Proton-translocating ferredoxin:NAD(+) oxidoreductase 
+complex subunit G OS=Clostridium ljungdahlii (strain 
+ATCC 55383 / DSM 13528 / PETC) OX=748727 GN=rnfG PE=3 
+SV=1
+Length=185
+
+ Score = 99.0 bits (245),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 35/124 (28%), Positives = 55/124 (44%), Gaps = 12/124 (10%)
+
+Query  93   FKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDP  152
+            +       K  + VVP   KG    I   VAV PD   I   +V  H ETPG+G   +  
+Sbjct  70   WYAAQKGNKTIAYVVPAESKGYGGAIELLVAVTPDGKVIDFSIV-SHNETPGLGANASKD  128
+
+Query  153  HWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGVEG  212
+             +   +K K+        A+ +VK    + +   + A++GAT+T + V + ++    VE 
+Sbjct  129  SFRGQFKDKK------ADALTVVKD---KSNTKNIQAMTGATITSKAVTKGVK--EAVEQ  177
+
+Query  213  FQTF  216
+              TF
+Sbjct  178  VTTF  181
+
+
+> sp|Q8TSY2|RNFG_METAC Ion-translocating oxidoreductase complex 
+subunit G OS=Methanosarcina acetivorans (strain ATCC 35395 
+/ DSM 2834 / JCM 12185 / C2A) OX=188937 GN=rnfG PE=1 SV=1
+Length=188
+
+ Score = 97.1 bits (240),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 36/118 (31%), Positives = 51/118 (43%), Gaps = 12/118 (10%)
+
+Query  93   FKVFDDSGKLSSVVVPFYGKGLWSMIYGYVAVEPDFNTIKGVVVYEHGETPGIGDFVTDP  152
+            +K  D SG +   VV     G   MI     +  DF+TI G  V +H ETPG+G  +T P
+Sbjct  77   YKGVDSSGNVVGYVVERNQVGAQGMIQLLAGISSDFSTITGFQVMKHSETPGLGALITTP  136
+
+Query  153  HWLSLWKGKQLFDDKGKFAMRLVKGGVKEGDIHGVDAVSGATMTGRGVQRAMEFWFGV  210
+             +   +       D       L K G +      VDA+SGAT++ + V  A+      
+Sbjct  137  EFQGQFV------DLPVADTSLTKNGGQ------VDAISGATISSQAVVDALHSAVDY  182
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.131    0.337    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0400    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15108241262
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

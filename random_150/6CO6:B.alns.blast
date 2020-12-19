@@ -1,0 +1,1197 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6CO6:B
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P63653|Y3582_MYCBO Putative CoA-transferase subunit beta Mb3...  357     5e-125
+  sp|P9WPV9|Y3552_MYCTU Putative CoA-transferase subunit beta Rv3...  357     5e-125
+  sp|P9WPV8|Y3552_MYCTO Putative CoA-transferase subunit beta MT3...  357     5e-125
+  sp|Q8VPF2|CATJ_PSEKB 3-oxoadipate CoA-transferase subunit B OS=...  70.5    4e-13 
+  sp|Q59112|GCTB_ACIFV Glutaconate CoA-transferase subunit B OS=A...  50.1    4e-06 
+
+
+> sp|P63653|Y3582_MYCBO Putative CoA-transferase subunit beta Mb3582 
+OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) 
+OX=233413 GN=BQ2027_MB3582 PE=3 SV=1
+Length=250
+
+ Score = 357 bits (917),  Expect = 5e-125, Method: Compositional matrix adjust.
+ Identities = 171/246 (70%), Positives = 204/246 (83%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAK-AP--IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G   AP  IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|P9WPV9|Y3552_MYCTU Putative CoA-transferase subunit beta Rv3552 
+OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) 
+OX=83332 GN=Rv3552 PE=1 SV=1
+Length=250
+
+ Score = 357 bits (917),  Expect = 5e-125, Method: Compositional matrix adjust.
+ Identities = 171/246 (70%), Positives = 204/246 (83%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAK-AP--IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G   AP  IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|P9WPV8|Y3552_MYCTO Putative CoA-transferase subunit beta MT3656 
+OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) 
+OX=83331 GN=MT3656 PE=3 SV=1
+Length=250
+
+ Score = 357 bits (917),  Expect = 5e-125, Method: Compositional matrix adjust.
+ Identities = 171/246 (70%), Positives = 204/246 (83%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAK-AP--IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G   AP  IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|Q8VPF2|CATJ_PSEKB 3-oxoadipate CoA-transferase subunit B OS=Pseudomonas 
+knackmussii (strain DSM 6978 / LMG 23759 / B13) 
+OX=1301098 GN=catJ PE=1 SV=1
+Length=260
+
+ Score = 70.5 bits (171),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 62/228 (27%), Positives = 101/228 (44%), Gaps = 26/228 (11%)
+
+Query  31   LPLIGARLARLTTEPDLLITDGEALIFADTPAVGAKAPI--------------EGWMPFR  76
+            LP   A LARLT+ PD++      LI+   P +GAK  +              +  +P  
+Sbjct  30   LPSKAANLARLTSSPDVV------LIYESGP-IGAKPTVLPLSIGDGELAETADTVVPTG  82
+
+Query  77   KVFDVVASGRRHVV--MGANQIDRHGNQNLSAFGPLQQPTRQMFGVRGAPGNTINHPTSY  134
+            ++F     G R  V  +GA Q+DR GN N +  G   +P  ++ G  GAP    +     
+Sbjct  83   EIFRYWLQGGRIDVGFLGAAQVDRFGNINTTVIGDYNKPKVRLPGAGGAPEIAGSAKEVL  142
+
+Query  135  WVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLH--RVVSNLGVFDFGGPDHTFRA  192
+             + K + R F D +  ++ VG+ +                 ++++L + +     + F  
+Sbjct  143  IILKQSHRTFVDKLAFITSVGHGEGGDHRKQLGLPGKGPVAIITDLCIMEPEAGSNEFIV  202
+
+Query  193  LSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+             SLHPGVT +QV +NT + +        T  PT+ EL  +R  L+ R+
+Sbjct  203  TSLHPGVTREQVIENTGWAIRFAEQVKETAAPTEVELEALR-ALEART  249
+
+
+> sp|Q59112|GCTB_ACIFV Glutaconate CoA-transferase subunit B OS=Acidaminococcus 
+fermentans (strain ATCC 25085 / DSM 20731 / 
+VR4) OX=591001 GN=gctB PE=1 SV=3
+Length=266
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 55/226 (24%), Positives = 90/226 (40%), Gaps = 22/226 (10%)
+
+Query  31   LPLIGARLARLTTEPDLLITDGEALIFADTPAV-------------GAKAPIEGWMPFRK  77
+            LPLIGA +A+    PD  I     L+      V             G   P   ++ F  
+Sbjct  33   LPLIGASVAKRVYAPDCHIIVESGLMDCSPVEVPRSVGDLRFMAHCGCIWPNVRFVGFEI  92
+
+Query  78   VFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGVRGAPGNTINHPTSYWVG  137
+               +  + R    +G  QID +GN N ++ G    P  +  G  GA G    +  +  + 
+Sbjct  93   NEYLHKANRLIAFIGGAQIDPYGNVNSTSIGDYHHPKTRFTGSGGANG-IATYSNTIIMM  151
+
+Query  138  KHTSRVFCDTVDIVSGVGYDQIDPENPAYRFH-----HLHRVVSNLGVFDFGGPDHTFRA  192
+            +H  R F + +D V+  G+  ID      R           VV++ G+  F         
+Sbjct  152  QHEKRRFMNKIDYVTSPGW--IDGPGGRERLGLPGDVGPQLVVTDKGILKFDEKTKRMYL  209
+
+Query  193  LSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDP  238
+             + +P  + + V +NT F++  ++ A     P    ++LIRE +DP
+Sbjct  210  AAYYPTSSPEDVLENTGFDL-DVSKAVELEAPDPAVIKLIREEIDP  254
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18359936588
+Results from round 2
+
+
+Query= 6CO6:B
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P63653|Y3582_MYCBO Putative CoA-transferase subunit beta Mb3...  368     4e-129
+  sp|P9WPV9|Y3552_MYCTU Putative CoA-transferase subunit beta Rv3...  368     4e-129
+  sp|P9WPV8|Y3552_MYCTO Putative CoA-transferase subunit beta MT3...  368     4e-129
+  sp|Q59112|GCTB_ACIFV Glutaconate CoA-transferase subunit B OS=A...  269     8e-90 
+  sp|Q8VPF2|CATJ_PSEKB 3-oxoadipate CoA-transferase subunit B OS=...  241     6e-79 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P56007|SCOB_HELPY Succinyl-CoA:3-ketoacid coenzyme A transfe...  47.4    2e-05
+  sp|Q9ZLE4|SCOB_HELPJ Succinyl-CoA:3-ketoacid coenzyme A transfe...  47.0    4e-05
+
+
+> sp|P63653|Y3582_MYCBO Putative CoA-transferase subunit beta Mb3582 
+OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) 
+OX=233413 GN=BQ2027_MB3582 PE=3 SV=1
+Length=250
+
+ Score = 368 bits (944),  Expect = 4e-129, Method: Composition-based stats.
+ Identities = 169/246 (69%), Positives = 202/246 (82%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAKAP---IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G       IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|P9WPV9|Y3552_MYCTU Putative CoA-transferase subunit beta Rv3552 
+OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) 
+OX=83332 GN=Rv3552 PE=1 SV=1
+Length=250
+
+ Score = 368 bits (944),  Expect = 4e-129, Method: Composition-based stats.
+ Identities = 169/246 (69%), Positives = 202/246 (82%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAKAP---IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G       IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|P9WPV8|Y3552_MYCTO Putative CoA-transferase subunit beta MT3656 
+OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) 
+OX=83331 GN=MT3656 PE=3 SV=1
+Length=250
+
+ Score = 368 bits (944),  Expect = 4e-129, Method: Composition-based stats.
+ Identities = 169/246 (69%), Positives = 202/246 (82%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAKAP---IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G       IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|Q59112|GCTB_ACIFV Glutaconate CoA-transferase subunit B OS=Acidaminococcus 
+fermentans (strain ATCC 25085 / DSM 20731 / 
+VR4) OX=591001 GN=gctB PE=1 SV=3
+Length=266
+
+ Score = 269 bits (687),  Expect = 8e-90, Method: Composition-based stats.
+ Identities = 60/256 (23%), Positives = 97/256 (38%), Gaps = 24/256 (9%)
+
+Query  1    TEVTRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADT  60
+            T  T  E  A+  A        +       LPLIGA +A+    PD  I     L+    
+Sbjct  5    TNYTNKEMQAVTIAKQIKNGQVVTVG--TGLPLIGASVAKRVYAPDCHIIVESGLMDCSP  62
+
+Query  61   PAV-------------GAKAPIEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAF  107
+              V             G   P   ++ F     +  + R    +G  QID +GN N ++ 
+Sbjct  63   VEVPRSVGDLRFMAHCGCIWPNVRFVGFEINEYLHKANRLIAFIGGAQIDPYGNVNSTSI  122
+
+Query  108  GPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+            G    P  +  G  GA G    +  +  + +H  R F + +D V+  G+  ID      R
+Sbjct  123  GDYHHPKTRFTGSGGANG-IATYSNTIIMMQHEKRRFMNKIDYVTSPGW--IDGPGGRER  179
+
+Query  168  FH-----HLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTR  222
+                       VV++ G+  F          + +P  + + V +NT F++  ++ A    
+Sbjct  180  LGLPGDVGPQLVVTDKGILKFDEKTKRMYLAAYYPTSSPEDVLENTGFDL-DVSKAVELE  238
+
+Query  223  EPTDEELRLIREVLDP  238
+             P    ++LIRE +DP
+Sbjct  239  APDPAVIKLIREEIDP  254
+
+
+> sp|Q8VPF2|CATJ_PSEKB 3-oxoadipate CoA-transferase subunit B OS=Pseudomonas 
+knackmussii (strain DSM 6978 / LMG 23759 / B13) 
+OX=1301098 GN=catJ PE=1 SV=1
+Length=260
+
+ Score = 241 bits (615),  Expect = 6e-79, Method: Composition-based stats.
+ Identities = 62/228 (27%), Positives = 101/228 (44%), Gaps = 26/228 (11%)
+
+Query  31   LPLIGARLARLTTEPDLLITDGEALIFADTPAVGAKAPI--------------EGWMPFR  76
+            LP   A LARLT+ PD++      LI+   P +GAK  +              +  +P  
+Sbjct  30   LPSKAANLARLTSSPDVV------LIYESGP-IGAKPTVLPLSIGDGELAETADTVVPTG  82
+
+Query  77   KVFDVVASGRRHVV--MGANQIDRHGNQNLSAFGPLQQPTRQMFGVRGAPGNTINHPTSY  134
+            ++F     G R  V  +GA Q+DR GN N +  G   +P  ++ G  GAP    +     
+Sbjct  83   EIFRYWLQGGRIDVGFLGAAQVDRFGNINTTVIGDYNKPKVRLPGAGGAPEIAGSAKEVL  142
+
+Query  135  WVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLH--RVVSNLGVFDFGGPDHTFRA  192
+             + K + R F D +  ++ VG+ +                 ++++L + +     + F  
+Sbjct  143  IILKQSHRTFVDKLAFITSVGHGEGGDHRKQLGLPGKGPVAIITDLCIMEPEAGSNEFIV  202
+
+Query  193  LSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+             SLHPGVT +QV +NT + +        T  PT+ EL  +R  L+ R+
+Sbjct  203  TSLHPGVTREQVIENTGWAIRFAEQVKETAAPTEVELEALR-ALEART  249
+
+
+> sp|P56007|SCOB_HELPY Succinyl-CoA:3-ketoacid coenzyme A transferase 
+subunit B OS=Helicobacter pylori (strain ATCC 700392 
+/ 26695) OX=85962 GN=scoB PE=1 SV=1
+Length=207
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 31/168 (18%), Positives = 63/168 (38%), Gaps = 23/168 (14%)
+
+Query  53   EALIFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAF  107
+            E  + AD    G       P   +      F ++  G     ++G  ++ ++G+      
+Sbjct  55   EGSVDADLINAGKETITVVPGASFFNSADSFAMIRGGHIDLAILGGMEVSQNGD-----L  109
+
+Query  108  GPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+                 P + + G+ GA            + +H ++     V     +         P   
+Sbjct  110  ANWMIPKKLIKGMGGAMDLVHGAKKVIVIMEHCNKYGESKVKKECSL---------PLTG  160
+
+Query  168  FHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNT--SFEVA  213
+               +H+++++L VF+F   ++  + + L  GV+ DQV + T   FEV 
+Sbjct  161  KGVVHQLITDLAVFEFS--NNAMKLVELQEGVSLDQVKEKTEAEFEVR  206
+
+
+> sp|Q9ZLE4|SCOB_HELPJ Succinyl-CoA:3-ketoacid coenzyme A transferase 
+subunit B OS=Helicobacter pylori (strain J99 / ATCC 700824) 
+OX=85963 GN=scoB PE=3 SV=1
+Length=207
+
+ Score = 47.0 bits (110),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 24/128 (19%), Positives = 51/128 (40%), Gaps = 18/128 (14%)
+
+Query  88   HVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDT  147
+              ++G  ++ ++G+           P + + G+ GA            + +H ++     
+Sbjct  95   LAILGGMEVSQNGD-----LANWMIPKKLIKGMGGAMDLVHGAKKVIVIMEHCNKYGESK  149
+
+Query  148  VDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADN  207
+            V     +         P      +H+++++L VF+F   ++    + L  GV+ DQV + 
+Sbjct  150  VKKECSL---------PLTGKGVVHQLITDLAVFEFS--NNAMELVELQEGVSLDQVKEK  198
+
+Query  208  T--SFEVA  213
+            T   FEV 
+Sbjct  199  TEAEFEVH  206
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0404    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18359936588
+Results from round 3
+
+
+Query= 6CO6:B
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P63653|Y3582_MYCBO Putative CoA-transferase subunit beta Mb3...  349     1e-121
+  sp|P9WPV9|Y3552_MYCTU Putative CoA-transferase subunit beta Rv3...  349     1e-121
+  sp|P9WPV8|Y3552_MYCTO Putative CoA-transferase subunit beta MT3...  349     1e-121
+  sp|Q59112|GCTB_ACIFV Glutaconate CoA-transferase subunit B OS=A...  283     2e-95 
+  sp|Q8VPF2|CATJ_PSEKB 3-oxoadipate CoA-transferase subunit B OS=...  235     1e-76 
+  sp|P56007|SCOB_HELPY Succinyl-CoA:3-ketoacid coenzyme A transfe...  161     3e-48 
+  sp|Q9ZLE4|SCOB_HELPJ Succinyl-CoA:3-ketoacid coenzyme A transfe...  160     9e-48 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P42316|SCOB_BACSU Probable succinyl-CoA:3-ketoacid coenzyme ...  119     9e-32
+  sp|Q9D0K2|SCOT1_MOUSE Succinyl-CoA:3-ketoacid coenzyme A transf...  99.1    2e-22
+  sp|B2GV06|SCOT1_RAT Succinyl-CoA:3-ketoacid coenzyme A transfer...  98.7    2e-22
+  sp|B0RVK3|SCOB_XANCB Succinyl-CoA:3-ketoacid coenzyme A transfe...  94.5    2e-22
+  sp|P0C7I8|SCOB_XANCP Succinyl-CoA:3-ketoacid coenzyme A transfe...  94.1    3e-22
+  sp|Q29551|SCOT1_PIG Succinyl-CoA:3-ketoacid coenzyme A transfer...  98.3    3e-22
+  sp|P55809|SCOT1_HUMAN Succinyl-CoA:3-ketoacid coenzyme A transf...  97.2    7e-22
+  sp|P9WPW3|SCOB_MYCTU Probable succinyl-CoA:3-ketoacid coenzyme ...  92.9    9e-22
+  sp|P9WPW2|SCOB_MYCTO Probable succinyl-CoA:3-ketoacid coenzyme ...  92.9    9e-22
+  sp|P63651|SCOB_MYCBO Probable succinyl-CoA:3-ketoacid coenzyme ...  92.9    9e-22
+  sp|Q5XIJ9|SCO2A_RAT Succinyl-CoA:3-ketoacid coenzyme A transfer...  96.8    1e-21
+  sp|Q9ESL0|SCO2B_MOUSE Succinyl-CoA:3-ketoacid coenzyme A transf...  95.2    4e-21
+  sp|Q9BYC2|SCOT2_HUMAN Succinyl-CoA:3-ketoacid coenzyme A transf...  94.9    4e-21
+  sp|Q9JJN4|SCO2A_MOUSE Succinyl-CoA:3-ketoacid coenzyme A transf...  94.9    5e-21
+  sp|Q54JD9|SCOT_DICDI Probable succinyl-CoA:3-ketoacid coenzyme ...  92.2    4e-20
+  sp|P76459|ATOA_ECOLI Acetate CoA-transferase subunit beta OS=Es...  88.3    5e-20
+  sp|P44874|ATOA_HAEIN Acetate CoA-transferase subunit beta OS=Ha...  86.4    3e-19
+  sp|Q09450|SCOT_CAEEL Probable succinyl-CoA:3-ketoacid coenzyme ...  88.3    9e-19
+  sp|Q9W058|SCOT_DROME Succinyl-CoA:3-ketoacid-coenzyme A transfe...  86.4    4e-18
+  sp|P23673|CTFB_CLOAB Butyrate--acetoacetate CoA-transferase sub...  82.9    6e-18
+  sp|O34466|YODR_BACSU Probable coenzyme A transferase subunit be...  79.8    7e-17
+  sp|P0A102|PCAJ_PSEPU 3-oxoadipate CoA-transferase subunit B OS=...  65.6    1e-11
+  sp|P0A101|PCAJ_PSEPK 3-oxoadipate CoA-transferase subunit B OS=...  65.6    1e-11
+  sp|F1CYZ5|CARA_ACEWO Caffeate CoA-transferase OS=Acetobacterium...  47.5    5e-05
+
+
+> sp|P63653|Y3582_MYCBO Putative CoA-transferase subunit beta Mb3582 
+OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) 
+OX=233413 GN=BQ2027_MB3582 PE=3 SV=1
+Length=250
+
+ Score = 349 bits (895),  Expect = 1e-121, Method: Composition-based stats.
+ Identities = 169/246 (69%), Positives = 202/246 (82%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAKAP---IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G       IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|P9WPV9|Y3552_MYCTU Putative CoA-transferase subunit beta Rv3552 
+OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) 
+OX=83332 GN=Rv3552 PE=1 SV=1
+Length=250
+
+ Score = 349 bits (895),  Expect = 1e-121, Method: Composition-based stats.
+ Identities = 169/246 (69%), Positives = 202/246 (82%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAKAP---IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G       IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|P9WPV8|Y3552_MYCTO Putative CoA-transferase subunit beta MT3656 
+OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) 
+OX=83331 GN=MT3656 PE=3 SV=1
+Length=250
+
+ Score = 349 bits (895),  Expect = 1e-121, Method: Composition-based stats.
+ Identities = 169/246 (69%), Positives = 202/246 (82%), Gaps = 3/246 (1%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADTPAV  63
+            TRAE CA+ACA++F  AGEIM SPM  +  +GARLARLT  PD+L+TDGEA + ADTPA+
+Sbjct  3    TRAEVCAVACAELFRDAGEIMISPMTNMASVGARLARLTFAPDILLTDGEAQLLADTPAL  62
+
+Query  64   GAKAP---IEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGV  120
+            G       IEGWMPF +VF+ +A GRRHVVMGANQ+DR+GNQN+SAFGPLQ+PTRQMFGV
+Sbjct  63   GKTGAPNRIEGWMPFGRVFETLAWGRRHVVMGANQVDRYGNQNISAFGPLQRPTRQMFGV  122
+
+Query  121  RGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGV  180
+            RG+PGNTINH TSYWVG H  RVF + VD+VSG+GYD++DP+NPA+RF +++RVVSNLGV
+Sbjct  123  RGSPGNTINHATSYWVGNHCKRVFVEAVDVVSGIGYDKVDPDNPAFRFVNVYRVVSNLGV  182
+
+Query  181  FDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEELRLIREVLDPRS  240
+            FDFGGPDH+ RA+SLHPGVT   V D TSFEV  L  A  TR PTD+EL LIR V+DP+S
+Sbjct  183  FDFGGPDHSMRAVSLHPGVTPGDVRDATSFEVHDLDAAEQTRLPTDDELHLIRAVIDPKS  242
+
+Query  241  LRDREV  246
+            LRDRE+
+Sbjct  243  LRDREI  248
+
+
+> sp|Q59112|GCTB_ACIFV Glutaconate CoA-transferase subunit B OS=Acidaminococcus 
+fermentans (strain ATCC 25085 / DSM 20731 / 
+VR4) OX=591001 GN=gctB PE=1 SV=3
+Length=266
+
+ Score = 283 bits (725),  Expect = 2e-95, Method: Composition-based stats.
+ Identities = 60/256 (23%), Positives = 97/256 (38%), Gaps = 24/256 (9%)
+
+Query  1    TEVTRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADT  60
+            T  T  E  A+  A        +       LPLIGA +A+    PD  I     L+    
+Sbjct  5    TNYTNKEMQAVTIAKQIKNGQVVTVG--TGLPLIGASVAKRVYAPDCHIIVESGLMDCSP  62
+
+Query  61   PAV-------------GAKAPIEGWMPFRKVFDVVASGRRHVVMGANQIDRHGNQNLSAF  107
+              V             G   P   ++ F     +  + R    +G  QID +GN N ++ 
+Sbjct  63   VEVPRSVGDLRFMAHCGCIWPNVRFVGFEINEYLHKANRLIAFIGGAQIDPYGNVNSTSI  122
+
+Query  108  GPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+            G    P  +  G  GA G    +  +  + +H  R F + +D V+  G+  ID      R
+Sbjct  123  GDYHHPKTRFTGSGGANG-IATYSNTIIMMQHEKRRFMNKIDYVTSPGW--IDGPGGRER  179
+
+Query  168  FH-----HLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTR  222
+                       VV++ G+  F          + +P  + + V +NT F++  ++ A    
+Sbjct  180  LGLPGDVGPQLVVTDKGILKFDEKTKRMYLAAYYPTSSPEDVLENTGFDL-DVSKAVELE  238
+
+Query  223  EPTDEELRLIREVLDP  238
+             P    ++LIRE +DP
+Sbjct  239  APDPAVIKLIREEIDP  254
+
+
+> sp|Q8VPF2|CATJ_PSEKB 3-oxoadipate CoA-transferase subunit B OS=Pseudomonas 
+knackmussii (strain DSM 6978 / LMG 23759 / B13) 
+OX=1301098 GN=catJ PE=1 SV=1
+Length=260
+
+ Score = 235 bits (599),  Expect = 1e-76, Method: Composition-based stats.
+ Identities = 63/251 (25%), Positives = 104/251 (41%), Gaps = 14/251 (6%)
+
+Query  1    TEVTRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPDLLITDGEALIFADT  60
+            +  +  E   +A A                LP   A LARLT+ PD+++      I A  
+Sbjct  2    SAYSTNEMMTVAAARRLKNGAVCFVG--IGLPSKAANLARLTSSPDVVLIYESGPIGAKP  59
+
+Query  61   PAV------GAKA-PIEGWMPFRKVFDVVASGRRHVV--MGANQIDRHGNQNLSAFGPLQ  111
+              +      G  A   +  +P  ++F     G R  V  +GA Q+DR GN N +  G   
+Sbjct  60   TVLPLSIGDGELAETADTVVPTGEIFRYWLQGGRIDVGFLGAAQVDRFGNINTTVIGDYN  119
+
+Query  112  QPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHL  171
+            +P  ++ G  GAP    +      + K + R F D +  ++ VG+ +             
+Sbjct  120  KPKVRLPGAGGAPEIAGSAKEVLIILKQSHRTFVDKLAFITSVGHGEGGDHRKQLGLPGK  179
+
+Query  172  H--RVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTREPTDEEL  229
+                ++++L + +     + F   SLHPGVT +QV +NT + +        T  PT+ EL
+Sbjct  180  GPVAIITDLCIMEPEAGSNEFIVTSLHPGVTREQVIENTGWAIRFAEQVKETAAPTEVEL  239
+
+Query  230  RLIREVLDPRS  240
+              +R  L+ R+
+Sbjct  240  EALR-ALEART  249
+
+
+> sp|P56007|SCOB_HELPY Succinyl-CoA:3-ketoacid coenzyme A transferase 
+subunit B OS=Helicobacter pylori (strain ATCC 700392 
+/ 26695) OX=85962 GN=scoB PE=1 SV=1
+Length=207
+
+ Score = 161 bits (407),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 31/168 (18%), Positives = 63/168 (38%), Gaps = 23/168 (14%)
+
+Query  53   EALIFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAF  107
+            E  + AD    G       P   +      F ++  G     ++G  ++ ++G+      
+Sbjct  55   EGSVDADLINAGKETITVVPGASFFNSADSFAMIRGGHIDLAILGGMEVSQNGD-----L  109
+
+Query  108  GPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+                 P + + G+ GA            + +H ++     V     +         P   
+Sbjct  110  ANWMIPKKLIKGMGGAMDLVHGAKKVIVIMEHCNKYGESKVKKECSL---------PLTG  160
+
+Query  168  FHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNT--SFEVA  213
+               +H+++++L VF+F   ++  + + L  GV+ DQV + T   FEV 
+Sbjct  161  KGVVHQLITDLAVFEFS--NNAMKLVELQEGVSLDQVKEKTEAEFEVR  206
+
+
+> sp|Q9ZLE4|SCOB_HELPJ Succinyl-CoA:3-ketoacid coenzyme A transferase 
+subunit B OS=Helicobacter pylori (strain J99 / ATCC 700824) 
+OX=85963 GN=scoB PE=3 SV=1
+Length=207
+
+ Score = 160 bits (404),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 31/168 (18%), Positives = 62/168 (37%), Gaps = 23/168 (14%)
+
+Query  53   EALIFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAF  107
+            E  + AD    G       P   +      F ++  G     ++G  ++ ++G+      
+Sbjct  55   EGGVDADLINAGKETITVVPGASFFNSADSFAMIRGGHIDLAILGGMEVSQNGD-----L  109
+
+Query  108  GPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+                 P + + G+ GA            + +H ++     V     +         P   
+Sbjct  110  ANWMIPKKLIKGMGGAMDLVHGAKKVIVIMEHCNKYGESKVKKECSL---------PLTG  160
+
+Query  168  FHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNT--SFEVA  213
+               +H+++++L VF+F   ++    + L  GV+ DQV + T   FEV 
+Sbjct  161  KGVVHQLITDLAVFEFS--NNAMELVELQEGVSLDQVKEKTEAEFEVH  206
+
+
+> sp|P42316|SCOB_BACSU Probable succinyl-CoA:3-ketoacid coenzyme 
+A transferase subunit B OS=Bacillus subtilis (strain 168) 
+OX=224308 GN=scoB PE=1 SV=1
+Length=216
+
+ Score = 119 bits (297),  Expect = 9e-32, Method: Composition-based stats.
+ Identities = 29/166 (17%), Positives = 57/166 (34%), Gaps = 21/166 (13%)
+
+Query  53   EALIFADTPAVGAK----APIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAF  107
+            E    AD    G +         +    + F ++  G     ++G  ++   G+      
+Sbjct  59   EGTEDADLINAGKETITEVTGASYFDSAESFAMIRGGHIDLAILGGMEVSEQGD-----L  113
+
+Query  108  GPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+                 P + + G+ GA            + +H ++     V     +         P   
+Sbjct  114  ANWMIPGKMVKGMGGAMDLVNGAKRIVVIMEHVNKHGESKVKKTCSL---------PLTG  164
+
+Query  168  FHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVA  213
+               +HR++++L VFDF   +       L  GVT ++V + T  + A
+Sbjct  165  QKVVHRLITDLAVFDF--VNGRMTLTELQDGVTIEEVYEKTEADFA  208
+
+
+> sp|Q9D0K2|SCOT1_MOUSE Succinyl-CoA:3-ketoacid coenzyme A transferase 
+1, mitochondrial OS=Mus musculus OX=10090 GN=Oxct1 PE=1 
+SV=1
+Length=520
+
+ Score = 99.1 bits (245),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 28/163 (17%), Positives = 59/163 (36%), Gaps = 21/163 (13%)
+
+Query  57   FADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPLQ  111
+             AD    G       P   +    + F ++  G     ++GA Q+ ++G+          
+Sbjct  360  DADLINAGKETVTVLPGASFFSSDESFAMIRGGHVNLTMLGAMQVSKYGD-----LANWM  414
+
+Query  112  QPTRQMFGVRGAPGNTINHPT-SYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHH  170
+             P + + G+ GA     +  T      +H+++     +     +         P      
+Sbjct  415  IPGKMVKGMGGAMDLVSSSKTKVVVTMEHSAKGNAHKIMEKCTL---------PLTGKQC  465
+
+Query  171  LHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVA  213
+            ++R+++  GVFD     +    + L  G+T D +  +T  + A
+Sbjct  466  VNRIITEKGVFDVDKK-NGLTLIELWEGLTVDDIKKSTGCDFA  507
+
+
+> sp|B2GV06|SCOT1_RAT Succinyl-CoA:3-ketoacid coenzyme A transferase 
+1, mitochondrial OS=Rattus norvegicus OX=10116 GN=Oxct1 
+PE=1 SV=1
+Length=520
+
+ Score = 98.7 bits (244),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 28/163 (17%), Positives = 59/163 (36%), Gaps = 21/163 (13%)
+
+Query  57   FADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPLQ  111
+             AD    G       P   +    + F ++  G     ++GA Q+ ++G+          
+Sbjct  360  DADLINAGKETVTVLPGASFFSSDESFAMIRGGHVNLTMLGAMQVSKYGD-----LANWM  414
+
+Query  112  QPTRQMFGVRGAPGNTINHPT-SYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHH  170
+             P + + G+ GA     +  T      +H+++     +     +         P      
+Sbjct  415  IPGKMVKGMGGAMDLVSSSKTKVVVTMEHSAKGNAHKIMEKCTL---------PLTGKQC  465
+
+Query  171  LHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVA  213
+            ++R+++  GVFD     +    + L  G+T D +  +T  + A
+Sbjct  466  VNRIITEKGVFDVDKK-NGLTLIELWEGLTVDDIRKSTGCDFA  507
+
+
+> sp|B0RVK3|SCOB_XANCB Succinyl-CoA:3-ketoacid coenzyme A transferase 
+subunit B OS=Xanthomonas campestris pv. campestris (strain 
+B100) OX=509169 GN=lpsJ PE=3 SV=1
+Length=213
+
+ Score = 94.5 bits (233),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 26/163 (16%), Positives = 53/163 (33%), Gaps = 21/163 (13%)
+
+Query  52   GEALIFADTPAVGAKA----PIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSA  106
+            GE  + AD    G +         +      F ++  G     ++GA Q+   G+     
+Sbjct  58   GEDEVDADLINAGKQTVTARAGASYFGSHDSFAMIRGGHIDLAILGAMQVTDRGD-----  112
+
+Query  107  FGPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAY  166
+                  P + + G+ GA            + +H ++     +     +         P  
+Sbjct  113  LANWMVPGKMVKGMGGAMDLVAGVKRVVVLMEHVAKDGTHKILPQCDL---------PLT  163
+
+Query  167  RFHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+                + R++++L VFD    D     +    GV  +++   T 
+Sbjct  164  GVGVVDRIITDLAVFDVT--DGGLVLVEAAEGVGLEELRAKTG  204
+
+
+> sp|P0C7I8|SCOB_XANCP Succinyl-CoA:3-ketoacid coenzyme A transferase 
+subunit B OS=Xanthomonas campestris pv. campestris (strain 
+ATCC 33913 / DSM 3586 / NCPPB 528 / LMG 568 / P 25) OX=190485 
+GN=lpsJ PE=3 SV=1
+Length=213
+
+ Score = 94.1 bits (232),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 26/163 (16%), Positives = 53/163 (33%), Gaps = 21/163 (13%)
+
+Query  52   GEALIFADTPAVGAKA----PIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSA  106
+            GE  + AD    G +         +      F ++  G     ++GA Q+   G+     
+Sbjct  58   GEDEVDADLINAGKQTVTARSGASYFGSHDSFAMIRGGHIDLAILGAMQVTDRGD-----  112
+
+Query  107  FGPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAY  166
+                  P + + G+ GA            + +H ++     +     +         P  
+Sbjct  113  LANWMVPGKMVKGMGGAMDLVAGVKRVVVLMEHVAKDGTHKILPQCDL---------PLT  163
+
+Query  167  RFHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+                + R++++L VFD    D     +    GV  +++   T 
+Sbjct  164  GVGVVDRIITDLAVFDVT--DGGLVLVEAAEGVGLEELRAKTG  204
+
+
+> sp|Q29551|SCOT1_PIG Succinyl-CoA:3-ketoacid coenzyme A transferase 
+1, mitochondrial OS=Sus scrofa OX=9823 GN=OXCT1 PE=1 SV=2
+Length=520
+
+ Score = 98.3 bits (243),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 27/164 (16%), Positives = 58/164 (35%), Gaps = 21/164 (13%)
+
+Query  56   IFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPL  110
+            + AD    G       P   +    + F ++  G     ++GA Q+ ++G+         
+Sbjct  359  VDADLINAGKETVTVLPGASYFSSDESFAMIRGGHVNLTMLGAMQVSKYGD-----LANW  413
+
+Query  111  QQPTRQMFGVRGAPGNTINHPT-SYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFH  169
+              P + + G+ GA     +  T      +H+++     +     +         P     
+Sbjct  414  MIPGKLVKGMGGAMDLVSSAKTKVVVTMEHSAKGNAHKIMEKCTL---------PLTGKQ  464
+
+Query  170  HLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVA  213
+             ++R+++   VFD          + L  G+T D +  +T  + A
+Sbjct  465  CVNRIITEKAVFDVDSK-KGLTLIELWEGLTVDDIKKSTGCDFA  507
+
+
+> sp|P55809|SCOT1_HUMAN Succinyl-CoA:3-ketoacid coenzyme A transferase 
+1, mitochondrial OS=Homo sapiens OX=9606 GN=OXCT1 PE=1 
+SV=1
+Length=520
+
+ Score = 97.2 bits (240),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 28/163 (17%), Positives = 57/163 (35%), Gaps = 21/163 (13%)
+
+Query  57   FADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPLQ  111
+             AD    G       P   +    + F ++  G     ++GA Q+ ++G+          
+Sbjct  360  DADLINAGKETVTILPGASFFSSDESFAMIRGGHVDLTMLGAMQVSKYGD-----LANWM  414
+
+Query  112  QPTRQMFGVRGAPGNTINHPT-SYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHH  170
+             P + + G+ GA     +  T      +H+++     +     +         P      
+Sbjct  415  IPGKMVKGMGGAMDLVSSAKTKVVVTMEHSAKGNAHKIMEKCTL---------PLTGKQC  465
+
+Query  171  LHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVA  213
+            ++R+++   VFD          + L  G+T D V  +T  + A
+Sbjct  466  VNRIITEKAVFDVDKK-KGLTLIELWEGLTVDDVQKSTGCDFA  507
+
+
+> sp|P9WPW3|SCOB_MYCTU Probable succinyl-CoA:3-ketoacid coenzyme 
+A transferase subunit B OS=Mycobacterium tuberculosis (strain 
+ATCC 25618 / H37Rv) OX=83332 GN=scoB PE=1 SV=1
+Length=218
+
+ Score = 92.9 bits (229),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 37/226 (16%), Positives = 68/226 (30%), Gaps = 43/226 (19%)
+
+Query  3    VTRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPD---LLITDGEAL----  55
+             +R E  A   A+ F     +       +P +          PD   +++     +    
+Sbjct  6    WSRDEMAARVAAE-FEDGQYVNLG--IGMPTLIPN-----HIPDGVHVVLHSENGILGVG  57
+
+Query  56   -------IFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQN  103
+                   + AD    G       P   +      F ++  G     V+GA Q+   G+  
+Sbjct  58   PYPRREDVDADLINAGKETVTTLPGAAFFSSSTSFGIIRGGHLDVAVLGAMQVSVTGD--  115
+
+Query  104  LSAFGPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPEN  163
+                     P + + G+ GA            + +HT++     +     +         
+Sbjct  116  ---LANWMIPGKMVKGMGGAMDLVHGARKVIVMMEHTAKDGSPKILERCTL---------  163
+
+Query  164  PAYRFHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+            P      + R+V+ L V D          +   PGV+ D+V   T 
+Sbjct  164  PLTGVGCVDRIVTELAVIDVCA--DGLHLVQTAPGVSVDEVVAKTQ  207
+
+
+> sp|P9WPW2|SCOB_MYCTO Probable succinyl-CoA:3-ketoacid coenzyme 
+A transferase subunit B OS=Mycobacterium tuberculosis (strain 
+CDC 1551 / Oshkosh) OX=83331 GN=scoB PE=3 SV=1
+Length=218
+
+ Score = 92.9 bits (229),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 37/226 (16%), Positives = 68/226 (30%), Gaps = 43/226 (19%)
+
+Query  3    VTRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPD---LLITDGEAL----  55
+             +R E  A   A+ F     +       +P +          PD   +++     +    
+Sbjct  6    WSRDEMAARVAAE-FEDGQYVNLG--IGMPTLIPN-----HIPDGVHVVLHSENGILGVG  57
+
+Query  56   -------IFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQN  103
+                   + AD    G       P   +      F ++  G     V+GA Q+   G+  
+Sbjct  58   PYPRREDVDADLINAGKETVTTLPGAAFFSSSTSFGIIRGGHLDVAVLGAMQVSVTGD--  115
+
+Query  104  LSAFGPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPEN  163
+                     P + + G+ GA            + +HT++     +     +         
+Sbjct  116  ---LANWMIPGKMVKGMGGAMDLVHGARKVIVMMEHTAKDGSPKILERCTL---------  163
+
+Query  164  PAYRFHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+            P      + R+V+ L V D          +   PGV+ D+V   T 
+Sbjct  164  PLTGVGCVDRIVTELAVIDVCA--DGLHLVQTAPGVSVDEVVAKTQ  207
+
+
+> sp|P63651|SCOB_MYCBO Probable succinyl-CoA:3-ketoacid coenzyme 
+A transferase subunit B OS=Mycobacterium bovis (strain ATCC 
+BAA-935 / AF2122/97) OX=233413 GN=scoB PE=3 SV=1
+Length=218
+
+ Score = 92.9 bits (229),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 37/226 (16%), Positives = 68/226 (30%), Gaps = 43/226 (19%)
+
+Query  3    VTRAEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPD---LLITDGEAL----  55
+             +R E  A   A+ F     +       +P +          PD   +++     +    
+Sbjct  6    WSRDEMAARVAAE-FEDGQYVNLG--IGMPTLIPN-----HIPDGVHVVLHSENGILGVG  57
+
+Query  56   -------IFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQN  103
+                   + AD    G       P   +      F ++  G     V+GA Q+   G+  
+Sbjct  58   PYPRREDVDADLINAGKETVTTLPGAAFFSSSTSFGIIRGGHLDVAVLGAMQVSVTGD--  115
+
+Query  104  LSAFGPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPEN  163
+                     P + + G+ GA            + +HT++     +     +         
+Sbjct  116  ---LANWMIPGKMVKGMGGAMDLVHGARKVIVMMEHTAKDGSPKILERCTL---------  163
+
+Query  164  PAYRFHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+            P      + R+V+ L V D          +   PGV+ D+V   T 
+Sbjct  164  PLTGVGCVDRIVTELAVIDVCA--DGLHLVQTAPGVSVDEVVAKTQ  207
+
+
+> sp|Q5XIJ9|SCO2A_RAT Succinyl-CoA:3-ketoacid coenzyme A transferase 
+2A, mitochondrial OS=Rattus norvegicus OX=10116 GN=Oxct2a 
+PE=1 SV=1
+Length=520
+
+ Score = 96.8 bits (239),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 23/160 (14%), Positives = 52/160 (33%), Gaps = 21/160 (13%)
+
+Query  56   IFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPL  110
+            +  D    G       P   +      F ++  G     ++GA Q+ ++G+         
+Sbjct  357  VDPDIINAGKQTVTVIPGGCFFASDDSFAMIRGGHIQLTMLGAMQVSKYGD-----LANW  411
+
+Query  111  QQPTRQMFGVRGAPGNTINHPT-SYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFH  169
+              P +++ G+ GA     +  T      +H ++     +     +         P     
+Sbjct  412  MVPGKKVKGMGGAMDLVSSKKTKVVVTMEHCTKTKQPKILEKCTM---------PLTGKS  462
+
+Query  170  HLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+             +  +++   VF+        + + L  G + D+V   T 
+Sbjct  463  CVDLIITEKAVFEVD-RSKGLKLVELWEGSSLDEVKATTG  501
+
+
+> sp|Q9ESL0|SCO2B_MOUSE Succinyl-CoA:3-ketoacid coenzyme A transferase 
+2B, mitochondrial OS=Mus musculus OX=10090 GN=Oxct2b 
+PE=2 SV=1
+Length=520
+
+ Score = 95.2 bits (235),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 23/160 (14%), Positives = 52/160 (33%), Gaps = 21/160 (13%)
+
+Query  56   IFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPL  110
+            + AD    G       P   +      F ++  G     ++GA Q+ ++G+         
+Sbjct  357  VDADVINAGKQTVTVVPGGCFFASDDSFAMIRGGHLQLTMLGAMQVSQYGD-----LANW  411
+
+Query  111  QQPTRQMFGVRGAPGNTINHPT-SYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFH  169
+              P +++ G+ GA     +  T      +H ++     +     +         P     
+Sbjct  412  MVPGKKVKGMGGAMDLVSSKKTRVVVTMEHCTKTKQPKILKKCTM---------PLTGKR  462
+
+Query  170  HLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+             +  +++   VF+          + L  G + D +   T+
+Sbjct  463  CVDLIITEKAVFEVNH-SKGLTLVELWEGSSVDDIKATTA  501
+
+
+> sp|Q9BYC2|SCOT2_HUMAN Succinyl-CoA:3-ketoacid coenzyme A transferase 
+2, mitochondrial OS=Homo sapiens OX=9606 GN=OXCT2 PE=2 
+SV=2
+Length=517
+
+ Score = 94.9 bits (234),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 31/195 (16%), Positives = 63/195 (32%), Gaps = 30/195 (15%)
+
+Query  30   TLPLIGARLARLTTEPDLLITDG---------EALIFADTPAVGA----KAPIEGWMPFR  76
+             +PL+ +     +    L   +G         E  + AD    G       P   +    
+Sbjct  321  GIPLLASNFISPSMTVHLHSENGILGLGPFPTEDEVDADLINAGKQTVTVLPGGCFFASD  380
+
+Query  77   KVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGVRGAPGNTINHPT-SY  134
+              F ++  G     ++GA Q+ ++G+           P +++ G+ GA     +  T   
+Sbjct  381  DSFAMIRGGHIQLTMLGAMQVSKYGD-----LANWMIPGKKVKGMGGAMDLVSSQKTRVV  435
+
+Query  135  WVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGVFDFGGPDHTFRALS  194
+               +H ++     +     +         P      + R+++   VFD            
+Sbjct  436  VTMQHCTKDNTPKIMEKCTM---------PLTGKRCVDRIITEKAVFDVHRK-KELTLRE  485
+
+Query  195  LHPGVTADQVADNTS  209
+            L  G+T D +  +T 
+Sbjct  486  LWEGLTVDDIKKSTG  500
+
+
+> sp|Q9JJN4|SCO2A_MOUSE Succinyl-CoA:3-ketoacid coenzyme A transferase 
+2A, mitochondrial OS=Mus musculus OX=10090 GN=Oxct2a 
+PE=2 SV=2
+Length=520
+
+ Score = 94.9 bits (234),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 23/160 (14%), Positives = 52/160 (33%), Gaps = 21/160 (13%)
+
+Query  56   IFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPL  110
+            + AD    G       P   +      F ++  G     ++GA Q+ ++G+         
+Sbjct  357  VDADVINAGKQTVTVVPGGCFFASDDSFAMIRGGHLQLTMLGAMQVSQYGD-----LANW  411
+
+Query  111  QQPTRQMFGVRGAPGNTINHPT-SYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFH  169
+              P +++ G+ GA     +  T      +H ++     +     +         P     
+Sbjct  412  MVPGKKVKGMGGAMDLVSSKKTRVVVTMEHCTKTKQPKILKKCTM---------PLTGKR  462
+
+Query  170  HLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+             +  +++   VF+          + L  G + D +   T+
+Sbjct  463  CVDLIITEKAVFEVNH-SKGLTLVELWEGSSVDDIKATTA  501
+
+
+> sp|Q54JD9|SCOT_DICDI Probable succinyl-CoA:3-ketoacid coenzyme 
+A transferase, mitochondrial OS=Dictyostelium discoideum OX=44689 
+GN=oxct1 PE=3 SV=1
+Length=509
+
+ Score = 92.2 bits (227),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 27/163 (17%), Positives = 51/163 (31%), Gaps = 21/163 (13%)
+
+Query  54   ALIFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFG  108
+                AD    G       P          F ++  G     ++G  Q+  +G+       
+Sbjct  348  GEHDADLINAGKETVTTIPGSSIFSSADSFAMIRGGHVDLTILGGMQVSGNGD-----LA  402
+
+Query  109  PLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRF  168
+                P   + G  GA   T +      + +HT++     +     +         P    
+Sbjct  403  NWVIPGSMVKGPGGAMDLTSSGSRVVVIMEHTTKHGKPKILKNCTL---------PLTGK  453
+
+Query  169  HHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFE  211
+              ++R+++ L VFD    +     + +  G T D +   T  E
+Sbjct  454  SCVNRIITELAVFDV--VNGKLELIEVVDGQTVDDIKSKTEAE  494
+
+
+> sp|P76459|ATOA_ECOLI Acetate CoA-transferase subunit beta OS=Escherichia 
+coli (strain K12) OX=83333 GN=atoA PE=1 SV=1
+Length=216
+
+ Score = 88.3 bits (217),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 39/226 (17%), Positives = 61/226 (27%), Gaps = 41/226 (18%)
+
+Query  6    AEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPD-LLITDGE----------A  54
+             +  A   A        +       LP + A        P+ + IT              
+Sbjct  4    KQRIARRVAQELRDGDIVNLG--IGLPTMVAN-----YLPEGIHITLQSENGFLGLGPVT  56
+
+Query  55   LIFADTPAVGAKA----PIEGWMPFRKVFDVVASGRRHV-VMGANQIDRHGNQNLSAFGP  109
+                D    G +     P          F ++  G     V+G  Q+D   N        
+Sbjct  57   TAHPDLVNAGGQPCGVLPGAAMFDSAMSFALIRGGHIDACVLGGLQVDEEAN-----LAN  111
+
+Query  110  LQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFH  169
+               P + + G+ GA              +H ++     +     +         P    H
+Sbjct  112  WVVPGKMVPGMGGAMDLVTGSRKVIIAMEHCAKDGSAKILRRCTM---------PLTAQH  162
+
+Query  170  HLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS--FEVA  213
+             +H +V+ L VF F   D       +  G     V   T   FEVA
+Sbjct  163  AVHMLVTELAVFRF--IDGKMWLTEIADGCDLATVRAKTEARFEVA  206
+
+
+> sp|P44874|ATOA_HAEIN Acetate CoA-transferase subunit beta OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=atoA PE=3 SV=1
+Length=223
+
+ Score = 86.4 bits (212),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 30/235 (13%), Positives = 58/235 (25%), Gaps = 41/235 (17%)
+
+Query  6    AEYCAIACADIFSGAGEIMASPMATLPLIGARLARLTTEPD---LLITDGEALI------  56
+             E  A   A        +       LP            PD   + +      +      
+Sbjct  4    KELIARRIAMELHDGDIVNLG--IGLPTQVVN-----YLPDNVNITLQSENGFLGLTAFD  56
+
+Query  57   ----FADTPAVGAKAPIE----GWMPFRKVFDVVASGRRHV-VMGANQIDRHGNQNLSAF  107
+                 ++    G +                F ++  G     V+G  ++D+  N      
+Sbjct  57   PENANSNLVNAGGQPCGIKKGGSTFDSAFSFALIRGGHVDACVLGGLEVDQEAN-----L  111
+
+Query  108  GPLQQPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+                 P + + G+ GA              +H ++     +     +         P   
+Sbjct  112  ANWMVPGKMVPGMGGAMDLVTGAKKVIIGMEHCAKSGSSKILKKCTL---------PLTA  162
+
+Query  168  FHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEVAGLADAGVTR  222
+               +  VV+ L VF+F             P V  + +   T  +     D    +
+Sbjct  163  SKKVAMVVTELAVFNFIEG--RLVLKEHAPHVDLETIKAKTEADFIVADDFKEMQ  215
+
+
+> sp|Q09450|SCOT_CAEEL Probable succinyl-CoA:3-ketoacid coenzyme 
+A transferase, mitochondrial OS=Caenorhabditis elegans OX=6239 
+GN=C05C10.3 PE=3 SV=1
+Length=521
+
+ Score = 88.3 bits (217),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 26/168 (15%), Positives = 55/168 (33%), Gaps = 23/168 (14%)
+
+Query  53   EALIFADTPAVGAKA----PIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAF  107
+            +    AD    G +          +   + F ++        V+GA Q  + G+      
+Sbjct  354  KGTEDADLINAGKEPITLLKGASIVGSDESFAMIRGSHMDITVLGALQCSQFGD-----L  408
+
+Query  108  GPLQQPTRQMFGVRGAPGNT-INHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAY  166
+                 P + + G+ GA             V +H S+     +     +         P  
+Sbjct  409  ANWMIPGKLVKGMGGAMDLVSAPGARVIVVMEHVSKNGEPKILEHCEL---------PLT  459
+
+Query  167  RFHHLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS--FEV  212
+                + R+++++ VFD     +    + +   +T D +   T+  FE+
+Sbjct  460  GKGVISRIITDMAVFDVDTK-NGLTLIEVRKDLTVDDIKKLTACKFEI  506
+
+
+> sp|Q9W058|SCOT_DROME Succinyl-CoA:3-ketoacid-coenzyme A transferase, 
+mitochondrial OS=Drosophila melanogaster OX=7227 GN=SCOT 
+PE=1 SV=1
+Length=516
+
+ Score = 86.4 bits (212),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 22/160 (14%), Positives = 45/160 (28%), Gaps = 21/160 (13%)
+
+Query  56   IFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPL  110
+            +  D    G       P   +      F ++  G     ++GA ++   G+         
+Sbjct  355  VDPDLINAGKESVTVVPGASYFGSDDSFAMIRGGHVDITILGAMEVSATGD-----LANW  409
+
+Query  111  QQPTRQMFGVRGAPGNTIN-HPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFH  169
+              P + + G+ GA               +H +R     +     +         P     
+Sbjct  410  MIPGKLVKGMGGAMDLVAAPGTKVIITMEHNARDGSPKILDTCSL---------PLTGKG  460
+
+Query  170  HLHRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTS  209
+             +  ++S   VF           + +  G T D +  +T 
+Sbjct  461  VIDMIISEKAVFTVEKGV-GLTLIEVAEGYTVDDIIASTG  499
+
+
+> sp|P23673|CTFB_CLOAB Butyrate--acetoacetate CoA-transferase subunit 
+B OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 
+792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=ctfB 
+PE=1 SV=1
+Length=221
+
+ Score = 82.9 bits (203),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 35/221 (16%), Positives = 66/221 (30%), Gaps = 33/221 (15%)
+
+Query  6    AEYCAIACADIFSGAGEIMASPMATLPLIGARLA----RLTTEPDLLITDGEAL-----I  56
+             E  A   A        +       LP + A       ++T + +  I    A       
+Sbjct  9    KEIIAKRVARELKNGQLVNLG--VGLPTMVADYIPKNFKITFQSENGIVGMGASPKINEA  66
+
+Query  57   FADTPAVG----AKAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPLQ  111
+              D    G       P   +      F ++  G     V+GA Q+D  GN          
+Sbjct  67   DKDVVNAGGDYTTVLPDGTFFDSSVSFSLIRGGHVDVTVLGALQVDEKGN-----IANWI  121
+
+Query  112  QPTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHL  171
+             P + + G+ GA              +HT++     +     +         P       
+Sbjct  122  VPGKMLSGMGGAMDLVNGAKKVIIAMRHTNK-GQPKILKKCTL---------PLTAKSQA  171
+
+Query  172  HRVVSNLGVFDFGGPDHTFRALSLHPGVTADQVADNTSFEV  212
+            + +V+ LGV +    +       ++   T D++   T+ ++
+Sbjct  172  NLIVTELGVIEV--INDGLLLTEINKNTTIDEIRSLTAADL  210
+
+
+> sp|O34466|YODR_BACSU Probable coenzyme A transferase subunit 
+beta OS=Bacillus subtilis (strain 168) OX=224308 GN=yodR PE=3 
+SV=1
+Length=217
+
+ Score = 79.8 bits (195),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 24/146 (16%), Positives = 47/146 (32%), Gaps = 17/146 (12%)
+
+Query  69   IEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPLQQPTRQMFGVRGAPGNT  127
+               +      F ++  G+    ++GA Q+ + G+           P +++ G+ GA    
+Sbjct  82   GASYFDTTMSFAMIRKGKIDITILGALQVSQSGD-----LANWLVPGKKVPGMGGAMELA  136
+
+Query  128  INHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYRFHHLHRVVSNLGVFDFGGPD  187
+                    V  HT +     +     +         P      +  +++   V +     
+Sbjct  137  QKAKKVVVVMSHTDQKGRPKLTERCTL---------PLTAAGCVDLIITEKAVLEVD--S  185
+
+Query  188  HTFRALSLHPGVTADQVADNTSFEVA  213
+            H F    L  G T D+V   T  E+ 
+Sbjct  186  HHFILKELMNGSTIDEVTRLTEAEIK  211
+
+
+> sp|P0A102|PCAJ_PSEPU 3-oxoadipate CoA-transferase subunit B OS=Pseudomonas 
+putida OX=303 GN=pcaJ PE=1 SV=2
+Length=213
+
+ Score = 65.6 bits (158),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 17/135 (13%), Positives = 34/135 (25%), Gaps = 20/135 (15%)
+
+Query  54   ALIFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFG  108
+                 D    G           +      F ++  G     V+GA Q+   G+       
+Sbjct  63   GEEDDDLINAGKQHVTLLTGGAFFHHADSFSMMRGGHLDIAVLGAFQVSVKGD-----LA  117
+
+Query  109  PLQQ-PTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+                     +  V GA          + +  H ++     +               P   
+Sbjct  118  NWHTGAEGSIPAVGGAMDLATGARQVFVMMDHLTKTGESKLVPECT---------YPLTG  168
+
+Query  168  FHHLHRVVSNLGVFD  182
+               + R+ ++L V +
+Sbjct  169  IACVSRIYTDLAVLE  183
+
+
+> sp|P0A101|PCAJ_PSEPK 3-oxoadipate CoA-transferase subunit B OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=pcaJ PE=3 SV=2
+Length=213
+
+ Score = 65.6 bits (158),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 17/135 (13%), Positives = 34/135 (25%), Gaps = 20/135 (15%)
+
+Query  54   ALIFADTPAVGA----KAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFG  108
+                 D    G           +      F ++  G     V+GA Q+   G+       
+Sbjct  63   GEEDDDLINAGKQHVTLLTGGAFFHHADSFSMMRGGHLDIAVLGAFQVSVKGD-----LA  117
+
+Query  109  PLQQ-PTRQMFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENPAYR  167
+                     +  V GA          + +  H ++     +               P   
+Sbjct  118  NWHTGAEGSIPAVGGAMDLATGARQVFVMMDHLTKTGESKLVPECT---------YPLTG  168
+
+Query  168  FHHLHRVVSNLGVFD  182
+               + R+ ++L V +
+Sbjct  169  IACVSRIYTDLAVLE  183
+
+
+> sp|F1CYZ5|CARA_ACEWO Caffeate CoA-transferase OS=Acetobacterium 
+woodii OX=33952 GN=carA PE=1 SV=1
+Length=524
+
+ Score = 47.5 bits (111),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 44/243 (18%), Positives = 73/243 (30%), Gaps = 37/243 (15%)
+
+Query  4    TRAEYCAIACADIFSGAGEIMASPMATLPL-IGARLARLTTEPDLLITD---GEALIFAD  59
+            T  +  A   A   S    +       +P  + + ++      ++ +T    G   I A 
+Sbjct  276  TERKVMARRAAMELSKGDLVNLG--VGIPSDVASIVSEAGYIEEITMTTEIGGFGGIPAS  333
+
+Query  60   TPAVGAKAPIEGWMPFRKVFDVVASGRR-HVVMGANQIDRHGNQNLSAFGPLQQPTR--Q  116
+             P  G+    E  +    +FD+   G     V+G  Q D  GN N+S F     P    +
+Sbjct  334  LPNFGSSYNAEANIDHGSMFDLYDGGGIDVAVLGLAQADEAGNINVSKF---TIPGLGDR  390
+
+Query  117  MFGVRGAPGNTINHPTSYWVGKHTSRVFCDTVDIVSGVGYDQIDPENP---------AYR  167
+            + G  G    T +     + G      F    ++    G   I  E              
+Sbjct  391  LTGPGGFINITQSTQKVVFAGS-----FNAKCEVEISDGKLIIKKEGRGKKLLKEVEQVT  445
+
+Query  168  FHHLHRV--------VSNLGVFDFGGPDHTFRALSLHPGVTAD-QVADNTSFEVAGLADA  218
+            F   +          V+   VF     +     + + PG+     + D   F  A  AD 
+Sbjct  446  FSGKYAAENGQEILYVTERCVFKL--INGKMTVIEIAPGIDLQKDILDQMDFTPAISADL  503
+
+Query  219  GVT  221
+               
+Sbjct  504  KEM  506
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.125    0.302    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0382    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18359936588
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

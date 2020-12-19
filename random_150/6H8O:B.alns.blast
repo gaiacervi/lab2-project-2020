@@ -1,0 +1,1326 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6H8O:B
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O39828|MREP_FBNY2 Master replication protein OS=Faba bean ne...  202     4e-66
+  sp|Q9WIJ5|MREP_FBNY1 Master replication protein OS=Faba bean ne...  197     5e-64
+  sp|Q9IR51|MREP_MDV1 Master replication protein OS=Milk vetch dw...  194     7e-63
+  sp|Q9ICP7|MREP_SCSVF Master replication protein OS=Subterranean...  176     1e-55
+  sp|Q86567|MREP_BBTVA Master replication protein OS=Banana bunch...  127     2e-36
+  sp|Q9Z0D3|REP3_MDV1 Para-Rep C3 OS=Milk vetch dwarf virus (isol...  94.0    1e-23
+  sp|Q9Z0D5|REP1_MDV1 Para-Rep C1 OS=Milk vetch dwarf virus (isol...  93.2    2e-23
+  sp|Q9Z034|REP10_MDV1 Para-Rep C10 OS=Milk vetch dwarf virus (is...  74.7    2e-16
+  sp|O91250|REP7_FBNY2 Para-Rep C7 OS=Faba bean necrotic yellows ...  72.4    2e-15
+  sp|Q66862|REP1_FBNY2 Para-Rep C1 OS=Faba bean necrotic yellows ...  72.0    2e-15
+  sp|P0CK60|REP9_FBNY1 Para-Rep C9 OS=Faba bean necrotic yellows ...  72.0    2e-15
+  sp|P0CK61|REP9_FBNY2 Para-Rep C9 OS=Faba bean necrotic yellows ...  72.0    2e-15
+  sp|Q9WIK0|REP7_FBNY1 Para-Rep C7 OS=Faba bean necrotic yellows ...  69.7    2e-14
+  sp|Q9YUD3|REP_BFDV Replication-associated protein OS=Beak and f...  67.0    2e-13
+  sp|Q87013|REP6_SCSVF Para-Rep C6 OS=Subterranean clover stunt v...  63.9    2e-12
+  sp|Q912W1|REP_CACV Replication-associated protein OS=Canary cir...  58.2    3e-10
+  sp|Q9IG45|REP_PICV Replication-associated protein OS=Pigeon cir...  58.2    3e-10
+  sp|Q87009|REP2_SCSVF Para-Rep C2 OS=Subterranean clover stunt v...  48.1    9e-07
+  sp|Q9Z0D4|REP2_MDV1 Para-Rep C2 OS=Milk vetch dwarf virus (isol...  45.8    7e-06
+  sp|O91254|REP1_FBNY1 Para-Rep C1 OS=Faba bean necrotic yellows ...  44.3    2e-05
+  sp|Q91EK3|REP_GOCV Replication-associated protein OS=Goose circ...  41.2    3e-04
+  sp|Q8BB16|REP_PCV2 Replication-associated protein OS=Porcine ci...  40.0    9e-04
+  sp|Q805H4|REP_PCV1 Replication-associated protein OS=Porcine ci...  38.1    0.004
+
+
+> sp|O39828|MREP_FBNY2 Master replication protein OS=Faba bean 
+necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-R 
+PE=1 SV=1
+Length=286
+
+ Score = 202 bits (515),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGE 
+Sbjct  62  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEF  96
+
+
+> sp|Q9WIJ5|MREP_FBNY1 Master replication protein OS=Faba bean 
+necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-R 
+PE=1 SV=1
+Length=286
+
+ Score = 197 bits (502),  Expect = 5e-64, Method: Compositional matrix adjust.
+ Identities = 92/95 (97%), Positives = 92/95 (97%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAYSMKED RLEGPWEY E 
+Sbjct  62  PGAHFEKRRGTQGEARAYSMKEDPRLEGPWEYEEF  96
+
+
+> sp|Q9IR51|MREP_MDV1 Master replication protein OS=Milk vetch 
+dwarf virus (isolate N) OX=291605 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 194 bits (494),  Expect = 7e-63, Method: Compositional matrix adjust.
+ Identities = 90/95 (95%), Positives = 92/95 (97%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLH+ MKYLVYQ EQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHELMKYLVYQREQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAY+MKEDTRLEGPWEYGE 
+Sbjct  62  PGAHFEKRRGTQGEARAYAMKEDTRLEGPWEYGEF  96
+
+
+> sp|Q9ICP7|MREP_SCSVF Master replication protein OS=Subterranean 
+clover stunt virus (strain F) OX=291607 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 176 bits (446),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 77/95 (81%), Positives = 88/95 (93%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPL+PLSLH+SMKYLVYQTE G+ G IH+QGY+EMKKRTSL  MKKL+
+Sbjct  2   ARQVICWCFTLNNPLAPLSLHESMKYLVYQTEAGDNGTIHYQGYVEMKKRTSLVQMKKLL  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH EKRRG+QGEARAY+MKED+R+EGPWE+GE 
+Sbjct  62  PGAHLEKRRGSQGEARAYAMKEDSRVEGPWEFGEF  96
+
+
+> sp|Q86567|MREP_BBTVA Master replication protein OS=Banana bunchy 
+top virus (isolate Autralia) OX=645099 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 127 bits (319),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 54/95 (57%), Positives = 72/95 (76%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           AR V+CW FT+NNP +   + D +KY+VYQ E+G+ G  H QGY+EMK+R+SL  M+   
+Sbjct  2   ARYVVCWMFTINNPTTLPVMRDEIKYMVYQVERGQEGTRHVQGYVEMKRRSSLKQMRGFF  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH EKR+G+Q EAR+Y MKEDTR+EGP+E+G  
+Sbjct  62  PGAHLEKRKGSQEEARSYCMKEDTRIEGPFEFGSF  96
+
+
+> sp|Q9Z0D3|REP3_MDV1 Para-Rep C3 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C3 PE=3 SV=1
+Length=284
+
+ Score = 94.0 bits (232),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 47/95 (49%), Positives = 64/95 (67%), Gaps = 5/95 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           Q  CW FTLN    +  L  ++ ++Y  +Q E+   G+ H QG+I+MK + SL  MK +I
+Sbjct  5   QSTCWVFTLNFKGEIPILPFNERVQYACWQHER--VGHDHLQGFIQMKAQQSLGQMKAII  62
+
+Query  61  PGAHFEKRRG-TQGEARAYSMKEDTRLEGPWEYGE  94
+           PGAHFEK R     +A+AY+MKEDTR+EGPWEYG+
+Sbjct  63  PGAHFEKMRALNSDQAKAYAMKEDTRIEGPWEYGK  97
+
+
+> sp|Q9Z0D5|REP1_MDV1 Para-Rep C1 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C1 PE=3 SV=1
+Length=281
+
+ Score = 93.2 bits (230),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 46/91 (51%), Positives = 62/91 (68%), Gaps = 4/91 (4%)
+
+Query  7   WCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIPGAH  64
+           WCFTLN       LS ++ ++Y  +Q E+    + H QGYI+MKKR++L  MK+L+PGAH
+Sbjct  9   WCFTLNFSGDAPSLSFNERVQYACWQHER--VSHDHLQGYIQMKKRSTLKMMKELLPGAH  66
+
+Query  65  FEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+            E  +GT  EA  Y+MKE+TR+ GPW YGEL
+Sbjct  67  LEVSKGTPEEASDYAMKEETRVAGPWTYGEL  97
+
+
+> sp|Q9Z034|REP10_MDV1 Para-Rep C10 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C10 PE=3 SV=1
+Length=283
+
+ Score = 74.7 bits (182),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 39/93 (42%), Positives = 59/93 (63%), Gaps = 5/93 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           + I WCFTLN    +  +     ++Y ++Q E+    + H QGYI+MKK+T+L  MK+L+
+Sbjct  5   RAIHWCFTLNFSGKIPEIVWTADVQYSIWQHER--VNHDHLQGYIQMKKQTTLKKMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYG  93
+           PGAH E  R  + +A  Y  K++T ++GPWEYG
+Sbjct  63  PGAHLEMARAPK-KAIDYCQKKETAIDGPWEYG  94
+
+
+> sp|O91250|REP7_FBNY2 Para-Rep C7 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C7 PE=3 SV=1
+Length=283
+
+ Score = 72.4 bits (176),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 37/89 (42%), Positives = 56/89 (63%), Gaps = 5/89 (6%)
+
+Query  7   WCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIPGAH  64
+           WCFTLN    +  ++    ++Y ++Q E+   G+ H QGYI+MKK  SL  MK+L+PGAH
+Sbjct  9   WCFTLNFSGSIPEINWTADVQYSIWQHER--VGHDHLQGYIQMKKHVSLKKMKELLPGAH  66
+
+Query  65  FEKRRGTQGEARAYSMKEDTRLEGPWEYG  93
+            E  +  + +A  Y  K+++ + GPWEYG
+Sbjct  67  LEMAKAPK-KAIEYCQKKESAIAGPWEYG  94
+
+
+> sp|Q66862|REP1_FBNY2 Para-Rep C1 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C1 PE=1 SV=1
+Length=278
+
+ Score = 72.0 bits (175),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 40/92 (43%), Positives = 56/92 (61%), Gaps = 5/92 (5%)
+
+Query  7   WCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIPG-A  63
+           W FT N    L  LS  + ++Y V+Q E+G     H QG I++KK+   + +K++I G  
+Sbjct  6   WVFTRNFQGALPLLSFDERVQYAVWQHERGTHD--HIQGVIQLKKKARFSTVKEIIGGNP  63
+
+Query  64  HFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           H EK +GT  EA AY  KE+TR+ GPW YG+L
+Sbjct  64  HVEKMKGTIEEASAYVQKEETRVAGPWSYGDL  95
+
+
+> sp|P0CK60|REP9_FBNY1 Para-Rep C9 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C9 PE=3 SV=1
+Length=281
+
+ Score = 72.0 bits (175),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 38/94 (40%), Positives = 58/94 (62%), Gaps = 5/94 (5%)
+
+Query  5   ICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIPG  62
+           + W FTLN    +  LS  + ++Y V+Q E+    + H QG I++KK+  +  +K +I G
+Sbjct  4   VNWVFTLNFAGEVPVLSFDERVQYAVWQHER--VNHDHIQGVIQLKKKAKMNTVKNIIGG  61
+
+Query  63  -AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+             H EK +G+  EA AY+ KE++R+ GPW YGEL
+Sbjct  62  NPHLEKMKGSIEEASAYAQKEESRVAGPWSYGEL  95
+
+
+> sp|P0CK61|REP9_FBNY2 Para-Rep C9 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C9 PE=3 SV=1
+Length=281
+
+ Score = 72.0 bits (175),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 38/94 (40%), Positives = 58/94 (62%), Gaps = 5/94 (5%)
+
+Query  5   ICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIPG  62
+           + W FTLN    +  LS  + ++Y V+Q E+    + H QG I++KK+  +  +K +I G
+Sbjct  4   VNWVFTLNFAGEVPVLSFDERVQYAVWQHER--VNHDHIQGVIQLKKKAKMNTVKNIIGG  61
+
+Query  63  -AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+             H EK +G+  EA AY+ KE++R+ GPW YGEL
+Sbjct  62  NPHLEKMKGSIEEASAYAQKEESRVAGPWSYGEL  95
+
+
+> sp|Q9WIK0|REP7_FBNY1 Para-Rep C7 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C7 PE=3 SV=1
+Length=283
+
+ Score = 69.7 bits (169),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 55/89 (62%), Gaps = 5/89 (6%)
+
+Query  7   WCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIPGAH  64
+           WCFTLN    +  ++    ++Y ++Q E+   G+ H QGYI+M K  +L  MK+L+PGAH
+Sbjct  9   WCFTLNFSGSIPEINWTADVQYSIWQHER--VGHDHLQGYIQMNKHVTLKKMKELLPGAH  66
+
+Query  65  FEKRRGTQGEARAYSMKEDTRLEGPWEYG  93
+            E  +  + +A  Y  K+++ + GPWEYG
+Sbjct  67  LEMAKAPK-KAIEYCQKKESAIAGPWEYG  94
+
+
+> sp|Q9YUD3|REP_BFDV Replication-associated protein OS=Beak and 
+feather disease virus OX=77856 GN=Rep PE=1 SV=1
+Length=289
+
+ Score = 67.0 bits (162),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 34/86 (40%), Positives = 44/86 (51%), Gaps = 14/86 (16%)
+
+Query  7   WCFTLNNP----------LSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGM  56
+           WCFTLNNP          L P    D   Y +   E+GE G  H QGY   K +  L+ +
+Sbjct  12  WCFTLNNPTDGEIEFVRSLGP----DEFYYAIVGREKGEQGTPHLQGYFHFKNKKRLSAL  67
+
+Query  57  KKLIPGAHFEKRRGTQGEARAYSMKE  82
+           KKL+P AHFE+ +G+  +   Y  KE
+Sbjct  68  KKLLPRAHFERAKGSDADNEKYCSKE  93
+
+
+> sp|Q87013|REP6_SCSVF Para-Rep C6 OS=Subterranean clover stunt 
+virus (strain F) OX=291607 GN=C6 PE=3 SV=1
+Length=285
+
+ Score = 63.9 bits (154),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 39/98 (40%), Positives = 57/98 (58%), Gaps = 8/98 (8%)
+
+Query  1   ARQVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKR-TSLAGMK  57
+            RQ   W FTLN    +  L  ++S++Y  +Q E+   G+ H QG+I+ K R T+L   K
+Sbjct  3   TRQSTSWVFTLNFEGEIPILPFNESVQYACWQHER--VGHDHLQGFIQFKSRNTTLRQAK  60
+
+Query  58  KLIPG--AHFEKRRGTQGEARAYSMKEDTRLEGPWEYG  93
+            +  G   H E  R  + +A+ Y+MKED+R+ GPWEYG
+Sbjct  61  YIFNGLNPHLEIARDVE-KAQLYAMKEDSRVAGPWEYG  97
+
+
+> sp|Q912W1|REP_CACV Replication-associated protein OS=Canary circovirus 
+OX=142661 GN=Rep PE=3 SV=2
+Length=290
+
+ Score = 58.2 bits (139),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 32/87 (37%), Positives = 45/87 (52%), Gaps = 14/87 (16%)
+
+Query  7   WCFTLNN----------PLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGM  56
+           WCFTLNN           L P   H    + +   E+GE G  H QG++  KK+  L+ +
+Sbjct  12  WCFTLNNYTAEEEAKVRALLPGEFH----FAICGKERGEQGTPHLQGFLHFKKKQRLSAL  67
+
+Query  57  KKLIPGAHFEKRRGTQGEARAYSMKED  83
+           KKL+  AH+EK RG+  +   Y  KE+
+Sbjct  68  KKLLARAHWEKARGSDHDNEEYCSKEN  94
+
+
+> sp|Q9IG45|REP_PICV Replication-associated protein OS=Pigeon circovirus 
+OX=126070 GN=rep PE=3 SV=1
+Length=317
+
+ Score = 58.2 bits (139),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 32/86 (37%), Positives = 44/86 (51%), Gaps = 6/86 (7%)
+
+Query  7    WCFTLNNP----LSPLS--LHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+            WCFTLNNP    +  L   L     Y +   E GE G  H QG++ +K++  L  +K+L 
+Sbjct  39   WCFTLNNPTEEEIKSLETWLVSDFHYAIVGKEVGEQGTPHLQGFVHLKQKKRLPQLKQLF  98
+
+Query  61   PGAHFEKRRGTQGEARAYSMKEDTRL  86
+              AH+EK RG+  +   Y  KE   L
+Sbjct  99   KRAHWEKARGSDEDNEKYCSKEGNVL  124
+
+
+> sp|Q87009|REP2_SCSVF Para-Rep C2 OS=Subterranean clover stunt 
+virus (strain F) OX=291607 GN=C2 PE=3 SV=1
+Length=280
+
+ Score = 48.1 bits (113),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 28/84 (33%), Positives = 37/84 (44%), Gaps = 8/84 (10%)
+
+Query  7   WCFTLN-------NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKL  59
+           +CFTLN            L   D + Y V   E    G  H QG++  K +  L G+KK 
+Sbjct  5   YCFTLNYATEIERETFLSLFSQDELNYFVVGDETATTGQKHLQGFVSFKNKIRLGGLKKK  64
+
+Query  60  IPG-AHFEKRRGTQGEARAYSMKE  82
+               AH+E  RG+  + R Y  KE
+Sbjct  65  FGNRAHWEIARGSDSQNRDYCCKE  88
+
+
+> sp|Q9Z0D4|REP2_MDV1 Para-Rep C2 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C2 PE=3 SV=1
+Length=282
+
+ Score = 45.8 bits (107),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 31/85 (36%), Positives = 37/85 (44%), Gaps = 9/85 (11%)
+
+Query  7   WCFTLN-------NPLSPLSLHDSMKYLVYQTEQG-EAGNIHFQGYIEMKKRTSLAGMKK  58
+           WCFTLN            L   D + Y V   E     G  H QGY+ MKK   L G+KK
+Sbjct  6   WCFTLNYKTALERETFISLFSRDELNYFVCGDEIAPTTGQKHLQGYVSMKKLIRLGGLKK  65
+
+Query  59  LIPG-AHFEKRRGTQGEARAYSMKE  82
+                AH+E  +G   + R Y  KE
+Sbjct  66  KFGSIAHWEIAKGDDFQNRDYCTKE  90
+
+
+> sp|O91254|REP1_FBNY1 Para-Rep C1 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C1 PE=3 SV=1
+Length=282
+
+ Score = 44.3 bits (103),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 37/85 (44%), Gaps = 9/85 (11%)
+
+Query  7   WCFTLN-------NPLSPLSLHDSMKYLVYQTEQGEAGN-IHFQGYIEMKKRTSLAGMKK  58
+           WCFTLN            L   D + Y V   E     N  H QGY+ +KK   L G+KK
+Sbjct  6   WCFTLNYKTAVERESFISLFSRDELNYFVCGDETAPTTNQKHLQGYVSLKKMIRLGGLKK  65
+
+Query  59  LIP-GAHFEKRRGTQGEARAYSMKE  82
+                AH+E  +G   + R Y  KE
+Sbjct  66  KFGYRAHWEIAKGDDFQNRDYCTKE  90
+
+
+> sp|Q91EK3|REP_GOCV Replication-associated protein OS=Goose circovirus 
+OX=146032 GN=rep PE=3 SV=1
+Length=293
+
+ Score = 41.2 bits (95),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 26/89 (29%), Positives = 43/89 (48%), Gaps = 9/89 (10%)
+
+Query  7   WCFTLNNP-------LSPLSLHDSMKYLVYQTEQGEA-GNIHFQGYIEMKKRTSLAGMKK  58
+           W FT+NNP       +      D+ K+ +   E+GE  G  H QG++ ++K    A +++
+Sbjct  12  WVFTINNPTFEDYCAVVEFCNLDNCKFAIVGEEKGEKEGTPHLQGFLSLRKNAKAAALEE  71
+
+Query  59  LIPG-AHFEKRRGTQGEARAYSMKEDTRL  86
+            + G A   + RG+  +   Y  KE T L
+Sbjct  72  NLGGRAWLSRARGSDEDNEEYCSKESTYL  100
+
+
+> sp|Q8BB16|REP_PCV2 Replication-associated protein OS=Porcine 
+circovirus 2 OX=85708 GN=Rep PE=1 SV=1
+Length=314
+
+ Score = 40.0 bits (92),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 31/92 (34%), Positives = 41/92 (45%), Gaps = 16/92 (17%)
+
+Query  7    WCFTLNNPL---------SPLSLHDSMKYLVYQTEQGEAGNI-HFQGYIEMKKRTSLAGM  56
+            W FTLNNP           P+SL D   Y +   E  E G   H QG+    K+ +   +
+Sbjct  17   WVFTLNNPSEDERKKIREPPISLFD---YFIVGEEGNEEGRTPHLQGFANFVKKQTFNKV  73
+
+Query  57   KKLIPGA--HFEKRRGTQGEARAYSMKEDTRL  86
+            K  + GA  H EK +GT  + + Y  KE   L
+Sbjct  74   KWYL-GARCHIEKAKGTDQQNKEYCSKEGNLL  104
+
+
+> sp|Q805H4|REP_PCV1 Replication-associated protein OS=Porcine 
+circovirus 1 OX=133704 GN=Rep PE=3 SV=1
+Length=312
+
+ Score = 38.1 bits (87),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 29/87 (33%), Positives = 37/87 (43%), Gaps = 14/87 (16%)
+
+Query  7   WCFTLNNPLS---------PLSLHDSMKYLVYQTEQGEAGNI-HFQGYIEMKKRTSLAGM  56
+           W FTLNNP           P+SL D   Y V   E  E G   H QG+    K+ +   +
+Sbjct  14  WVFTLNNPSEEEKNKIRELPISLFD---YFVCGEEGLEEGRTPHLQGFANFAKKQTFNKV  70
+
+Query  57  KKLIPG-AHFEKRRGTQGEARAYSMKE  82
+           K       H EK +GT  + + Y  KE
+Sbjct  71  KWYFGARCHIEKAKGTDQQNKEYCSKE  97
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4985962080
+Results from round 2
+
+
+Query= 6H8O:B
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O39828|MREP_FBNY2 Master replication protein OS=Faba bean ne...  162     3e-50
+  sp|Q9IR51|MREP_MDV1 Master replication protein OS=Milk vetch dw...  161     7e-50
+  sp|Q9ICP7|MREP_SCSVF Master replication protein OS=Subterranean...  158     2e-48
+  sp|Q9WIJ5|MREP_FBNY1 Master replication protein OS=Faba bean ne...  157     4e-48
+  sp|Q86567|MREP_BBTVA Master replication protein OS=Banana bunch...  152     3e-46
+  sp|Q9Z0D5|REP1_MDV1 Para-Rep C1 OS=Milk vetch dwarf virus (isol...  141     5e-42
+  sp|Q9Z0D3|REP3_MDV1 Para-Rep C3 OS=Milk vetch dwarf virus (isol...  138     1e-40
+  sp|Q9Z034|REP10_MDV1 Para-Rep C10 OS=Milk vetch dwarf virus (is...  132     3e-38
+  sp|O91250|REP7_FBNY2 Para-Rep C7 OS=Faba bean necrotic yellows ...  131     4e-38
+  sp|P0CK60|REP9_FBNY1 Para-Rep C9 OS=Faba bean necrotic yellows ...  128     4e-37
+  sp|Q9WIK0|REP7_FBNY1 Para-Rep C7 OS=Faba bean necrotic yellows ...  128     4e-37
+  sp|P0CK61|REP9_FBNY2 Para-Rep C9 OS=Faba bean necrotic yellows ...  128     6e-37
+  sp|Q66862|REP1_FBNY2 Para-Rep C1 OS=Faba bean necrotic yellows ...  127     2e-36
+  sp|Q87013|REP6_SCSVF Para-Rep C6 OS=Subterranean clover stunt v...  122     2e-34
+  sp|Q9IG45|REP_PICV Replication-associated protein OS=Pigeon cir...  113     4e-31
+  sp|Q9YUD3|REP_BFDV Replication-associated protein OS=Beak and f...  112     9e-31
+  sp|Q912W1|REP_CACV Replication-associated protein OS=Canary cir...  112     2e-30
+  sp|Q87009|REP2_SCSVF Para-Rep C2 OS=Subterranean clover stunt v...  106     1e-28
+  sp|O91254|REP1_FBNY1 Para-Rep C1 OS=Faba bean necrotic yellows ...  105     4e-28
+  sp|Q9Z0D4|REP2_MDV1 Para-Rep C2 OS=Milk vetch dwarf virus (isol...  105     7e-28
+  sp|Q91EK3|REP_GOCV Replication-associated protein OS=Goose circ...  100     7e-26
+  sp|Q8BB16|REP_PCV2 Replication-associated protein OS=Porcine ci...  92.4    8e-23
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q805H4|REP_PCV1 Replication-associated protein OS=Porcine ci...  87.3    5e-21
+  sp|D4N3P2|REP_HCYV5 Replication-associated protein OS=Human ass...  65.4    5e-13
+
+
+> sp|O39828|MREP_FBNY2 Master replication protein OS=Faba bean 
+necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-R 
+PE=1 SV=1
+Length=286
+
+ Score = 162 bits (411),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGE 
+Sbjct  62  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEF  96
+
+
+> sp|Q9IR51|MREP_MDV1 Master replication protein OS=Milk vetch 
+dwarf virus (isolate N) OX=291605 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 161 bits (408),  Expect = 7e-50, Method: Composition-based stats.
+ Identities = 90/95 (95%), Positives = 92/95 (97%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLH+ MKYLVYQ EQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHELMKYLVYQREQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAY+MKEDTRLEGPWEYGE 
+Sbjct  62  PGAHFEKRRGTQGEARAYAMKEDTRLEGPWEYGEF  96
+
+
+> sp|Q9ICP7|MREP_SCSVF Master replication protein OS=Subterranean 
+clover stunt virus (strain F) OX=291607 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 158 bits (399),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 77/95 (81%), Positives = 88/95 (93%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPL+PLSLH+SMKYLVYQTE G+ G IH+QGY+EMKKRTSL  MKKL+
+Sbjct  2   ARQVICWCFTLNNPLAPLSLHESMKYLVYQTEAGDNGTIHYQGYVEMKKRTSLVQMKKLL  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH EKRRG+QGEARAY+MKED+R+EGPWE+GE 
+Sbjct  62  PGAHLEKRRGSQGEARAYAMKEDSRVEGPWEFGEF  96
+
+
+> sp|Q9WIJ5|MREP_FBNY1 Master replication protein OS=Faba bean 
+necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-R 
+PE=1 SV=1
+Length=286
+
+ Score = 157 bits (397),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 92/95 (97%), Positives = 92/95 (97%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAYSMKED RLEGPWEY E 
+Sbjct  62  PGAHFEKRRGTQGEARAYSMKEDPRLEGPWEYEEF  96
+
+
+> sp|Q86567|MREP_BBTVA Master replication protein OS=Banana bunchy 
+top virus (isolate Autralia) OX=645099 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 152 bits (384),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 54/95 (57%), Positives = 72/95 (76%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           AR V+CW FT+NNP +   + D +KY+VYQ E+G+ G  H QGY+EMK+R+SL  M+   
+Sbjct  2   ARYVVCWMFTINNPTTLPVMRDEIKYMVYQVERGQEGTRHVQGYVEMKRRSSLKQMRGFF  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH EKR+G+Q EAR+Y MKEDTR+EGP+E+G  
+Sbjct  62  PGAHLEKRKGSQEEARSYCMKEDTRIEGPFEFGSF  96
+
+
+> sp|Q9Z0D5|REP1_MDV1 Para-Rep C1 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C1 PE=3 SV=1
+Length=281
+
+ Score = 141 bits (356),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 47/95 (49%), Positives = 63/95 (66%), Gaps = 4/95 (4%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           Q   WCFTLN       LS ++ ++Y  +Q E+    + H QGYI+MKKR++L  MK+L+
+Sbjct  5   QGTFWCFTLNFSGDAPSLSFNERVQYACWQHER--VSHDHLQGYIQMKKRSTLKMMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH E  +GT  EA  Y+MKE+TR+ GPW YGEL
+Sbjct  63  PGAHLEVSKGTPEEASDYAMKEETRVAGPWTYGEL  97
+
+
+> sp|Q9Z0D3|REP3_MDV1 Para-Rep C3 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C3 PE=3 SV=1
+Length=284
+
+ Score = 138 bits (347),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 47/96 (49%), Positives = 64/96 (67%), Gaps = 5/96 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           Q  CW FTLN    +  L  ++ ++Y  +Q E+   G+ H QG+I+MK + SL  MK +I
+Sbjct  5   QSTCWVFTLNFKGEIPILPFNERVQYACWQHER--VGHDHLQGFIQMKAQQSLGQMKAII  62
+
+Query  61  PGAHFEKRRG-TQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEK R     +A+AY+MKEDTR+EGPWEYG+ 
+Sbjct  63  PGAHFEKMRALNSDQAKAYAMKEDTRIEGPWEYGKY  98
+
+
+> sp|Q9Z034|REP10_MDV1 Para-Rep C10 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C10 PE=3 SV=1
+Length=283
+
+ Score = 132 bits (331),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 39/93 (42%), Positives = 59/93 (63%), Gaps = 5/93 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           + I WCFTLN    +  +     ++Y ++Q E+    + H QGYI+MKK+T+L  MK+L+
+Sbjct  5   RAIHWCFTLNFSGKIPEIVWTADVQYSIWQHER--VNHDHLQGYIQMKKQTTLKKMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYG  93
+           PGAH E  R  + +A  Y  K++T ++GPWEYG
+Sbjct  63  PGAHLEMARAPK-KAIDYCQKKETAIDGPWEYG  94
+
+
+> sp|O91250|REP7_FBNY2 Para-Rep C7 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C7 PE=3 SV=1
+Length=283
+
+ Score = 131 bits (329),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 37/93 (40%), Positives = 57/93 (61%), Gaps = 5/93 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           +   WCFTLN    +  ++    ++Y ++Q E+   G+ H QGYI+MKK  SL  MK+L+
+Sbjct  5   RATHWCFTLNFSGSIPEINWTADVQYSIWQHER--VGHDHLQGYIQMKKHVSLKKMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYG  93
+           PGAH E  +  + +A  Y  K+++ + GPWEYG
+Sbjct  63  PGAHLEMAKAPK-KAIEYCQKKESAIAGPWEYG  94
+
+
+> sp|P0CK60|REP9_FBNY1 Para-Rep C9 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C9 PE=3 SV=1
+Length=281
+
+ Score = 128 bits (323),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 38/95 (40%), Positives = 58/95 (61%), Gaps = 5/95 (5%)
+
+Query  4   VICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIP  61
+            + W FTLN    +  LS  + ++Y V+Q E+    + H QG I++KK+  +  +K +I 
+Sbjct  3   AVNWVFTLNFAGEVPVLSFDERVQYAVWQHER--VNHDHIQGVIQLKKKAKMNTVKNIIG  60
+
+Query  62  G-AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           G  H EK +G+  EA AY+ KE++R+ GPW YGEL
+Sbjct  61  GNPHLEKMKGSIEEASAYAQKEESRVAGPWSYGEL  95
+
+
+> sp|Q9WIK0|REP7_FBNY1 Para-Rep C7 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C7 PE=3 SV=1
+Length=283
+
+ Score = 128 bits (323),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 35/93 (38%), Positives = 56/93 (60%), Gaps = 5/93 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           +   WCFTLN    +  ++    ++Y ++Q E+   G+ H QGYI+M K  +L  MK+L+
+Sbjct  5   RATHWCFTLNFSGSIPEINWTADVQYSIWQHER--VGHDHLQGYIQMNKHVTLKKMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYG  93
+           PGAH E  +  + +A  Y  K+++ + GPWEYG
+Sbjct  63  PGAHLEMAKAPK-KAIEYCQKKESAIAGPWEYG  94
+
+
+> sp|P0CK61|REP9_FBNY2 Para-Rep C9 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C9 PE=3 SV=1
+Length=281
+
+ Score = 128 bits (322),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 38/95 (40%), Positives = 58/95 (61%), Gaps = 5/95 (5%)
+
+Query  4   VICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIP  61
+            + W FTLN    +  LS  + ++Y V+Q E+    + H QG I++KK+  +  +K +I 
+Sbjct  3   AVNWVFTLNFAGEVPVLSFDERVQYAVWQHER--VNHDHIQGVIQLKKKAKMNTVKNIIG  60
+
+Query  62  G-AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           G  H EK +G+  EA AY+ KE++R+ GPW YGEL
+Sbjct  61  GNPHLEKMKGSIEEASAYAQKEESRVAGPWSYGEL  95
+
+
+> sp|Q66862|REP1_FBNY2 Para-Rep C1 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C1 PE=1 SV=1
+Length=278
+
+ Score = 127 bits (318),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 40/93 (43%), Positives = 57/93 (61%), Gaps = 5/93 (5%)
+
+Query  6   CWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIPG-  62
+            W FT N    L  LS  + ++Y V+Q E+G   + H QG I++KK+   + +K++I G 
+Sbjct  5   NWVFTRNFQGALPLLSFDERVQYAVWQHERGT--HDHIQGVIQLKKKARFSTVKEIIGGN  62
+
+Query  63  AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+            H EK +GT  EA AY  KE+TR+ GPW YG+L
+Sbjct  63  PHVEKMKGTIEEASAYVQKEETRVAGPWSYGDL  95
+
+
+> sp|Q87013|REP6_SCSVF Para-Rep C6 OS=Subterranean clover stunt 
+virus (strain F) OX=291607 GN=C6 PE=3 SV=1
+Length=285
+
+ Score = 122 bits (305),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 39/100 (39%), Positives = 56/100 (56%), Gaps = 8/100 (8%)
+
+Query  1   ARQVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKR-TSLAGMK  57
+            RQ   W FTLN    +  L  ++S++Y  +Q E+   G+ H QG+I+ K R T+L   K
+Sbjct  3   TRQSTSWVFTLNFEGEIPILPFNESVQYACWQHER--VGHDHLQGFIQFKSRNTTLRQAK  60
+
+Query  58  KLIPG--AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+            +  G   H E  R    +A+ Y+MKED+R+ GPWEYG  
+Sbjct  61  YIFNGLNPHLEIARDV-EKAQLYAMKEDSRVAGPWEYGLF  99
+
+
+> sp|Q9IG45|REP_PICV Replication-associated protein OS=Pigeon circovirus 
+OX=126070 GN=rep PE=3 SV=1
+Length=317
+
+ Score = 113 bits (284),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 31/86 (36%), Positives = 42/86 (49%), Gaps = 6/86 (7%)
+
+Query  7    WCFTLNNPL------SPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+            WCFTLNNP           L     Y +   E GE G  H QG++ +K++  L  +K+L 
+Sbjct  39   WCFTLNNPTEEEIKSLETWLVSDFHYAIVGKEVGEQGTPHLQGFVHLKQKKRLPQLKQLF  98
+
+Query  61   PGAHFEKRRGTQGEARAYSMKEDTRL  86
+              AH+EK RG+  +   Y  KE   L
+Sbjct  99   KRAHWEKARGSDEDNEKYCSKEGNVL  124
+
+
+> sp|Q9YUD3|REP_BFDV Replication-associated protein OS=Beak and 
+feather disease virus OX=77856 GN=Rep PE=1 SV=1
+Length=289
+
+ Score = 112 bits (281),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 32/86 (37%), Positives = 44/86 (51%), Gaps = 6/86 (7%)
+
+Query  7   WCFTLNNPL-SPLSLH-----DSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           WCFTLNNP    +        D   Y +   E+GE G  H QGY   K +  L+ +KKL+
+Sbjct  12  WCFTLNNPTDGEIEFVRSLGPDEFYYAIVGREKGEQGTPHLQGYFHFKNKKRLSALKKLL  71
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRL  86
+           P AHFE+ +G+  +   Y  KE   +
+Sbjct  72  PRAHFERAKGSDADNEKYCSKEGDVI  97
+
+
+> sp|Q912W1|REP_CACV Replication-associated protein OS=Canary circovirus 
+OX=142661 GN=Rep PE=3 SV=2
+Length=290
+
+ Score = 112 bits (279),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 30/86 (35%), Positives = 45/86 (52%), Gaps = 6/86 (7%)
+
+Query  7   WCFTLNNPLSPLS------LHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           WCFTLNN  +         L     + +   E+GE G  H QG++  KK+  L+ +KKL+
+Sbjct  12  WCFTLNNYTAEEEAKVRALLPGEFHFAICGKERGEQGTPHLQGFLHFKKKQRLSALKKLL  71
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRL  86
+             AH+EK RG+  +   Y  KE+  +
+Sbjct  72  ARAHWEKARGSDHDNEEYCSKENDVI  97
+
+
+> sp|Q87009|REP2_SCSVF Para-Rep C2 OS=Subterranean clover stunt 
+virus (strain F) OX=291607 GN=C2 PE=3 SV=1
+Length=280
+
+ Score = 106 bits (266),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 28/84 (33%), Positives = 37/84 (44%), Gaps = 8/84 (10%)
+
+Query  7   WCFTLN-------NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKL  59
+           +CFTLN            L   D + Y V   E    G  H QG++  K +  L G+KK 
+Sbjct  5   YCFTLNYATEIERETFLSLFSQDELNYFVVGDETATTGQKHLQGFVSFKNKIRLGGLKKK  64
+
+Query  60  IP-GAHFEKRRGTQGEARAYSMKE  82
+               AH+E  RG+  + R Y  KE
+Sbjct  65  FGNRAHWEIARGSDSQNRDYCCKE  88
+
+
+> sp|O91254|REP1_FBNY1 Para-Rep C1 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C1 PE=3 SV=1
+Length=282
+
+ Score = 105 bits (262),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 31/99 (31%), Positives = 41/99 (41%), Gaps = 11/99 (11%)
+
+Query  7    WCFTLN-------NPLSPLSLHDSMKYLVYQTEQG-EAGNIHFQGYIEMKKRTSLAGMKK  58
+            WCFTLN            L   D + Y V   E        H QGY+ +KK   L G+KK
+Sbjct  6    WCFTLNYKTAVERESFISLFSRDELNYFVCGDETAPTTNQKHLQGYVSLKKMIRLGGLKK  65
+
+Query  59   LIP-GAHFEKRRGTQGEARAYSMKED--TRLEGPWEYGE  94
+                 AH+E  +G   + R Y  KE   + +  P + G 
+Sbjct  66   KFGYRAHWEIAKGDDFQNRDYCTKETLISEIGAPVKKGS  104
+
+
+> sp|Q9Z0D4|REP2_MDV1 Para-Rep C2 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C2 PE=3 SV=1
+Length=282
+
+ Score = 105 bits (261),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 31/85 (36%), Positives = 37/85 (44%), Gaps = 9/85 (11%)
+
+Query  7   WCFTLN-------NPLSPLSLHDSMKYLVYQTEQG-EAGNIHFQGYIEMKKRTSLAGMKK  58
+           WCFTLN            L   D + Y V   E     G  H QGY+ MKK   L G+KK
+Sbjct  6   WCFTLNYKTALERETFISLFSRDELNYFVCGDEIAPTTGQKHLQGYVSMKKLIRLGGLKK  65
+
+Query  59  LIPG-AHFEKRRGTQGEARAYSMKE  82
+                AH+E  +G   + R Y  KE
+Sbjct  66  KFGSIAHWEIAKGDDFQNRDYCTKE  90
+
+
+> sp|Q91EK3|REP_GOCV Replication-associated protein OS=Goose circovirus 
+OX=146032 GN=rep PE=3 SV=1
+Length=293
+
+ Score = 100 bits (248),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 26/89 (29%), Positives = 43/89 (48%), Gaps = 9/89 (10%)
+
+Query  7   WCFTLNNP-------LSPLSLHDSMKYLVYQTEQGE-AGNIHFQGYIEMKKRTSLAGMKK  58
+           W FT+NNP       +      D+ K+ +   E+GE  G  H QG++ ++K    A +++
+Sbjct  12  WVFTINNPTFEDYCAVVEFCNLDNCKFAIVGEEKGEKEGTPHLQGFLSLRKNAKAAALEE  71
+
+Query  59  LIPG-AHFEKRRGTQGEARAYSMKEDTRL  86
+            + G A   + RG+  +   Y  KE T L
+Sbjct  72  NLGGRAWLSRARGSDEDNEEYCSKESTYL  100
+
+
+> sp|Q8BB16|REP_PCV2 Replication-associated protein OS=Porcine 
+circovirus 2 OX=85708 GN=Rep PE=1 SV=1
+Length=314
+
+ Score = 92.4 bits (228),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 29/91 (32%), Positives = 39/91 (43%), Gaps = 14/91 (15%)
+
+Query  7    WCFTLNNPL---------SPLSLHDSMKYLVYQTEQGEAG-NIHFQGYIEMKKRTSLAGM  56
+            W FTLNNP           P+SL D   Y +   E  E G   H QG+    K+ +   +
+Sbjct  17   WVFTLNNPSEDERKKIREPPISLFD---YFIVGEEGNEEGRTPHLQGFANFVKKQTFNKV  73
+
+Query  57   KKLIP-GAHFEKRRGTQGEARAYSMKEDTRL  86
+            K  +    H EK +GT  + + Y  KE   L
+Sbjct  74   KWYLGARCHIEKAKGTDQQNKEYCSKEGNLL  104
+
+
+> sp|Q805H4|REP_PCV1 Replication-associated protein OS=Porcine 
+circovirus 1 OX=133704 GN=Rep PE=3 SV=1
+Length=312
+
+ Score = 87.3 bits (215),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 30/91 (33%), Positives = 38/91 (42%), Gaps = 14/91 (15%)
+
+Query  7    WCFTLNNPL---------SPLSLHDSMKYLVYQTEQGEAG-NIHFQGYIEMKKRTSLAGM  56
+            W FTLNNP           P+SL D   Y V   E  E G   H QG+    K+ +   +
+Sbjct  14   WVFTLNNPSEEEKNKIRELPISLFD---YFVCGEEGLEEGRTPHLQGFANFAKKQTFNKV  70
+
+Query  57   KKLIP-GAHFEKRRGTQGEARAYSMKEDTRL  86
+            K       H EK +GT  + + Y  KE   L
+Sbjct  71   KWYFGARCHIEKAKGTDQQNKEYCSKEGHIL  101
+
+
+> sp|D4N3P2|REP_HCYV5 Replication-associated protein OS=Human associated 
+cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) 
+OX=742918 GN=Rep PE=3 SV=1
+Length=280
+
+ Score = 65.4 bits (158),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 23/89 (26%), Positives = 35/89 (39%), Gaps = 8/89 (9%)
+
+Query  7   WCFTLNN------PLSPLSLHDSMKYLVYQTEQG-EAGNIHFQGYIEMKKRTSLAGMKKL  59
+           +CFT NN       L    +    KY +   E        H QG+  ++K    + +KK 
+Sbjct  9   FCFTWNNYTELNYALCQEFIKKYCKYGIVGKELAPTTNTPHLQGFCNLQKPMRFSTIKKR  68
+
+Query  60  I-PGAHFEKRRGTQGEARAYSMKEDTRLE  87
+           +  G H EK  G+  + + Y  K     E
+Sbjct  69  LDNGIHIEKSMGSDTQNQTYCSKSGEFFE  97
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.142    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0434    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4985962080
+Results from round 3
+
+
+Query= 6H8O:B
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O39828|MREP_FBNY2 Master replication protein OS=Faba bean ne...  157     5e-48
+  sp|Q9IR51|MREP_MDV1 Master replication protein OS=Milk vetch dw...  155     1e-47
+  sp|Q9ICP7|MREP_SCSVF Master replication protein OS=Subterranean...  153     9e-47
+  sp|Q9WIJ5|MREP_FBNY1 Master replication protein OS=Faba bean ne...  151     6e-46
+  sp|Q86567|MREP_BBTVA Master replication protein OS=Banana bunch...  148     7e-45
+  sp|Q9Z0D5|REP1_MDV1 Para-Rep C1 OS=Milk vetch dwarf virus (isol...  138     7e-41
+  sp|Q9Z0D3|REP3_MDV1 Para-Rep C3 OS=Milk vetch dwarf virus (isol...  133     5e-39
+  sp|Q9Z034|REP10_MDV1 Para-Rep C10 OS=Milk vetch dwarf virus (is...  128     4e-37
+  sp|O91250|REP7_FBNY2 Para-Rep C7 OS=Faba bean necrotic yellows ...  128     7e-37
+  sp|Q9WIK0|REP7_FBNY1 Para-Rep C7 OS=Faba bean necrotic yellows ...  125     6e-36
+  sp|P0CK60|REP9_FBNY1 Para-Rep C9 OS=Faba bean necrotic yellows ...  125     8e-36
+  sp|P0CK61|REP9_FBNY2 Para-Rep C9 OS=Faba bean necrotic yellows ...  124     2e-35
+  sp|Q66862|REP1_FBNY2 Para-Rep C1 OS=Faba bean necrotic yellows ...  123     5e-35
+  sp|Q912W1|REP_CACV Replication-associated protein OS=Canary cir...  120     1e-33
+  sp|Q87013|REP6_SCSVF Para-Rep C6 OS=Subterranean clover stunt v...  118     3e-33
+  sp|Q9IG45|REP_PICV Replication-associated protein OS=Pigeon cir...  119     3e-33
+  sp|Q9YUD3|REP_BFDV Replication-associated protein OS=Beak and f...  115     5e-32
+  sp|O91254|REP1_FBNY1 Para-Rep C1 OS=Faba bean necrotic yellows ...  111     2e-30
+  sp|Q9Z0D4|REP2_MDV1 Para-Rep C2 OS=Milk vetch dwarf virus (isol...  109     2e-29
+  sp|Q87009|REP2_SCSVF Para-Rep C2 OS=Subterranean clover stunt v...  108     2e-29
+  sp|Q91EK3|REP_GOCV Replication-associated protein OS=Goose circ...  100     5e-26
+  sp|Q8BB16|REP_PCV2 Replication-associated protein OS=Porcine ci...  98.9    3e-25
+  sp|Q805H4|REP_PCV1 Replication-associated protein OS=Porcine ci...  97.7    6e-25
+  sp|D4N3P2|REP_HCYV5 Replication-associated protein OS=Human ass...  96.6    1e-24
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|O39828|MREP_FBNY2 Master replication protein OS=Faba bean 
+necrotic yellows virus (isolate SV292-88) OX=291604 GN=DNA-R 
+PE=1 SV=1
+Length=286
+
+ Score = 157 bits (396),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGE 
+Sbjct  62  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEF  96
+
+
+> sp|Q9IR51|MREP_MDV1 Master replication protein OS=Milk vetch 
+dwarf virus (isolate N) OX=291605 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 155 bits (393),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 90/95 (95%), Positives = 92/95 (97%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLH+ MKYLVYQ EQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHELMKYLVYQREQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAY+MKEDTRLEGPWEYGE 
+Sbjct  62  PGAHFEKRRGTQGEARAYAMKEDTRLEGPWEYGEF  96
+
+
+> sp|Q9ICP7|MREP_SCSVF Master replication protein OS=Subterranean 
+clover stunt virus (strain F) OX=291607 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 153 bits (387),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 77/95 (81%), Positives = 88/95 (93%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPL+PLSLH+SMKYLVYQTE G+ G IH+QGY+EMKKRTSL  MKKL+
+Sbjct  2   ARQVICWCFTLNNPLAPLSLHESMKYLVYQTEAGDNGTIHYQGYVEMKKRTSLVQMKKLL  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH EKRRG+QGEARAY+MKED+R+EGPWE+GE 
+Sbjct  62  PGAHLEKRRGSQGEARAYAMKEDSRVEGPWEFGEF  96
+
+
+> sp|Q9WIJ5|MREP_FBNY1 Master replication protein OS=Faba bean 
+necrotic yellows virus (isolate Egyptian EV1-93) OX=291603 GN=DNA-R 
+PE=1 SV=1
+Length=286
+
+ Score = 151 bits (382),  Expect = 6e-46, Method: Composition-based stats.
+ Identities = 92/95 (97%), Positives = 92/95 (97%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI
+Sbjct  2   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEKRRGTQGEARAYSMKED RLEGPWEY E 
+Sbjct  62  PGAHFEKRRGTQGEARAYSMKEDPRLEGPWEYEEF  96
+
+
+> sp|Q86567|MREP_BBTVA Master replication protein OS=Banana bunchy 
+top virus (isolate Autralia) OX=645099 GN=DNA-R PE=3 SV=1
+Length=286
+
+ Score = 148 bits (375),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 54/95 (57%), Positives = 72/95 (76%), Gaps = 0/95 (0%)
+
+Query  1   ARQVICWCFTLNNPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           AR V+CW FT+NNP +   + D +KY+VYQ E+G+ G  H QGY+EMK+R+SL  M+   
+Sbjct  2   ARYVVCWMFTINNPTTLPVMRDEIKYMVYQVERGQEGTRHVQGYVEMKRRSSLKQMRGFF  61
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH EKR+G+Q EAR+Y MKEDTR+EGP+E+G  
+Sbjct  62  PGAHLEKRKGSQEEARSYCMKEDTRIEGPFEFGSF  96
+
+
+> sp|Q9Z0D5|REP1_MDV1 Para-Rep C1 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C1 PE=3 SV=1
+Length=281
+
+ Score = 138 bits (348),  Expect = 7e-41, Method: Composition-based stats.
+ Identities = 47/95 (49%), Positives = 63/95 (66%), Gaps = 4/95 (4%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           Q   WCFTLN       LS ++ ++Y  +Q E+    + H QGYI+MKKR++L  MK+L+
+Sbjct  5   QGTFWCFTLNFSGDAPSLSFNERVQYACWQHER--VSHDHLQGYIQMKKRSTLKMMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH E  +GT  EA  Y+MKE+TR+ GPW YGEL
+Sbjct  63  PGAHLEVSKGTPEEASDYAMKEETRVAGPWTYGEL  97
+
+
+> sp|Q9Z0D3|REP3_MDV1 Para-Rep C3 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C3 PE=3 SV=1
+Length=284
+
+ Score = 133 bits (336),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 47/96 (49%), Positives = 64/96 (67%), Gaps = 5/96 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           Q  CW FTLN    +  L  ++ ++Y  +Q E+   G+ H QG+I+MK + SL  MK +I
+Sbjct  5   QSTCWVFTLNFKGEIPILPFNERVQYACWQHER--VGHDHLQGFIQMKAQQSLGQMKAII  62
+
+Query  61  PGAHFEKRRG-TQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAHFEK R     +A+AY+MKEDTR+EGPWEYG+ 
+Sbjct  63  PGAHFEKMRALNSDQAKAYAMKEDTRIEGPWEYGKY  98
+
+
+> sp|Q9Z034|REP10_MDV1 Para-Rep C10 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C10 PE=3 SV=1
+Length=283
+
+ Score = 128 bits (323),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 39/95 (41%), Positives = 59/95 (62%), Gaps = 5/95 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           + I WCFTLN    +  +     ++Y ++Q E+    + H QGYI+MKK+T+L  MK+L+
+Sbjct  5   RAIHWCFTLNFSGKIPEIVWTADVQYSIWQHER--VNHDHLQGYIQMKKQTTLKKMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH E  R  + +A  Y  K++T ++GPWEYG  
+Sbjct  63  PGAHLEMARAPK-KAIDYCQKKETAIDGPWEYGTW  96
+
+
+> sp|O91250|REP7_FBNY2 Para-Rep C7 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C7 PE=3 SV=1
+Length=283
+
+ Score = 128 bits (321),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 37/95 (39%), Positives = 57/95 (60%), Gaps = 5/95 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           +   WCFTLN    +  ++    ++Y ++Q E+   G+ H QGYI+MKK  SL  MK+L+
+Sbjct  5   RATHWCFTLNFSGSIPEINWTADVQYSIWQHER--VGHDHLQGYIQMKKHVSLKKMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH E  +  + +A  Y  K+++ + GPWEYG  
+Sbjct  63  PGAHLEMAKAPK-KAIEYCQKKESAIAGPWEYGTW  96
+
+
+> sp|Q9WIK0|REP7_FBNY1 Para-Rep C7 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C7 PE=3 SV=1
+Length=283
+
+ Score = 125 bits (315),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 35/95 (37%), Positives = 56/95 (59%), Gaps = 5/95 (5%)
+
+Query  3   QVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           +   WCFTLN    +  ++    ++Y ++Q E+   G+ H QGYI+M K  +L  MK+L+
+Sbjct  5   RATHWCFTLNFSGSIPEINWTADVQYSIWQHER--VGHDHLQGYIQMNKHVTLKKMKELL  62
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           PGAH E  +  + +A  Y  K+++ + GPWEYG  
+Sbjct  63  PGAHLEMAKAPK-KAIEYCQKKESAIAGPWEYGTW  96
+
+
+> sp|P0CK60|REP9_FBNY1 Para-Rep C9 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C9 PE=3 SV=1
+Length=281
+
+ Score = 125 bits (314),  Expect = 8e-36, Method: Composition-based stats.
+ Identities = 38/95 (40%), Positives = 58/95 (61%), Gaps = 5/95 (5%)
+
+Query  4   VICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIP  61
+            + W FTLN    +  LS  + ++Y V+Q E+    + H QG I++KK+  +  +K +I 
+Sbjct  3   AVNWVFTLNFAGEVPVLSFDERVQYAVWQHER--VNHDHIQGVIQLKKKAKMNTVKNIIG  60
+
+Query  62  G-AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           G  H EK +G+  EA AY+ KE++R+ GPW YGEL
+Sbjct  61  GNPHLEKMKGSIEEASAYAQKEESRVAGPWSYGEL  95
+
+
+> sp|P0CK61|REP9_FBNY2 Para-Rep C9 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C9 PE=3 SV=1
+Length=281
+
+ Score = 124 bits (312),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 38/95 (40%), Positives = 58/95 (61%), Gaps = 5/95 (5%)
+
+Query  4   VICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIP  61
+            + W FTLN    +  LS  + ++Y V+Q E+    + H QG I++KK+  +  +K +I 
+Sbjct  3   AVNWVFTLNFAGEVPVLSFDERVQYAVWQHER--VNHDHIQGVIQLKKKAKMNTVKNIIG  60
+
+Query  62  G-AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+           G  H EK +G+  EA AY+ KE++R+ GPW YGEL
+Sbjct  61  GNPHLEKMKGSIEEASAYAQKEESRVAGPWSYGEL  95
+
+
+> sp|Q66862|REP1_FBNY2 Para-Rep C1 OS=Faba bean necrotic yellows 
+virus (isolate SV292-88) OX=291604 GN=C1 PE=1 SV=1
+Length=278
+
+ Score = 123 bits (308),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 40/93 (43%), Positives = 57/93 (61%), Gaps = 5/93 (5%)
+
+Query  6   CWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLIPG-  62
+            W FT N    L  LS  + ++Y V+Q E+G   + H QG I++KK+   + +K++I G 
+Sbjct  5   NWVFTRNFQGALPLLSFDERVQYAVWQHERGT--HDHIQGVIQLKKKARFSTVKEIIGGN  62
+
+Query  63  AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+            H EK +GT  EA AY  KE+TR+ GPW YG+L
+Sbjct  63  PHVEKMKGTIEEASAYVQKEETRVAGPWSYGDL  95
+
+
+> sp|Q912W1|REP_CACV Replication-associated protein OS=Canary circovirus 
+OX=142661 GN=Rep PE=3 SV=2
+Length=290
+
+ Score = 120 bits (300),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 30/86 (35%), Positives = 45/86 (52%), Gaps = 6/86 (7%)
+
+Query  7   WCFTLNNPLSPLS------LHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           WCFTLNN  +         L     + +   E+GE G  H QG++  KK+  L+ +KKL+
+Sbjct  12  WCFTLNNYTAEEEAKVRALLPGEFHFAICGKERGEQGTPHLQGFLHFKKKQRLSALKKLL  71
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRL  86
+             AH+EK RG+  +   Y  KE+  +
+Sbjct  72  ARAHWEKARGSDHDNEEYCSKENDVI  97
+
+
+> sp|Q87013|REP6_SCSVF Para-Rep C6 OS=Subterranean clover stunt 
+virus (strain F) OX=291607 GN=C6 PE=3 SV=1
+Length=285
+
+ Score = 118 bits (297),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 39/100 (39%), Positives = 56/100 (56%), Gaps = 8/100 (8%)
+
+Query  1   ARQVICWCFTLN--NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKR-TSLAGMK  57
+            RQ   W FTLN    +  L  ++S++Y  +Q E+   G+ H QG+I+ K R T+L   K
+Sbjct  3   TRQSTSWVFTLNFEGEIPILPFNESVQYACWQHER--VGHDHLQGFIQFKSRNTTLRQAK  60
+
+Query  58  KLIPG--AHFEKRRGTQGEARAYSMKEDTRLEGPWEYGEL  95
+            +  G   H E  R    +A+ Y+MKED+R+ GPWEYG  
+Sbjct  61  YIFNGLNPHLEIARDV-EKAQLYAMKEDSRVAGPWEYGLF  99
+
+
+> sp|Q9IG45|REP_PICV Replication-associated protein OS=Pigeon circovirus 
+OX=126070 GN=rep PE=3 SV=1
+Length=317
+
+ Score = 119 bits (299),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 31/86 (36%), Positives = 42/86 (49%), Gaps = 6/86 (7%)
+
+Query  7    WCFTLNNPL------SPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+            WCFTLNNP           L     Y +   E GE G  H QG++ +K++  L  +K+L 
+Sbjct  39   WCFTLNNPTEEEIKSLETWLVSDFHYAIVGKEVGEQGTPHLQGFVHLKQKKRLPQLKQLF  98
+
+Query  61   PGAHFEKRRGTQGEARAYSMKEDTRL  86
+              AH+EK RG+  +   Y  KE   L
+Sbjct  99   KRAHWEKARGSDEDNEKYCSKEGNVL  124
+
+
+> sp|Q9YUD3|REP_BFDV Replication-associated protein OS=Beak and 
+feather disease virus OX=77856 GN=Rep PE=1 SV=1
+Length=289
+
+ Score = 115 bits (289),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 32/86 (37%), Positives = 44/86 (51%), Gaps = 6/86 (7%)
+
+Query  7   WCFTLNNPL-SPLSL-----HDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKLI  60
+           WCFTLNNP    +        D   Y +   E+GE G  H QGY   K +  L+ +KKL+
+Sbjct  12  WCFTLNNPTDGEIEFVRSLGPDEFYYAIVGREKGEQGTPHLQGYFHFKNKKRLSALKKLL  71
+
+Query  61  PGAHFEKRRGTQGEARAYSMKEDTRL  86
+           P AHFE+ +G+  +   Y  KE   +
+Sbjct  72  PRAHFERAKGSDADNEKYCSKEGDVI  97
+
+
+> sp|O91254|REP1_FBNY1 Para-Rep C1 OS=Faba bean necrotic yellows 
+virus (isolate Egyptian EV1-93) OX=291603 GN=C1 PE=3 SV=1
+Length=282
+
+ Score = 111 bits (278),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 31/99 (31%), Positives = 41/99 (41%), Gaps = 11/99 (11%)
+
+Query  7    WCFTLN-------NPLSPLSLHDSMKYLVYQTEQG-EAGNIHFQGYIEMKKRTSLAGMKK  58
+            WCFTLN            L   D + Y V   E        H QGY+ +KK   L G+KK
+Sbjct  6    WCFTLNYKTAVERESFISLFSRDELNYFVCGDETAPTTNQKHLQGYVSLKKMIRLGGLKK  65
+
+Query  59   LIP-GAHFEKRRGTQGEARAYSMKED--TRLEGPWEYGE  94
+                 AH+E  +G   + R Y  KE   + +  P + G 
+Sbjct  66   KFGYRAHWEIAKGDDFQNRDYCTKETLISEIGAPVKKGS  104
+
+
+> sp|Q9Z0D4|REP2_MDV1 Para-Rep C2 OS=Milk vetch dwarf virus (isolate 
+N) OX=291605 GN=C2 PE=3 SV=1
+Length=282
+
+ Score = 109 bits (272),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/99 (33%), Positives = 41/99 (41%), Gaps = 11/99 (11%)
+
+Query  7    WCFTLN-------NPLSPLSLHDSMKYLVYQTEQG-EAGNIHFQGYIEMKKRTSLAGMKK  58
+            WCFTLN            L   D + Y V   E     G  H QGY+ MKK   L G+KK
+Sbjct  6    WCFTLNYKTALERETFISLFSRDELNYFVCGDEIAPTTGQKHLQGYVSMKKLIRLGGLKK  65
+
+Query  59   LIPG-AHFEKRRGTQGEARAYSMKED--TRLEGPWEYGE  94
+                 AH+E  +G   + R Y  KE     +  P + G 
+Sbjct  66   KFGSIAHWEIAKGDDFQNRDYCTKETLIAEIGAPVKKGS  104
+
+
+> sp|Q87009|REP2_SCSVF Para-Rep C2 OS=Subterranean clover stunt 
+virus (strain F) OX=291607 GN=C2 PE=3 SV=1
+Length=280
+
+ Score = 108 bits (271),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 30/98 (31%), Positives = 41/98 (42%), Gaps = 10/98 (10%)
+
+Query  7    WCFTLN-------NPLSPLSLHDSMKYLVYQTEQGEAGNIHFQGYIEMKKRTSLAGMKKL  59
+            +CFTLN            L   D + Y V   E    G  H QG++  K +  L G+KK 
+Sbjct  5    YCFTLNYATEIERETFLSLFSQDELNYFVVGDETATTGQKHLQGFVSFKNKIRLGGLKKK  64
+
+Query  60   IP-GAHFEKRRGTQGEARAYSMKED--TRLEGPWEYGE  94
+                AH+E  RG+  + R Y  KE   + +  P   G 
+Sbjct  65   FGNRAHWEIARGSDSQNRDYCCKETLISEIGIPVMKGS  102
+
+
+> sp|Q91EK3|REP_GOCV Replication-associated protein OS=Goose circovirus 
+OX=146032 GN=rep PE=3 SV=1
+Length=293
+
+ Score = 100 bits (249),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 26/89 (29%), Positives = 42/89 (47%), Gaps = 9/89 (10%)
+
+Query  7   WCFTLNNPL-------SPLSLHDSMKYLVYQTEQGE-AGNIHFQGYIEMKKRTSLAGMKK  58
+           W FT+NNP              D+ K+ +   E+GE  G  H QG++ ++K    A +++
+Sbjct  12  WVFTINNPTFEDYCAVVEFCNLDNCKFAIVGEEKGEKEGTPHLQGFLSLRKNAKAAALEE  71
+
+Query  59  LIPG-AHFEKRRGTQGEARAYSMKEDTRL  86
+            + G A   + RG+  +   Y  KE T L
+Sbjct  72  NLGGRAWLSRARGSDEDNEEYCSKESTYL  100
+
+
+> sp|Q8BB16|REP_PCV2 Replication-associated protein OS=Porcine 
+circovirus 2 OX=85708 GN=Rep PE=1 SV=1
+Length=314
+
+ Score = 98.9 bits (245),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 31/102 (30%), Positives = 42/102 (41%), Gaps = 17/102 (17%)
+
+Query  7    WCFTLNNPL---------SPLSLHDSMKYLVYQTEQGEAG-NIHFQGYIEMKKRTSLAGM  56
+            W FTLNNP           P+SL D   Y +   E  E G   H QG+    K+ +   +
+Sbjct  17   WVFTLNNPSEDERKKIREPPISLFD---YFIVGEEGNEEGRTPHLQGFANFVKKQTFNKV  73
+
+Query  57   KKLIP-GAHFEKRRGTQGEARAYSMKEDTRL---EGPWEYGE  94
+            K  +    H EK +GT  + + Y  KE   L     P   G+
+Sbjct  74   KWYLGARCHIEKAKGTDQQNKEYCSKEGNLLIECGAPRSQGQ  115
+
+
+> sp|Q805H4|REP_PCV1 Replication-associated protein OS=Porcine 
+circovirus 1 OX=133704 GN=Rep PE=3 SV=1
+Length=312
+
+ Score = 97.7 bits (242),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 26/88 (30%), Positives = 33/88 (38%), Gaps = 8/88 (9%)
+
+Query  7    WCFTLNNPLSPLSLHDS------MKYLVYQTEQGEAG-NIHFQGYIEMKKRTSLAGMKKL  59
+            W FTLNNP                 Y V   E  E G   H QG+    K+ +   +K  
+Sbjct  14   WVFTLNNPSEEEKNKIRELPISLFDYFVCGEEGLEEGRTPHLQGFANFAKKQTFNKVKWY  73
+
+Query  60   IP-GAHFEKRRGTQGEARAYSMKEDTRL  86
+                 H EK +GT  + + Y  KE   L
+Sbjct  74   FGARCHIEKAKGTDQQNKEYCSKEGHIL  101
+
+
+> sp|D4N3P2|REP_HCYV5 Replication-associated protein OS=Human associated 
+cyclovirus 1 (isolate Homo sapiens/Pakistan/PK5510/2007) 
+OX=742918 GN=Rep PE=3 SV=1
+Length=280
+
+ Score = 96.6 bits (239),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 35/90 (39%), Gaps = 8/90 (9%)
+
+Query  7   WCFTLNN------PLSPLSLHDSMKYLVYQTEQG-EAGNIHFQGYIEMKKRTSLAGMKKL  59
+           +CFT NN       L    +    KY +   E        H QG+  ++K    + +KK 
+Sbjct  9   FCFTWNNYTELNYALCQEFIKKYCKYGIVGKELAPTTNTPHLQGFCNLQKPMRFSTIKKR  68
+
+Query  60  I-PGAHFEKRRGTQGEARAYSMKEDTRLEG  88
+           +  G H EK  G+  + + Y  K     E 
+Sbjct  69  LDNGIHIEKSMGSDTQNQTYCSKSGEFFEA  98
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.142    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0434    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4985962080
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

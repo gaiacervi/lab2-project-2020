@@ -1,0 +1,2396 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5YGH:B
+
+Length=73
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|A0A142I5B9|POLG_ZIKVK Genome polyprotein OS=Zika virus (isol...  151     3e-43
+  sp|A0A024B7W1|POLG_ZIKVF Genome polyprotein OS=Zika virus (isol...  151     3e-43
+  sp|Q32ZE1|POLG_ZIKV Genome polyprotein OS=Zika virus OX=64320 P...  148     2e-42
+  sp|Q32ZD5|POLG_KOKV Genome polyprotein OS=Kokobera virus OX=440...  85.1    6e-20
+  sp|P09732|POLG_STEVM Genome polyprotein (Fragment) OS=St. louis...  78.6    1e-17
+  sp|Q6YMS4|POLG_DEN3S Genome polyprotein OS=Dengue virus type 3 ...  78.6    1e-17
+  sp|Q6YMS3|POLG_DEN3M Genome polyprotein OS=Dengue virus type 3 ...  78.6    1e-17
+  sp|Q5UB51|POLG_DEN3I Genome polyprotein OS=Dengue virus type 3 ...  78.2    1e-17
+  sp|Q99D35|POLG_DEN3C Genome polyprotein OS=Dengue virus type 3 ...  78.2    1e-17
+  sp|P27915|POLG_DEN3P Genome polyprotein OS=Dengue virus type 3 ...  78.2    1e-17
+  sp|P33478|POLG_DEN1S Genome polyprotein OS=Dengue virus type 1 ...  77.8    2e-17
+  sp|P17763|POLG_DEN1W Genome polyprotein OS=Dengue virus type 1 ...  77.8    2e-17
+  sp|P27912|POLG_DEN1A Genome polyprotein (Fragment) OS=Dengue vi...  76.6    4e-17
+  sp|P05769|POLG_MVEV5 Genome polyprotein OS=Murray valley enceph...  76.6    4e-17
+  sp|Q2YHF0|POLG_DEN4T Genome polyprotein OS=Dengue virus type 4 ...  76.6    5e-17
+  sp|Q58HT7|POLG_DEN4P Genome polyprotein OS=Dengue virus type 4 ...  76.6    5e-17
+  sp|P27909|POLG_DEN1B Genome polyprotein OS=Dengue virus type 1 ...  76.6    5e-17
+  sp|P27913|POLG_DEN1C Genome polyprotein (Fragment) OS=Dengue vi...  76.3    6e-17
+  sp|Q2YHF2|POLG_DEN4H Genome polyprotein OS=Dengue virus type 4 ...  76.3    7e-17
+  sp|Q5UCB8|POLG_DEN4S Genome polyprotein OS=Dengue virus type 4 ...  75.9    8e-17
+  sp|Q5WPU5|POLG_USUV Genome polyprotein OS=Usutu virus OX=64286 ...  75.9    9e-17
+  sp|P09866|POLG_DEN4D Genome polyprotein OS=Dengue virus type 4 ...  75.9    9e-17
+  sp|Q32ZE0|POLG_BUSV Genome polyprotein OS=Bussuquara virus OX=6...  74.3    3e-16
+  sp|P12823|POLG_DEN2P Genome polyprotein OS=Dengue virus type 2 ...  73.9    4e-16
+  sp|P14337|POLG_DEN28 Genome polyprotein OS=Dengue virus type 2 ...  73.9    4e-16
+  sp|Q9WDA6|POLG_DEN2Q Genome polyprotein OS=Dengue virus type 2 ...  73.9    4e-16
+  sp|P14340|POLG_DEN2N Genome polyprotein OS=Dengue virus type 2 ...  73.9    4e-16
+  sp|P07564|POLG_DEN2J Genome polyprotein OS=Dengue virus type 2 ...  73.9    4e-16
+  sp|P29990|POLG_DEN26 Genome polyprotein OS=Dengue virus type 2 ...  73.9    4e-16
+  sp|P29991|POLG_DEN27 Genome polyprotein OS=Dengue virus type 2 ...  73.9    4e-16
+  sp|Q9Q6P4|POLG_WNV9 Genome polyprotein OS=West Nile virus (stra...  72.8    1e-15
+  sp|P14335|POLG_KUNJM Genome polyprotein OS=Kunjin virus (strain...  72.8    1e-15
+  sp|P06935|POLG_WNV Genome polyprotein OS=West Nile virus OX=110...  72.4    1e-15
+  sp|P0DOH8|POLS_JAEVJ Structural polyprotein OS=Japanese encepha...  70.5    7e-15
+  sp|P0DOH9|POLS_JAEV5 Structural polyprotein OS=Japanese encepha...  70.5    7e-15
+  sp|P0DOH7|POLS_JAEV1 Structural polyprotein OS=Japanese encepha...  70.5    7e-15
+  sp|P0DOK8|POLS_JAEVM Structural polyprotein OS=Japanese encepha...  70.1    1e-14
+  sp|P27395|POLG_JAEV1 Genome polyprotein OS=Japanese encephaliti...  69.3    2e-14
+  sp|P19110|POLG_JAEV5 Genome polyprotein OS=Japanese encephaliti...  69.3    2e-14
+  sp|P32886|POLG_JAEVJ Genome polyprotein OS=Japanese encephaliti...  69.3    2e-14
+  sp|G3FEX6|POLG_JAEVM Genome polyprotein OS=Japanese encephaliti...  68.9    2e-14
+  sp|P30026|POLG_DEN2D Genome polyprotein (Fragment) OS=Dengue vi...  64.3    9e-13
+  sp|Q32ZD7|POLG_ILHV Genome polyprotein OS=Ilheus virus OX=59563...  62.8    4e-12
+  sp|Q32ZD4|POLG_ROCV Genome polyprotein OS=Rocio virus OX=64315 ...  58.5    1e-10
+
+
+> sp|A0A142I5B9|POLG_ZIKVK Genome polyprotein OS=Zika virus (isolate 
+ZIKV/Human/Cambodia/FSS13025/2010) OX=2316109 PE=1 SV=1
+Length=3423
+
+ Score = 151 bits (381),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 73/73 (100%), Positives = 73/73 (100%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|A0A024B7W1|POLG_ZIKVF Genome polyprotein OS=Zika virus (isolate 
+ZIKV/Human/French Polynesia/10087PF/2013) OX=2043570 PE=1 
+SV=1
+Length=3423
+
+ Score = 151 bits (381),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 73/73 (100%), Positives = 73/73 (100%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|Q32ZE1|POLG_ZIKV Genome polyprotein OS=Zika virus OX=64320 
+PE=1 SV=1
+Length=3419
+
+ Score = 148 bits (374),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 72/73 (99%), Positives = 72/73 (99%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P GGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PLGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|Q32ZD5|POLG_KOKV Genome polyprotein OS=Kokobera virus OX=44024 
+PE=1 SV=1
+Length=3410
+
+ Score = 85.1 bits (209),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 40/71 (56%), Positives = 52/71 (73%), Gaps = 0/71 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P   LKR+  GLL G GP+RMVLAILAF RFTA+KP+ GL+ RWG + K  A+ ++K FK
+Sbjct  27  PMIKLKRMLFGLLDGRGPLRMVLAILAFFRFTALKPTAGLLKRWGMMDKVHALSLLKGFK  86
+
+Query  61  KDLAAMLRIIN  71
+           KDLA+M   ++
+Sbjct  87  KDLASMTDFVH  97
+
+
+> sp|P09732|POLG_STEVM Genome polyprotein (Fragment) OS=St. louis 
+encephalitis virus (strain MS1-7) OX=11081 PE=1 SV=2
+Length=3412
+
+ Score = 78.6 bits (192),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  GLKR+   LL G GP+R +LAIL F RFTA++P+  L  RW +V K+ A++ +  FK
+Sbjct  26  PLTGLKRILGSLLDGRGPVRFILAILTFFRFTALQPTEALKRRWRAVDKRTALKHLNGFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           +DL +ML  IN R
+Sbjct  86  RDLGSMLDTINRR  98
+
+
+> sp|Q6YMS4|POLG_DEN3S Genome polyprotein OS=Dengue virus type 
+3 (strain Sri Lanka/1266/2000) OX=408692 GN=pol PE=1 SV=1
+Length=3390
+
+ Score = 78.6 bits (192),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 34/68 (50%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK+++ 
+Sbjct  31  KRFSKGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEISN  90
+
+Query  66  MLRIINAR  73
+           ML IIN R
+Sbjct  91  MLSIINQR  98
+
+
+> sp|Q6YMS3|POLG_DEN3M Genome polyprotein OS=Dengue virus type 
+3 (strain Martinique/1243/1999) OX=408691 GN=pol PE=3 SV=1
+Length=3390
+
+ Score = 78.6 bits (192),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 34/68 (50%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK+++ 
+Sbjct  31  KRFSKGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEISN  90
+
+Query  66  MLRIINAR  73
+           ML IIN R
+Sbjct  91  MLSIINKR  98
+
+
+> sp|Q5UB51|POLG_DEN3I Genome polyprotein OS=Dengue virus type 
+3 (strain Singapore/8120/1995) OX=408693 PE=1 SV=1
+Length=3390
+
+ Score = 78.2 bits (191),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 34/68 (50%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK+++ 
+Sbjct  31  KRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEISN  90
+
+Query  66  MLRIINAR  73
+           ML IIN R
+Sbjct  91  MLSIINKR  98
+
+
+> sp|Q99D35|POLG_DEN3C Genome polyprotein OS=Dengue virus type 
+3 (strain China/80-2/1980) OX=408690 PE=3 SV=1
+Length=3390
+
+ Score = 78.2 bits (191),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 34/68 (50%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK+++ 
+Sbjct  31  KRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEISN  90
+
+Query  66  MLRIINAR  73
+           ML IIN R
+Sbjct  91  MLSIINKR  98
+
+
+> sp|P27915|POLG_DEN3P Genome polyprotein OS=Dengue virus type 
+3 (strain Philippines/H87/1956) OX=408870 PE=1 SV=1
+Length=3390
+
+ Score = 78.2 bits (191),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 34/68 (50%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK+++ 
+Sbjct  31  KRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEISN  90
+
+Query  66  MLRIINAR  73
+           ML IIN R
+Sbjct  91  MLSIINKR  98
+
+
+> sp|P33478|POLG_DEN1S Genome polyprotein OS=Dengue virus type 
+1 (strain Singapore/S275/1990) OX=33741 PE=1 SV=2
+Length=3391
+
+ Score = 77.8 bits (190),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 33/68 (49%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+++++ FKK+++ 
+Sbjct  31  KRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWGSFKKNGAIKVLRGFKKEISN  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNIMNRR  98
+
+
+> sp|P17763|POLG_DEN1W Genome polyprotein OS=Dengue virus type 
+1 (strain Nauru/West Pac/1974) OX=11059 PE=1 SV=2
+Length=3392
+
+ Score = 77.8 bits (190),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 33/68 (49%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+++++ FKK+++ 
+Sbjct  31  KRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWGSFKKNGAIKVLRGFKKEISN  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNIMNRR  98
+
+
+> sp|P27912|POLG_DEN1A Genome polyprotein (Fragment) OS=Dengue 
+virus type 1 (strain Thailand/AHF 82-80/1980) OX=11057 PE=3 
+SV=1
+Length=792
+
+ Score = 76.6 bits (187),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 32/68 (47%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+ +++ F+K+++ 
+Sbjct  31  KRFSKGLLSGQGPMKLVMAFVAFLRFLAIPPTAGILKRWGSFKKNGAINVLRGFRKEISN  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNIMNRR  98
+
+
+> sp|P05769|POLG_MVEV5 Genome polyprotein OS=Murray valley encephalitis 
+virus (strain MVE-1-51) OX=301478 PE=1 SV=2
+Length=3434
+
+ Score = 76.6 bits (187),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 35/71 (49%), Positives = 48/71 (68%), Gaps = 0/71 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GPIR VLA+LAF RFTA+ P+  L+ RW SV K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMNLLDGRGPIRFVLALLAFFRFTALAPTKALMRRWKSVNKTTAMKHLTSFK  85
+
+Query  61  KDLAAMLRIIN  71
+           K+L  ++ ++N
+Sbjct  86  KELGTLIDVVN  96
+
+
+> sp|Q2YHF0|POLG_DEN4T Genome polyprotein OS=Dengue virus type 
+4 (strain Thailand/0348/1991) OX=408688 PE=1 SV=1
+Length=3387
+
+ Score = 76.6 bits (187),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|Q58HT7|POLG_DEN4P Genome polyprotein OS=Dengue virus type 
+4 (strain Philippines/H241/1956) OX=408686 PE=1 SV=1
+Length=3387
+
+ Score = 76.6 bits (187),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|P27909|POLG_DEN1B Genome polyprotein OS=Dengue virus type 
+1 (strain Brazil/97-11/1997) OX=408685 PE=1 SV=2
+Length=3392
+
+ Score = 76.6 bits (187),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 32/68 (47%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RW S  K  A+++++ FKK++++
+Sbjct  31  KRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWSSFKKNGAIKVLRGFKKEISS  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNIMNRR  98
+
+
+> sp|P27913|POLG_DEN1C Genome polyprotein (Fragment) OS=Dengue 
+virus type 1 (strain Jamaica/CV1636/1977) OX=11058 PE=3 SV=1
+Length=791
+
+ Score = 76.3 bits (186),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 32/68 (47%), Positives = 50/68 (74%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   GLL G GP+++V+A +AFLRF AI P+ G++ RW S  K  A+++++ FKK++++
+Sbjct  31  KRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWSSFKKNGAIKVLRGFKKEISS  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNIMNRR  98
+
+
+> sp|Q2YHF2|POLG_DEN4H Genome polyprotein OS=Dengue virus type 
+4 (strain Thailand/0476/1997) OX=408689 PE=3 SV=1
+Length=3387
+
+ Score = 76.3 bits (186),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSIGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKTKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|Q5UCB8|POLG_DEN4S Genome polyprotein OS=Dengue virus type 
+4 (strain Singapore/8976/1995) OX=408687 PE=3 SV=1
+Length=3387
+
+ Score = 75.9 bits (185),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILIGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|Q5WPU5|POLG_USUV Genome polyprotein OS=Usutu virus OX=64286 
+PE=1 SV=1
+Length=3434
+
+ Score = 75.9 bits (185),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 32/73 (44%), Positives = 48/73 (66%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+  GLL G GP+R VLA++ F +FTA+ P+  L+ RW  + K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMGLLDGRGPVRFVLALMTFFKFTALAPTKALLGRWKRINKTTAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           K+L  M+ ++N R
+Sbjct  86  KELGTMINVVNNR  98
+
+
+> sp|P09866|POLG_DEN4D Genome polyprotein OS=Dengue virus type 
+4 (strain Dominica/814669/1981) OX=408871 PE=1 SV=2
+Length=3387
+
+ Score = 75.9 bits (185),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILIGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|Q32ZE0|POLG_BUSV Genome polyprotein OS=Bussuquara virus OX=64304 
+PE=3 SV=1
+Length=3429
+
+ Score = 74.3 bits (181),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 34/73 (47%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G  KRL      G GP+R++LA++AF RFTAIK S  L+ +WG+V K  A+ I+K FK
+Sbjct  27  PLGLAKRLLGDAFAGRGPLRVILAVVAFFRFTAIKMSPALLKKWGTVEKGAAIAIMKSFK  86
+
+Query  61  KDLAAMLRIINAR  73
+           K++ +ML ++  R
+Sbjct  87  KEIGSMLDVVARR  99
+
+
+> sp|P12823|POLG_DEN2P Genome polyprotein OS=Dengue virus type 
+2 (strain Puerto Rico/PR159-S1/1969) OX=11066 PE=1 SV=1
+Length=3388
+
+ Score = 73.9 bits (180),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++  
+Sbjct  31  KRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEIGR  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNILNRR  98
+
+
+> sp|P14337|POLG_DEN28 Genome polyprotein OS=Dengue virus type 
+2 (isolate Thailand/0168/1979) OX=413041 PE=1 SV=2
+Length=3391
+
+ Score = 73.9 bits (180),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++  
+Sbjct  31  KRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEIGR  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNILNRR  98
+
+
+> sp|Q9WDA6|POLG_DEN2Q Genome polyprotein OS=Dengue virus type 
+2 (strain Peru/IQT2913/1996) OX=408694 PE=1 SV=1
+Length=3391
+
+ Score = 73.9 bits (180),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++  
+Sbjct  31  KRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEIGR  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNILNRR  98
+
+
+> sp|P14340|POLG_DEN2N Genome polyprotein OS=Dengue virus type 
+2 (strain Thailand/NGS-C/1944) OX=11065 PE=1 SV=2
+Length=3391
+
+ Score = 73.9 bits (180),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++  
+Sbjct  31  KRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEIGR  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNILNRR  98
+
+
+> sp|P07564|POLG_DEN2J Genome polyprotein OS=Dengue virus type 
+2 (strain Jamaica/1409/1983) OX=11064 PE=1 SV=2
+Length=3391
+
+ Score = 73.9 bits (180),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++  
+Sbjct  31  KRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEIGR  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNILNRR  98
+
+
+> sp|P29990|POLG_DEN26 Genome polyprotein OS=Dengue virus type 
+2 (strain Thailand/16681/1984) OX=31634 PE=1 SV=1
+Length=3391
+
+ Score = 73.9 bits (180),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++  
+Sbjct  31  KRFSLGMLQGRGPLKLYMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEIGR  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNILNRR  98
+
+
+> sp|P29991|POLG_DEN27 Genome polyprotein OS=Dengue virus type 
+2 (strain 16681-PDK53) OX=31635 PE=1 SV=1
+Length=3391
+
+ Score = 73.9 bits (180),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++  
+Sbjct  31  KRFSLGMLQGRGPLKLYMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEIGR  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNILNRR  98
+
+
+> sp|Q9Q6P4|POLG_WNV9 Genome polyprotein OS=West Nile virus (strain 
+NY-99) OX=1968826 GN=GP1 PE=1 SV=2
+Length=3433
+
+ Score = 72.8 bits (177),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 35/70 (50%), Positives = 46/70 (66%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+           GLKR    L+ G GPIR VLA+LAF RFTAI P+  +++RW  V K+ AM+ +  FKK+L
+Sbjct  29  GLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKKEL  88
+
+Query  64  AAMLRIINAR  73
+             +   IN R
+Sbjct  89  GTLTSAINRR  98
+
+
+> sp|P14335|POLG_KUNJM Genome polyprotein OS=Kunjin virus (strain 
+MRM61C) OX=11078 PE=1 SV=1
+Length=3433
+
+ Score = 72.8 bits (177),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 35/70 (50%), Positives = 46/70 (66%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+           GLKR    L+ G GP R VLA+LAF RFTAI P+  +++RW SV K+ AM+ +  FKK+L
+Sbjct  29  GLKRAMLSLIDGRGPTRFVLALLAFFRFTAIAPTRAVLDRWRSVNKQTAMKHLLSFKKEL  88
+
+Query  64  AAMLRIINAR  73
+             +   IN R
+Sbjct  89  GTLTSAINRR  98
+
+
+> sp|P06935|POLG_WNV Genome polyprotein OS=West Nile virus OX=11082 
+PE=1 SV=2
+Length=3430
+
+ Score = 72.4 bits (176),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 35/70 (50%), Positives = 46/70 (66%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+           GLKR    L+ G GPIR VLA+LAF RFTAI P+  +++RW  V K+ AM+ +  FKK+L
+Sbjct  29  GLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKKEL  88
+
+Query  64  AAMLRIINAR  73
+             +   IN R
+Sbjct  89  GTLTSAINRR  98
+
+
+> sp|P0DOH8|POLS_JAEVJ Structural polyprotein OS=Japanese encephalitis 
+virus (strain Jaoars982) OX=11075 PE=1 SV=1
+Length=1198
+
+ Score = 70.5 bits (171),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOH9|POLS_JAEV5 Structural polyprotein OS=Japanese encephalitis 
+virus (strain SA(v)) OX=11074 PE=3 SV=1
+Length=1198
+
+ Score = 70.5 bits (171),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOH7|POLS_JAEV1 Structural polyprotein OS=Japanese encephalitis 
+virus (strain SA-14) OX=11073 PE=3 SV=1
+Length=1198
+
+ Score = 70.5 bits (171),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOK8|POLS_JAEVM Structural polyprotein OS=Japanese encephalitis 
+virus (strain M28) OX=2555554 PE=3 SV=1
+Length=1198
+
+ Score = 70.1 bits (170),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWRAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P27395|POLG_JAEV1 Genome polyprotein OS=Japanese encephalitis 
+virus (strain SA-14) OX=11073 PE=1 SV=1
+Length=3432
+
+ Score = 69.3 bits (168),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P19110|POLG_JAEV5 Genome polyprotein OS=Japanese encephalitis 
+virus (strain SA(v)) OX=11074 PE=3 SV=1
+Length=3432
+
+ Score = 69.3 bits (168),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P32886|POLG_JAEVJ Genome polyprotein OS=Japanese encephalitis 
+virus (strain Jaoars982) OX=11075 PE=1 SV=1
+Length=3432
+
+ Score = 69.3 bits (168),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|G3FEX6|POLG_JAEVM Genome polyprotein OS=Japanese encephalitis 
+virus (strain M28) OX=2555554 PE=3 SV=1
+Length=3432
+
+ Score = 68.9 bits (167),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWRAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P30026|POLG_DEN2D Genome polyprotein (Fragment) OS=Dengue 
+virus type 2 (strain China/D2-04) OX=31636 PE=3 SV=1
+Length=1127
+
+ Score = 64.3 bits (155),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 25/68 (37%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           KR   G+L G GP+++ +A++A  RF  I P+ G++ RWG++ K +A+  ++  +K++  
+Sbjct  31  KRFSLGMLQGRGPLKLFMALVALPRFLTIPPTAGILKRWGTIKKSKAINDVRGCRKEIGR  90
+
+Query  66  MLRIINAR  73
+           ML I+N R
+Sbjct  91  MLNILNRR  98
+
+
+> sp|Q32ZD7|POLG_ILHV Genome polyprotein OS=Ilheus virus OX=59563 
+PE=3 SV=1
+Length=3424
+
+ Score = 62.8 bits (151),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 29/57 (51%), Positives = 39/57 (68%), Gaps = 0/57 (0%)
+
+Query  17  GPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAAMLRIINAR  73
+           G  R++LA++AF RF AIKP+LGL  RW SV K  A++ +  FKK+L  ML  +N R
+Sbjct  40  GAPRLILALMAFFRFAAIKPTLGLKKRWRSVNKTVAVKHLTNFKKELTTMLDSVNKR  96
+
+
+> sp|Q32ZD4|POLG_ROCV Genome polyprotein OS=Rocio virus OX=64315 
+PE=1 SV=1
+Length=3425
+
+ Score = 58.5 bits (140),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KRL   L  G GP+R+VLA +AF RF AI P+ GL+ RW  + K EA++ +  FK
+Sbjct  25  PIKGIKRLIGNLTDGRGPLRVVLAFIAFFRFAAIMPTQGLLRRWRVMNKSEALKHLTSFK  84
+
+Query  61  KDLAAMLRIINAR  73
+           K+++ ML IIN R
+Sbjct  85  KEISNMLNIINRR  97
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.147    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4968890528
+Results from round 2
+
+
+Query= 5YGH:B
+
+Length=73
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q5WPU5|POLG_USUV Genome polyprotein OS=Usutu virus OX=64286 ...  117     2e-31
+  sp|P0DOK8|POLS_JAEVM Structural polyprotein OS=Japanese encepha...  117     2e-31
+  sp|P0DOH9|POLS_JAEV5 Structural polyprotein OS=Japanese encepha...  116     3e-31
+  sp|P0DOH7|POLS_JAEV1 Structural polyprotein OS=Japanese encepha...  116     3e-31
+  sp|P0DOH8|POLS_JAEVJ Structural polyprotein OS=Japanese encepha...  116     3e-31
+  sp|P05769|POLG_MVEV5 Genome polyprotein OS=Murray valley enceph...  116     6e-31
+  sp|P09732|POLG_STEVM Genome polyprotein (Fragment) OS=St. louis...  115     1e-30
+  sp|G3FEX6|POLG_JAEVM Genome polyprotein OS=Japanese encephaliti...  114     3e-30
+  sp|P27395|POLG_JAEV1 Genome polyprotein OS=Japanese encephaliti...  113     4e-30
+  sp|P19110|POLG_JAEV5 Genome polyprotein OS=Japanese encephaliti...  113     4e-30
+  sp|P32886|POLG_JAEVJ Genome polyprotein OS=Japanese encephaliti...  113     4e-30
+  sp|Q58HT7|POLG_DEN4P Genome polyprotein OS=Dengue virus type 4 ...  111     2e-29
+  sp|Q2YHF0|POLG_DEN4T Genome polyprotein OS=Dengue virus type 4 ...  111     2e-29
+  sp|Q2YHF2|POLG_DEN4H Genome polyprotein OS=Dengue virus type 4 ...  111     2e-29
+  sp|Q32ZE1|POLG_ZIKV Genome polyprotein OS=Zika virus OX=64320 P...  111     3e-29
+  sp|P14337|POLG_DEN28 Genome polyprotein OS=Dengue virus type 2 ...  110     5e-29
+  sp|P07564|POLG_DEN2J Genome polyprotein OS=Dengue virus type 2 ...  110     5e-29
+  sp|P12823|POLG_DEN2P Genome polyprotein OS=Dengue virus type 2 ...  110     5e-29
+  sp|P14340|POLG_DEN2N Genome polyprotein OS=Dengue virus type 2 ...  110     5e-29
+  sp|A0A142I5B9|POLG_ZIKVK Genome polyprotein OS=Zika virus (isol...  110     5e-29
+  sp|A0A024B7W1|POLG_ZIKVF Genome polyprotein OS=Zika virus (isol...  110     5e-29
+  sp|Q9WDA6|POLG_DEN2Q Genome polyprotein OS=Dengue virus type 2 ...  110     5e-29
+  sp|Q5UCB8|POLG_DEN4S Genome polyprotein OS=Dengue virus type 4 ...  109     8e-29
+  sp|P09866|POLG_DEN4D Genome polyprotein OS=Dengue virus type 4 ...  109     9e-29
+  sp|P29990|POLG_DEN26 Genome polyprotein OS=Dengue virus type 2 ...  109     1e-28
+  sp|P29991|POLG_DEN27 Genome polyprotein OS=Dengue virus type 2 ...  109     1e-28
+  sp|P33478|POLG_DEN1S Genome polyprotein OS=Dengue virus type 1 ...  109     1e-28
+  sp|P17763|POLG_DEN1W Genome polyprotein OS=Dengue virus type 1 ...  109     1e-28
+  sp|P14335|POLG_KUNJM Genome polyprotein OS=Kunjin virus (strain...  108     2e-28
+  sp|P06935|POLG_WNV Genome polyprotein OS=West Nile virus OX=110...  108     2e-28
+  sp|Q9Q6P4|POLG_WNV9 Genome polyprotein OS=West Nile virus (stra...  108     2e-28
+  sp|Q6YMS3|POLG_DEN3M Genome polyprotein OS=Dengue virus type 3 ...  108     3e-28
+  sp|Q32ZD5|POLG_KOKV Genome polyprotein OS=Kokobera virus OX=440...  108     3e-28
+  sp|P27912|POLG_DEN1A Genome polyprotein (Fragment) OS=Dengue vi...  108     3e-28
+  sp|Q6YMS4|POLG_DEN3S Genome polyprotein OS=Dengue virus type 3 ...  108     4e-28
+  sp|Q5UB51|POLG_DEN3I Genome polyprotein OS=Dengue virus type 3 ...  108     5e-28
+  sp|Q99D35|POLG_DEN3C Genome polyprotein OS=Dengue virus type 3 ...  108     5e-28
+  sp|P27915|POLG_DEN3P Genome polyprotein OS=Dengue virus type 3 ...  107     5e-28
+  sp|P27909|POLG_DEN1B Genome polyprotein OS=Dengue virus type 1 ...  107     6e-28
+  sp|P30026|POLG_DEN2D Genome polyprotein (Fragment) OS=Dengue vi...  106     1e-27
+  sp|P27913|POLG_DEN1C Genome polyprotein (Fragment) OS=Dengue vi...  106     2e-27
+  sp|Q32ZE0|POLG_BUSV Genome polyprotein OS=Bussuquara virus OX=6...  105     4e-27
+  sp|Q32ZD7|POLG_ILHV Genome polyprotein OS=Ilheus virus OX=59563...  95.7    8e-24
+  sp|Q32ZD4|POLG_ROCV Genome polyprotein OS=Rocio virus OX=64315 ...  93.0    9e-23
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P14403|POLG_JAEVN Genome polyprotein (Fragment) OS=Japanese ...  38.7    0.001
+
+
+> sp|Q5WPU5|POLG_USUV Genome polyprotein OS=Usutu virus OX=64286 
+PE=1 SV=1
+Length=3434
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 32/73 (44%), Positives = 48/73 (66%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+  GLL G GP+R VLA++ F +FTA+ P+  L+ RW  + K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMGLLDGRGPVRFVLALMTFFKFTALAPTKALLGRWKRINKTTAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           K+L  M+ ++N R
+Sbjct  86  KELGTMINVVNNR  98
+
+
+> sp|P0DOK8|POLS_JAEVM Structural polyprotein OS=Japanese encephalitis 
+virus (strain M28) OX=2555554 PE=3 SV=1
+Length=1198
+
+ Score = 117 bits (293),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWRAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOH9|POLS_JAEV5 Structural polyprotein OS=Japanese encephalitis 
+virus (strain SA(v)) OX=11074 PE=3 SV=1
+Length=1198
+
+ Score = 116 bits (292),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOH7|POLS_JAEV1 Structural polyprotein OS=Japanese encephalitis 
+virus (strain SA-14) OX=11073 PE=3 SV=1
+Length=1198
+
+ Score = 116 bits (292),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOH8|POLS_JAEVJ Structural polyprotein OS=Japanese encephalitis 
+virus (strain Jaoars982) OX=11075 PE=1 SV=1
+Length=1198
+
+ Score = 116 bits (292),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P05769|POLG_MVEV5 Genome polyprotein OS=Murray valley encephalitis 
+virus (strain MVE-1-51) OX=301478 PE=1 SV=2
+Length=3434
+
+ Score = 116 bits (290),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 35/71 (49%), Positives = 48/71 (68%), Gaps = 0/71 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GPIR VLA+LAF RFTA+ P+  L+ RW SV K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMNLLDGRGPIRFVLALLAFFRFTALAPTKALMRRWKSVNKTTAMKHLTSFK  85
+
+Query  61  KDLAAMLRIIN  71
+           K+L  ++ ++N
+Sbjct  86  KELGTLIDVVN  96
+
+
+> sp|P09732|POLG_STEVM Genome polyprotein (Fragment) OS=St. louis 
+encephalitis virus (strain MS1-7) OX=11081 PE=1 SV=2
+Length=3412
+
+ Score = 115 bits (288),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  GLKR+   LL G GP+R +LAIL F RFTA++P+  L  RW +V K+ A++ +  FK
+Sbjct  26  PLTGLKRILGSLLDGRGPVRFILAILTFFRFTALQPTEALKRRWRAVDKRTALKHLNGFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           +DL +ML  IN R
+Sbjct  86  RDLGSMLDTINRR  98
+
+
+> sp|G3FEX6|POLG_JAEVM Genome polyprotein OS=Japanese encephalitis 
+virus (strain M28) OX=2555554 PE=3 SV=1
+Length=3432
+
+ Score = 114 bits (285),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWRAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P27395|POLG_JAEV1 Genome polyprotein OS=Japanese encephalitis 
+virus (strain SA-14) OX=11073 PE=1 SV=1
+Length=3432
+
+ Score = 113 bits (284),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P19110|POLG_JAEV5 Genome polyprotein OS=Japanese encephalitis 
+virus (strain SA(v)) OX=11074 PE=3 SV=1
+Length=3432
+
+ Score = 113 bits (284),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P32886|POLG_JAEVJ Genome polyprotein OS=Japanese encephalitis 
+virus (strain Jaoars982) OX=11075 PE=1 SV=1
+Length=3432
+
+ Score = 113 bits (284),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|Q58HT7|POLG_DEN4P Genome polyprotein OS=Dengue virus type 
+4 (strain Philippines/H241/1956) OX=408686 PE=1 SV=1
+Length=3387
+
+ Score = 111 bits (279),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|Q2YHF0|POLG_DEN4T Genome polyprotein OS=Dengue virus type 
+4 (strain Thailand/0348/1991) OX=408688 PE=1 SV=1
+Length=3387
+
+ Score = 111 bits (279),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|Q2YHF2|POLG_DEN4H Genome polyprotein OS=Dengue virus type 
+4 (strain Thailand/0476/1997) OX=408689 PE=3 SV=1
+Length=3387
+
+ Score = 111 bits (278),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSIGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKTKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|Q32ZE1|POLG_ZIKV Genome polyprotein OS=Zika virus OX=64320 
+PE=1 SV=1
+Length=3419
+
+ Score = 111 bits (277),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 72/73 (99%), Positives = 72/73 (99%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P GGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PLGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|P14337|POLG_DEN28 Genome polyprotein OS=Dengue virus type 
+2 (isolate Thailand/0168/1979) OX=413041 PE=1 SV=2
+Length=3391
+
+ Score = 110 bits (276),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P07564|POLG_DEN2J Genome polyprotein OS=Dengue virus type 
+2 (strain Jamaica/1409/1983) OX=11064 PE=1 SV=2
+Length=3391
+
+ Score = 110 bits (276),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P12823|POLG_DEN2P Genome polyprotein OS=Dengue virus type 
+2 (strain Puerto Rico/PR159-S1/1969) OX=11066 PE=1 SV=1
+Length=3388
+
+ Score = 110 bits (276),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P14340|POLG_DEN2N Genome polyprotein OS=Dengue virus type 
+2 (strain Thailand/NGS-C/1944) OX=11065 PE=1 SV=2
+Length=3391
+
+ Score = 110 bits (276),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|A0A142I5B9|POLG_ZIKVK Genome polyprotein OS=Zika virus (isolate 
+ZIKV/Human/Cambodia/FSS13025/2010) OX=2316109 PE=1 SV=1
+Length=3423
+
+ Score = 110 bits (276),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 73/73 (100%), Positives = 73/73 (100%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|A0A024B7W1|POLG_ZIKVF Genome polyprotein OS=Zika virus (isolate 
+ZIKV/Human/French Polynesia/10087PF/2013) OX=2043570 PE=1 
+SV=1
+Length=3423
+
+ Score = 110 bits (276),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 73/73 (100%), Positives = 73/73 (100%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|Q9WDA6|POLG_DEN2Q Genome polyprotein OS=Dengue virus type 
+2 (strain Peru/IQT2913/1996) OX=408694 PE=1 SV=1
+Length=3391
+
+ Score = 110 bits (276),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|Q5UCB8|POLG_DEN4S Genome polyprotein OS=Dengue virus type 
+4 (strain Singapore/8976/1995) OX=408687 PE=3 SV=1
+Length=3387
+
+ Score = 109 bits (274),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILIGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|P09866|POLG_DEN4D Genome polyprotein OS=Dengue virus type 
+4 (strain Dominica/814669/1981) OX=408871 PE=1 SV=2
+Length=3387
+
+ Score = 109 bits (274),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILIGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|P29990|POLG_DEN26 Genome polyprotein OS=Dengue virus type 
+2 (strain Thailand/16681/1984) OX=31634 PE=1 SV=1
+Length=3391
+
+ Score = 109 bits (274),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLYMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P29991|POLG_DEN27 Genome polyprotein OS=Dengue virus type 
+2 (strain 16681-PDK53) OX=31635 PE=1 SV=1
+Length=3391
+
+ Score = 109 bits (274),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLYMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P33478|POLG_DEN1S Genome polyprotein OS=Dengue virus type 
+1 (strain Singapore/S275/1990) OX=33741 PE=1 SV=2
+Length=3391
+
+ Score = 109 bits (274),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 33/70 (47%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+++++ FKK++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWGSFKKNGAIKVLRGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML I+N R
+Sbjct  89  SNMLNIMNRR  98
+
+
+> sp|P17763|POLG_DEN1W Genome polyprotein OS=Dengue virus type 
+1 (strain Nauru/West Pac/1974) OX=11059 PE=1 SV=2
+Length=3392
+
+ Score = 109 bits (273),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 33/70 (47%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+++++ FKK++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWGSFKKNGAIKVLRGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML I+N R
+Sbjct  89  SNMLNIMNRR  98
+
+
+> sp|P14335|POLG_KUNJM Genome polyprotein OS=Kunjin virus (strain 
+MRM61C) OX=11078 PE=1 SV=1
+Length=3433
+
+ Score = 108 bits (271),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 46/72 (64%), Gaps = 0/72 (0%)
+
+Query  2   FGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKK  61
+             GLKR    L+ G GP R VLA+LAF RFTAI P+  +++RW SV K+ AM+ +  FKK
+Sbjct  27  LTGLKRAMLSLIDGRGPTRFVLALLAFFRFTAIAPTRAVLDRWRSVNKQTAMKHLLSFKK  86
+
+Query  62  DLAAMLRIINAR  73
+           +L  +   IN R
+Sbjct  87  ELGTLTSAINRR  98
+
+
+> sp|P06935|POLG_WNV Genome polyprotein OS=West Nile virus OX=11082 
+PE=1 SV=2
+Length=3430
+
+ Score = 108 bits (271),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 46/72 (64%), Gaps = 0/72 (0%)
+
+Query  2   FGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKK  61
+             GLKR    L+ G GPIR VLA+LAF RFTAI P+  +++RW  V K+ AM+ +  FKK
+Sbjct  27  LIGLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKK  86
+
+Query  62  DLAAMLRIINAR  73
+           +L  +   IN R
+Sbjct  87  ELGTLTSAINRR  98
+
+
+> sp|Q9Q6P4|POLG_WNV9 Genome polyprotein OS=West Nile virus (strain 
+NY-99) OX=1968826 GN=GP1 PE=1 SV=2
+Length=3433
+
+ Score = 108 bits (271),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 46/72 (64%), Gaps = 0/72 (0%)
+
+Query  2   FGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKK  61
+             GLKR    L+ G GPIR VLA+LAF RFTAI P+  +++RW  V K+ AM+ +  FKK
+Sbjct  27  LIGLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKK  86
+
+Query  62  DLAAMLRIINAR  73
+           +L  +   IN R
+Sbjct  87  ELGTLTSAINRR  98
+
+
+> sp|Q6YMS3|POLG_DEN3M Genome polyprotein OS=Dengue virus type 
+3 (strain Martinique/1243/1999) OX=408691 GN=pol PE=3 SV=1
+Length=3390
+
+ Score = 108 bits (270),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSKGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINKR  98
+
+
+> sp|Q32ZD5|POLG_KOKV Genome polyprotein OS=Kokobera virus OX=44024 
+PE=1 SV=1
+Length=3410
+
+ Score = 108 bits (270),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 40/71 (56%), Positives = 52/71 (73%), Gaps = 0/71 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P   LKR+  GLL G GP+RMVLAILAF RFTA+KP+ GL+ RWG + K  A+ ++K FK
+Sbjct  27  PMIKLKRMLFGLLDGRGPLRMVLAILAFFRFTALKPTAGLLKRWGMMDKVHALSLLKGFK  86
+
+Query  61  KDLAAMLRIIN  71
+           KDLA+M   ++
+Sbjct  87  KDLASMTDFVH  97
+
+
+> sp|P27912|POLG_DEN1A Genome polyprotein (Fragment) OS=Dengue 
+virus type 1 (strain Thailand/AHF 82-80/1980) OX=11057 PE=3 
+SV=1
+Length=792
+
+ Score = 108 bits (270),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+ +++ F+K++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFVAFLRFLAIPPTAGILKRWGSFKKNGAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML I+N R
+Sbjct  89  SNMLNIMNRR  98
+
+
+> sp|Q6YMS4|POLG_DEN3S Genome polyprotein OS=Dengue virus type 
+3 (strain Sri Lanka/1266/2000) OX=408692 GN=pol PE=1 SV=1
+Length=3390
+
+ Score = 108 bits (269),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSKGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINQR  98
+
+
+> sp|Q5UB51|POLG_DEN3I Genome polyprotein OS=Dengue virus type 
+3 (strain Singapore/8120/1995) OX=408693 PE=1 SV=1
+Length=3390
+
+ Score = 108 bits (269),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINKR  98
+
+
+> sp|Q99D35|POLG_DEN3C Genome polyprotein OS=Dengue virus type 
+3 (strain China/80-2/1980) OX=408690 PE=3 SV=1
+Length=3390
+
+ Score = 108 bits (269),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINKR  98
+
+
+> sp|P27915|POLG_DEN3P Genome polyprotein OS=Dengue virus type 
+3 (strain Philippines/H87/1956) OX=408870 PE=1 SV=1
+Length=3390
+
+ Score = 107 bits (268),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINKR  98
+
+
+> sp|P27909|POLG_DEN1B Genome polyprotein OS=Dengue virus type 
+1 (strain Brazil/97-11/1997) OX=408685 PE=1 SV=2
+Length=3392
+
+ Score = 107 bits (268),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RW S  K  A+++++ FKK++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWSSFKKNGAIKVLRGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           ++ML I+N R
+Sbjct  89  SSMLNIMNRR  98
+
+
+> sp|P30026|POLG_DEN2D Genome polyprotein (Fragment) OS=Dengue 
+virus type 2 (strain China/D2-04) OX=31636 PE=3 SV=1
+Length=1127
+
+ Score = 106 bits (265),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 25/70 (36%), Positives = 45/70 (64%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++A  RF  I P+ G++ RWG++ K +A+  ++  +K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVALPRFLTIPPTAGILKRWGTIKKSKAINDVRGCRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P27913|POLG_DEN1C Genome polyprotein (Fragment) OS=Dengue 
+virus type 1 (strain Jamaica/CV1636/1977) OX=11058 PE=3 SV=1
+Length=791
+
+ Score = 106 bits (264),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RW S  K  A+++++ FKK++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWSSFKKNGAIKVLRGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           ++ML I+N R
+Sbjct  89  SSMLNIMNRR  98
+
+
+> sp|Q32ZE0|POLG_BUSV Genome polyprotein OS=Bussuquara virus OX=64304 
+PE=3 SV=1
+Length=3429
+
+ Score = 105 bits (262),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 34/73 (47%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G  KRL      G GP+R++LA++AF RFTAIK S  L+ +WG+V K  A+ I+K FK
+Sbjct  27  PLGLAKRLLGDAFAGRGPLRVILAVVAFFRFTAIKMSPALLKKWGTVEKGAAIAIMKSFK  86
+
+Query  61  KDLAAMLRIINAR  73
+           K++ +ML ++  R
+Sbjct  87  KEIGSMLDVVARR  99
+
+
+> sp|Q32ZD7|POLG_ILHV Genome polyprotein OS=Ilheus virus OX=59563 
+PE=3 SV=1
+Length=3424
+
+ Score = 95.7 bits (237),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 31/68 (46%), Positives = 43/68 (63%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           +R    +L   G  R++LA++AF RF AIKP+LGL  RW SV K  A++ +  FKK+L  
+Sbjct  29  RRTIRRMLDVRGAPRLILALMAFFRFAAIKPTLGLKKRWRSVNKTVAVKHLTNFKKELTT  88
+
+Query  66  MLRIINAR  73
+           ML  +N R
+Sbjct  89  MLDSVNKR  96
+
+
+> sp|Q32ZD4|POLG_ROCV Genome polyprotein OS=Rocio virus OX=64315 
+PE=1 SV=1
+Length=3425
+
+ Score = 93.0 bits (230),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KRL   L  G GP+R+VLA +AF RF AI P+ GL+ RW  + K EA++ +  FK
+Sbjct  25  PIKGIKRLIGNLTDGRGPLRVVLAFIAFFRFAAIMPTQGLLRRWRVMNKSEALKHLTSFK  84
+
+Query  61  KDLAAMLRIINAR  73
+           K+++ ML IIN R
+Sbjct  85  KEISNMLNIINRR  97
+
+
+> sp|P14403|POLG_JAEVN Genome polyprotein (Fragment) OS=Japanese 
+encephalitis virus (strain Nakayama) OX=11076 PE=1 SV=1
+Length=1440
+
+ Score = 38.7 bits (89),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 7/24 (29%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  50  KEAMEIIKKFKKDLAAMLRIINAR  73
+             AM+ +  FK++L  ++  +N R
+Sbjct  1   SVAMKHLTSFKRELGTLIDAVNKR  24
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.151    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0462    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4968890528
+Results from round 3
+
+
+Query= 5YGH:B
+
+Length=73
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0DOK8|POLS_JAEVM Structural polyprotein OS=Japanese encepha...  120     3e-32
+  sp|P0DOH8|POLS_JAEVJ Structural polyprotein OS=Japanese encepha...  119     6e-32
+  sp|P0DOH9|POLS_JAEV5 Structural polyprotein OS=Japanese encepha...  119     6e-32
+  sp|P0DOH7|POLS_JAEV1 Structural polyprotein OS=Japanese encepha...  119     6e-32
+  sp|Q5WPU5|POLG_USUV Genome polyprotein OS=Usutu virus OX=64286 ...  118     8e-32
+  sp|P09732|POLG_STEVM Genome polyprotein (Fragment) OS=St. louis...  117     2e-31
+  sp|P05769|POLG_MVEV5 Genome polyprotein OS=Murray valley enceph...  117     2e-31
+  sp|G3FEX6|POLG_JAEVM Genome polyprotein OS=Japanese encephaliti...  116     5e-31
+  sp|P27395|POLG_JAEV1 Genome polyprotein OS=Japanese encephaliti...  115     8e-31
+  sp|P19110|POLG_JAEV5 Genome polyprotein OS=Japanese encephaliti...  115     8e-31
+  sp|P32886|POLG_JAEVJ Genome polyprotein OS=Japanese encephaliti...  115     9e-31
+  sp|P14337|POLG_DEN28 Genome polyprotein OS=Dengue virus type 2 ...  113     5e-30
+  sp|P14340|POLG_DEN2N Genome polyprotein OS=Dengue virus type 2 ...  113     5e-30
+  sp|P07564|POLG_DEN2J Genome polyprotein OS=Dengue virus type 2 ...  113     5e-30
+  sp|P12823|POLG_DEN2P Genome polyprotein OS=Dengue virus type 2 ...  113     5e-30
+  sp|Q9WDA6|POLG_DEN2Q Genome polyprotein OS=Dengue virus type 2 ...  113     6e-30
+  sp|Q32ZE1|POLG_ZIKV Genome polyprotein OS=Zika virus OX=64320 P...  113     6e-30
+  sp|Q58HT7|POLG_DEN4P Genome polyprotein OS=Dengue virus type 4 ...  112     9e-30
+  sp|Q2YHF0|POLG_DEN4T Genome polyprotein OS=Dengue virus type 4 ...  112     1e-29
+  sp|P29990|POLG_DEN26 Genome polyprotein OS=Dengue virus type 2 ...  112     1e-29
+  sp|A0A142I5B9|POLG_ZIKVK Genome polyprotein OS=Zika virus (isol...  112     1e-29
+  sp|Q2YHF2|POLG_DEN4H Genome polyprotein OS=Dengue virus type 4 ...  112     1e-29
+  sp|A0A024B7W1|POLG_ZIKVF Genome polyprotein OS=Zika virus (isol...  112     1e-29
+  sp|P29991|POLG_DEN27 Genome polyprotein OS=Dengue virus type 2 ...  112     1e-29
+  sp|P14335|POLG_KUNJM Genome polyprotein OS=Kunjin virus (strain...  111     2e-29
+  sp|P33478|POLG_DEN1S Genome polyprotein OS=Dengue virus type 1 ...  111     2e-29
+  sp|Q32ZD5|POLG_KOKV Genome polyprotein OS=Kokobera virus OX=440...  111     2e-29
+  sp|P17763|POLG_DEN1W Genome polyprotein OS=Dengue virus type 1 ...  111     2e-29
+  sp|Q5UB51|POLG_DEN3I Genome polyprotein OS=Dengue virus type 3 ...  111     3e-29
+  sp|Q6YMS3|POLG_DEN3M Genome polyprotein OS=Dengue virus type 3 ...  111     4e-29
+  sp|P27915|POLG_DEN3P Genome polyprotein OS=Dengue virus type 3 ...  111     4e-29
+  sp|Q99D35|POLG_DEN3C Genome polyprotein OS=Dengue virus type 3 ...  111     4e-29
+  sp|Q5UCB8|POLG_DEN4S Genome polyprotein OS=Dengue virus type 4 ...  111     4e-29
+  sp|P09866|POLG_DEN4D Genome polyprotein OS=Dengue virus type 4 ...  110     4e-29
+  sp|P27912|POLG_DEN1A Genome polyprotein (Fragment) OS=Dengue vi...  110     6e-29
+  sp|Q6YMS4|POLG_DEN3S Genome polyprotein OS=Dengue virus type 3 ...  110     7e-29
+  sp|P27909|POLG_DEN1B Genome polyprotein OS=Dengue virus type 1 ...  109     9e-29
+  sp|P06935|POLG_WNV Genome polyprotein OS=West Nile virus OX=110...  109     1e-28
+  sp|Q9Q6P4|POLG_WNV9 Genome polyprotein OS=West Nile virus (stra...  109     1e-28
+  sp|P30026|POLG_DEN2D Genome polyprotein (Fragment) OS=Dengue vi...  109     1e-28
+  sp|P27913|POLG_DEN1C Genome polyprotein (Fragment) OS=Dengue vi...  108     3e-28
+  sp|Q32ZE0|POLG_BUSV Genome polyprotein OS=Bussuquara virus OX=6...  108     4e-28
+  sp|Q32ZD7|POLG_ILHV Genome polyprotein OS=Ilheus virus OX=59563...  103     2e-26
+  sp|Q32ZD4|POLG_ROCV Genome polyprotein OS=Rocio virus OX=64315 ...  93.8    5e-23
+  sp|P14403|POLG_JAEVN Genome polyprotein (Fragment) OS=Japanese ...  40.3    4e-04
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q98803|POLG_YEFVI Genome polyprotein OS=Yellow fever virus (...  36.0    0.009
+
+
+> sp|P0DOK8|POLS_JAEVM Structural polyprotein OS=Japanese encephalitis 
+virus (strain M28) OX=2555554 PE=3 SV=1
+Length=1198
+
+ Score = 120 bits (300),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWRAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOH8|POLS_JAEVJ Structural polyprotein OS=Japanese encephalitis 
+virus (strain Jaoars982) OX=11075 PE=1 SV=1
+Length=1198
+
+ Score = 119 bits (298),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOH9|POLS_JAEV5 Structural polyprotein OS=Japanese encephalitis 
+virus (strain SA(v)) OX=11074 PE=3 SV=1
+Length=1198
+
+ Score = 119 bits (298),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P0DOH7|POLS_JAEV1 Structural polyprotein OS=Japanese encephalitis 
+virus (strain SA-14) OX=11073 PE=3 SV=1
+Length=1198
+
+ Score = 119 bits (298),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|Q5WPU5|POLG_USUV Genome polyprotein OS=Usutu virus OX=64286 
+PE=1 SV=1
+Length=3434
+
+ Score = 118 bits (297),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 32/73 (44%), Positives = 48/73 (66%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+  GLL G GP+R VLA++ F +FTA+ P+  L+ RW  + K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMGLLDGRGPVRFVLALMTFFKFTALAPTKALLGRWKRINKTTAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           K+L  M+ ++N R
+Sbjct  86  KELGTMINVVNNR  98
+
+
+> sp|P09732|POLG_STEVM Genome polyprotein (Fragment) OS=St. louis 
+encephalitis virus (strain MS1-7) OX=11081 PE=1 SV=2
+Length=3412
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  GLKR+   LL G GP+R +LAIL F RFTA++P+  L  RW +V K+ A++ +  FK
+Sbjct  26  PLTGLKRILGSLLDGRGPVRFILAILTFFRFTALQPTEALKRRWRAVDKRTALKHLNGFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           +DL +ML  IN R
+Sbjct  86  RDLGSMLDTINRR  98
+
+
+> sp|P05769|POLG_MVEV5 Genome polyprotein OS=Murray valley encephalitis 
+virus (strain MVE-1-51) OX=301478 PE=1 SV=2
+Length=3434
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 35/71 (49%), Positives = 48/71 (68%), Gaps = 0/71 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GPIR VLA+LAF RFTA+ P+  L+ RW SV K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMNLLDGRGPIRFVLALLAFFRFTALAPTKALMRRWKSVNKTTAMKHLTSFK  85
+
+Query  61  KDLAAMLRIIN  71
+           K+L  ++ ++N
+Sbjct  86  KELGTLIDVVN  96
+
+
+> sp|G3FEX6|POLG_JAEVM Genome polyprotein OS=Japanese encephalitis 
+virus (strain M28) OX=2555554 PE=3 SV=1
+Length=3432
+
+ Score = 116 bits (291),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWRAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P27395|POLG_JAEV1 Genome polyprotein OS=Japanese encephalitis 
+virus (strain SA-14) OX=11073 PE=1 SV=1
+Length=3432
+
+ Score = 115 bits (289),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P19110|POLG_JAEV5 Genome polyprotein OS=Japanese encephalitis 
+virus (strain SA(v)) OX=11074 PE=3 SV=1
+Length=3432
+
+ Score = 115 bits (289),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P32886|POLG_JAEVJ Genome polyprotein OS=Japanese encephalitis 
+virus (strain Jaoars982) OX=11075 PE=1 SV=1
+Length=3432
+
+ Score = 115 bits (289),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KR+   LL G GP+R VLA++ F +FTA+ P+  L+ RW +V K  AM+ +  FK
+Sbjct  26  PLVGVKRVVMSLLDGRGPVRFVLALITFFKFTALAPTKALLGRWKAVEKSVAMKHLTSFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           ++L  ++  +N R
+Sbjct  86  RELGTLIDAVNKR  98
+
+
+> sp|P14337|POLG_DEN28 Genome polyprotein OS=Dengue virus type 
+2 (isolate Thailand/0168/1979) OX=413041 PE=1 SV=2
+Length=3391
+
+ Score = 113 bits (283),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P14340|POLG_DEN2N Genome polyprotein OS=Dengue virus type 
+2 (strain Thailand/NGS-C/1944) OX=11065 PE=1 SV=2
+Length=3391
+
+ Score = 113 bits (283),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P07564|POLG_DEN2J Genome polyprotein OS=Dengue virus type 
+2 (strain Jamaica/1409/1983) OX=11064 PE=1 SV=2
+Length=3391
+
+ Score = 113 bits (283),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P12823|POLG_DEN2P Genome polyprotein OS=Dengue virus type 
+2 (strain Puerto Rico/PR159-S1/1969) OX=11066 PE=1 SV=1
+Length=3388
+
+ Score = 113 bits (283),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|Q9WDA6|POLG_DEN2Q Genome polyprotein OS=Dengue virus type 
+2 (strain Peru/IQT2913/1996) OX=408694 PE=1 SV=1
+Length=3391
+
+ Score = 113 bits (283),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|Q32ZE1|POLG_ZIKV Genome polyprotein OS=Zika virus OX=64320 
+PE=1 SV=1
+Length=3419
+
+ Score = 113 bits (282),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 72/73 (99%), Positives = 72/73 (99%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P GGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PLGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|Q58HT7|POLG_DEN4P Genome polyprotein OS=Dengue virus type 
+4 (strain Philippines/H241/1956) OX=408686 PE=1 SV=1
+Length=3387
+
+ Score = 112 bits (281),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|Q2YHF0|POLG_DEN4T Genome polyprotein OS=Dengue virus type 
+4 (strain Thailand/0348/1991) OX=408688 PE=1 SV=1
+Length=3387
+
+ Score = 112 bits (281),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|P29990|POLG_DEN26 Genome polyprotein OS=Dengue virus type 
+2 (strain Thailand/16681/1984) OX=31634 PE=1 SV=1
+Length=3391
+
+ Score = 112 bits (281),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLYMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|A0A142I5B9|POLG_ZIKVK Genome polyprotein OS=Zika virus (isolate 
+ZIKV/Human/Cambodia/FSS13025/2010) OX=2316109 PE=1 SV=1
+Length=3423
+
+ Score = 112 bits (281),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 73/73 (100%), Positives = 73/73 (100%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|Q2YHF2|POLG_DEN4H Genome polyprotein OS=Dengue virus type 
+4 (strain Thailand/0476/1997) OX=408689 PE=3 SV=1
+Length=3387
+
+ Score = 112 bits (281),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSIGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKTKAIKILTGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|A0A024B7W1|POLG_ZIKVF Genome polyprotein OS=Zika virus (isolate 
+ZIKV/Human/French Polynesia/10087PF/2013) OX=2043570 PE=1 
+SV=1
+Length=3423
+
+ Score = 112 bits (281),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 73/73 (100%), Positives = 73/73 (100%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK
+Sbjct  26  PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  85
+
+Query  61  KDLAAMLRIINAR  73
+           KDLAAMLRIINAR
+Sbjct  86  KDLAAMLRIINAR  98
+
+
+> sp|P29991|POLG_DEN27 Genome polyprotein OS=Dengue virus type 
+2 (strain 16681-PDK53) OX=31635 PE=1 SV=1
+Length=3391
+
+ Score = 112 bits (281),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++AFLRF  I P+ G++ RWG++ K +A+ +++ F+K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLYMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P14335|POLG_KUNJM Genome polyprotein OS=Kunjin virus (strain 
+MRM61C) OX=11078 PE=1 SV=1
+Length=3433
+
+ Score = 111 bits (279),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 46/72 (64%), Gaps = 0/72 (0%)
+
+Query  2   FGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKK  61
+             GLKR    L+ G GP R VLA+LAF RFTAI P+  +++RW SV K+ AM+ +  FKK
+Sbjct  27  LTGLKRAMLSLIDGRGPTRFVLALLAFFRFTAIAPTRAVLDRWRSVNKQTAMKHLLSFKK  86
+
+Query  62  DLAAMLRIINAR  73
+           +L  +   IN R
+Sbjct  87  ELGTLTSAINRR  98
+
+
+> sp|P33478|POLG_DEN1S Genome polyprotein OS=Dengue virus type 
+1 (strain Singapore/S275/1990) OX=33741 PE=1 SV=2
+Length=3391
+
+ Score = 111 bits (279),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/70 (47%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+++++ FKK++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWGSFKKNGAIKVLRGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML I+N R
+Sbjct  89  SNMLNIMNRR  98
+
+
+> sp|Q32ZD5|POLG_KOKV Genome polyprotein OS=Kokobera virus OX=44024 
+PE=1 SV=1
+Length=3410
+
+ Score = 111 bits (278),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 40/71 (56%), Positives = 52/71 (73%), Gaps = 0/71 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P   LKR+  GLL G GP+RMVLAILAF RFTA+KP+ GL+ RWG + K  A+ ++K FK
+Sbjct  27  PMIKLKRMLFGLLDGRGPLRMVLAILAFFRFTALKPTAGLLKRWGMMDKVHALSLLKGFK  86
+
+Query  61  KDLAAMLRIIN  71
+           KDLA+M   ++
+Sbjct  87  KDLASMTDFVH  97
+
+
+> sp|P17763|POLG_DEN1W Genome polyprotein OS=Dengue virus type 
+1 (strain Nauru/West Pac/1974) OX=11059 PE=1 SV=2
+Length=3392
+
+ Score = 111 bits (278),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/70 (47%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+++++ FKK++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWGSFKKNGAIKVLRGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML I+N R
+Sbjct  89  SNMLNIMNRR  98
+
+
+> sp|Q5UB51|POLG_DEN3I Genome polyprotein OS=Dengue virus type 
+3 (strain Singapore/8120/1995) OX=408693 PE=1 SV=1
+Length=3390
+
+ Score = 111 bits (277),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINKR  98
+
+
+> sp|Q6YMS3|POLG_DEN3M Genome polyprotein OS=Dengue virus type 
+3 (strain Martinique/1243/1999) OX=408691 GN=pol PE=3 SV=1
+Length=3390
+
+ Score = 111 bits (277),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSKGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINKR  98
+
+
+> sp|P27915|POLG_DEN3P Genome polyprotein OS=Dengue virus type 
+3 (strain Philippines/H87/1956) OX=408870 PE=1 SV=1
+Length=3390
+
+ Score = 111 bits (277),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINKR  98
+
+
+> sp|Q99D35|POLG_DEN3C Genome polyprotein OS=Dengue virus type 
+3 (strain China/80-2/1980) OX=408690 PE=3 SV=1
+Length=3390
+
+ Score = 111 bits (277),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINKR  98
+
+
+> sp|Q5UCB8|POLG_DEN4S Genome polyprotein OS=Dengue virus type 
+4 (strain Singapore/8976/1995) OX=408687 PE=3 SV=1
+Length=3387
+
+ Score = 111 bits (277),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILIGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|P09866|POLG_DEN4D Genome polyprotein OS=Dengue virus type 
+4 (strain Dominica/814669/1981) OX=408871 PE=1 SV=2
+Length=3387
+
+ Score = 110 bits (276),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 33/73 (45%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G +KR   GL  G GP+RMVLA + FLR  +I P+ G++ RWG + K +A++I+  F+
+Sbjct  25  PQGLVKRFSTGLFSGKGPLRMVLAFITFLRVLSIPPTAGILKRWGQLKKNKAIKILIGFR  84
+
+Query  61  KDLAAMLRIINAR  73
+           K++  ML I+N R
+Sbjct  85  KEIGRMLNILNGR  97
+
+
+> sp|P27912|POLG_DEN1A Genome polyprotein (Fragment) OS=Dengue 
+virus type 1 (strain Thailand/AHF 82-80/1980) OX=11057 PE=3 
+SV=1
+Length=792
+
+ Score = 110 bits (276),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWGS  K  A+ +++ F+K++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFVAFLRFLAIPPTAGILKRWGSFKKNGAINVLRGFRKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML I+N R
+Sbjct  89  SNMLNIMNRR  98
+
+
+> sp|Q6YMS4|POLG_DEN3S Genome polyprotein OS=Dengue virus type 
+3 (strain Sri Lanka/1266/2000) OX=408692 GN=pol PE=1 SV=1
+Length=3390
+
+ Score = 110 bits (275),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 34/70 (49%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RWG+  K  A++++K FKK++
+Sbjct  29  LAKRFSKGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           + ML IIN R
+Sbjct  89  SNMLSIINQR  98
+
+
+> sp|P27909|POLG_DEN1B Genome polyprotein OS=Dengue virus type 
+1 (strain Brazil/97-11/1997) OX=408685 PE=1 SV=2
+Length=3392
+
+ Score = 109 bits (274),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RW S  K  A+++++ FKK++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWSSFKKNGAIKVLRGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           ++ML I+N R
+Sbjct  89  SSMLNIMNRR  98
+
+
+> sp|P06935|POLG_WNV Genome polyprotein OS=West Nile virus OX=11082 
+PE=1 SV=2
+Length=3430
+
+ Score = 109 bits (274),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 46/72 (64%), Gaps = 0/72 (0%)
+
+Query  2   FGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKK  61
+             GLKR    L+ G GPIR VLA+LAF RFTAI P+  +++RW  V K+ AM+ +  FKK
+Sbjct  27  LIGLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKK  86
+
+Query  62  DLAAMLRIINAR  73
+           +L  +   IN R
+Sbjct  87  ELGTLTSAINRR  98
+
+
+> sp|Q9Q6P4|POLG_WNV9 Genome polyprotein OS=West Nile virus (strain 
+NY-99) OX=1968826 GN=GP1 PE=1 SV=2
+Length=3433
+
+ Score = 109 bits (274),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 46/72 (64%), Gaps = 0/72 (0%)
+
+Query  2   FGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKK  61
+             GLKR    L+ G GPIR VLA+LAF RFTAI P+  +++RW  V K+ AM+ +  FKK
+Sbjct  27  LIGLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKK  86
+
+Query  62  DLAAMLRIINAR  73
+           +L  +   IN R
+Sbjct  87  ELGTLTSAINRR  98
+
+
+> sp|P30026|POLG_DEN2D Genome polyprotein (Fragment) OS=Dengue 
+virus type 2 (strain China/D2-04) OX=31636 PE=3 SV=1
+Length=1127
+
+ Score = 109 bits (272),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 25/70 (36%), Positives = 45/70 (64%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   G+L G GP+++ +A++A  RF  I P+ G++ RWG++ K +A+  ++  +K++
+Sbjct  29  LTKRFSLGMLQGRGPLKLFMALVALPRFLTIPPTAGILKRWGTIKKSKAINDVRGCRKEI  88
+
+Query  64  AAMLRIINAR  73
+             ML I+N R
+Sbjct  89  GRMLNILNRR  98
+
+
+> sp|P27913|POLG_DEN1C Genome polyprotein (Fragment) OS=Dengue 
+virus type 1 (strain Jamaica/CV1636/1977) OX=11058 PE=3 SV=1
+Length=791
+
+ Score = 108 bits (270),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  4   GLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDL  63
+             KR   GLL G GP+++V+A +AFLRF AI P+ G++ RW S  K  A+++++ FKK++
+Sbjct  29  LAKRFSKGLLSGQGPMKLVMAFIAFLRFLAIPPTAGILARWSSFKKNGAIKVLRGFKKEI  88
+
+Query  64  AAMLRIINAR  73
+           ++ML I+N R
+Sbjct  89  SSMLNIMNRR  98
+
+
+> sp|Q32ZE0|POLG_BUSV Genome polyprotein OS=Bussuquara virus OX=64304 
+PE=3 SV=1
+Length=3429
+
+ Score = 108 bits (269),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 34/73 (47%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P G  KRL      G GP+R++LA++AF RFTAIK S  L+ +WG+V K  A+ I+K FK
+Sbjct  27  PLGLAKRLLGDAFAGRGPLRVILAVVAFFRFTAIKMSPALLKKWGTVEKGAAIAIMKSFK  86
+
+Query  61  KDLAAMLRIINAR  73
+           K++ +ML ++  R
+Sbjct  87  KEIGSMLDVVARR  99
+
+
+> sp|Q32ZD7|POLG_ILHV Genome polyprotein OS=Ilheus virus OX=59563 
+PE=3 SV=1
+Length=3424
+
+ Score = 103 bits (257),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 31/68 (46%), Positives = 43/68 (63%), Gaps = 0/68 (0%)
+
+Query  6   KRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAA  65
+           +R    +L   G  R++LA++AF RF AIKP+LGL  RW SV K  A++ +  FKK+L  
+Sbjct  29  RRTIRRMLDVRGAPRLILALMAFFRFAAIKPTLGLKKRWRSVNKTVAVKHLTNFKKELTT  88
+
+Query  66  MLRIINAR  73
+           ML  +N R
+Sbjct  89  MLDSVNKR  96
+
+
+> sp|Q32ZD4|POLG_ROCV Genome polyprotein OS=Rocio virus OX=64315 
+PE=1 SV=1
+Length=3425
+
+ Score = 93.8 bits (232),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  1   PFGGLKRLPAGLLLGHGPIRMVLAILAFLRFTAIKPSLGLINRWGSVGKKEAMEIIKKFK  60
+           P  G+KRL   L  G GP+R+VLA +AF RF AI P+ GL+ RW  + K EA++ +  FK
+Sbjct  25  PIKGIKRLIGNLTDGRGPLRVVLAFIAFFRFAAIMPTQGLLRRWRVMNKSEALKHLTSFK  84
+
+Query  61  KDLAAMLRIINAR  73
+           K+++ ML IIN R
+Sbjct  85  KEISNMLNIINRR  97
+
+
+> sp|P14403|POLG_JAEVN Genome polyprotein (Fragment) OS=Japanese 
+encephalitis virus (strain Nakayama) OX=11076 PE=1 SV=1
+Length=1440
+
+ Score = 40.3 bits (93),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 7/24 (29%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  50  KEAMEIIKKFKKDLAAMLRIINAR  73
+             AM+ +  FK++L  ++  +N R
+Sbjct  1   SVAMKHLTSFKRELGTLIDAVNKR  24
+
+
+> sp|Q98803|POLG_YEFVI Genome polyprotein OS=Yellow fever virus 
+(isolate Ivory Coast/85-82H/1982) OX=407138 PE=3 SV=1
+Length=3411
+
+ Score = 36.0 bits (82),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 15/60 (25%), Positives = 32/60 (53%), Gaps = 3/60 (5%)
+
+Query  17  GPIRMVLAILAFLRF---TAIKPSLGLINRWGSVGKKEAMEIIKKFKKDLAAMLRIINAR  73
+           GP R V   ++F  F   T  K +  L   W  +  ++ + +++K K+ +A ++R +++R
+Sbjct  39  GPSRGVQGFISFFSFNILTGKKITAHLKRLWKMLDPRQGLAVLRKVKRVVAGLMRGLSSR  98
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.149    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0455    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4968890528
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

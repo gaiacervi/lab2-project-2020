@@ -1,0 +1,159 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6UTC:A
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q05938|TOXR_VIBPA Cholera toxin homolog transcriptional acti...  109     2e-29
+  sp|P15795|TOXR_VIBCH Cholera toxin transcriptional activator OS...  93.2    2e-23
+
+
+> sp|Q05938|TOXR_VIBPA Cholera toxin homolog transcriptional activator 
+OS=Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 
+2210633) OX=223926 GN=toxR PE=4 SV=2
+Length=292
+
+ Score = 109 bits (272),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 52/91 (57%), Positives = 63/91 (69%), Gaps = 0/91 (0%)
+
+Query  1    SKFRLLENVNGVEVLTPLNHPPLQAWMPSIRQAVNKYAETHTGDSAPVKVIATGGQGNQL  60
+            S+FR +     V V+TP+NHP +  W+PSI Q + +Y + H  DS PV+VIATGGQ NQL
+Sbjct  202  SQFRQIGEYQNVPVMTPVNHPQINNWLPSIEQCIERYVKHHAEDSLPVEVIATGGQNNQL  261
+
+Query  61   ILNYIHTLPHSNENVTLRIFSEQNDLGSIAK  91
+            ILNYIH   HS ENVTLRIF+ QND   I K
+Sbjct  262  ILNYIHDSNHSYENVTLRIFAGQNDPTDICK  292
+
+
+> sp|P15795|TOXR_VIBCH Cholera toxin transcriptional activator 
+OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=toxR PE=4 SV=2
+Length=294
+
+ Score = 93.2 bits (230),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 47/85 (55%), Positives = 56/85 (66%), Gaps = 0/85 (0%)
+
+Query  1    SKFRLLENVNGVEVLTPLNHPPLQAWMPSIRQAVNKYAETHTGDSAPVKVIATGGQGNQL  60
+            + F+ L  V+GV V  P NHP L  W+PSI   V KY E HTG   P++VIATGGQ NQL
+Sbjct  204  TSFKPLTVVDGVAVNMPNNHPDLSNWLPSIELCVKKYNEKHTGGLKPIEVIATGGQNNQL  263
+
+Query  61   ILNYIHTLPHSNENVTLRIFSEQND  85
+             LNYIH+   S EN+TLRI +  ND
+Sbjct  264  TLNYIHSPEVSGENITLRIVANPND  288
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.131    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5053531920
+Results from round 2
+
+
+Query= 6UTC:A
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q05938|TOXR_VIBPA Cholera toxin homolog transcriptional acti...  164     5e-51
+  sp|P15795|TOXR_VIBCH Cholera toxin transcriptional activator OS...  149     3e-45
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q05938|TOXR_VIBPA Cholera toxin homolog transcriptional activator 
+OS=Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 
+2210633) OX=223926 GN=toxR PE=4 SV=2
+Length=292
+
+ Score = 164 bits (415),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 52/91 (57%), Positives = 63/91 (69%), Gaps = 0/91 (0%)
+
+Query  1    SKFRLLENVNGVEVLTPLNHPPLQAWMPSIRQAVNKYAETHTGDSAPVKVIATGGQGNQL  60
+            S+FR +     V V+TP+NHP +  W+PSI Q + +Y + H  DS PV+VIATGGQ NQL
+Sbjct  202  SQFRQIGEYQNVPVMTPVNHPQINNWLPSIEQCIERYVKHHAEDSLPVEVIATGGQNNQL  261
+
+Query  61   ILNYIHTLPHSNENVTLRIFSEQNDLGSIAK  91
+            ILNYIH   HS ENVTLRIF+ QND   I K
+Sbjct  262  ILNYIHDSNHSYENVTLRIFAGQNDPTDICK  292
+
+
+> sp|P15795|TOXR_VIBCH Cholera toxin transcriptional activator 
+OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=toxR PE=4 SV=2
+Length=294
+
+ Score = 149 bits (377),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 47/91 (52%), Positives = 58/91 (64%), Gaps = 0/91 (0%)
+
+Query  1    SKFRLLENVNGVEVLTPLNHPPLQAWMPSIRQAVNKYAETHTGDSAPVKVIATGGQGNQL  60
+            + F+ L  V+GV V  P NHP L  W+PSI   V KY E HTG   P++VIATGGQ NQL
+Sbjct  204  TSFKPLTVVDGVAVNMPNNHPDLSNWLPSIELCVKKYNEKHTGGLKPIEVIATGGQNNQL  263
+
+Query  61   ILNYIHTLPHSNENVTLRIFSEQNDLGSIAK  91
+             LNYIH+   S EN+TLRI +  ND   + +
+Sbjct  264  TLNYIHSPEVSGENITLRIVANPNDAIKVCE  294
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.125    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0382    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5053531920
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

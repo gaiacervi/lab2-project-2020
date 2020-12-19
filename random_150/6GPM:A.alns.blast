@@ -1,0 +1,1870 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6GPM:A
+
+Length=92
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P30860|ARTJ_ECOLI ABC transporter arginine-binding protein 1...  54.3    4e-09
+  sp|Q46125|HISJ_CAMJE Probable histidine-binding protein OS=Camp...  47.0    3e-06
+  sp|P30859|ARTI_ECOLI Putative ABC transporter arginine-binding ...  42.4    1e-04
+  sp|P54535|ARTP_BACSU Arginine-binding extracellular protein Art...  41.6    2e-04
+  sp|P27676|GLNH_GEOSE Glutamine-binding protein OS=Geobacillus s...  39.7    9e-04
+  sp|Q9ZF60|GLTI_SALTY Glutamate/aspartate import solute-binding ...  39.3    0.001
+  sp|Q06758|HISJ_NEIGO Probable histidine-binding protein OS=Neis...  39.3    0.001
+  sp|P0AEU0|HISJ_ECOLI Histidine-binding periplasmic protein OS=E...  38.1    0.003
+  sp|P0AEU1|HISJ_ECOL6 Histidine-binding periplasmic protein OS=E...  38.1    0.003
+  sp|P0AEU2|HISJ_ECO57 Histidine-binding periplasmic protein OS=E...  38.1    0.003
+  sp|P16575|BVGS_BORPE Virulence sensor protein BvgS OS=Bordetell...  37.0    0.009
+
+
+> sp|P30860|ARTJ_ECOLI ABC transporter arginine-binding protein 
+1 OS=Escherichia coli (strain K12) OX=83333 GN=artJ PE=1 SV=2
+Length=243
+
+ Score = 54.3 bits (129),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 28/86 (33%), Positives = 51/86 (59%), Gaps = 4/86 (5%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVS-KYDGIKVVRFDKFTDAFLELKRG  61
+            V++ +KD+    KT+ DL GK + ++ GTT    +  ++  +K V +D + +AF++LK G
+Sbjct  110  VVIAKKDTY---KTFADLKGKRIGMENGTTHQKYIQDQHPEVKTVSYDSYQNAFIDLKNG  166
+
+Query  62   RADAVVLDSATARAFVAKNPDLVISS  87
+            R D V  D+A    ++  NP L +++
+Sbjct  167  RIDGVFGDTAVVNEWLKTNPQLGVAT  192
+
+
+> sp|Q46125|HISJ_CAMJE Probable histidine-binding protein OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=hisJ PE=1 SV=1
+Length=256
+
+ Score = 47.0 bits (110),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 26/70 (37%), Positives = 37/70 (53%), Gaps = 0/70 (0%)
+
+Query  15   KTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRGRADAVVLDSATAR  74
+            +T  DL GK + VQ+GT  +         +V        A L LK  + DA+V D  TA+
+Sbjct  136  QTKNDLEGKKIGVQLGTLQENTAKAIKNAQVQSNKDLNIAVLALKNNKIDAIVADQDTAK  195
+
+Query  75   AFVAKNPDLV  84
+             F+A+NP+LV
+Sbjct  196  GFLAENPELV  205
+
+
+> sp|P30859|ARTI_ECOLI Putative ABC transporter arginine-binding 
+protein 2 OS=Escherichia coli (strain K12) OX=83333 GN=artI 
+PE=1 SV=3
+Length=243
+
+ Score = 42.4 bits (98),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 36/67 (54%), Gaps = 1/67 (1%)
+
+Query  18   EDLVGKTVAVQIGTTGD-IEVSKYDGIKVVRFDKFTDAFLELKRGRADAVVLDSATARAF  76
+            + L GK V VQ GTT     + K+  I  V +D + +A L+L+ GR D V  D+A    +
+Sbjct  122  DQLKGKKVGVQNGTTHQKFIMDKHPEITTVPYDSYQNAKLDLQNGRIDGVFGDTAVVTEW  181
+
+Query  77   VAKNPDL  83
+            +  NP L
+Sbjct  182  LKDNPKL  188
+
+
+> sp|P54535|ARTP_BACSU Arginine-binding extracellular protein ArtP 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=artP PE=1 
+SV=1
+Length=255
+
+ Score = 41.6 bits (96),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 28/86 (33%), Positives = 45/86 (52%), Gaps = 5/86 (6%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGD---IEVSKYDGIKVVRFDKFTDAFLE  57
+              +IV +KDS  +  + +DL GKTV VQ+G+  +    E+S   G K    ++ +D   E
+Sbjct  118  NHMIVSKKDSGIQ--SLKDLKGKTVGVQLGSIQEEKGKELSPEYGFKTEDRNRISDLVQE  175
+
+Query  58   LKRGRADAVVLDSATARAFVAKNPDL  83
+            +K  R DA +++   A  +   N DL
+Sbjct  176  IKSDRFDAAIIEDIVAEGYFKSNDDL  201
+
+
+> sp|P27676|GLNH_GEOSE Glutamine-binding protein OS=Geobacillus 
+stearothermophilus OX=1422 GN=glnH PE=3 SV=1
+Length=262
+
+ Score = 39.7 bits (91),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 26/84 (31%), Positives = 44/84 (52%), Gaps = 4/84 (5%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLV-GKTVAVQIGTTGDIEVSKY-DGIKVVRFDKFTDAFLEL  58
+            GQ ++V+KDS     + +DL  G TV    G+T    + K    + V+ F+ + +AF  L
+Sbjct  150  GQSLLVKKDSKIN--SVKDLKKGMTVLTAKGSTSAQNIRKVAPEVNVLEFENYAEAFTAL  207
+
+Query  59   KRGRADAVVLDSATARAFVAKNPD  82
+            K G+ DA+  D+A       ++P+
+Sbjct  208  KAGQGDALTTDNALLWGMAKQDPN  231
+
+
+> sp|Q9ZF60|GLTI_SALTY Glutamate/aspartate import solute-binding 
+protein OS=Salmonella typhimurium (strain LT2 / SGSC1412 / 
+ATCC 700720) OX=99287 GN=gltI PE=3 SV=3
+Length=302
+
+ Score = 39.3 bits (90),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 29/89 (33%), Positives = 44/89 (49%), Gaps = 9/89 (10%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYD-----GIKVVRFDKFTDAF  55
+            G  ++ +K  D   K + DL GK V V  GTT +I + K +     G++++      D+F
+Sbjct  134  GTRLLTKKGGDI--KDFPDLKGKAVVVTSGTTSEILLHKLNEEQKMGMRIISAKDHGDSF  191
+
+Query  56   LELKRGRADAVVLDSA--TARAFVAKNPD  82
+              L+ GRA A ++D A        AK PD
+Sbjct  192  RTLESGRAVAFMMDDALLAGERAKAKKPD  220
+
+
+> sp|Q06758|HISJ_NEIGO Probable histidine-binding protein OS=Neisseria 
+gonorrhoeae OX=485 GN=hisJ PE=3 SV=1
+Length=268
+
+ Score = 39.3 bits (90),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 30/60 (50%), Gaps = 3/60 (5%)
+
+Query  25   VAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFVAKNP  81
+            V V  G TGD  VSK    D  K+ RF+       EL+ G  D+VV DSA    +V  NP
+Sbjct  147  VGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP  206
+
+
+> sp|P0AEU0|HISJ_ECOLI Histidine-binding periplasmic protein OS=Escherichia 
+coli (strain K12) OX=83333 GN=hisJ PE=1 SV=1
+Length=260
+
+ Score = 38.1 bits (87),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 29/81 (36%), Positives = 39/81 (48%), Gaps = 4/81 (5%)
+
+Query  4    IVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDI---EVSKYDGIKVVRFDKFTDAFLELKR  60
+            +VV K+SD +P T E L GK V V  GTT +    E     GI++V +    + + +L  
+Sbjct  116  LVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDLTA  174
+
+Query  61   GRADAVVLDSATARAFVAKNP  81
+            GR DA   D   A     K P
+Sbjct  175  GRIDAAFQDEVAASEGFLKQP  195
+
+
+> sp|P0AEU1|HISJ_ECOL6 Histidine-binding periplasmic protein OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=hisJ PE=3 SV=1
+Length=260
+
+ Score = 38.1 bits (87),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 29/81 (36%), Positives = 39/81 (48%), Gaps = 4/81 (5%)
+
+Query  4    IVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDI---EVSKYDGIKVVRFDKFTDAFLELKR  60
+            +VV K+SD +P T E L GK V V  GTT +    E     GI++V +    + + +L  
+Sbjct  116  LVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDLTA  174
+
+Query  61   GRADAVVLDSATARAFVAKNP  81
+            GR DA   D   A     K P
+Sbjct  175  GRIDAAFQDEVAASEGFLKQP  195
+
+
+> sp|P0AEU2|HISJ_ECO57 Histidine-binding periplasmic protein OS=Escherichia 
+coli O157:H7 OX=83334 GN=hisJ PE=3 SV=1
+Length=260
+
+ Score = 38.1 bits (87),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 29/81 (36%), Positives = 39/81 (48%), Gaps = 4/81 (5%)
+
+Query  4    IVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDI---EVSKYDGIKVVRFDKFTDAFLELKR  60
+            +VV K+SD +P T E L GK V V  GTT +    E     GI++V +    + + +L  
+Sbjct  116  LVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDLTA  174
+
+Query  61   GRADAVVLDSATARAFVAKNP  81
+            GR DA   D   A     K P
+Sbjct  175  GRIDAAFQDEVAASEGFLKQP  195
+
+
+> sp|P16575|BVGS_BORPE Virulence sensor protein BvgS OS=Bordetella 
+pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251) 
+OX=257313 GN=bvgS PE=1 SV=3
+Length=1238
+
+ Score = 37.0 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 29/80 (36%), Positives = 42/80 (53%), Gaps = 2/80 (3%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVA-VQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELK  59
+            G VIV R+D D  P   + L G+TVA V+      +   +Y   KVV  D  ++A L + 
+Sbjct  394  GMVIVTRQDPD-APVDADHLDGRTVALVRNSAAIPLLQRRYPQAKVVTADNPSEAMLMVA  452
+
+Query  60   RGRADAVVLDSATARAFVAK  79
+             G+ADAVV    +A  +V +
+Sbjct  453  NGQADAVVQTQISASYYVNR  472
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5036639460
+Results from round 2
+
+
+Query= 6GPM:A
+
+Length=92
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P30860|ARTJ_ECOLI ABC transporter arginine-binding protein 1...  104     7e-28
+  sp|P54535|ARTP_BACSU Arginine-binding extracellular protein Art...  86.3    6e-21
+  sp|P30859|ARTI_ECOLI Putative ABC transporter arginine-binding ...  85.6    9e-21
+  sp|Q9ZF60|GLTI_SALTY Glutamate/aspartate import solute-binding ...  79.0    6e-18
+  sp|P27676|GLNH_GEOSE Glutamine-binding protein OS=Geobacillus s...  77.5    1e-17
+  sp|Q46125|HISJ_CAMJE Probable histidine-binding protein OS=Camp...  77.1    2e-17
+  sp|Q06758|HISJ_NEIGO Probable histidine-binding protein OS=Neis...  66.3    2e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P37902|GLTI_ECOLI Glutamate/aspartate import solute-binding ...  69.8    2e-14
+  sp|O34563|GLNH_BACSU ABC transporter glutamine-binding protein ...  61.3    1e-11
+  sp|P49618|LAPT_MANHA Arginine-binding periplasmic protein OS=Ma...  59.4    6e-11
+  sp|P0AEU0|HISJ_ECOLI Histidine-binding periplasmic protein OS=E...  56.3    1e-09
+  sp|P0AEU1|HISJ_ECOL6 Histidine-binding periplasmic protein OS=E...  56.3    1e-09
+  sp|P0AEU2|HISJ_ECO57 Histidine-binding periplasmic protein OS=E...  56.3    1e-09
+  sp|P02910|HISJ_SALTY Histidine-binding periplasmic protein OS=S...  55.5    2e-09
+  sp|P0AEM9|TCYJ_ECOLI L-cystine-binding protein TcyJ OS=Escheric...  54.8    4e-09
+  sp|P0AEN0|TCYJ_ECOL6 L-cystine-binding protein TcyJ OS=Escheric...  54.8    4e-09
+  sp|P45091|ARTI_HAEIN ABC transporter arginine-binding protein O...  50.9    8e-08
+  sp|P02911|ARGT_SALTY Lysine/arginine/ornithine-binding periplas...  48.6    6e-07
+  sp|P09551|ARGT_ECOLI Lysine/arginine/ornithine-binding periplas...  47.8    1e-06
+  sp|Q8RQL6|GLUB_COREF Glutamate-binding protein OS=Corynebacteri...  42.8    6e-05
+  sp|P45024|Y1080_HAEIN Probable amino-acid ABC transporter-bindi...  42.4    9e-05
+  sp|P54952|YXEM_BACSU Probable amino-acid-binding protein YxeM O...  41.7    2e-04
+  sp|P48242|GLUB_CORGL Glutamate-binding protein OS=Corynebacteri...  41.3    3e-04
+  sp|P16575|BVGS_BORPE Virulence sensor protein BvgS OS=Bordetell...  41.3    3e-04
+  sp|P39906|AABA_DICNO Amino-acid-binding protein AabA OS=Dichelo...  40.5    4e-04
+  sp|Q9Z869|ARTJ_CHLPN Probable ABC transporter arginine-binding ...  40.1    6e-04
+  sp|O84385|ARTJ_CHLTR Probable ABC transporter arginine-binding ...  40.1    6e-04
+  sp|P35120|NOCT_AGRFC Nopaline-binding periplasmic protein OS=Ag...  39.7    8e-04
+  sp|P52626|PATH_VIBHA Putative amino-acid ABC transporter-bindin...  39.3    0.001
+  sp|P0AEQ3|GLNH_ECOLI Glutamine-binding periplasmic protein OS=E...  38.2    0.003
+  sp|P0AEQ4|GLNH_ECOL6 Glutamine-binding periplasmic protein OS=E...  38.2    0.003
+  sp|P0AEQ5|GLNH_ECO57 Glutamine-binding periplasmic protein OS=E...  38.2    0.003
+  sp|P0A4F8|OCCT_RHIRD Octopine-binding periplasmic protein OS=Rh...  37.0    0.008
+  sp|P0A4F9|OCCT_AGRT4 Octopine-binding periplasmic protein OS=Ag...  37.0    0.008
+  sp|P72298|OCCT_RHIML Octopine-binding periplasmic protein OS=Rh...  37.0    0.009
+
+
+> sp|P30860|ARTJ_ECOLI ABC transporter arginine-binding protein 
+1 OS=Escherichia coli (strain K12) OX=83333 GN=artJ PE=1 SV=2
+Length=243
+
+ Score = 104 bits (258),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 28/86 (33%), Positives = 51/86 (59%), Gaps = 4/86 (5%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVS-KYDGIKVVRFDKFTDAFLELKRG  61
+            V++ +KD+    KT+ DL GK + ++ GTT    +  ++  +K V +D + +AF++LK G
+Sbjct  110  VVIAKKDTY---KTFADLKGKRIGMENGTTHQKYIQDQHPEVKTVSYDSYQNAFIDLKNG  166
+
+Query  62   RADAVVLDSATARAFVAKNPDLVISS  87
+            R D V  D+A    ++  NP L +++
+Sbjct  167  RIDGVFGDTAVVNEWLKTNPQLGVAT  192
+
+
+> sp|P54535|ARTP_BACSU Arginine-binding extracellular protein ArtP 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=artP PE=1 
+SV=1
+Length=255
+
+ Score = 86.3 bits (212),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 28/86 (33%), Positives = 45/86 (52%), Gaps = 5/86 (6%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGD---IEVSKYDGIKVVRFDKFTDAFLE  57
+              +IV +KDS    ++ +DL GKTV VQ+G+  +    E+S   G K    ++ +D   E
+Sbjct  118  NHMIVSKKDSGI--QSLKDLKGKTVGVQLGSIQEEKGKELSPEYGFKTEDRNRISDLVQE  175
+
+Query  58   LKRGRADAVVLDSATARAFVAKNPDL  83
+            +K  R DA +++   A  +   N DL
+Sbjct  176  IKSDRFDAAIIEDIVAEGYFKSNDDL  201
+
+
+> sp|P30859|ARTI_ECOLI Putative ABC transporter arginine-binding 
+protein 2 OS=Escherichia coli (strain K12) OX=83333 GN=artI 
+PE=1 SV=3
+Length=243
+
+ Score = 85.6 bits (210),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 25/69 (36%), Positives = 37/69 (54%), Gaps = 1/69 (1%)
+
+Query  16   TYEDLVGKTVAVQIGTTGD-IEVSKYDGIKVVRFDKFTDAFLELKRGRADAVVLDSATAR  74
+            + + L GK V VQ GTT     + K+  I  V +D + +A L+L+ GR D V  D+A   
+Sbjct  120  SVDQLKGKKVGVQNGTTHQKFIMDKHPEITTVPYDSYQNAKLDLQNGRIDGVFGDTAVVT  179
+
+Query  75   AFVAKNPDL  83
+             ++  NP L
+Sbjct  180  EWLKDNPKL  188
+
+
+> sp|Q9ZF60|GLTI_SALTY Glutamate/aspartate import solute-binding 
+protein OS=Salmonella typhimurium (strain LT2 / SGSC1412 / 
+ATCC 700720) OX=99287 GN=gltI PE=3 SV=3
+Length=302
+
+ Score = 79.0 bits (193),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 29/89 (33%), Positives = 44/89 (49%), Gaps = 9/89 (10%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYD-----GIKVVRFDKFTDAF  55
+            G  ++ +K  D   K + DL GK V V  GTT +I + K +     G++++      D+F
+Sbjct  134  GTRLLTKKGGDI--KDFPDLKGKAVVVTSGTTSEILLHKLNEEQKMGMRIISAKDHGDSF  191
+
+Query  56   LELKRGRADAVVLDSAT--ARAFVAKNPD  82
+              L+ GRA A ++D A        AK PD
+Sbjct  192  RTLESGRAVAFMMDDALLAGERAKAKKPD  220
+
+
+> sp|P27676|GLNH_GEOSE Glutamine-binding protein OS=Geobacillus 
+stearothermophilus OX=1422 GN=glnH PE=3 SV=1
+Length=262
+
+ Score = 77.5 bits (189),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 26/84 (31%), Positives = 44/84 (52%), Gaps = 4/84 (5%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLV-GKTVAVQIGTTGDIEVSKY-DGIKVVRFDKFTDAFLEL  58
+            GQ ++V+KDS     + +DL  G TV    G+T    + K    + V+ F+ + +AF  L
+Sbjct  150  GQSLLVKKDSKIN--SVKDLKKGMTVLTAKGSTSAQNIRKVAPEVNVLEFENYAEAFTAL  207
+
+Query  59   KRGRADAVVLDSATARAFVAKNPD  82
+            K G+ DA+  D+A       ++P+
+Sbjct  208  KAGQGDALTTDNALLWGMAKQDPN  231
+
+
+> sp|Q46125|HISJ_CAMJE Probable histidine-binding protein OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=hisJ PE=1 SV=1
+Length=256
+
+ Score = 77.1 bits (188),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 37/70 (53%), Gaps = 0/70 (0%)
+
+Query  15   KTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRGRADAVVLDSATAR  74
+            +T  DL GK + VQ+GT  +         +V        A L LK  + DA+V D  TA+
+Sbjct  136  QTKNDLEGKKIGVQLGTLQENTAKAIKNAQVQSNKDLNIAVLALKNNKIDAIVADQDTAK  195
+
+Query  75   AFVAKNPDLV  84
+             F+A+NP+LV
+Sbjct  196  GFLAENPELV  205
+
+
+> sp|P37902|GLTI_ECOLI Glutamate/aspartate import solute-binding 
+protein OS=Escherichia coli (strain K12) OX=83333 GN=gltI 
+PE=1 SV=2
+Length=302
+
+ Score = 69.8 bits (169),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 43/89 (48%), Gaps = 9/89 (10%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYD-----GIKVVRFDKFTDAF  55
+            G  ++ +K  D   K + +L  K V V  GTT ++ ++K +      ++++      D+F
+Sbjct  134  GTRLLTKKGGDI--KDFANLKDKAVVVTSGTTSEVLLNKLNEEQKMNMRIISAKDHGDSF  191
+
+Query  56   LELKRGRADAVVLDSAT--ARAFVAKNPD  82
+              L+ GRA A ++D A        AK PD
+Sbjct  192  RTLESGRAVAFMMDDALLAGERAKAKKPD  220
+
+
+> sp|Q06758|HISJ_NEIGO Probable histidine-binding protein OS=Neisseria 
+gonorrhoeae OX=485 GN=hisJ PE=3 SV=1
+Length=268
+
+ Score = 66.3 bits (160),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 31/84 (37%), Positives = 40/84 (48%), Gaps = 6/84 (7%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGK-TVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLE  57
+            QV++V K       + +DL     V V  G TGD  VSK    D  K+ RF+       E
+Sbjct  125  QVVLVPKGKKVS--SSDDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKE  182
+
+Query  58   LKRGRADAVVLDSATARAFVAKNP  81
+            L+ G  D+VV DSA    +V  NP
+Sbjct  183  LENGGLDSVVSDSAVIANYVKNNP  206
+
+
+> sp|O34563|GLNH_BACSU ABC transporter glutamine-binding protein 
+GlnH OS=Bacillus subtilis (strain 168) OX=224308 GN=glnH PE=2 
+SV=1
+Length=273
+
+ Score = 61.3 bits (147),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/84 (30%), Positives = 41/84 (49%), Gaps = 4/84 (5%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDL-VGKTVAVQIGTTGDIEVS-KYDGIKVVRFDKFTDAFLEL  58
+            GQ ++V+K S    K+ E+L  G  V    G+T    +  K     V+ F+ + +AF  L
+Sbjct  137  GQSLLVKKGSKI--KSVENLGKGSKVLAVKGSTSSQNIREKAPEASVLEFENYAEAFTAL  194
+
+Query  59   KRGRADAVVLDSATARAFVAKNPD  82
+            K G+ DA+  D+A       +N +
+Sbjct  195  KSGQGDALTTDNAILYGMADENKN  218
+
+
+> sp|P49618|LAPT_MANHA Arginine-binding periplasmic protein OS=Mannheimia 
+haemolytica OX=75985 GN=lapT PE=3 SV=1
+Length=237
+
+ Score = 59.4 bits (142),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 36/80 (45%), Gaps = 8/80 (10%)
+
+Query  5    VVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYD-GIKVVRFDKFTDAFLELKRGRA  63
+            + +KD+DF          KT+ VQ GTT    ++K      V  +  + +A L+++ GR 
+Sbjct  109  IAKKDTDFA-------KVKTIGVQNGTTYQHYLAKEKKEYNVKSYASYQNAILDVQNGRI  161
+
+Query  64   DAVVLDSATARAFVAKNPDL  83
+            DA+  D         K+  L
+Sbjct  162  DAIFGDVPVLAEMARKHEGL  181
+
+
+> sp|P0AEU0|HISJ_ECOLI Histidine-binding periplasmic protein OS=Escherichia 
+coli (strain K12) OX=83333 GN=hisJ PE=1 SV=1
+Length=260
+
+ Score = 56.3 bits (134),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/82 (33%), Positives = 43/82 (52%), Gaps = 5/82 (6%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              +VV K+SD +P T E L GK V V  GTT +   +++    GI++V +    + + +L
+Sbjct  114  SRLVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDL  172
+
+Query  59   KRGRADAVVLDS-ATARAFVAK  79
+              GR DA   D  A +  F+ +
+Sbjct  173  TAGRIDAAFQDEVAASEGFLKQ  194
+
+
+> sp|P0AEU1|HISJ_ECOL6 Histidine-binding periplasmic protein OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=hisJ PE=3 SV=1
+Length=260
+
+ Score = 56.3 bits (134),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/82 (33%), Positives = 43/82 (52%), Gaps = 5/82 (6%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              +VV K+SD +P T E L GK V V  GTT +   +++    GI++V +    + + +L
+Sbjct  114  SRLVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDL  172
+
+Query  59   KRGRADAVVLDS-ATARAFVAK  79
+              GR DA   D  A +  F+ +
+Sbjct  173  TAGRIDAAFQDEVAASEGFLKQ  194
+
+
+> sp|P0AEU2|HISJ_ECO57 Histidine-binding periplasmic protein OS=Escherichia 
+coli O157:H7 OX=83334 GN=hisJ PE=3 SV=1
+Length=260
+
+ Score = 56.3 bits (134),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/82 (33%), Positives = 43/82 (52%), Gaps = 5/82 (6%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              +VV K+SD +P T E L GK V V  GTT +   +++    GI++V +    + + +L
+Sbjct  114  SRLVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDL  172
+
+Query  59   KRGRADAVVLDS-ATARAFVAK  79
+              GR DA   D  A +  F+ +
+Sbjct  173  TAGRIDAAFQDEVAASEGFLKQ  194
+
+
+> sp|P02910|HISJ_SALTY Histidine-binding periplasmic protein OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=hisJ PE=1 SV=1
+Length=260
+
+ Score = 55.5 bits (132),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 26/82 (32%), Positives = 42/82 (51%), Gaps = 5/82 (6%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              +VV K+SD +P T   L GK V V  GTT +   +++    GI++V +    + + +L
+Sbjct  114  SRLVVAKNSDIQP-TVASLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDL  172
+
+Query  59   KRGRADAVVLDS-ATARAFVAK  79
+              GR DA   D  A +  F+ +
+Sbjct  173  TAGRIDAAFQDEVAASEGFLKQ  194
+
+
+> sp|P0AEM9|TCYJ_ECOLI L-cystine-binding protein TcyJ OS=Escherichia 
+coli (strain K12) OX=83333 GN=tcyJ PE=1 SV=1
+Length=266
+
+ Score = 54.8 bits (130),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 46/89 (52%), Gaps = 1/89 (1%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            G   +V+K ++   KT +DL GK V V +GT  +  + +   G+ V  +D     + +L+
+Sbjct  128  GIQALVKKGNEGTIKTADDLKGKKVGVGLGTNYEEWLRQNVQGVDVRTYDDDPTKYQDLR  187
+
+Query  60   RGRADAVVLDSATARAFVAKNPDLVISSG  88
+             GR DA+++D   A   V K  D +  +G
+Sbjct  188  VGRIDAILVDRLAALDLVKKTNDTLAVTG  216
+
+
+> sp|P0AEN0|TCYJ_ECOL6 L-cystine-binding protein TcyJ OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=tcyJ PE=3 SV=1
+Length=266
+
+ Score = 54.8 bits (130),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 46/89 (52%), Gaps = 1/89 (1%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            G   +V+K ++   KT +DL GK V V +GT  +  + +   G+ V  +D     + +L+
+Sbjct  128  GIQALVKKGNEGTIKTADDLKGKKVGVGLGTNYEEWLRQNVQGVDVRTYDDDPTKYQDLR  187
+
+Query  60   RGRADAVVLDSATARAFVAKNPDLVISSG  88
+             GR DA+++D   A   V K  D +  +G
+Sbjct  188  VGRIDAILVDRLAALDLVKKTNDTLAVTG  216
+
+
+> sp|P45091|ARTI_HAEIN ABC transporter arginine-binding protein 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / 
+KW20 / Rd) OX=71421 GN=artI PE=1 SV=1
+Length=239
+
+ Score = 50.9 bits (120),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 21/76 (28%), Positives = 33/76 (43%), Gaps = 2/76 (3%)
+
+Query  10   SDFRPKTYEDLV-GKTVAVQIGTT-GDIEVSKYDGIKVVRFDKFTDAFLELKRGRADAVV  67
+            S    K    L   K + VQ GTT     V++        +    +A L+LK GR D + 
+Sbjct  109  SYVALKGKATLESAKNIGVQNGTTFQQYTVAETKQYSPKSYASLQNAILDLKSGRIDIIF  168
+
+Query  68   LDSATARAFVAKNPDL  83
+             D+A     ++K P++
+Sbjct  169  GDTAVLADMISKEPEI  184
+
+
+> sp|P02911|ARGT_SALTY Lysine/arginine/ornithine-binding periplasmic 
+protein OS=Salmonella typhimurium (strain LT2 / SGSC1412 
+/ ATCC 700720) OX=99287 GN=argT PE=1 SV=2
+Length=260
+
+ Score = 48.6 bits (114),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 36/83 (43%), Gaps = 4/83 (5%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVS---KYDGIKVVRFDKFTDAFLEL  58
+              ++  K S  +P T E L GK V V  G+T +   +   +  G+ VV +      + +L
+Sbjct  114  SRLIAAKGSPIQP-TLESLKGKHVGVLQGSTQEAYANDNWRTKGVDVVAYANQDLIYSDL  172
+
+Query  59   KRGRADAVVLDSATARAFVAKNP  81
+              GR DA + D   A     K P
+Sbjct  173  TAGRLDAALQDEVAASEGFLKQP  195
+
+
+> sp|P09551|ARGT_ECOLI Lysine/arginine/ornithine-binding periplasmic 
+protein OS=Escherichia coli (strain K12) OX=83333 GN=argT 
+PE=1 SV=3
+Length=260
+
+ Score = 47.8 bits (112),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/83 (28%), Positives = 36/83 (43%), Gaps = 4/83 (5%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVS---KYDGIKVVRFDKFTDAFLEL  58
+              ++  K S  +P T + L GK V V  G+T +   +   +  G+ VV +      + +L
+Sbjct  114  SRLIAAKGSPIQP-TLDSLKGKHVGVLQGSTQEAYANETWRSKGVDVVAYANQDLVYSDL  172
+
+Query  59   KRGRADAVVLDSATARAFVAKNP  81
+              GR DA + D   A     K P
+Sbjct  173  AAGRLDAALQDEVAASEGFLKQP  195
+
+
+> sp|Q8RQL6|GLUB_COREF Glutamate-binding protein OS=Corynebacterium 
+efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189 
+/ NBRC 100395) OX=196164 GN=gluB PE=3 SV=1
+Length=294
+
+ Score = 42.8 bits (99),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 39/80 (49%), Gaps = 3/80 (4%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLV-GKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            Q ++VR+D D R +T EDL  G  +    G+T   +V     G+++  +D ++     L 
+Sbjct  138  QALLVREDDD-RIQTLEDLDDGLILCSVTGSTPAQKVKDVLPGVQLQEYDTYSSCVEALS  196
+
+Query  60   RGRADAVVLDSATARAFVAK  79
+            +G  DA+  D+     +  +
+Sbjct  197  QGNVDAMTTDATILFGYAQQ  216
+
+
+> sp|P45024|Y1080_HAEIN Probable amino-acid ABC transporter-binding 
+protein HI_1080 OS=Haemophilus influenzae (strain ATCC 
+51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=HI_1080 PE=1 SV=1
+Length=257
+
+ Score = 42.4 bits (98),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 21/82 (26%), Positives = 43/82 (52%), Gaps = 1/82 (1%)
+
+Query  4    IVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRGRA  63
+            ++V K SD   K++EDL G+  + Q  T+   + +K  G +++  D    +   +K+GRA
+Sbjct  123  VIVTKSSDNSIKSFEDLKGRK-SAQSATSNWGKDAKAAGAQILVVDGLAQSLELIKQGRA  181
+
+Query  64   DAVVLDSATARAFVAKNPDLVI  85
+            +A + D      +  ++P+  +
+Sbjct  182  EATINDKLAVLDYFKQHPNSGL  203
+
+
+> sp|P54952|YXEM_BACSU Probable amino-acid-binding protein YxeM 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yxeM PE=1 SV=1
+Length=264
+
+ Score = 41.7 bits (96),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 23/82 (28%), Positives = 36/82 (44%), Gaps = 4/82 (5%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEV---SKYDGIKVVRFDKFTDAFLE  57
+            G  IVV+KD+    K+ +DL GKTVA  +G+     +        I +  ++       +
+Sbjct  119  GTQIVVKKDN-TDIKSVDDLKGKTVAAVLGSNHAKNLESKDPDKKINIKTYETQEGTLKD  177
+
+Query  58   LKRGRADAVVLDSATARAFVAK  79
+            +  GR DA V       A + K
+Sbjct  178  VAYGRVDAYVNSRTVLIAQIKK  199
+
+
+> sp|P48242|GLUB_CORGL Glutamate-binding protein OS=Corynebacterium 
+glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / 
+LMG 3730 / NCIMB 10025) OX=196627 GN=gluB PE=3 SV=1
+Length=295
+
+ Score = 41.3 bits (95),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 39/80 (49%), Gaps = 3/80 (4%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLV-GKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            Q ++VR+D D R +T EDL  G  +    G+T   +V     G+++  +D ++     L 
+Sbjct  138  QALLVRQDDD-RIETLEDLDNGLILCSVSGSTPAQKVKDVLPGVQLQEYDTYSSCVEALS  196
+
+Query  60   RGRADAVVLDSATARAFVAK  79
+            +G  DA+  D+     +  +
+Sbjct  197  QGNVDALTTDATILFGYSQQ  216
+
+
+> sp|P16575|BVGS_BORPE Virulence sensor protein BvgS OS=Bordetella 
+pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251) 
+OX=257313 GN=bvgS PE=1 SV=3
+Length=1238
+
+ Score = 41.3 bits (95),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 28/78 (36%), Positives = 41/78 (53%), Gaps = 2/78 (3%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEV-SKYDGIKVVRFDKFTDAFLELK  59
+            G VIV R+D D  P   + L G+TVA+   +     +  +Y   KVV  D  ++A L + 
+Sbjct  394  GMVIVTRQDPD-APVDADHLDGRTVALVRNSAAIPLLQRRYPQAKVVTADNPSEAMLMVA  452
+
+Query  60   RGRADAVVLDSATARAFV  77
+             G+ADAVV    +A  +V
+Sbjct  453  NGQADAVVQTQISASYYV  470
+
+
+> sp|P39906|AABA_DICNO Amino-acid-binding protein AabA OS=Dichelobacter 
+nodosus OX=870 GN=aabA PE=3 SV=1
+Length=253
+
+ Score = 40.5 bits (93),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/76 (28%), Positives = 31/76 (41%), Gaps = 6/76 (8%)
+
+Query  5    VVRKDSDFRPKTYEDLVGKTVAVQIGTTGD---IEVSKYDGIKVVRFDKFTDAFLELKRG  61
+            + + DS    KT +DL  K V+V  G+  +    E+ K     V+       A   + +G
+Sbjct  120  ITKDDS---IKTIQDLANKKVSVWTGSNHEQKIKEIQKEGTGSVIPAKSIFLAVKAVIQG  176
+
+Query  62   RADAVVLDSATARAFV  77
+             AD  V D A    F 
+Sbjct  177  EADVAVGDDAYMLNFA  192
+
+
+> sp|Q9Z869|ARTJ_CHLPN Probable ABC transporter arginine-binding 
+protein ArtJ OS=Chlamydia pneumoniae OX=83558 GN=artJ PE=1 
+SV=1
+Length=259
+
+ Score = 40.1 bits (92),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 19/63 (30%), Positives = 33/63 (52%), Gaps = 0/63 (0%)
+
+Query  24   TVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFVAKNPDL  83
+            +VAVQ GT  +  +    GI V  FD   +  +E++ G++   VL+ +  R  +   P+L
+Sbjct  141  SVAVQTGTFQEHYLLSQPGICVRSFDSTLEVIMEVRYGKSPVAVLEPSVGRVVLKDFPNL  200
+
+Query  84   VIS  86
+            V +
+Sbjct  201  VAT  203
+
+
+> sp|O84385|ARTJ_CHLTR Probable ABC transporter arginine-binding 
+protein ArtJ OS=Chlamydia trachomatis (strain D/UW-3/Cx) OX=272561 
+GN=artJ PE=1 SV=1
+Length=257
+
+ Score = 40.1 bits (92),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 18/86 (21%), Positives = 39/86 (45%), Gaps = 2/86 (2%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRG  61
+             +++V K  +  P        ++VAVQ GT  +  +     + +  FD   +  +E+  G
+Sbjct  123  HLVLVFKGENKHPLPLTQY--RSVAVQTGTYQEAYLQSLSEVHIRSFDSTLEVLMEVMHG  180
+
+Query  62   RADAVVLDSATARAFVAKNPDLVISS  87
+            ++   VL+ + A+  +   P L  ++
+Sbjct  181  KSPVAVLEPSIAQVVLKDFPALSTAT  206
+
+
+> sp|P35120|NOCT_AGRFC Nopaline-binding periplasmic protein OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=nocT 
+PE=1 SV=2
+Length=283
+
+ Score = 39.7 bits (91),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 14/64 (22%), Positives = 29/64 (45%), Gaps = 2/64 (3%)
+
+Query  20   LVGKTVAVQIGTTGDIEVSKY-DGIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFVA  78
+              G    VQ GT+ +  + +    +++  +D   +  ++LK GR DA +   +  +  + 
+Sbjct  157  FEGVKFGVQAGTSHEAFMKQMMPSVQISTYDTIDNVVMDLKAGRIDASLASVSFLKP-LT  215
+
+Query  79   KNPD  82
+              PD
+Sbjct  216  DKPD  219
+
+
+> sp|P52626|PATH_VIBHA Putative amino-acid ABC transporter-binding 
+protein PatH OS=Vibrio harveyi OX=669 GN=patH PE=3 SV=1
+Length=248
+
+ Score = 39.3 bits (90),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 26/80 (33%), Positives = 40/80 (50%), Gaps = 2/80 (3%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFL-ELK  59
+            G  I VRK +D   +  EDL GKTVAV +G+  +  +  YD    +    +      ++ 
+Sbjct  109  GAQITVRKGND-SIQGVEDLAGKTVAVNLGSNFEQLLRDYDKDGKINIKTYDTGIEHDVA  167
+
+Query  60   RGRADAVVLDSATARAFVAK  79
+             GRADA ++D  +A   + K
+Sbjct  168  LGRADAFIMDRLSALELIKK  187
+
+
+> sp|P0AEQ3|GLNH_ECOLI Glutamine-binding periplasmic protein OS=Escherichia 
+coli (strain K12) OX=83333 GN=glnH PE=1 SV=1
+Length=248
+
+ Score = 38.2 bits (87),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 25/78 (32%), Positives = 40/78 (51%), Gaps = 1/78 (1%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVR-FDKFTDAFLELKRG  61
+            ++V+ K ++   K+ +DL GK VAV+ GT            K +R F    +A++EL   
+Sbjct  112  LLVMVKANNNDVKSVKDLDGKVVAVKSGTGSVDYAKANIKTKDLRQFPNIDNAYMELGTN  171
+
+Query  62   RADAVVLDSATARAFVAK  79
+            RADAV+ D+     F+  
+Sbjct  172  RADAVLHDTPNILYFIKT  189
+
+
+> sp|P0AEQ4|GLNH_ECOL6 Glutamine-binding periplasmic protein OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=glnH PE=3 SV=1
+Length=248
+
+ Score = 38.2 bits (87),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 25/78 (32%), Positives = 40/78 (51%), Gaps = 1/78 (1%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVR-FDKFTDAFLELKRG  61
+            ++V+ K ++   K+ +DL GK VAV+ GT            K +R F    +A++EL   
+Sbjct  112  LLVMVKANNNDVKSVKDLDGKVVAVKSGTGSVDYAKANIKTKDLRQFPNIDNAYMELGTN  171
+
+Query  62   RADAVVLDSATARAFVAK  79
+            RADAV+ D+     F+  
+Sbjct  172  RADAVLHDTPNILYFIKT  189
+
+
+> sp|P0AEQ5|GLNH_ECO57 Glutamine-binding periplasmic protein OS=Escherichia 
+coli O157:H7 OX=83334 GN=glnH PE=3 SV=1
+Length=248
+
+ Score = 38.2 bits (87),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 25/78 (32%), Positives = 40/78 (51%), Gaps = 1/78 (1%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVR-FDKFTDAFLELKRG  61
+            ++V+ K ++   K+ +DL GK VAV+ GT            K +R F    +A++EL   
+Sbjct  112  LLVMVKANNNDVKSVKDLDGKVVAVKSGTGSVDYAKANIKTKDLRQFPNIDNAYMELGTN  171
+
+Query  62   RADAVVLDSATARAFVAK  79
+            RADAV+ D+     F+  
+Sbjct  172  RADAVLHDTPNILYFIKT  189
+
+
+> sp|P0A4F8|OCCT_RHIRD Octopine-binding periplasmic protein OS=Rhizobium 
+radiobacter OX=358 GN=occT PE=1 SV=1
+Length=276
+
+ Score = 37.0 bits (84),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 32/66 (48%), Gaps = 3/66 (5%)
+
+Query  20   LVGKTVAVQIGTTGDIEVSKYD--GIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFV  77
+            L G TV VQ  TT    + KY    + +  +    +  L+L  GR DAV+  +AT  A  
+Sbjct  151  LNGTTVGVQGSTTASTFLDKYFKGSVDIKEYKSVEEHNLDLTSGRLDAVLA-NATVLAAA  209
+
+Query  78   AKNPDL  83
+             + P++
+Sbjct  210  IEKPEM  215
+
+
+> sp|P0A4F9|OCCT_AGRT4 Octopine-binding periplasmic protein OS=Agrobacterium 
+tumefaciens (strain Ach5) OX=176298 GN=occT PE=3 
+SV=1
+Length=276
+
+ Score = 37.0 bits (84),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 32/66 (48%), Gaps = 3/66 (5%)
+
+Query  20   LVGKTVAVQIGTTGDIEVSKYD--GIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFV  77
+            L G TV VQ  TT    + KY    + +  +    +  L+L  GR DAV+  +AT  A  
+Sbjct  151  LNGTTVGVQGSTTASTFLDKYFKGSVDIKEYKSVEEHNLDLTSGRLDAVLA-NATVLAAA  209
+
+Query  78   AKNPDL  83
+             + P++
+Sbjct  210  IEKPEM  215
+
+
+> sp|P72298|OCCT_RHIML Octopine-binding periplasmic protein OS=Rhizobium 
+meliloti OX=382 GN=occT PE=3 SV=1
+Length=294
+
+ Score = 37.0 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 30/66 (45%), Gaps = 3/66 (5%)
+
+Query  20   LVGKTVAVQIGTTGDIEVSKY--DGIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFV  77
+            L G TV VQ  TTG   +  Y  + + +  +    +  ++L  GR DAV   +    A  
+Sbjct  151  LDGTTVGVQGSTTGSQFLENYFKNSVDIKEYKTVEEFNIDLMSGRVDAVFASATVLTAAF  210
+
+Query  78   AKNPDL  83
+             + PD+
+Sbjct  211  EQ-PDM  215
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.295    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5036639460
+Results from round 3
+
+
+Query= 6GPM:A
+
+Length=92
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P30860|ARTJ_ECOLI ABC transporter arginine-binding protein 1...  94.0    6e-24
+  sp|P0AEM9|TCYJ_ECOLI L-cystine-binding protein TcyJ OS=Escheric...  85.9    1e-20
+  sp|P0AEN0|TCYJ_ECOL6 L-cystine-binding protein TcyJ OS=Escheric...  85.9    1e-20
+  sp|P30859|ARTI_ECOLI Putative ABC transporter arginine-binding ...  82.0    2e-19
+  sp|O84385|ARTJ_CHLTR Probable ABC transporter arginine-binding ...  78.6    5e-18
+  sp|P0AEU0|HISJ_ECOLI Histidine-binding periplasmic protein OS=E...  77.0    2e-17
+  sp|P0AEU1|HISJ_ECOL6 Histidine-binding periplasmic protein OS=E...  77.0    2e-17
+  sp|P0AEU2|HISJ_ECO57 Histidine-binding periplasmic protein OS=E...  77.0    2e-17
+  sp|P45024|Y1080_HAEIN Probable amino-acid ABC transporter-bindi...  75.9    5e-17
+  sp|P02910|HISJ_SALTY Histidine-binding periplasmic protein OS=S...  75.1    1e-16
+  sp|P54535|ARTP_BACSU Arginine-binding extracellular protein Art...  73.6    4e-16
+  sp|P49618|LAPT_MANHA Arginine-binding periplasmic protein OS=Ma...  72.8    6e-16
+  sp|P27676|GLNH_GEOSE Glutamine-binding protein OS=Geobacillus s...  72.4    1e-15
+  sp|Q9ZF60|GLTI_SALTY Glutamate/aspartate import solute-binding ...  72.8    1e-15
+  sp|Q46125|HISJ_CAMJE Probable histidine-binding protein OS=Camp...  71.6    2e-15
+  sp|P52626|PATH_VIBHA Putative amino-acid ABC transporter-bindin...  71.3    2e-15
+  sp|P02911|ARGT_SALTY Lysine/arginine/ornithine-binding periplas...  69.3    2e-14
+  sp|Q8RQL6|GLUB_COREF Glutamate-binding protein OS=Corynebacteri...  69.3    2e-14
+  sp|Q9Z869|ARTJ_CHLPN Probable ABC transporter arginine-binding ...  68.6    3e-14
+  sp|P54952|YXEM_BACSU Probable amino-acid-binding protein YxeM O...  68.6    3e-14
+  sp|P09551|ARGT_ECOLI Lysine/arginine/ornithine-binding periplas...  68.2    4e-14
+  sp|P37902|GLTI_ECOLI Glutamate/aspartate import solute-binding ...  67.8    9e-14
+  sp|P16575|BVGS_BORPE Virulence sensor protein BvgS OS=Bordetell...  67.8    1e-13
+  sp|O34563|GLNH_BACSU ABC transporter glutamine-binding protein ...  66.3    2e-13
+  sp|P48242|GLUB_CORGL Glutamate-binding protein OS=Corynebacteri...  66.3    3e-13
+  sp|Q06758|HISJ_NEIGO Probable histidine-binding protein OS=Neis...  62.4    6e-12
+  sp|P45091|ARTI_HAEIN ABC transporter arginine-binding protein O...  61.2    1e-11
+  sp|P39906|AABA_DICNO Amino-acid-binding protein AabA OS=Dichelo...  60.5    3e-11
+  sp|P35120|NOCT_AGRFC Nopaline-binding periplasmic protein OS=Ag...  57.8    3e-10
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P40330|BVGS_BORPA Virulence sensor protein BvgS OS=Bordetell...  61.2    2e-11
+  sp|P26762|BVGS_BORBR Virulence sensor protein BvgS OS=Bordetell...  61.2    3e-11
+  sp|P0AEQ3|GLNH_ECOLI Glutamine-binding periplasmic protein OS=E...  47.8    1e-06
+  sp|P0AEQ4|GLNH_ECOL6 Glutamine-binding periplasmic protein OS=E...  47.8    1e-06
+  sp|P0AEQ5|GLNH_ECO57 Glutamine-binding periplasmic protein OS=E...  47.8    1e-06
+  sp|P42400|YCKB_BACSU Probable ABC transporter extracellular-bin...  46.2    4e-06
+  sp|P42199|TCYA_BACSU L-cystine-binding protein TcyA OS=Bacillus...  45.5    7e-06
+  sp|Q52812|AAPJ_RHIL3 General L-amino acid-binding periplasmic p...  44.7    2e-05
+  sp|P72298|OCCT_RHIML Octopine-binding periplasmic protein OS=Rh...  43.9    3e-05
+  sp|B1JRW4|MLTF_YERPY Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|Q667W0|MLTF_YERPS Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|A4TMX8|MLTF_YERPP Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|Q1CKD3|MLTF_YERPN Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|A9R413|MLTF_YERPG Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|Q74SQ6|MLTF_YERPE Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|B2KA37|MLTF_YERPB Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|Q1C5E6|MLTF_YERPA Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|A7FFU9|MLTF_YERP3 Membrane-bound lytic murein transglycosyla...  42.8    7e-05
+  sp|P0A4F8|OCCT_RHIRD Octopine-binding periplasmic protein OS=Rh...  42.8    8e-05
+  sp|P0A4F9|OCCT_AGRT4 Octopine-binding periplasmic protein OS=Ag...  42.8    8e-05
+  sp|Q5QWY4|MLTF_IDILO Membrane-bound lytic murein transglycosyla...  42.8    9e-05
+  sp|P58068|YHDW_ECO57 Putative amino-acid ABC transporter-bindin...  40.4    5e-04
+  sp|P45766|YHDW_ECOLI Putative amino-acid ABC transporter-bindin...  40.4    5e-04
+  sp|Q3KHL5|MLTF_PSEPF Membrane-bound lytic murein transglycosyla...  40.1    8e-04
+  sp|Q4KHS7|MLTF_PSEF5 Membrane-bound lytic murein transglycosyla...  39.7    0.001
+
+
+> sp|P30860|ARTJ_ECOLI ABC transporter arginine-binding protein 
+1 OS=Escherichia coli (strain K12) OX=83333 GN=artJ PE=1 SV=2
+Length=243
+
+ Score = 94.0 bits (232),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 28/86 (33%), Positives = 51/86 (59%), Gaps = 4/86 (5%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVS-KYDGIKVVRFDKFTDAFLELKRG  61
+            V++ +KD+    KT+ DL GK + ++ GTT    +  ++  +K V +D + +AF++LK G
+Sbjct  110  VVIAKKDTY---KTFADLKGKRIGMENGTTHQKYIQDQHPEVKTVSYDSYQNAFIDLKNG  166
+
+Query  62   RADAVVLDSATARAFVAKNPDLVISS  87
+            R D V  D+A    ++  NP L +++
+Sbjct  167  RIDGVFGDTAVVNEWLKTNPQLGVAT  192
+
+
+> sp|P0AEM9|TCYJ_ECOLI L-cystine-binding protein TcyJ OS=Escherichia 
+coli (strain K12) OX=83333 GN=tcyJ PE=1 SV=1
+Length=266
+
+ Score = 85.9 bits (211),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 46/89 (52%), Gaps = 1/89 (1%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            G   +V+K ++   KT +DL GK V V +GT  +  + +   G+ V  +D     + +L+
+Sbjct  128  GIQALVKKGNEGTIKTADDLKGKKVGVGLGTNYEEWLRQNVQGVDVRTYDDDPTKYQDLR  187
+
+Query  60   RGRADAVVLDSATARAFVAKNPDLVISSG  88
+             GR DA+++D   A   V K  D +  +G
+Sbjct  188  VGRIDAILVDRLAALDLVKKTNDTLAVTG  216
+
+
+> sp|P0AEN0|TCYJ_ECOL6 L-cystine-binding protein TcyJ OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=tcyJ PE=3 SV=1
+Length=266
+
+ Score = 85.9 bits (211),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 46/89 (52%), Gaps = 1/89 (1%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            G   +V+K ++   KT +DL GK V V +GT  +  + +   G+ V  +D     + +L+
+Sbjct  128  GIQALVKKGNEGTIKTADDLKGKKVGVGLGTNYEEWLRQNVQGVDVRTYDDDPTKYQDLR  187
+
+Query  60   RGRADAVVLDSATARAFVAKNPDLVISSG  88
+             GR DA+++D   A   V K  D +  +G
+Sbjct  188  VGRIDAILVDRLAALDLVKKTNDTLAVTG  216
+
+
+> sp|P30859|ARTI_ECOLI Putative ABC transporter arginine-binding 
+protein 2 OS=Escherichia coli (strain K12) OX=83333 GN=artI 
+PE=1 SV=3
+Length=243
+
+ Score = 82.0 bits (201),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 25/72 (35%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
+
+Query  16   TYEDLVGKTVAVQIGTTGDIE-VSKYDGIKVVRFDKFTDAFLELKRGRADAVVLDSATAR  74
+            + + L GK V VQ GTT     + K+  I  V +D + +A L+L+ GR D V  D+A   
+Sbjct  120  SVDQLKGKKVGVQNGTTHQKFIMDKHPEITTVPYDSYQNAKLDLQNGRIDGVFGDTAVVT  179
+
+Query  75   AFVAKNPDLVIS  86
+             ++  NP L   
+Sbjct  180  EWLKDNPKLAAV  191
+
+
+> sp|O84385|ARTJ_CHLTR Probable ABC transporter arginine-binding 
+protein ArtJ OS=Chlamydia trachomatis (strain D/UW-3/Cx) OX=272561 
+GN=artJ PE=1 SV=1
+Length=257
+
+ Score = 78.6 bits (192),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 18/86 (21%), Positives = 39/86 (45%), Gaps = 2/86 (2%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRG  61
+             +++V K  +  P        ++VAVQ GT  +  +     + +  FD   +  +E+  G
+Sbjct  123  HLVLVFKGENKHPLPLTQY--RSVAVQTGTYQEAYLQSLSEVHIRSFDSTLEVLMEVMHG  180
+
+Query  62   RADAVVLDSATARAFVAKNPDLVISS  87
+            ++   VL+ + A+  +   P L  ++
+Sbjct  181  KSPVAVLEPSIAQVVLKDFPALSTAT  206
+
+
+> sp|P0AEU0|HISJ_ECOLI Histidine-binding periplasmic protein OS=Escherichia 
+coli (strain K12) OX=83333 GN=hisJ PE=1 SV=1
+Length=260
+
+ Score = 77.0 bits (188),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/83 (34%), Positives = 41/83 (49%), Gaps = 4/83 (5%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              +VV K+SD +P T E L GK V V  GTT +   +++    GI++V +    + + +L
+Sbjct  114  SRLVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDL  172
+
+Query  59   KRGRADAVVLDSATARAFVAKNP  81
+              GR DA   D   A     K P
+Sbjct  173  TAGRIDAAFQDEVAASEGFLKQP  195
+
+
+> sp|P0AEU1|HISJ_ECOL6 Histidine-binding periplasmic protein OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=hisJ PE=3 SV=1
+Length=260
+
+ Score = 77.0 bits (188),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/83 (34%), Positives = 41/83 (49%), Gaps = 4/83 (5%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              +VV K+SD +P T E L GK V V  GTT +   +++    GI++V +    + + +L
+Sbjct  114  SRLVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDL  172
+
+Query  59   KRGRADAVVLDSATARAFVAKNP  81
+              GR DA   D   A     K P
+Sbjct  173  TAGRIDAAFQDEVAASEGFLKQP  195
+
+
+> sp|P0AEU2|HISJ_ECO57 Histidine-binding periplasmic protein OS=Escherichia 
+coli O157:H7 OX=83334 GN=hisJ PE=3 SV=1
+Length=260
+
+ Score = 77.0 bits (188),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/83 (34%), Positives = 41/83 (49%), Gaps = 4/83 (5%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              +VV K+SD +P T E L GK V V  GTT +   +++    GI++V +    + + +L
+Sbjct  114  SRLVVAKNSDIQP-TVESLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDL  172
+
+Query  59   KRGRADAVVLDSATARAFVAKNP  81
+              GR DA   D   A     K P
+Sbjct  173  TAGRIDAAFQDEVAASEGFLKQP  195
+
+
+> sp|P45024|Y1080_HAEIN Probable amino-acid ABC transporter-binding 
+protein HI_1080 OS=Haemophilus influenzae (strain ATCC 
+51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=HI_1080 PE=1 SV=1
+Length=257
+
+ Score = 75.9 bits (185),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 21/82 (26%), Positives = 43/82 (52%), Gaps = 1/82 (1%)
+
+Query  4    IVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRGRA  63
+            ++V K SD   K++EDL G+  + Q  T+   + +K  G +++  D    +   +K+GRA
+Sbjct  123  VIVTKSSDNSIKSFEDLKGRK-SAQSATSNWGKDAKAAGAQILVVDGLAQSLELIKQGRA  181
+
+Query  64   DAVVLDSATARAFVAKNPDLVI  85
+            +A + D      +  ++P+  +
+Sbjct  182  EATINDKLAVLDYFKQHPNSGL  203
+
+
+> sp|P02910|HISJ_SALTY Histidine-binding periplasmic protein OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=hisJ PE=1 SV=1
+Length=260
+
+ Score = 75.1 bits (183),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 27/83 (33%), Positives = 40/83 (48%), Gaps = 4/83 (5%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              +VV K+SD +P T   L GK V V  GTT +   +++    GI++V +    + + +L
+Sbjct  114  SRLVVAKNSDIQP-TVASLKGKRVGVLQGTTQETFGNEHWAPKGIEIVSYQGQDNIYSDL  172
+
+Query  59   KRGRADAVVLDSATARAFVAKNP  81
+              GR DA   D   A     K P
+Sbjct  173  TAGRIDAAFQDEVAASEGFLKQP  195
+
+
+> sp|P54535|ARTP_BACSU Arginine-binding extracellular protein ArtP 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=artP PE=1 
+SV=1
+Length=255
+
+ Score = 73.6 bits (179),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 28/86 (33%), Positives = 45/86 (52%), Gaps = 5/86 (6%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGD---IEVSKYDGIKVVRFDKFTDAFLE  57
+              +IV +KDS    ++ +DL GKTV VQ+G+  +    E+S   G K    ++ +D   E
+Sbjct  118  NHMIVSKKDSG--IQSLKDLKGKTVGVQLGSIQEEKGKELSPEYGFKTEDRNRISDLVQE  175
+
+Query  58   LKRGRADAVVLDSATARAFVAKNPDL  83
+            +K  R DA +++   A  +   N DL
+Sbjct  176  IKSDRFDAAIIEDIVAEGYFKSNDDL  201
+
+
+> sp|P49618|LAPT_MANHA Arginine-binding periplasmic protein OS=Mannheimia 
+haemolytica OX=75985 GN=lapT PE=3 SV=1
+Length=237
+
+ Score = 72.8 bits (177),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 36/80 (45%), Gaps = 8/80 (10%)
+
+Query  5    VVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYD-GIKVVRFDKFTDAFLELKRGRA  63
+            + +KD+DF          KT+ VQ GTT    ++K      V  +  + +A L+++ GR 
+Sbjct  109  IAKKDTDFA-------KVKTIGVQNGTTYQHYLAKEKKEYNVKSYASYQNAILDVQNGRI  161
+
+Query  64   DAVVLDSATARAFVAKNPDL  83
+            DA+  D         K+  L
+Sbjct  162  DAIFGDVPVLAEMARKHEGL  181
+
+
+> sp|P27676|GLNH_GEOSE Glutamine-binding protein OS=Geobacillus 
+stearothermophilus OX=1422 GN=glnH PE=3 SV=1
+Length=262
+
+ Score = 72.4 bits (176),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 26/84 (31%), Positives = 44/84 (52%), Gaps = 4/84 (5%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLV-GKTVAVQIGTTGDIEVSKY-DGIKVVRFDKFTDAFLEL  58
+            GQ ++V+KDS     + +DL  G TV    G+T    + K    + V+ F+ + +AF  L
+Sbjct  150  GQSLLVKKDSKIN--SVKDLKKGMTVLTAKGSTSAQNIRKVAPEVNVLEFENYAEAFTAL  207
+
+Query  59   KRGRADAVVLDSATARAFVAKNPD  82
+            K G+ DA+  D+A       ++P+
+Sbjct  208  KAGQGDALTTDNALLWGMAKQDPN  231
+
+
+> sp|Q9ZF60|GLTI_SALTY Glutamate/aspartate import solute-binding 
+protein OS=Salmonella typhimurium (strain LT2 / SGSC1412 / 
+ATCC 700720) OX=99287 GN=gltI PE=3 SV=3
+Length=302
+
+ Score = 72.8 bits (177),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 29/89 (33%), Positives = 44/89 (49%), Gaps = 9/89 (10%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYD-----GIKVVRFDKFTDAF  55
+            G  ++ +K  D   K + DL GK V V  GTT +I + K +     G++++      D+F
+Sbjct  134  GTRLLTKKGGD--IKDFPDLKGKAVVVTSGTTSEILLHKLNEEQKMGMRIISAKDHGDSF  191
+
+Query  56   LELKRGRADAVVLDSATARA--FVAKNPD  82
+              L+ GRA A ++D A        AK PD
+Sbjct  192  RTLESGRAVAFMMDDALLAGERAKAKKPD  220
+
+
+> sp|Q46125|HISJ_CAMJE Probable histidine-binding protein OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=hisJ PE=1 SV=1
+Length=256
+
+ Score = 71.6 bits (174),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 26/75 (35%), Positives = 39/75 (52%), Gaps = 0/75 (0%)
+
+Query  10   SDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRGRADAVVLD  69
+            ++   +T  DL GK + VQ+GT  +         +V        A L LK  + DA+V D
+Sbjct  131  NNDSLQTKNDLEGKKIGVQLGTLQENTAKAIKNAQVQSNKDLNIAVLALKNNKIDAIVAD  190
+
+Query  70   SATARAFVAKNPDLV  84
+              TA+ F+A+NP+LV
+Sbjct  191  QDTAKGFLAENPELV  205
+
+
+> sp|P52626|PATH_VIBHA Putative amino-acid ABC transporter-binding 
+protein PatH OS=Vibrio harveyi OX=669 GN=patH PE=3 SV=1
+Length=248
+
+ Score = 71.3 bits (173),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 26/81 (32%), Positives = 40/81 (49%), Gaps = 2/81 (2%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFL-ELK  59
+            G  I VRK +D   +  EDL GKTVAV +G+  +  +  YD    +    +      ++ 
+Sbjct  109  GAQITVRKGND-SIQGVEDLAGKTVAVNLGSNFEQLLRDYDKDGKINIKTYDTGIEHDVA  167
+
+Query  60   RGRADAVVLDSATARAFVAKN  80
+             GRADA ++D  +A   + K 
+Sbjct  168  LGRADAFIMDRLSALELIKKT  188
+
+
+> sp|P02911|ARGT_SALTY Lysine/arginine/ornithine-binding periplasmic 
+protein OS=Salmonella typhimurium (strain LT2 / SGSC1412 
+/ ATCC 700720) OX=99287 GN=argT PE=1 SV=2
+Length=260
+
+ Score = 69.3 bits (168),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 36/83 (43%), Gaps = 4/83 (5%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVS---KYDGIKVVRFDKFTDAFLEL  58
+              ++  K S  +P T E L GK V V  G+T +   +   +  G+ VV +      + +L
+Sbjct  114  SRLIAAKGSPIQP-TLESLKGKHVGVLQGSTQEAYANDNWRTKGVDVVAYANQDLIYSDL  172
+
+Query  59   KRGRADAVVLDSATARAFVAKNP  81
+              GR DA + D   A     K P
+Sbjct  173  TAGRLDAALQDEVAASEGFLKQP  195
+
+
+> sp|Q8RQL6|GLUB_COREF Glutamate-binding protein OS=Corynebacterium 
+efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189 
+/ NBRC 100395) OX=196164 GN=gluB PE=3 SV=1
+Length=294
+
+ Score = 69.3 bits (168),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 39/80 (49%), Gaps = 3/80 (4%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLV-GKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            Q ++VR+D D R +T EDL  G  +    G+T   +V     G+++  +D ++     L 
+Sbjct  138  QALLVREDDD-RIQTLEDLDDGLILCSVTGSTPAQKVKDVLPGVQLQEYDTYSSCVEALS  196
+
+Query  60   RGRADAVVLDSATARAFVAK  79
+            +G  DA+  D+     +  +
+Sbjct  197  QGNVDAMTTDATILFGYAQQ  216
+
+
+> sp|Q9Z869|ARTJ_CHLPN Probable ABC transporter arginine-binding 
+protein ArtJ OS=Chlamydia pneumoniae OX=83558 GN=artJ PE=1 
+SV=1
+Length=259
+
+ Score = 68.6 bits (166),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 20/84 (24%), Positives = 39/84 (46%), Gaps = 2/84 (2%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRGR  62
+            ++V ++  +            +VAVQ GT  +  +    GI V  FD   +  +E++ G+
+Sbjct  122  MVVSKRSLETPVLPLTQY--SSVAVQTGTFQEHYLLSQPGICVRSFDSTLEVIMEVRYGK  179
+
+Query  63   ADAVVLDSATARAFVAKNPDLVIS  86
+            +   VL+ +  R  +   P+LV +
+Sbjct  180  SPVAVLEPSVGRVVLKDFPNLVAT  203
+
+
+> sp|P54952|YXEM_BACSU Probable amino-acid-binding protein YxeM 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yxeM PE=1 SV=1
+Length=264
+
+ Score = 68.6 bits (166),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 23/83 (28%), Positives = 36/83 (43%), Gaps = 4/83 (5%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEV---SKYDGIKVVRFDKFTDAFLE  57
+            G  IVV+KD+    K+ +DL GKTVA  +G+     +        I +  ++       +
+Sbjct  119  GTQIVVKKDN-TDIKSVDDLKGKTVAAVLGSNHAKNLESKDPDKKINIKTYETQEGTLKD  177
+
+Query  58   LKRGRADAVVLDSATARAFVAKN  80
+            +  GR DA V       A + K 
+Sbjct  178  VAYGRVDAYVNSRTVLIAQIKKT  200
+
+
+> sp|P09551|ARGT_ECOLI Lysine/arginine/ornithine-binding periplasmic 
+protein OS=Escherichia coli (strain K12) OX=83333 GN=argT 
+PE=1 SV=3
+Length=260
+
+ Score = 68.2 bits (165),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/83 (28%), Positives = 36/83 (43%), Gaps = 4/83 (5%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLEL  58
+              ++  K S  +P T + L GK V V  G+T +   ++     G+ VV +      + +L
+Sbjct  114  SRLIAAKGSPIQP-TLDSLKGKHVGVLQGSTQEAYANETWRSKGVDVVAYANQDLVYSDL  172
+
+Query  59   KRGRADAVVLDSATARAFVAKNP  81
+              GR DA + D   A     K P
+Sbjct  173  AAGRLDAALQDEVAASEGFLKQP  195
+
+
+> sp|P37902|GLTI_ECOLI Glutamate/aspartate import solute-binding 
+protein OS=Escherichia coli (strain K12) OX=83333 GN=gltI 
+PE=1 SV=2
+Length=302
+
+ Score = 67.8 bits (164),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 43/89 (48%), Gaps = 9/89 (10%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDG-----IKVVRFDKFTDAF  55
+            G  ++ +K  D   K + +L  K V V  GTT ++ ++K +      ++++      D+F
+Sbjct  134  GTRLLTKKGGD--IKDFANLKDKAVVVTSGTTSEVLLNKLNEEQKMNMRIISAKDHGDSF  191
+
+Query  56   LELKRGRADAVVLDSATARA--FVAKNPD  82
+              L+ GRA A ++D A        AK PD
+Sbjct  192  RTLESGRAVAFMMDDALLAGERAKAKKPD  220
+
+
+> sp|P16575|BVGS_BORPE Virulence sensor protein BvgS OS=Bordetella 
+pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251) 
+OX=257313 GN=bvgS PE=1 SV=3
+Length=1238
+
+ Score = 67.8 bits (164),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 28/78 (36%), Positives = 41/78 (53%), Gaps = 2/78 (3%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEV-SKYDGIKVVRFDKFTDAFLELK  59
+            G VIV R+D D  P   + L G+TVA+   +     +  +Y   KVV  D  ++A L + 
+Sbjct  394  GMVIVTRQDPD-APVDADHLDGRTVALVRNSAAIPLLQRRYPQAKVVTADNPSEAMLMVA  452
+
+Query  60   RGRADAVVLDSATARAFV  77
+             G+ADAVV    +A  +V
+Sbjct  453  NGQADAVVQTQISASYYV  470
+
+
+> sp|O34563|GLNH_BACSU ABC transporter glutamine-binding protein 
+GlnH OS=Bacillus subtilis (strain 168) OX=224308 GN=glnH PE=2 
+SV=1
+Length=273
+
+ Score = 66.3 bits (160),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 25/84 (30%), Positives = 41/84 (49%), Gaps = 4/84 (5%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDL-VGKTVAVQIGTTGDIEVS-KYDGIKVVRFDKFTDAFLEL  58
+            GQ ++V+K S    K+ E+L  G  V    G+T    +  K     V+ F+ + +AF  L
+Sbjct  137  GQSLLVKKGSK--IKSVENLGKGSKVLAVKGSTSSQNIREKAPEASVLEFENYAEAFTAL  194
+
+Query  59   KRGRADAVVLDSATARAFVAKNPD  82
+            K G+ DA+  D+A       +N +
+Sbjct  195  KSGQGDALTTDNAILYGMADENKN  218
+
+
+> sp|P48242|GLUB_CORGL Glutamate-binding protein OS=Corynebacterium 
+glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / 
+LMG 3730 / NCIMB 10025) OX=196627 GN=gluB PE=3 SV=1
+Length=295
+
+ Score = 66.3 bits (160),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 39/80 (49%), Gaps = 3/80 (4%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLV-GKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            Q ++VR+D D R +T EDL  G  +    G+T   +V     G+++  +D ++     L 
+Sbjct  138  QALLVRQDDD-RIETLEDLDNGLILCSVSGSTPAQKVKDVLPGVQLQEYDTYSSCVEALS  196
+
+Query  60   RGRADAVVLDSATARAFVAK  79
+            +G  DA+  D+     +  +
+Sbjct  197  QGNVDALTTDATILFGYSQQ  216
+
+
+> sp|Q06758|HISJ_NEIGO Probable histidine-binding protein OS=Neisseria 
+gonorrhoeae OX=485 GN=hisJ PE=3 SV=1
+Length=268
+
+ Score = 62.4 bits (150),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 31/88 (35%), Positives = 41/88 (47%), Gaps = 6/88 (7%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGK-TVAVQIGTTGDIEVSKY---DGIKVVRFDKFTDAFLE  57
+            QV++V K       + +DL     V V  G TGD  VSK    D  K+ RF+       E
+Sbjct  125  QVVLVPKGKKVS--SSDDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKE  182
+
+Query  58   LKRGRADAVVLDSATARAFVAKNPDLVI  85
+            L+ G  D+VV DSA    +V  NP   +
+Sbjct  183  LENGGLDSVVSDSAVIANYVKNNPAKGM  210
+
+
+> sp|P45091|ARTI_HAEIN ABC transporter arginine-binding protein 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / 
+KW20 / Rd) OX=71421 GN=artI PE=1 SV=1
+Length=239
+
+ Score = 61.2 bits (147),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/76 (28%), Positives = 33/76 (43%), Gaps = 2/76 (3%)
+
+Query  10   SDFRPKTYEDLV-GKTVAVQIGTTGDIE-VSKYDGIKVVRFDKFTDAFLELKRGRADAVV  67
+            S    K    L   K + VQ GTT     V++        +    +A L+LK GR D + 
+Sbjct  109  SYVALKGKATLESAKNIGVQNGTTFQQYTVAETKQYSPKSYASLQNAILDLKSGRIDIIF  168
+
+Query  68   LDSATARAFVAKNPDL  83
+             D+A     ++K P++
+Sbjct  169  GDTAVLADMISKEPEI  184
+
+
+> sp|P40330|BVGS_BORPA Virulence sensor protein BvgS OS=Bordetella 
+parapertussis (strain 12822 / ATCC BAA-587 / NCTC 13253) 
+OX=257311 GN=bvgS PE=3 SV=2
+Length=1238
+
+ Score = 61.2 bits (147),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/78 (35%), Positives = 40/78 (51%), Gaps = 2/78 (3%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            G VIV R+D    P   + L G+T+A+   +     + + Y   KVV  D  T+A L + 
+Sbjct  394  GMVIVTRQDP-AAPADADHLDGRTIAMVRNSAAIPLLQQRYPQAKVVTADNPTEAMLLVA  452
+
+Query  60   RGRADAVVLDSATARAFV  77
+             G+ADAVV    +A  +V
+Sbjct  453  DGQADAVVQTQISASYYV  470
+
+
+> sp|P39906|AABA_DICNO Amino-acid-binding protein AabA OS=Dichelobacter 
+nodosus OX=870 GN=aabA PE=3 SV=1
+Length=253
+
+ Score = 60.5 bits (145),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 19/71 (27%), Positives = 28/71 (39%), Gaps = 3/71 (4%)
+
+Query  10   SDFRPKTYEDLVGKTVAVQIGTTGDIEVS---KYDGIKVVRFDKFTDAFLELKRGRADAV  66
+             D   KT +DL  K V+V  G+  + ++    K     V+       A   + +G AD  
+Sbjct  122  KDDSIKTIQDLANKKVSVWTGSNHEQKIKEIQKEGTGSVIPAKSIFLAVKAVIQGEADVA  181
+
+Query  67   VLDSATARAFV  77
+            V D A    F 
+Sbjct  182  VGDDAYMLNFA  192
+
+
+> sp|P26762|BVGS_BORBR Virulence sensor protein BvgS OS=Bordetella 
+bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50) 
+OX=257310 GN=bvgS PE=3 SV=2
+Length=1238
+
+ Score = 61.2 bits (147),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/78 (35%), Positives = 40/78 (51%), Gaps = 2/78 (3%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELK  59
+            G VIV R+D    P   + L G+T+A+   +     + + Y   KVV  D  T+A L + 
+Sbjct  394  GMVIVTRQDP-AAPADADHLDGRTIAMVRNSAAIPLLQQRYPQAKVVTADNPTEAMLLVA  452
+
+Query  60   RGRADAVVLDSATARAFV  77
+             G+ADAVV    +A  +V
+Sbjct  453  DGQADAVVQTQISASYYV  470
+
+
+> sp|P35120|NOCT_AGRFC Nopaline-binding periplasmic protein OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=nocT 
+PE=1 SV=2
+Length=283
+
+ Score = 57.8 bits (138),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 14/64 (22%), Positives = 29/64 (45%), Gaps = 2/64 (3%)
+
+Query  20   LVGKTVAVQIGTTGDIEVSKY-DGIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFVA  78
+              G    VQ GT+ +  + +    +++  +D   +  ++LK GR DA +   +  +  + 
+Sbjct  157  FEGVKFGVQAGTSHEAFMKQMMPSVQISTYDTIDNVVMDLKAGRIDASLASVSFLKP-LT  215
+
+Query  79   KNPD  82
+              PD
+Sbjct  216  DKPD  219
+
+
+> sp|P0AEQ3|GLNH_ECOLI Glutamine-binding periplasmic protein OS=Escherichia 
+coli (strain K12) OX=83333 GN=glnH PE=1 SV=1
+Length=248
+
+ Score = 47.8 bits (112),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 39/77 (51%), Gaps = 1/77 (1%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELKRG  61
+            ++V+ K ++   K+ +DL GK VAV+ GT              + +F    +A++EL   
+Sbjct  112  LLVMVKANNNDVKSVKDLDGKVVAVKSGTGSVDYAKANIKTKDLRQFPNIDNAYMELGTN  171
+
+Query  62   RADAVVLDSATARAFVA  78
+            RADAV+ D+     F+ 
+Sbjct  172  RADAVLHDTPNILYFIK  188
+
+
+> sp|P0AEQ4|GLNH_ECOL6 Glutamine-binding periplasmic protein OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=glnH PE=3 SV=1
+Length=248
+
+ Score = 47.8 bits (112),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 39/77 (51%), Gaps = 1/77 (1%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELKRG  61
+            ++V+ K ++   K+ +DL GK VAV+ GT              + +F    +A++EL   
+Sbjct  112  LLVMVKANNNDVKSVKDLDGKVVAVKSGTGSVDYAKANIKTKDLRQFPNIDNAYMELGTN  171
+
+Query  62   RADAVVLDSATARAFVA  78
+            RADAV+ D+     F+ 
+Sbjct  172  RADAVLHDTPNILYFIK  188
+
+
+> sp|P0AEQ5|GLNH_ECO57 Glutamine-binding periplasmic protein OS=Escherichia 
+coli O157:H7 OX=83334 GN=glnH PE=3 SV=1
+Length=248
+
+ Score = 47.8 bits (112),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 39/77 (51%), Gaps = 1/77 (1%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSK-YDGIKVVRFDKFTDAFLELKRG  61
+            ++V+ K ++   K+ +DL GK VAV+ GT              + +F    +A++EL   
+Sbjct  112  LLVMVKANNNDVKSVKDLDGKVVAVKSGTGSVDYAKANIKTKDLRQFPNIDNAYMELGTN  171
+
+Query  62   RADAVVLDSATARAFVA  78
+            RADAV+ D+     F+ 
+Sbjct  172  RADAVLHDTPNILYFIK  188
+
+
+> sp|P42400|YCKB_BACSU Probable ABC transporter extracellular-binding 
+protein YckB OS=Bacillus subtilis (strain 168) OX=224308 
+GN=yckB PE=1 SV=2
+Length=287
+
+ Score = 46.2 bits (108),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 29/84 (35%), Positives = 42/84 (50%), Gaps = 3/84 (4%)
+
+Query  5    VVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDA--FLELKRGR  62
+            +VRKD     KT +DL GK  A    TT  +EV++  G K V +D  T+     ++  GR
+Sbjct  139  IVRKDDLSGIKTLKDLKGKK-AAGAATTVYMEVARKYGAKEVIYDNATNEQYLKDVANGR  197
+
+Query  63   ADAVVLDSATARAFVAKNPDLVIS  86
+             D ++ D       +A  PDL I+
+Sbjct  198  TDVILNDYYLQTLALAAFPDLNIT  221
+
+
+> sp|P42199|TCYA_BACSU L-cystine-binding protein TcyA OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=tcyA PE=1 SV=3
+Length=268
+
+ Score = 45.5 bits (106),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 18/76 (24%), Positives = 33/76 (43%), Gaps = 1/76 (1%)
+
+Query  3    VIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRFDKFTDAFLELKRGR  62
+             +VV K  +   K+  D+ GKT + Q  T+   +++   G KV   +    A   +++GR
+Sbjct  133  AVVVTKKDNNDIKSEADVKGKT-SAQSLTSNYNKLATNAGAKVEGVEGMAQALQMIQQGR  191
+
+Query  63   ADAVVLDSATARAFVA  78
+             D    D      ++ 
+Sbjct  192  VDMTYNDKLAVLNYLK  207
+
+
+> sp|Q52812|AAPJ_RHIL3 General L-amino acid-binding periplasmic 
+protein AapJ OS=Rhizobium leguminosarum bv. viciae (strain 
+3841) OX=216596 GN=aapJ PE=3 SV=1
+Length=341
+
+ Score = 44.7 bits (104),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 24/89 (27%), Positives = 36/89 (40%), Gaps = 9/89 (10%)
+
+Query  1    GQVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYD-----GIKVVRFDKFTDAF  55
+            GQ  +VRK      K+  +L G  + VQ GTT ++ ++ Y          V F+   +  
+Sbjct  126  GQGFMVRKG--LNVKSALELSGAAICVQSGTTTELNLADYFKTNNLQYNPVVFENLPEVN  183
+
+Query  56   LELKRGRADAVVLDSA--TARAFVAKNPD  82
+                 GR D    D +   +     KNPD
+Sbjct  184  AAYDAGRCDVYTTDQSGLYSLRLTLKNPD  212
+
+
+> sp|P72298|OCCT_RHIML Octopine-binding periplasmic protein OS=Rhizobium 
+meliloti OX=382 GN=occT PE=3 SV=1
+Length=294
+
+ Score = 43.9 bits (102),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 7/79 (9%)
+
+Query  11   DFRPKTYED----LVGKTVAVQIGTTGDIEVSKY--DGIKVVRFDKFTDAFLELKRGRAD  64
+            D   K  +D    L G TV VQ  TTG   +  Y  + + +  +    +  ++L  GR D
+Sbjct  138  DAAKKRIDDVNAFLDGTTVGVQGSTTGSQFLENYFKNSVDIKEYKTVEEFNIDLMSGRVD  197
+
+Query  65   AVVLDSATARAFVAKNPDL  83
+            AV   +    A   + PD+
+Sbjct  198  AVFASATVLTAAFEQ-PDM  215
+
+
+> sp|B1JRW4|MLTF_YERPY Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pseudotuberculosis serotype O:3 (strain YPIII) 
+OX=502800 GN=mltF PE=3 SV=2
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|Q667W0|MLTF_YERPS Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pseudotuberculosis serotype I (strain IP32953) 
+OX=273123 GN=mltF PE=3 SV=2
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|A4TMX8|MLTF_YERPP Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pestis (strain Pestoides F) OX=386656 GN=mltF 
+PE=3 SV=2
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|Q1CKD3|MLTF_YERPN Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pestis bv. Antiqua (strain Nepal516) OX=377628 
+GN=mltF PE=3 SV=2
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|A9R413|MLTF_YERPG Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pestis bv. Antiqua (strain Angola) OX=349746 
+GN=mltF PE=3 SV=1
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|Q74SQ6|MLTF_YERPE Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pestis OX=632 GN=mltF PE=1 SV=1
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|B2KA37|MLTF_YERPB Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pseudotuberculosis serotype IB (strain PB1/+) 
+OX=502801 GN=mltF PE=3 SV=2
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|Q1C5E6|MLTF_YERPA Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pestis bv. Antiqua (strain Antiqua) OX=360102 
+GN=mltF PE=3 SV=2
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|A7FFU9|MLTF_YERP3 Membrane-bound lytic murein transglycosylase 
+F OS=Yersinia pseudotuberculosis serotype O:1b (strain 
+IP 31758) OX=349747 GN=mltF PE=3 SV=1
+Length=486
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 38/95 (40%), Gaps = 9/95 (9%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIKVVRF-------DKFTDA  54
+            Q +V R  S  RPK++ DL G+ V V  G+     + +    K               + 
+Sbjct  130  QQLVYRLGSP-RPKSFSDLKGQ-VVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKEL  187
+
+Query  55   FLELKRGRADAVVLDSATARAFVAKNPDLVISSGV  89
+              ++  G+ D  + DSAT       +P L ++  V
+Sbjct  188  LEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDV  222
+
+
+> sp|P0A4F8|OCCT_RHIRD Octopine-binding periplasmic protein OS=Rhizobium 
+radiobacter OX=358 GN=occT PE=1 SV=1
+Length=276
+
+ Score = 42.8 bits (99),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 29/62 (47%), Gaps = 2/62 (3%)
+
+Query  20   LVGKTVAVQIGTTGDIEVSKY--DGIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFV  77
+            L G TV VQ  TT    + KY    + +  +    +  L+L  GR DAV+ ++    A +
+Sbjct  151  LNGTTVGVQGSTTASTFLDKYFKGSVDIKEYKSVEEHNLDLTSGRLDAVLANATVLAAAI  210
+
+Query  78   AK  79
+             K
+Sbjct  211  EK  212
+
+
+> sp|P0A4F9|OCCT_AGRT4 Octopine-binding periplasmic protein OS=Agrobacterium 
+tumefaciens (strain Ach5) OX=176298 GN=occT PE=3 
+SV=1
+Length=276
+
+ Score = 42.8 bits (99),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 29/62 (47%), Gaps = 2/62 (3%)
+
+Query  20   LVGKTVAVQIGTTGDIEVSKY--DGIKVVRFDKFTDAFLELKRGRADAVVLDSATARAFV  77
+            L G TV VQ  TT    + KY    + +  +    +  L+L  GR DAV+ ++    A +
+Sbjct  151  LNGTTVGVQGSTTASTFLDKYFKGSVDIKEYKSVEEHNLDLTSGRLDAVLANATVLAAAI  210
+
+Query  78   AK  79
+             K
+Sbjct  211  EK  212
+
+
+> sp|Q5QWY4|MLTF_IDILO Membrane-bound lytic murein transglycosylase 
+F OS=Idiomarina loihiensis (strain ATCC BAA-735 / DSM 15497 
+/ L2-TR) OX=283942 GN=mltF PE=3 SV=1
+Length=455
+
+ Score = 42.8 bits (99),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 15/91 (16%), Positives = 32/91 (35%), Gaps = 6/91 (7%)
+
+Query  2    QVIVVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVSKY----DGIKVVRFDKFT--DAF  55
+            Q +V ++ S  RP+  + +    + V  G++    +         +K          +  
+Sbjct  125  QKVVFKQGSRQRPRDLQQITDGEIVVVEGSSHHEFLKSLGDSIPTLKWRATRDHDAVELL  184
+
+Query  56   LELKRGRADAVVLDSATARAFVAKNPDLVIS  86
+              +  G  D  + DS         +PDL ++
+Sbjct  185  QMVISGEVDYTITDSTALDIQRRFHPDLSVA  215
+
+
+> sp|P58068|YHDW_ECO57 Putative amino-acid ABC transporter-binding 
+protein YhdW OS=Escherichia coli O157:H7 OX=83334 GN=yhdW 
+PE=3 SV=1
+Length=341
+
+ Score = 40.4 bits (93),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 21/79 (27%), Positives = 34/79 (43%), Gaps = 7/79 (9%)
+
+Query  10   SDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIK-----VVRFDKFTDAFLELKRGRAD  64
+                 K+ ++L G TV +Q GT  ++ V+ Y          V FD+  ++   L+ GR D
+Sbjct  134  DKAGLKSAKELDGATVCIQAGTDTELNVADYFKANNMKYTPVTFDRSDESAKALESGRCD  193
+
+Query  65   AVVLDSA--TARAFVAKNP  81
+             +  D +   A      NP
+Sbjct  194  TLASDQSQLYALRIKLSNP  212
+
+
+> sp|P45766|YHDW_ECOLI Putative amino-acid ABC transporter-binding 
+protein YhdW OS=Escherichia coli (strain K12) OX=83333 GN=yhdW 
+PE=1 SV=2
+Length=341
+
+ Score = 40.4 bits (93),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 21/79 (27%), Positives = 34/79 (43%), Gaps = 7/79 (9%)
+
+Query  10   SDFRPKTYEDLVGKTVAVQIGTTGDIEVSKYDGIK-----VVRFDKFTDAFLELKRGRAD  64
+                 K+ ++L G TV +Q GT  ++ V+ Y          V FD+  ++   L+ GR D
+Sbjct  134  DKAGLKSAKELDGATVCIQAGTDTELNVADYFKANNMKYTPVTFDRSDESAKALESGRCD  193
+
+Query  65   AVVLDSA--TARAFVAKNP  81
+             +  D +   A      NP
+Sbjct  194  TLASDQSQLYALRIKLSNP  212
+
+
+> sp|Q3KHL5|MLTF_PSEPF Membrane-bound lytic murein transglycosylase 
+F OS=Pseudomonas fluorescens (strain Pf0-1) OX=205922 GN=mltF 
+PE=3 SV=1
+Length=486
+
+ Score = 40.1 bits (92),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 33/72 (46%), Gaps = 6/72 (8%)
+
+Query  5    VVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEV----SKYDGIKVVRFDKFT--DAFLEL  58
+            ++ ++   RP    DLVGK + V  G+T   ++     KY GI+    D     D    +
+Sbjct  131  IIYRNGQSRPTDAGDLVGKKIMVLKGSTHAEQLAELKQKYPGIQYEESDAVEVVDLLRMV  190
+
+Query  59   KRGRADAVVLDS  70
+              G+ D  ++DS
+Sbjct  191  DEGQIDLTLVDS  202
+
+
+> sp|Q4KHS7|MLTF_PSEF5 Membrane-bound lytic murein transglycosylase 
+F OS=Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL 
+B-23932 / Pf-5) OX=220664 GN=mltF PE=3 SV=2
+Length=486
+
+ Score = 39.7 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 36/72 (50%), Gaps = 6/72 (8%)
+
+Query  5    VVRKDSDFRPKTYEDLVGKTVAVQIGTTGDIEVS----KYDGIKVVRFDKFT--DAFLEL  58
+            V+ ++   RP T +DLVGK + V  G+T   +++    KY GI+    D     D    +
+Sbjct  131  VIYRNGRSRPTTAQDLVGKHIMVLKGSTHAEQLAELKLKYPGIEYEESDAVEVVDLLRMV  190
+
+Query  59   KRGRADAVVLDS  70
+              G+ D  ++DS
+Sbjct  191  DEGQIDLTLVDS  202
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.315    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5036639460
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

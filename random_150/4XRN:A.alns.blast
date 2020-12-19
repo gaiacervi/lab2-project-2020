@@ -1,0 +1,231 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 4XRN:A
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9HY69|ALG44_PSEAE Mannuronan synthase OS=Pseudomonas aerugi...  208     1e-66
+  sp|P94200|ALG44_AZOVI Alginate biosynthesis protein Alg44 OS=Az...  127     3e-35
+  sp|Q88NC6|ALG44_PSEPK Alginate biosynthesis protein Alg44 OS=Ps...  106     1e-27
+  sp|Q887Q0|ALG44_PSESM Alginate biosynthesis protein Alg44 OS=Ps...  104     8e-27
+
+
+> sp|Q9HY69|ALG44_PSEAE Mannuronan synthase OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+/ LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=alg44 PE=1 
+SV=1
+Length=389
+
+ Score = 208 bits (529),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 102/103 (99%), Positives = 103/103 (100%), Gaps = 0/103 (0%)
+
+Query  2    SQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPIQPGDLYKGKLLFQVD  61
+            +QRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPIQPGDLYKGKLLFQVD
+Sbjct  15   AQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPIQPGDLYKGKLLFQVD  74
+
+Query  62   SISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  104
+            SISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS
+Sbjct  75   SISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  117
+
+
+> sp|P94200|ALG44_AZOVI Alginate biosynthesis protein Alg44 OS=Azotobacter 
+vinelandii OX=354 GN=alg44 PE=3 SV=2
+Length=389
+
+ Score = 127 bits (318),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 59/104 (57%), Positives = 82/104 (79%), Gaps = 2/104 (2%)
+
+Query  2    SQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPI-QPGDLYKGKLLFQV  60
+            +QRQ ARVKLP +IR++G NRE ++ RL+D+SAGGF+F ASG P+ Q G  ++GKLLFQ+
+Sbjct  16   AQRQHARVKLPGKIRFLGPNRETIEQRLIDISAGGFSF-ASGKPVTQQGAFHRGKLLFQL  74
+
+Query  61   DSISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  104
+            DS+  +++VEFQVR++DP S R GC+F  L  RE++ LR +ITS
+Sbjct  75   DSLGLAMDVEFQVRNLDPESGRTGCQFHGLGAREISTLRQMITS  118
+
+
+> sp|Q88NC6|ALG44_PSEPK Alginate biosynthesis protein Alg44 OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=alg44 PE=3 SV=1
+Length=388
+
+ Score = 106 bits (265),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 48/103 (47%), Positives = 78/103 (76%), Gaps = 1/103 (1%)
+
+Query  2    SQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPIQPGDLYKGKLLFQVD  61
+            +QRQ ARV++PA++R++ A R+  + ++ DLSAGG +F  +  P   GD+ +G+L F VD
+Sbjct  15   AQRQHARVRIPAKLRFLDAQRQVHEVKVEDLSAGGLSF-HTKQPQSVGDVLRGRLQFVVD  73
+
+Query  62   SISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  104
+            ++  S+++EFQVRS +P + R+G +FQNL+PR++A LR++ITS
+Sbjct  74   NLGLSIDIEFQVRSYNPDNGRIGAQFQNLEPRDIATLRHIITS  116
+
+
+> sp|Q887Q0|ALG44_PSESM Alginate biosynthesis protein Alg44 OS=Pseudomonas 
+syringae pv. tomato (strain ATCC BAA-871 / DC3000) 
+OX=223283 GN=alg44 PE=3 SV=1
+Length=390
+
+ Score = 104 bits (259),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 50/104 (48%), Positives = 74/104 (71%), Gaps = 1/104 (1%)
+
+Query  2    SQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTA-SGAPIQPGDLYKGKLLFQV  60
+            +QRQ AR+K+PA++R +         R+ DLSAGG +F A +G     G++ KG+L F +
+Sbjct  15   AQRQHARIKIPAKLRLLNDKPNAPLVRIEDLSAGGLSFVAPAGLAYTTGEVIKGRLQFLI  74
+
+Query  61   DSISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  104
+            D++  +++VE QVRSVD AS RVGC+FQNL+ +++A LR+LITS
+Sbjct  75   DNLGLAMDVEMQVRSVDTASGRVGCQFQNLEAQDIATLRHLITS  118
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5012516480
+Results from round 2
+
+
+Query= 4XRN:A
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9HY69|ALG44_PSEAE Mannuronan synthase OS=Pseudomonas aerugi...  171     2e-52
+  sp|Q88NC6|ALG44_PSEPK Alginate biosynthesis protein Alg44 OS=Ps...  159     1e-47
+  sp|P94200|ALG44_AZOVI Alginate biosynthesis protein Alg44 OS=Az...  157     5e-47
+  sp|Q887Q0|ALG44_PSESM Alginate biosynthesis protein Alg44 OS=Ps...  157     9e-47
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q9HY69|ALG44_PSEAE Mannuronan synthase OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+/ LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=alg44 PE=1 
+SV=1
+Length=389
+
+ Score = 171 bits (434),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 102/103 (99%), Positives = 103/103 (100%), Gaps = 0/103 (0%)
+
+Query  2    SQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPIQPGDLYKGKLLFQVD  61
+            +QRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPIQPGDLYKGKLLFQVD
+Sbjct  15   AQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPIQPGDLYKGKLLFQVD  74
+
+Query  62   SISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  104
+            SISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS
+Sbjct  75   SISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  117
+
+
+> sp|Q88NC6|ALG44_PSEPK Alginate biosynthesis protein Alg44 OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=alg44 PE=3 SV=1
+Length=388
+
+ Score = 159 bits (402),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 48/103 (47%), Positives = 78/103 (76%), Gaps = 1/103 (1%)
+
+Query  2    SQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPIQPGDLYKGKLLFQVD  61
+            +QRQ ARV++PA++R++ A R+  + ++ DLSAGG +F  +  P   GD+ +G+L F VD
+Sbjct  15   AQRQHARVRIPAKLRFLDAQRQVHEVKVEDLSAGGLSF-HTKQPQSVGDVLRGRLQFVVD  73
+
+Query  62   SISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  104
+            ++  S+++EFQVRS +P + R+G +FQNL+PR++A LR++ITS
+Sbjct  74   NLGLSIDIEFQVRSYNPDNGRIGAQFQNLEPRDIATLRHIITS  116
+
+
+> sp|P94200|ALG44_AZOVI Alginate biosynthesis protein Alg44 OS=Azotobacter 
+vinelandii OX=354 GN=alg44 PE=3 SV=2
+Length=389
+
+ Score = 157 bits (398),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 59/104 (57%), Positives = 82/104 (79%), Gaps = 2/104 (2%)
+
+Query  2    SQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTASGAPI-QPGDLYKGKLLFQV  60
+            +QRQ ARVKLP +IR++G NRE ++ RL+D+SAGGF+F ASG P+ Q G  ++GKLLFQ+
+Sbjct  16   AQRQHARVKLPGKIRFLGPNRETIEQRLIDISAGGFSF-ASGKPVTQQGAFHRGKLLFQL  74
+
+Query  61   DSISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  104
+            DS+  +++VEFQVR++DP S R GC+F  L  RE++ LR +ITS
+Sbjct  75   DSLGLAMDVEFQVRNLDPESGRTGCQFHGLGAREISTLRQMITS  118
+
+
+> sp|Q887Q0|ALG44_PSESM Alginate biosynthesis protein Alg44 OS=Pseudomonas 
+syringae pv. tomato (strain ATCC BAA-871 / DC3000) 
+OX=223283 GN=alg44 PE=3 SV=1
+Length=390
+
+ Score = 157 bits (396),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 50/104 (48%), Positives = 74/104 (71%), Gaps = 1/104 (1%)
+
+Query  2    SQRQFARVKLPARIRYIGANREGVDARLLDLSAGGFAFTA-SGAPIQPGDLYKGKLLFQV  60
+            +QRQ AR+K+PA++R +         R+ DLSAGG +F A +G     G++ KG+L F +
+Sbjct  15   AQRQHARIKIPAKLRLLNDKPNAPLVRIEDLSAGGLSFVAPAGLAYTTGEVIKGRLQFLI  74
+
+Query  61   DSISFSLEVEFQVRSVDPASRRVGCEFQNLKPREVAALRYLITS  104
+            D++  +++VE QVRSVD AS RVGC+FQNL+ +++A LR+LITS
+Sbjct  75   DNLGLAMDVEMQVRSVDTASGRVGCQFQNLEAQDIATLRHLITS  118
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0424    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5012516480
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

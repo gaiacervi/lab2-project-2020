@@ -1,0 +1,1101 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5BY4:A
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0ABV9|TOLR_SHIFL Tol-Pal system protein TolR OS=Shigella fl...  210     7e-71
+  sp|P0ABV6|TOLR_ECOLI Tol-Pal system protein TolR OS=Escherichia...  210     7e-71
+  sp|P0ABV7|TOLR_ECOL6 Tol-Pal system protein TolR OS=Escherichia...  210     7e-71
+  sp|P0ABV8|TOLR_ECO57 Tol-Pal system protein TolR OS=Escherichia...  210     7e-71
+  sp|P43769|TOLR_HAEIN Tol-Pal system protein TolR OS=Haemophilus...  122     3e-36
+  sp|P50599|TOLR_PSEAE Tol-Pal system protein TolR OS=Pseudomonas...  48.9    3e-07
+  sp|O06434|EXBD_NEIGO Biopolymer transport protein ExbD OS=Neiss...  43.1    4e-05
+  sp|P0A0S0|EXBD_NEIMC Biopolymer transport protein ExbD OS=Neiss...  41.6    2e-04
+  sp|P0A0R9|EXBD_NEIMB Biopolymer transport protein ExbD OS=Neiss...  41.6    2e-04
+  sp|P0A0R8|EXBD_NEIMA Biopolymer transport protein ExbD OS=Neiss...  41.6    2e-04
+
+
+> sp|P0ABV9|TOLR_SHIFL Tol-Pal system protein TolR OS=Shigella 
+flexneri OX=623 GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 210 bits (535),  Expect = 7e-71, Method: Compositional matrix adjust.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV6|TOLR_ECOLI Tol-Pal system protein TolR OS=Escherichia 
+coli (strain K12) OX=83333 GN=tolR PE=1 SV=1
+Length=142
+
+ Score = 210 bits (535),  Expect = 7e-71, Method: Compositional matrix adjust.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV7|TOLR_ECOL6 Tol-Pal system protein TolR OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 210 bits (535),  Expect = 7e-71, Method: Compositional matrix adjust.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV8|TOLR_ECO57 Tol-Pal system protein TolR OS=Escherichia 
+coli O157:H7 OX=83334 GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 210 bits (535),  Expect = 7e-71, Method: Compositional matrix adjust.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P43769|TOLR_HAEIN Tol-Pal system protein TolR OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=tolR PE=1 SV=1
+Length=139
+
+ Score = 122 bits (307),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 59/105 (56%), Positives = 78/105 (74%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PII+QSV+V+LPD+ +SQ VS+ D  PVI+EV+GIG+Y + +  +R E L  E V     
+Sbjct  34   PIISQSVQVELPDSVQSQEVSNEDKVPVILEVAGIGKYAISIGGERQEGLTEEMVTQLSR  93
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+              F  +  T+FL+GGAK+VPY+E+IKALNLLH AG+KSVGLMT P
+Sbjct  94   QEFDKDNNTLFLVGGAKEVPYEEVIKALNLLHLAGIKSVGLMTNP  138
+
+
+> sp|P50599|TOLR_PSEAE Tol-Pal system protein TolR OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=tolR 
+PE=3 SV=1
+Length=146
+
+ Score = 48.9 bits (115),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 37/111 (33%), Positives = 56/111 (50%), Gaps = 8/111 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVI-VEVSGIGQYT------VVVEKDRLERLPPE  53
+            P++ Q V+VDLP  + S+A+  ++N  V+ + V   G Y       V  EK     +  E
+Sbjct  35   PMLNQGVKVDLPKVS-SEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLE  93
+
+Query  54   QVVAEVSSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            Q+   V+    A P T   I G K V Y  ++ A+  L  AGV +VGL+T+
+Sbjct  94   QMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITE  144
+
+
+> sp|O06434|EXBD_NEIGO Biopolymer transport protein ExbD OS=Neisseria 
+gonorrhoeae OX=485 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 43.1 bits (100),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 34/110 (31%), Positives = 53/110 (48%), Gaps = 13/110 (12%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E QA   +  P  P+ + +   G Y   V  D   ++     + E
+Sbjct  38   PVLTHSIPLELPTASE-QANKQDKQPKDPLRLTIDANGGY--YVGGDSASKVE----IGE  90
+
+Query  59   VSSRFKA----NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            V SR KA    N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  91   VESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0A0S0|EXBD_NEIMC Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup C OX=135720 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 41.6 bits (96),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 33/110 (30%), Positives = 52/110 (47%), Gaps = 13/110 (12%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y   V  D   ++     + E
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGY--YVGGDSASKVE----IGE  90
+
+Query  59   VSSRFKA----NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            V SR KA    N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  91   VESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0A0R9|EXBD_NEIMB Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=exbD 
+PE=3 SV=1
+Length=144
+
+ Score = 41.6 bits (96),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 33/110 (30%), Positives = 52/110 (47%), Gaps = 13/110 (12%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y   V  D   ++     + E
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGY--YVGGDSASKVE----IGE  90
+
+Query  59   VSSRFKA----NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            V SR KA    N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  91   VESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0A0R8|EXBD_NEIMA Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) 
+OX=122587 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 41.6 bits (96),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 33/110 (30%), Positives = 52/110 (47%), Gaps = 13/110 (12%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y   V  D   ++     + E
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGY--YVGGDSASKVE----IGE  90
+
+Query  59   VSSRFKA----NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            V SR KA    N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  91   VESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.132    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4995060938
+Results from round 2
+
+
+Query= 5BY4:A
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0ABV9|TOLR_SHIFL Tol-Pal system protein TolR OS=Shigella fl...  146     3e-45
+  sp|P0ABV6|TOLR_ECOLI Tol-Pal system protein TolR OS=Escherichia...  146     3e-45
+  sp|P0ABV7|TOLR_ECOL6 Tol-Pal system protein TolR OS=Escherichia...  146     3e-45
+  sp|P0ABV8|TOLR_ECO57 Tol-Pal system protein TolR OS=Escherichia...  146     3e-45
+  sp|P43769|TOLR_HAEIN Tol-Pal system protein TolR OS=Haemophilus...  142     6e-44
+  sp|P50599|TOLR_PSEAE Tol-Pal system protein TolR OS=Pseudomonas...  120     3e-35
+  sp|O06434|EXBD_NEIGO Biopolymer transport protein ExbD OS=Neiss...  105     3e-29
+  sp|P0A0S0|EXBD_NEIMC Biopolymer transport protein ExbD OS=Neiss...  104     7e-29
+  sp|P0A0R9|EXBD_NEIMB Biopolymer transport protein ExbD OS=Neiss...  104     7e-29
+  sp|P0A0R8|EXBD_NEIMA Biopolymer transport protein ExbD OS=Neiss...  104     7e-29
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P0ABV5|EXBD_SHIFL Biopolymer transport protein ExbD OS=Shige...  57.5    2e-10
+  sp|P0ABV2|EXBD_ECOLI Biopolymer transport protein ExbD OS=Esche...  57.5    2e-10
+  sp|P0ABV3|EXBD_ECOL6 Biopolymer transport protein ExbD OS=Esche...  57.5    2e-10
+  sp|P0ABV4|EXBD_ECO57 Biopolymer transport protein ExbD OS=Esche...  57.5    2e-10
+  sp|O25754|EXDL1_HELPY Putative biopolymer transport protein Exb...  52.9    7e-09
+  sp|Q9ZK84|EXDL1_HELPJ Putative biopolymer transport protein Exb...  52.1    1e-08
+  sp|Q05606|EXBD_PSEPU Biopolymer transport protein ExbD OS=Pseud...  51.3    3e-08
+  sp|Q9RMT1|EXBD_PSEAE Biopolymer transport protein ExbD OS=Pseud...  49.0    2e-07
+  sp|P0C7M0|EXBD1_XANCP Biopolymer transport protein exbD1 OS=Xan...  40.9    3e-04
+  sp|B0RLE7|EXBD1_XANCB Biopolymer transport protein exbD1 OS=Xan...  40.9    3e-04
+
+
+> sp|P0ABV9|TOLR_SHIFL Tol-Pal system protein TolR OS=Shigella 
+flexneri OX=623 GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 146 bits (367),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV6|TOLR_ECOLI Tol-Pal system protein TolR OS=Escherichia 
+coli (strain K12) OX=83333 GN=tolR PE=1 SV=1
+Length=142
+
+ Score = 146 bits (367),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV7|TOLR_ECOL6 Tol-Pal system protein TolR OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 146 bits (367),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV8|TOLR_ECO57 Tol-Pal system protein TolR OS=Escherichia 
+coli O157:H7 OX=83334 GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 146 bits (367),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P43769|TOLR_HAEIN Tol-Pal system protein TolR OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=tolR PE=1 SV=1
+Length=139
+
+ Score = 142 bits (358),  Expect = 6e-44, Method: Composition-based stats.
+ Identities = 59/105 (56%), Positives = 78/105 (74%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PII+QSV+V+LPD+ +SQ VS+ D  PVI+EV+GIG+Y + +  +R E L  E V     
+Sbjct  34   PIISQSVQVELPDSVQSQEVSNEDKVPVILEVAGIGKYAISIGGERQEGLTEEMVTQLSR  93
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+              F  +  T+FL+GGAK+VPY+E+IKALNLLH AG+KSVGLMT P
+Sbjct  94   QEFDKDNNTLFLVGGAKEVPYEEVIKALNLLHLAGIKSVGLMTNP  138
+
+
+> sp|P50599|TOLR_PSEAE Tol-Pal system protein TolR OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=tolR 
+PE=3 SV=1
+Length=146
+
+ Score = 120 bits (301),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 37/111 (33%), Positives = 56/111 (50%), Gaps = 8/111 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVI-VEVSGIGQYT------VVVEKDRLERLPPE  53
+            P++ Q V+VDLP  + S+A+  ++N  V+ + V   G Y       V  EK     +  E
+Sbjct  35   PMLNQGVKVDLPKVS-SEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLE  93
+
+Query  54   QVVAEVSSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            Q+   V+    A P T   I G K V Y  ++ A+  L  AGV +VGL+T+
+Sbjct  94   QMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITE  144
+
+
+> sp|O06434|EXBD_NEIGO Biopolymer transport protein ExbD OS=Neisseria 
+gonorrhoeae OX=485 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 105 bits (261),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 34/110 (31%), Positives = 53/110 (48%), Gaps = 13/110 (12%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E QA   +  P  P+ + +   G Y   V  D   ++     + E
+Sbjct  38   PVLTHSIPLELPTASE-QANKQDKQPKDPLRLTIDANGGYY--VGGDSASKVE----IGE  90
+
+Query  59   VSSRFKA----NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            V SR KA    N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  91   VESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0A0S0|EXBD_NEIMC Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup C OX=135720 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 104 bits (259),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 33/110 (30%), Positives = 52/110 (47%), Gaps = 13/110 (12%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y   V  D   ++     + E
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGYY--VGGDSASKVE----IGE  90
+
+Query  59   VSSRFKA----NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            V SR KA    N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  91   VESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0A0R9|EXBD_NEIMB Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=exbD 
+PE=3 SV=1
+Length=144
+
+ Score = 104 bits (259),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 33/110 (30%), Positives = 52/110 (47%), Gaps = 13/110 (12%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y   V  D   ++     + E
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGYY--VGGDSASKVE----IGE  90
+
+Query  59   VSSRFKA----NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            V SR KA    N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  91   VESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0A0R8|EXBD_NEIMA Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) 
+OX=122587 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 104 bits (259),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 33/110 (30%), Positives = 52/110 (47%), Gaps = 13/110 (12%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y   V  D   ++     + E
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGYY--VGGDSASKVE----IGE  90
+
+Query  59   VSSRFKA----NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            V SR KA    N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  91   VESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0ABV5|EXBD_SHIFL Biopolymer transport protein ExbD OS=Shigella 
+flexneri OX=623 GN=exbD PE=3 SV=1
+Length=141
+
+ Score = 57.5 bits (137),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 46/104 (44%), Gaps = 7/104 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  V+V+LP +T +         PV + V       + +  D    +  E ++  ++
+Sbjct  39   PLATVDVKVNLPASTSTPQPRPEK--PVYLSVKADNS--MFIGND---PVTDETMITALN  91
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +  +    T       K V Y+ ++K ++ LH AG   +GL+ +
+Sbjct  92   ALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGE  135
+
+
+> sp|P0ABV2|EXBD_ECOLI Biopolymer transport protein ExbD OS=Escherichia 
+coli (strain K12) OX=83333 GN=exbD PE=1 SV=1
+Length=141
+
+ Score = 57.5 bits (137),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 46/104 (44%), Gaps = 7/104 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  V+V+LP +T +         PV + V       + +  D    +  E ++  ++
+Sbjct  39   PLATVDVKVNLPASTSTPQPRPEK--PVYLSVKADNS--MFIGND---PVTDETMITALN  91
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +  +    T       K V Y+ ++K ++ LH AG   +GL+ +
+Sbjct  92   ALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGE  135
+
+
+> sp|P0ABV3|EXBD_ECOL6 Biopolymer transport protein ExbD OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=exbD PE=3 SV=1
+Length=141
+
+ Score = 57.5 bits (137),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 46/104 (44%), Gaps = 7/104 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  V+V+LP +T +         PV + V       + +  D    +  E ++  ++
+Sbjct  39   PLATVDVKVNLPASTSTPQPRPEK--PVYLSVKADNS--MFIGND---PVTDETMITALN  91
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +  +    T       K V Y+ ++K ++ LH AG   +GL+ +
+Sbjct  92   ALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGE  135
+
+
+> sp|P0ABV4|EXBD_ECO57 Biopolymer transport protein ExbD OS=Escherichia 
+coli O157:H7 OX=83334 GN=exbD PE=3 SV=1
+Length=141
+
+ Score = 57.5 bits (137),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 46/104 (44%), Gaps = 7/104 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  V+V+LP +T +         PV + V       + +  D    +  E ++  ++
+Sbjct  39   PLATVDVKVNLPASTSTPQPRPEK--PVYLSVKADNS--MFIGND---PVTDETMITALN  91
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +  +    T       K V Y+ ++K ++ LH AG   +GL+ +
+Sbjct  92   ALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGE  135
+
+
+> sp|O25754|EXDL1_HELPY Putative biopolymer transport protein ExbD-like 
+1 OS=Helicobacter pylori (strain ATCC 700392 / 26695) 
+OX=85962 GN=HP_1129 PE=3 SV=1
+Length=133
+
+ Score = 52.9 bits (125),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 20/105 (19%), Positives = 41/105 (39%), Gaps = 6/105 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P +T   E+ LP  +++   + +    + ++        + ++    E          +S
+Sbjct  35   PTLTYKEEIALPSGSKTARATQDKMIEIRMDKDA----KIYIDSQTYEYNSFPDTFNLLS  90
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+             ++     T   I   K + YD++I  L  +  AG   V L+T P
+Sbjct  91   KKYDK--DTRVSIRADKRLTYDKVIYLLKTIKEAGFLKVSLITSP  133
+
+
+> sp|Q9ZK84|EXDL1_HELPJ Putative biopolymer transport protein ExbD-like 
+1 OS=Helicobacter pylori (strain J99 / ATCC 700824) 
+OX=85963 GN=jhp_1057 PE=3 SV=1
+Length=133
+
+ Score = 52.1 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 20/105 (19%), Positives = 41/105 (39%), Gaps = 6/105 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P +T   E+ LP  +++   + +    + ++        + ++    E          +S
+Sbjct  35   PTLTYKEEIALPSGSKTARATQDKVIEIRMDKDA----KIYIDSQTYEYNSFPDTFNLLS  90
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+             ++     T   I   K + YD++I  L  +  AG   V L+T P
+Sbjct  91   KKYDK--DTRVSIRADKRLTYDKVIYLLKTIKEAGFLKVSLITSP  133
+
+
+> sp|Q05606|EXBD_PSEPU Biopolymer transport protein ExbD OS=Pseudomonas 
+putida OX=303 GN=exbD PE=3 SV=1
+Length=142
+
+ Score = 51.3 bits (121),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 28/102 (27%), Positives = 50/102 (49%), Gaps = 6/102 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  ++VDLP +T   A       PV V V    +  + V  D++    P Q+ A + 
+Sbjct  39   PLATVDIKVDLPASTAKPAPRPEK--PVFVSVKADQK--LYVGDDQVPA--PAQLGAMLD  92
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLM  102
+            ++ K + +T       K V Y ++++ +N + +AG   VGL+
+Sbjct  93   AKTKGDKETTIFFQADKGVDYGDLMEVMNNMRAAGYLKVGLV  134
+
+
+> sp|Q9RMT1|EXBD_PSEAE Biopolymer transport protein ExbD OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=exbD PE=3 SV=1
+Length=133
+
+ Score = 49.0 bits (115),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 51/103 (50%), Gaps = 7/103 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P++T S+ ++LP  TES A       P++V + G G+  V       + + PE + + ++
+Sbjct  36   PLLTNSIPINLPK-TESVA-PPEQKDPLVVSIDGAGKLFV-----NKDEIQPELLESNLA  88
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMT  103
+            +    + +    +   + V Y ++ KA+  +  AG+  + ++T
+Sbjct  89   AAKAKDAEVRVQLQADEGVNYGQVAKAMASIERAGITRLAVIT  131
+
+
+> sp|P0C7M0|EXBD1_XANCP Biopolymer transport protein exbD1 OS=Xanthomonas 
+campestris pv. campestris (strain ATCC 33913 / DSM 
+3586 / NCPPB 528 / LMG 568 / P 25) OX=190485 GN=exbD1 PE=3 
+SV=1
+Length=140
+
+ Score = 40.9 bits (94),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/103 (19%), Positives = 37/103 (36%), Gaps = 6/103 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDN-PPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEV  59
+            P+++  V+V+LP+A   Q   +     P+ + V   G      E    E L      A  
+Sbjct  36   PLMSHKVKVELPEANLIQKEDAEKRAAPITLAVKEDGSLYWNDEPISKEALESRLSTAA-  94
+
+Query  60   SSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLM  102
+                +  P+    + G +      I +   +    G+  VG +
+Sbjct  95   ----QQTPQPPLNLRGDRTTKMRTINEITKIAQGQGMLDVGFV  133
+
+
+> sp|B0RLE7|EXBD1_XANCB Biopolymer transport protein exbD1 OS=Xanthomonas 
+campestris pv. campestris (strain B100) OX=509169 
+GN=exbD1 PE=3 SV=1
+Length=140
+
+ Score = 40.9 bits (94),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/103 (19%), Positives = 37/103 (36%), Gaps = 6/103 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDN-PPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEV  59
+            P+++  V+V+LP+A   Q   +     P+ + V   G      E    E L      A  
+Sbjct  36   PLMSHKVKVELPEANLIQKEDAEKRAAPITLAVKEDGSLYWNDEPISKEALESRLSTAA-  94
+
+Query  60   SSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLM  102
+                +  P+    + G +      I +   +    G+  VG +
+Sbjct  95   ----QQTPQPPLNLRGDRTTKMRTINEITKIAQGQGMLDVGFV  133
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.120    0.283    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0367    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4995060938
+Results from round 3
+
+
+Query= 5BY4:A
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0ABV9|TOLR_SHIFL Tol-Pal system protein TolR OS=Shigella fl...  115     3e-33
+  sp|P0ABV6|TOLR_ECOLI Tol-Pal system protein TolR OS=Escherichia...  115     3e-33
+  sp|P0ABV7|TOLR_ECOL6 Tol-Pal system protein TolR OS=Escherichia...  115     3e-33
+  sp|P0ABV8|TOLR_ECO57 Tol-Pal system protein TolR OS=Escherichia...  115     3e-33
+  sp|P43769|TOLR_HAEIN Tol-Pal system protein TolR OS=Haemophilus...  114     4e-33
+  sp|P50599|TOLR_PSEAE Tol-Pal system protein TolR OS=Pseudomonas...  101     8e-28
+  sp|P0ABV5|EXBD_SHIFL Biopolymer transport protein ExbD OS=Shige...   99     3e-27
+  sp|P0ABV2|EXBD_ECOLI Biopolymer transport protein ExbD OS=Esche...   99     3e-27
+  sp|P0ABV3|EXBD_ECOL6 Biopolymer transport protein ExbD OS=Esche...   99     3e-27
+  sp|P0ABV4|EXBD_ECO57 Biopolymer transport protein ExbD OS=Esche...   99     3e-27
+  sp|Q05606|EXBD_PSEPU Biopolymer transport protein ExbD OS=Pseud...  97.2    4e-26
+  sp|O25754|EXDL1_HELPY Putative biopolymer transport protein Exb...  95.7    1e-25
+  sp|Q9ZK84|EXDL1_HELPJ Putative biopolymer transport protein Exb...  94.1    6e-25
+  sp|O06434|EXBD_NEIGO Biopolymer transport protein ExbD OS=Neiss...  91.4    1e-23
+  sp|P0C7M0|EXBD1_XANCP Biopolymer transport protein exbD1 OS=Xan...  91.1    1e-23
+  sp|B0RLE7|EXBD1_XANCB Biopolymer transport protein exbD1 OS=Xan...  91.1    1e-23
+  sp|P0A0S0|EXBD_NEIMC Biopolymer transport protein ExbD OS=Neiss...  90.3    2e-23
+  sp|P0A0R9|EXBD_NEIMB Biopolymer transport protein ExbD OS=Neiss...  90.3    2e-23
+  sp|P0A0R8|EXBD_NEIMA Biopolymer transport protein ExbD OS=Neiss...  90.3    2e-23
+  sp|Q9RMT1|EXBD_PSEAE Biopolymer transport protein ExbD OS=Pseud...  79.9    2e-19
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O25898|EXBD_HELPY Biopolymer transport protein ExbD OS=Helic...  46.4    2e-06
+  sp|Q9ZJP5|EXBD_HELPJ Biopolymer transport protein ExbD OS=Helic...  46.4    2e-06
+  sp|Q9ZHV9|EXBD2_VIBCH Biopolymer transport protein exbD2 OS=Vib...  43.3    3e-05
+  sp|O67694|EXBD_AQUAE Biopolymer transport protein ExbD OS=Aquif...  40.6    3e-04
+  sp|P0C7I9|EXBD2_XANCP Biopolymer transport protein exbD2 OS=Xan...  39.8    7e-04
+  sp|B0RLE8|EXBD2_XANCB Biopolymer transport protein exbD2 OS=Xan...  39.8    7e-04
+
+
+> sp|P0ABV9|TOLR_SHIFL Tol-Pal system protein TolR OS=Shigella 
+flexneri OX=623 GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 115 bits (287),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV6|TOLR_ECOLI Tol-Pal system protein TolR OS=Escherichia 
+coli (strain K12) OX=83333 GN=tolR PE=1 SV=1
+Length=142
+
+ Score = 115 bits (287),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV7|TOLR_ECOL6 Tol-Pal system protein TolR OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 115 bits (287),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P0ABV8|TOLR_ECO57 Tol-Pal system protein TolR OS=Escherichia 
+coli O157:H7 OX=83334 GN=tolR PE=3 SV=1
+Length=142
+
+ Score = 115 bits (287),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS
+Sbjct  37   PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  96
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+            SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP
+Sbjct  97   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  141
+
+
+> sp|P43769|TOLR_HAEIN Tol-Pal system protein TolR OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=tolR PE=1 SV=1
+Length=139
+
+ Score = 114 bits (286),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 59/105 (56%), Positives = 78/105 (74%), Gaps = 0/105 (0%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            PII+QSV+V+LPD+ +SQ VS+ D  PVI+EV+GIG+Y + +  +R E L  E V     
+Sbjct  34   PIISQSVQVELPDSVQSQEVSNEDKVPVILEVAGIGKYAISIGGERQEGLTEEMVTQLSR  93
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+              F  +  T+FL+GGAK+VPY+E+IKALNLLH AG+KSVGLMT P
+Sbjct  94   QEFDKDNNTLFLVGGAKEVPYEEVIKALNLLHLAGIKSVGLMTNP  138
+
+
+> sp|P50599|TOLR_PSEAE Tol-Pal system protein TolR OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=tolR 
+PE=3 SV=1
+Length=146
+
+ Score = 101 bits (252),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 33/110 (30%), Positives = 49/110 (45%), Gaps = 6/110 (5%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVE------KDRLERLPPEQ  54
+            P++ Q V+VDLP  +       N+   + + V   G Y   V       K     +  EQ
+Sbjct  35   PMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQ  94
+
+Query  55   VVAEVSSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +   V+    A P T   I G K V Y  ++ A+  L  AGV +VGL+T+
+Sbjct  95   MTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITE  144
+
+
+> sp|P0ABV5|EXBD_SHIFL Biopolymer transport protein ExbD OS=Shigella 
+flexneri OX=623 GN=exbD PE=3 SV=1
+Length=141
+
+ Score =  99 bits (247),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 22/104 (21%), Positives = 45/104 (43%), Gaps = 7/104 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  V+V+LP +T +         PV + V       +  +      +  E ++  ++
+Sbjct  39   PLATVDVKVNLPASTSTPQPRPEK--PVYLSVKADNSMFIGNDP-----VTDETMITALN  91
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +  +    T       K V Y+ ++K ++ LH AG   +GL+ +
+Sbjct  92   ALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGE  135
+
+
+> sp|P0ABV2|EXBD_ECOLI Biopolymer transport protein ExbD OS=Escherichia 
+coli (strain K12) OX=83333 GN=exbD PE=1 SV=1
+Length=141
+
+ Score =  99 bits (247),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 22/104 (21%), Positives = 45/104 (43%), Gaps = 7/104 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  V+V+LP +T +         PV + V       +  +      +  E ++  ++
+Sbjct  39   PLATVDVKVNLPASTSTPQPRPEK--PVYLSVKADNSMFIGNDP-----VTDETMITALN  91
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +  +    T       K V Y+ ++K ++ LH AG   +GL+ +
+Sbjct  92   ALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGE  135
+
+
+> sp|P0ABV3|EXBD_ECOL6 Biopolymer transport protein ExbD OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=exbD PE=3 SV=1
+Length=141
+
+ Score =  99 bits (247),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 22/104 (21%), Positives = 45/104 (43%), Gaps = 7/104 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  V+V+LP +T +         PV + V       +  +      +  E ++  ++
+Sbjct  39   PLATVDVKVNLPASTSTPQPRPEK--PVYLSVKADNSMFIGNDP-----VTDETMITALN  91
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +  +    T       K V Y+ ++K ++ LH AG   +GL+ +
+Sbjct  92   ALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGE  135
+
+
+> sp|P0ABV4|EXBD_ECO57 Biopolymer transport protein ExbD OS=Escherichia 
+coli O157:H7 OX=83334 GN=exbD PE=3 SV=1
+Length=141
+
+ Score =  99 bits (247),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 22/104 (21%), Positives = 45/104 (43%), Gaps = 7/104 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  V+V+LP +T +         PV + V       +  +      +  E ++  ++
+Sbjct  39   PLATVDVKVNLPASTSTPQPRPEK--PVYLSVKADNSMFIGNDP-----VTDETMITALN  91
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +  +    T       K V Y+ ++K ++ LH AG   +GL+ +
+Sbjct  92   ALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGE  135
+
+
+> sp|Q05606|EXBD_PSEPU Biopolymer transport protein ExbD OS=Pseudomonas 
+putida OX=303 GN=exbD PE=3 SV=1
+Length=142
+
+ Score = 97.2 bits (240),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 28/103 (27%), Positives = 49/103 (48%), Gaps = 6/103 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P+ T  ++VDLP +T   A       PV V V    +  V    D++    P Q+ A + 
+Sbjct  39   PLATVDIKVDLPASTAKPAPRPEK--PVFVSVKADQKLYV--GDDQVPA--PAQLGAMLD  92
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMT  103
+            ++ K + +T       K V Y ++++ +N + +AG   VGL+ 
+Sbjct  93   AKTKGDKETTIFFQADKGVDYGDLMEVMNNMRAAGYLKVGLVG  135
+
+
+> sp|O25754|EXDL1_HELPY Putative biopolymer transport protein ExbD-like 
+1 OS=Helicobacter pylori (strain ATCC 700392 / 26695) 
+OX=85962 GN=HP_1129 PE=3 SV=1
+Length=133
+
+ Score = 95.7 bits (236),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 20/105 (19%), Positives = 41/105 (39%), Gaps = 6/105 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P +T   E+ LP  +++   + +    + ++        + ++    E          +S
+Sbjct  35   PTLTYKEEIALPSGSKTARATQDKMIEIRMDKDA----KIYIDSQTYEYNSFPDTFNLLS  90
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+             ++     T   I   K + YD++I  L  +  AG   V L+T P
+Sbjct  91   KKYDK--DTRVSIRADKRLTYDKVIYLLKTIKEAGFLKVSLITSP  133
+
+
+> sp|Q9ZK84|EXDL1_HELPJ Putative biopolymer transport protein ExbD-like 
+1 OS=Helicobacter pylori (strain J99 / ATCC 700824) 
+OX=85963 GN=jhp_1057 PE=3 SV=1
+Length=133
+
+ Score = 94.1 bits (232),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 20/105 (19%), Positives = 41/105 (39%), Gaps = 6/105 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P +T   E+ LP  +++   + +    + ++        + ++    E          +S
+Sbjct  35   PTLTYKEEIALPSGSKTARATQDKVIEIRMDKDA----KIYIDSQTYEYNSFPDTFNLLS  90
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQP  105
+             ++     T   I   K + YD++I  L  +  AG   V L+T P
+Sbjct  91   KKYDK--DTRVSIRADKRLTYDKVIYLLKTIKEAGFLKVSLITSP  133
+
+
+> sp|O06434|EXBD_NEIGO Biopolymer transport protein ExbD OS=Neisseria 
+gonorrhoeae OX=485 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 91.4 bits (225),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 29/106 (27%), Positives = 52/106 (49%), Gaps = 5/106 (5%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E QA   +  P  P+ + +   G Y V    D   ++   +V + 
+Sbjct  38   PVLTHSIPLELPTASE-QANKQDKQPKDPLRLTIDANGGYYV--GGDSASKVEIGEVESR  94
+
+Query  59   VSSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            + +  + N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  95   LKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0C7M0|EXBD1_XANCP Biopolymer transport protein exbD1 OS=Xanthomonas 
+campestris pv. campestris (strain ATCC 33913 / DSM 
+3586 / NCPPB 528 / LMG 568 / P 25) OX=190485 GN=exbD1 PE=3 
+SV=1
+Length=140
+
+ Score = 91.1 bits (224),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 20/103 (19%), Positives = 37/103 (36%), Gaps = 6/103 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP-PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEV  59
+            P+++  V+V+LP+A   Q   +     P+ + V   G      E    E L      A  
+Sbjct  36   PLMSHKVKVELPEANLIQKEDAEKRAAPITLAVKEDGSLYWNDEPISKEALESRLSTAA-  94
+
+Query  60   SSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLM  102
+                +  P+    + G +      I +   +    G+  VG +
+Sbjct  95   ----QQTPQPPLNLRGDRTTKMRTINEITKIAQGQGMLDVGFV  133
+
+
+> sp|B0RLE7|EXBD1_XANCB Biopolymer transport protein exbD1 OS=Xanthomonas 
+campestris pv. campestris (strain B100) OX=509169 
+GN=exbD1 PE=3 SV=1
+Length=140
+
+ Score = 91.1 bits (224),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 20/103 (19%), Positives = 37/103 (36%), Gaps = 6/103 (6%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP-PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEV  59
+            P+++  V+V+LP+A   Q   +     P+ + V   G      E    E L      A  
+Sbjct  36   PLMSHKVKVELPEANLIQKEDAEKRAAPITLAVKEDGSLYWNDEPISKEALESRLSTAA-  94
+
+Query  60   SSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLM  102
+                +  P+    + G +      I +   +    G+  VG +
+Sbjct  95   ----QQTPQPPLNLRGDRTTKMRTINEITKIAQGQGMLDVGFV  133
+
+
+> sp|P0A0S0|EXBD_NEIMC Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup C OX=135720 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 90.3 bits (222),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 51/106 (48%), Gaps = 5/106 (5%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y V    D   ++   +V + 
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGYYV--GGDSASKVEIGEVESR  94
+
+Query  59   VSSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            + +  + N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  95   LKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0A0R9|EXBD_NEIMB Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=exbD 
+PE=3 SV=1
+Length=144
+
+ Score = 90.3 bits (222),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 51/106 (48%), Gaps = 5/106 (5%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y V    D   ++   +V + 
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGYYV--GGDSASKVEIGEVESR  94
+
+Query  59   VSSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            + +  + N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  95   LKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|P0A0R8|EXBD_NEIMA Biopolymer transport protein ExbD OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) 
+OX=122587 GN=exbD PE=3 SV=1
+Length=144
+
+ Score = 90.3 bits (222),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 51/106 (48%), Gaps = 5/106 (5%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNP--PVIVEVSGIGQYTVVVEKDRLERLPPEQVVAE  58
+            P++T S+ ++LP A+E Q    +  P  P+ + +   G Y V    D   ++   +V + 
+Sbjct  38   PVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDANGGYYV--GGDSASKVEIGEVESR  94
+
+Query  59   VSSRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            + +  + N   +  I   K V YD + KAL     AG+  +G +T+
+Sbjct  95   LKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGITKIGFVTE  140
+
+
+> sp|Q9RMT1|EXBD_PSEAE Biopolymer transport protein ExbD OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=exbD PE=3 SV=1
+Length=133
+
+ Score = 79.9 bits (195),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 19/103 (18%), Positives = 47/103 (46%), Gaps = 7/103 (7%)
+
+Query  1    PIITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVS  60
+            P++T S+ ++LP              P++V + G G+  V       + + PE + + ++
+Sbjct  36   PLLTNSIPINLPKTESVA--PPEQKDPLVVSIDGAGKLFV-----NKDEIQPELLESNLA  88
+
+Query  61   SRFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMT  103
+            +    + +    +   + V Y ++ KA+  +  AG+  + ++T
+Sbjct  89   AAKAKDAEVRVQLQADEGVNYGQVAKAMASIERAGITRLAVIT  131
+
+
+> sp|O25898|EXBD_HELPY Biopolymer transport protein ExbD OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=exbD 
+PE=3 SV=1
+Length=129
+
+ Score = 46.4 bits (108),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 20/99 (20%), Positives = 41/99 (41%), Gaps = 8/99 (8%)
+
+Query  6    SVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVSSRFKA  65
+             ++V LP+A  ++    ND   V++ V       V  +   LE L         +   + 
+Sbjct  37   KIKVSLPNAKNAEKSQPNDQKVVVISVDEHDNIFVDDKPMNLEALS--------AVVKQT  88
+
+Query  66   NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+            +PKT+  +   K   ++  I  +++L     ++  + TQ
+Sbjct  89   DPKTLIDLKSDKSSRFETFISIMDILKEHNHENFSISTQ  127
+
+
+> sp|Q9ZJP5|EXBD_HELPJ Biopolymer transport protein ExbD OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=exbD 
+PE=3 SV=1
+Length=129
+
+ Score = 46.4 bits (108),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 21/103 (20%), Positives = 42/103 (41%), Gaps = 8/103 (8%)
+
+Query  2    IITQSVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVSS  61
+            I    ++V LP+A  ++    ND   V++ V       V  +   LE L         + 
+Sbjct  33   IAQGKIKVSLPNAKNAEKSQPNDQKVVVISVDEHDNIFVDDKPTNLEALS--------AV  84
+
+Query  62   RFKANPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+              + +PKT+  +   K   ++  I  +++L     ++  + TQ
+Sbjct  85   VKQTDPKTLIDLKSDKSSRFETFISIMDILKEHNHENFSISTQ  127
+
+
+> sp|Q9ZHV9|EXBD2_VIBCH Biopolymer transport protein exbD2 OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=exbD2 PE=3 SV=1
+Length=134
+
+ Score = 43.3 bits (100),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 19/99 (19%), Positives = 37/99 (37%), Gaps = 8/99 (8%)
+
+Query  6    SVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVSSRFKA  65
+             VEV+ P A  +    S     + V ++      +        ++  E+V A +      
+Sbjct  42   GVEVNRPTAAHAV---SQKQAGIFVAITAANDIYID-----KRQVDVERVQATLEHLLLD  93
+
+Query  66   NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLMTQ  104
+             P    +I   +      ++K ++    AGVKS+ L  +
+Sbjct  94   QPDASLVIQADEHAFNGTVVKVMDAAKGAGVKSIALAAE  132
+
+
+> sp|O67694|EXBD_AQUAE Biopolymer transport protein ExbD OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=exbD PE=3 SV=1
+Length=132
+
+ Score = 40.6 bits (93),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/97 (22%), Positives = 42/97 (43%), Gaps = 10/97 (10%)
+
+Query  6    SVEVDLPDATESQAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVSSRFKA  65
+             + V+LP+A   +AV   ++  V++ ++  G+  +   +   E L               
+Sbjct  42   EIPVELPEAKSGKAVQPQES--VVITITKEGKIYLKSREVSYEELKEFLKTL--------  91
+
+Query  66   NPKTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLM  102
+            N +T   I   K+   +  +K  +LL+  G K+V L+
+Sbjct  92   NRQTPVEINADKNAKLENFVKVFDLLNQYGFKNVNLL  128
+
+
+> sp|P0C7I9|EXBD2_XANCP Biopolymer transport protein exbD2 OS=Xanthomonas 
+campestris pv. campestris (strain ATCC 33913 / DSM 
+3586 / NCPPB 528 / LMG 568 / P 25) OX=190485 GN=exbD2 PE=3 
+SV=1
+Length=136
+
+ Score = 39.8 bits (91),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 22/105 (21%), Positives = 43/105 (41%), Gaps = 8/105 (8%)
+
+Query  1    PIITQSVEVDLPDATES-QAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEV  59
+            PI+T  + VDLP    +    ++   PP+ + +    Q             P  Q+  ++
+Sbjct  36   PIMTYPIAVDLPQRVLNPPPQTTEPPPPIELRIDASNQVFW-----NNSPTPVAQLQQKM  90
+
+Query  60   SSRFKANP--KTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLM  102
+                +A+P  +    I   +D  Y+ + K L    ++ +K +G M
+Sbjct  91   EEVVQADPTNQPELRIDANEDAEYEVMAKVLAAAKNSQMKKIGFM  135
+
+
+> sp|B0RLE8|EXBD2_XANCB Biopolymer transport protein exbD2 OS=Xanthomonas 
+campestris pv. campestris (strain B100) OX=509169 
+GN=exbD2 PE=3 SV=1
+Length=136
+
+ Score = 39.8 bits (91),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 22/105 (21%), Positives = 43/105 (41%), Gaps = 8/105 (8%)
+
+Query  1    PIITQSVEVDLPDATES-QAVSSNDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEV  59
+            PI+T  + VDLP    +    ++   PP+ + +    Q             P  Q+  ++
+Sbjct  36   PIMTYPIAVDLPQRVLNPPPQTTEPPPPIELRIDASNQVFW-----NNSPTPVAQLQQKM  90
+
+Query  60   SSRFKANP--KTVFLIGGAKDVPYDEIIKALNLLHSAGVKSVGLM  102
+                +A+P  +    I   +D  Y+ + K L    ++ +K +G M
+Sbjct  91   EEVVQADPTNQPELRIDANEDAEYEVMAKVLAAAKNSQMKKIGFM  135
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.118    0.262    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0360    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4995060938
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

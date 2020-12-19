@@ -1,0 +1,213 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5WMF:A
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P03211|EBNA1_EBVB9 Epstein-Barr nuclear antigen 1 OS=Epstein...  317     9e-106
+  sp|Q3KSS4|EBNA1_EBVG Epstein-Barr nuclear antigen 1 OS=Epstein-...  249     2e-79 
+  sp|Q1HVF7|EBNA1_EBVA8 Epstein-Barr nuclear antigen 1 OS=Epstein...  231     8e-73 
+
+
+> sp|P03211|EBNA1_EBVB9 Epstein-Barr nuclear antigen 1 OS=Epstein-Barr 
+virus (strain B95-8) OX=10377 GN=EBNA1 PE=1 SV=1
+Length=641
+
+ Score = 317 bits (812),  Expect = 9e-106, Method: Compositional matrix adjust.
+ Identities = 137/137 (100%), Positives = 137/137 (100%), Gaps = 0/137 (0%)
+
+Query  1    NPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLT  60
+            NPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLT
+Sbjct  475  NPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLT  534
+
+Query  61   PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIR  120
+            PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIR
+Sbjct  535  PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIR  594
+
+Query  121  VTVCSFDDGVDLPPWFP  137
+            VTVCSFDDGVDLPPWFP
+Sbjct  595  VTVCSFDDGVDLPPWFP  611
+
+
+> sp|Q3KSS4|EBNA1_EBVG Epstein-Barr nuclear antigen 1 OS=Epstein-Barr 
+virus (strain GD1) OX=10376 GN=EBNA1 PE=1 SV=1
+Length=641
+
+ Score = 249 bits (635),  Expect = 2e-79, Method: Compositional matrix adjust.
+ Identities = 130/137 (95%), Positives = 134/137 (98%), Gaps = 0/137 (0%)
+
+Query  1    NPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLT  60
+            NPKFENIAEGLR LLARSHVERTT+EG WVAGVFVYGGSKTSLYNLRRG ALA+PQCR+T
+Sbjct  475  NPKFENIAEGLRVLLARSHVERTTEEGNWVAGVFVYGGSKTSLYNLRRGIALAVPQCRIT  534
+
+Query  61   PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIR  120
+            PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNI+
+Sbjct  535  PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIK  594
+
+Query  121  VTVCSFDDGVDLPPWFP  137
+            VTVCSFDDGVDLPPWFP
+Sbjct  595  VTVCSFDDGVDLPPWFP  611
+
+
+> sp|Q1HVF7|EBNA1_EBVA8 Epstein-Barr nuclear antigen 1 OS=Epstein-Barr 
+virus (strain AG876) OX=82830 GN=EBNA1 PE=1 SV=1
+Length=641
+
+ Score = 231 bits (590),  Expect = 8e-73, Method: Compositional matrix adjust.
+ Identities = 123/135 (91%), Positives = 128/135 (95%), Gaps = 0/135 (0%)
+
+Query  3    KFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLTPL  62
+            KFENIAEGLR LLAR HVERTT++G WVAGVFVYGGSKTSLYNLRRG  LAIPQCRLTPL
+Sbjct  477  KFENIAEGLRLLLARCHVERTTEDGNWVAGVFVYGGSKTSLYNLRRGIGLAIPQCRLTPL  536
+
+Query  63   SRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIRVT  122
+            SRLPFGMAPGPGPQPGPLRESIVCYF+VFLQTHIFAE LKDAIKDLV+ KPAPTCNI+VT
+Sbjct  537  SRLPFGMAPGPGPQPGPLRESIVCYFIVFLQTHIFAEGLKDAIKDLVLPKPAPTCNIKVT  596
+
+Query  123  VCSFDDGVDLPPWFP  137
+            VCSFDDGVDLPPWFP
+Sbjct  597  VCSFDDGVDLPPWFP  611
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.141    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5087764570
+Results from round 2
+
+
+Query= 5WMF:A
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P03211|EBNA1_EBVB9 Epstein-Barr nuclear antigen 1 OS=Epstein...  284     5e-93
+  sp|Q3KSS4|EBNA1_EBVG Epstein-Barr nuclear antigen 1 OS=Epstein-...  257     1e-82
+  sp|Q1HVF7|EBNA1_EBVA8 Epstein-Barr nuclear antigen 1 OS=Epstein...  252     1e-80
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P03211|EBNA1_EBVB9 Epstein-Barr nuclear antigen 1 OS=Epstein-Barr 
+virus (strain B95-8) OX=10377 GN=EBNA1 PE=1 SV=1
+Length=641
+
+ Score = 284 bits (727),  Expect = 5e-93, Method: Composition-based stats.
+ Identities = 137/137 (100%), Positives = 137/137 (100%), Gaps = 0/137 (0%)
+
+Query  1    NPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLT  60
+            NPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLT
+Sbjct  475  NPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLT  534
+
+Query  61   PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIR  120
+            PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIR
+Sbjct  535  PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIR  594
+
+Query  121  VTVCSFDDGVDLPPWFP  137
+            VTVCSFDDGVDLPPWFP
+Sbjct  595  VTVCSFDDGVDLPPWFP  611
+
+
+> sp|Q3KSS4|EBNA1_EBVG Epstein-Barr nuclear antigen 1 OS=Epstein-Barr 
+virus (strain GD1) OX=10376 GN=EBNA1 PE=1 SV=1
+Length=641
+
+ Score = 257 bits (657),  Expect = 1e-82, Method: Composition-based stats.
+ Identities = 130/137 (95%), Positives = 134/137 (98%), Gaps = 0/137 (0%)
+
+Query  1    NPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLT  60
+            NPKFENIAEGLR LLARSHVERTT+EG WVAGVFVYGGSKTSLYNLRRG ALA+PQCR+T
+Sbjct  475  NPKFENIAEGLRVLLARSHVERTTEEGNWVAGVFVYGGSKTSLYNLRRGIALAVPQCRIT  534
+
+Query  61   PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIR  120
+            PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNI+
+Sbjct  535  PLSRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIK  594
+
+Query  121  VTVCSFDDGVDLPPWFP  137
+            VTVCSFDDGVDLPPWFP
+Sbjct  595  VTVCSFDDGVDLPPWFP  611
+
+
+> sp|Q1HVF7|EBNA1_EBVA8 Epstein-Barr nuclear antigen 1 OS=Epstein-Barr 
+virus (strain AG876) OX=82830 GN=EBNA1 PE=1 SV=1
+Length=641
+
+ Score = 252 bits (643),  Expect = 1e-80, Method: Composition-based stats.
+ Identities = 123/135 (91%), Positives = 128/135 (95%), Gaps = 0/135 (0%)
+
+Query  3    KFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLTPL  62
+            KFENIAEGLR LLAR HVERTT++G WVAGVFVYGGSKTSLYNLRRG  LAIPQCRLTPL
+Sbjct  477  KFENIAEGLRLLLARCHVERTTEDGNWVAGVFVYGGSKTSLYNLRRGIGLAIPQCRLTPL  536
+
+Query  63   SRLPFGMAPGPGPQPGPLRESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIRVT  122
+            SRLPFGMAPGPGPQPGPLRESIVCYF+VFLQTHIFAE LKDAIKDLV+ KPAPTCNI+VT
+Sbjct  537  SRLPFGMAPGPGPQPGPLRESIVCYFIVFLQTHIFAEGLKDAIKDLVLPKPAPTCNIKVT  596
+
+Query  123  VCSFDDGVDLPPWFP  137
+            VCSFDDGVDLPPWFP
+Sbjct  597  VCSFDDGVDLPPWFP  611
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.137    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5087764570
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

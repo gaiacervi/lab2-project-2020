@@ -1,0 +1,291 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5MDI:B
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q13148|TADBP_HUMAN TAR DNA-binding protein 43 OS=Homo sapien...  160     1e-48
+  sp|Q921F2|TADBP_MOUSE TAR DNA-binding protein 43 OS=Mus musculu...  160     2e-48
+  sp|Q5R5W2|TADBP_PONAB TAR DNA-binding protein 43 OS=Pongo abeli...  159     8e-48
+  sp|Q5ZLN5|TADBP_CHICK TAR DNA-binding protein 43 OS=Gallus gall...  156     1e-46
+  sp|Q28F51|TADBP_XENTR TAR DNA-binding protein 43 OS=Xenopus tro...  148     1e-43
+  sp|D0VWM8|TADBP_CAEEL Tar DNA-binding protein homolog 1 OS=Caen...  61.6    9e-12
+
+
+> sp|Q13148|TADBP_HUMAN TAR DNA-binding protein 43 OS=Homo sapiens 
+OX=9606 GN=TARDBP PE=1 SV=1
+Length=414
+
+ Score = 160 bits (406),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 76/78 (97%), Positives = 76/78 (97%), Gaps = 0/78 (0%)
+
+Query  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGIL  61
+           SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGA GLRYRNPVSQ MRGVRLVEGIL
+Sbjct  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMRGVRLVEGIL  61
+
+Query  62  HAPDAGWGNLVYVVNYPK  79
+           HAPDAGWGNLVYVVNYPK
+Sbjct  62  HAPDAGWGNLVYVVNYPK  79
+
+
+> sp|Q921F2|TADBP_MOUSE TAR DNA-binding protein 43 OS=Mus musculus 
+OX=10090 GN=Tardbp PE=1 SV=1
+Length=414
+
+ Score = 160 bits (406),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 76/78 (97%), Positives = 76/78 (97%), Gaps = 0/78 (0%)
+
+Query  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGIL  61
+           SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGA GLRYRNPVSQ MRGVRLVEGIL
+Sbjct  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMRGVRLVEGIL  61
+
+Query  62  HAPDAGWGNLVYVVNYPK  79
+           HAPDAGWGNLVYVVNYPK
+Sbjct  62  HAPDAGWGNLVYVVNYPK  79
+
+
+> sp|Q5R5W2|TADBP_PONAB TAR DNA-binding protein 43 OS=Pongo abelii 
+OX=9601 GN=TARDBP PE=2 SV=1
+Length=414
+
+ Score = 159 bits (401),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 75/78 (96%), Positives = 76/78 (97%), Gaps = 0/78 (0%)
+
+Query  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGIL  61
+           SEYIRVTEDE+DEPIEIPSEDDGTVLLSTVTAQFPGA GLRYRNPVSQ MRGVRLVEGIL
+Sbjct  2   SEYIRVTEDESDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMRGVRLVEGIL  61
+
+Query  62  HAPDAGWGNLVYVVNYPK  79
+           HAPDAGWGNLVYVVNYPK
+Sbjct  62  HAPDAGWGNLVYVVNYPK  79
+
+
+> sp|Q5ZLN5|TADBP_CHICK TAR DNA-binding protein 43 OS=Gallus gallus 
+OX=9031 GN=TARDBP PE=2 SV=1
+Length=414
+
+ Score = 156 bits (394),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 74/78 (95%), Positives = 75/78 (96%), Gaps = 0/78 (0%)
+
+Query  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGIL  61
+           SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGA GLRYRNPVSQ M GVRLVEGIL
+Sbjct  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMWGVRLVEGIL  61
+
+Query  62  HAPDAGWGNLVYVVNYPK  79
+           HAP+AGWGNLVYVVNYPK
+Sbjct  62  HAPEAGWGNLVYVVNYPK  79
+
+
+> sp|Q28F51|TADBP_XENTR TAR DNA-binding protein 43 OS=Xenopus tropicalis 
+OX=8364 GN=tardbp PE=2 SV=1
+Length=409
+
+ Score = 148 bits (373),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 69/77 (90%), Positives = 73/77 (95%), Gaps = 0/77 (0%)
+
+Query  3   EYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGILH  62
+           EYIRV EDEN+EP+EIPSEDDGTVLLSTVTAQFPGA GLRYRNPV+Q MRGVRLVEGILH
+Sbjct  4   EYIRVAEDENEEPMEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVNQCMRGVRLVEGILH  63
+
+Query  63  APDAGWGNLVYVVNYPK  79
+           AP+ GWGNLVYVVNYPK
+Sbjct  64  APENGWGNLVYVVNYPK  80
+
+
+> sp|D0VWM8|TADBP_CAEEL Tar DNA-binding protein homolog 1 OS=Caenorhabditis 
+elegans OX=6239 GN=tdp-1 PE=1 SV=1
+Length=414
+
+ Score = 61.6 bits (148),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 33/75 (44%), Positives = 46/75 (61%), Gaps = 3/75 (4%)
+
+Query  3    EYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGILH  62
+            E+I V +   DEPIE+P+ D G VL++T+ A FPGA GL+Y+NP +   R V++    L 
+Sbjct  46   EFITVQDPNGDEPIELPTVD-GVVLMTTLQASFPGATGLKYKNPKTGANRAVQVDPSGLK  104
+
+Query  63   --APDAGWGNLVYVV  75
+              AP  GW N  + V
+Sbjct  105  LIAPADGWENKTFFV  119
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.136    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5064704014
+Results from round 2
+
+
+Query= 5MDI:B
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q921F2|TADBP_MOUSE TAR DNA-binding protein 43 OS=Mus musculu...  157     2e-47
+  sp|Q13148|TADBP_HUMAN TAR DNA-binding protein 43 OS=Homo sapien...  157     2e-47
+  sp|Q5R5W2|TADBP_PONAB TAR DNA-binding protein 43 OS=Pongo abeli...  157     5e-47
+  sp|Q5ZLN5|TADBP_CHICK TAR DNA-binding protein 43 OS=Gallus gall...  153     9e-46
+  sp|Q28F51|TADBP_XENTR TAR DNA-binding protein 43 OS=Xenopus tro...  152     3e-45
+  sp|D0VWM8|TADBP_CAEEL Tar DNA-binding protein homolog 1 OS=Caen...  115     3e-31
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q921F2|TADBP_MOUSE TAR DNA-binding protein 43 OS=Mus musculus 
+OX=10090 GN=Tardbp PE=1 SV=1
+Length=414
+
+ Score = 157 bits (398),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 76/78 (97%), Positives = 76/78 (97%), Gaps = 0/78 (0%)
+
+Query  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGIL  61
+           SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGA GLRYRNPVSQ MRGVRLVEGIL
+Sbjct  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMRGVRLVEGIL  61
+
+Query  62  HAPDAGWGNLVYVVNYPK  79
+           HAPDAGWGNLVYVVNYPK
+Sbjct  62  HAPDAGWGNLVYVVNYPK  79
+
+
+> sp|Q13148|TADBP_HUMAN TAR DNA-binding protein 43 OS=Homo sapiens 
+OX=9606 GN=TARDBP PE=1 SV=1
+Length=414
+
+ Score = 157 bits (398),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 76/78 (97%), Positives = 76/78 (97%), Gaps = 0/78 (0%)
+
+Query  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGIL  61
+           SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGA GLRYRNPVSQ MRGVRLVEGIL
+Sbjct  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMRGVRLVEGIL  61
+
+Query  62  HAPDAGWGNLVYVVNYPK  79
+           HAPDAGWGNLVYVVNYPK
+Sbjct  62  HAPDAGWGNLVYVVNYPK  79
+
+
+> sp|Q5R5W2|TADBP_PONAB TAR DNA-binding protein 43 OS=Pongo abelii 
+OX=9601 GN=TARDBP PE=2 SV=1
+Length=414
+
+ Score = 157 bits (396),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 75/78 (96%), Positives = 76/78 (97%), Gaps = 0/78 (0%)
+
+Query  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGIL  61
+           SEYIRVTEDE+DEPIEIPSEDDGTVLLSTVTAQFPGA GLRYRNPVSQ MRGVRLVEGIL
+Sbjct  2   SEYIRVTEDESDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMRGVRLVEGIL  61
+
+Query  62  HAPDAGWGNLVYVVNYPK  79
+           HAPDAGWGNLVYVVNYPK
+Sbjct  62  HAPDAGWGNLVYVVNYPK  79
+
+
+> sp|Q5ZLN5|TADBP_CHICK TAR DNA-binding protein 43 OS=Gallus gallus 
+OX=9031 GN=TARDBP PE=2 SV=1
+Length=414
+
+ Score = 153 bits (387),  Expect = 9e-46, Method: Composition-based stats.
+ Identities = 74/78 (95%), Positives = 75/78 (96%), Gaps = 0/78 (0%)
+
+Query  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGIL  61
+           SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGA GLRYRNPVSQ M GVRLVEGIL
+Sbjct  2   SEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMWGVRLVEGIL  61
+
+Query  62  HAPDAGWGNLVYVVNYPK  79
+           HAP+AGWGNLVYVVNYPK
+Sbjct  62  HAPEAGWGNLVYVVNYPK  79
+
+
+> sp|Q28F51|TADBP_XENTR TAR DNA-binding protein 43 OS=Xenopus tropicalis 
+OX=8364 GN=tardbp PE=2 SV=1
+Length=409
+
+ Score = 152 bits (384),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 69/77 (90%), Positives = 73/77 (95%), Gaps = 0/77 (0%)
+
+Query  3   EYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGILH  62
+           EYIRV EDEN+EP+EIPSEDDGTVLLSTVTAQFPGA GLRYRNPV+Q MRGVRLVEGILH
+Sbjct  4   EYIRVAEDENEEPMEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVNQCMRGVRLVEGILH  63
+
+Query  63  APDAGWGNLVYVVNYPK  79
+           AP+ GWGNLVYVVNYPK
+Sbjct  64  APENGWGNLVYVVNYPK  80
+
+
+> sp|D0VWM8|TADBP_CAEEL Tar DNA-binding protein homolog 1 OS=Caenorhabditis 
+elegans OX=6239 GN=tdp-1 PE=1 SV=1
+Length=414
+
+ Score = 115 bits (287),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 33/75 (44%), Positives = 46/75 (61%), Gaps = 3/75 (4%)
+
+Query  3    EYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGAXGLRYRNPVSQXMRGVRLVEGILH  62
+            E+I V +   DEPIE+P+ D G VL++T+ A FPGA GL+Y+NP +   R V++    L 
+Sbjct  46   EFITVQDPNGDEPIELPTVD-GVVLMTTLQASFPGATGLKYKNPKTGANRAVQVDPSGLK  104
+
+Query  63   --APDAGWGNLVYVV  75
+              AP  GW N  + V
+Sbjct  105  LIAPADGWENKTFFV  119
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.128    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5064704014
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

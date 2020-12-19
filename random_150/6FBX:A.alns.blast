@@ -1,0 +1,3160 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6FBX:A
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q07820|MCL1_HUMAN Induced myeloid leukemia cell differentiat...  79.3    4e-17
+  sp|Q90ZN1|NR13_CHICK Anti-apoptotic protein NR13 OS=Gallus gall...  75.5    1e-16
+  sp|Q9Z1P3|MCL1_RAT Induced myeloid leukemia cell differentiatio...  77.8    2e-16
+  sp|Q7YRZ9|MCL1_FELCA Induced myeloid leukemia cell differentiat...  77.4    2e-16
+  sp|Q8HYS5|MCL1_CANLF Induced myeloid leukemia cell differentiat...  76.6    5e-16
+  sp|Q3C2I0|B2LA1_BOVIN Bcl-2-related protein A1 OS=Bos taurus OX...  73.9    5e-16
+  sp|P97287|MCL1_MOUSE Induced myeloid leukemia cell differentiat...  75.5    9e-16
+  sp|Q90343|NR13_COTJA Anti-apoptotic protein NR13 OS=Coturnix ja...  73.2    1e-15
+  sp|Q99M66|B2L10_RAT Bcl-2-like protein 10 OS=Rattus norvegicus ...  70.5    1e-14
+  sp|Q16548|B2LA1_HUMAN Bcl-2-related protein A1 OS=Homo sapiens ...  67.0    2e-13
+  sp|O77737|B2CL1_PIG Bcl-2-like protein 1 OS=Sus scrofa OX=9823 ...  65.5    2e-12
+  sp|P53563|B2CL1_RAT Bcl-2-like protein 1 OS=Rattus norvegicus O...  65.1    2e-12
+  sp|Q64373|B2CL1_MOUSE Bcl-2-like protein 1 OS=Mus musculus OX=1...  65.1    2e-12
+  sp|Q07817|B2CL1_HUMAN Bcl-2-like protein 1 OS=Homo sapiens OX=9...  65.1    3e-12
+  sp|Q07440|B2LA1_MOUSE Bcl-2-related protein A1 OS=Mus musculus ...  63.2    5e-12
+  sp|Q9HD36|B2L10_HUMAN Bcl-2-like protein 10 OS=Homo sapiens OX=...  63.2    1e-11
+  sp|Q07816|B2CL1_CHICK Bcl-2-like protein 1 OS=Gallus gallus OX=...  60.5    1e-10
+  sp|Q00709|BCL2_CHICK Apoptosis regulator Bcl-2 OS=Gallus gallus...  59.3    4e-10
+  sp|Q91827|AR1_XENLA Apoptosis regulator R1 (Fragment) OS=Xenopu...  58.2    9e-10
+  sp|Q91828|AR11_XENLA Apoptosis regulator R11 OS=Xenopus laevis ...  57.4    1e-09
+  sp|Q9JJV8|BCL2_CRIGR Apoptosis regulator Bcl-2 OS=Cricetulus gr...  55.5    1e-08
+  sp|P10415|BCL2_HUMAN Apoptosis regulator Bcl-2 OS=Homo sapiens ...  55.5    1e-08
+  sp|Q6R755|BCL2_CANLF Apoptosis regulator Bcl-2 OS=Canis lupus f...  55.1    1e-08
+  sp|P10417|BCL2_MOUSE Apoptosis regulator Bcl-2 OS=Mus musculus ...  54.7    2e-08
+  sp|P49950|BCL2_RAT Apoptosis regulator Bcl-2 OS=Rattus norvegic...  54.7    2e-08
+  sp|O02718|BCL2_BOVIN Apoptosis regulator Bcl-2 OS=Bos taurus OX...  54.3    2e-08
+  sp|Q9Z0F3|B2L10_MOUSE Bcl-2-like protein 10 OS=Mus musculus OX=...  50.4    4e-07
+  sp|Q07813|BAX_MOUSE Apoptosis regulator BAX OS=Mus musculus OX=...  48.9    2e-06
+  sp|Q92843|B2CL2_HUMAN Bcl-2-like protein 2 OS=Homo sapiens OX=9...  48.5    2e-06
+  sp|Q63690|BAX_RAT Apoptosis regulator BAX OS=Rattus norvegicus ...  48.1    2e-06
+  sp|Q45T69|B2CL2_CANLF Bcl-2-like protein 2 OS=Canis lupus famil...  47.8    4e-06
+  sp|Q1RMX3|B2CL2_BOVIN Bcl-2-like protein 2 OS=Bos taurus OX=991...  47.8    4e-06
+  sp|O02703|BAX_BOVIN Apoptosis regulator BAX OS=Bos taurus OX=99...  47.0    7e-06
+  sp|P70345|B2CL2_MOUSE Bcl-2-like protein 2 OS=Mus musculus OX=1...  47.0    9e-06
+  sp|Q07812|BAX_HUMAN Apoptosis regulator BAX OS=Homo sapiens OX=...  44.3    8e-05
+  sp|F5HGJ3|ARBH_HHV8P Apoptosis regulator Bcl-2 homolog OS=Human...  40.0    0.002
+  sp|Q6DC66|BOKA_DANRE Bcl-2-related ovarian killer protein homol...  38.9    0.007
+
+
+> sp|Q07820|MCL1_HUMAN Induced myeloid leukemia cell differentiation 
+protein Mcl-1 OS=Homo sapiens OX=9606 GN=MCL1 PE=1 SV=3
+Length=350
+
+ Score = 79.3 bits (194),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 49/152 (32%), Positives = 77/152 (51%), Gaps = 21/152 (14%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPP--------SESAEAMRYLAKEMEQQHRTKFRS  56
+            +S +LREQ            +G + T P         ++ E +R +   +++ H T F+ 
+Sbjct  182  ISRYLREQ-----------ATGAKDTKPMGRSGATSRKALETLRRVGDGVQRNHETAFQG  230
+
+Query  57   LSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSR  116
+            + ++ LD    D  K+L  VM  +  DG  NWGR+V++ +F   +A  L +  + S    
+Sbjct  231  MLRK-LDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQES-CIE  288
+
+Query  117  RLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+             LAE+I D L   K+DWLV+  GW+GF  FFH
+Sbjct  289  PLAESITDVLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q90ZN1|NR13_CHICK Anti-apoptotic protein NR13 OS=Gallus gallus 
+OX=9031 GN=NR13 PE=1 SV=1
+Length=177
+
+ Score = 75.5 bits (184),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 57/139 (41%), Positives = 82/139 (59%), Gaps = 2/139 (1%)
+
+Query  9    LREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGAD  68
+            L+E+T LL EDY    +G    PPS +A  +R  A E+E++ R  FRS +         +
+Sbjct  5    LKEETALLLEDYFQHRAGGAALPPSATAAELRRAAAELERRERPFFRSCAP-LARAEPRE  63
+
+Query  69   PSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGG  128
+             +  L+ V  +L  +G +NWGR++++  FTG LA+ L   G   EG  RLA  +A YL  
+Sbjct  64   AAALLRKVAAQLEAEGGLNWGRLLALVVFTGTLAAALAESG-CEEGPSRLAAALAAYLAE  122
+
+Query  129  EKQDWLVENGGWEGFCRFF  147
+            E+ +WL E+GGW+GFCRFF
+Sbjct  123  EQGEWLEEHGGWDGFCRFF  141
+
+
+> sp|Q9Z1P3|MCL1_RAT Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Rattus norvegicus OX=10116 GN=Mcl1 
+PE=1 SV=2
+Length=330
+
+ Score = 77.8 bits (190),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 41/112 (37%), Positives = 62/112 (55%), Gaps = 2/112 (2%)
+
+Query  37   EAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFT  96
+            E +R +   +++ H T F+ + ++ LD    D  K+   VM  +  DG  NWGR+V++ +
+Sbjct  191  ETLRRVGDGVQRNHETAFQGMLRK-LDIKNEDDVKSFSRVMTHVFKDGVTNWGRIVTLIS  249
+
+Query  97   FTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+            F   +A  L S  + S     LAE+I D L   K+DWLV+  GW+GF  FFH
+Sbjct  250  FGAFVAKHLKSINQES-CIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFH  300
+
+
+> sp|Q7YRZ9|MCL1_FELCA Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Felis catus OX=9685 GN=MCL1 PE=2 
+SV=1
+Length=350
+
+ Score = 77.4 bits (189),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 48/144 (33%), Positives = 75/144 (52%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +      SG       ++ E +R +   +++ H T F+ + ++ LD 
+Sbjct  182  ISRYLREQATGAKDAKPLGGSGAAS---RKALETLRRVGDGVQRNHETAFQGMLRK-LDI  237
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               +  K+L  VM  +  DG  NWGR+V++ +F   +A  L S  + S     LAE+I D
+Sbjct  238  KNENDVKSLSRVMVHVFSDGVTNWGRIVTLISFGAFVAKHLKSINQES-CIEPLAESITD  296
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  297  VLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q8HYS5|MCL1_CANLF Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Canis lupus familiaris OX=9615 
+GN=MCL1 PE=2 SV=1
+Length=350
+
+ Score = 76.6 bits (187),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 48/144 (33%), Positives = 77/144 (53%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ    A+D      G  +    ++ E ++ +   +++ H T F+ + ++ LD 
+Sbjct  182  ISRYLREQATG-AKDAKPL--GGSRAASRKALETLQRVGDGVQRNHETAFQGMLRK-LDI  237
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               D  K+L  V+  +  DG  NWGR+V++ +F   +A  L S  + S     LAE+I D
+Sbjct  238  KNEDDVKSLSRVIVHVFSDGVTNWGRIVTLISFGAFVAKHLKSINQES-CIEPLAESITD  296
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  297  VLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q3C2I0|B2LA1_BOVIN Bcl-2-related protein A1 OS=Bos taurus 
+OX=9913 GN=BCL2A1 PE=2 SV=1
+Length=175
+
+ Score = 73.9 bits (180),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 77/139 (55%), Gaps = 7/139 (5%)
+
+Query  16   LAEDYISFCSGIQQ--TPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKAL  73
+            LAEDY+ +   IQQ  + PS+++  ++ +A  ++ +     +    +F D    D ++ +
+Sbjct  12   LAEDYLKYVLQIQQPGSKPSKTSRVLQDVASSVQDEVERTLKQCLDKF-DVVSVDTARTI  70
+
+Query  74   -QSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSR--GENSEGSRRLAETIADYLGGEK  130
+               VM +   DG +NWGR+V+IF F G+L  +LL +    + +  + ++  +A+++    
+Sbjct  71   FNQVMEKEFEDGIVNWGRIVTIFAFEGILTKKLLGKCIASDMDMCKDISFFVAEFITENT  130
+
+Query  131  QDWLVENGGWE-GFCRFFH  148
+             +W+ +NGGWE GF + F 
+Sbjct  131  GEWIKQNGGWENGFVKKFE  149
+
+
+> sp|P97287|MCL1_MOUSE Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Mus musculus OX=10090 GN=Mcl1 
+PE=1 SV=3
+Length=331
+
+ Score = 75.5 bits (184),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 41/112 (37%), Positives = 61/112 (54%), Gaps = 2/112 (2%)
+
+Query  37   EAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFT  96
+            E +R +   +++ H T F+ + ++ LD       K+   VM  +  DG  NWGR+V++ +
+Sbjct  192  ETLRRVGDGVQRNHETAFQGMLRK-LDIKNEGDVKSFSRVMVHVFKDGVTNWGRIVTLIS  250
+
+Query  97   FTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+            F   +A  L S  + S     LAETI D L   K+DWLV+  GW+GF  FFH
+Sbjct  251  FGAFVAKHLKSVNQESF-IEPLAETITDVLVRTKRDWLVKQRGWDGFVEFFH  301
+
+
+> sp|Q90343|NR13_COTJA Anti-apoptotic protein NR13 OS=Coturnix 
+japonica OX=93934 GN=NR13 PE=2 SV=1
+Length=177
+
+ Score = 73.2 bits (178),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 54/139 (39%), Positives = 80/139 (58%), Gaps = 2/139 (1%)
+
+Query  9    LREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGAD  68
+            L+E+T LL EDY    +G    PPS +A  +R  A E+E++ R  FRS +         +
+Sbjct  5    LKEETALLLEDYFQHRAGGAALPPSATAAELRRAAAELERRERPFFRSCAP-LARAEPRE  63
+
+Query  69   PSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGG  128
+             +  L+ V  +L  DG +NWGR++++  F G LA+ L +     EG  RLA  +  YL  
+Sbjct  64   AAALLRKVAAQLETDGGLNWGRLLALVVFAGTLAAAL-AESACEEGPSRLAAALTAYLAE  122
+
+Query  129  EKQDWLVENGGWEGFCRFF  147
+            E+ +W+ E+GGW+GFCRFF
+Sbjct  123  EQGEWMEEHGGWDGFCRFF  141
+
+
+> sp|Q99M66|B2L10_RAT Bcl-2-like protein 10 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2l10 PE=2 SV=1
+Length=185
+
+ Score = 70.5 bits (171),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 45/152 (30%), Positives = 69/152 (45%), Gaps = 17/152 (11%)
+
+Query  9    LREQTLLLAEDYISFCSGIQQTP----PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            L+++T  L  DYI FC+    TP     S  A  +R +  +++Q+H+  F S    F D 
+Sbjct  5    LQDRTRRLLTDYILFCARAPNTPEPLPTSVEAALLRSVTSQIQQEHQDLFNS----FRDY  60
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRL------  118
+             G       Q     L  D + NWGR+V +  F G L ++  +     +   RL      
+Sbjct  61   QGNRLELVTQMADELLSNDQEFNWGRLVMLLAFVGTLMNQDRTVKRRRDQRNRLLLERDC  120
+
+Query  119  ---AETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                  + + L G  + WL  +GGW+GFC+FF
+Sbjct  121  YLIVSLLYNRLTGRHRSWLEAHGGWDGFCQFF  152
+
+
+> sp|Q16548|B2LA1_HUMAN Bcl-2-related protein A1 OS=Homo sapiens 
+OX=9606 GN=BCL2A1 PE=1 SV=1
+Length=175
+
+ Score = 67.0 bits (162),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 38/139 (27%), Positives = 76/139 (55%), Gaps = 7/139 (5%)
+
+Query  16   LAEDYISFCSGIQQ--TPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKAL  73
+            LA+DY+     I Q  + PS+++  ++ +A  ++++     +S     ++    D ++ L
+Sbjct  12   LAQDYLQCVLQIPQPGSGPSKTSRVLQNVAFSVQKEVEKNLKSCLDN-VNVVSVDTARTL  70
+
+Query  74   -QSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSR--GENSEGSRRLAETIADYLGGEK  130
+               VM +   DG +NWGR+V+IF F G+L  +LL +    + +  + ++  +A+++    
+Sbjct  71   FNQVMEKEFEDGIINWGRIVTIFAFEGILIKKLLRQQIAPDVDTYKEISYFVAEFIMNNT  130
+
+Query  131  QDWLVENGGWE-GFCRFFH  148
+             +W+ +NGGWE GF + F 
+Sbjct  131  GEWIRQNGGWENGFVKKFE  149
+
+
+> sp|O77737|B2CL1_PIG Bcl-2-like protein 1 OS=Sus scrofa OX=9823 
+GN=BCL2L1 PE=2 SV=1
+Length=233
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 38/117 (32%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  31   PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR
+Sbjct  82   PMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVLNELFRDG-VNWGR  139
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            +V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  140  IVAFFSFGGALCVESVDK-EMQVLVSRIATWMATYLNDHLEPWIQENGGWDTFVELY  195
+
+
+> sp|P53563|B2CL1_RAT Bcl-2-like protein 1 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2l1 PE=1 SV=2
+Length=233
+
+ Score = 65.1 bits (157),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 38/117 (32%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  31   PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR
+Sbjct  82   PMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VNWGR  139
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            +V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  140  IVAFFSFGGALCVESVDK-EMQVLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLY  195
+
+
+> sp|Q64373|B2CL1_MOUSE Bcl-2-like protein 1 OS=Mus musculus OX=10090 
+GN=Bcl2l1 PE=1 SV=1
+Length=233
+
+ Score = 65.1 bits (157),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 38/117 (32%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  31   PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR
+Sbjct  82   PMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VNWGR  139
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            +V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  140  IVAFFSFGGALCVESVDK-EMQVLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLY  195
+
+
+> sp|Q07817|B2CL1_HUMAN Bcl-2-like protein 1 OS=Homo sapiens OX=9606 
+GN=BCL2L1 PE=1 SV=1
+Length=233
+
+ Score = 65.1 bits (157),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 38/117 (32%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  31   PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR
+Sbjct  82   PMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VNWGR  139
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            +V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  140  IVAFFSFGGALCVESVDK-EMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELY  195
+
+
+> sp|Q07440|B2LA1_MOUSE Bcl-2-related protein A1 OS=Mus musculus 
+OX=10090 GN=Bcl2a1 PE=1 SV=1
+Length=172
+
+ Score = 63.2 bits (152),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 40/141 (28%), Positives = 73/141 (52%), Gaps = 13/141 (9%)
+
+Query  16   LAEDYISFCSGIQ--QTPPSESAEAMRYLA----KEMEQQHRTKFRSLSQEFLDTAGADP  69
+            LAE Y+ +   +   ++ PS++   ++ +A    KE+E+  ++       E +DTA    
+Sbjct  12   LAEHYLQYVLQVPAFESAPSQACRVLQRVAFSVQKEVEKNLKSYLDDFHVESIDTARI--  69
+
+Query  70   SKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSR--GENSEGSRRLAETIADYLG  127
+                  VM +   DG +NWGR+V+IF F GVL  +L       +    ++++  +A+++ 
+Sbjct  70   --IFNQVMEKEFEDGIINWGRIVTIFAFGGVLLKKLPQEQIALDVCAYKQVSSFVAEFIM  127
+
+Query  128  GEKQDWLVENGGWE-GFCRFF  147
+                +W+ +NGGWE GF + F
+Sbjct  128  NNTGEWIRQNGGWEDGFIKKF  148
+
+
+> sp|Q9HD36|B2L10_HUMAN Bcl-2-like protein 10 OS=Homo sapiens OX=9606 
+GN=BCL2L10 PE=1 SV=3
+Length=204
+
+ Score = 63.2 bits (152),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 49/166 (30%), Positives = 73/166 (44%), Gaps = 25/166 (15%)
+
+Query  4    SMSCWLREQTLLLAEDYISFCSGIQQTP-PSES---AEAMRYLAKEMEQQHRTKFRSLSQ  59
+            +M+  LRE+T LL  DY+ +C+    TP P+ S   A  +R  A  + Q HR+ F +   
+Sbjct  10   TMADPLRERTELLLADYLGYCAREPGTPEPAPSTPEAAVLRSAAARLRQIHRSFFSA---  66
+
+Query  60   EFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASE---LLSR--------  108
+             +L   G             L       WGRVV++ TF G L      + +R        
+Sbjct  67   -YLGYPGNRFELVALMADSVLSDSPGPTWGRVVTLVTFAGTLLERGPLVTARWKKWGFQP  125
+
+Query  109  ------GENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+                  G+ +   +RL   ++  L G+ + WL   GGW+GFC FF 
+Sbjct  126  RLKEQEGDVARDCQRLVALLSSRLMGQHRAWLQAQGGWDGFCHFFR  171
+
+
+> sp|Q07816|B2CL1_CHICK Bcl-2-like protein 1 OS=Gallus gallus OX=9031 
+GN=BCL2L1 PE=2 SV=2
+Length=229
+
+ Score = 60.5 bits (145),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 37/115 (32%), Positives = 58/115 (50%), Gaps = 3/115 (3%)
+
+Query  33   SESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVV  92
+            S+  +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR+V
+Sbjct  80   SDVRQALRDAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFHDG-VNWGRIV  137
+
+Query  93   SIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            + F+F G L  E + + E      R+   +  YL      W+ ENGGWE F   +
+Sbjct  138  AFFSFGGALCVESVDK-EMRVLVGRIVSWMTTYLTDHLDPWIQENGGWERFVDLY  191
+
+
+> sp|Q00709|BCL2_CHICK Apoptosis regulator Bcl-2 OS=Gallus gallus 
+OX=9031 GN=BCL2 PE=2 SV=1
+Length=233
+
+ Score = 59.3 bits (142),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 36/122 (30%), Positives = 63/122 (52%), Gaps = 4/122 (3%)
+
+Query  26   GIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGK  85
+            G++  PP     A+R    E  ++++  F  +S +   T      + + +V+ EL  DG 
+Sbjct  79   GLRPAPPGVHL-ALRQAGDEFSRRYQRDFAQMSGQLHLTPFTAHGRFV-AVVEELFRDG-  135
+
+Query  86   MNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+            +NWGR+V+ F F GV+  E ++R E S     +A  + +YL     +W+ +NGGW+ F  
+Sbjct  136  VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIATWMTEYLNRHLHNWIQDNGGWDAFVE  194
+
+Query  146  FF  147
+             +
+Sbjct  195  LY  196
+
+
+> sp|Q91827|AR1_XENLA Apoptosis regulator R1 (Fragment) OS=Xenopus 
+laevis OX=8355 PE=2 SV=1
+Length=228
+
+ Score = 58.2 bits (139),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 45/158 (28%), Positives = 71/158 (45%), Gaps = 19/158 (12%)
+
+Query  3    LSMSCWLREQTL---LLAEDYISF--CSGIQQTPPSESAE-----AMRYLAKEMEQQHRT  52
+            L+   W+ +  L    L ED + +  C       PS +A      AMR    E E++ R 
+Sbjct  35   LTEQGWMAQSDLGSRALVEDLVRYKLCQRSLVPEPSGAASCALHSAMRAAGDEFEERFRQ  94
+
+Query  53   KFRSLSQEFLDTAGADPSKALQSVMRELVGD---GKMNWGRVVSIFTFTGVLASELLSRG  109
+             F  +S +   T G   ++       E+ G    G +NWGR+V+ F F   L +E +++ 
+Sbjct  95   AFSEISTQIHVTPGTAYAR-----FAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNK-  148
+
+Query  110  ENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            E S    R+ + +  YL    +DW+  NGGW GF   +
+Sbjct  149  EMSPLLPRIQDWMVTYLETNLRDWIQSNGGWNGFLTLY  186
+
+
+> sp|Q91828|AR11_XENLA Apoptosis regulator R11 OS=Xenopus laevis 
+OX=8355 PE=2 SV=1
+Length=204
+
+ Score = 57.4 bits (137),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 36/114 (32%), Positives = 59/114 (52%), Gaps = 3/114 (3%)
+
+Query  34   ESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVS  93
+            E  +A+    +E E +++  F  L+ + L        ++ Q VM EL  DG  NWGR+V+
+Sbjct  57   EVLQALLEATEEFELRYQRAFSDLTSQ-LHITQDTAQQSFQQVMGELFRDGT-NWGRIVA  114
+
+Query  94   IFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+             F+F   L  E  ++ E ++   R+ + + +YL    Q W+ ENGGWE F   +
+Sbjct  115  FFSFGRALCVESANK-EMTDLLPRIVQWMVNYLEHTLQPWMQENGGWEAFVGLY  167
+
+
+> sp|Q9JJV8|BCL2_CRIGR Apoptosis regulator Bcl-2 OS=Cricetulus 
+griseus OX=10029 GN=BCL2 PE=1 SV=1
+Length=236
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 36/128 (28%), Positives = 61/128 (48%), Gaps = 4/128 (3%)
+
+Query  21   ISFCSGIQQTP-PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRE  79
+            I   +G   +P P      +R    +  +++R  F  +S +   T      +   +V+ E
+Sbjct  75   IVATTGPTLSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEE  133
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGG  139
+            L  DG +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGG
+Sbjct  134  LFRDG-VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGG  191
+
+Query  140  WEGFCRFF  147
+            W+ F   +
+Sbjct  192  WDAFVELY  199
+
+
+> sp|P10415|BCL2_HUMAN Apoptosis regulator Bcl-2 OS=Homo sapiens 
+OX=9606 GN=BCL2 PE=1 SV=2
+Length=239
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 33/116 (28%), Positives = 56/116 (48%), Gaps = 3/116 (3%)
+
+Query  32   PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRV  91
+            P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG +NWGR+
+Sbjct  90   PPVVHLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-VNWGRI  147
+
+Query  92   VSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F   +
+Sbjct  148  VAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELY  202
+
+
+> sp|Q6R755|BCL2_CANLF Apoptosis regulator Bcl-2 OS=Canis lupus 
+familiaris OX=9615 GN=BCL2 PE=2 SV=1
+Length=236
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 36/128 (28%), Positives = 61/128 (48%), Gaps = 4/128 (3%)
+
+Query  21   ISFCSGIQQTP-PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRE  79
+            I   +G   +P P      +R    +  +++R  F  +S +   T      +   +V+ E
+Sbjct  75   IVATTGPTLSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEE  133
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGG  139
+            L  DG +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGG
+Sbjct  134  LFRDG-VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGG  191
+
+Query  140  WEGFCRFF  147
+            W+ F   +
+Sbjct  192  WDAFVELY  199
+
+
+> sp|P10417|BCL2_MOUSE Apoptosis regulator Bcl-2 OS=Mus musculus 
+OX=10090 GN=Bcl2 PE=1 SV=3
+Length=236
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 33/116 (28%), Positives = 56/116 (48%), Gaps = 3/116 (3%)
+
+Query  32   PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRV  91
+            P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG +NWGR+
+Sbjct  87   PPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-VNWGRI  144
+
+Query  92   VSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F   +
+Sbjct  145  VAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELY  199
+
+
+> sp|P49950|BCL2_RAT Apoptosis regulator Bcl-2 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2 PE=1 SV=2
+Length=236
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 33/116 (28%), Positives = 56/116 (48%), Gaps = 3/116 (3%)
+
+Query  32   PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRV  91
+            P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG +NWGR+
+Sbjct  87   PPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-VNWGRI  144
+
+Query  92   VSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F   +
+Sbjct  145  VAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELY  199
+
+
+> sp|O02718|BCL2_BOVIN Apoptosis regulator Bcl-2 OS=Bos taurus 
+OX=9913 GN=BCL2 PE=2 SV=1
+Length=229
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 32/110 (29%), Positives = 55/110 (50%), Gaps = 3/110 (3%)
+
+Query  38   AMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTF  97
+             +R    +  +++R  F  +S + L        +   +V+ EL  DG +NWGR+V+ F F
+Sbjct  86   TLRQAGDDFSRRYRRDFAEMSSQ-LHLTPFTARERFATVVEELFRDG-VNWGRIVAFFEF  143
+
+Query  98   TGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+             GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F   +
+Sbjct  144  GGVMCVESVNR-EMSPLVDSIALWMTEYLNRHLHTWIQDNGGWDAFVELY  192
+
+
+> sp|Q9Z0F3|B2L10_MOUSE Bcl-2-like protein 10 OS=Mus musculus OX=10090 
+GN=Bcl2l10 PE=1 SV=1
+Length=191
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 42/155 (27%), Positives = 71/155 (46%), Gaps = 20/155 (13%)
+
+Query  9    LREQTLLLAEDYISFCS----GIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            L E+T  L  DYI FC+      +  P S  A  +R + ++++Q+H+  F S    F ++
+Sbjct  8    LHERTRRLLSDYIFFCAREPDTPEPPPTSVEAALLRSVTRQIQQEHQEFFSS----FCES  63
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASE---LLSRGENSEGSRRLAE-  120
+             G       Q   + L  D   +W ++V +  F G L ++   +  + +   G+R +   
+Sbjct  64   RGNRLELVKQMADKLLSKDQDFSWSQLVMLLAFAGTLMNQGPYMAVKQKRDLGNRVIVTR  123
+
+Query  121  ---TIADYL-----GGEKQDWLVENGGWEGFCRFF  147
+                I ++L     G   +  L   GGW+GFCRFF
+Sbjct  124  DCCLIVNFLYNLLMGRRHRARLEALGGWDGFCRFF  158
+
+
+> sp|Q07813|BAX_MOUSE Apoptosis regulator BAX OS=Mus musculus OX=10090 
+GN=Bax PE=1 SV=1
+Length=192
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 32/122 (26%), Positives = 52/122 (43%), Gaps = 11/122 (9%)
+
+Query  31   PPSESA-----EAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGK  85
+            PP +++     E +R +  E++         L +   D     P +    V  ++  DG 
+Sbjct  50   PPQDASTKKLSECLRRIGDELDSNME-----LQRMIADVDTDSPREVFFRVAADMFADGN  104
+
+Query  86   MNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+             NWGRVV++F F   L  + L   +  E  R +     D+L      W+ + GGWEG   
+Sbjct  105  FNWGRVVALFYFASKLVLKALCT-KVPELIRTIMGWTLDFLRERLLVWIQDQGGWEGLLS  163
+
+Query  146  FF  147
+            +F
+Sbjct  164  YF  165
+
+
+> sp|Q92843|B2CL2_HUMAN Bcl-2-like protein 2 OS=Homo sapiens OX=9606 
+GN=BCL2L2 PE=1 SV=2
+Length=193
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 53/111 (48%), Gaps = 3/111 (3%)
+
+Query  37   EAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFT  96
+            +AMR    E E + R  F  L+ +   T G+   +  Q V  EL   G  NWGR+V+ F 
+Sbjct  44   QAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQ-VSDELF-QGGPNWGRLVAFFV  101
+
+Query  97   FTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            F   L +E +++ E      ++ E +  YL  +  DW+  +GGW  F   +
+Sbjct  102  FGAALCAESVNK-EMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q63690|BAX_RAT Apoptosis regulator BAX OS=Rattus norvegicus 
+OX=10116 GN=Bax PE=1 SV=2
+Length=192
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 31/122 (25%), Positives = 52/122 (43%), Gaps = 11/122 (9%)
+
+Query  31   PPSESA-----EAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGK  85
+            PP +++     E +R +  E++         L +   D     P +    V  ++  DG 
+Sbjct  50   PPQDASTKKLSECLRRIGDELDSNM-----ELQRMIADVDTDSPREVFFRVAADMFADGN  104
+
+Query  86   MNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+             NWGRVV++F F   L  + L   +  E  R +     D+L      W+ + GGW+G   
+Sbjct  105  FNWGRVVALFYFASKLVLKALCT-KVPELIRTIMGWTLDFLRERLLVWIQDQGGWDGLLS  163
+
+Query  146  FF  147
+            +F
+Sbjct  164  YF  165
+
+
+> sp|Q45T69|B2CL2_CANLF Bcl-2-like protein 2 OS=Canis lupus familiaris 
+OX=9615 GN=BCL2L2 PE=2 SV=1
+Length=193
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  37   EAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFT  96
+            +AMR    E E + R  F  L+ +   T G+   +  Q V  EL   G  NWGR+V+ F 
+Sbjct  44   QAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQ-VSDELF-QGGPNWGRLVAFFV  101
+
+Query  97   FTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            F   L +E +++ E      ++ E +  YL     DW+  +GGW  F   +
+Sbjct  102  FGAALCAESVNK-EMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q1RMX3|B2CL2_BOVIN Bcl-2-like protein 2 OS=Bos taurus OX=9913 
+GN=BCL2L2 PE=1 SV=1
+Length=193
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  37   EAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFT  96
+            +AMR    E E + R  F  L+ +   T G+   +  Q V  EL   G  NWGR+V+ F 
+Sbjct  44   QAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQ-VSDELF-QGGPNWGRLVAFFV  101
+
+Query  97   FTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            F   L +E +++ E      ++ E +  YL     DW+  +GGW  F   +
+Sbjct  102  FGAALCAESVNK-EMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|O02703|BAX_BOVIN Apoptosis regulator BAX OS=Bos taurus OX=9913 
+GN=BAX PE=2 SV=1
+Length=192
+
+ Score = 47.0 bits (110),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 57/126 (45%), Gaps = 10/126 (8%)
+
+Query  26   GIQQTPPSES----AEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELV  81
+            G++Q P   S    +E ++ +  E++     + R ++    D+    P +    V  E+ 
+Sbjct  46   GLEQVPQDASTKKLSECLKRIGDELDSNMELQ-RMIAAVDTDS----PREVFFRVAAEMF  100
+
+Query  82   GDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWE  141
+             DG  NWGRVV++F F   L  + L   +  E  R +     D+L      W+ + GGW+
+Sbjct  101  SDGNFNWGRVVALFYFASKLVLKALCT-KVPELIRTIMGWTLDFLRERLLGWIQDQGGWD  159
+
+Query  142  GFCRFF  147
+            G   +F
+Sbjct  160  GLLSYF  165
+
+
+> sp|P70345|B2CL2_MOUSE Bcl-2-like protein 2 OS=Mus musculus OX=10090 
+GN=Bcl2l2 PE=1 SV=1
+Length=193
+
+ Score = 47.0 bits (110),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 33/111 (30%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  37   EAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFT  96
+            +AMR    E E + R  F  L+ +   T G+   +  Q V  EL   G  NWGR+V+ F 
+Sbjct  44   QAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQ-VSDELF-QGGPNWGRLVAFFV  101
+
+Query  97   FTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            F   L +E +++ E      ++ + +  YL     DW+  +GGW  F   +
+Sbjct  102  FGAALCAESVNK-EMEPLVGQVQDWMVAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q07812|BAX_HUMAN Apoptosis regulator BAX OS=Homo sapiens OX=9606 
+GN=BAX PE=1 SV=1
+Length=192
+
+ Score = 44.3 bits (103),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 37/79 (47%), Gaps = 1/79 (1%)
+
+Query  69   PSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGG  128
+            P +    V  ++  DG  NWGRVV++F F   L  + L   +  E  R +     D+L  
+Sbjct  88   PREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCT-KVPELIRTIMGWTLDFLRE  146
+
+Query  129  EKQDWLVENGGWEGFCRFF  147
+                W+ + GGW+G   +F
+Sbjct  147  RLLGWIQDQGGWDGLLSYF  165
+
+
+> sp|F5HGJ3|ARBH_HHV8P Apoptosis regulator Bcl-2 homolog OS=Human 
+herpesvirus 8 type P (isolate GK18) OX=868565 GN=vBCL2 PE=1 
+SV=1
+Length=175
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 30/69 (43%), Gaps = 6/69 (9%)
+
+Query  77   MRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEK--QDWL  134
+            M ++ GDG MNWGR ++I TF   +A +L     N    R  A  +      E     W 
+Sbjct  73   MLQVSGDGNMNWGRALAILTFGSFVAQKL----SNEPHLRDFALAVLPVYAYEAIGPQWF  128
+
+Query  135  VENGGWEGF  143
+               GGW G 
+Sbjct  129  RARGGWRGL  137
+
+
+> sp|Q6DC66|BOKA_DANRE Bcl-2-related ovarian killer protein homolog 
+A OS=Danio rerio OX=7955 GN=boka PE=2 SV=1
+Length=221
+
+ Score = 38.9 bits (89),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 36/159 (23%), Positives = 66/159 (42%), Gaps = 32/159 (20%)
+
+Query  9    LREQTLLLAEDYIS---FCSGIQQTPP--------SESAEAMRYLAKEMEQQHRTKFRSL  57
+            L  Q+ +L  DYI      +GI  + P        +E +  + +L  E+E      +R++
+Sbjct  27   LVSQSKVLCRDYIHSRLHRAGIGWSKPEHGSGGTLAEVSSVLLWLGDELEYLRPNVYRNV  86
+
+Query  58   SQEFLDTAGADP--SKALQSVMRELVG----------DGKMNWGRVVSIFTFTGVLASEL  105
+            +++   T  ++   S A  +V  E+               + WG++VS++   G LA + 
+Sbjct  87   ARQLNITIASENIVSDAFLAVAAEIFSTEYSRKGLEKHKGVTWGKIVSLYAVAGALAVDC  146
+
+Query  106  LSRGENSEGSRRLAETIADYLG----GEKQDWLVENGGW  140
+            +  G  +     +  TI D +G         WL + GGW
+Sbjct  147  VRNGHPA-----MVHTIVDCMGEFVRKSLASWLKKRGGW  180
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5844520972
+Results from round 2
+
+
+Query= 6FBX:A
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9JJV8|BCL2_CRIGR Apoptosis regulator Bcl-2 OS=Cricetulus gr...  151     1e-45
+  sp|Q6R755|BCL2_CANLF Apoptosis regulator Bcl-2 OS=Canis lupus f...  151     1e-45
+  sp|P10417|BCL2_MOUSE Apoptosis regulator Bcl-2 OS=Mus musculus ...  151     2e-45
+  sp|Q91827|AR1_XENLA Apoptosis regulator R1 (Fragment) OS=Xenopu...  149     5e-45
+  sp|P49950|BCL2_RAT Apoptosis regulator Bcl-2 OS=Rattus norvegic...  149     8e-45
+  sp|Q7YRZ9|MCL1_FELCA Induced myeloid leukemia cell differentiat...  152     1e-44
+  sp|Q07820|MCL1_HUMAN Induced myeloid leukemia cell differentiat...  151     3e-44
+  sp|Q00709|BCL2_CHICK Apoptosis regulator Bcl-2 OS=Gallus gallus...  148     3e-44
+  sp|P10415|BCL2_HUMAN Apoptosis regulator Bcl-2 OS=Homo sapiens ...  147     8e-44
+  sp|Q8HYS5|MCL1_CANLF Induced myeloid leukemia cell differentiat...  149     1e-43
+  sp|Q9Z1P3|MCL1_RAT Induced myeloid leukemia cell differentiatio...  149     2e-43
+  sp|Q3C2I0|B2LA1_BOVIN Bcl-2-related protein A1 OS=Bos taurus OX...  144     2e-43
+  sp|Q99M66|B2L10_RAT Bcl-2-like protein 10 OS=Rattus norvegicus ...  144     2e-43
+  sp|Q07817|B2CL1_HUMAN Bcl-2-like protein 1 OS=Homo sapiens OX=9...  144     1e-42
+  sp|O77737|B2CL1_PIG Bcl-2-like protein 1 OS=Sus scrofa OX=9823 ...  143     2e-42
+  sp|P53563|B2CL1_RAT Bcl-2-like protein 1 OS=Rattus norvegicus O...  143     2e-42
+  sp|Q64373|B2CL1_MOUSE Bcl-2-like protein 1 OS=Mus musculus OX=1...  143     2e-42
+  sp|Q16548|B2LA1_HUMAN Bcl-2-related protein A1 OS=Homo sapiens ...  141     3e-42
+  sp|P97287|MCL1_MOUSE Induced myeloid leukemia cell differentiat...  144     7e-42
+  sp|O02718|BCL2_BOVIN Apoptosis regulator Bcl-2 OS=Bos taurus OX...  140     3e-41
+  sp|Q07816|B2CL1_CHICK Bcl-2-like protein 1 OS=Gallus gallus OX=...  140     3e-41
+  sp|Q07440|B2LA1_MOUSE Bcl-2-related protein A1 OS=Mus musculus ...  135     7e-40
+  sp|Q9HD36|B2L10_HUMAN Bcl-2-like protein 10 OS=Homo sapiens OX=...  132     2e-38
+  sp|Q91828|AR11_XENLA Apoptosis regulator R11 OS=Xenopus laevis ...  129     3e-37
+  sp|Q45T69|B2CL2_CANLF Bcl-2-like protein 2 OS=Canis lupus famil...  127     2e-36
+  sp|Q1RMX3|B2CL2_BOVIN Bcl-2-like protein 2 OS=Bos taurus OX=991...  127     2e-36
+  sp|Q92843|B2CL2_HUMAN Bcl-2-like protein 2 OS=Homo sapiens OX=9...  127     2e-36
+  sp|P70345|B2CL2_MOUSE Bcl-2-like protein 2 OS=Mus musculus OX=1...  126     2e-36
+  sp|Q63690|BAX_RAT Apoptosis regulator BAX OS=Rattus norvegicus ...  126     4e-36
+  sp|Q07813|BAX_MOUSE Apoptosis regulator BAX OS=Mus musculus OX=...  125     9e-36
+  sp|O02703|BAX_BOVIN Apoptosis regulator BAX OS=Bos taurus OX=99...  124     2e-35
+  sp|Q07812|BAX_HUMAN Apoptosis regulator BAX OS=Homo sapiens OX=...  123     4e-35
+  sp|Q9Z0F3|B2L10_MOUSE Bcl-2-like protein 10 OS=Mus musculus OX=...  119     2e-33
+  sp|Q90343|NR13_COTJA Anti-apoptotic protein NR13 OS=Coturnix ja...  113     3e-31
+  sp|Q90ZN1|NR13_CHICK Anti-apoptotic protein NR13 OS=Gallus gall...  110     3e-30
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q16611|BAK_HUMAN Bcl-2 homologous antagonist/killer OS=Homo ...  62.8    1e-11
+  sp|O08734|BAK_MOUSE Bcl-2 homologous antagonist/killer OS=Mus m...  62.1    2e-11
+  sp|Q9UMX3|BOK_HUMAN Bcl-2-related ovarian killer protein OS=Hom...  60.1    1e-10
+  sp|P41957|CED9_CAEBR Apoptosis regulator ced-9 OS=Caenorhabditi...  60.5    2e-10
+  sp|Q792S6|BOK_RAT Bcl-2-related ovarian killer protein OS=Rattu...  59.4    3e-10
+  sp|O35425|BOK_MOUSE Bcl-2-related ovarian killer protein OS=Mus...  59.4    3e-10
+  sp|Q9I8I2|BOK_CHICK Bcl-2-related ovarian killer protein OS=Gal...  59.0    3e-10
+  sp|Q6DC66|BOKA_DANRE Bcl-2-related ovarian killer protein homol...  59.0    4e-10
+  sp|P0C8H6|ARBH_ASFWA Apoptosis regulator Bcl-2 homolog OS=Afric...  57.8    8e-10
+  sp|P0C8H5|ARBH_ASFP4 Apoptosis regulator Bcl-2 homolog OS=Afric...  57.8    8e-10
+  sp|P0C8H4|ARBH_ASFK5 Apoptosis regulator Bcl-2 homolog OS=Afric...  57.4    8e-10
+  sp|P41958|CED9_CAEEL Apoptosis regulator ced-9 OS=Caenorhabditi...  58.2    1e-09
+  sp|P42485|ARBH_ASFB7 Apoptosis regulator Bcl-2 homolog OS=Afric...  57.1    1e-09
+  sp|Q07819|ARBH_ASFM2 Apoptosis regulator Bcl-2 homolog OS=Afric...  56.7    2e-09
+  sp|Q07818|ARBH_ASFE4 Apoptosis regulator Bcl-2 homolog OS=Afric...  56.3    2e-09
+  sp|Q7T381|BOKB_DANRE Bcl-2-related ovarian killer protein homol...  50.9    3e-07
+  sp|F5HGJ3|ARBH_HHV8P Apoptosis regulator Bcl-2 homolog OS=Human...  49.7    6e-07
+  sp|Q6VZT9|ARBH_CNPV Apoptosis regulator Bcl-2 homolog OS=Canary...  46.7    7e-06
+  sp|Q9J5G4|ARBH_FOWPN Apoptosis regulator Bcl-2 homolog OS=Fowlp...  45.5    2e-05
+  sp|Q5E9L4|B2L14_BOVIN Apoptosis facilitator Bcl-2-like protein ...  40.9    0.002
+  sp|P0C736|EAR_EBVG Apoptosis regulator BHRF1 OS=Epstein-Barr vi...  38.6    0.007
+
+
+> sp|Q9JJV8|BCL2_CRIGR Apoptosis regulator Bcl-2 OS=Cricetulus 
+griseus OX=10029 GN=BCL2 PE=1 SV=1
+Length=236
+
+ Score = 151 bits (382),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 36/128 (28%), Positives = 61/128 (48%), Gaps = 4/128 (3%)
+
+Query  21   ISFCSGIQQTP-PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRE  79
+            I   +G   +P P      +R    +  +++R  F  +S +   T      +   +V+ E
+Sbjct  75   IVATTGPTLSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEE  133
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGG  139
+            L  DG +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGG
+Sbjct  134  LFRDG-VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGG  191
+
+Query  140  WEGFCRFF  147
+            W+ F   +
+Sbjct  192  WDAFVELY  199
+
+
+> sp|Q6R755|BCL2_CANLF Apoptosis regulator Bcl-2 OS=Canis lupus 
+familiaris OX=9615 GN=BCL2 PE=2 SV=1
+Length=236
+
+ Score = 151 bits (382),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 36/128 (28%), Positives = 61/128 (48%), Gaps = 4/128 (3%)
+
+Query  21   ISFCSGIQQTP-PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRE  79
+            I   +G   +P P      +R    +  +++R  F  +S +   T      +   +V+ E
+Sbjct  75   IVATTGPTLSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEE  133
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGG  139
+            L  DG +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGG
+Sbjct  134  LFRDG-VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGG  191
+
+Query  140  WEGFCRFF  147
+            W+ F   +
+Sbjct  192  WDAFVELY  199
+
+
+> sp|P10417|BCL2_MOUSE Apoptosis regulator Bcl-2 OS=Mus musculus 
+OX=10090 GN=Bcl2 PE=1 SV=3
+Length=236
+
+ Score = 151 bits (380),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 35/128 (27%), Positives = 61/128 (48%), Gaps = 4/128 (3%)
+
+Query  21   ISFCSGIQQTP-PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRE  79
+            +   +G   +P P      +R    +  +++R  F  +S +   T      +   +V+ E
+Sbjct  75   LVATAGPALSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEE  133
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGG  139
+            L  DG +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGG
+Sbjct  134  LFRDG-VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGG  191
+
+Query  140  WEGFCRFF  147
+            W+ F   +
+Sbjct  192  WDAFVELY  199
+
+
+> sp|Q91827|AR1_XENLA Apoptosis regulator R1 (Fragment) OS=Xenopus 
+laevis OX=8355 PE=2 SV=1
+Length=228
+
+ Score = 149 bits (377),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 43/155 (28%), Positives = 68/155 (44%), Gaps = 13/155 (8%)
+
+Query  3    LSMSCWLREQT---LLLAEDYISF--CSGIQQTPPSESAEA-----MRYLAKEMEQQHRT  52
+            L+   W+ +       L ED + +  C       PS +A       MR    E E++ R 
+Sbjct  35   LTEQGWMAQSDLGSRALVEDLVRYKLCQRSLVPEPSGAASCALHSAMRAAGDEFEERFRQ  94
+
+Query  53   KFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENS  112
+             F  +S +   T G   ++    V   L   G +NWGR+V+ F F   L +E +++ E S
+Sbjct  95   AFSEISTQIHVTPGTAYAR-FAEVAGSLF-QGGVNWGRIVAFFVFGAALCAESVNK-EMS  151
+
+Query  113  EGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                R+ + +  YL    +DW+  NGGW GF   +
+Sbjct  152  PLLPRIQDWMVTYLETNLRDWIQSNGGWNGFLTLY  186
+
+
+> sp|P49950|BCL2_RAT Apoptosis regulator Bcl-2 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2 PE=1 SV=2
+Length=236
+
+ Score = 149 bits (377),  Expect = 8e-45, Method: Composition-based stats.
+ Identities = 35/124 (28%), Positives = 60/124 (48%), Gaps = 4/124 (3%)
+
+Query  25   SGIQQTP-PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGD  83
+            +G   +P P      +R    +  +++R  F  +S +   T      +   +V+ EL  D
+Sbjct  79   AGPALSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRD  137
+
+Query  84   GKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGF  143
+            G +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F
+Sbjct  138  G-VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAF  195
+
+Query  144  CRFF  147
+               +
+Sbjct  196  VELY  199
+
+
+> sp|Q7YRZ9|MCL1_FELCA Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Felis catus OX=9685 GN=MCL1 PE=2 
+SV=1
+Length=350
+
+ Score = 152 bits (383),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 73/144 (51%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +       G       ++ E +R +   +++ H T F+ + ++  D 
+Sbjct  182  ISRYLREQATGAKDAKP---LGGSGAASRKALETLRRVGDGVQRNHETAFQGMLRKL-DI  237
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               +  K+L  VM  +  DG  NWGR+V++ +F   +A  L S  + S     LAE+I D
+Sbjct  238  KNENDVKSLSRVMVHVFSDGVTNWGRIVTLISFGAFVAKHLKSINQES-CIEPLAESITD  296
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  297  VLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q07820|MCL1_HUMAN Induced myeloid leukemia cell differentiation 
+protein Mcl-1 OS=Homo sapiens OX=9606 GN=MCL1 PE=1 SV=3
+Length=350
+
+ Score = 151 bits (381),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 47/144 (33%), Positives = 74/144 (51%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +      SG       ++ E +R +   +++ H T F+ + ++  D 
+Sbjct  182  ISRYLREQATGAKDTKPMGRSGATS---RKALETLRRVGDGVQRNHETAFQGMLRKL-DI  237
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               D  K+L  VM  +  DG  NWGR+V++ +F   +A  L +  + S     LAE+I D
+Sbjct  238  KNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQES-CIEPLAESITD  296
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  297  VLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q00709|BCL2_CHICK Apoptosis regulator Bcl-2 OS=Gallus gallus 
+OX=9031 GN=BCL2 PE=2 SV=1
+Length=233
+
+ Score = 148 bits (373),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 34/123 (28%), Positives = 60/123 (49%), Gaps = 3/123 (2%)
+
+Query  25   SGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDG  84
+            +   +  P     A+R    E  ++++  F  +S +   T      +   +V+ EL  DG
+Sbjct  77   AEGLRPAPPGVHLALRQAGDEFSRRYQRDFAQMSGQLHLTPFTAHGR-FVAVVEELFRDG  135
+
+Query  85   KMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFC  144
+             +NWGR+V+ F F GV+  E ++R E S     +A  + +YL     +W+ +NGGW+ F 
+Sbjct  136  -VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIATWMTEYLNRHLHNWIQDNGGWDAFV  193
+
+Query  145  RFF  147
+              +
+Sbjct  194  ELY  196
+
+
+> sp|P10415|BCL2_HUMAN Apoptosis regulator Bcl-2 OS=Homo sapiens 
+OX=9606 GN=BCL2 PE=1 SV=2
+Length=239
+
+ Score = 147 bits (370),  Expect = 8e-44, Method: Composition-based stats.
+ Identities = 33/119 (28%), Positives = 56/119 (47%), Gaps = 3/119 (3%)
+
+Query  29   QTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNW  88
+               P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG +NW
+Sbjct  87   SPVPPVVHLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-VNW  144
+
+Query  89   GRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            GR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F   +
+Sbjct  145  GRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELY  202
+
+
+> sp|Q8HYS5|MCL1_CANLF Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Canis lupus familiaris OX=9615 
+GN=MCL1 PE=2 SV=1
+Length=350
+
+ Score = 149 bits (377),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 45/144 (31%), Positives = 74/144 (51%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +       G  +    ++ E ++ +   +++ H T F+ + ++  D 
+Sbjct  182  ISRYLREQATGAKDAKP---LGGSRAASRKALETLQRVGDGVQRNHETAFQGMLRKL-DI  237
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               D  K+L  V+  +  DG  NWGR+V++ +F   +A  L S  + S     LAE+I D
+Sbjct  238  KNEDDVKSLSRVIVHVFSDGVTNWGRIVTLISFGAFVAKHLKSINQES-CIEPLAESITD  296
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  297  VLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q9Z1P3|MCL1_RAT Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Rattus norvegicus OX=10116 GN=Mcl1 
+PE=1 SV=2
+Length=330
+
+ Score = 149 bits (375),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 72/144 (50%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +      +G        + E +R +   +++ H T F+ + ++  D 
+Sbjct  162  ISRYLREQATGSKDAKPLGEAGAAG---RRALETLRRVGDGVQRNHETAFQGMLRKL-DI  217
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               D  K+   VM  +  DG  NWGR+V++ +F   +A  L S  + S     LAE+I D
+Sbjct  218  KNEDDVKSFSRVMTHVFKDGVTNWGRIVTLISFGAFVAKHLKSINQES-CIEPLAESITD  276
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  277  VLVRTKRDWLVKQRGWDGFVEFFH  300
+
+
+> sp|Q3C2I0|B2LA1_BOVIN Bcl-2-related protein A1 OS=Bos taurus 
+OX=9913 GN=BCL2A1 PE=2 SV=1
+Length=175
+
+ Score = 144 bits (362),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 38/139 (27%), Positives = 71/139 (51%), Gaps = 5/139 (4%)
+
+Query  15   LLAEDYISFCSGIQQT--PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKA  72
+             LAEDY+ +   IQQ    PS+++  ++ +A  ++ +     +    +F   +       
+Sbjct  11   GLAEDYLKYVLQIQQPGSKPSKTSRVLQDVASSVQDEVERTLKQCLDKFDVVSVDTARTI  70
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELL--SRGENSEGSRRLAETIADYLGGEK  130
+               VM +   DG +NWGR+V+IF F G+L  +LL      + +  + ++  +A+++    
+Sbjct  71   FNQVMEKEFEDGIVNWGRIVTIFAFEGILTKKLLGKCIASDMDMCKDISFFVAEFITENT  130
+
+Query  131  QDWLVENGGWE-GFCRFFH  148
+             +W+ +NGGWE GF + F 
+Sbjct  131  GEWIKQNGGWENGFVKKFE  149
+
+
+> sp|Q99M66|B2L10_RAT Bcl-2-like protein 10 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2l10 PE=2 SV=1
+Length=185
+
+ Score = 144 bits (363),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 45/157 (29%), Positives = 70/157 (45%), Gaps = 17/157 (11%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTP----PSESAEAMRYLAKEMEQQHRTKFRSLSQE  60
+            M   L+++T  L  DYI FC+    TP     S  A  +R +  +++Q+H+  F S    
+Sbjct  1    MGDPLQDRTRRLLTDYILFCARAPNTPEPLPTSVEAALLRSVTSQIQQEHQDLFNS----  56
+
+Query  61   FLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRR---  117
+            F D  G       Q     L  D + NWGR+V +  F G L ++  +     +   R   
+Sbjct  57   FRDYQGNRLELVTQMADELLSNDQEFNWGRLVMLLAFVGTLMNQDRTVKRRRDQRNRLLL  116
+
+Query  118  ------LAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+                  +   + + L G  + WL  +GGW+GFC+FF 
+Sbjct  117  ERDCYLIVSLLYNRLTGRHRSWLEAHGGWDGFCQFFK  153
+
+
+> sp|Q07817|B2CL1_HUMAN Bcl-2-like protein 1 OS=Homo sapiens OX=9606 
+GN=BCL2L1 PE=1 SV=1
+Length=233
+
+ Score = 144 bits (362),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 38/120 (32%), Positives = 62/120 (52%), Gaps = 3/120 (3%)
+
+Query  28   QQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMN  87
+            +  P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +N
+Sbjct  79   EVIPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VN  136
+
+Query  88   WGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            WGR+V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  137  WGRIVAFFSFGGALCVESVDK-EMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELY  195
+
+
+> sp|O77737|B2CL1_PIG Bcl-2-like protein 1 OS=Sus scrofa OX=9823 
+GN=BCL2L1 PE=2 SV=1
+Length=233
+
+ Score = 143 bits (361),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 38/120 (32%), Positives = 62/120 (52%), Gaps = 3/120 (3%)
+
+Query  28   QQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMN  87
+            +  P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +N
+Sbjct  79   EVIPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVLNELFRDG-VN  136
+
+Query  88   WGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            WGR+V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  137  WGRIVAFFSFGGALCVESVDK-EMQVLVSRIATWMATYLNDHLEPWIQENGGWDTFVELY  195
+
+
+> sp|P53563|B2CL1_RAT Bcl-2-like protein 1 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2l1 PE=1 SV=2
+Length=233
+
+ Score = 143 bits (361),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 38/120 (32%), Positives = 62/120 (52%), Gaps = 3/120 (3%)
+
+Query  28   QQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMN  87
+            +  P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +N
+Sbjct  79   EVIPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VN  136
+
+Query  88   WGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            WGR+V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  137  WGRIVAFFSFGGALCVESVDK-EMQVLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLY  195
+
+
+> sp|Q64373|B2CL1_MOUSE Bcl-2-like protein 1 OS=Mus musculus OX=10090 
+GN=Bcl2l1 PE=1 SV=1
+Length=233
+
+ Score = 143 bits (361),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 38/120 (32%), Positives = 62/120 (52%), Gaps = 3/120 (3%)
+
+Query  28   QQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMN  87
+            +  P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +N
+Sbjct  79   EVIPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VN  136
+
+Query  88   WGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            WGR+V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  137  WGRIVAFFSFGGALCVESVDK-EMQVLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLY  195
+
+
+> sp|Q16548|B2LA1_HUMAN Bcl-2-related protein A1 OS=Homo sapiens 
+OX=9606 GN=BCL2A1 PE=1 SV=1
+Length=175
+
+ Score = 141 bits (354),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 36/139 (26%), Positives = 70/139 (50%), Gaps = 5/139 (4%)
+
+Query  15   LLAEDYISFCSGIQQTP--PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKA  72
+             LA+DY+     I Q    PS+++  ++ +A  ++++     +S        +       
+Sbjct  11   RLAQDYLQCVLQIPQPGSGPSKTSRVLQNVAFSVQKEVEKNLKSCLDNVNVVSVDTARTL  70
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSR--GENSEGSRRLAETIADYLGGEK  130
+               VM +   DG +NWGR+V+IF F G+L  +LL +    + +  + ++  +A+++    
+Sbjct  71   FNQVMEKEFEDGIINWGRIVTIFAFEGILIKKLLRQQIAPDVDTYKEISYFVAEFIMNNT  130
+
+Query  131  QDWLVENGGWE-GFCRFFH  148
+             +W+ +NGGWE GF + F 
+Sbjct  131  GEWIRQNGGWENGFVKKFE  149
+
+
+> sp|P97287|MCL1_MOUSE Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Mus musculus OX=10090 GN=Mcl1 
+PE=1 SV=3
+Length=331
+
+ Score = 144 bits (364),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 71/144 (49%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +      +G        + E +R +   +++ H T F+ + ++  D 
+Sbjct  163  ISRYLREQATGSKDSKPLGEAGAAG---RRALETLRRVGDGVQRNHETAFQGMLRKL-DI  218
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+                  K+   VM  +  DG  NWGR+V++ +F   +A  L S  + S     LAETI D
+Sbjct  219  KNEGDVKSFSRVMVHVFKDGVTNWGRIVTLISFGAFVAKHLKSVNQES-FIEPLAETITD  277
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  278  VLVRTKRDWLVKQRGWDGFVEFFH  301
+
+
+> sp|O02718|BCL2_BOVIN Apoptosis regulator Bcl-2 OS=Bos taurus 
+OX=9913 GN=BCL2 PE=2 SV=1
+Length=229
+
+ Score = 140 bits (352),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 32/112 (29%), Positives = 55/112 (49%), Gaps = 3/112 (3%)
+
+Query  36   AEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIF  95
+               +R    +  +++R  F  +S +   T      +   +V+ EL  DG +NWGR+V+ F
+Sbjct  84   HLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTARER-FATVVEELFRDG-VNWGRIVAFF  141
+
+Query  96   TFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+             F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F   +
+Sbjct  142  EFGGVMCVESVNR-EMSPLVDSIALWMTEYLNRHLHTWIQDNGGWDAFVELY  192
+
+
+> sp|Q07816|B2CL1_CHICK Bcl-2-like protein 1 OS=Gallus gallus OX=9031 
+GN=BCL2L1 PE=2 SV=2
+Length=229
+
+ Score = 140 bits (352),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 37/115 (32%), Positives = 58/115 (50%), Gaps = 3/115 (3%)
+
+Query  33   SESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVV  92
+            S+  +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR+V
+Sbjct  80   SDVRQALRDAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFHDG-VNWGRIV  137
+
+Query  93   SIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            + F+F G L  E + + E      R+   +  YL      W+ ENGGWE F   +
+Sbjct  138  AFFSFGGALCVESVDK-EMRVLVGRIVSWMTTYLTDHLDPWIQENGGWERFVDLY  191
+
+
+> sp|Q07440|B2LA1_MOUSE Bcl-2-related protein A1 OS=Mus musculus 
+OX=10090 GN=Bcl2a1 PE=1 SV=1
+Length=172
+
+ Score = 135 bits (339),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 34/138 (25%), Positives = 70/138 (51%), Gaps = 5/138 (4%)
+
+Query  16   LAEDYISFCSGIQ--QTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKAL  73
+            LAE Y+ +   +   ++ PS++   ++ +A  ++++     +S   +F   +        
+Sbjct  12   LAEHYLQYVLQVPAFESAPSQACRVLQRVAFSVQKEVEKNLKSYLDDFHVESIDTARIIF  71
+
+Query  74   QSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSR--GENSEGSRRLAETIADYLGGEKQ  131
+              VM +   DG +NWGR+V+IF F GVL  +L       +    ++++  +A+++     
+Sbjct  72   NQVMEKEFEDGIINWGRIVTIFAFGGVLLKKLPQEQIALDVCAYKQVSSFVAEFIMNNTG  131
+
+Query  132  DWLVENGGW-EGFCRFFH  148
+            +W+ +NGGW +GF + F 
+Sbjct  132  EWIRQNGGWEDGFIKKFE  149
+
+
+> sp|Q9HD36|B2L10_HUMAN Bcl-2-like protein 10 OS=Homo sapiens OX=9606 
+GN=BCL2L10 PE=1 SV=3
+Length=204
+
+ Score = 132 bits (331),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 45/166 (27%), Positives = 68/166 (41%), Gaps = 25/166 (15%)
+
+Query  4    SMSCWLREQTLLLAEDYISFCSG----IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQ  59
+            +M+  LRE+T LL  DY+ +C+      +  P +  A  +R  A  + Q HR+ F +   
+Sbjct  10   TMADPLRERTELLLADYLGYCAREPGTPEPAPSTPEAAVLRSAAARLRQIHRSFFSA---  66
+
+Query  60   EFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELL-------------  106
+             +L   G             L       WGRVV++ TF G L                  
+Sbjct  67   -YLGYPGNRFELVALMADSVLSDSPGPTWGRVVTLVTFAGTLLERGPLVTARWKKWGFQP  125
+
+Query  107  ----SRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+                  G+ +   +RL   ++  L G+ + WL   GGW+GFC FF 
+Sbjct  126  RLKEQEGDVARDCQRLVALLSSRLMGQHRAWLQAQGGWDGFCHFFR  171
+
+
+> sp|Q91828|AR11_XENLA Apoptosis regulator R11 OS=Xenopus laevis 
+OX=8355 PE=2 SV=1
+Length=204
+
+ Score = 129 bits (324),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 36/114 (32%), Positives = 59/114 (52%), Gaps = 3/114 (3%)
+
+Query  34   ESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVS  93
+            E  +A+    +E E +++  F  L+ +   T      ++ Q VM EL  DG  NWGR+V+
+Sbjct  57   EVLQALLEATEEFELRYQRAFSDLTSQLHITQ-DTAQQSFQQVMGELFRDG-TNWGRIVA  114
+
+Query  94   IFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+             F+F   L  E  ++ E ++   R+ + + +YL    Q W+ ENGGWE F   +
+Sbjct  115  FFSFGRALCVESANK-EMTDLLPRIVQWMVNYLEHTLQPWMQENGGWEAFVGLY  167
+
+
+> sp|Q45T69|B2CL2_CANLF Bcl-2-like protein 2 OS=Canis lupus familiaris 
+OX=9615 GN=BCL2L2 PE=2 SV=1
+Length=193
+
+ Score = 127 bits (318),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 36/145 (25%), Positives = 58/145 (40%), Gaps = 13/145 (9%)
+
+Query  13   TLLLAEDYISFCSG----------IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL  62
+            T  L  D++ +              +        +AMR    E E + R  F  L+ +  
+Sbjct  10   TRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLH  69
+
+Query  63   DTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+             T G+   +    V  EL   G  NWGR+V+ F F   L +E +++ E      ++ E +
+Sbjct  70   VTPGSAQQR-FTQVSDELF-QGGPNWGRLVAFFVFGAALCAESVNK-EMEPLVGQVQEWM  126
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCRFF  147
+              YL     DW+  +GGW  F   +
+Sbjct  127  VAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q1RMX3|B2CL2_BOVIN Bcl-2-like protein 2 OS=Bos taurus OX=9913 
+GN=BCL2L2 PE=1 SV=1
+Length=193
+
+ Score = 127 bits (318),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 36/145 (25%), Positives = 58/145 (40%), Gaps = 13/145 (9%)
+
+Query  13   TLLLAEDYISFCSG----------IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL  62
+            T  L  D++ +              +        +AMR    E E + R  F  L+ +  
+Sbjct  10   TRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLH  69
+
+Query  63   DTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+             T G+   +    V  EL   G  NWGR+V+ F F   L +E +++ E      ++ E +
+Sbjct  70   VTPGSAQQR-FTQVSDELF-QGGPNWGRLVAFFVFGAALCAESVNK-EMEPLVGQVQEWM  126
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCRFF  147
+              YL     DW+  +GGW  F   +
+Sbjct  127  VAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q92843|B2CL2_HUMAN Bcl-2-like protein 2 OS=Homo sapiens OX=9606 
+GN=BCL2L2 PE=1 SV=2
+Length=193
+
+ Score = 127 bits (318),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 36/145 (25%), Positives = 59/145 (41%), Gaps = 13/145 (9%)
+
+Query  13   TLLLAEDYISFCSG----------IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL  62
+            T  L  D++ +              +        +AMR    E E + R  F  L+ +  
+Sbjct  10   TRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLH  69
+
+Query  63   DTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+             T G+   +    V  EL   G  NWGR+V+ F F   L +E +++ E      ++ E +
+Sbjct  70   VTPGSAQQR-FTQVSDELF-QGGPNWGRLVAFFVFGAALCAESVNK-EMEPLVGQVQEWM  126
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCRFF  147
+              YL  +  DW+  +GGW  F   +
+Sbjct  127  VAYLETQLADWIHSSGGWAEFTALY  151
+
+
+> sp|P70345|B2CL2_MOUSE Bcl-2-like protein 2 OS=Mus musculus OX=10090 
+GN=Bcl2l2 PE=1 SV=1
+Length=193
+
+ Score = 126 bits (317),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 35/145 (24%), Positives = 58/145 (40%), Gaps = 13/145 (9%)
+
+Query  13   TLLLAEDYISFCSG----------IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL  62
+            T  L  D++ +              +        +AMR    E E + R  F  L+ +  
+Sbjct  10   TRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLH  69
+
+Query  63   DTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+             T G+   +    V  EL   G  NWGR+V+ F F   L +E +++ E      ++ + +
+Sbjct  70   VTPGSAQQR-FTQVSDELF-QGGPNWGRLVAFFVFGAALCAESVNK-EMEPLVGQVQDWM  126
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCRFF  147
+              YL     DW+  +GGW  F   +
+Sbjct  127  VAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q63690|BAX_RAT Apoptosis regulator BAX OS=Rattus norvegicus 
+OX=10116 GN=Bax PE=1 SV=2
+Length=192
+
+ Score = 126 bits (316),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 31/149 (21%), Positives = 59/149 (40%), Gaps = 8/149 (5%)
+
+Query  1    GPLSMSCWLREQTLLLAEDYISFCSGIQQ--TPPSESAEAMRYLAKEMEQQHRTKFRSLS  58
+            G   +  +++++   +A +                + +E +R +  E++         L 
+Sbjct  23   GAFLLQGFIQDRAGRMAGETPELTLEQPPQDASTKKLSECLRRIGDELDSNME-----LQ  77
+
+Query  59   QEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRL  118
+            +   D     P +    V  ++  DG  NWGRVV++F F   L  + L   +  E  R +
+Sbjct  78   RMIADVDTDSPREVFFRVAADMFADGNFNWGRVVALFYFASKLVLKALCT-KVPELIRTI  136
+
+Query  119  AETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                 D+L      W+ + GGW+G   +F
+Sbjct  137  MGWTLDFLRERLLVWIQDQGGWDGLLSYF  165
+
+
+> sp|Q07813|BAX_MOUSE Apoptosis regulator BAX OS=Mus musculus OX=10090 
+GN=Bax PE=1 SV=1
+Length=192
+
+ Score = 125 bits (313),  Expect = 9e-36, Method: Composition-based stats.
+ Identities = 32/149 (21%), Positives = 59/149 (40%), Gaps = 8/149 (5%)
+
+Query  1    GPLSMSCWLREQTLLLAEDYISFCSGIQQ--TPPSESAEAMRYLAKEMEQQHRTKFRSLS  58
+            G   +  +++++   +A +                + +E +R +  E++         L 
+Sbjct  23   GAFLLQGFIQDRAGRMAGETPELTLEQPPQDASTKKLSECLRRIGDELDSNME-----LQ  77
+
+Query  59   QEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRL  118
+            +   D     P +    V  ++  DG  NWGRVV++F F   L  + L   +  E  R +
+Sbjct  78   RMIADVDTDSPREVFFRVAADMFADGNFNWGRVVALFYFASKLVLKALCT-KVPELIRTI  136
+
+Query  119  AETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                 D+L      W+ + GGWEG   +F
+Sbjct  137  MGWTLDFLRERLLVWIQDQGGWEGLLSYF  165
+
+
+> sp|O02703|BAX_BOVIN Apoptosis regulator BAX OS=Bos taurus OX=9913 
+GN=BAX PE=2 SV=1
+Length=192
+
+ Score = 124 bits (310),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 34/151 (23%), Positives = 63/151 (42%), Gaps = 12/151 (8%)
+
+Query  1    GPLSMSCWLREQTLLLAEDYISFCSGIQQTPPSES----AEAMRYLAKEMEQQHRTKFRS  56
+            G L +  +++++   +  +      G++Q P   S    +E ++ +  E++         
+Sbjct  23   GALLLQGFIQDRAGRMGGETPE--LGLEQVPQDASTKKLSECLKRIGDELDSNME-----  75
+
+Query  57   LSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSR  116
+            L +         P +    V  E+  DG  NWGRVV++F F   L  + L   +  E  R
+Sbjct  76   LQRMIAAVDTDSPREVFFRVAAEMFSDGNFNWGRVVALFYFASKLVLKALCT-KVPELIR  134
+
+Query  117  RLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+             +     D+L      W+ + GGW+G   +F
+Sbjct  135  TIMGWTLDFLRERLLGWIQDQGGWDGLLSYF  165
+
+
+> sp|Q07812|BAX_HUMAN Apoptosis regulator BAX OS=Homo sapiens OX=9606 
+GN=BAX PE=1 SV=1
+Length=192
+
+ Score = 123 bits (308),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 30/149 (20%), Positives = 59/149 (40%), Gaps = 8/149 (5%)
+
+Query  1    GPLSMSCWLREQTLLLAEDYISFCSGI--QQTPPSESAEAMRYLAKEMEQQHRTKFRSLS  58
+            G L +  +++++   +  +          Q     + +E ++ +  E++         L 
+Sbjct  23   GALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME-----LQ  77
+
+Query  59   QEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRL  118
+            +         P +    V  ++  DG  NWGRVV++F F   L  + L   +  E  R +
+Sbjct  78   RMIAAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCT-KVPELIRTI  136
+
+Query  119  AETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                 D+L      W+ + GGW+G   +F
+Sbjct  137  MGWTLDFLRERLLGWIQDQGGWDGLLSYF  165
+
+
+> sp|Q9Z0F3|B2L10_MOUSE Bcl-2-like protein 10 OS=Mus musculus OX=10090 
+GN=Bcl2l10 PE=1 SV=1
+Length=191
+
+ Score = 119 bits (298),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 43/159 (27%), Positives = 71/159 (45%), Gaps = 20/159 (13%)
+
+Query  6    SCWLREQTLLLAEDYISFCSGIQQTPP----SESAEAMRYLAKEMEQQHRTKFRSLSQEF  61
+               L E+T  L  DYI FC+    TP     S  A  +R + ++++Q+H+  F S    F
+Sbjct  5    QDPLHERTRRLLSDYIFFCAREPDTPEPPPTSVEAALLRSVTRQIQQEHQEFFSS----F  60
+
+Query  62   LDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASE---LLSRGENSEGSRRL  118
+             ++ G       Q   + L  D   +W ++V +  F G L ++   +  + +   G+R +
+Sbjct  61   CESRGNRLELVKQMADKLLSKDQDFSWSQLVMLLAFAGTLMNQGPYMAVKQKRDLGNRVI  120
+
+Query  119  AE----TIADYL-----GGEKQDWLVENGGWEGFCRFFH  148
+                   I ++L     G   +  L   GGW+GFCRFF 
+Sbjct  121  VTRDCCLIVNFLYNLLMGRRHRARLEALGGWDGFCRFFK  159
+
+
+> sp|Q90343|NR13_COTJA Anti-apoptotic protein NR13 OS=Coturnix 
+japonica OX=93934 GN=NR13 PE=2 SV=1
+Length=177
+
+ Score = 113 bits (282),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 55/143 (38%), Positives = 80/143 (56%), Gaps = 2/143 (1%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            M   L+E+T LL EDY    +G    PPS +A  +R  A E+E++ R  FRS +      
+Sbjct  1    MPGSLKEETALLLEDYFQHRAGGAALPPSATAAELRRAAAELERRERPFFRSCAP-LARA  59
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               + +  L+ V  +L  DG +NWGR++++  F G LA+ L       EG  RLA  +  
+Sbjct  60   EPREAAALLRKVAAQLETDGGLNWGRLLALVVFAGTLAAALA-ESACEEGPSRLAAALTA  118
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFF  147
+            YL  E+ +W+ E+GGW+GFCRFF
+Sbjct  119  YLAEEQGEWMEEHGGWDGFCRFF  141
+
+
+> sp|Q90ZN1|NR13_CHICK Anti-apoptotic protein NR13 OS=Gallus gallus 
+OX=9031 GN=NR13 PE=1 SV=1
+Length=177
+
+ Score = 110 bits (275),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 58/143 (41%), Positives = 83/143 (58%), Gaps = 2/143 (1%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            M   L+E+T LL EDY    +G    PPS +A  +R  A E+E++ R  FRS +      
+Sbjct  1    MPGSLKEETALLLEDYFQHRAGGAALPPSATAAELRRAAAELERRERPFFRSCAP-LARA  59
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               + +  L+ V  +L  +G +NWGR++++  FTG LA+ L   G   EG  RLA  +A 
+Sbjct  60   EPREAAALLRKVAAQLEAEGGLNWGRLLALVVFTGTLAAALAESG-CEEGPSRLAAALAA  118
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFF  147
+            YL  E+ +WL E+GGW+GFCRFF
+Sbjct  119  YLAEEQGEWLEEHGGWDGFCRFF  141
+
+
+> sp|Q16611|BAK_HUMAN Bcl-2 homologous antagonist/killer OS=Homo 
+sapiens OX=9606 GN=BAK1 PE=1 SV=1
+Length=211
+
+ Score = 62.8 bits (151),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/114 (18%), Positives = 50/114 (44%), Gaps = 4/114 (4%)
+
+Query  28   QQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMN  87
+              +   +    +  +  ++ +++ ++F+++ Q    TA  +  +    +   L   G +N
+Sbjct  67   PSSTMGQVGRQLAIIGDDINRRYDSEFQTMLQHLQPTA-ENAYEYFTKIATSLFESG-IN  124
+
+Query  88   WGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGE-KQDWLVENGGW  140
+            WGRVV++  F   LA  +   G  +    ++   + D++       W+ + GGW
+Sbjct  125  WGRVVALLGFGYRLALHVYQHG-LTGFLGQVTRFVVDFMLHHCIARWIAQRGGW  177
+
+
+> sp|O08734|BAK_MOUSE Bcl-2 homologous antagonist/killer OS=Mus 
+musculus OX=10090 GN=Bak1 PE=1 SV=3
+Length=209
+
+ Score = 62.1 bits (149),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 30/140 (21%), Positives = 58/140 (41%), Gaps = 7/140 (5%)
+
+Query  11   EQTLLLAEDYISFCSGIQQTPPSESAEAMRY---LAKEMEQQHRTKFRSLSQEFLDTAGA  67
+            ++T   A         +   P S   +  R    +  ++ +++ T+F++L ++   TAG 
+Sbjct  45   QETQGAAAPANPEMDNLPLEPNSILGQVGRQLALIGDDINRRYDTEFQNLLEQLQPTAGN  104
+
+Query  68   DPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLG  127
+                    +   L   G ++WGRVV++  F   LA  +  RG  +    ++   +AD + 
+Sbjct  105  AYEL-FTKIASSLFKSG-ISWGRVVALLGFGYRLALYVYQRG-LTGFLGQVTCFLADIIL  161
+
+Query  128  GE-KQDWLVENGGWEGFCRF  146
+                  W+ + GGW     F
+Sbjct  162  HHYIARWIAQRGGWVAALNF  181
+
+
+> sp|Q9UMX3|BOK_HUMAN Bcl-2-related ovarian killer protein OS=Homo 
+sapiens OX=9606 GN=BOK PE=1 SV=1
+Length=212
+
+ Score = 60.1 bits (144),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 21/110 (19%), Positives = 49/110 (45%), Gaps = 4/110 (4%)
+
+Query  33   SESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGR  90
+            +E    +  L  E+E    + +R+++++   +  ++P       +V   +   G + WG+
+Sbjct  64   AEVCAVLLRLGDELEMIRPSVYRNVARQLHISLQSEPVVTDAFLAVAGHIFSAG-ITWGK  122
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGW  140
+            VVS++     LA + + + +       L + + +++      WL   GGW
+Sbjct  123  VVSLYAVAAGLAVDCVRQAQ-PAMVHALVDCLGEFVRKTLATWLRRRGGW  171
+
+
+> sp|P41957|CED9_CAEBR Apoptosis regulator ced-9 OS=Caenorhabditis 
+briggsae OX=6238 GN=ced-9 PE=3 SV=2
+Length=266
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 24/128 (19%), Positives = 52/128 (41%), Gaps = 4/128 (3%)
+
+Query  23   FCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADP---SKALQSVMRE  79
+            + +        +  E MR L    E++H   F + S++ L           + +Q+V   
+Sbjct  95   YDAPALPDGVQKEHEMMRSLGTIFEKRHMEMFENFSEQLLAVPKISFSLYQEVVQTVGNS  154
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQ-DWLVENG  138
+                  M++GR++ + +F G++A++++   E     R L    + ++    +  W   N 
+Sbjct  155  SNTPCPMSYGRLIGLISFGGMVAAKMMESAELQGQVRNLLMYTSLFIKTRIRQSWKEHNR  214
+
+Query  139  GWEGFCRF  146
+             W  F + 
+Sbjct  215  SWADFMKL  222
+
+
+> sp|Q792S6|BOK_RAT Bcl-2-related ovarian killer protein OS=Rattus 
+norvegicus OX=10116 GN=Bok PE=1 SV=1
+Length=213
+
+ Score = 59.4 bits (142),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 50/110 (45%), Gaps = 4/110 (4%)
+
+Query  33   SESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGR  90
+            +E    +  L  E+EQ   + +R+++++      ++P       +V   +   G + WG+
+Sbjct  65   AEVCTVLLRLGDELEQIRPSVYRNVARQLHIPLQSEPVVTDAFLAVAGHIFSAG-ITWGK  123
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGW  140
+            VVS+++    LA + + + +       L + + +++      WL   GGW
+Sbjct  124  VVSLYSVAAGLAVDCVRQAQ-PAMVHALVDCLGEFVRKTLATWLRRRGGW  172
+
+
+> sp|O35425|BOK_MOUSE Bcl-2-related ovarian killer protein OS=Mus 
+musculus OX=10090 GN=Bok PE=1 SV=1
+Length=213
+
+ Score = 59.4 bits (142),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 50/110 (45%), Gaps = 4/110 (4%)
+
+Query  33   SESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGR  90
+            +E    +  L  E+EQ   + +R+++++      ++P       +V   +   G + WG+
+Sbjct  65   AEVCTVLLRLGDELEQIRPSVYRNVARQLHIPLQSEPVVTDAFLAVAGHIFSAG-ITWGK  123
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGW  140
+            VVS+++    LA + + + +       L + + +++      WL   GGW
+Sbjct  124  VVSLYSVAAGLAVDCVRQAQ-PAMVHALVDCLGEFVRKTLATWLRRRGGW  172
+
+
+> sp|Q9I8I2|BOK_CHICK Bcl-2-related ovarian killer protein OS=Gallus 
+gallus OX=9031 GN=BOK PE=1 SV=1
+Length=213
+
+ Score = 59.0 bits (141),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/148 (18%), Positives = 59/148 (40%), Gaps = 18/148 (12%)
+
+Query  9    LREQTLLLAEDYI---SFCSGIQQTPP-----------SESAEAMRYLAKEMEQQHRTKF  54
+            L  Q   L  DYI      +G+  + P           +E +  +  L  E+E      +
+Sbjct  27   LVSQAKALCRDYINSRLIRAGVSWSKPEHNTPVPGGKLAEVSAILLRLGDELEYIRPNVY  86
+
+Query  55   RSLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENS  112
+            R+++++   +  ++        +V  ++   G + WG+VVS++     LA + +   +  
+Sbjct  87   RNIARQLNISLHSETVVTDAFLAVAAQIFTAG-ITWGKVVSLYAVAAGLAVDCVRHAQ-P  144
+
+Query  113  EGSRRLAETIADYLGGEKQDWLVENGGW  140
+                 + + + +++      WL   GGW
+Sbjct  145  AMVHTIVDCLGEFVRKTLVTWLKRRGGW  172
+
+
+> sp|Q6DC66|BOKA_DANRE Bcl-2-related ovarian killer protein homolog 
+A OS=Danio rerio OX=7955 GN=boka PE=2 SV=1
+Length=221
+
+ Score = 59.0 bits (141),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 32/155 (21%), Positives = 66/155 (43%), Gaps = 24/155 (15%)
+
+Query  9    LREQTLLLAEDYI---SFCSGIQQTPP--------SESAEAMRYLAKEMEQQHRTKFRSL  57
+            L  Q+ +L  DYI      +GI  + P        +E +  + +L  E+E      +R++
+Sbjct  27   LVSQSKVLCRDYIHSRLHRAGIGWSKPEHGSGGTLAEVSSVLLWLGDELEYLRPNVYRNV  86
+
+Query  58   SQEFLDTAGAD--PSKALQSVMRELVGD----------GKMNWGRVVSIFTFTGVLASEL  105
+            +++   T  ++   S A  +V  E+               + WG++VS++   G LA + 
+Sbjct  87   ARQLNITIASENIVSDAFLAVAAEIFSTEYSRKGLEKHKGVTWGKIVSLYAVAGALAVDC  146
+
+Query  106  LSRGENSEGSRRLAETIADYLGGEKQDWLVENGGW  140
+            + R  +      + + + +++      WL + GGW
+Sbjct  147  V-RNGHPAMVHTIVDCMGEFVRKSLASWLKKRGGW  180
+
+
+> sp|P0C8H6|ARBH_ASFWA Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (isolate Warthog/Namibia/Wart80/1980) 
+OX=561444 GN=War-051 PE=3 SV=1
+Length=179
+
+ Score = 57.8 bits (138),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 39/92 (42%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T+  +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTSAQEIKTQFTGVVTELFKD-LINWGRICGFIVFSAKMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|P0C8H5|ARBH_ASFP4 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (isolate Tick/South Africa/Pretoriuskop 
+Pr4/1996) OX=561443 GN=Pret-053 PE=3 SV=1
+Length=179
+
+ Score = 57.8 bits (138),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 39/92 (42%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T+  +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTSAQEIKTQFTGVVTELFKD-LINWGRICGFIVFSAKMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|P0C8H4|ARBH_ASFK5 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 
+GN=Ken-053 PE=3 SV=1
+Length=179
+
+ Score = 57.4 bits (137),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 39/92 (42%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T+  +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTSAQEIKTQFTEVVTELFKD-LINWGRICGFIVFSARMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|P41958|CED9_CAEEL Apoptosis regulator ced-9 OS=Caenorhabditis 
+elegans OX=6239 GN=ced-9 PE=1 SV=1
+Length=280
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/128 (18%), Positives = 50/128 (39%), Gaps = 4/128 (3%)
+
+Query  23   FCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSK---ALQSVMRE  79
+            F +           E MR +    E++H   F +  ++ L       S     +++V   
+Sbjct  100  FGAPGLPCGVQPEHEMMRVMGTIFEKKHAENFETFCEQLLAVPRISFSLYQDVVRTVGNA  159
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQ-DWLVENG  138
+                  M++GR++ + +F G +A++++   E     R L    + ++    + +W   N 
+Sbjct  160  QTDQCPMSYGRLIGLISFGGFVAAKMMESVELQGQVRNLFVYTSLFIKTRIRNNWKEHNR  219
+
+Query  139  GWEGFCRF  146
+             W+ F   
+Sbjct  220  SWDDFMTL  227
+
+
+> sp|P42485|ARBH_ASFB7 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 
+GN=Ba71V-041 PE=1 SV=1
+Length=179
+
+ Score = 57.1 bits (136),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 18/74 (24%), Positives = 32/74 (43%), Gaps = 3/74 (4%)
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQD  132
+               V+ EL  D  +NWGR+     F+  +A     +  N+     +  T  +++      
+Sbjct  70   FTGVVTELFKD-LINWGRICGFIVFSAKMAKY--CKDANNHLESTVITTAYNFMKHNLLP  126
+
+Query  133  WLVENGGWEGFCRF  146
+            W++ +GG E F  F
+Sbjct  127  WMISHGGQEEFLAF  140
+
+
+> sp|Q07819|ARBH_ASFM2 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 
+GN=Mal-049 PE=3 SV=1
+Length=179
+
+ Score = 56.7 bits (135),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 38/92 (41%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T   +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTNAQEIKTQFTGVVTELFKD-LINWGRICGFIVFSARMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|Q07818|ARBH_ASFE4 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (strain E-70 MS44) OX=39014 GN=LMW5-HL 
+PE=2 SV=1
+Length=179
+
+ Score = 56.3 bits (134),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/74 (24%), Positives = 32/74 (43%), Gaps = 3/74 (4%)
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQD  132
+               V+ EL  D  +NWGR+     F+  +A     +  N+     +  T  +++      
+Sbjct  70   FTGVVTELFRD-LINWGRICGFIVFSARMAKY--CKDANNHLESTVITTAYNFMKHNLLP  126
+
+Query  133  WLVENGGWEGFCRF  146
+            W++ +GG E F  F
+Sbjct  127  WMISHGGQEEFLAF  140
+
+
+> sp|Q7T381|BOKB_DANRE Bcl-2-related ovarian killer protein homolog 
+B OS=Danio rerio OX=7955 GN=bokb PE=2 SV=1
+Length=211
+
+ Score = 50.9 bits (120),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 20/100 (20%), Positives = 46/100 (46%), Gaps = 4/100 (4%)
+
+Query  43   AKEMEQQHRTKFRSLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGRVVSIFTFTGV  100
+              E+E      +R+++++   +   +   +    SV  E++  G + WG+VV+I+     
+Sbjct  75   GDELECMRPYVYRNIAKQLNISVSVEAVVSDAFLSVATEVIAMG-ITWGKVVAIYAVAAG  133
+
+Query  101  LASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGW  140
+            LA + +  G        + +++ +++      WL + GGW
+Sbjct  134  LAVDCVRLGH-PVMVHTIVDSLGEFVRRSLVPWLKKRGGW  172
+
+
+> sp|F5HGJ3|ARBH_HHV8P Apoptosis regulator Bcl-2 homolog OS=Human 
+herpesvirus 8 type P (isolate GK18) OX=868565 GN=vBCL2 PE=1 
+SV=1
+Length=175
+
+ Score = 49.7 bits (117),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 43/102 (42%), Gaps = 9/102 (9%)
+
+Query  45   EMEQQHRTKFRSLSQE--FLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLA  102
+             + +   + F ++     F  T G +    L   M ++ GDG MNWGR ++I TF   +A
+Sbjct  42   GLMRDKESLFEAMLANVRFHSTTGINQ---LGLSMLQVSGDGNMNWGRALAILTFGSFVA  98
+
+Query  103  SELLSRGENSE-GSRRLAETIADYLGGEKQDWLVENGGWEGF  143
+             +L +     +     L     + +G +   W    GGW G 
+Sbjct  99   QKLSNEPHLRDFALAVLPVYAYEAIGPQ---WFRARGGWRGL  137
+
+
+> sp|Q6VZT9|ARBH_CNPV Apoptosis regulator Bcl-2 homolog OS=Canarypox 
+virus OX=44088 GN=CNPV058 PE=1 SV=1
+Length=175
+
+ Score = 46.7 bits (109),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 18/90 (20%), Positives = 33/90 (37%), Gaps = 7/90 (8%)
+
+Query  54   FRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSE  113
+            FR       D     P     ++  +      + WGRV+SI  F   +      +G ++ 
+Sbjct  59   FRKDIDRCSDIENEIPEIVYDTIHDK------ITWGRVISIIAFGAYVTKVFKEKGRDNV  112
+
+Query  114  GSRRLAETIADYLGGEKQDWLVENGGWEGF  143
+                + + I + L    + WL +   W+G 
+Sbjct  113  -VDLMPDIITESLLSRCRSWLSDQNCWDGL  141
+
+
+> sp|Q9J5G4|ARBH_FOWPN Apoptosis regulator Bcl-2 homolog OS=Fowlpox 
+virus (strain NVSL) OX=928301 GN=FPV039 PE=1 SV=1
+Length=175
+
+ Score = 45.5 bits (106),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 14/70 (20%), Positives = 33/70 (47%), Gaps = 1/70 (1%)
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQD  132
+               ++ +++ D K+NWGR+++I  F    + ++            ++E I D +  + + 
+Sbjct  69   FNVIVTQVLED-KINWGRIITIIAFCAYYSKKVKQDTSPQYYDGIISEAITDAILSKYRS  127
+
+Query  133  WLVENGGWEG  142
+            W ++   W G
+Sbjct  128  WFIDQDYWNG  137
+
+
+> sp|Q5E9L4|B2L14_BOVIN Apoptosis facilitator Bcl-2-like protein 
+14 OS=Bos taurus OX=9913 GN=BCL2L14 PE=2 SV=1
+Length=326
+
+ Score = 40.9 bits (94),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/120 (18%), Positives = 46/120 (38%), Gaps = 18/120 (15%)
+
+Query  37   EAMRYLAKEMEQQHRTK------FRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            E ++Y  +++E++ +        F+ +    +     D  + L+ V      +       
+Sbjct  213  ELLKYSGEQLERELKKDKVLMTCFQDVLSYSVVKTITD--QFLRGVDTRGESE-------  263
+
+Query  91   VVSIFTFTGVLASELLSRGENSEG--SRRLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+             V   +F   LA +++++    +     R+      YL      W+ ++GGWE   R  H
+Sbjct  264  -VKAQSFKAALAIDVIAKLTTIDNHPMNRVLGFGTKYLKENFSPWIQQHGGWEKILRMPH  322
+
+
+> sp|P0C736|EAR_EBVG Apoptosis regulator BHRF1 OS=Epstein-Barr 
+virus (strain GD1) OX=10376 GN=BHRF1 PE=1 SV=1
+Length=191
+
+ Score = 38.6 bits (88),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 16/100 (16%), Positives = 29/100 (29%), Gaps = 2/100 (2%)
+
+Query  46   MEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASEL  105
+            +E+   T   + ++    T   D      SV  E+   G  + GR ++   +       L
+Sbjct  58   IERNSETFTETWNRFITHTEHVDLD--FNSVFVEIFHRGDPSLGRALAWMAWCMHACRTL  115
+
+Query  106  LSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+                        L+             W+ + GGW     
+Sbjct  116  CCNQSTPYYVVDLSVRGMLEASEGLDGWIHQQGGWSTLIE  155
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5844520972
+Results from round 3
+
+
+Query= 6FBX:A
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q7YRZ9|MCL1_FELCA Induced myeloid leukemia cell differentiat...  142     6e-41
+  sp|Q9Z1P3|MCL1_RAT Induced myeloid leukemia cell differentiatio...  141     1e-40
+  sp|Q07820|MCL1_HUMAN Induced myeloid leukemia cell differentiat...  141     1e-40
+  sp|Q99M66|B2L10_RAT Bcl-2-like protein 10 OS=Rattus norvegicus ...  137     1e-40
+  sp|Q63690|BAX_RAT Apoptosis regulator BAX OS=Rattus norvegicus ...  136     3e-40
+  sp|Q3C2I0|B2LA1_BOVIN Bcl-2-related protein A1 OS=Bos taurus OX...  135     6e-40
+  sp|Q07813|BAX_MOUSE Apoptosis regulator BAX OS=Mus musculus OX=...  135     9e-40
+  sp|Q9JJV8|BCL2_CRIGR Apoptosis regulator Bcl-2 OS=Cricetulus gr...  136     9e-40
+  sp|Q00709|BCL2_CHICK Apoptosis regulator Bcl-2 OS=Gallus gallus...  136     1e-39
+  sp|P10417|BCL2_MOUSE Apoptosis regulator Bcl-2 OS=Mus musculus ...  136     1e-39
+  sp|P49950|BCL2_RAT Apoptosis regulator Bcl-2 OS=Rattus norvegic...  136     1e-39
+  sp|O02703|BAX_BOVIN Apoptosis regulator BAX OS=Bos taurus OX=99...  134     1e-39
+  sp|Q6R755|BCL2_CANLF Apoptosis regulator Bcl-2 OS=Canis lupus f...  136     1e-39
+  sp|Q8HYS5|MCL1_CANLF Induced myeloid leukemia cell differentiat...  138     2e-39
+  sp|Q16548|B2LA1_HUMAN Bcl-2-related protein A1 OS=Homo sapiens ...  133     2e-39
+  sp|Q07812|BAX_HUMAN Apoptosis regulator BAX OS=Homo sapiens OX=...  134     3e-39
+  sp|P97287|MCL1_MOUSE Induced myeloid leukemia cell differentiat...  137     3e-39
+  sp|P10415|BCL2_HUMAN Apoptosis regulator Bcl-2 OS=Homo sapiens ...  134     6e-39
+  sp|Q91827|AR1_XENLA Apoptosis regulator R1 (Fragment) OS=Xenopu...  132     2e-38
+  sp|Q07817|B2CL1_HUMAN Bcl-2-like protein 1 OS=Homo sapiens OX=9...  132     6e-38
+  sp|P53563|B2CL1_RAT Bcl-2-like protein 1 OS=Rattus norvegicus O...  131     1e-37
+  sp|Q64373|B2CL1_MOUSE Bcl-2-like protein 1 OS=Mus musculus OX=1...  131     1e-37
+  sp|O77737|B2CL1_PIG Bcl-2-like protein 1 OS=Sus scrofa OX=9823 ...  131     1e-37
+  sp|Q07440|B2LA1_MOUSE Bcl-2-related protein A1 OS=Mus musculus ...  129     2e-37
+  sp|Q07816|B2CL1_CHICK Bcl-2-like protein 1 OS=Gallus gallus OX=...  129     7e-37
+  sp|O02718|BCL2_BOVIN Apoptosis regulator Bcl-2 OS=Bos taurus OX...  127     3e-36
+  sp|Q9HD36|B2L10_HUMAN Bcl-2-like protein 10 OS=Homo sapiens OX=...  122     2e-34
+  sp|P70345|B2CL2_MOUSE Bcl-2-like protein 2 OS=Mus musculus OX=1...  121     3e-34
+  sp|Q45T69|B2CL2_CANLF Bcl-2-like protein 2 OS=Canis lupus famil...  120     5e-34
+  sp|Q1RMX3|B2CL2_BOVIN Bcl-2-like protein 2 OS=Bos taurus OX=991...  120     5e-34
+  sp|Q92843|B2CL2_HUMAN Bcl-2-like protein 2 OS=Homo sapiens OX=9...  120     8e-34
+  sp|Q91828|AR11_XENLA Apoptosis regulator R11 OS=Xenopus laevis ...  119     2e-33
+  sp|P41957|CED9_CAEBR Apoptosis regulator ced-9 OS=Caenorhabditi...  112     5e-30
+  sp|Q9I8I2|BOK_CHICK Bcl-2-related ovarian killer protein OS=Gal...  110     6e-30
+  sp|Q9Z0F3|B2L10_MOUSE Bcl-2-like protein 10 OS=Mus musculus OX=...  109     8e-30
+  sp|Q6DC66|BOKA_DANRE Bcl-2-related ovarian killer protein homol...  110     1e-29
+  sp|P41958|CED9_CAEEL Apoptosis regulator ced-9 OS=Caenorhabditi...  110     4e-29
+  sp|Q90343|NR13_COTJA Anti-apoptotic protein NR13 OS=Coturnix ja...  105     2e-28
+  sp|Q90ZN1|NR13_CHICK Anti-apoptotic protein NR13 OS=Gallus gall...  103     2e-27
+  sp|Q9UMX3|BOK_HUMAN Bcl-2-related ovarian killer protein OS=Hom...  103     5e-27
+  sp|O08734|BAK_MOUSE Bcl-2 homologous antagonist/killer OS=Mus m...  102     7e-27
+  sp|Q792S6|BOK_RAT Bcl-2-related ovarian killer protein OS=Rattu...  101     3e-26
+  sp|O35425|BOK_MOUSE Bcl-2-related ovarian killer protein OS=Mus...  101     3e-26
+  sp|Q16611|BAK_HUMAN Bcl-2 homologous antagonist/killer OS=Homo ...  97.1    1e-24
+  sp|P0C8H6|ARBH_ASFWA Apoptosis regulator Bcl-2 homolog OS=Afric...  90.2    3e-22
+  sp|P0C8H5|ARBH_ASFP4 Apoptosis regulator Bcl-2 homolog OS=Afric...  90.2    3e-22
+  sp|Q7T381|BOKB_DANRE Bcl-2-related ovarian killer protein homol...  90.9    3e-22
+  sp|P42485|ARBH_ASFB7 Apoptosis regulator Bcl-2 homolog OS=Afric...  90.2    3e-22
+  sp|Q07818|ARBH_ASFE4 Apoptosis regulator Bcl-2 homolog OS=Afric...  89.4    5e-22
+  sp|P0C8H4|ARBH_ASFK5 Apoptosis regulator Bcl-2 homolog OS=Afric...  89.4    6e-22
+  sp|Q07819|ARBH_ASFM2 Apoptosis regulator Bcl-2 homolog OS=Afric...  89.0    8e-22
+  sp|Q6VZT9|ARBH_CNPV Apoptosis regulator Bcl-2 homolog OS=Canary...  80.9    1e-18
+  sp|Q5E9L4|B2L14_BOVIN Apoptosis facilitator Bcl-2-like protein ...  76.7    4e-16
+  sp|Q9J5G4|ARBH_FOWPN Apoptosis regulator Bcl-2 homolog OS=Fowlp...  74.0    4e-16
+  sp|F5HGJ3|ARBH_HHV8P Apoptosis regulator Bcl-2 homolog OS=Human...  72.5    2e-15
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9BZR8|B2L14_HUMAN Apoptosis facilitator Bcl-2-like protein ...  65.5    4e-12
+  sp|Q6AYK4|B2L14_RAT Apoptosis facilitator Bcl-2-like protein 14...  59.0    9e-10
+  sp|Q9CPT0|B2L14_MOUSE Apoptosis facilitator Bcl-2-like protein ...  58.2    2e-09
+  sp|Q01001|VG16_SHV21 Bcl-2-like gene 16 protein OS=Saimiriine h...  44.7    4e-05
+  sp|P0C736|EAR_EBVG Apoptosis regulator BHRF1 OS=Epstein-Barr vi...  41.6    5e-04
+  sp|P03182|EAR_EBVB9 Apoptosis regulator BHRF1 OS=Epstein-Barr v...  41.6    6e-04
+  sp|P0C6Z1|EAR_EBVA8 Apoptosis regulator BHRF1 OS=Epstein-Barr v...  41.6    6e-04
+  sp|P89884|ARBH_MHV68 Apoptosis regulator Bcl-2 homolog OS=Murid...  39.7    0.003
+
+
+> sp|Q7YRZ9|MCL1_FELCA Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Felis catus OX=9685 GN=MCL1 PE=2 
+SV=1
+Length=350
+
+ Score = 142 bits (359),  Expect = 6e-41, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 73/144 (51%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +       G       ++ E +R +   +++ H T F+ + ++  D 
+Sbjct  182  ISRYLREQATGAKDAKP---LGGSGAASRKALETLRRVGDGVQRNHETAFQGMLRKL-DI  237
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               +  K+L  VM  +  DG  NWGR+V++ +F   +A  L S  + S     LAE+I D
+Sbjct  238  KNENDVKSLSRVMVHVFSDGVTNWGRIVTLISFGAFVAKHLKSINQES-CIEPLAESITD  296
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  297  VLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q9Z1P3|MCL1_RAT Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Rattus norvegicus OX=10116 GN=Mcl1 
+PE=1 SV=2
+Length=330
+
+ Score = 141 bits (356),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 72/144 (50%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +      +G        + E +R +   +++ H T F+ + ++  D 
+Sbjct  162  ISRYLREQATGSKDAKPLGEAGAAG---RRALETLRRVGDGVQRNHETAFQGMLRKL-DI  217
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               D  K+   VM  +  DG  NWGR+V++ +F   +A  L S  + S     LAE+I D
+Sbjct  218  KNEDDVKSFSRVMTHVFKDGVTNWGRIVTLISFGAFVAKHLKSINQES-CIEPLAESITD  276
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  277  VLVRTKRDWLVKQRGWDGFVEFFH  300
+
+
+> sp|Q07820|MCL1_HUMAN Induced myeloid leukemia cell differentiation 
+protein Mcl-1 OS=Homo sapiens OX=9606 GN=MCL1 PE=1 SV=3
+Length=350
+
+ Score = 141 bits (356),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 47/144 (33%), Positives = 74/144 (51%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +      SG       ++ E +R +   +++ H T F+ + ++  D 
+Sbjct  182  ISRYLREQATGAKDTKPMGRSGATS---RKALETLRRVGDGVQRNHETAFQGMLRKL-DI  237
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               D  K+L  VM  +  DG  NWGR+V++ +F   +A  L +  + S     LAE+I D
+Sbjct  238  KNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQES-CIEPLAESITD  296
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  297  VLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q99M66|B2L10_RAT Bcl-2-like protein 10 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2l10 PE=2 SV=1
+Length=185
+
+ Score = 137 bits (344),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 44/157 (28%), Positives = 69/157 (44%), Gaps = 17/157 (11%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQ----QTPPSESAEAMRYLAKEMEQQHRTKFRSLSQE  60
+            M   L+++T  L  DYI FC+         P S  A  +R +  +++Q+H+  F S    
+Sbjct  1    MGDPLQDRTRRLLTDYILFCARAPNTPEPLPTSVEAALLRSVTSQIQQEHQDLFNS----  56
+
+Query  61   FLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRR---  117
+            F D  G       Q     L  D + NWGR+V +  F G L ++  +     +   R   
+Sbjct  57   FRDYQGNRLELVTQMADELLSNDQEFNWGRLVMLLAFVGTLMNQDRTVKRRRDQRNRLLL  116
+
+Query  118  ------LAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+                  +   + + L G  + WL  +GGW+GFC+FF 
+Sbjct  117  ERDCYLIVSLLYNRLTGRHRSWLEAHGGWDGFCQFFK  153
+
+
+> sp|Q63690|BAX_RAT Apoptosis regulator BAX OS=Rattus norvegicus 
+OX=10116 GN=Bax PE=1 SV=2
+Length=192
+
+ Score = 136 bits (343),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 31/149 (21%), Positives = 59/149 (40%), Gaps = 8/149 (5%)
+
+Query  1    GPLSMSCWLREQTLLLAEDYISFCSGIQQ--TPPSESAEAMRYLAKEMEQQHRTKFRSLS  58
+            G   +  +++++   +A +                + +E +R +  E++         L 
+Sbjct  23   GAFLLQGFIQDRAGRMAGETPELTLEQPPQDASTKKLSECLRRIGDELDSNME-----LQ  77
+
+Query  59   QEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRL  118
+            +   D     P +    V  ++  DG  NWGRVV++F F   L  + L   +  E  R +
+Sbjct  78   RMIADVDTDSPREVFFRVAADMFADGNFNWGRVVALFYFASKLVLKALC-TKVPELIRTI  136
+
+Query  119  AETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                 D+L      W+ + GGW+G   +F
+Sbjct  137  MGWTLDFLRERLLVWIQDQGGWDGLLSYF  165
+
+
+> sp|Q3C2I0|B2LA1_BOVIN Bcl-2-related protein A1 OS=Bos taurus 
+OX=9913 GN=BCL2A1 PE=2 SV=1
+Length=175
+
+ Score = 135 bits (339),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 37/139 (27%), Positives = 70/139 (50%), Gaps = 5/139 (4%)
+
+Query  15   LLAEDYISFCSGIQQTP--PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKA  72
+             LAEDY+ +   IQQ    PS+++  ++ +A  ++ +     +    +F   +       
+Sbjct  11   GLAEDYLKYVLQIQQPGSKPSKTSRVLQDVASSVQDEVERTLKQCLDKFDVVSVDTARTI  70
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASEL--LSRGENSEGSRRLAETIADYLGGEK  130
+               VM +   DG +NWGR+V+IF F G+L  +L       + +  + ++  +A+++    
+Sbjct  71   FNQVMEKEFEDGIVNWGRIVTIFAFEGILTKKLLGKCIASDMDMCKDISFFVAEFITENT  130
+
+Query  131  QDWLVENGGWE-GFCRFFH  148
+             +W+ +NGGWE GF + F 
+Sbjct  131  GEWIKQNGGWENGFVKKFE  149
+
+
+> sp|Q07813|BAX_MOUSE Apoptosis regulator BAX OS=Mus musculus OX=10090 
+GN=Bax PE=1 SV=1
+Length=192
+
+ Score = 135 bits (340),  Expect = 9e-40, Method: Composition-based stats.
+ Identities = 32/149 (21%), Positives = 59/149 (40%), Gaps = 8/149 (5%)
+
+Query  1    GPLSMSCWLREQTLLLAEDYISFCSGIQQ--TPPSESAEAMRYLAKEMEQQHRTKFRSLS  58
+            G   +  +++++   +A +                + +E +R +  E++         L 
+Sbjct  23   GAFLLQGFIQDRAGRMAGETPELTLEQPPQDASTKKLSECLRRIGDELDSNME-----LQ  77
+
+Query  59   QEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRL  118
+            +   D     P +    V  ++  DG  NWGRVV++F F   L  + L   +  E  R +
+Sbjct  78   RMIADVDTDSPREVFFRVAADMFADGNFNWGRVVALFYFASKLVLKALC-TKVPELIRTI  136
+
+Query  119  AETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                 D+L      W+ + GGWEG   +F
+Sbjct  137  MGWTLDFLRERLLVWIQDQGGWEGLLSYF  165
+
+
+> sp|Q9JJV8|BCL2_CRIGR Apoptosis regulator Bcl-2 OS=Cricetulus 
+griseus OX=10029 GN=BCL2 PE=1 SV=1
+Length=236
+
+ Score = 136 bits (343),  Expect = 9e-40, Method: Composition-based stats.
+ Identities = 33/122 (27%), Positives = 56/122 (46%), Gaps = 3/122 (2%)
+
+Query  26   GIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGK  85
+                  P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG 
+Sbjct  81   PTLSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-  138
+
+Query  86   MNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+            +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F  
+Sbjct  139  VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVE  197
+
+Query  146  FF  147
+             +
+Sbjct  198  LY  199
+
+
+> sp|Q00709|BCL2_CHICK Apoptosis regulator Bcl-2 OS=Gallus gallus 
+OX=9031 GN=BCL2 PE=2 SV=1
+Length=233
+
+ Score = 136 bits (342),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 34/123 (28%), Positives = 60/123 (49%), Gaps = 3/123 (2%)
+
+Query  25   SGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDG  84
+            +   +  P     A+R    E  ++++  F  +S +   T      +   +V+ EL  DG
+Sbjct  77   AEGLRPAPPGVHLALRQAGDEFSRRYQRDFAQMSGQLHLTPFTAHGR-FVAVVEELFRDG  135
+
+Query  85   KMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFC  144
+             +NWGR+V+ F F GV+  E ++R E S     +A  + +YL     +W+ +NGGW+ F 
+Sbjct  136  -VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIATWMTEYLNRHLHNWIQDNGGWDAFV  193
+
+Query  145  RFF  147
+              +
+Sbjct  194  ELY  196
+
+
+> sp|P10417|BCL2_MOUSE Apoptosis regulator Bcl-2 OS=Mus musculus 
+OX=10090 GN=Bcl2 PE=1 SV=3
+Length=236
+
+ Score = 136 bits (342),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 33/122 (27%), Positives = 56/122 (46%), Gaps = 3/122 (2%)
+
+Query  26   GIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGK  85
+                  P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG 
+Sbjct  81   PALSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-  138
+
+Query  86   MNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+            +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F  
+Sbjct  139  VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVE  197
+
+Query  146  FF  147
+             +
+Sbjct  198  LY  199
+
+
+> sp|P49950|BCL2_RAT Apoptosis regulator Bcl-2 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2 PE=1 SV=2
+Length=236
+
+ Score = 136 bits (342),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 33/122 (27%), Positives = 56/122 (46%), Gaps = 3/122 (2%)
+
+Query  26   GIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGK  85
+                  P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG 
+Sbjct  81   PALSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-  138
+
+Query  86   MNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+            +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F  
+Sbjct  139  VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVE  197
+
+Query  146  FF  147
+             +
+Sbjct  198  LY  199
+
+
+> sp|O02703|BAX_BOVIN Apoptosis regulator BAX OS=Bos taurus OX=9913 
+GN=BAX PE=2 SV=1
+Length=192
+
+ Score = 134 bits (338),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 31/149 (21%), Positives = 59/149 (40%), Gaps = 8/149 (5%)
+
+Query  1    GPLSMSCWLREQTLLLAEDYISFCSG--IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLS  58
+            G L +  +++++   +  +          Q     + +E ++ +  E++         L 
+Sbjct  23   GALLLQGFIQDRAGRMGGETPELGLEQVPQDASTKKLSECLKRIGDELDSNME-----LQ  77
+
+Query  59   QEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRL  118
+            +         P +    V  E+  DG  NWGRVV++F F   L  + L   +  E  R +
+Sbjct  78   RMIAAVDTDSPREVFFRVAAEMFSDGNFNWGRVVALFYFASKLVLKALC-TKVPELIRTI  136
+
+Query  119  AETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                 D+L      W+ + GGW+G   +F
+Sbjct  137  MGWTLDFLRERLLGWIQDQGGWDGLLSYF  165
+
+
+> sp|Q6R755|BCL2_CANLF Apoptosis regulator Bcl-2 OS=Canis lupus 
+familiaris OX=9615 GN=BCL2 PE=2 SV=1
+Length=236
+
+ Score = 136 bits (342),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 33/122 (27%), Positives = 56/122 (46%), Gaps = 3/122 (2%)
+
+Query  26   GIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGK  85
+                  P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG 
+Sbjct  81   PTLSPVPPVVHLTLRRAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-  138
+
+Query  86   MNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+            +NWGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F  
+Sbjct  139  VNWGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVE  197
+
+Query  146  FF  147
+             +
+Sbjct  198  LY  199
+
+
+> sp|Q8HYS5|MCL1_CANLF Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Canis lupus familiaris OX=9615 
+GN=MCL1 PE=2 SV=1
+Length=350
+
+ Score = 138 bits (348),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 45/144 (31%), Positives = 74/144 (51%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +       G  +    ++ E ++ +   +++ H T F+ + ++  D 
+Sbjct  182  ISRYLREQATGAKDAKP---LGGSRAASRKALETLQRVGDGVQRNHETAFQGMLRKL-DI  237
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               D  K+L  V+  +  DG  NWGR+V++ +F   +A  L S  + S     LAE+I D
+Sbjct  238  KNEDDVKSLSRVIVHVFSDGVTNWGRIVTLISFGAFVAKHLKSINQES-CIEPLAESITD  296
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  297  VLVRTKRDWLVKQRGWDGFVEFFH  320
+
+
+> sp|Q16548|B2LA1_HUMAN Bcl-2-related protein A1 OS=Homo sapiens 
+OX=9606 GN=BCL2A1 PE=1 SV=1
+Length=175
+
+ Score = 133 bits (335),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 36/139 (26%), Positives = 69/139 (50%), Gaps = 5/139 (4%)
+
+Query  15   LLAEDYISFCSGIQQTP--PSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKA  72
+             LA+DY+     I Q    PS+++  ++ +A  ++++     +S        +       
+Sbjct  11   RLAQDYLQCVLQIPQPGSGPSKTSRVLQNVAFSVQKEVEKNLKSCLDNVNVVSVDTARTL  70
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELL--SRGENSEGSRRLAETIADYLGGEK  130
+               VM +   DG +NWGR+V+IF F G+L  +LL      + +  + ++  +A+++    
+Sbjct  71   FNQVMEKEFEDGIINWGRIVTIFAFEGILIKKLLRQQIAPDVDTYKEISYFVAEFIMNNT  130
+
+Query  131  QDWLVENGGWE-GFCRFFH  148
+             +W+ +NGGWE GF + F 
+Sbjct  131  GEWIRQNGGWENGFVKKFE  149
+
+
+> sp|Q07812|BAX_HUMAN Apoptosis regulator BAX OS=Homo sapiens OX=9606 
+GN=BAX PE=1 SV=1
+Length=192
+
+ Score = 134 bits (336),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 30/149 (20%), Positives = 59/149 (40%), Gaps = 8/149 (5%)
+
+Query  1    GPLSMSCWLREQTLLLAEDYISFCSGI--QQTPPSESAEAMRYLAKEMEQQHRTKFRSLS  58
+            G L +  +++++   +  +          Q     + +E ++ +  E++         L 
+Sbjct  23   GALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME-----LQ  77
+
+Query  59   QEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRL  118
+            +         P +    V  ++  DG  NWGRVV++F F   L  + L   +  E  R +
+Sbjct  78   RMIAAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALC-TKVPELIRTI  136
+
+Query  119  AETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                 D+L      W+ + GGW+G   +F
+Sbjct  137  MGWTLDFLRERLLGWIQDQGGWDGLLSYF  165
+
+
+> sp|P97287|MCL1_MOUSE Induced myeloid leukemia cell differentiation 
+protein Mcl-1 homolog OS=Mus musculus OX=10090 GN=Mcl1 
+PE=1 SV=3
+Length=331
+
+ Score = 137 bits (346),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 71/144 (49%), Gaps = 5/144 (3%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            +S +LREQ     +      +G        + E +R +   +++ H T F+ + ++  D 
+Sbjct  163  ISRYLREQATGSKDSKPLGEAGAAG---RRALETLRRVGDGVQRNHETAFQGMLRKL-DI  218
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+                  K+   VM  +  DG  NWGR+V++ +F   +A  L S  + S     LAETI D
+Sbjct  219  KNEGDVKSFSRVMVHVFKDGVTNWGRIVTLISFGAFVAKHLKSVNQES-FIEPLAETITD  277
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFFH  148
+             L   K+DWLV+  GW+GF  FFH
+Sbjct  278  VLVRTKRDWLVKQRGWDGFVEFFH  301
+
+
+> sp|P10415|BCL2_HUMAN Apoptosis regulator Bcl-2 OS=Homo sapiens 
+OX=9606 GN=BCL2 PE=1 SV=2
+Length=239
+
+ Score = 134 bits (338),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 56/120 (47%), Gaps = 3/120 (3%)
+
+Query  28   QQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMN  87
+                P      +R    +  +++R  F  +S +   T      +   +V+ EL  DG +N
+Sbjct  86   LSPVPPVVHLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTARGR-FATVVEELFRDG-VN  143
+
+Query  88   WGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            WGR+V+ F F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F   +
+Sbjct  144  WGRIVAFFEFGGVMCVESVNR-EMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELY  202
+
+
+> sp|Q91827|AR1_XENLA Apoptosis regulator R1 (Fragment) OS=Xenopus 
+laevis OX=8355 PE=2 SV=1
+Length=228
+
+ Score = 132 bits (333),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 43/155 (28%), Positives = 68/155 (44%), Gaps = 13/155 (8%)
+
+Query  3    LSMSCWLREQ---TLLLAEDYISF--CSGIQQTPPS-----ESAEAMRYLAKEMEQQHRT  52
+            L+   W+ +    +  L ED + +  C       PS         AMR    E E++ R 
+Sbjct  35   LTEQGWMAQSDLGSRALVEDLVRYKLCQRSLVPEPSGAASCALHSAMRAAGDEFEERFRQ  94
+
+Query  53   KFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENS  112
+             F  +S +   T G   ++    V   L   G +NWGR+V+ F F   L +E +++ E S
+Sbjct  95   AFSEISTQIHVTPGTAYAR-FAEVAGSLF-QGGVNWGRIVAFFVFGAALCAESVNK-EMS  151
+
+Query  113  EGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+                R+ + +  YL    +DW+  NGGW GF   +
+Sbjct  152  PLLPRIQDWMVTYLETNLRDWIQSNGGWNGFLTLY  186
+
+
+> sp|Q07817|B2CL1_HUMAN Bcl-2-like protein 1 OS=Homo sapiens OX=9606 
+GN=BCL2L1 PE=1 SV=1
+Length=233
+
+ Score = 132 bits (331),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 38/117 (32%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  31   PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR
+Sbjct  82   PMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VNWGR  139
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            +V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  140  IVAFFSFGGALCVESVDK-EMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELY  195
+
+
+> sp|P53563|B2CL1_RAT Bcl-2-like protein 1 OS=Rattus norvegicus 
+OX=10116 GN=Bcl2l1 PE=1 SV=2
+Length=233
+
+ Score = 131 bits (328),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 38/117 (32%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  31   PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR
+Sbjct  82   PMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VNWGR  139
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            +V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  140  IVAFFSFGGALCVESVDK-EMQVLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLY  195
+
+
+> sp|Q64373|B2CL1_MOUSE Bcl-2-like protein 1 OS=Mus musculus OX=10090 
+GN=Bcl2l1 PE=1 SV=1
+Length=233
+
+ Score = 131 bits (328),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 38/117 (32%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  31   PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR
+Sbjct  82   PMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFRDG-VNWGR  139
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            +V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  140  IVAFFSFGGALCVESVDK-EMQVLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLY  195
+
+
+> sp|O77737|B2CL1_PIG Bcl-2-like protein 1 OS=Sus scrofa OX=9823 
+GN=BCL2L1 PE=2 SV=1
+Length=233
+
+ Score = 131 bits (328),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 38/117 (32%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  31   PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            P +   +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR
+Sbjct  82   PMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVLNELFRDG-VNWGR  139
+
+Query  91   VVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            +V+ F+F G L  E + + E      R+A  +A YL    + W+ ENGGW+ F   +
+Sbjct  140  IVAFFSFGGALCVESVDK-EMQVLVSRIATWMATYLNDHLEPWIQENGGWDTFVELY  195
+
+
+> sp|Q07440|B2LA1_MOUSE Bcl-2-related protein A1 OS=Mus musculus 
+OX=10090 GN=Bcl2a1 PE=1 SV=1
+Length=172
+
+ Score = 129 bits (323),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 34/138 (25%), Positives = 70/138 (51%), Gaps = 5/138 (4%)
+
+Query  16   LAEDYISFCSGIQ--QTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKAL  73
+            LAE Y+ +   +   ++ PS++   ++ +A  ++++     +S   +F   +        
+Sbjct  12   LAEHYLQYVLQVPAFESAPSQACRVLQRVAFSVQKEVEKNLKSYLDDFHVESIDTARIIF  71
+
+Query  74   QSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSR--GENSEGSRRLAETIADYLGGEKQ  131
+              VM +   DG +NWGR+V+IF F GVL  +L       +    ++++  +A+++     
+Sbjct  72   NQVMEKEFEDGIINWGRIVTIFAFGGVLLKKLPQEQIALDVCAYKQVSSFVAEFIMNNTG  131
+
+Query  132  DWLVENGGW-EGFCRFFH  148
+            +W+ +NGGW +GF + F 
+Sbjct  132  EWIRQNGGWEDGFIKKFE  149
+
+
+> sp|Q07816|B2CL1_CHICK Bcl-2-like protein 1 OS=Gallus gallus OX=9031 
+GN=BCL2L1 PE=2 SV=2
+Length=229
+
+ Score = 129 bits (323),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 37/115 (32%), Positives = 58/115 (50%), Gaps = 3/115 (3%)
+
+Query  33   SESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVV  92
+            S+  +A+R    E E ++R  F  L+ +   T G    ++ + V+ EL  DG +NWGR+V
+Sbjct  80   SDVRQALRDAGDEFELRYRRAFSDLTSQLHITPGT-AYQSFEQVVNELFHDG-VNWGRIV  137
+
+Query  93   SIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+            + F+F G L  E + + E      R+   +  YL      W+ ENGGWE F   +
+Sbjct  138  AFFSFGGALCVESVDK-EMRVLVGRIVSWMTTYLTDHLDPWIQENGGWERFVDLY  191
+
+
+> sp|O02718|BCL2_BOVIN Apoptosis regulator Bcl-2 OS=Bos taurus 
+OX=9913 GN=BCL2 PE=2 SV=1
+Length=229
+
+ Score = 127 bits (319),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 32/112 (29%), Positives = 55/112 (49%), Gaps = 3/112 (3%)
+
+Query  36   AEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIF  95
+               +R    +  +++R  F  +S +   T      +   +V+ EL  DG +NWGR+V+ F
+Sbjct  84   HLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTARER-FATVVEELFRDG-VNWGRIVAFF  141
+
+Query  96   TFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+             F GV+  E ++R E S     +A  + +YL      W+ +NGGW+ F   +
+Sbjct  142  EFGGVMCVESVNR-EMSPLVDSIALWMTEYLNRHLHTWIQDNGGWDAFVELY  192
+
+
+> sp|Q9HD36|B2L10_HUMAN Bcl-2-like protein 10 OS=Homo sapiens OX=9606 
+GN=BCL2L10 PE=1 SV=3
+Length=204
+
+ Score = 122 bits (305),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 44/166 (27%), Positives = 65/166 (39%), Gaps = 25/166 (15%)
+
+Query  4    SMSCWLREQTLLLAEDYISFCSGIQ----QTPPSESAEAMRYLAKEMEQQHRTKFRSLSQ  59
+            +M+  LRE+T LL  DY+ +C+         P +  A  +R  A  + Q HR+ F +   
+Sbjct  10   TMADPLRERTELLLADYLGYCAREPGTPEPAPSTPEAAVLRSAAARLRQIHRSFFSAYL-  68
+
+Query  60   EFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELL-------------  106
+                  G             L       WGRVV++ TF G L                  
+Sbjct  69   ---GYPGNRFELVALMADSVLSDSPGPTWGRVVTLVTFAGTLLERGPLVTARWKKWGFQP  125
+
+Query  107  ----SRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+                  G+ +   +RL   ++  L G+ + WL   GGW+GFC FF 
+Sbjct  126  RLKEQEGDVARDCQRLVALLSSRLMGQHRAWLQAQGGWDGFCHFFR  171
+
+
+> sp|P70345|B2CL2_MOUSE Bcl-2-like protein 2 OS=Mus musculus OX=10090 
+GN=Bcl2l2 PE=1 SV=1
+Length=193
+
+ Score = 121 bits (303),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 35/145 (24%), Positives = 58/145 (40%), Gaps = 13/145 (9%)
+
+Query  13   TLLLAEDYISFCSG----------IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL  62
+            T  L  D++ +              +        +AMR    E E + R  F  L+ +  
+Sbjct  10   TRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLH  69
+
+Query  63   DTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+             T G+   +    V  EL   G  NWGR+V+ F F   L +E +++ E      ++ + +
+Sbjct  70   VTPGSAQQR-FTQVSDELF-QGGPNWGRLVAFFVFGAALCAESVNK-EMEPLVGQVQDWM  126
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCRFF  147
+              YL     DW+  +GGW  F   +
+Sbjct  127  VAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q45T69|B2CL2_CANLF Bcl-2-like protein 2 OS=Canis lupus familiaris 
+OX=9615 GN=BCL2L2 PE=2 SV=1
+Length=193
+
+ Score = 120 bits (302),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 36/145 (25%), Positives = 58/145 (40%), Gaps = 13/145 (9%)
+
+Query  13   TLLLAEDYISFCSG----------IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL  62
+            T  L  D++ +              +        +AMR    E E + R  F  L+ +  
+Sbjct  10   TRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLH  69
+
+Query  63   DTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+             T G+   +    V  EL   G  NWGR+V+ F F   L +E +++ E      ++ E +
+Sbjct  70   VTPGSAQQR-FTQVSDELF-QGGPNWGRLVAFFVFGAALCAESVNK-EMEPLVGQVQEWM  126
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCRFF  147
+              YL     DW+  +GGW  F   +
+Sbjct  127  VAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q1RMX3|B2CL2_BOVIN Bcl-2-like protein 2 OS=Bos taurus OX=9913 
+GN=BCL2L2 PE=1 SV=1
+Length=193
+
+ Score = 120 bits (302),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 36/145 (25%), Positives = 58/145 (40%), Gaps = 13/145 (9%)
+
+Query  13   TLLLAEDYISFCSG----------IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL  62
+            T  L  D++ +              +        +AMR    E E + R  F  L+ +  
+Sbjct  10   TRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLH  69
+
+Query  63   DTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+             T G+   +    V  EL   G  NWGR+V+ F F   L +E +++ E      ++ E +
+Sbjct  70   VTPGSAQQR-FTQVSDELF-QGGPNWGRLVAFFVFGAALCAESVNK-EMEPLVGQVQEWM  126
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCRFF  147
+              YL     DW+  +GGW  F   +
+Sbjct  127  VAYLETRLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q92843|B2CL2_HUMAN Bcl-2-like protein 2 OS=Homo sapiens OX=9606 
+GN=BCL2L2 PE=1 SV=2
+Length=193
+
+ Score = 120 bits (300),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 36/145 (25%), Positives = 59/145 (41%), Gaps = 13/145 (9%)
+
+Query  13   TLLLAEDYISFCSG----------IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL  62
+            T  L  D++ +              +        +AMR    E E + R  F  L+ +  
+Sbjct  10   TRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLH  69
+
+Query  63   DTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+             T G+   +    V  EL   G  NWGR+V+ F F   L +E +++ E      ++ E +
+Sbjct  70   VTPGSAQQR-FTQVSDELF-QGGPNWGRLVAFFVFGAALCAESVNK-EMEPLVGQVQEWM  126
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCRFF  147
+              YL  +  DW+  +GGW  F   +
+Sbjct  127  VAYLETQLADWIHSSGGWAEFTALY  151
+
+
+> sp|Q91828|AR11_XENLA Apoptosis regulator R11 OS=Xenopus laevis 
+OX=8355 PE=2 SV=1
+Length=204
+
+ Score = 119 bits (298),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 36/114 (32%), Positives = 59/114 (52%), Gaps = 3/114 (3%)
+
+Query  34   ESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVS  93
+            E  +A+    +E E +++  F  L+ +   T      ++ Q VM EL  DG  NWGR+V+
+Sbjct  57   EVLQALLEATEEFELRYQRAFSDLTSQLHITQ-DTAQQSFQQVMGELFRDG-TNWGRIVA  114
+
+Query  94   IFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFF  147
+             F+F   L  E  ++ E ++   R+ + + +YL    Q W+ ENGGWE F   +
+Sbjct  115  FFSFGRALCVESANK-EMTDLLPRIVQWMVNYLEHTLQPWMQENGGWEAFVGLY  167
+
+
+> sp|P41957|CED9_CAEBR Apoptosis regulator ced-9 OS=Caenorhabditis 
+briggsae OX=6238 GN=ced-9 PE=3 SV=2
+Length=266
+
+ Score = 112 bits (280),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 24/128 (19%), Positives = 52/128 (41%), Gaps = 4/128 (3%)
+
+Query  23   FCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADP---SKALQSVMRE  79
+            + +        +  E MR L    E++H   F + S++ L           + +Q+V   
+Sbjct  95   YDAPALPDGVQKEHEMMRSLGTIFEKRHMEMFENFSEQLLAVPKISFSLYQEVVQTVGNS  154
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQ-DWLVENG  138
+                  M++GR++ + +F G++A++++   E     R L    + ++    +  W   N 
+Sbjct  155  SNTPCPMSYGRLIGLISFGGMVAAKMMESAELQGQVRNLLMYTSLFIKTRIRQSWKEHNR  214
+
+Query  139  GWEGFCRF  146
+             W  F + 
+Sbjct  215  SWADFMKL  222
+
+
+> sp|Q9I8I2|BOK_CHICK Bcl-2-related ovarian killer protein OS=Gallus 
+gallus OX=9031 GN=BOK PE=1 SV=1
+Length=213
+
+ Score = 110 bits (276),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 27/153 (18%), Positives = 60/153 (39%), Gaps = 18/153 (12%)
+
+Query  9    LREQTLLLAEDYI---SFCSGIQQTPP-----------SESAEAMRYLAKEMEQQHRTKF  54
+            L  Q   L  DYI      +G+  + P           +E +  +  L  E+E      +
+Sbjct  27   LVSQAKALCRDYINSRLIRAGVSWSKPEHNTPVPGGKLAEVSAILLRLGDELEYIRPNVY  86
+
+Query  55   RSLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENS  112
+            R+++++   +  ++        +V  ++   G + WG+VVS++     LA + +   +  
+Sbjct  87   RNIARQLNISLHSETVVTDAFLAVAAQIFTAG-ITWGKVVSLYAVAAGLAVDCVRHAQ-P  144
+
+Query  113  EGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+                 + + + +++      WL   GGW    +
+Sbjct  145  AMVHTIVDCLGEFVRKTLVTWLKRRGGWADITK  177
+
+
+> sp|Q9Z0F3|B2L10_MOUSE Bcl-2-like protein 10 OS=Mus musculus OX=10090 
+GN=Bcl2l10 PE=1 SV=1
+Length=191
+
+ Score = 109 bits (273),  Expect = 8e-30, Method: Composition-based stats.
+ Identities = 42/159 (26%), Positives = 71/159 (45%), Gaps = 20/159 (13%)
+
+Query  6    SCWLREQTLLLAEDYISFCSG----IQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEF  61
+               L E+T  L  DYI FC+      +  P S  A  +R + ++++Q+H+  F S    F
+Sbjct  5    QDPLHERTRRLLSDYIFFCAREPDTPEPPPTSVEAALLRSVTRQIQQEHQEFFSS----F  60
+
+Query  62   LDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASE---LLSRGENSEGSRRL  118
+             ++ G       Q   + L  D   +W ++V +  F G L ++   +  + +   G+R +
+Sbjct  61   CESRGNRLELVKQMADKLLSKDQDFSWSQLVMLLAFAGTLMNQGPYMAVKQKRDLGNRVI  120
+
+Query  119  AE----TIADYL-----GGEKQDWLVENGGWEGFCRFFH  148
+                   I ++L     G   +  L   GGW+GFCRFF 
+Sbjct  121  VTRDCCLIVNFLYNLLMGRRHRARLEALGGWDGFCRFFK  159
+
+
+> sp|Q6DC66|BOKA_DANRE Bcl-2-related ovarian killer protein homolog 
+A OS=Danio rerio OX=7955 GN=boka PE=2 SV=1
+Length=221
+
+ Score = 110 bits (275),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 32/160 (20%), Positives = 66/160 (41%), Gaps = 24/160 (15%)
+
+Query  9    LREQTLLLAEDYI---SFCSGIQQTPP--------SESAEAMRYLAKEMEQQHRTKFRSL  57
+            L  Q+ +L  DYI      +GI  + P        +E +  + +L  E+E      +R++
+Sbjct  27   LVSQSKVLCRDYIHSRLHRAGIGWSKPEHGSGGTLAEVSSVLLWLGDELEYLRPNVYRNV  86
+
+Query  58   SQEFLDTAGAD--PSKALQSVMRELVGD----------GKMNWGRVVSIFTFTGVLASEL  105
+            +++   T  ++   S A  +V  E+               + WG++VS++   G LA + 
+Sbjct  87   ARQLNITIASENIVSDAFLAVAAEIFSTEYSRKGLEKHKGVTWGKIVSLYAVAGALAVDC  146
+
+Query  106  LSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+            +  G        + + + +++      WL + GGW    +
+Sbjct  147  VRNGH-PAMVHTIVDCMGEFVRKSLASWLKKRGGWADITK  185
+
+
+> sp|P41958|CED9_CAEEL Apoptosis regulator ced-9 OS=Caenorhabditis 
+elegans OX=6239 GN=ced-9 PE=1 SV=1
+Length=280
+
+ Score = 110 bits (275),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 23/128 (18%), Positives = 50/128 (39%), Gaps = 4/128 (3%)
+
+Query  23   FCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSK---ALQSVMRE  79
+            F +           E MR +    E++H   F +  ++ L       S     +++V   
+Sbjct  100  FGAPGLPCGVQPEHEMMRVMGTIFEKKHAENFETFCEQLLAVPRISFSLYQDVVRTVGNA  159
+
+Query  80   LVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQ-DWLVENG  138
+                  M++GR++ + +F G +A++++   E     R L    + ++    + +W   N 
+Sbjct  160  QTDQCPMSYGRLIGLISFGGFVAAKMMESVELQGQVRNLFVYTSLFIKTRIRNNWKEHNR  219
+
+Query  139  GWEGFCRF  146
+             W+ F   
+Sbjct  220  SWDDFMTL  227
+
+
+> sp|Q90343|NR13_COTJA Anti-apoptotic protein NR13 OS=Coturnix 
+japonica OX=93934 GN=NR13 PE=2 SV=1
+Length=177
+
+ Score = 105 bits (263),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 55/143 (38%), Positives = 80/143 (56%), Gaps = 2/143 (1%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            M   L+E+T LL EDY    +G    PPS +A  +R  A E+E++ R  FRS +      
+Sbjct  1    MPGSLKEETALLLEDYFQHRAGGAALPPSATAAELRRAAAELERRERPFFRSCAP-LARA  59
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               + +  L+ V  +L  DG +NWGR++++  F G LA+ L       EG  RLA  +  
+Sbjct  60   EPREAAALLRKVAAQLETDGGLNWGRLLALVVFAGTLAAALAESA-CEEGPSRLAAALTA  118
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFF  147
+            YL  E+ +W+ E+GGW+GFCRFF
+Sbjct  119  YLAEEQGEWMEEHGGWDGFCRFF  141
+
+
+> sp|Q90ZN1|NR13_CHICK Anti-apoptotic protein NR13 OS=Gallus gallus 
+OX=9031 GN=NR13 PE=1 SV=1
+Length=177
+
+ Score = 103 bits (256),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 58/143 (41%), Positives = 83/143 (58%), Gaps = 2/143 (1%)
+
+Query  5    MSCWLREQTLLLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+            M   L+E+T LL EDY    +G    PPS +A  +R  A E+E++ R  FRS +      
+Sbjct  1    MPGSLKEETALLLEDYFQHRAGGAALPPSATAAELRRAAAELERRERPFFRSCAP-LARA  59
+
+Query  65   AGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIAD  124
+               + +  L+ V  +L  +G +NWGR++++  FTG LA+ L   G   EG  RLA  +A 
+Sbjct  60   EPREAAALLRKVAAQLEAEGGLNWGRLLALVVFTGTLAAALAESG-CEEGPSRLAAALAA  118
+
+Query  125  YLGGEKQDWLVENGGWEGFCRFF  147
+            YL  E+ +WL E+GGW+GFCRFF
+Sbjct  119  YLAEEQGEWLEEHGGWDGFCRFF  141
+
+
+> sp|Q9UMX3|BOK_HUMAN Bcl-2-related ovarian killer protein OS=Homo 
+sapiens OX=9606 GN=BOK PE=1 SV=1
+Length=212
+
+ Score = 103 bits (256),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 27/152 (18%), Positives = 61/152 (40%), Gaps = 17/152 (11%)
+
+Query  9    LREQTLLLAEDYI---SFCSGIQQTPP----------SESAEAMRYLAKEMEQQHRTKFR  55
+            L  Q   L  +Y+      +G+  + P          +E    +  L  E+E    + +R
+Sbjct  27   LVAQAKALGREYVHARLLRAGLSWSAPERAAPVPGRLAEVCAVLLRLGDELEMIRPSVYR  86
+
+Query  56   SLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSE  113
+            +++++   +  ++P       +V   +   G + WG+VVS++     LA + + + +   
+Sbjct  87   NVARQLHISLQSEPVVTDAFLAVAGHIFSAG-ITWGKVVSLYAVAAGLAVDCVRQAQ-PA  144
+
+Query  114  GSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+                L + + +++      WL   GGW    +
+Sbjct  145  MVHALVDCLGEFVRKTLATWLRRRGGWTDVLK  176
+
+
+> sp|O08734|BAK_MOUSE Bcl-2 homologous antagonist/killer OS=Mus 
+musculus OX=10090 GN=Bak1 PE=1 SV=3
+Length=209
+
+ Score = 102 bits (255),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 30/140 (21%), Positives = 58/140 (41%), Gaps = 7/140 (5%)
+
+Query  11   EQTLLLAEDYISFCSGIQQTPPSESAEAMRY---LAKEMEQQHRTKFRSLSQEFLDTAGA  67
+            ++T   A         +   P S   +  R    +  ++ +++ T+F++L ++   TAG 
+Sbjct  45   QETQGAAAPANPEMDNLPLEPNSILGQVGRQLALIGDDINRRYDTEFQNLLEQLQPTAGN  104
+
+Query  68   DPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLG  127
+                    +   L   G ++WGRVV++  F   LA  +  RG  +    ++   +AD + 
+Sbjct  105  AYEL-FTKIASSLFKSG-ISWGRVVALLGFGYRLALYVYQRG-LTGFLGQVTCFLADIIL  161
+
+Query  128  GE-KQDWLVENGGWEGFCRF  146
+                  W+ + GGW     F
+Sbjct  162  HHYIARWIAQRGGWVAALNF  181
+
+
+> sp|Q792S6|BOK_RAT Bcl-2-related ovarian killer protein OS=Rattus 
+norvegicus OX=10116 GN=Bok PE=1 SV=1
+Length=213
+
+ Score = 101 bits (251),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 28/153 (18%), Positives = 62/153 (41%), Gaps = 18/153 (12%)
+
+Query  9    LREQTLLLAEDYI---SFCSGIQQTPP-----------SESAEAMRYLAKEMEQQHRTKF  54
+            L  Q   L  +Y+      +G+  + P           +E    +  L  E+EQ   + +
+Sbjct  27   LVAQAKALGREYVHARLLRAGLSWSAPERASPAPGGRLAEVCTVLLRLGDELEQIRPSVY  86
+
+Query  55   RSLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENS  112
+            R+++++      ++P       +V   +   G + WG+VVS+++    LA + + + +  
+Sbjct  87   RNVARQLHIPLQSEPVVTDAFLAVAGHIFSAG-ITWGKVVSLYSVAAGLAVDCVRQAQ-P  144
+
+Query  113  EGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+                 L + + +++      WL   GGW    +
+Sbjct  145  AMVHALVDCLGEFVRKTLATWLRRRGGWTDVLK  177
+
+
+> sp|O35425|BOK_MOUSE Bcl-2-related ovarian killer protein OS=Mus 
+musculus OX=10090 GN=Bok PE=1 SV=1
+Length=213
+
+ Score = 101 bits (251),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 28/153 (18%), Positives = 62/153 (41%), Gaps = 18/153 (12%)
+
+Query  9    LREQTLLLAEDYI---SFCSGIQQTPP-----------SESAEAMRYLAKEMEQQHRTKF  54
+            L  Q   L  +Y+      +G+  + P           +E    +  L  E+EQ   + +
+Sbjct  27   LVAQAKALGREYVHARLLRAGLSWSAPERASPAPGGRLAEVCTVLLRLGDELEQIRPSVY  86
+
+Query  55   RSLSQEFLDTAGADPSKA--LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENS  112
+            R+++++      ++P       +V   +   G + WG+VVS+++    LA + + + +  
+Sbjct  87   RNVARQLHIPLQSEPVVTDAFLAVAGHIFSAG-ITWGKVVSLYSVAAGLAVDCVRQAQ-P  144
+
+Query  113  EGSRRLAETIADYLGGEKQDWLVENGGWEGFCR  145
+                 L + + +++      WL   GGW    +
+Sbjct  145  AMVHALVDCLGEFVRKTLATWLRRRGGWTDVLK  177
+
+
+> sp|Q16611|BAK_HUMAN Bcl-2 homologous antagonist/killer OS=Homo 
+sapiens OX=9606 GN=BAK1 PE=1 SV=1
+Length=211
+
+ Score = 97.1 bits (240),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 25/140 (18%), Positives = 56/140 (40%), Gaps = 7/140 (5%)
+
+Query  11   EQTLLLAEDYISFCSGIQQTPPSESAEAMRY---LAKEMEQQHRTKFRSLSQEFLDTAGA  67
+            ++   +A         +   P S   +  R    +  ++ +++ ++F+++ Q    TA  
+Sbjct  47   QEAEGVAAPADPEMVTLPLQPSSTMGQVGRQLAIIGDDINRRYDSEFQTMLQHLQPTA-E  105
+
+Query  68   DPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLG  127
+            +  +    +   L   G +NWGRVV++  F   LA  +   G  +    ++   + D++ 
+Sbjct  106  NAYEYFTKIATSLFESG-INWGRVVALLGFGYRLALHVYQHG-LTGFLGQVTRFVVDFML  163
+
+Query  128  GEK-QDWLVENGGWEGFCRF  146
+                  W+ + GGW      
+Sbjct  164  HHCIARWIAQRGGWVAALNL  183
+
+
+> sp|P0C8H6|ARBH_ASFWA Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (isolate Warthog/Namibia/Wart80/1980) 
+OX=561444 GN=War-051 PE=3 SV=1
+Length=179
+
+ Score = 90.2 bits (222),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 39/92 (42%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T+  +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTSAQEIKTQFTGVVTELFKD-LINWGRICGFIVFSAKMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|P0C8H5|ARBH_ASFP4 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (isolate Tick/South Africa/Pretoriuskop 
+Pr4/1996) OX=561443 GN=Pret-053 PE=3 SV=1
+Length=179
+
+ Score = 90.2 bits (222),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 39/92 (42%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T+  +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTSAQEIKTQFTGVVTELFKD-LINWGRICGFIVFSAKMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|Q7T381|BOKB_DANRE Bcl-2-related ovarian killer protein homolog 
+B OS=Danio rerio OX=7955 GN=bokb PE=2 SV=1
+Length=211
+
+ Score = 90.9 bits (224),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 22/143 (15%), Positives = 58/143 (41%), Gaps = 6/143 (4%)
+
+Query  7    CWLREQTLL--LAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDT  64
+             ++  +     L+   +       +    + +  +  L  E+E      +R+++++   +
+Sbjct  37   DFIHSRITREGLSWSKVELDLPEPRGVLVDVSVVLLKLGDELECMRPYVYRNIAKQLNIS  96
+
+Query  65   AGADPSKA--LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETI  122
+               +   +    SV  E++  G + WG+VV+I+     LA + +  G        + +++
+Sbjct  97   VSVEAVVSDAFLSVATEVIAMG-ITWGKVVAIYAVAAGLAVDCVRLGH-PVMVHTIVDSL  154
+
+Query  123  ADYLGGEKQDWLVENGGWEGFCR  145
+             +++      WL + GGW    +
+Sbjct  155  GEFVRRSLVPWLKKRGGWVDILK  177
+
+
+> sp|P42485|ARBH_ASFB7 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 
+GN=Ba71V-041 PE=1 SV=1
+Length=179
+
+ Score = 90.2 bits (222),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 39/92 (42%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T+  +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTSVQEIKTQFTGVVTELFKD-LINWGRICGFIVFSAKMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|Q07818|ARBH_ASFE4 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (strain E-70 MS44) OX=39014 GN=LMW5-HL 
+PE=2 SV=1
+Length=179
+
+ Score = 89.4 bits (220),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 39/92 (42%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T+  +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTSVQEIKTQFTGVVTELFRD-LINWGRICGFIVFSARMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|P0C8H4|ARBH_ASFK5 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 
+GN=Ken-053 PE=3 SV=1
+Length=179
+
+ Score = 89.4 bits (220),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 39/92 (42%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T+  +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTSAQEIKTQFTEVVTELFKD-LINWGRICGFIVFSARMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|Q07819|ARBH_ASFM2 Apoptosis regulator Bcl-2 homolog OS=African 
+swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 
+GN=Mal-049 PE=3 SV=1
+Length=179
+
+ Score = 89.0 bits (219),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 20/92 (22%), Positives = 38/92 (41%), Gaps = 3/92 (3%)
+
+Query  55   RSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEG  114
+            + ++  F  T   +       V+ EL  D  +NWGR+     F+  +A     +  N+  
+Sbjct  52   KQVTITFSLTNAQEIKTQFTGVVTELFKD-LINWGRICGFIVFSARMAKY--CKDANNHL  108
+
+Query  115  SRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146
+               +  T  +++      W++ +GG E F  F
+Sbjct  109  ESTVITTAYNFMKHNLLPWMISHGGQEEFLAF  140
+
+
+> sp|Q6VZT9|ARBH_CNPV Apoptosis regulator Bcl-2 homolog OS=Canarypox 
+virus OX=44088 GN=CNPV058 PE=1 SV=1
+Length=175
+
+ Score = 80.9 bits (198),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 18/106 (17%), Positives = 40/106 (38%), Gaps = 7/106 (7%)
+
+Query  38   AMRYLAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTF  97
+             ++ +   + + +  +FR       D     P     ++  +      + WGRV+SI  F
+Sbjct  43   IVKNMCDIILRDNIVEFRKDIDRCSDIENEIPEIVYDTIHDK------ITWGRVISIIAF  96
+
+Query  98   TGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGF  143
+               +      +G ++     + + I + L    + WL +   W+G 
+Sbjct  97   GAYVTKVFKEKGRDNV-VDLMPDIITESLLSRCRSWLSDQNCWDGL  141
+
+
+> sp|Q5E9L4|B2L14_BOVIN Apoptosis facilitator Bcl-2-like protein 
+14 OS=Bos taurus OX=9913 GN=BCL2L14 PE=2 SV=1
+Length=326
+
+ Score = 76.7 bits (187),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 21/120 (18%), Positives = 46/120 (38%), Gaps = 18/120 (15%)
+
+Query  37   EAMRYLAKEMEQQHRTK------FRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            E ++Y  +++E++ +        F+ +    +     D  + L+ V      +       
+Sbjct  213  ELLKYSGEQLERELKKDKVLMTCFQDVLSYSVVKTITD--QFLRGVDTRGESE-------  263
+
+Query  91   VVSIFTFTGVLASELLSRGENSEG--SRRLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+             V   +F   LA +++++    +     R+      YL      W+ ++GGWE   R  H
+Sbjct  264  -VKAQSFKAALAIDVIAKLTTIDNHPMNRVLGFGTKYLKENFSPWIQQHGGWEKILRMPH  322
+
+
+> sp|Q9J5G4|ARBH_FOWPN Apoptosis regulator Bcl-2 homolog OS=Fowlpox 
+virus (strain NVSL) OX=928301 GN=FPV039 PE=1 SV=1
+Length=175
+
+ Score = 74.0 bits (180),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 14/71 (20%), Positives = 33/71 (46%), Gaps = 1/71 (1%)
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQD  132
+               ++ +++ D K+NWGR+++I  F    + ++            ++E I D +  + + 
+Sbjct  69   FNVIVTQVLED-KINWGRIITIIAFCAYYSKKVKQDTSPQYYDGIISEAITDAILSKYRS  127
+
+Query  133  WLVENGGWEGF  143
+            W ++   W G 
+Sbjct  128  WFIDQDYWNGI  138
+
+
+> sp|F5HGJ3|ARBH_HHV8P Apoptosis regulator Bcl-2 homolog OS=Human 
+herpesvirus 8 type P (isolate GK18) OX=868565 GN=vBCL2 PE=1 
+SV=1
+Length=175
+
+ Score = 72.5 bits (176),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 26/103 (25%), Positives = 43/103 (42%), Gaps = 9/103 (9%)
+
+Query  44   KEMEQQHRTKFRSLSQE--FLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVL  101
+              + +   + F ++     F  T G +    L   M ++ GDG MNWGR ++I TF   +
+Sbjct  41   TGLMRDKESLFEAMLANVRFHSTTGINQ---LGLSMLQVSGDGNMNWGRALAILTFGSFV  97
+
+Query  102  ASELLSRGENSEG-SRRLAETIADYLGGEKQDWLVENGGWEGF  143
+            A +L +     +     L     + +G +   W    GGW G 
+Sbjct  98   AQKLSNEPHLRDFALAVLPVYAYEAIGPQ---WFRARGGWRGL  137
+
+
+> sp|Q9BZR8|B2L14_HUMAN Apoptosis facilitator Bcl-2-like protein 
+14 OS=Homo sapiens OX=9606 GN=BCL2L14 PE=1 SV=1
+Length=327
+
+ Score = 65.5 bits (158),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 19/124 (15%), Positives = 42/124 (34%), Gaps = 18/124 (15%)
+
+Query  33   SESAEAMRYLAKEMEQQHRTK------FRSLSQEFLDTAGADPSKALQSVMRELVGDGKM  86
+            ++  E ++Y   ++E++ +        F+      +     D  + L  V      +   
+Sbjct  210  AKIVELLKYSGDQLERKLKKDKALMGHFQDGLSYSVFKTITD--QVLMGVDPRGESE---  264
+
+Query  87   NWGRVVSIFTFTGVLASELLSRGE--NSEGSRRLAETIADYLGGEKQDWLVENGGWEGFC  144
+                 V    F   L  ++ ++    ++    R+      YL      W+ ++GGWE   
+Sbjct  265  -----VKAQGFKAALVIDVTAKLTAIDNHPMNRVLGFGTKYLKENFSPWIQQHGGWEKIL  319
+
+Query  145  RFFH  148
+               H
+Sbjct  320  GISH  323
+
+
+> sp|Q6AYK4|B2L14_RAT Apoptosis facilitator Bcl-2-like protein 
+14 OS=Rattus norvegicus OX=10116 GN=Bcl2l14 PE=1 SV=1
+Length=326
+
+ Score = 59.0 bits (141),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 19/120 (16%), Positives = 40/120 (33%), Gaps = 18/120 (15%)
+
+Query  37   EAMRYLAKEMEQQHRTK------FRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGR  90
+            E ++Y   ++ ++ +        F+      +     D    L+ V      +       
+Sbjct  213  ELLKYSGDQLGREIKRDKALVSIFQEGLSYSVFRTITD--LFLRDVDTRGESE-------  263
+
+Query  91   VVSIFTFTGVLASELLSRGE--NSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRFFH  148
+             +    F   LA + +++    ++    R+      YL      W+ +NGGWE      H
+Sbjct  264  -IKAQGFKAALAIDAIAKLTAIDNHPMNRMLGFGTKYLREYFSPWVQQNGGWEKILGLSH  322
+
+
+> sp|Q9CPT0|B2L14_MOUSE Apoptosis facilitator Bcl-2-like protein 
+14 OS=Mus musculus OX=10090 GN=Bcl2l14 PE=1 SV=1
+Length=328
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/124 (16%), Positives = 41/124 (33%), Gaps = 18/124 (15%)
+
+Query  33   SESAEAMRYLAKEMEQQHRTK------FRSLSQEFLDTAGADPSKALQSVMRELVGDGKM  86
+            S+  E +++   ++ ++ +        F+            D    L+ V      +   
+Sbjct  211  SKIVELLKFSGDQLGREIKKDKALMSSFQDGLSYSTFKTITD--LFLRDVDTRGESE---  265
+
+Query  87   NWGRVVSIFTFTGVLASELLSRGE--NSEGSRRLAETIADYLGGEKQDWLVENGGWEGFC  144
+                 V    F   LA + +++    ++    R+      YL      W+ +NGGWE   
+Sbjct  266  -----VKARGFKAALAIDAIAKLTAIDNHPMNRMLGFGTKYLREYFSPWVQQNGGWEKIL  320
+
+Query  145  RFFH  148
+               H
+Sbjct  321  GISH  324
+
+
+> sp|Q01001|VG16_SHV21 Bcl-2-like gene 16 protein OS=Saimiriine 
+herpesvirus 2 (strain 11) OX=10383 GN=16 PE=3 SV=1
+Length=160
+
+ Score = 44.7 bits (104),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 18/96 (19%), Positives = 35/96 (36%), Gaps = 8/96 (8%)
+
+Query  52   TKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGEN  111
+             KF +L  +F                  L  +   NWG+VV++ +F+  +   +    + 
+Sbjct  39   NKFEALMPDFSLCVHDRIK--FTGEAILLTTEHTTNWGKVVAMLSFSAAVLQTIDEEYKC  96
+
+Query  112  SEGSRRLAETIADYLGGEKQ-DWLVENGGWEGFCRF  146
+                      ++ Y+      +W +ENGG +    F
+Sbjct  97   VA-----TSMLSSYISRSVGANWFIENGGEKSLVEF  127
+
+
+> sp|P0C736|EAR_EBVG Apoptosis regulator BHRF1 OS=Epstein-Barr 
+virus (strain GD1) OX=10376 GN=BHRF1 PE=1 SV=1
+Length=191
+
+ Score = 41.6 bits (96),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/133 (11%), Positives = 32/133 (24%), Gaps = 2/133 (2%)
+
+Query  15   LLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL--DTAGADPSKA  72
+                  +   +       S     +      +E+       + ++ +    T        
+Sbjct  23   GTLHPVLELAARETPLRLSPEDTVVLRYHVLLEEIIERNSETFTETWNRFITHTEHVDLD  82
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQD  132
+              SV  E+   G  + GR ++   +       L            L+             
+Sbjct  83   FNSVFVEIFHRGDPSLGRALAWMAWCMHACRTLCCNQSTPYYVVDLSVRGMLEASEGLDG  142
+
+Query  133  WLVENGGWEGFCR  145
+            W+ + GGW     
+Sbjct  143  WIHQQGGWSTLIE  155
+
+
+> sp|P03182|EAR_EBVB9 Apoptosis regulator BHRF1 OS=Epstein-Barr 
+virus (strain B95-8) OX=10377 GN=BHRF1 PE=1 SV=1
+Length=191
+
+ Score = 41.6 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/133 (11%), Positives = 32/133 (24%), Gaps = 2/133 (2%)
+
+Query  15   LLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL--DTAGADPSKA  72
+                  +   +       S     +      +E+       + ++ +    T        
+Sbjct  23   GTLHPVLELAARETPLRLSPEDTVVLRYHVLLEEIIERNSETFTETWNRFITHTEHVDLD  82
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQD  132
+              SV  E+   G  + GR ++   +       L            L+             
+Sbjct  83   FNSVFLEIFHRGDPSLGRALAWMAWCMHACRTLCCNQSTPYYVVDLSVRGMLEASEGLDG  142
+
+Query  133  WLVENGGWEGFCR  145
+            W+ + GGW     
+Sbjct  143  WIHQQGGWSTLIE  155
+
+
+> sp|P0C6Z1|EAR_EBVA8 Apoptosis regulator BHRF1 OS=Epstein-Barr 
+virus (strain AG876) OX=82830 GN=BHRF1 PE=1 SV=1
+Length=191
+
+ Score = 41.6 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/133 (11%), Positives = 32/133 (24%), Gaps = 2/133 (2%)
+
+Query  15   LLAEDYISFCSGIQQTPPSESAEAMRYLAKEMEQQHRTKFRSLSQEFL--DTAGADPSKA  72
+                  +   +       S     +      +E+       + ++ +    T        
+Sbjct  23   GTLHPVLELAARETPLRLSPEDTVVLRYHVLLEEIIERNSETFTETWNRFITHTEHVDLD  82
+
+Query  73   LQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQD  132
+              SV  E+   G  + GR ++   +       L            L+             
+Sbjct  83   FNSVFLEIFHRGDPSLGRALAWMAWCMHACRTLCCNQSTPYYVVDLSVRGMLEASEGLDG  142
+
+Query  133  WLVENGGWEGFCR  145
+            W+ + GGW     
+Sbjct  143  WIHQQGGWSTLIE  155
+
+
+> sp|P89884|ARBH_MHV68 Apoptosis regulator Bcl-2 homolog OS=Murid 
+herpesvirus 4 OX=33708 GN=vBCL2 PE=1 SV=1
+Length=171
+
+ Score = 39.7 bits (91),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 19/88 (22%), Positives = 33/88 (38%), Gaps = 5/88 (6%)
+
+Query  42   LAKEMEQQHRTKFRSLSQEFLDTAGADPSKALQSVMRELVGDGKMNWGRVVSIFTFTGVL  101
+            L +E  + + + +R+     L     D SK        L  D  +N GR+V  F     +
+Sbjct  44   LTQEFRRHYDSVYRADYGPALKNWKRDLSKLF----TSLFVD-VINSGRIVGFFDVGRYV  98
+
+Query  102  ASELLSRGENSEGSRRLAETIADYLGGE  129
+              E+L  G  +E    L + +  +    
+Sbjct  99   CEEVLCPGSWTEDHELLNDCMTHFFIEN  126
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0401    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5844520972
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,223 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6CKN:A
+
+Length=65
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P55197|AF10_HUMAN Protein AF-10 OS=Homo sapiens OX=9606 GN=M...  128     2e-35
+  sp|O54826|AF10_MOUSE Protein AF-10 OS=Mus musculus OX=10090 GN=...  127     6e-35
+  sp|P55198|AF17_HUMAN Protein AF-17 OS=Homo sapiens OX=9606 GN=M...  61.2    9e-12
+  sp|P34447|ZFP1_CAEEL Zinc finger protein zfp-1 OS=Caenorhabditi...  50.8    4e-08
+
+
+> sp|P55197|AF10_HUMAN Protein AF-10 OS=Homo sapiens OX=9606 GN=MLLT10 
+PE=1 SV=2
+Length=1068
+
+ Score = 128 bits (322),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 64/65 (98%), Positives = 64/65 (98%), Gaps = 0/65 (0%)
+
+Query  1    SIEQLLERQWSEGQQFLLEQGTPSDILGXLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  60
+            SIEQLLERQWSEGQQFLLEQGTPSDILG LKSLHQLQVENRRLEEQIKNLTAKKERLQLL
+Sbjct  715  SIEQLLERQWSEGQQFLLEQGTPSDILGMLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  774
+
+Query  61   NAQLS  65
+            NAQLS
+Sbjct  775  NAQLS  779
+
+
+> sp|O54826|AF10_MOUSE Protein AF-10 OS=Mus musculus OX=10090 GN=Mllt10 
+PE=1 SV=2
+Length=1068
+
+ Score = 127 bits (318),  Expect = 6e-35, Method: Compositional matrix adjust.
+ Identities = 63/65 (97%), Positives = 63/65 (97%), Gaps = 0/65 (0%)
+
+Query  1    SIEQLLERQWSEGQQFLLEQGTPSDILGXLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  60
+            SIEQLLERQWSEGQQFLLEQGTP DILG LKSLHQLQVENRRLEEQIKNLTAKKERLQLL
+Sbjct  717  SIEQLLERQWSEGQQFLLEQGTPGDILGMLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  776
+
+Query  61   NAQLS  65
+            NAQLS
+Sbjct  777  NAQLS  781
+
+
+> sp|P55198|AF17_HUMAN Protein AF-17 OS=Homo sapiens OX=9606 GN=MLLT6 
+PE=1 SV=3
+Length=1093
+
+ Score = 61.2 bits (147),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 37/65 (57%), Positives = 48/65 (74%), Gaps = 8/65 (12%)
+
+Query  1    SIEQLLERQWSEGQQFLLEQGTPSDILGXLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  60
+            ++EQLLE+Q  +G     E G   +I+  LK+LH LQ EN+RL+EQI +LTAKKERLQ+L
+Sbjct  702  NMEQLLEKQ-GDG-----EAGV--NIVEMLKALHALQKENQRLQEQILSLTAKKERLQIL  753
+
+Query  61   NAQLS  65
+            N QLS
+Sbjct  754  NVQLS  758
+
+
+> sp|P34447|ZFP1_CAEEL Zinc finger protein zfp-1 OS=Caenorhabditis 
+elegans OX=6239 GN=zfp-1 PE=1 SV=2
+Length=867
+
+ Score = 50.8 bits (120),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 38/64 (59%), Gaps = 1/64 (2%)
+
+Query  2    IEQLLERQWSEGQQFLLEQGTPSDILGXLKSLHQLQVENRRLEEQIKNLTAKKERLQLLN  61
+            +EQLLERQW +G   L+      D+   L  L QL+ EN RLEE +  L  +++ L  LN
+Sbjct  593  MEQLLERQWDQGSSLLMANAH-FDVAQLLSCLFQLKSENFRLEENLSGLRKRRDHLFALN  651
+
+Query  62   AQLS  65
+            ++L+
+Sbjct  652  SRLA  655
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.129    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5095020896
+Results from round 2
+
+
+Query= 6CKN:A
+
+Length=65
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O54826|AF10_MOUSE Protein AF-10 OS=Mus musculus OX=10090 GN=...  114     2e-30
+  sp|P55197|AF10_HUMAN Protein AF-10 OS=Homo sapiens OX=9606 GN=M...  110     4e-29
+  sp|P34447|ZFP1_CAEEL Zinc finger protein zfp-1 OS=Caenorhabditi...  99.5    3e-25
+  sp|P55198|AF17_HUMAN Protein AF-17 OS=Homo sapiens OX=9606 GN=M...  78.3    8e-18
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|O54826|AF10_MOUSE Protein AF-10 OS=Mus musculus OX=10090 GN=Mllt10 
+PE=1 SV=2
+Length=1068
+
+ Score = 114 bits (284),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 63/65 (97%), Positives = 63/65 (97%), Gaps = 0/65 (0%)
+
+Query  1    SIEQLLERQWSEGQQFLLEQGTPSDILGXLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  60
+            SIEQLLERQWSEGQQFLLEQGTP DILG LKSLHQLQVENRRLEEQIKNLTAKKERLQLL
+Sbjct  717  SIEQLLERQWSEGQQFLLEQGTPGDILGMLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  776
+
+Query  61   NAQLS  65
+            NAQLS
+Sbjct  777  NAQLS  781
+
+
+> sp|P55197|AF10_HUMAN Protein AF-10 OS=Homo sapiens OX=9606 GN=MLLT10 
+PE=1 SV=2
+Length=1068
+
+ Score = 110 bits (275),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 64/65 (98%), Positives = 64/65 (98%), Gaps = 0/65 (0%)
+
+Query  1    SIEQLLERQWSEGQQFLLEQGTPSDILGXLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  60
+            SIEQLLERQWSEGQQFLLEQGTPSDILG LKSLHQLQVENRRLEEQIKNLTAKKERLQLL
+Sbjct  715  SIEQLLERQWSEGQQFLLEQGTPSDILGMLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  774
+
+Query  61   NAQLS  65
+            NAQLS
+Sbjct  775  NAQLS  779
+
+
+> sp|P34447|ZFP1_CAEEL Zinc finger protein zfp-1 OS=Caenorhabditis 
+elegans OX=6239 GN=zfp-1 PE=1 SV=2
+Length=867
+
+ Score = 99.5 bits (246),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 38/64 (59%), Gaps = 1/64 (2%)
+
+Query  2    IEQLLERQWSEGQQFLLEQGTPSDILGXLKSLHQLQVENRRLEEQIKNLTAKKERLQLLN  61
+            +EQLLERQW +G   L+      D+   L  L QL+ EN RLEE +  L  +++ L  LN
+Sbjct  593  MEQLLERQWDQGSSLLMANAH-FDVAQLLSCLFQLKSENFRLEENLSGLRKRRDHLFALN  651
+
+Query  62   AQLS  65
+            ++L+
+Sbjct  652  SRLA  655
+
+
+> sp|P55198|AF17_HUMAN Protein AF-17 OS=Homo sapiens OX=9606 GN=MLLT6 
+PE=1 SV=3
+Length=1093
+
+ Score = 78.3 bits (191),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 37/65 (57%), Positives = 48/65 (74%), Gaps = 8/65 (12%)
+
+Query  1    SIEQLLERQWSEGQQFLLEQGTPSDILGXLKSLHQLQVENRRLEEQIKNLTAKKERLQLL  60
+            ++EQLLE+Q  +G     E G   +I+  LK+LH LQ EN+RL+EQI +LTAKKERLQ+L
+Sbjct  702  NMEQLLEKQ-GDG-----EAGV--NIVEMLKALHALQKENQRLQEQILSLTAKKERLQIL  753
+
+Query  61   NAQLS  65
+            N QLS
+Sbjct  754  NVQLS  758
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.128    0.305    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5095020896
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

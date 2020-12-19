@@ -1,0 +1,335 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 4Y7S:A
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q5A0X8|CSA2_CANAL Secreted hemophore CSA2 OS=Candida albican...  192     1e-63
+  sp|Q59UT4|RBT5_CANAL GPI-anchored hemophore RBT5 OS=Candida alb...  156     4e-48
+  sp|Q59UP6|PGA10_CANAL GPI-anchored hemophore PGA10 OS=Candida a...  142     1e-42
+  sp|G1UB63|CSA1_CANAL Cell wall protein 1 OS=Candida albicans (s...  149     7e-42
+  sp|Q59UT5|PGA7_CANAL GPI-anchored hemophore PGA7 OS=Candida alb...  115     3e-32
+
+
+> sp|Q5A0X8|CSA2_CANAL Secreted hemophore CSA2 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=CSA2 PE=1 SV=1
+Length=147
+
+ Score = 192 bits (488),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 105/111 (95%), Positives = 105/111 (95%), Gaps = 0/111 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTIYPPVPKTASINGFADRIYDQIPK AQE VKQSTSSTPCPYWDTGCL VIPNFTGA
+Sbjct  34   NPYTIYPPVPKTASINGFADRIYDQIPKCAQECVKQSTSSTPCPYWDTGCLCVIPNFTGA  93
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAATA  111
+            VGN VASK RGADVTNFRKLAVGA AAAGVWDPYWIIPASVSSALDAAATA
+Sbjct  94   VGNCVASKCRGADVTNFRKLAVGACAAAGVWDPYWIIPASVSSALDAAATA  144
+
+
+> sp|Q59UT4|RBT5_CANAL GPI-anchored hemophore RBT5 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=RBT5 PE=1 
+SV=1
+Length=241
+
+ Score = 156 bits (395),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 69/102 (68%), Positives = 82/102 (80%), Gaps = 0/102 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTI+P V KTASINGFADRIYDQ+P+ A+E VKQSTSSTPCPYWDTGCL V+P F GA
+Sbjct  26   NPYTIFPSVAKTASINGFADRIYDQLPECAKECVKQSTSSTPCPYWDTGCLCVMPQFAGA  85
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVS  102
+            VGN VA   +G +V +   LA    ++AGVW+PYW+IP+SVS
+Sbjct  86   VGNCVAKNCKGKEVGSVESLATSICSSAGVWEPYWMIPSSVS  127
+
+
+> sp|Q59UP6|PGA10_CANAL GPI-anchored hemophore PGA10 OS=Candida 
+albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA10 
+PE=1 SV=2
+Length=250
+
+ Score = 142 bits (359),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 63/102 (62%), Positives = 79/102 (77%), Gaps = 0/102 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            N YT YP V KTASINGFAD+IYDQ+P+ A+E VKQSTS+TPCPYWDTGCL V+P F GA
+Sbjct  26   NAYTAYPSVAKTASINGFADKIYDQLPECAKECVKQSTSNTPCPYWDTGCLCVMPQFGGA  85
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVS  102
+            +G+ VA   +G +V +   LA    ++AGV +PYW+IP+SVS
+Sbjct  86   IGDCVAKNCKGKEVDSVESLATSICSSAGVGEPYWMIPSSVS  127
+
+
+> sp|G1UB63|CSA1_CANAL Cell wall protein 1 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=CSA1 PE=1 SV=1
+Length=1018
+
+ Score = 149 bits (376),  Expect = 7e-42, Method: Compositional matrix adjust.
+ Identities = 67/111 (60%), Positives = 84/111 (76%), Gaps = 0/111 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTIYP V KTASINGFADRIYDQ+P+ A+  + Q+T  TPCPYWDTGCL ++P F GA
+Sbjct  223  NPYTIYPSVAKTASINGFADRIYDQLPECAKPCMFQNTGVTPCPYWDTGCLCIMPTFAGA  282
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAATA  111
+            +G+ +A K +G DV +   L     + AGVWDPYW++PA+V S+L AAATA
+Sbjct  283  IGSCIAEKCKGQDVVSATSLGTSICSVAGVWDPYWMVPANVQSSLSAAATA  333
+
+
+ Score = 149 bits (375),  Expect = 9e-42, Method: Compositional matrix adjust.
+ Identities = 67/111 (60%), Positives = 85/111 (77%), Gaps = 0/111 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTIYP V KTASINGFADRIYDQ+P+ A+  + Q+T  TPCPYWDTGCL ++P F GA
+Sbjct  555  NPYTIYPSVAKTASINGFADRIYDQLPECAKPCMFQNTGVTPCPYWDTGCLCIMPTFAGA  614
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAATA  111
+            +G+ +A K +G DV +   L     + AGVWDPYW++PA+V S+L+AAATA
+Sbjct  615  IGSCIAEKCKGQDVVSATSLGSSICSVAGVWDPYWMLPANVQSSLNAAATA  665
+
+
+ Score = 139 bits (350),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 60/101 (59%), Positives = 76/101 (75%), Gaps = 0/101 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTIYP V KTASINGFADRIYDQ+P+ A+  + Q+T  TPCPYWDTGCL ++P F GA
+Sbjct  32   NPYTIYPSVAKTASINGFADRIYDQLPECAKPCMFQNTGVTPCPYWDTGCLCIMPTFAGA  91
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASV  101
+            +G+ +A K +G DV +   L     + AGVWDPYW++PA+V
+Sbjct  92   IGSCIAEKCKGQDVVSATSLGTSICSVAGVWDPYWMVPANV  132
+
+
+ Score = 116 bits (291),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 53/101 (52%), Positives = 71/101 (70%), Gaps = 0/101 (0%)
+
+Query  11   KTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGAVGNBVASKAR  70
+            +TASINGFAD++YDQ+P+ A+  + Q+T  TPCPYWD GCL V+P F GA+G+ VA   +
+Sbjct  403  RTASINGFADKLYDQLPECAKPCMFQNTGITPCPYWDAGCLCVMPQFAGAIGSCVADSCK  462
+
+Query  71   GADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAATA  111
+            G D+ +   L     + AGV  PYW++PASV S+L  AATA
+Sbjct  463  GQDIVSVTSLGTSVCSVAGVNAPYWMLPASVKSSLSVAATA  503
+
+
+> sp|Q59UT5|PGA7_CANAL GPI-anchored hemophore PGA7 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA7 PE=1 
+SV=1
+Length=219
+
+ Score = 115 bits (288),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 59/107 (55%), Positives = 71/107 (66%), Gaps = 2/107 (2%)
+
+Query  3    YTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGAVG  62
+            +  YP VPKTASINGFAD IYD +P  A+E VK STS+TPCPYWDTGC  V+P + G VG
+Sbjct  19   FGTYPKVPKTASINGFADPIYDLLPDCAKECVKFSTSNTPCPYWDTGCFCVMPQWAGLVG  78
+
+Query  63   NBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAA  109
+              VA K +G DV + R LA    +  G     W++PAS+SS L  AA
+Sbjct  79   QCVAQKCKGEDVASARFLATSLCSVVGA--NTWMMPASISSMLSTAA  123
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.130    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5066098816
+Results from round 2
+
+
+Query= 4Y7S:A
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q5A0X8|CSA2_CANAL Secreted hemophore CSA2 OS=Candida albican...  167     1e-53
+  sp|Q59UT5|PGA7_CANAL GPI-anchored hemophore PGA7 OS=Candida alb...  163     3e-51
+  sp|Q59UT4|RBT5_CANAL GPI-anchored hemophore RBT5 OS=Candida alb...  162     2e-50
+  sp|Q59UP6|PGA10_CANAL GPI-anchored hemophore PGA10 OS=Candida a...  159     3e-49
+  sp|G1UB63|CSA1_CANAL Cell wall protein 1 OS=Candida albicans (s...  166     5e-48
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q5A0X8|CSA2_CANAL Secreted hemophore CSA2 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=CSA2 PE=1 SV=1
+Length=147
+
+ Score = 167 bits (423),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 105/111 (95%), Positives = 105/111 (95%), Gaps = 0/111 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTIYPPVPKTASINGFADRIYDQIPK AQE VKQSTSSTPCPYWDTGCL VIPNFTGA
+Sbjct  34   NPYTIYPPVPKTASINGFADRIYDQIPKCAQECVKQSTSSTPCPYWDTGCLCVIPNFTGA  93
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAATA  111
+            VGN VASK RGADVTNFRKLAVGA AAAGVWDPYWIIPASVSSALDAAATA
+Sbjct  94   VGNCVASKCRGADVTNFRKLAVGACAAAGVWDPYWIIPASVSSALDAAATA  144
+
+
+> sp|Q59UT5|PGA7_CANAL GPI-anchored hemophore PGA7 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA7 PE=1 
+SV=1
+Length=219
+
+ Score = 163 bits (413),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 59/107 (55%), Positives = 71/107 (66%), Gaps = 2/107 (2%)
+
+Query  3    YTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGAVG  62
+            +  YP VPKTASINGFAD IYD +P  A+E VK STS+TPCPYWDTGC  V+P + G VG
+Sbjct  19   FGTYPKVPKTASINGFADPIYDLLPDCAKECVKFSTSNTPCPYWDTGCFCVMPQWAGLVG  78
+
+Query  63   NBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAA  109
+              VA K +G DV + R LA    +  G     W++PAS+SS L  AA
+Sbjct  79   QCVAQKCKGEDVASARFLATSLCSVVGA--NTWMMPASISSMLSTAA  123
+
+
+> sp|Q59UT4|RBT5_CANAL GPI-anchored hemophore RBT5 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=RBT5 PE=1 
+SV=1
+Length=241
+
+ Score = 162 bits (410),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 69/102 (68%), Positives = 82/102 (80%), Gaps = 0/102 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTI+P V KTASINGFADRIYDQ+P+ A+E VKQSTSSTPCPYWDTGCL V+P F GA
+Sbjct  26   NPYTIFPSVAKTASINGFADRIYDQLPECAKECVKQSTSSTPCPYWDTGCLCVMPQFAGA  85
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVS  102
+            VGN VA   +G +V +   LA    ++AGVW+PYW+IP+SVS
+Sbjct  86   VGNCVAKNCKGKEVGSVESLATSICSSAGVWEPYWMIPSSVS  127
+
+
+> sp|Q59UP6|PGA10_CANAL GPI-anchored hemophore PGA10 OS=Candida 
+albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA10 
+PE=1 SV=2
+Length=250
+
+ Score = 159 bits (403),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 63/102 (62%), Positives = 79/102 (77%), Gaps = 0/102 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            N YT YP V KTASINGFAD+IYDQ+P+ A+E VKQSTS+TPCPYWDTGCL V+P F GA
+Sbjct  26   NAYTAYPSVAKTASINGFADKIYDQLPECAKECVKQSTSNTPCPYWDTGCLCVMPQFGGA  85
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVS  102
+            +G+ VA   +G +V +   LA    ++AGV +PYW+IP+SVS
+Sbjct  86   IGDCVAKNCKGKEVDSVESLATSICSSAGVGEPYWMIPSSVS  127
+
+
+> sp|G1UB63|CSA1_CANAL Cell wall protein 1 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=CSA1 PE=1 SV=1
+Length=1018
+
+ Score = 166 bits (421),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 67/111 (60%), Positives = 84/111 (76%), Gaps = 0/111 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTIYP V KTASINGFADRIYDQ+P+ A+  + Q+T  TPCPYWDTGCL ++P F GA
+Sbjct  223  NPYTIYPSVAKTASINGFADRIYDQLPECAKPCMFQNTGVTPCPYWDTGCLCIMPTFAGA  282
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAATA  111
+            +G+ +A K +G DV +   L     + AGVWDPYW++PA+V S+L AAATA
+Sbjct  283  IGSCIAEKCKGQDVVSATSLGTSICSVAGVWDPYWMVPANVQSSLSAAATA  333
+
+
+ Score = 164 bits (416),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 67/111 (60%), Positives = 85/111 (77%), Gaps = 0/111 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTIYP V KTASINGFADRIYDQ+P+ A+  + Q+T  TPCPYWDTGCL ++P F GA
+Sbjct  555  NPYTIYPSVAKTASINGFADRIYDQLPECAKPCMFQNTGVTPCPYWDTGCLCIMPTFAGA  614
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAATA  111
+            +G+ +A K +G DV +   L     + AGVWDPYW++PA+V S+L+AAATA
+Sbjct  615  IGSCIAEKCKGQDVVSATSLGSSICSVAGVWDPYWMLPANVQSSLNAAATA  665
+
+
+ Score = 156 bits (393),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 60/102 (59%), Positives = 76/102 (75%), Gaps = 0/102 (0%)
+
+Query  1    NPYTIYPPVPKTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGA  60
+            NPYTIYP V KTASINGFADRIYDQ+P+ A+  + Q+T  TPCPYWDTGCL ++P F GA
+Sbjct  32   NPYTIYPSVAKTASINGFADRIYDQLPECAKPCMFQNTGVTPCPYWDTGCLCIMPTFAGA  91
+
+Query  61   VGNBVASKARGADVTNFRKLAVGADAAAGVWDPYWIIPASVS  102
+            +G+ +A K +G DV +   L     + AGVWDPYW++PA+V 
+Sbjct  92   IGSCIAEKCKGQDVVSATSLGTSICSVAGVWDPYWMVPANVQ  133
+
+
+ Score = 137 bits (344),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 53/101 (52%), Positives = 71/101 (70%), Gaps = 0/101 (0%)
+
+Query  11   KTASINGFADRIYDQIPKAAQEBVKQSTSSTPCPYWDTGCLDVIPNFTGAVGNBVASKAR  70
+            +TASINGFAD++YDQ+P+ A+  + Q+T  TPCPYWD GCL V+P F GA+G+ VA   +
+Sbjct  403  RTASINGFADKLYDQLPECAKPCMFQNTGITPCPYWDAGCLCVMPQFAGAIGSCVADSCK  462
+
+Query  71   GADVTNFRKLAVGADAAAGVWDPYWIIPASVSSALDAAATA  111
+            G D+ +   L     + AGV  PYW++PASV S+L  AATA
+Sbjct  463  GQDIVSVTSLGTSVCSVAGVNAPYWMLPASVKSSLSVAATA  503
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.130    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5066098816
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

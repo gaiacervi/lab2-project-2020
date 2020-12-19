@@ -1,0 +1,686 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6JPM:B
+
+Length=119
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|A7UR17|OBP72_ANOGA General odorant-binding protein 72 (Fragm...  64.3    3e-13
+  sp|Q9VR94|OB19A_DROME General odorant-binding protein 19a OS=Dr...  56.6    5e-10
+  sp|Q23970|PBP6_DROME Pheromone-binding protein-related protein ...  40.8    4e-04
+
+
+> sp|A7UR17|OBP72_ANOGA General odorant-binding protein 72 (Fragment) 
+OS=Anopheles gambiae OX=7165 GN=Obp72 PE=3 SV=1
+Length=121
+
+ Score = 64.3 bits (155),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 37/119 (31%), Positives = 65/119 (55%), Gaps = 3/119 (3%)
+
+Query  2    LTEAQMASTANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIKNGK  61
+            +T+ Q+  TA   R++ QPK K++DE  +  ++GVF D K    Y++ +L+ M++ + GK
+Sbjct  2    ITQEQLEKTARTFRQVCQPKHKISDEVADAVNRGVFADTKDFKCYVSCLLDIMQVARKGK  61
+
+Query  62   LDMSAVEQQMPT-LPKKYQESTKKSIEEFKSADTG--DKEEPAYNFAKFLYLSNPEMYF  117
+            ++     +Q+ T LP   + + +  +E  KSA  G  D  E A    +  Y +NP+  F
+Sbjct  62   VNYEKSLKQIDTMLPDHMKPAFRAGLEACKSAAQGVKDHCEAAAILLQCFYKNNPKFVF  120
+
+
+> sp|Q9VR94|OB19A_DROME General odorant-binding protein 19a OS=Drosophila 
+melanogaster OX=7227 GN=Obp19a PE=2 SV=2
+Length=146
+
+ Score = 56.6 bits (135),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 39/109 (36%), Positives = 54/109 (50%), Gaps = 2/109 (2%)
+
+Query  2    LTEAQMASTANLMRKMDQPK-TKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIKNG  60
+            +TE QM S   LMR +  PK  KV+ E  +N   G   + K    Y+N ILE M+ IK G
+Sbjct  24   VTEEQMWSAGKLMRDVCLPKYPKVSVEVADNIRNGDIPNSKDTNCYINCILEMMQAIKKG  83
+
+Query  61   KLDMSAVEQQMPT-LPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFL  108
+            K  + +  +QM   LP  Y++  +K I   K +  G K  P  + A  L
+Sbjct  84   KFQLESTLKQMDIMLPDSYKDEYRKGINLCKDSTVGLKNAPNCDPAHAL  132
+
+
+> sp|Q23970|PBP6_DROME Pheromone-binding protein-related protein 
+6 OS=Drosophila melanogaster OX=7227 GN=Obp83b PE=1 SV=2
+Length=141
+
+ Score = 40.8 bits (94),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 31/102 (30%), Positives = 47/102 (46%), Gaps = 7/102 (7%)
+
+Query  20   PKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKII-KNGKLDMSAVEQQMPT--LPK  76
+            PKT VTDE I  F  G   +D+ +  YMN +    +++  NG + M  V   +P   L  
+Sbjct  43   PKTGVTDEAIKEFSDGQIHEDEALKCYMNCLFHEFEVVDDNGDVHMEKVLNAIPGEKLRN  102
+
+Query  77   KYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMYFL  118
+               E++K  I      DT   +  A+ F +    ++P  YFL
+Sbjct  103  IMMEASKGCIH--PEGDTLCHK--AWWFHQCWKKADPVHYFL  140
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.127    0.348    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5094342462
+Results from round 2
+
+
+Query= 6JPM:B
+
+Length=119
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A7UR17|OBP72_ANOGA General odorant-binding protein 72 (Fragm...  159     1e-50
+  sp|Q9VR94|OB19A_DROME General odorant-binding protein 19a OS=Dr...  150     1e-46
+  sp|Q23970|PBP6_DROME Pheromone-binding protein-related protein ...  139     2e-42
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P54193|OB83A_DROME General odorant-binding protein 83a OS=Dr...  121     4e-35
+  sp|O02372|OB76A_DROME General odorant-binding protein lush OS=D...  60.9    1e-11
+  sp|Q8SY61|OB56D_DROME General odorant-binding protein 56d OS=Dr...  52.1    2e-08
+  sp|P54191|OB69A_DROME General odorant-binding protein 69a OS=Dr...  50.1    1e-07
+  sp|Q9V8Y2|OB56A_DROME General odorant-binding protein 56a OS=Dr...  46.7    3e-06
+  sp|Q9VAJ4|OB99A_DROME General odorant-binding protein 99a OS=Dr...  42.8    7e-05
+  sp|Q9VAI6|OB99B_DROME General odorant-binding protein 99b OS=Dr...  42.0    1e-04
+  sp|Q27017|B1_TENMO B1 protein (Fragment) OS=Tenebrio molitor OX...  40.5    5e-04
+  sp|Q9V8Y9|OB56H_DROME General odorant-binding protein 56h OS=Dr...  39.3    0.001
+  sp|P54192|OB19D_DROME General odorant-binding protein 19d OS=Dr...  37.0    0.009
+
+
+> sp|A7UR17|OBP72_ANOGA General odorant-binding protein 72 (Fragment) 
+OS=Anopheles gambiae OX=7165 GN=Obp72 PE=3 SV=1
+Length=121
+
+ Score = 159 bits (402),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 65/119 (55%), Gaps = 3/119 (3%)
+
+Query  2    LTEAQMASTANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIKNGK  61
+            +T+ Q+  TA   R++ QPK K++DE  +  ++GVF D K    Y++ +L+ M++ + GK
+Sbjct  2    ITQEQLEKTARTFRQVCQPKHKISDEVADAVNRGVFADTKDFKCYVSCLLDIMQVARKGK  61
+
+Query  62   LDMSAVEQQMPT-LPKKYQESTKKSIEEFKSADTG--DKEEPAYNFAKFLYLSNPEMYF  117
+            ++     +Q+ T LP   + + +  +E  KSA  G  D  E A    +  Y +NP+  F
+Sbjct  62   VNYEKSLKQIDTMLPDHMKPAFRAGLEACKSAAQGVKDHCEAAAILLQCFYKNNPKFVF  120
+
+
+> sp|Q9VR94|OB19A_DROME General odorant-binding protein 19a OS=Drosophila 
+melanogaster OX=7227 GN=Obp19a PE=2 SV=2
+Length=146
+
+ Score = 150 bits (378),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 41/123 (33%), Positives = 60/123 (49%), Gaps = 5/123 (4%)
+
+Query  2    LTEAQMASTANLMRKMDQPK-TKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIKNG  60
+            +TE QM S   LMR +  PK  KV+ E  +N   G   + K    Y+N ILE M+ IK G
+Sbjct  24   VTEEQMWSAGKLMRDVCLPKYPKVSVEVADNIRNGDIPNSKDTNCYINCILEMMQAIKKG  83
+
+Query  61   KLDMSAVEQQMPT-LPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFL---YLSNPEMY  116
+            K  + +  +QM   LP  Y++  +K I   K +  G K  P  + A  L     +N +++
+Sbjct  84   KFQLESTLKQMDIMLPDSYKDEYRKGINLCKDSTVGLKNAPNCDPAHALLSCLKNNIKVF  143
+
+Query  117  FLP  119
+              P
+Sbjct  144  VFP  146
+
+
+> sp|Q23970|PBP6_DROME Pheromone-binding protein-related protein 
+6 OS=Drosophila melanogaster OX=7227 GN=Obp83b PE=1 SV=2
+Length=141
+
+ Score = 139 bits (349),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 31/113 (27%), Positives = 48/113 (42%), Gaps = 7/113 (6%)
+
+Query  9    STANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKII-KNGKLDMSAV  67
+                    +  PKT VTDE I  F  G   +D+ +  YMN +    +++  NG + M  V
+Sbjct  32   KLGKHFHDICAPKTGVTDEAIKEFSDGQIHEDEALKCYMNCLFHEFEVVDDNGDVHMEKV  91
+
+Query  68   EQQMPT--LPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMYFL  118
+               +P   L     E++K  I      DT   +  A+ F +    ++P  YFL
+Sbjct  92   LNAIPGEKLRNIMMEASKGCIH--PEGDTLCHK--AWWFHQCWKKADPVHYFL  140
+
+
+> sp|P54193|OB83A_DROME General odorant-binding protein 83a OS=Drosophila 
+melanogaster OX=7227 GN=Obp83a PE=1 SV=1
+Length=154
+
+ Score = 121 bits (303),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 28/113 (25%), Positives = 50/113 (44%), Gaps = 6/113 (5%)
+
+Query  9    STANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKII-KNGKLDMSAV  67
+              A         KT VT+  I  F  G   +D+K+  YMN     ++++  NG + +  +
+Sbjct  46   KMAKPFHDACVEKTGVTEAAIKEFSDGEIHEDEKLKCYMNCFFHEIEVVDDNGDVHLEKL  105
+
+Query  68   EQQMP-TLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMYFLP  119
+               +P ++  K  E +K  +      DT   +  A+ F +    ++P+ YFLP
+Sbjct  106  FATVPLSMRDKLMEMSKGCVH--PEGDTLCHK--AWWFHQCWKKADPKHYFLP  154
+
+
+> sp|O02372|OB76A_DROME General odorant-binding protein lush OS=Drosophila 
+melanogaster OX=7227 GN=lush PE=1 SV=1
+Length=153
+
+ Score = 60.9 bits (146),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 51/124 (41%), Gaps = 6/124 (5%)
+
+Query  2    LTEAQMASTANLMRKMDQPKTKVTDEQINNFHKGV--FDDDKKMMEYMNDI-LETMKIIK  58
+            +T  Q  ++ +++R    PK K+  E ++    G   F   + +M Y   + L    + K
+Sbjct  30   MTMEQFLTSLDMIRSGCAPKFKLKTEDLDRLRVGDFNFPPSQDLMCYTKCVSLMAGTVNK  89
+
+Query  59   NGKLDMSAVEQQMPTL-PKKYQESTKKSIEEFKSADTGDK--EEPAYNFAKFLYLSNPEM  115
+             G+ +      Q+P L P +  E ++KS+E  +      K   E  Y  AK    +    
+Sbjct  90   KGEFNAPKALAQLPHLVPPEMMEMSRKSVEACRDTHKQFKESCERVYQTAKCFSENADGQ  149
+
+Query  116  YFLP  119
+            +  P
+Sbjct  150  FMWP  153
+
+
+> sp|Q8SY61|OB56D_DROME General odorant-binding protein 56d OS=Drosophila 
+melanogaster OX=7227 GN=Obp56d PE=1 SV=2
+Length=131
+
+ Score = 52.1 bits (123),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/96 (22%), Positives = 41/96 (43%), Gaps = 3/96 (3%)
+
+Query  17   MDQPKTKVTDEQINNFHKGVFDD-DKKMMEYMNDILETMKIIKNGKLDMSAVEQQMPTLP  75
+            +   +  +T +Q      G FDD D K+  + N  LE +  + NG++    V  ++  L 
+Sbjct  34   LCAQQEGITKDQAIALRNGNFDDSDPKVKCFANCFLEKIGFLINGEVQPDVVLAKLGPLA  93
+
+Query  76   KKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLS  111
+               +++ K    +  +    DK + AY   +  Y +
+Sbjct  94   G--EDAVKAVQAKCDATKGADKCDTAYQLFECYYKN  127
+
+
+> sp|P54191|OB69A_DROME General odorant-binding protein 69a OS=Drosophila 
+melanogaster OX=7227 GN=Obp69a PE=1 SV=2
+Length=148
+
+ Score = 50.1 bits (118),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 13/111 (12%), Positives = 41/111 (37%), Gaps = 5/111 (5%)
+
+Query  9    STANLMRKMDQPKTKVTDEQIN-NFHKGVFDDDKKMMEYMNDILETMKIIKNGKL-DMSA  66
+                 +R     +T  + + I+ +    +   D ++  ++  + +   +I +  +  + A
+Sbjct  33   KQVRKLRMRCLNQTGASVDVIDKSVKNRILPTDPEIKCFLYCMFDMFGLIDSQNIMHLEA  92
+
+Query  67   VEQQMPTLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMYF  117
+            + +    LP++  ++    +    +    D  + AY   K     N +  +
+Sbjct  93   LLE---VLPEEIHKTINGLVSSCGTQKGKDGCDTAYETVKCYIAVNGKFIW  140
+
+
+> sp|Q9V8Y2|OB56A_DROME General odorant-binding protein 56a OS=Drosophila 
+melanogaster OX=7227 GN=Obp56a PE=2 SV=1
+Length=139
+
+ Score = 46.7 bits (109),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/104 (20%), Positives = 47/104 (45%), Gaps = 3/104 (3%)
+
+Query  11   ANLMRKMDQPKTKVTDEQINNFHKGVFDD-DKKMMEYMNDILETMKIIKNGKLDMSAVEQ  69
+            A   R+    + K+T+E+    +   F++  + +  + N   E +  +K+G+L  S V +
+Sbjct  32   AKQHREQCAEEVKLTEEEKAKVNAKDFNNPTENIKCFANCFFEKVGTLKDGELQESVVLE  91
+
+Query  70   QMPTLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNP  113
+            ++  L    +E TK ++E+ ++    +K + A           P
+Sbjct  92   KLGAL--IGEEKTKAALEKCRTIKGENKCDTASKLYDCFESFKP  133
+
+
+> sp|Q9VAJ4|OB99A_DROME General odorant-binding protein 99a OS=Drosophila 
+melanogaster OX=7227 GN=Obp99a PE=2 SV=2
+Length=142
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 17/102 (17%), Positives = 35/102 (34%), Gaps = 3/102 (3%)
+
+Query  14   MRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIK-NGKLDMSAVEQQMP  72
+             R     +  V  + +  + K  + +D K   Y+  +     +       ++  + QQ+ 
+Sbjct  29   YRDECVKELAVPVDLVEKYQKWEYPNDAKTQCYIKCVFTKWGLFDVQSGFNVENIHQQLV  88
+
+Query  73   TLPKKYQESTKKSIEEF--KSADTGDKEEPAYNFAKFLYLSN  112
+                 + E+   S+     K+    +  E AY  A  L   N
+Sbjct  89   GNHADHNEAFHASLAACVDKNEQGSNACEWAYRGATCLLKEN  130
+
+
+> sp|Q9VAI6|OB99B_DROME General odorant-binding protein 99b OS=Drosophila 
+melanogaster OX=7227 GN=Obp99b PE=2 SV=1
+Length=149
+
+ Score = 42.0 bits (97),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/104 (17%), Positives = 33/104 (32%), Gaps = 5/104 (5%)
+
+Query  14   MRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIK-NGKLDMSAVEQQM-  71
+             R     K   ++E +  + K  + DD     Y+  I +           D+  +  Q+ 
+Sbjct  36   YRTQCVEKVHASEELVEKYKKWQYPDDAVTHCYLECIFQKFGFYDTEHGFDVHKIHIQLA  95
+
+Query  72   -PTLPKKYQESTKKSIEEFKS--ADTGDKEEPAYNFAKFLYLSN  112
+             P +     +   + I       +  GD    AY+       SN
+Sbjct  96   GPGVEVHESDEVHQKIAHCAETHSKEGDSCSKAYHAGMCFMNSN  139
+
+
+> sp|Q27017|B1_TENMO B1 protein (Fragment) OS=Tenebrio molitor 
+OX=7067 PE=2 SV=1
+Length=130
+
+ Score = 40.5 bits (93),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 21/119 (18%), Positives = 57/119 (48%), Gaps = 10/119 (8%)
+
+Query  2    LTEAQMASTANLMRKM---DQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKII-  57
+            +TE  +     L+R+     + ++ V+++ I    KG  +DD K+   +  I + ++I+ 
+Sbjct  13   ITEEDLE----LLRQTSAECKTESGVSEDVIKRARKGDLEDDPKLKMQLLCIFKALEIVA  68
+
+Query  58   KNGKLDMSAVEQQMPTLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMY  116
+            ++G+++    ++++  +     E ++K +E+  +      E+ A+   K +    P  +
+Sbjct  69   ESGEIEADTFKEKLTRVTND-DEESEKIVEKC-TVTEDTPEDTAFEVTKCVLKDKPNFF  125
+
+
+> sp|Q9V8Y9|OB56H_DROME General odorant-binding protein 56h OS=Drosophila 
+melanogaster OX=7227 GN=Obp56h PE=2 SV=2
+Length=134
+
+ Score = 39.3 bits (90),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/103 (13%), Positives = 33/103 (32%), Gaps = 6/103 (6%)
+
+Query  12   NLMRKMDQPKTKVTDEQINNFHKGVFDDD--KKMMEYMNDILETMKIIKNGKLDMSA---  66
+              + +      +VT+  +  F          + +  Y   ++E    + NG+ +  A   
+Sbjct  24   RQIMQQCMETNQVTEADLKEFMASGMQSSAKENLKCYTKCLMEKQGHLTNGQFNAQAMLD  83
+
+Query  67   VEQQMPTLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLY  109
+              + +P +  K  +     +   K     +  + A+     L 
+Sbjct  84   TLKNVPQIKDKM-DEISSGVNACKDIKGTNDCDTAFKVTMCLK  125
+
+
+> sp|P54192|OB19D_DROME General odorant-binding protein 19d OS=Drosophila 
+melanogaster OX=7227 GN=Obp19d PE=2 SV=2
+Length=150
+
+ Score = 37.0 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 14/103 (14%), Positives = 43/103 (42%), Gaps = 5/103 (5%)
+
+Query  18   DQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIKN-GKLDMSAVEQQMPTLPK  76
+             + +T  TDE +         +  +       +++ ++I+   GKL+     + +  + K
+Sbjct  41   CKAETGATDEDVEQLMSHDLPERHEAKCLRACVMKKLQIMDESGKLNKEHAIELVKVMSK  100
+
+Query  77   K---YQESTKKSIEEFKSADT-GDKEEPAYNFAKFLYLSNPEM  115
+                 +++  + + + ++ +T  D  + A+ + + +Y    E 
+Sbjct  101  HDAEKEDAPAEVVAKCEAIETPEDHCDAAFAYEECIYEQMKEH  143
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.128    0.326    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5094342462
+Results from round 3
+
+
+Query= 6JPM:B
+
+Length=119
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A7UR17|OBP72_ANOGA General odorant-binding protein 72 (Fragm...  119     6e-35
+  sp|Q9VR94|OB19A_DROME General odorant-binding protein 19a OS=Dr...  118     3e-34
+  sp|P54193|OB83A_DROME General odorant-binding protein 83a OS=Dr...  114     3e-32
+  sp|Q23970|PBP6_DROME Pheromone-binding protein-related protein ...  109     1e-30
+  sp|O02372|OB76A_DROME General odorant-binding protein lush OS=D...  107     7e-30
+  sp|P54191|OB69A_DROME General odorant-binding protein 69a OS=Dr...  107     1e-29
+  sp|Q9VAJ4|OB99A_DROME General odorant-binding protein 99a OS=Dr...  102     8e-28
+  sp|Q9VAI6|OB99B_DROME General odorant-binding protein 99b OS=Dr...  96.0    3e-25
+  sp|Q8SY61|OB56D_DROME General odorant-binding protein 56d OS=Dr...  94.8    4e-25
+  sp|Q9V8Y2|OB56A_DROME General odorant-binding protein 56a OS=Dr...  89.0    1e-22
+  sp|Q27017|B1_TENMO B1 protein (Fragment) OS=Tenebrio molitor OX...  84.8    4e-21
+  sp|Q9V8Y9|OB56H_DROME General odorant-binding protein 56h OS=Dr...  83.3    2e-20
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q27018|B2_TENMO B2 protein (Fragment) OS=Tenebrio molitor OX...  80.6    2e-19
+  sp|P54192|OB19D_DROME General odorant-binding protein 19d OS=Dr...  44.4    2e-05
+  sp|P54195|OB28A_DROME General odorant-binding protein 28a OS=Dr...  44.4    2e-05
+  sp|P54194|OB84A_DROME General odorant-binding protein 84a OS=Dr...  40.5    7e-04
+  sp|P31419|OBP2_MANSE General odorant-binding protein 2 OS=Mandu...  38.2    0.005
+
+
+> sp|A7UR17|OBP72_ANOGA General odorant-binding protein 72 (Fragment) 
+OS=Anopheles gambiae OX=7165 GN=Obp72 PE=3 SV=1
+Length=121
+
+ Score = 119 bits (298),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 65/119 (55%), Gaps = 3/119 (3%)
+
+Query  2    LTEAQMASTANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIKNGK  61
+            +T+ Q+  TA   R++ QPK K++DE  +  ++GVF D K    Y++ +L+ M++ + GK
+Sbjct  2    ITQEQLEKTARTFRQVCQPKHKISDEVADAVNRGVFADTKDFKCYVSCLLDIMQVARKGK  61
+
+Query  62   LDMSAVEQQMPT-LPKKYQESTKKSIEEFKSADTG--DKEEPAYNFAKFLYLSNPEMYF  117
+            ++     +Q+ T LP   + + +  +E  KSA  G  D  E A    +  Y +NP+  F
+Sbjct  62   VNYEKSLKQIDTMLPDHMKPAFRAGLEACKSAAQGVKDHCEAAAILLQCFYKNNPKFVF  120
+
+
+> sp|Q9VR94|OB19A_DROME General odorant-binding protein 19a OS=Drosophila 
+melanogaster OX=7227 GN=Obp19a PE=2 SV=2
+Length=146
+
+ Score = 118 bits (296),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 41/124 (33%), Positives = 61/124 (49%), Gaps = 7/124 (6%)
+
+Query  2    LTEAQMASTANLMRKMDQPK-TKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIKNG  60
+            +TE QM S   LMR +  PK  KV+ E  +N   G   + K    Y+N ILE M+ IK G
+Sbjct  24   VTEEQMWSAGKLMRDVCLPKYPKVSVEVADNIRNGDIPNSKDTNCYINCILEMMQAIKKG  83
+
+Query  61   KLDMSAVEQQMPT-LPKKYQESTKKSIEEFKSADTGDK----EEPAYNFAKFLYLSNPEM  115
+            K  + +  +QM   LP  Y++  +K I   K +  G K     +PA+     L  +N ++
+Sbjct  84   KFQLESTLKQMDIMLPDSYKDEYRKGINLCKDSTVGLKNAPNCDPAHALLSCL-KNNIKV  142
+
+Query  116  YFLP  119
+            +  P
+Sbjct  143  FVFP  146
+
+
+> sp|P54193|OB83A_DROME General odorant-binding protein 83a OS=Drosophila 
+melanogaster OX=7227 GN=Obp83a PE=1 SV=1
+Length=154
+
+ Score = 114 bits (284),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 49/115 (43%), Gaps = 6/115 (5%)
+
+Query  7    MASTANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKII-KNGKLDMS  65
+            +   A         KT VT+  I  F  G   +D+K+  YMN     ++++  NG + + 
+Sbjct  44   ILKMAKPFHDACVEKTGVTEAAIKEFSDGEIHEDEKLKCYMNCFFHEIEVVDDNGDVHLE  103
+
+Query  66   AVEQQMP-TLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMYFLP  119
+             +   +P ++  K  E +K  +      +       A+ F +    ++P+ YFLP
+Sbjct  104  KLFATVPLSMRDKLMEMSKGCVHP----EGDTLCHKAWWFHQCWKKADPKHYFLP  154
+
+
+> sp|Q23970|PBP6_DROME Pheromone-binding protein-related protein 
+6 OS=Drosophila melanogaster OX=7227 GN=Obp83b PE=1 SV=2
+Length=141
+
+ Score = 109 bits (272),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 29/115 (25%), Positives = 47/115 (41%), Gaps = 7/115 (6%)
+
+Query  7    MASTANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKII-KNGKLDMS  65
+            +         +  PKT VTDE I  F  G   +D+ +  YMN +    +++  NG + M 
+Sbjct  30   ILKLGKHFHDICAPKTGVTDEAIKEFSDGQIHEDEALKCYMNCLFHEFEVVDDNGDVHME  89
+
+Query  66   AVEQQMPT--LPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMYFL  118
+             V   +P   L     E++K  I      +       A+ F +    ++P  YFL
+Sbjct  90   KVLNAIPGEKLRNIMMEASKGCIHP----EGDTLCHKAWWFHQCWKKADPVHYFL  140
+
+
+> sp|O02372|OB76A_DROME General odorant-binding protein lush OS=Drosophila 
+melanogaster OX=7227 GN=lush PE=1 SV=1
+Length=153
+
+ Score = 107 bits (268),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 51/124 (41%), Gaps = 6/124 (5%)
+
+Query  2    LTEAQMASTANLMRKMDQPKTKVTDEQINNFHKGV--FDDDKKMMEYMNDI-LETMKIIK  58
+            +T  Q  ++ +++R    PK K+  E ++    G   F   + +M Y   + L    + K
+Sbjct  30   MTMEQFLTSLDMIRSGCAPKFKLKTEDLDRLRVGDFNFPPSQDLMCYTKCVSLMAGTVNK  89
+
+Query  59   NGKLDMSAVEQQMPTL-PKKYQESTKKSIEEFKSADTGDK--EEPAYNFAKFLYLSNPEM  115
+             G+ +      Q+P L P +  E ++KS+E  +      K   E  Y  AK    +    
+Sbjct  90   KGEFNAPKALAQLPHLVPPEMMEMSRKSVEACRDTHKQFKESCERVYQTAKCFSENADGQ  149
+
+Query  116  YFLP  119
+            +  P
+Sbjct  150  FMWP  153
+
+
+> sp|P54191|OB69A_DROME General odorant-binding protein 69a OS=Drosophila 
+melanogaster OX=7227 GN=Obp69a PE=1 SV=2
+Length=148
+
+ Score = 107 bits (266),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 13/111 (12%), Positives = 40/111 (36%), Gaps = 5/111 (5%)
+
+Query  9    STANLMRKMDQPKTKVTDEQINN-FHKGVFDDDKKMMEYMNDILETMKIIKNGKL-DMSA  66
+                 +R     +T  + + I+      +   D ++  ++  + +   +I +  +  + A
+Sbjct  33   KQVRKLRMRCLNQTGASVDVIDKSVKNRILPTDPEIKCFLYCMFDMFGLIDSQNIMHLEA  92
+
+Query  67   VEQQMPTLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMYF  117
+            + +    LP++  ++    +    +    D  + AY   K     N +  +
+Sbjct  93   LLE---VLPEEIHKTINGLVSSCGTQKGKDGCDTAYETVKCYIAVNGKFIW  140
+
+
+> sp|Q9VAJ4|OB99A_DROME General odorant-binding protein 99a OS=Drosophila 
+melanogaster OX=7227 GN=Obp99a PE=2 SV=2
+Length=142
+
+ Score = 102 bits (253),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 17/102 (17%), Positives = 35/102 (34%), Gaps = 3/102 (3%)
+
+Query  14   MRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIK-NGKLDMSAVEQQMP  72
+             R     +  V  + +  + K  + +D K   Y+  +     +       ++  + QQ+ 
+Sbjct  29   YRDECVKELAVPVDLVEKYQKWEYPNDAKTQCYIKCVFTKWGLFDVQSGFNVENIHQQLV  88
+
+Query  73   TLPKKYQESTKKSIEEF--KSADTGDKEEPAYNFAKFLYLSN  112
+                 + E+   S+     K+    +  E AY  A  L   N
+Sbjct  89   GNHADHNEAFHASLAACVDKNEQGSNACEWAYRGATCLLKEN  130
+
+
+> sp|Q9VAI6|OB99B_DROME General odorant-binding protein 99b OS=Drosophila 
+melanogaster OX=7227 GN=Obp99b PE=2 SV=1
+Length=149
+
+ Score = 96.0 bits (237),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 18/104 (17%), Positives = 32/104 (31%), Gaps = 5/104 (5%)
+
+Query  14   MRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIK-NGKLDMSAVEQQM-  71
+             R     K   ++E +  + K  + DD     Y+  I +           D+  +  Q+ 
+Sbjct  36   YRTQCVEKVHASEELVEKYKKWQYPDDAVTHCYLECIFQKFGFYDTEHGFDVHKIHIQLA  95
+
+Query  72   -PTLPKKYQESTKKSIEEFKSA--DTGDKEEPAYNFAKFLYLSN  112
+             P +     +   + I          GD    AY+       SN
+Sbjct  96   GPGVEVHESDEVHQKIAHCAETHSKEGDSCSKAYHAGMCFMNSN  139
+
+
+> sp|Q8SY61|OB56D_DROME General odorant-binding protein 56d OS=Drosophila 
+melanogaster OX=7227 GN=Obp56d PE=1 SV=2
+Length=131
+
+ Score = 94.8 bits (234),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 21/96 (22%), Positives = 41/96 (43%), Gaps = 3/96 (3%)
+
+Query  17   MDQPKTKVTDEQINNFHKGVFDD-DKKMMEYMNDILETMKIIKNGKLDMSAVEQQMPTLP  75
+            +   +  +T +Q      G FDD D K+  + N  LE +  + NG++    V  ++  L 
+Sbjct  34   LCAQQEGITKDQAIALRNGNFDDSDPKVKCFANCFLEKIGFLINGEVQPDVVLAKLGPLA  93
+
+Query  76   KKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLS  111
+             +  ++ K    +  +    DK + AY   +  Y +
+Sbjct  94   GE--DAVKAVQAKCDATKGADKCDTAYQLFECYYKN  127
+
+
+> sp|Q9V8Y2|OB56A_DROME General odorant-binding protein 56a OS=Drosophila 
+melanogaster OX=7227 GN=Obp56a PE=2 SV=1
+Length=139
+
+ Score = 89.0 bits (219),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 21/105 (20%), Positives = 47/105 (45%), Gaps = 3/105 (3%)
+
+Query  10   TANLMRKMDQPKTKVTDEQINNFHKGVFDD-DKKMMEYMNDILETMKIIKNGKLDMSAVE  68
+             A   R+    + K+T+E+    +   F++  + +  + N   E +  +K+G+L  S V 
+Sbjct  31   LAKQHREQCAEEVKLTEEEKAKVNAKDFNNPTENIKCFANCFFEKVGTLKDGELQESVVL  90
+
+Query  69   QQMPTLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNP  113
+            +++  L    +E TK ++E+ ++    +K + A           P
+Sbjct  91   EKLGAL--IGEEKTKAALEKCRTIKGENKCDTASKLYDCFESFKP  133
+
+
+> sp|Q27017|B1_TENMO B1 protein (Fragment) OS=Tenebrio molitor 
+OX=7067 PE=2 SV=1
+Length=130
+
+ Score = 84.8 bits (208),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 19/116 (16%), Positives = 53/116 (46%), Gaps = 4/116 (3%)
+
+Query  2    LTEAQMASTANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKII-KNG  60
+            +TE  +           + ++ V+++ I    KG  +DD K+   +  I + ++I+ ++G
+Sbjct  13   ITEEDLE-LLRQTSAECKTESGVSEDVIKRARKGDLEDDPKLKMQLLCIFKALEIVAESG  71
+
+Query  61   KLDMSAVEQQMPTLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMY  116
+            +++    ++++  +     E ++K +E+  +      E+ A+   K +    P  +
+Sbjct  72   EIEADTFKEKLTRVTND-DEESEKIVEKC-TVTEDTPEDTAFEVTKCVLKDKPNFF  125
+
+
+> sp|Q9V8Y9|OB56H_DROME General odorant-binding protein 56h OS=Drosophila 
+melanogaster OX=7227 GN=Obp56h PE=2 SV=2
+Length=134
+
+ Score = 83.3 bits (204),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 15/115 (13%), Positives = 36/115 (31%), Gaps = 4/115 (3%)
+
+Query  2    LTEAQMASTANLMRKMDQPKTKVTDEQINNFHKGVFDDD--KKMMEYMNDILETMKIIKN  59
+            L+  Q       + +      +VT+  +  F          + +  Y   ++E    + N
+Sbjct  14   LSMGQCNPDFRQIMQQCMETNQVTEADLKEFMASGMQSSAKENLKCYTKCLMEKQGHLTN  73
+
+Query  60   GKLDMSAVEQQMPTLP--KKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSN  112
+            G+ +  A+   +  +P  K   +     +   K     +  + A+     L    
+Sbjct  74   GQFNAQAMLDTLKNVPQIKDKMDEISSGVNACKDIKGTNDCDTAFKVTMCLKEHK  128
+
+
+> sp|Q27018|B2_TENMO B2 protein (Fragment) OS=Tenebrio molitor 
+OX=7067 PE=2 SV=1
+Length=128
+
+ Score = 80.6 bits (197),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 19/116 (16%), Positives = 51/116 (44%), Gaps = 4/116 (3%)
+
+Query  2    LTEAQMASTANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKII-KNG  60
+            LTE  +           + ++  ++  I    KG  +DD K+   +  I + ++I+ ++G
+Sbjct  11   LTEEDL-QLLRQTSAECKTESGASEAVIKKARKGDLEDDPKLKMQLLCIFKALEIVAESG  69
+
+Query  61   KLDMSAVEQQMPTLPKKYQESTKKSIEEFKSADTGDKEEPAYNFAKFLYLSNPEMY  116
+            +++    ++++  +     E ++K +E+  +      E+ A+   K +    P  +
+Sbjct  70   EIEADTFKEKLTRVTND-DEESEKIVEKC-TVTEDTPEDTAFEVTKCVLKDKPNFF  123
+
+
+> sp|P54192|OB19D_DROME General odorant-binding protein 19d OS=Drosophila 
+melanogaster OX=7227 GN=Obp19d PE=2 SV=2
+Length=150
+
+ Score = 44.4 bits (103),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/110 (14%), Positives = 46/110 (42%), Gaps = 5/110 (5%)
+
+Query  11   ANLMRKMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIK-NGKLDMSAVEQ  69
+            A  +    + +T  TDE +         +  +       +++ ++I+  +GKL+     +
+Sbjct  34   AAELANECKAETGATDEDVEQLMSHDLPERHEAKCLRACVMKKLQIMDESGKLNKEHAIE  93
+
+Query  70   QMPTLPKK---YQESTKKSIEEFKSADT-GDKEEPAYNFAKFLYLSNPEM  115
+             +  + K     +++  + + + ++ +T  D  + A+ + + +Y    E 
+Sbjct  94   LVKVMSKHDAEKEDAPAEVVAKCEAIETPEDHCDAAFAYEECIYEQMKEH  143
+
+
+> sp|P54195|OB28A_DROME General odorant-binding protein 28a OS=Drosophila 
+melanogaster OX=7227 GN=Obp28a PE=1 SV=2
+Length=143
+
+ Score = 44.4 bits (103),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 16/105 (15%), Positives = 31/105 (30%), Gaps = 5/105 (5%)
+
+Query  16   KMDQPKTKVTDEQINNFHKGVFDDDKKMMEYMNDILETMKIIK-NGKLDMSAVEQQMPTL  74
+            +   P+   TD  +    K               +++ + I+  NGKLD  A  ++    
+Sbjct  36   ESCMPEVGATDADLQEMVKKQPASTYAGKCLRACVMKNIGILDANGKLDTEAGHEKAKQY  95
+
+Query  75   PKKYQESTKKSIE---EFKSADT-GDKEEPAYNFAKFLYLSNPEM  115
+                    K ++E      +     D  E A  +         + 
+Sbjct  96   TGNDPAKLKIALEIGDTCAAITVPDDHCEAAEAYGTCFRGEAKKH  140
+
+
+> sp|P54194|OB84A_DROME General odorant-binding protein 84a OS=Drosophila 
+melanogaster OX=7227 GN=Obp84a PE=2 SV=1
+Length=175
+
+ Score = 40.5 bits (93),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 29/82 (35%), Gaps = 12/82 (15%)
+
+Query  33   HKGVFDDDKK---MMEYMNDILETMKIIKNGKLDMSAVEQQMPTLPKKYQESTKKSIEEF  89
+            + G   DDK     M Y +   E   ++ + KL+   V + +             S+E  
+Sbjct  88   NTGDLPDDKDKVTSMCYFHCFFEKSGLMTDYKLNTDLVRKYVWPATGD-------SVEAC  140
+
+Query  90   KSA--DTGDKEEPAYNFAKFLY  109
+            ++   D  +     Y   K ++
+Sbjct  141  EAEGKDETNACMRGYAIVKCVF  162
+
+
+> sp|P31419|OBP2_MANSE General odorant-binding protein 2 OS=Manduca 
+sexta OX=7130 GN=GOBP2 PE=1 SV=1
+Length=161
+
+ Score = 38.2 bits (87),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 10/113 (9%), Positives = 35/113 (31%), Gaps = 9/113 (8%)
+
+Query  16   KMDQPKTKVTDEQINNFHKGVFDDDKKMM----EYMNDILETMKII-KNGKLDMSAVEQQ  70
+            +  + ++ +  E ++ F     +D + +       +  +    +++  + ++    +   
+Sbjct  37   EECREESGLPVEVMDEFKHFWREDFEVVHRELGCAIICMSNKFELLQDDTRIHHVKMHDY  96
+
+Query  71   MPTLPK--KYQESTKKSIEEFKSA--DTGDKEEPAYNFAKFLYLSNPEMYFLP  119
+            + + P      E   + I   +    D  D  +     A        +    P
+Sbjct  97   IKSFPNGQVLSEKMVQLIHNCEKQYDDIADDCDRVVKVAACFKKDAKKEGIAP  149
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5094342462
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

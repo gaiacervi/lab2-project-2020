@@ -1,0 +1,267 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5MY5:A
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q0P885|TUPA_CAMJE Tungstate-binding protein TupA OS=Campylob...  259     5e-86
+  sp|Q93KD6|TUPA_PEPAC Tungstate-binding protein TupA OS=Peptoclo...  221     1e-70
+  sp|D4GSY9|ANTRB_HALVD Putative ABC transporter anion-binding pr...  191     2e-58
+
+
+> sp|Q0P885|TUPA_CAMJE Tungstate-binding protein TupA OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=tupA PE=3 SV=1
+Length=269
+
+ Score = 259 bits (663),  Expect = 5e-86, Method: Compositional matrix adjust.
+ Identities = 130/247 (53%), Positives = 161/247 (65%), Gaps = 1/247 (0%)
+
+Query  4    LMMATTTSTDNTGLLDDLAPQFTKDTGIELRWTAVGTGKALKMGENADVDILLVHAPAAE  63
+            L MATTTSTDNTGLLD L P + K++G  L+W AVGTG ALKMGE+ + D+L VH+P AE
+Sbjct  20   LKMATTTSTDNTGLLDALKPLYEKESGNTLKWVAVGTGAALKMGEDCNADVLFVHSPKAE  79
+
+Query  64   KAFVDAGFGTARTQLMYNDFVIIGPAADPAGVKGMTVAAALGKIAADNAVFVSRGDNSGT  123
+            K F+  GFG  RT +MYNDF+II   +  +  KG  +  +L  I  +   F+SRGD SGT
+Sbjct  80   KEFMKKGFGVDRTPVMYNDFIIIADKSLASKFKGKNLKESLELIKNEKLTFISRGDKSGT  139
+
+Query  124  HKMEKSLWKQIEGPSPEKEAWYVQTGQGMLRTINVAAEKGGYTMTDRGTYIKYEASMDGN  183
+               EKSLWK + G  PEK++WY Q+GQGML +I +A EK G  +TDRGTYIKYEA+  G 
+Sbjct  140  DNKEKSLWKNL-GGVPEKQSWYQQSGQGMLASIKIAEEKKGVILTDRGTYIKYEANEKGK  198
+
+Query  184  PPLKILVEGDKILFNQYSAIPVNPAHAPKVKKDLADKFVNWMASPATQKTIGDFKLMGKA  243
+            P L I+ EGD  L N YS I  NP H   V    A KF+ W+ S  T   I DFKL+ K 
+Sbjct  199  PNLVIVNEGDDSLKNFYSVIATNPKHCKNVNYTEASKFIKWVTSDKTLNFIADFKLLNKP  258
+
+Query  244  LFTPNAE  250
+            LF  +A+
+Sbjct  259  LFVIDAK  265
+
+
+> sp|Q93KD6|TUPA_PEPAC Tungstate-binding protein TupA OS=Peptoclostridium 
+acidaminophilum OX=1731 GN=tupA PE=1 SV=1
+Length=286
+
+ Score = 221 bits (562),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 119/251 (47%), Positives = 162/251 (65%), Gaps = 11/251 (4%)
+
+Query  4    LMMATTTSTDNTGLLDDLAPQFTKDTGIELRWTAVGTGKALKMGENADVDILLVHAPAAE  63
+            +++ATTTST ++GLLD L P+FTKDTGIE +  AVGTG+AL+MG++ + D+LLVH+ AAE
+Sbjct  40   IILATTTSTSDSGLLDYLLPEFTKDTGIEAKVVAVGTGQALQMGKDGEADVLLVHSKAAE  99
+
+Query  64   KAFVDAGFGTARTQLMYNDFVIIGPAADPAGVKGMT---VAAALGKIAADNAVFVSRGDN  120
+            + FV AG G  R  +MYNDF+++GPA DP  +K      +  AL KI+     F+SRGD+
+Sbjct  100  EEFVAAGDGLERKDVMYNDFILVGPANDPLKLKQELPNDIVGALKKISEQKFKFISRGDD  159
+
+Query  121  SGTHKMEKSLWKQIEGPSPEKEAWYVQTGQGMLRTINVAAEKGGYTMTDRGTYIKYEASM  180
+            SGTHK E +LW ++ G +PE + +YV  G+GM   + +A E   YT+ DRGTY+    SM
+Sbjct  160  SGTHKKELALWTEV-GITPEGD-YYVSAGRGMGDVLKMADEMQAYTIADRGTYL----SM  213
+
+Query  181  DGNPPLKILVEGDKILFNQYSAIPVNPAHAPKVKKDLADKFVNWMASPATQKTIGDF--K  238
+              +  L I+VE D  LFNQY  IPVNP     +  + A  F  W+ S   Q  IG++  +
+Sbjct  214  KADLGLDIIVEKDTNLFNQYGVIPVNPDKNENINAEGAKAFEEWILSEKAQSLIGEYGKE  273
+
+Query  239  LMGKALFTPNA  249
+              G  LFTPNA
+Sbjct  274  KYGAPLFTPNA  284
+
+
+> sp|D4GSY9|ANTRB_HALVD Putative ABC transporter anion-binding 
+protein HVO_1888 OS=Haloferax volcanii (strain ATCC 29605 / 
+DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 / 
+DS2) OX=309800 GN=HVO_1888 PE=3 SV=1
+Length=342
+
+ Score = 191 bits (485),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 108/252 (43%), Positives = 149/252 (59%), Gaps = 12/252 (5%)
+
+Query  4    LMMATTTSTDNTGLLDDLAPQFTKDTGIELRWTAVGTGKALKMGENADVDILLVHAPAAE  63
+            L +ATTTST +TGLLD L P F +     ++  + GTG A++   N D D++LVHA  AE
+Sbjct  53   LTLATTTSTYDTGLLDALNPVFEEKFNARVKTISQGTGAAIETARNGDADVILVHARGAE  112
+
+Query  64   KAFVDAGFGTARTQLMYNDFVIIGPAADPAGVKGMTVAA-ALGKIAADNAVFVSRGDNSG  122
+              F+  G+G  R  +M+NDFV++GPA DPAG+ GM  AA A   +A   A FVSRGD+SG
+Sbjct  113  DEFLQDGYGVNRRDVMFNDFVVVGPADDPAGISGMESAADAFATVADAGATFVSRGDDSG  172
+
+Query  123  THKMEKSLWKQIEGPSPEKEAWYVQTGQGMLRTINVAAEKGGYTMTDRGTYIKYEASMDG  182
+            T+K E  +W +  G  P    WY + G+GM  T+  A + G YT++DRGT++  + ++D 
+Sbjct  173  TNKKELLIW-EAAGVEPSG-TWYREIGKGMGDTLVQADQSGAYTLSDRGTFLATQDNID-  229
+
+Query  183  NPPLKILVE-----GDKILFNQYSAIPVNPAHAPKVKKDLADKFVNWMASPATQKTIGDF  237
+               L+I V+     G  IL N Y  IPVNPA  P V   LA  +  ++ SP  Q+ I ++
+Sbjct  230  ---LEIQVQGPLKGGPTILKNPYGVIPVNPAKYPDVNYSLAMAYAGFLTSPEGQEIISNY  286
+
+Query  238  KLMGKALFTPNA  249
+               G  LF PNA
+Sbjct  287  TANGSQLFFPNA  298
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18636025860
+Results from round 2
+
+
+Query= 5MY5:A
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q0P885|TUPA_CAMJE Tungstate-binding protein TupA OS=Campylob...  375     2e-131
+  sp|D4GSY9|ANTRB_HALVD Putative ABC transporter anion-binding pr...  348     7e-120
+  sp|Q93KD6|TUPA_PEPAC Tungstate-binding protein TupA OS=Peptoclo...  346     8e-120
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q0P885|TUPA_CAMJE Tungstate-binding protein TupA OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=tupA PE=3 SV=1
+Length=269
+
+ Score = 375 bits (962),  Expect = 2e-131, Method: Composition-based stats.
+ Identities = 130/247 (53%), Positives = 161/247 (65%), Gaps = 1/247 (0%)
+
+Query  4    LMMATTTSTDNTGLLDDLAPQFTKDTGIELRWTAVGTGKALKMGENADVDILLVHAPAAE  63
+            L MATTTSTDNTGLLD L P + K++G  L+W AVGTG ALKMGE+ + D+L VH+P AE
+Sbjct  20   LKMATTTSTDNTGLLDALKPLYEKESGNTLKWVAVGTGAALKMGEDCNADVLFVHSPKAE  79
+
+Query  64   KAFVDAGFGTARTQLMYNDFVIIGPAADPAGVKGMTVAAALGKIAADNAVFVSRGDNSGT  123
+            K F+  GFG  RT +MYNDF+II   +  +  KG  +  +L  I  +   F+SRGD SGT
+Sbjct  80   KEFMKKGFGVDRTPVMYNDFIIIADKSLASKFKGKNLKESLELIKNEKLTFISRGDKSGT  139
+
+Query  124  HKMEKSLWKQIEGPSPEKEAWYVQTGQGMLRTINVAAEKGGYTMTDRGTYIKYEASMDGN  183
+               EKSLWK + G  PEK++WY Q+GQGML +I +A EK G  +TDRGTYIKYEA+  G 
+Sbjct  140  DNKEKSLWKNL-GGVPEKQSWYQQSGQGMLASIKIAEEKKGVILTDRGTYIKYEANEKGK  198
+
+Query  184  PPLKILVEGDKILFNQYSAIPVNPAHAPKVKKDLADKFVNWMASPATQKTIGDFKLMGKA  243
+            P L I+ EGD  L N YS I  NP H   V    A KF+ W+ S  T   I DFKL+ K 
+Sbjct  199  PNLVIVNEGDDSLKNFYSVIATNPKHCKNVNYTEASKFIKWVTSDKTLNFIADFKLLNKP  258
+
+Query  244  LFTPNAE  250
+            LF  +A+
+Sbjct  259  LFVIDAK  265
+
+
+> sp|D4GSY9|ANTRB_HALVD Putative ABC transporter anion-binding 
+protein HVO_1888 OS=Haloferax volcanii (strain ATCC 29605 / 
+DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 / 
+DS2) OX=309800 GN=HVO_1888 PE=3 SV=1
+Length=342
+
+ Score = 348 bits (893),  Expect = 7e-120, Method: Composition-based stats.
+ Identities = 108/252 (43%), Positives = 149/252 (59%), Gaps = 12/252 (5%)
+
+Query  4    LMMATTTSTDNTGLLDDLAPQFTKDTGIELRWTAVGTGKALKMGENADVDILLVHAPAAE  63
+            L +ATTTST +TGLLD L P F +     ++  + GTG A++   N D D++LVHA  AE
+Sbjct  53   LTLATTTSTYDTGLLDALNPVFEEKFNARVKTISQGTGAAIETARNGDADVILVHARGAE  112
+
+Query  64   KAFVDAGFGTARTQLMYNDFVIIGPAADPAGVKGMTVAA-ALGKIAADNAVFVSRGDNSG  122
+              F+  G+G  R  +M+NDFV++GPA DPAG+ GM  AA A   +A   A FVSRGD+SG
+Sbjct  113  DEFLQDGYGVNRRDVMFNDFVVVGPADDPAGISGMESAADAFATVADAGATFVSRGDDSG  172
+
+Query  123  THKMEKSLWKQIEGPSPEKEAWYVQTGQGMLRTINVAAEKGGYTMTDRGTYIKYEASMDG  182
+            T+K E  +W +  G  P    WY + G+GM  T+  A + G YT++DRGT++  + ++D 
+Sbjct  173  TNKKELLIW-EAAGVEPSG-TWYREIGKGMGDTLVQADQSGAYTLSDRGTFLATQDNID-  229
+
+Query  183  NPPLKILVE-----GDKILFNQYSAIPVNPAHAPKVKKDLADKFVNWMASPATQKTIGDF  237
+               L+I V+     G  IL N Y  IPVNPA  P V   LA  +  ++ SP  Q+ I ++
+Sbjct  230  ---LEIQVQGPLKGGPTILKNPYGVIPVNPAKYPDVNYSLAMAYAGFLTSPEGQEIISNY  286
+
+Query  238  KLMGKALFTPNA  249
+               G  LF PNA
+Sbjct  287  TANGSQLFFPNA  298
+
+
+> sp|Q93KD6|TUPA_PEPAC Tungstate-binding protein TupA OS=Peptoclostridium 
+acidaminophilum OX=1731 GN=tupA PE=1 SV=1
+Length=286
+
+ Score = 346 bits (887),  Expect = 8e-120, Method: Composition-based stats.
+ Identities = 119/251 (47%), Positives = 162/251 (65%), Gaps = 11/251 (4%)
+
+Query  4    LMMATTTSTDNTGLLDDLAPQFTKDTGIELRWTAVGTGKALKMGENADVDILLVHAPAAE  63
+            +++ATTTST ++GLLD L P+FTKDTGIE +  AVGTG+AL+MG++ + D+LLVH+ AAE
+Sbjct  40   IILATTTSTSDSGLLDYLLPEFTKDTGIEAKVVAVGTGQALQMGKDGEADVLLVHSKAAE  99
+
+Query  64   KAFVDAGFGTARTQLMYNDFVIIGPAADPAGVKGMT---VAAALGKIAADNAVFVSRGDN  120
+            + FV AG G  R  +MYNDF+++GPA DP  +K      +  AL KI+     F+SRGD+
+Sbjct  100  EEFVAAGDGLERKDVMYNDFILVGPANDPLKLKQELPNDIVGALKKISEQKFKFISRGDD  159
+
+Query  121  SGTHKMEKSLWKQIEGPSPEKEAWYVQTGQGMLRTINVAAEKGGYTMTDRGTYIKYEASM  180
+            SGTHK E +LW ++ G +PE + +YV  G+GM   + +A E   YT+ DRGTY+    SM
+Sbjct  160  SGTHKKELALWTEV-GITPEGD-YYVSAGRGMGDVLKMADEMQAYTIADRGTYL----SM  213
+
+Query  181  DGNPPLKILVEGDKILFNQYSAIPVNPAHAPKVKKDLADKFVNWMASPATQKTIGDF--K  238
+              +  L I+VE D  LFNQY  IPVNP     +  + A  F  W+ S   Q  IG++  +
+Sbjct  214  KADLGLDIIVEKDTNLFNQYGVIPVNPDKNENINAEGAKAFEEWILSEKAQSLIGEYGKE  273
+
+Query  239  LMGKALFTPNA  249
+              G  LFTPNA
+Sbjct  274  KYGAPLFTPNA  284
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.333    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0390    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18636025860
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

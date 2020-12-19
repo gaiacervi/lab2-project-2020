@@ -1,0 +1,432 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6S7X:A
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q7K1U0|ARC1_DROME Activity-regulated cytoskeleton associated...  345     1e-121
+  sp|Q7JV70|ARC2_DROME Activity-regulated cytoskeleton associated...  218     3e-72 
+  sp|Q8AWC3|ARC_CHICK Activity-regulated cytoskeleton-associated ...  40.8    0.002 
+
+
+> sp|Q7K1U0|ARC1_DROME Activity-regulated cytoskeleton associated 
+protein 1 OS=Drosophila melanogaster OX=7227 GN=Arc1 PE=1 
+SV=1
+Length=254
+
+ Score = 345 bits (886),  Expect = 1e-121, Method: Compositional matrix adjust.
+ Identities = 163/165 (99%), Positives = 163/165 (99%), Gaps = 0/165 (0%)
+
+Query  1    GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQG  60
+            GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYG ASTWWQG
+Sbjct  41   GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGMASTWWQG  100
+
+Query  61   VRKEATTWKEAIALIREHFSPTKPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSG  120
+            VRKEATTWKEAIALIREHFSPTKPAYQIY EFFQNKQDDHDPIDTFVIQKRALLAQLPSG
+Sbjct  101  VRKEATTWKEAIALIREHFSPTKPAYQIYMEFFQNKQDDHDPIDTFVIQKRALLAQLPSG  160
+
+Query  121  RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  165
+            RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN
+Sbjct  161  RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  205
+
+
+> sp|Q7JV70|ARC2_DROME Activity-regulated cytoskeleton associated 
+protein 2 OS=Drosophila melanogaster OX=7227 GN=Arc2 PE=1 
+SV=1
+Length=193
+
+ Score = 218 bits (556),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 96/165 (58%), Positives = 127/165 (77%), Gaps = 0/165 (0%)
+
+Query  1    GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQG  60
+             KG+FS CT  F G RDHD V+EFI  +ETYK+VEGISD++ALKG+ LLF   A  WW+G
+Sbjct  28   SKGSFSNCTVRFSGQRDHDAVDEFINAVETYKEVEGISDKDALKGLPLLFKSIAVVWWKG  87
+
+Query  61   VRKEATTWKEAIALIREHFSPTKPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSG  120
+            VR++A TW +A+ L+R+HFSPTKP+YQIY E F+ KQ   + ID+F+ ++RALLA+LP G
+Sbjct  88   VRRDAKTWSDALQLLRDHFSPTKPSYQIYMEIFETKQSYDEVIDSFICKQRALLAKLPEG  147
+
+Query  121  RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  165
+            RHDEETELD ++GL+  KYR+ I RH V TF++LL++GR +E   
+Sbjct  148  RHDEETELDFIYGLMQPKYRESIPRHEVKTFRELLDRGRTVERTR  192
+
+
+> sp|Q8AWC3|ARC_CHICK Activity-regulated cytoskeleton-associated 
+protein OS=Gallus gallus OX=9031 GN=ARC PE=2 SV=1
+Length=404
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 36/142 (25%), Positives = 62/142 (44%), Gaps = 2/142 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G ++E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  215  EFLSHLEEYLKQVGGTEEYWLSQIQNHMNGPAKKWWEYKQDSVKNWVEFKKEFLQYSEGT  274
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E     Q + +P+D F+ +KR L   L     DEE  +  + G L  K ++ 
+Sbjct  275  LTRDAIKRE-LDLPQKEGEPLDQFLWRKRDLYQTL-YVDADEEEIIQYVVGTLQPKLKRF  332
+
+Query  143  ISRHSVHTFKDLLEQGRIIEHN  164
+            +S     T + L+++G+ ++ N
+Sbjct  333  LSYPLPKTLEQLIQRGKEVQGN  354
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7919695168
+Results from round 2
+
+
+Query= 6S7X:A
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q7K1U0|ARC1_DROME Activity-regulated cytoskeleton associated...  300     1e-103
+  sp|Q7JV70|ARC2_DROME Activity-regulated cytoskeleton associated...  295     1e-102
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8AWC3|ARC_CHICK Activity-regulated cytoskeleton-associated ...  50.4    1e-06
+  sp|Q63053|ARC_RAT Activity-regulated cytoskeleton-associated pr...  49.2    3e-06
+  sp|Q9WV31|ARC_MOUSE Activity-regulated cytoskeleton-associated ...  48.8    5e-06
+  sp|Q7LC44|ARC_HUMAN Activity-regulated cytoskeleton-associated ...  47.7    1e-05
+
+
+> sp|Q7K1U0|ARC1_DROME Activity-regulated cytoskeleton associated 
+protein 1 OS=Drosophila melanogaster OX=7227 GN=Arc1 PE=1 
+SV=1
+Length=254
+
+ Score = 300 bits (768),  Expect = 1e-103, Method: Composition-based stats.
+ Identities = 163/165 (99%), Positives = 163/165 (99%), Gaps = 0/165 (0%)
+
+Query  1    GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQG  60
+            GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYG ASTWWQG
+Sbjct  41   GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGMASTWWQG  100
+
+Query  61   VRKEATTWKEAIALIREHFSPTKPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSG  120
+            VRKEATTWKEAIALIREHFSPTKPAYQIY EFFQNKQDDHDPIDTFVIQKRALLAQLPSG
+Sbjct  101  VRKEATTWKEAIALIREHFSPTKPAYQIYMEFFQNKQDDHDPIDTFVIQKRALLAQLPSG  160
+
+Query  121  RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  165
+            RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN
+Sbjct  161  RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  205
+
+
+> sp|Q7JV70|ARC2_DROME Activity-regulated cytoskeleton associated 
+protein 2 OS=Drosophila melanogaster OX=7227 GN=Arc2 PE=1 
+SV=1
+Length=193
+
+ Score = 295 bits (756),  Expect = 1e-102, Method: Composition-based stats.
+ Identities = 96/165 (58%), Positives = 127/165 (77%), Gaps = 0/165 (0%)
+
+Query  1    GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQG  60
+             KG+FS CT  F G RDHD V+EFI  +ETYK+VEGISD++ALKG+ LLF   A  WW+G
+Sbjct  28   SKGSFSNCTVRFSGQRDHDAVDEFINAVETYKEVEGISDKDALKGLPLLFKSIAVVWWKG  87
+
+Query  61   VRKEATTWKEAIALIREHFSPTKPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSG  120
+            VR++A TW +A+ L+R+HFSPTKP+YQIY E F+ KQ   + ID+F+ ++RALLA+LP G
+Sbjct  88   VRRDAKTWSDALQLLRDHFSPTKPSYQIYMEIFETKQSYDEVIDSFICKQRALLAKLPEG  147
+
+Query  121  RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  165
+            RHDEETELD ++GL+  KYR+ I RH V TF++LL++GR +E   
+Sbjct  148  RHDEETELDFIYGLMQPKYRESIPRHEVKTFRELLDRGRTVERTR  192
+
+
+> sp|Q8AWC3|ARC_CHICK Activity-regulated cytoskeleton-associated 
+protein OS=Gallus gallus OX=9031 GN=ARC PE=2 SV=1
+Length=404
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 36/142 (25%), Positives = 62/142 (44%), Gaps = 2/142 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G ++E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  215  EFLSHLEEYLKQVGGTEEYWLSQIQNHMNGPAKKWWEYKQDSVKNWVEFKKEFLQYSEGT  274
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E     Q + +P+D F+ +KR L   L     DEE  +  + G L  K ++ 
+Sbjct  275  LTRDAIKREL-DLPQKEGEPLDQFLWRKRDLYQTLYVDA-DEEEIIQYVVGTLQPKLKRF  332
+
+Query  143  ISRHSVHTFKDLLEQGRIIEHN  164
+            +S     T + L+++G+ ++ N
+Sbjct  333  LSYPLPKTLEQLIQRGKEVQGN  354
+
+
+> sp|Q63053|ARC_RAT Activity-regulated cytoskeleton-associated 
+protein OS=Rattus norvegicus OX=10116 GN=Arc PE=1 SV=1
+Length=396
+
+ Score = 49.2 bits (116),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 34/140 (24%), Positives = 59/140 (42%), Gaps = 2/140 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G S+E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  219  EFLSHLEEYLRQVGGSEEYWLSQIQNHMNGPAKKWWEFKQGSVKNWVEFKKEFLQYSEGT  278
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E     Q   +P+D F+ +KR L   L     +EE  +  + G L  K+++ 
+Sbjct  279  LSREAIQREL-DLPQKQGEPLDQFLWRKRDLYQTLYVDAEEEEI-IQYVVGTLQPKFKRF  336
+
+Query  143  ISRHSVHTFKDLLEQGRIIE  162
+            +      T + L+++G  ++
+Sbjct  337  LRHPLPKTLEQLIQRGMEVQ  356
+
+
+> sp|Q9WV31|ARC_MOUSE Activity-regulated cytoskeleton-associated 
+protein OS=Mus musculus OX=10090 GN=Arc PE=1 SV=1
+Length=396
+
+ Score = 48.8 bits (115),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 34/140 (24%), Positives = 59/140 (42%), Gaps = 2/140 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G S+E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  219  EFLSHLEEYLRQVGGSEEYWLSQIQNHMNGPAKKWWEFKQGSVKNWVEFKKEFLQYSEGT  278
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E  +  Q   +P+D F+ +KR L   L     +EE  +  + G L  K ++ 
+Sbjct  279  LSREAIQREL-ELPQKQGEPLDQFLWRKRDLYQTLYVDAEEEEI-IQYVVGTLQPKLKRF  336
+
+Query  143  ISRHSVHTFKDLLEQGRIIE  162
+            +      T + L+++G  ++
+Sbjct  337  LRHPLPKTLEQLIQRGMEVQ  356
+
+
+> sp|Q7LC44|ARC_HUMAN Activity-regulated cytoskeleton-associated 
+protein OS=Homo sapiens OX=9606 GN=ARC PE=1 SV=1
+Length=396
+
+ Score = 47.7 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 35/140 (25%), Positives = 58/140 (41%), Gaps = 2/140 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G S+E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  219  EFLSHLEEYLRQVGGSEEYWLSQIQNHMNGPAKKWWEFKQGSVKNWVEFKKEFLQYSEGT  278
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E     Q   +P+D F+ +KR L   L     DEE  +  + G L  K ++ 
+Sbjct  279  LSREAIQREL-DLPQKQGEPLDQFLWRKRDLYQTLYVDA-DEEEIIQYVVGTLQPKLKRF  336
+
+Query  143  ISRHSVHTFKDLLEQGRIIE  162
+            +      T + L+++G  ++
+Sbjct  337  LRHPLPKTLEQLIQRGMEVQ  356
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.140    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0429    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7919695168
+Results from round 3
+
+
+Query= 6S7X:A
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q7JV70|ARC2_DROME Activity-regulated cytoskeleton associated...  257     1e-87
+  sp|Q7K1U0|ARC1_DROME Activity-regulated cytoskeleton associated...  253     3e-85
+  sp|Q8AWC3|ARC_CHICK Activity-regulated cytoskeleton-associated ...  210     3e-66
+  sp|Q63053|ARC_RAT Activity-regulated cytoskeleton-associated pr...  207     4e-65
+  sp|Q7LC44|ARC_HUMAN Activity-regulated cytoskeleton-associated ...  206     9e-65
+  sp|Q9WV31|ARC_MOUSE Activity-regulated cytoskeleton-associated ...  204     3e-64
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q7JV70|ARC2_DROME Activity-regulated cytoskeleton associated 
+protein 2 OS=Drosophila melanogaster OX=7227 GN=Arc2 PE=1 
+SV=1
+Length=193
+
+ Score = 257 bits (657),  Expect = 1e-87, Method: Composition-based stats.
+ Identities = 96/165 (58%), Positives = 127/165 (77%), Gaps = 0/165 (0%)
+
+Query  1    GKGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQG  60
+             KG+FS CT  F G RDHD V+EFI  +ETYK+VEGISD++ALKG+ LLF   A  WW+G
+Sbjct  28   SKGSFSNCTVRFSGQRDHDAVDEFINAVETYKEVEGISDKDALKGLPLLFKSIAVVWWKG  87
+
+Query  61   VRKEATTWKEAIALIREHFSPTKPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSG  120
+            VR++A TW +A+ L+R+HFSPTKP+YQIY E F+ KQ   + ID+F+ ++RALLA+LP G
+Sbjct  88   VRRDAKTWSDALQLLRDHFSPTKPSYQIYMEIFETKQSYDEVIDSFICKQRALLAKLPEG  147
+
+Query  121  RHDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  165
+            RHDEETELD ++GL+  KYR+ I RH V TF++LL++GR +E   
+Sbjct  148  RHDEETELDFIYGLMQPKYRESIPRHEVKTFRELLDRGRTVERTR  192
+
+
+> sp|Q7K1U0|ARC1_DROME Activity-regulated cytoskeleton associated 
+protein 1 OS=Drosophila melanogaster OX=7227 GN=Arc1 PE=1 
+SV=1
+Length=254
+
+ Score = 253 bits (647),  Expect = 3e-85, Method: Composition-based stats.
+ Identities = 162/164 (99%), Positives = 162/164 (99%), Gaps = 0/164 (0%)
+
+Query  2    KGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGV  61
+            KGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYG ASTWWQGV
+Sbjct  42   KGNFSACTHSFGGTRDHDVVEEFIGNIETYKDVEGISDENALKGISLLFYGMASTWWQGV  101
+
+Query  62   RKEATTWKEAIALIREHFSPTKPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGR  121
+            RKEATTWKEAIALIREHFSPTKPAYQIY EFFQNKQDDHDPIDTFVIQKRALLAQLPSGR
+Sbjct  102  RKEATTWKEAIALIREHFSPTKPAYQIYMEFFQNKQDDHDPIDTFVIQKRALLAQLPSGR  161
+
+Query  122  HDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  165
+            HDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN
+Sbjct  162  HDEETELDLLFGLLNIKYRKHISRHSVHTFKDLLEQGRIIEHNN  205
+
+
+> sp|Q8AWC3|ARC_CHICK Activity-regulated cytoskeleton-associated 
+protein OS=Gallus gallus OX=9031 GN=ARC PE=2 SV=1
+Length=404
+
+ Score = 210 bits (534),  Expect = 3e-66, Method: Composition-based stats.
+ Identities = 36/142 (25%), Positives = 62/142 (44%), Gaps = 2/142 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G ++E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  215  EFLSHLEEYLKQVGGTEEYWLSQIQNHMNGPAKKWWEYKQDSVKNWVEFKKEFLQYSEGT  274
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E     Q + +P+D F+ +KR L   L     DEE  +  + G L  K ++ 
+Sbjct  275  LTRDAIKREL-DLPQKEGEPLDQFLWRKRDLYQTLYVDA-DEEEIIQYVVGTLQPKLKRF  332
+
+Query  143  ISRHSVHTFKDLLEQGRIIEHN  164
+            +S     T + L+++G+ ++ N
+Sbjct  333  LSYPLPKTLEQLIQRGKEVQGN  354
+
+
+> sp|Q63053|ARC_RAT Activity-regulated cytoskeleton-associated 
+protein OS=Rattus norvegicus OX=10116 GN=Arc PE=1 SV=1
+Length=396
+
+ Score = 207 bits (526),  Expect = 4e-65, Method: Composition-based stats.
+ Identities = 34/140 (24%), Positives = 59/140 (42%), Gaps = 2/140 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G S+E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  219  EFLSHLEEYLRQVGGSEEYWLSQIQNHMNGPAKKWWEFKQGSVKNWVEFKKEFLQYSEGT  278
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E     Q   +P+D F+ +KR L   L     +EE  +  + G L  K+++ 
+Sbjct  279  LSREAIQREL-DLPQKQGEPLDQFLWRKRDLYQTLYVDAEEEEI-IQYVVGTLQPKFKRF  336
+
+Query  143  ISRHSVHTFKDLLEQGRIIE  162
+            +      T + L+++G  ++
+Sbjct  337  LRHPLPKTLEQLIQRGMEVQ  356
+
+
+> sp|Q7LC44|ARC_HUMAN Activity-regulated cytoskeleton-associated 
+protein OS=Homo sapiens OX=9606 GN=ARC PE=1 SV=1
+Length=396
+
+ Score = 206 bits (523),  Expect = 9e-65, Method: Composition-based stats.
+ Identities = 35/140 (25%), Positives = 58/140 (41%), Gaps = 2/140 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G S+E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  219  EFLSHLEEYLRQVGGSEEYWLSQIQNHMNGPAKKWWEFKQGSVKNWVEFKKEFLQYSEGT  278
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E     Q   +P+D F+ +KR L   L     DEE  +  + G L  K ++ 
+Sbjct  279  LSREAIQREL-DLPQKQGEPLDQFLWRKRDLYQTLYVDA-DEEEIIQYVVGTLQPKLKRF  336
+
+Query  143  ISRHSVHTFKDLLEQGRIIE  162
+            +      T + L+++G  ++
+Sbjct  337  LRHPLPKTLEQLIQRGMEVQ  356
+
+
+> sp|Q9WV31|ARC_MOUSE Activity-regulated cytoskeleton-associated 
+protein OS=Mus musculus OX=10090 GN=Arc PE=1 SV=1
+Length=396
+
+ Score = 204 bits (520),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 34/140 (24%), Positives = 59/140 (42%), Gaps = 2/140 (1%)
+
+Query  23   EFIGNIETYKDVEGISDENALKGISLLFYGXASTWWQGVRKEATTWKEAIALIREHFSPT  82
+            EF+ ++E Y    G S+E  L  I     G A  WW+  +     W E      ++   T
+Sbjct  219  EFLSHLEEYLRQVGGSEEYWLSQIQNHMNGPAKKWWEFKQGSVKNWVEFKKEFLQYSEGT  278
+
+Query  83   KPAYQIYXEFFQNKQDDHDPIDTFVIQKRALLAQLPSGRHDEETELDLLFGLLNIKYRKH  142
+                 I  E  +  Q   +P+D F+ +KR L   L     +EE  +  + G L  K ++ 
+Sbjct  279  LSREAIQREL-ELPQKQGEPLDQFLWRKRDLYQTLYVDAEEEEI-IQYVVGTLQPKLKRF  336
+
+Query  143  ISRHSVHTFKDLLEQGRIIE  162
+            +      T + L+++G  ++
+Sbjct  337  LRHPLPKTLEQLIQRGMEVQ  356
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.342    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7919695168
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,3401 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5HEE:B
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8R8N9|Y1956_CALS4 Protein TTE1956 OS=Caldanaerobacter subte...  73.9    9e-14
+  sp|Q97J66|Y1420_CLOAB Protein CA_C1420 OS=Clostridium acetobuty...  60.8    2e-09
+
+
+> sp|Q8R8N9|Y1956_CALS4 Protein TTE1956 OS=Caldanaerobacter subterraneus 
+subsp. tengcongensis (strain DSM 15242 / JCM 11007 
+/ NBRC 100824 / MB4) OX=273068 GN=TTE1956 PE=3 SV=1
+Length=458
+
+ Score = 73.9 bits (180),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 60/244 (25%), Positives = 112/244 (46%), Gaps = 16/244 (7%)
+
+Query  4    GIGLMPHGNPAL------SPEDKETEKLAGVLKDIGKAFSDA--DSYVLISPHNVRISDH  55
+            G  LMPH  P +        E+++ +K    L++I +       D+ ++I+PH     D 
+Sbjct  2    GCYLMPH--PPIIVHEVGRGEERKIQKTIDSLENISQEIKQKRPDTVIVITPHGYVFKDA  59
+
+Query  56   LGVIMAQHLISWLG-FEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSR  114
+            + +     L   L  F   E+  ++E D  LA E+    K   IP  ++           
+Sbjct  60   VSITTLPSLEGDLSQFGAREVKFKFENDLDLAREIMEETKKRNIPIAEVSEELIKKYVLP  119
+
+Query  115  WPLTWGELIPLQFLEKK----PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVS  170
+              L  G ++PL F+ K      L+ ++    L  E L + G  + + +  S++++  I S
+Sbjct  120  KKLDHGTIVPLYFVTKHYPDFKLIHMSYGF-LPFEKLYEFGVAIKDAINKSDRRVVFIAS  178
+
+Query  171  ADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIM  230
+             D  H    N P GY  + E +D+ +++L++E ++EE+  +  +LIE+A    +  + +M
+Sbjct  179  GDLSHKLTPNSPNGYTPKGEVFDKTLLQLLSEMKVEEVIRMDKDLIEEAAECGFRSVCVM  238
+
+Query  231  LGAM  234
+            LG +
+Sbjct  239  LGVL  242
+
+
+> sp|Q97J66|Y1420_CLOAB Protein CA_C1420 OS=Clostridium acetobutylicum 
+(strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM 
+B-1787) OX=272562 GN=CA_C1420 PE=3 SV=1
+Length=468
+
+ Score = 60.8 bits (146),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 58/248 (23%), Positives = 108/248 (44%), Gaps = 20/248 (8%)
+
+Query  2    LFGIGLMPHGNPALSPE---------DKETEKLAGVLKDI-GKAFSDADSYVLISPHNVR  51
+            L G  L+PH  P + PE         +  T+    + KDI GKA    ++ ++++PH   
+Sbjct  3    LNGFYLLPHP-PIVVPEVGRGEEKKIENTTKSFEAIAKDIAGKA---PNTIIIVTPHGTM  58
+
+Query  52   ISDHLGVIMAQHLI-SWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSG  110
+              D++ +     +  S+  F    +  E + ++ L  ++Y    G  IP+V         
+Sbjct  59   FQDYIALAYEDEISGSFKDFRAPNVSMELKINKELTSKIYELAYGERIPSVMATNDILKK  118
+
+Query  111  RYSRWPLTWGELIPLQFLEKK----PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIA  166
+              +   L  G ++PL F+ K      +V +T A  LS   L + G  + + +E   +   
+Sbjct  119  YNTSVFLDHGCMVPLYFINKYYKEYKIVHITYAA-LSDIELYRFGMNVTKAVEELNENAV  177
+
+Query  167  LIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQ  226
+             I S D  H   E+GPYGY    E++D+ ++  + +  +E +  I  + +  A       
+Sbjct  178  FIASGDLSHRLREDGPYGYNPAGEKFDKELLNNLKDGNVEGVFSIDKDTVYNAGECGRRS  237
+
+Query  227  MLIMLGAM  234
+            + ++LG +
+Sbjct  238  VAVLLGTL  245
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20072306884
+Results from round 2
+
+
+Query= 5HEE:B
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8R8N9|Y1956_CALS4 Protein TTE1956 OS=Caldanaerobacter subte...  302     4e-100
+  sp|Q97J66|Y1420_CLOAB Protein CA_C1420 OS=Clostridium acetobuty...  302     9e-100
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q05353|HPCB_ECOLX 3,4-dihydroxyphenylacetate 2,3-dioxygenase...  52.0    1e-06
+  sp|O33477|AMNB_PSESP 2-aminophenol 1,6-dioxygenase beta subunit...  50.1    6e-06
+  sp|O33478|AMNA_PSESP 2-aminophenol 1,6-dioxygenase alpha subuni...  49.3    1e-05
+  sp|I3PFJ9|DOD1W_BETVU 4,5-DOPA dioxygenase extradiol 1 OS=Beta ...  47.7    3e-05
+  sp|I3PFJ3|DOD1U_BETVU 4,5-DOPA dioxygenase extradiol 1 OS=Beta ...  46.6    7e-05
+  sp|Q57846|Y403_METJA MEMO1 family protein MJ0403 OS=Methanocald...  45.8    1e-04
+  sp|A6UQ31|Y697_METVS MEMO1 family protein Mevan_0697 OS=Methano...  43.9    7e-04
+  sp|Q46CL1|Y1422_METBF MEMO1 family protein Mbar_A1422 OS=Methan...  43.5    8e-04
+  sp|Q12TI1|Y2394_METBU MEMO1 family protein Mbur_2394 OS=Methano...  43.5    0.001
+  sp|P61652|Y1387_METMP MEMO1 family protein MMP1387 OS=Methanoco...  43.1    0.001
+  sp|A9A9S6|Y1286_METM6 MEMO1 family protein MmarC6_1286 OS=Metha...  40.4    0.010
+
+
+> sp|Q8R8N9|Y1956_CALS4 Protein TTE1956 OS=Caldanaerobacter subterraneus 
+subsp. tengcongensis (strain DSM 15242 / JCM 11007 
+/ NBRC 100824 / MB4) OX=273068 GN=TTE1956 PE=3 SV=1
+Length=458
+
+ Score = 302 bits (774),  Expect = 4e-100, Method: Composition-based stats.
+ Identities = 59/242 (24%), Positives = 111/242 (46%), Gaps = 12/242 (5%)
+
+Query  4    GIGLMPHGNPAL----SPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVRISDHLG  57
+            G  LMPH    +      E+++ +K    L++I +       D+ ++I+PH     D + 
+Sbjct  2    GCYLMPHPPIIVHEVGRGEERKIQKTIDSLENISQEIKQKRPDTVIVITPHGYVFKDAVS  61
+
+Query  58   VIMAQHLISWLG-FEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWP  116
+            +     L   L  F   E+  ++E D  LA E+    K   IP  ++             
+Sbjct  62   ITTLPSLEGDLSQFGAREVKFKFENDLDLAREIMEETKKRNIPIAEVSEELIKKYVLPKK  121
+
+Query  117  LTWGELIPLQFLEKK----PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSAD  172
+            L  G ++PL F+ K      L+ ++    L  E L + G  + + +  S++++  I S D
+Sbjct  122  LDHGTIVPLYFVTKHYPDFKLIHMSYGF-LPFEKLYEFGVAIKDAINKSDRRVVFIASGD  180
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H    N P GY  + E +D+ +++L++E ++EE+  +  +LIE+A    +  + +MLG
+Sbjct  181  LSHKLTPNSPNGYTPKGEVFDKTLLQLLSEMKVEEVIRMDKDLIEEAAECGFRSVCVMLG  240
+
+Query  233  AM  234
+             +
+Sbjct  241  VL  242
+
+
+> sp|Q97J66|Y1420_CLOAB Protein CA_C1420 OS=Clostridium acetobutylicum 
+(strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM 
+B-1787) OX=272562 GN=CA_C1420 PE=3 SV=1
+Length=468
+
+ Score = 302 bits (773),  Expect = 9e-100, Method: Composition-based stats.
+ Identities = 56/247 (23%), Positives = 106/247 (43%), Gaps = 18/247 (7%)
+
+Query  2    LFGIGLMPHGNPALSPE---------DKETEKLAGVLKDIGKAFSDADSYVLISPHNVRI  52
+            L G  L+PH  P + PE         +  T+    + KDI  A    ++ ++++PH    
+Sbjct  3    LNGFYLLPHP-PIVVPEVGRGEEKKIENTTKSFEAIAKDI--AGKAPNTIIIVTPHGTMF  59
+
+Query  53   SDHLGVIMAQHLI-SWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+             D++ +     +  S+  F    +  E + ++ L  ++Y    G  IP+V          
+Sbjct  60   QDYIALAYEDEISGSFKDFRAPNVSMELKINKELTSKIYELAYGERIPSVMATNDILKKY  119
+
+Query  112  YSRWPLTWGELIPLQFLEKK----PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIAL  167
+             +   L  G ++PL F+ K      +V +T A  LS   L + G  + + +E   +    
+Sbjct  120  NTSVFLDHGCMVPLYFINKYYKEYKIVHITYAA-LSDIELYRFGMNVTKAVEELNENAVF  178
+
+Query  168  IVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQM  227
+            I S D  H   E+GPYGY    E++D+ ++  + +  +E +  I  + +  A       +
+Sbjct  179  IASGDLSHRLREDGPYGYNPAGEKFDKELLNNLKDGNVEGVFSIDKDTVYNAGECGRRSV  238
+
+Query  228  LIMLGAM  234
+             ++LG +
+Sbjct  239  AVLLGTL  245
+
+
+> sp|Q05353|HPCB_ECOLX 3,4-dihydroxyphenylacetate 2,3-dioxygenase 
+OS=Escherichia coli OX=562 GN=hpcB PE=1 SV=2
+Length=276
+
+ Score = 52.0 bits (123),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 33/230 (14%), Positives = 82/230 (36%), Gaps = 26/230 (11%)
+
+Query  23   EKLAGVLKDIGKAFSD--ADSYVLISPHNVRISDHLGVIMAQHLIS-----WLGFEGVEL  75
+            +      K+I K   +   D+ ++   H   ++    +  A H         L     ++
+Sbjct  30   QGAIDGHKEISKRCREMGVDTIIVFDTH-WLVNSAYHINCADHFEGVYTSNELPHFIRDM  88
+
+Query  76   PGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLE---KKP  132
+               +E +  L + + +      +     H            L +G ++P++++    +  
+Sbjct  89   TYNYEGNPELGQLIADEALKLGV-RAKAHN------IPSLKLEYGSVVPMRYMNEDKRFK  141
+
+Query  133  LVLLT-PARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAH-----DENGPYGYR  186
+            +V ++            K GE + + +E  +  +A++ S    H        E G   Y 
+Sbjct  142  VVSISAFCTVHDFADSRKLGERIVKAIEQYDGTVAVLASGSLSHRFIDDQRAEEGMNSYT  201
+
+Query  187  KE-SEEYDRLIMELINESRLEELPEI-PDELIEKALPDSYWQMLIMLGAM  234
+            +E   + D  +++L  E + +E   + P+         +    +++LG +
+Sbjct  202  REFDRQMDERVVKLWREGQFKEFCNMLPEYADYCYGEGNMHDTVMLLGML  251
+
+
+> sp|O33477|AMNB_PSESP 2-aminophenol 1,6-dioxygenase beta subunit 
+OS=Pseudomonas sp. OX=306 GN=amnB PE=1 SV=1
+Length=305
+
+ Score = 50.1 bits (118),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 49/249 (20%), Positives = 86/249 (35%), Gaps = 44/249 (18%)
+
+Query  6    GLMPHGNPALSPE---DKETEKLAGVLK--------DIGKAFSDADSYVLISPHNVRISD  54
+             + PH    +  E     E +   G  +                 D  ++ SPH +    
+Sbjct  10   FIAPHPPHLVYGENPPQNEPKSTGGWEQLRWAYERARASIEELKPDVLLVHSPHWITSVG  69
+
+Query  55   H--LGVIMAQHLISWLGFEGVEL---PGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRS  109
+            H  +GV   Q       F    L         D  L+E      + A + T  +      
+Sbjct  70   HHFIGVDHLQGRSVDPIF--PNLFRFDYSINFDVELSEACCEEGRKAGLVTKMM------  121
+
+Query  110  GRYSRWPLTWGELIPLQFLEKK---PLVLLTPA---RRLSRET----LIKAGEVLGEVLE  159
+             R  R+   +G +  L  +  +   P+V ++       LS E     +   G+   E + 
+Sbjct  122  -RNPRFRPDYGTITTLHMIRPQWDIPVVSISANNTPYYLSMEEGLGEMDVLGKATREAIL  180
+
+Query  160  GSEKKIALIVSADHGHAHDENGP---------YGYRKESEEYDRLIMELINESRLEELPE  210
+             S K+  L+ S    H H    P         +   K   E+D  ++EL+ + R+EE+ +
+Sbjct  181  KSGKRAVLLASNTLSHWHFHEEPVPPEDMSKEHPQTKIGYEWDMRMIELMRQGRMEEVFQ  240
+
+Query  211  IPDELIEKA  219
+            +  + IE+A
+Sbjct  241  LLPQFIEEA  249
+
+
+> sp|O33478|AMNA_PSESP 2-aminophenol 1,6-dioxygenase alpha subunit 
+OS=Pseudomonas sp. OX=306 GN=amnA PE=1 SV=1
+Length=271
+
+ Score = 49.3 bits (116),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 45/250 (18%), Positives = 91/250 (36%), Gaps = 33/250 (13%)
+
+Query  6    GLMP-HGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHNVRISDHLGVIMAQ  62
+             L+P    P L P+ K  E     ++++G+    S  D  ++ S     + D + +   +
+Sbjct  7    FLVPGSPLPHLRPDVKSWESFKVAMQNVGEKLRASKPDVVLIYSTQWFAVLDEIWLTRQR  66
+
+Query  63   HL-----ISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPL  117
+             L      +W  F   ELP +  +D  LA     + + A +        +R   Y  +P+
+Sbjct  67   SLDIHVDENWHEFG--ELPYDIYSDVDLANACIESCRAAGV-------NARGADYESFPI  117
+
+Query  118  TWGELIPLQFL----EKKPLVLLT---PARRLSRETLIKAGEVLGEVLEGSEKKIALIVS  170
+              G ++    L       P+V+ +      + + E L          +    K+IA+I  
+Sbjct  118  DTGTIVACNALKVGTSDLPVVVASNNLYDDQAATERLAALAVA---CISEKGKRIAVIGV  174
+
+Query  171  ADHG-----HAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKA-LPDSY  224
+                      A D       +   ++ ++ I+ L+    ++ L E      ++A     +
+Sbjct  175  GGLSGSVFTTAIDPAEDRVVKAVEDDCNKNILSLMESGNIQALREALKSYSKEARAEMGF  234
+
+Query  225  WQMLIMLGAM  234
+                 +LGA+
+Sbjct  235  KHFHWLLGAL  244
+
+
+> sp|I3PFJ9|DOD1W_BETVU 4,5-DOPA dioxygenase extradiol 1 OS=Beta 
+vulgaris OX=161934 GN=DODA1 PE=2 SV=1
+Length=275
+
+ Score = 47.7 bits (112),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 44/247 (18%), Positives = 88/247 (36%), Gaps = 27/247 (11%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHNVRISDHL-G  57
+            M+     + HGNP L+ ED  T  L    +   +        + ++IS H   +   +  
+Sbjct  13   MIKESFFITHGNPILTVED--THPLRPFFETWREKIFSKKPKAILIISGHWETVKPTVNA  70
+
+Query  58   VIMAQHLISWLGFEGVELPGEWET--DRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRW  115
+            V +   +  +  +       ++    +  LA +V    K +   T +           + 
+Sbjct  71   VHINDTIHDFDDYPAAMYQFKYPAPGEPELARKVEEILKKSGFETAETDQ--------KR  122
+
+Query  116  PLTWGELIPLQFLEKK---PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSAD  172
+             L  G  +PL  +  +   P+  L+    L        G  L  +       + +I S  
+Sbjct  123  GLDHGAWVPLMLMYPEADIPVCQLSVQPHLDGTYHYNLGRALAPL---KNDGVLIIGSGS  179
+
+Query  173  HGHAHDENGPY--GYRKESEEYDRLIMELINESRLEEL----PEIPDELIEKALPDSYWQ  226
+              H  DE   Y  G    +  +D  + + +   R EE+     + P+  +    P+ ++ 
+Sbjct  180  ATHPLDETPHYFDGVAPWAAAFDSWLRKALINGRFEEVNIYESKAPNWKLAHPFPEHFYP  239
+
+Query  227  MLIMLGA  233
+            + ++LGA
+Sbjct  240  LHVVLGA  246
+
+
+> sp|I3PFJ3|DOD1U_BETVU 4,5-DOPA dioxygenase extradiol 1 OS=Beta 
+vulgaris OX=161934 GN=DODA1 PE=2 SV=1
+Length=275
+
+ Score = 46.6 bits (109),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 44/247 (18%), Positives = 87/247 (35%), Gaps = 27/247 (11%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHNVRISDHL-G  57
+            M+     + HGNP L+ ED  T  L    +   +        + ++IS H   +   +  
+Sbjct  13   MIKESFFITHGNPILTVED--THPLRPFFETWREKIFSKKPKAILIISGHWETVKPTVNA  70
+
+Query  58   VIMAQHLISWLGFEGVELPGEWETD--RGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRW  115
+            V +   +  +  +       ++       LA +V    K +   T +           + 
+Sbjct  71   VHINDTIHDFDDYPAAMYLFKYPAPGAPELARKVEEILKKSGFETAETDE--------KR  122
+
+Query  116  PLTWGELIPLQFLEKK---PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSAD  172
+             L  G  +PL  +  +   P+  L+    L        G  L  +       + +I S  
+Sbjct  123  GLDHGAWVPLMLMYPEADIPVCQLSVQPHLDGTYHYNLGRALAPL---KNDGVLIIGSGS  179
+
+Query  173  HGHAHDENGPY--GYRKESEEYDRLIMELINESRLEEL----PEIPDELIEKALPDSYWQ  226
+              H  DE   Y  G    +  +D  + + +   R EE+     + P+  +    P+ ++ 
+Sbjct  180  ATHPLDETPHYFDGVAPWAAAFDSWLRKALINGRFEEVNIYETKAPNWKLAHPFPEHFYP  239
+
+Query  227  MLIMLGA  233
+            + ++LGA
+Sbjct  240  LHVVLGA  246
+
+
+> sp|Q57846|Y403_METJA MEMO1 family protein MJ0403 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / 
+JCM 10045 / NBRC 100440) OX=243232 GN=MJ0403 PE=3 SV=1
+Length=287
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 34/160 (21%), Positives = 67/160 (42%), Gaps = 18/160 (11%)
+
+Query  77   GEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLL  136
+            G+ + D    EE    W+  EI  +D   A  +       L + + + L  + K  +V +
+Sbjct  109  GDVKCDEEFVEE---LWRKCEIVDLDET-AHLNEHSIEVQLPFLKHLELLNIAKFKIVPI  164
+
+Query  137  TPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKE--SEEYDR  194
+                +   ET ++ G  + ++ +   ++I +I S+D  H         Y  +  + + D 
+Sbjct  165  CMMFQ-DYETAVEVGYFIAKIAKELNRRIVVIASSDLTH---------YEPQEIASKKDA  214
+
+Query  195  LIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAM  234
+            ++++ I E   +EL E  D +        Y  ++ ML AM
+Sbjct  215  IVIKDILEMNEKELYE--DVVNYNISMCGYGPVIAMLKAM  252
+
+
+> sp|A6UQ31|Y697_METVS MEMO1 family protein Mevan_0697 OS=Methanococcus 
+vannielii (strain ATCC 35089 / DSM 1224 / JCM 13029 
+/ OCM 148 / SB) OX=406327 GN=Mevan_0697 PE=3 SV=1
+Length=284
+
+ Score = 43.9 bits (102),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 52/253 (21%), Positives = 94/253 (37%), Gaps = 44/253 (17%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVL-----------------KDIGKAFSDADSYV  43
+            M+    L P G   L  +    EK  GV+                 K+I K  S   + V
+Sbjct  22   MIEYCYLNPRGPKKLPSKLGRYEKPIGVISPHAGYVYSGPIAAHSYKEISKKVSGNITAV  81
+
+Query  44   LISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDL  103
+            +I P++  +   +   M     + LG          E D   +E     WK  +I  +D 
+Sbjct  82   IIGPNHSGMGSVVS-TMEGIWKTPLG--------NLEIDNEFSER---LWKECDIIDLDE  129
+
+Query  104  HFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEK  163
+              A          L + + + L  + K   V ++ + +   +T +  G ++ +V +   +
+Sbjct  130  T-AHLKEHSIEVQLPFLKHLELLNIAKFKFVPISMSLQ-DYDTAVGVGYMVAKVAKELNR  187
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKE--SEEYDRLIMELINESRLEELPEIPDELIEKALP  221
+            KI +I S+D  H         Y  E  + + D +I++ I +   EE+    D +      
+Sbjct  188  KIIIIASSDFSH---------YEPEEIASKKDAIIIKDILKMEEEEIFT--DVVTNNVTM  236
+
+Query  222  DSYWQMLIMLGAM  234
+              Y  ++ M+ AM
+Sbjct  237  CGYGPIIAMIKAM  249
+
+
+> sp|Q46CL1|Y1422_METBF MEMO1 family protein Mbar_A1422 OS=Methanosarcina 
+barkeri (strain Fusaro / DSM 804) OX=269797 GN=Mbar_A1422 
+PE=3 SV=1
+Length=265
+
+ Score = 43.5 bits (101),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 42/212 (20%), Positives = 74/212 (35%), Gaps = 32/212 (15%)
+
+Query  28   VLKDIGKAFSDADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAE  87
+            V   +      AD+YVL  P++      + V                    W+T  G+ E
+Sbjct  52   VAAHVYAVLPKADTYVLFGPNHTGYGSPVSVSTD----------------TWKTPLGIIE  95
+
+Query  88   EVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETL  147
+                  +G     VD+       RY          +  +F +   ++ +    +   ET+
+Sbjct  96   VDRELAEGLTGSIVDV--DEIGHRYEHSIEVQLPFLQYRFDQDFRILPICLGMQ-DEETV  152
+
+Query  148  IKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKE--SEEYDRLIMELINESRL  205
+            I+ G ++  ++  S KK+A I S+D  H         Y+    + E D  I+E I    +
+Sbjct  153  IEVGTLIANLVSKSGKKVAFIASSDFTH---------YQPANLARETDNEIIEAILNLDV  203
+
+Query  206  EELPEIPDELIEKALPDSYWQMLIMLGAMHRV  237
+              + E        A    Y  +  ML A  ++
+Sbjct  204  PGIYE--RLYRRNASVCGYGPISAMLTASKKL  233
+
+
+> sp|Q12TI1|Y2394_METBU MEMO1 family protein Mbur_2394 OS=Methanococcoides 
+burtonii (strain DSM 6242 / NBRC 107633 / OCM 468 
+/ ACE-M) OX=259564 GN=Mbur_2394 PE=3 SV=1
+Length=264
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/99 (21%), Positives = 42/99 (42%), Gaps = 9/99 (9%)
+
+Query  145  ETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESR  204
+            +T ++ G  +   ++ S KK+  I S+D  H       Y  ++++E+ D  +++ I +  
+Sbjct  150  DTAVEVGLEVARAVKESGKKVVFIASSDLSH-------YVPQEKAEKSDNYLIDAILDMD  202
+
+Query  205  LEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPVKLVE  243
+            + E+     E  +      Y  +  ML A      K  E
+Sbjct  203  VPEIYRRKYE--KDITACGYGPITAMLTAAKECGAKNTE  239
+
+
+> sp|P61652|Y1387_METMP MEMO1 family protein MMP1387 OS=Methanococcus 
+maripaludis (strain S2 / LL) OX=267377 GN=MMP1387 PE=3 
+SV=1
+Length=284
+
+ Score = 43.1 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 52/244 (21%), Positives = 94/244 (39%), Gaps = 26/244 (11%)
+
+Query  1    MLFGIGLMPHGNPAL-SPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVR-----ISD  54
+            M+    L P G   L S   K T+ L  V    G  +S       ++ H  +     IS 
+Sbjct  22   MIEYCYLNPRGPRELPSKRGKYTKPLGIVSPHAGYIYSGP-----VAAHGYKKISENISG  76
+
+Query  55   HLGVIMAQHLISWLGFEGVELPGEWET---DRGLAEEVYN-AWKGAEIPTVDLHFASRSG  110
+             +  I+     + LG     + G W+T   D  +  E  +  WK  +I  +D   +    
+Sbjct  77   EITAIILGPNHTGLGSGIATMKGTWKTPFGDMEIDNEFADRLWKECDILDMD-ENSHLRE  135
+
+Query  111  RYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVS  170
+                  L + + +    + K   V ++   +   E+ I  G V+ +V     +KI +I S
+Sbjct  136  HSIEVQLPFLKHLEDLNIAKFKFVPISMMMQ-DYESCIDVGYVIAKVARELNRKIVIIAS  194
+
+Query  171  ADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIM  230
+             D  H       Y  ++++ + D ++++ I E   EE+    D +        Y  ++ M
+Sbjct  195  TDFSH-------YEPQEQASKKDAVVIKDILELNDEEIFT--DVVTHTISMCGYGPVIAM  245
+
+Query  231  LGAM  234
+            + AM
+Sbjct  246  VKAM  249
+
+
+> sp|A9A9S6|Y1286_METM6 MEMO1 family protein MmarC6_1286 OS=Methanococcus 
+maripaludis (strain C6 / ATCC BAA-1332) OX=444158 
+GN=MmarC6_1286 PE=3 SV=1
+Length=284
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 51/256 (20%), Positives = 96/256 (38%), Gaps = 26/256 (10%)
+
+Query  1    MLFGIGLMPHGNPAL-SPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVR-----ISD  54
+            M+    L P G   L S     T+ L  V    G  +S       ++ H  +     +S 
+Sbjct  22   MIEYCYLSPRGPKELPSKRGNYTKPLGIVSPHAGYIYSGP-----VAAHGYKKISENVSG  76
+
+Query  55   HLGVIMAQHLISWLGFEGVELPGEWET---DRGLAEEVYN-AWKGAEIPTVDLHFASRSG  110
+             +  I+     + LG     + G W+T   D  +  E  +  WK  ++  +D   +    
+Sbjct  77   EVTAIILGPNHTGLGSGISTMKGIWKTPFGDMEIDNEFADKLWKECDVLDID-ENSHLRE  135
+
+Query  111  RYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVS  170
+                  L + + +    + K   V ++   +   ET I  G  + +V +   +KI +I S
+Sbjct  136  HSIEVQLPFLKHLEDLNIAKFKFVPISMMMQ-DYETSIDVGYFIAKVAKEMNRKIIIIAS  194
+
+Query  171  ADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIM  230
+             D  H       Y  ++ + + D ++++ I E + EE+    D +        Y  ++ M
+Sbjct  195  TDFSH-------YEPQESASKKDAIVIKDILELKDEEIFI--DVVTHNISMCGYGPVIAM  245
+
+Query  231  LGAMHRVPVKLVESAY  246
+            + AM  +  K     Y
+Sbjct  246  VKAMKDLGAKTANLLY  261
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0414    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20072306884
+Results from round 3
+
+
+Query= 5HEE:B
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8R8N9|Y1956_CALS4 Protein TTE1956 OS=Caldanaerobacter subte...  236     2e-74
+  sp|Q97J66|Y1420_CLOAB Protein CA_C1420 OS=Clostridium acetobuty...  221     3e-68
+  sp|P61652|Y1387_METMP MEMO1 family protein MMP1387 OS=Methanoco...  197     3e-61
+  sp|I3PFJ9|DOD1W_BETVU 4,5-DOPA dioxygenase extradiol 1 OS=Beta ...  188     1e-57
+  sp|I3PFJ3|DOD1U_BETVU 4,5-DOPA dioxygenase extradiol 1 OS=Beta ...  185     9e-57
+  sp|A6UQ31|Y697_METVS MEMO1 family protein Mevan_0697 OS=Methano...  185     2e-56
+  sp|O33478|AMNA_PSESP 2-aminophenol 1,6-dioxygenase alpha subuni...  183     7e-56
+  sp|Q57846|Y403_METJA MEMO1 family protein MJ0403 OS=Methanocald...  175     2e-52
+  sp|Q05353|HPCB_ECOLX 3,4-dihydroxyphenylacetate 2,3-dioxygenase...  167     1e-49
+  sp|O33477|AMNB_PSESP 2-aminophenol 1,6-dioxygenase beta subunit...  167     3e-49
+  sp|Q46CL1|Y1422_METBF MEMO1 family protein Mbar_A1422 OS=Methan...  153     3e-44
+  sp|Q12TI1|Y2394_METBU MEMO1 family protein Mbur_2394 OS=Methano...  151     1e-43
+
+Sequences not found previously or not previously below threshold:
+
+  sp|A4FWD2|Y191_METM5 MEMO1 family protein MmarC5_0191 OS=Methan...  192     4e-59
+  sp|A6VGX3|Y632_METM7 MEMO1 family protein MmarC7_0632 OS=Methan...  191     9e-59
+  sp|A9A9S6|Y1286_METM6 MEMO1 family protein MmarC6_1286 OS=Metha...  190     3e-58
+  sp|Q70FG7|DODA_BETVU 4,5-DOPA dioxygenase extradiol OS=Beta vul...  143     4e-40
+  sp|Q6J1Z6|AMNB_COMTE 2-aminophenol 1,6-dioxygenase subunit beta...  144     4e-40
+  sp|Q8PW40|Y1761_METMA MEMO1 family protein MM_1761 OS=Methanosa...  133     1e-36
+  sp|Q8TT38|Y601_METAC MEMO1 family protein MA_0601 OS=Methanosar...  131     1e-35
+  sp|B6F0W8|DODA_MIRJA 4,5-DOPA dioxygenase extradiol OS=Mirabili...  127     4e-34
+  sp|Q6J1Z5|AMNA_COMTE 2-aminophenol 1,6-dioxygenase subunit alph...  124     3e-33
+  sp|Q949R4|DIOXL_ARATH Extradiol ring-cleavage dioxygenase OS=Ar...  116     6e-30
+  sp|Q8TWR9|Y963_METKA MEMO1 family protein MK0963 OS=Methanopyru...  113     1e-28
+  sp|Q7XA48|DODA_PORGR 4,5-DOPA dioxygenase extradiol OS=Portulac...  111     5e-28
+  sp|O26151|Y045_METTH MEMO1 family protein MTH_45 OS=Methanother...  107     1e-26
+  sp|A1RTJ4|Y1105_PYRIL MEMO1 family protein Pisl_1105 OS=Pyrobac...  102     2e-24
+  sp|Q8ZYE1|Y818_PYRAE MEMO1 family protein PAE0818 OS=Pyrobaculu...  98.8    3e-23
+  sp|Q9V189|Y539_PYRAB MEMO1 family protein PYRAB05390 OS=Pyrococ...  96.8    2e-22
+  sp|Q96YW6|Y2062_SULTO MEMO1 family protein STK_20620 OS=Sulfuri...  96.4    2e-22
+  sp|A5UN65|Y1438_METS3 MEMO1 family protein Msm_1438 OS=Methanob...  96.1    3e-22
+  sp|Q8U0F2|Y1638_PYRFU MEMO1 family protein PF1638 OS=Pyrococcus...  94.9    9e-22
+  sp|Q4JCG3|Y089_SULAC MEMO1 family protein Saci_0089 OS=Sulfolob...  93.7    2e-21
+  sp|A4WH12|Y062_PYRAR MEMO1 family protein Pars_0062 OS=Pyrobacu...  91.4    2e-20
+  sp|Q5JJC3|Y1477_THEKO MEMO1 family protein TK1477 OS=Thermococc...  91.4    2e-20
+  sp|O27974|Y2310_ARCFU MEMO1 family protein AF_2310 OS=Archaeogl...  89.5    6e-20
+  sp|C5A7L6|Y1726_THEGJ MEMO1 family protein TGAM_1726 OS=Thermoc...  89.9    8e-20
+  sp|A3MS51|Y028_PYRCJ MEMO1 family protein Pcal_0028 OS=Pyrobacu...  89.5    9e-20
+  sp|B6YST0|Y132_THEON MEMO1 family protein TON_0132 OS=Thermococ...  89.1    1e-19
+  sp|C3N060|Y2134_SULIA MEMO1 family protein M1627_2134 OS=Sulfol...  88.7    2e-19
+  sp|C4KJ99|Y2061_SULIK MEMO1 family protein M164_2061 OS=Sulfolo...  88.7    2e-19
+  sp|C3MZ11|Y2054_SULIM MEMO1 family protein M1425_2054 OS=Sulfol...  88.7    2e-19
+  sp|C3NMP4|Y739_SULIN MEMO1 family protein YN1551_0739 OS=Sulfol...  88.0    3e-19
+  sp|P95994|Y066_SACS2 MEMO1 family protein SSO0066 OS=Saccharolo...  88.0    4e-19
+  sp|C3N8S4|Y2180_SULIY MEMO1 family protein YG5714_2180 OS=Sulfo...  87.6    4e-19
+  sp|C3MJQ3|Y2219_SULIL MEMO1 family protein LS215_2219 OS=Sulfol...  87.2    5e-19
+  sp|B9K748|Y605_THENN MEMO1 family protein CTN_0605 OS=Thermotog...  81.4    6e-17
+  sp|O59292|Y1626_PYRHO MEMO1 family protein PH1626 OS=Pyrococcus...  81.4    9e-17
+  sp|O67039|Y890_AQUAE MEMO1 family protein aq_890 OS=Aquifex aeo...  80.6    1e-16
+  sp|A8M9U2|Y1590_CALMQ MEMO1 family protein Cmaq_1590 OS=Caldivi...  80.3    2e-16
+  sp|B8D6F2|Y1357_DESA1 MEMO1 family protein DKAM_1357 OS=Desulfu...  79.9    2e-16
+  sp|A9A2Y3|Y215_NITMS MEMO1 family protein Nmar_0215 OS=Nitrosop...  79.1    4e-16
+  sp|A5IKY3|Y837_THEP1 MEMO1 family protein Tpet_0837 OS=Thermoto...  77.9    1e-15
+  sp|Q9YB24|Y1771_AERPE MEMO1 family protein APE_1771 OS=Aeropyru...  76.8    3e-15
+  sp|A4YIM6|Y2139_METS5 MEMO1 family protein Msed_2139 OS=Metallo...  76.8    3e-15
+  sp|Q978N2|Y1383_THEVO MEMO1 family protein TV1383 OS=Thermoplas...  75.6    6e-15
+  sp|Q9WXU2|Y087_THEMA MEMO1 family protein TM_0087 OS=Thermotoga...  75.6    7e-15
+  sp|A8AB69|Y992_IGNH4 MEMO1 family protein Igni_0992 OS=Ignicocc...  74.9    2e-14
+  sp|Q9HLJ1|Y237_THEAC MEMO1 family protein Ta0237 OS=Thermoplasm...  72.2    1e-13
+  sp|B1LA64|Y860_THESQ MEMO1 family protein TRQ2_0860 OS=Thermoto...  71.8    2e-13
+  sp|P24197|YGID_ECOLI 4,5-DOPA dioxygenase extradiol OS=Escheric...  67.9    5e-12
+  sp|Q9F9U5|MHPB2_PSEPU 2,3-dihydroxyphenylpropionate/2,3-dihydro...  59.8    3e-09
+  sp|B5XQJ0|MHPB_KLEP3 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  56.8    3e-08
+  sp|B7L504|MHPB_ECO55 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  56.0    6e-08
+  sp|A6TAC8|MHPB_KLEP7 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.6    1e-07
+  sp|B6HZX4|MHPB_ECOSE 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.6    1e-07
+  sp|A7ZWZ5|MHPB_ECOHS 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.6    1e-07
+  sp|B7M2Z6|MHPB_ECO8A 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.6    1e-07
+  sp|A7ZI95|MHPB_ECO24 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.6    1e-07
+  sp|Q3Z586|MHPB_SHISS 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.2    1e-07
+  sp|B1LIN3|MHPB_ECOSM 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.2    1e-07
+  sp|B7N8Q5|MHPB_ECOLU 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.2    1e-07
+  sp|P0ABR9|MHPB_ECOLI 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.2    1e-07
+  sp|B1XBJ5|MHPB_ECODH 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.2    1e-07
+  sp|B7NK07|MHPB_ECO7I 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.2    1e-07
+  sp|B5Z2Q3|MHPB_ECO5E 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.2    1e-07
+  sp|P0ABS0|MHPB_ECO57 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  55.2    1e-07
+  sp|Q47HM4|MHPB1_DECAR 2,3-dihydroxyphenylpropionate/2,3-dihydro...  54.1    3e-07
+  sp|Q47GC9|MHPB2_DECAR 2,3-dihydroxyphenylpropionate/2,3-dihydro...  53.7    4e-07
+  sp|B7MPB5|MHPB_ECO81 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  53.3    5e-07
+  sp|A0R1T3|MHPB_MYCS2 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  52.9    7e-07
+  sp|A1K6Y7|MHPB_AZOSB 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  51.4    3e-06
+  sp|Q7N4V6|MHPB_PHOLL 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  51.0    3e-06
+  sp|O05146|MHPB_RHOGO 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  51.0    4e-06
+  sp|Q1B5E3|MHPB_MYCSS 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  50.6    5e-06
+  sp|A1UJP3|MHPB_MYCSK 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  50.6    5e-06
+  sp|A3Q338|MHPB_MYCSJ 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  50.6    5e-06
+  sp|Q9KH19|MHPB_RHOSO 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  50.6    5e-06
+  sp|C1DRI2|MHPB_AZOVD 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  48.7    2e-05
+  sp|A0PL52|MHPB_MYCUA 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  47.9    3e-05
+  sp|A7IDU0|MHPB_XANP2 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  47.9    3e-05
+  sp|P17295|MHPB_CUPNE 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  47.9    3e-05
+  sp|Q0SJD2|MHPB_RHOJR 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  47.1    5e-05
+  sp|Q476N0|MHPB_CUPPJ 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  47.1    5e-05
+  sp|A1TCX1|MHPB_MYCVP 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  46.7    7e-05
+  sp|Q13QH9|MHPB_PARXL 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  46.4    1e-04
+  sp|Q6GNT9|MEMO1_XENLA Protein MEMO1 OS=Xenopus laevis OX=8355 G...  46.0    1e-04
+  sp|Q2HJH7|MEMO1_BOVIN Protein MEMO1 OS=Bos taurus OX=9913 GN=ME...  45.2    3e-04
+  sp|A4T8B7|MHPB_MYCGI 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  44.8    3e-04
+  sp|Q6DJ03|MEMO1_XENTR Protein MEMO1 OS=Xenopus tropicalis OX=83...  44.4    5e-04
+  sp|Q400K4|MHPB1_PSEPU 2,3-dihydroxyphenylpropionate/2,3-dihydro...  44.4    5e-04
+  sp|A4JPY0|MHPB_BURVG 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  43.7    8e-04
+  sp|Q91VH6|MEMO1_MOUSE Protein MEMO1 OS=Mus musculus OX=10090 GN...  43.7    9e-04
+  sp|Q4R6D9|MEMO1_MACFA Protein MEMO1 OS=Macaca fascicularis OX=9...  43.7    9e-04
+  sp|Q9Y316|MEMO1_HUMAN Protein MEMO1 OS=Homo sapiens OX=9606 GN=...  43.7    9e-04
+  sp|Q4QQR9|MEMO1_RAT Protein MEMO1 OS=Rattus norvegicus OX=10116...  43.7    9e-04
+  sp|B2JQV7|MHPB_PARP8 2,3-dihydroxyphenylpropionate/2,3-dihydrox...  43.3    0.001
+
+
+> sp|Q8R8N9|Y1956_CALS4 Protein TTE1956 OS=Caldanaerobacter subterraneus 
+subsp. tengcongensis (strain DSM 15242 / JCM 11007 
+/ NBRC 100824 / MB4) OX=273068 GN=TTE1956 PE=3 SV=1
+Length=458
+
+ Score = 236 bits (602),  Expect = 2e-74, Method: Composition-based stats.
+ Identities = 59/242 (24%), Positives = 111/242 (46%), Gaps = 12/242 (5%)
+
+Query  4    GIGLMPHGNPAL----SPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVRISDHLG  57
+            G  LMPH    +      E+++ +K    L++I +       D+ ++I+PH     D + 
+Sbjct  2    GCYLMPHPPIIVHEVGRGEERKIQKTIDSLENISQEIKQKRPDTVIVITPHGYVFKDAVS  61
+
+Query  58   VIMAQHLISWLG-FEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWP  116
+            +     L   L  F   E+  ++E D  LA E+    K   IP  ++             
+Sbjct  62   ITTLPSLEGDLSQFGAREVKFKFENDLDLAREIMEETKKRNIPIAEVSEELIKKYVLPKK  121
+
+Query  117  LTWGELIPLQFLEK----KPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSAD  172
+            L  G ++PL F+ K      L+ ++    L  E L + G  + + +  S++++  I S D
+Sbjct  122  LDHGTIVPLYFVTKHYPDFKLIHMSYGF-LPFEKLYEFGVAIKDAINKSDRRVVFIASGD  180
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H    N P GY  + E +D+ +++L++E ++EE+  +  +LIE+A    +  + +MLG
+Sbjct  181  LSHKLTPNSPNGYTPKGEVFDKTLLQLLSEMKVEEVIRMDKDLIEEAAECGFRSVCVMLG  240
+
+Query  233  AM  234
+             +
+Sbjct  241  VL  242
+
+
+> sp|Q97J66|Y1420_CLOAB Protein CA_C1420 OS=Clostridium acetobutylicum 
+(strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM 
+B-1787) OX=272562 GN=CA_C1420 PE=3 SV=1
+Length=468
+
+ Score = 221 bits (562),  Expect = 3e-68, Method: Composition-based stats.
+ Identities = 54/247 (22%), Positives = 105/247 (43%), Gaps = 16/247 (6%)
+
+Query  2    LFGIGLMPHGNPAL----SPEDKE----TEKLAGVLKDIGKAFSDADSYVLISPHNVRIS  53
+            L G  L+PH    +      E+K+    T+    + KDI  A    ++ ++++PH     
+Sbjct  3    LNGFYLLPHPPIVVPEVGRGEEKKIENTTKSFEAIAKDI--AGKAPNTIIIVTPHGTMFQ  60
+
+Query  54   DHLGVIMAQHLIS-WLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRY  112
+            D++ +     +   +  F    +  E + ++ L  ++Y    G  IP+V           
+Sbjct  61   DYIALAYEDEISGSFKDFRAPNVSMELKINKELTSKIYELAYGERIPSVMATNDILKKYN  120
+
+Query  113  SRWPLTWGELIPLQFLEKK----PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALI  168
+            +   L  G ++PL F+ K      +V +T A  LS   L + G  + + +E   +    I
+Sbjct  121  TSVFLDHGCMVPLYFINKYYKEYKIVHITYAA-LSDIELYRFGMNVTKAVEELNENAVFI  179
+
+Query  169  VSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQML  228
+             S D  H   E+GPYGY    E++D+ ++  + +  +E +  I  + +  A       + 
+Sbjct  180  ASGDLSHRLREDGPYGYNPAGEKFDKELLNNLKDGNVEGVFSIDKDTVYNAGECGRRSVA  239
+
+Query  229  IMLGAMH  235
+            ++LG + 
+Sbjct  240  VLLGTLE  246
+
+
+> sp|P61652|Y1387_METMP MEMO1 family protein MMP1387 OS=Methanococcus 
+maripaludis (strain S2 / LL) OX=267377 GN=MMP1387 PE=3 
+SV=1
+Length=284
+
+ Score = 197 bits (501),  Expect = 3e-61, Method: Composition-based stats.
+ Identities = 52/256 (20%), Positives = 96/256 (38%), Gaps = 26/256 (10%)
+
+Query  1    MLFGIGLMPHGNPALS-PEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVR-----ISD  54
+            M+    L P G   L     K T+ L  V    G  +S       ++ H  +     IS 
+Sbjct  22   MIEYCYLNPRGPRELPSKRGKYTKPLGIVSPHAGYIYSGP-----VAAHGYKKISENISG  76
+
+Query  55   HLGVIMAQHLISWLGFEGVELPGEWET---DRGLAEEVYN-AWKGAEIPTVDLHFASRSG  110
+             +  I+     + LG     + G W+T   D  +  E  +  WK  +I  +D   +    
+Sbjct  77   EITAIILGPNHTGLGSGIATMKGTWKTPFGDMEIDNEFADRLWKECDILDMD-ENSHLRE  135
+
+Query  111  RYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVS  170
+                  L + + +    + K   V ++   +   E+ I  G V+ +V     +KI +I S
+Sbjct  136  HSIEVQLPFLKHLEDLNIAKFKFVPISMMMQ-DYESCIDVGYVIAKVARELNRKIVIIAS  194
+
+Query  171  ADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIM  230
+             D  H       Y  ++++ + D ++++ I E   EE+    D +        Y  ++ M
+Sbjct  195  TDFSH-------YEPQEQASKKDAVVIKDILELNDEEIFT--DVVTHTISMCGYGPVIAM  245
+
+Query  231  LGAMHRVPVKLVESAY  246
+            + AM  +  +     Y
+Sbjct  246  VKAMKDLGARTSYLLY  261
+
+
+> sp|A4FWD2|Y191_METM5 MEMO1 family protein MmarC5_0191 OS=Methanococcus 
+maripaludis (strain C5 / ATCC BAA-1333) OX=402880 
+GN=MmarC5_0191 PE=3 SV=1
+Length=284
+
+ Score = 192 bits (487),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 50/256 (20%), Positives = 94/256 (37%), Gaps = 26/256 (10%)
+
+Query  1    MLFGIGLMPHGNPALS-PEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVR-----ISD  54
+            M+    L P G   L       T+ L  V    G  +S       ++ H  +     I+ 
+Sbjct  22   MIEYCYLSPRGPKELPSKRGNYTKPLGIVSPHAGYIYSGP-----VAAHGYKKISENING  76
+
+Query  55   HLGVIMAQHLISWLGFEGVELPGEWET---DRGLAEEVYN-AWKGAEIPTVDLHFASRSG  110
+             +  I+     + LG     + G W+T   D  +  E  +  WK  ++  +D   +    
+Sbjct  77   EVTAIILGPNHTGLGSGISTMKGIWKTPFGDMEIDNEFADRLWKECDVLDLD-ENSHLRE  135
+
+Query  111  RYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVS  170
+                  L + + +    + K   V +    +   ET +  G  + +V +   +KI +I S
+Sbjct  136  HSIEVQLPFLKHLEDLNIAKFKFVPICMMMQ-DYETSMDVGYFIAKVAKEMNRKIIIIAS  194
+
+Query  171  ADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIM  230
+             D  H       Y  ++ + + D L+++ I E + EE+    D +        Y  ++ M
+Sbjct  195  TDFSH-------YESQESASKKDALVIKDILELKDEEIFT--DVVTHNISMCGYGPVIAM  245
+
+Query  231  LGAMHRVPVKLVESAY  246
+            + AM  +  K     Y
+Sbjct  246  IKAMKDLGAKNSNLLY  261
+
+
+> sp|A6VGX3|Y632_METM7 MEMO1 family protein MmarC7_0632 OS=Methanococcus 
+maripaludis (strain C7 / ATCC BAA-1331) OX=426368 
+GN=MmarC7_0632 PE=3 SV=1
+Length=284
+
+ Score = 191 bits (484),  Expect = 9e-59, Method: Composition-based stats.
+ Identities = 49/256 (19%), Positives = 92/256 (36%), Gaps = 26/256 (10%)
+
+Query  1    MLFGIGLMPHGNPALS-PEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVR-----ISD  54
+            M+    L P G   L       T+ L  V    G  +S       ++ H  +     +S 
+Sbjct  22   MIEYCYLSPRGPKELPSKRGNYTKPLGIVSPHAGYIYSGP-----VAAHGYKKISENVSG  76
+
+Query  55   HLGVIMAQHLISWLGFEGVELPGEWET---DRGLAEEVYN-AWKGAEIPTVDLHFASRSG  110
+             +  I+     + LG     + G W+T   D  +  E  +  WK  ++  +D   +    
+Sbjct  77   EVTAIILGPNHTGLGSGISTMKGIWKTPFGDMEIDNEFADKLWKECDVLDLD-ENSHLRE  135
+
+Query  111  RYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVS  170
+                  L + + +    + K   V +    +   ET +  G  + +V +   +KI +I S
+Sbjct  136  HSIEVQLPFLKHLEELNIAKFKFVPICMMMQ-DYETSMDVGYFIAKVAKEMNRKIIIIAS  194
+
+Query  171  ADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIM  230
+             D  H       Y  ++ + + D L+++ I E   EE+    D +        Y  ++ M
+Sbjct  195  TDFSH-------YEPQESASKKDALVIKDILELNDEEIFT--DVVTHNISMCGYGPVIAM  245
+
+Query  231  LGAMHRVPVKLVESAY  246
+            + AM  +        Y
+Sbjct  246  VKAMKDLGATNSNLLY  261
+
+
+> sp|A9A9S6|Y1286_METM6 MEMO1 family protein MmarC6_1286 OS=Methanococcus 
+maripaludis (strain C6 / ATCC BAA-1332) OX=444158 
+GN=MmarC6_1286 PE=3 SV=1
+Length=284
+
+ Score = 190 bits (481),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 49/251 (20%), Positives = 93/251 (37%), Gaps = 16/251 (6%)
+
+Query  1    MLFGIGLMPHGNPALS-PEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVRISDHLGVI  59
+            M+    L P G   L       T+ L  V    G  +S   +       +  +S  +  I
+Sbjct  22   MIEYCYLSPRGPKELPSKRGNYTKPLGIVSPHAGYIYSGPVAAHGYKKISENVSGEVTAI  81
+
+Query  60   MAQHLISWLGFEGVELPGEWET---DRGLAEEVYN-AWKGAEIPTVDLHFASRSGRYSRW  115
+            +     + LG     + G W+T   D  +  E  +  WK  ++  +D   +         
+Sbjct  82   ILGPNHTGLGSGISTMKGIWKTPFGDMEIDNEFADKLWKECDVLDID-ENSHLREHSIEV  140
+
+Query  116  PLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGH  175
+             L + + +    + K   V ++   +   ET I  G  + +V +   +KI +I S D  H
+Sbjct  141  QLPFLKHLEDLNIAKFKFVPISMMMQ-DYETSIDVGYFIAKVAKEMNRKIIIIASTDFSH  199
+
+Query  176  AHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMH  235
+                   Y  ++ + + D ++++ I E + EE+    D +        Y  ++ M+ AM 
+Sbjct  200  -------YEPQESASKKDAIVIKDILELKDEEIF--IDVVTHNISMCGYGPVIAMVKAMK  250
+
+Query  236  RVPVKLVESAY  246
+             +  K     Y
+Sbjct  251  DLGAKTANLLY  261
+
+
+> sp|I3PFJ9|DOD1W_BETVU 4,5-DOPA dioxygenase extradiol 1 OS=Beta 
+vulgaris OX=161934 GN=DODA1 PE=2 SV=1
+Length=275
+
+ Score = 188 bits (477),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 46/261 (18%), Positives = 95/261 (36%), Gaps = 28/261 (11%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHNVRISDHL-G  57
+            M+     + HGNP L+ ED  T  L    +   +        + ++IS H   +   +  
+Sbjct  13   MIKESFFITHGNPILTVED--THPLRPFFETWREKIFSKKPKAILIISGHWETVKPTVNA  70
+
+Query  58   VIMAQHLISWLGFEGVELPGEWE--TDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRW  115
+            V +   +  +  +       ++    +  LA +V    K +   T +           + 
+Sbjct  71   VHINDTIHDFDDYPAAMYQFKYPAPGEPELARKVEEILKKSGFETAETDQ--------KR  122
+
+Query  116  PLTWGELIPLQFLEKK---PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSAD  172
+             L  G  +PL  +  +   P+  L+    L        G  L  +       + +I S  
+Sbjct  123  GLDHGAWVPLMLMYPEADIPVCQLSVQPHLDGTYHYNLGRALAPL---KNDGVLIIGSGS  179
+
+Query  173  HGHAHDENGPY--GYRKESEEYDRLIMELINESRLEEL----PEIPDELIEKALPDSYWQ  226
+              H  DE   Y  G    +  +D  + + +   R EE+     + P+  +    P+ ++ 
+Sbjct  180  ATHPLDETPHYFDGVAPWAAAFDSWLRKALINGRFEEVNIYESKAPNWKLAHPFPEHFYP  239
+
+Query  227  MLIMLGAM-HRVPVKLVESAY  246
+            + ++LGA   +   +L+ S++
+Sbjct  240  LHVVLGAAGEKWKAELIHSSW  260
+
+
+> sp|I3PFJ3|DOD1U_BETVU 4,5-DOPA dioxygenase extradiol 1 OS=Beta 
+vulgaris OX=161934 GN=DODA1 PE=2 SV=1
+Length=275
+
+ Score = 185 bits (470),  Expect = 9e-57, Method: Composition-based stats.
+ Identities = 46/261 (18%), Positives = 94/261 (36%), Gaps = 28/261 (11%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHNVRISDHL-G  57
+            M+     + HGNP L+ ED  T  L    +   +        + ++IS H   +   +  
+Sbjct  13   MIKESFFITHGNPILTVED--THPLRPFFETWREKIFSKKPKAILIISGHWETVKPTVNA  70
+
+Query  58   VIMAQHLISWLGFEGVELPGEWETD--RGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRW  115
+            V +   +  +  +       ++       LA +V    K +   T +           + 
+Sbjct  71   VHINDTIHDFDDYPAAMYLFKYPAPGAPELARKVEEILKKSGFETAETD--------EKR  122
+
+Query  116  PLTWGELIPLQFLEKK---PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSAD  172
+             L  G  +PL  +  +   P+  L+    L        G  L  +       + +I S  
+Sbjct  123  GLDHGAWVPLMLMYPEADIPVCQLSVQPHLDGTYHYNLGRALAPL---KNDGVLIIGSGS  179
+
+Query  173  HGHAHDENGPY--GYRKESEEYDRLIMELINESRLEEL----PEIPDELIEKALPDSYWQ  226
+              H  DE   Y  G    +  +D  + + +   R EE+     + P+  +    P+ ++ 
+Sbjct  180  ATHPLDETPHYFDGVAPWAAAFDSWLRKALINGRFEEVNIYETKAPNWKLAHPFPEHFYP  239
+
+Query  227  MLIMLGAM-HRVPVKLVESAY  246
+            + ++LGA   +   +L+ S++
+Sbjct  240  LHVVLGAAGEKWKAELIHSSW  260
+
+
+> sp|A6UQ31|Y697_METVS MEMO1 family protein Mevan_0697 OS=Methanococcus 
+vannielii (strain ATCC 35089 / DSM 1224 / JCM 13029 
+/ OCM 148 / SB) OX=406327 GN=Mevan_0697 PE=3 SV=1
+Length=284
+
+ Score = 185 bits (469),  Expect = 2e-56, Method: Composition-based stats.
+ Identities = 52/257 (20%), Positives = 96/257 (37%), Gaps = 40/257 (16%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVL-----------------KDIGKAFSDADSYV  43
+            M+    L P G   L  +    EK  GV+                 K+I K  S   + V
+Sbjct  22   MIEYCYLNPRGPKKLPSKLGRYEKPIGVISPHAGYVYSGPIAAHSYKEISKKVSGNITAV  81
+
+Query  44   LISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDL  103
+            +I P++  +   +   M     + LG          E D   +E     WK  +I  +D 
+Sbjct  82   IIGPNHSGMGSVVS-TMEGIWKTPLG--------NLEIDNEFSER---LWKECDIIDLDE  129
+
+Query  104  HFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEK  163
+              A          L + + + L  + K   V ++ + +   +T +  G ++ +V +   +
+Sbjct  130  T-AHLKEHSIEVQLPFLKHLELLNIAKFKFVPISMSLQ-DYDTAVGVGYMVAKVAKELNR  187
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDS  223
+            KI +I S+D  H       Y   + + + D +I++ I +   EE+    D +        
+Sbjct  188  KIIIIASSDFSH-------YEPEEIASKKDAIIIKDILKMEEEEIFT--DVVTNNVTMCG  238
+
+Query  224  YWQMLIMLGAMHRVPVK  240
+            Y  ++ M+ AM  +  K
+Sbjct  239  YGPIIAMIKAMKVLGAK  255
+
+
+> sp|O33478|AMNA_PSESP 2-aminophenol 1,6-dioxygenase alpha subunit 
+OS=Pseudomonas sp. OX=306 GN=amnA PE=1 SV=1
+Length=271
+
+ Score = 183 bits (464),  Expect = 7e-56, Method: Composition-based stats.
+ Identities = 45/250 (18%), Positives = 91/250 (36%), Gaps = 33/250 (13%)
+
+Query  6    GLMP-HGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHNVRISDHLGVIMAQ  62
+             L+P    P L P+ K  E     ++++G+    S  D  ++ S     + D + +   +
+Sbjct  7    FLVPGSPLPHLRPDVKSWESFKVAMQNVGEKLRASKPDVVLIYSTQWFAVLDEIWLTRQR  66
+
+Query  63   HL-----ISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPL  117
+             L      +W  F   ELP +  +D  LA     + + A +        +R   Y  +P+
+Sbjct  67   SLDIHVDENWHEFG--ELPYDIYSDVDLANACIESCRAAGV-------NARGADYESFPI  117
+
+Query  118  TWGELIPLQFL----EKKPLVLLT---PARRLSRETLIKAGEVLGEVLEGSEKKIALIVS  170
+              G ++    L       P+V+ +      + + E L          +    K+IA+I  
+Sbjct  118  DTGTIVACNALKVGTSDLPVVVASNNLYDDQAATERLAALAVA---CISEKGKRIAVIGV  174
+
+Query  171  ADHG-----HAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKA-LPDSY  224
+                      A D       +   ++ ++ I+ L+    ++ L E      ++A     +
+Sbjct  175  GGLSGSVFTTAIDPAEDRVVKAVEDDCNKNILSLMESGNIQALREALKSYSKEARAEMGF  234
+
+Query  225  WQMLIMLGAM  234
+                 +LGA+
+Sbjct  235  KHFHWLLGAL  244
+
+
+> sp|Q57846|Y403_METJA MEMO1 family protein MJ0403 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / 
+JCM 10045 / NBRC 100440) OX=243232 GN=MJ0403 PE=3 SV=1
+Length=287
+
+ Score = 175 bits (443),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 46/266 (17%), Positives = 98/266 (37%), Gaps = 42/266 (16%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAFSDAD------------------SY  42
+            M+    L   G  ++       + +  +    G  +S                     + 
+Sbjct  24   MIEQCYLHKFGPKSMPVHGTYEKPIGLLCPHAGYVYSGPIQAHSYYELSKRVDALEETTV  83
+
+Query  43   VLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVD  102
+            V++ P++  +   + V M     + LG        + + D    E     W+  EI  +D
+Sbjct  84   VILGPNHTGLGSGVSV-MDGIWRTPLG--------DVKCDEEFVE---ELWRKCEIVDLD  131
+
+Query  103  LHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSE  162
+               A  +       L + + + L  + K  +V +    +   ET ++ G  + ++ +   
+Sbjct  132  ET-AHLNEHSIEVQLPFLKHLELLNIAKFKIVPICMMFQ-DYETAVEVGYFIAKIAKELN  189
+
+Query  163  KKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPD  222
+            ++I +I S+D  H       Y  ++ + + D ++++ I E   +EL E  D +       
+Sbjct  190  RRIVVIASSDLTH-------YEPQEIASKKDAIVIKDILEMNEKELYE--DVVNYNISMC  240
+
+Query  223  SYWQMLIMLGAMHRVPVKLVE-SAYA  247
+             Y  ++ ML AM  +  +  +  AYA
+Sbjct  241  GYGPVIAMLKAMKTLGAEKAKLLAYA  266
+
+
+> sp|Q05353|HPCB_ECOLX 3,4-dihydroxyphenylacetate 2,3-dioxygenase 
+OS=Escherichia coli OX=562 GN=hpcB PE=1 SV=2
+Length=276
+
+ Score = 167 bits (423),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 33/230 (14%), Positives = 81/230 (35%), Gaps = 26/230 (11%)
+
+Query  23   EKLAGVLKDIGKAFS--DADSYVLISPHNVRISDHLGVIMAQHLIS-----WLGFEGVEL  75
+            +      K+I K       D+ ++   H   ++    +  A H         L     ++
+Sbjct  30   QGAIDGHKEISKRCREMGVDTIIVFDTHW-LVNSAYHINCADHFEGVYTSNELPHFIRDM  88
+
+Query  76   PGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLE---KKP  132
+               +E +  L + + +      +     H            L +G ++P++++    +  
+Sbjct  89   TYNYEGNPELGQLIADEALKLGV-RAKAHN------IPSLKLEYGSVVPMRYMNEDKRFK  141
+
+Query  133  LVLLT-PARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAH-----DENGPYGYR  186
+            +V ++            K GE + + +E  +  +A++ S    H        E G   Y 
+Sbjct  142  VVSISAFCTVHDFADSRKLGERIVKAIEQYDGTVAVLASGSLSHRFIDDQRAEEGMNSYT  201
+
+Query  187  KE-SEEYDRLIMELINESRLEELPEI-PDELIEKALPDSYWQMLIMLGAM  234
+            +E   + D  +++L  E + +E   + P+         +    +++LG +
+Sbjct  202  REFDRQMDERVVKLWREGQFKEFCNMLPEYADYCYGEGNMHDTVMLLGML  251
+
+
+> sp|O33477|AMNB_PSESP 2-aminophenol 1,6-dioxygenase beta subunit 
+OS=Pseudomonas sp. OX=306 GN=amnB PE=1 SV=1
+Length=305
+
+ Score = 167 bits (423),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 53/272 (19%), Positives = 92/272 (34%), Gaps = 43/272 (16%)
+
+Query  6    GLMPHGNPALSPE---DKETEKLAGVLK--------DIGKAFSDADSYVLISPHNVRISD  54
+             + PH    +  E     E +   G  +                 D  ++ SPH +    
+Sbjct  10   FIAPHPPHLVYGENPPQNEPKSTGGWEQLRWAYERARASIEELKPDVLLVHSPHWITSVG  69
+
+Query  55   H--LGVIMAQHLISWLGFE-GVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            H  +GV   Q       F            D  L+E      + A + T  +       R
+Sbjct  70   HHFIGVDHLQGRSVDPIFPNLFRFDYSINFDVELSEACCEEGRKAGLVTKMM-------R  122
+
+Query  112  YSRWPLTWGELIPLQFLEKK---PLVLLTPA---RRLSRET----LIKAGEVLGEVLEGS  161
+              R+   +G +  L  +  +   P+V ++       LS E     +   G+   E +  S
+Sbjct  123  NPRFRPDYGTITTLHMIRPQWDIPVVSISANNTPYYLSMEEGLGEMDVLGKATREAILKS  182
+
+Query  162  EKKIALIVSADHGHAHDENGP---------YGYRKESEEYDRLIMELINESRLEELPEIP  212
+             K+  L+ S    H H    P         +   K   E+D  ++EL+ + R+EE+ ++ 
+Sbjct  183  GKRAVLLASNTLSHWHFHEEPVPPEDMSKEHPQTKIGYEWDMRMIELMRQGRMEEVFQLL  242
+
+Query  213  DELIEKA-LPDSYWQMLIMLGAMH--RVPVKL  241
+             + IE+A           M  AM    +P +L
+Sbjct  243  PQFIEEAFAEVKSGAFTWMHAAMQYPNLPAEL  274
+
+
+> sp|Q46CL1|Y1422_METBF MEMO1 family protein Mbar_A1422 OS=Methanosarcina 
+barkeri (strain Fusaro / DSM 804) OX=269797 GN=Mbar_A1422 
+PE=3 SV=1
+Length=265
+
+ Score = 153 bits (386),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 43/216 (20%), Positives = 74/216 (34%), Gaps = 28/216 (13%)
+
+Query  28   VLKDIGKAFSDADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAE  87
+            V   +      AD+YVL  P++      + V                    W+T  G+ E
+Sbjct  52   VAAHVYAVLPKADTYVLFGPNHTGYGSPVSVSTD----------------TWKTPLGIIE  95
+
+Query  88   EVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETL  147
+                  +G     VD+       RY          +  +F +   ++ +    +   ET+
+Sbjct  96   VDRELAEGLTGSIVDV--DEIGHRYEHSIEVQLPFLQYRFDQDFRILPICLGMQ-DEETV  152
+
+Query  148  IKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEE  207
+            I+ G ++  ++  S KK+A I S+D  H       Y     + E D  I+E I    +  
+Sbjct  153  IEVGTLIANLVSKSGKKVAFIASSDFTH-------YQPANLARETDNEIIEAILNLDVPG  205
+
+Query  208  LPEIPDELIEKALPDSYWQMLIMLGAMHRVPVKLVE  243
+            + E        A    Y  +  ML A  ++     E
+Sbjct  206  IYERL--YRRNASVCGYGPISAMLTASKKLGATRAE  239
+
+
+> sp|Q12TI1|Y2394_METBU MEMO1 family protein Mbur_2394 OS=Methanococcoides 
+burtonii (strain DSM 6242 / NBRC 107633 / OCM 468 
+/ ACE-M) OX=259564 GN=Mbur_2394 PE=3 SV=1
+Length=264
+
+ Score = 151 bits (381),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 37/218 (17%), Positives = 75/218 (34%), Gaps = 28/218 (13%)
+
+Query  26   AGVLKDIGKAFSDADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGL  85
+              V          AD+YV+  P++      + +       +  G        + ETDR L
+Sbjct  50   GPVAAHAFARLPKADTYVIFGPNHTGYGSPVAMS-QDVWNTPFG--------DVETDREL  100
+
+Query  86   AEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRE  145
+             + +      A         A R        + +   +   F     ++ +    +   +
+Sbjct  101  GKLL------AGTIIDMDEVAHRYEHSVEVQIPF---LQYLFGSDFKVLPICMGMQ-DED  150
+
+Query  146  TLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRL  205
+            T ++ G  +   ++ S KK+  I S+D  H       Y  ++++E+ D  +++ I +  +
+Sbjct  151  TAVEVGLEVARAVKESGKKVVFIASSDLSH-------YVPQEKAEKSDNYLIDAILDMDV  203
+
+Query  206  EELPEIPDELIEKALPDSYWQMLIMLGAMHRVPVKLVE  243
+             E+     E  +      Y  +  ML A      K  E
+Sbjct  204  PEIYRRKYE--KDITACGYGPITAMLTAAKECGAKNTE  239
+
+
+> sp|Q70FG7|DODA_BETVU 4,5-DOPA dioxygenase extradiol OS=Beta vulgaris 
+OX=161934 GN=DODA PE=1 SV=1
+Length=268
+
+ Score = 143 bits (359),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 37/249 (15%), Positives = 87/249 (35%), Gaps = 27/249 (11%)
+
+Query  2    LFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHNVRISDHLGV-  58
+            +     + HG P ++ +D  ++     L+   +        + ++IS H       + V 
+Sbjct  7    IKETFFISHGTPMMAIDD--SKPSKKFLESWREKIFSKKPKAILVISAHWETDQPSVNVV  64
+
+Query  59   IMAQHLISWLGFEGVELPGEW--ETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWP  116
+             +   +  + GF       ++       LA  + +   G+   +V+           +  
+Sbjct  65   DINDTIYDFRGFPARLYQFKYSAPGSPELANRIQDLLAGSGFKSVNTDK--------KRG  116
+
+Query  117  LTWGELIPLQFLEKK---PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADH  173
+            L  G  +PL  +  +   P+  L+    L      K G+ L  +    ++ + +I S   
+Sbjct  117  LDHGAWVPLMLMYPEADIPVCQLSVQSHLDGTHHYKLGQALAPL---KDEGVLIIGSGSA  173
+
+Query  174  GHAHDENGP--YGYRKESEEYDRLIMELINESRLEEL----PEIPDELIEKALPDSYWQM  227
+             H  +   P   G    +  +D  +   +     EE+     + P+  +    P+ ++ +
+Sbjct  174  THPSNGTPPCSDGVAPWAAAFDSWLETALTNGSYEEVNKYETKAPNWKLAHPWPEHFYPL  233
+
+Query  228  LIMLGAMHR  236
+             + +GA   
+Sbjct  234  HVAMGAAGE  242
+
+
+> sp|Q6J1Z6|AMNB_COMTE 2-aminophenol 1,6-dioxygenase subunit beta 
+OS=Comamonas testosteroni OX=285 GN=cnbCb PE=1 SV=2
+Length=312
+
+ Score = 144 bits (362),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 45/264 (17%), Positives = 84/264 (32%), Gaps = 41/264 (16%)
+
+Query  6    GLMPHGNPALSPE---DKETEKLAGVL------KDIGKAFS--DADSYVLISPHNVRISD  54
+             L PH    +  E     E     G        +   +       D  ++ SPH +    
+Sbjct  9    FLAPHPPHLVYGENPPQNEPRSQGGWEVLRWAYERARERLDAMKPDVLLVHSPHWITSVG  68
+
+Query  55   H--LGVIMAQHLISWLGFEGV-ELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            H  LGV           F  V         D  LAE      + A + T  +       R
+Sbjct  69   HHFLGVPELSGKSVDPIFPNVFRYDFSLNVDVELAEACAEEGRKAGLVTKMM-------R  121
+
+Query  112  YSRWPLTWGELIPLQFLEKK---PLVLLT-------PARRLSRETLIKAGEVLGEVLEGS  161
+              ++ + +G +  L  +  +   P+V ++          +     +   G+   E +  +
+Sbjct  122  NPKFRVDYGTITTLHLIRPQWDIPVVGISANNSPYYLNTKEGMSEMDVLGKATREAIRKT  181
+
+Query  162  EKKIALIVSADHGHAHDENGP---------YGYRKESEEYDRLIMELINESRLEELPEIP  212
+             +K  L+ S    H H    P         Y       ++D  ++EL+ + +  E+ ++ 
+Sbjct  182  GRKAVLLASNTLSHWHFHEEPTIPEDMSKEYPATMAGYQWDIRMIELMRQGKTSEVFKLL  241
+
+Query  213  DELIEKA-LPDSYWQMLIMLGAMH  235
+             + I++A           M  AM 
+Sbjct  242  PQFIDEAFAEVKSGAFTWMHAAMQ  265
+
+
+> sp|Q8PW40|Y1761_METMA MEMO1 family protein MM_1761 OS=Methanosarcina 
+mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / 
+JCM 11833 / OCM 88) OX=192952 GN=MM_1761 PE=3 SV=1
+Length=267
+
+ Score = 133 bits (335),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 33/213 (15%), Positives = 71/213 (33%), Gaps = 28/213 (13%)
+
+Query  26   AGVLKDIGKAFSDADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGL  85
+              V   +     +AD+YV+  P++      + V       + LG          + D  L
+Sbjct  52   GKVAAHVYATLPEADTYVIFGPNHTGYGSPVSVSRE-TWKTPLG--------NIDVDLEL  102
+
+Query  86   AEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRE  145
+            A+               +       +Y          +  +F     ++ +    +   E
+Sbjct  103  AD---------GFLGSIVDADELGHKYEHSIEVQLPFLQYRFERDFKILPICMGMQ-DEE  152
+
+Query  146  TLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRL  205
+            T ++ G +L +++  S K+  +I S+D  H       Y   + ++E D  +++ I    +
+Sbjct  153  TAVEVGNLLADLISESGKRAVIIASSDFTH-------YETAERAKEIDSEVIDSILNFDI  205
+
+Query  206  EELPEIPDELIEKALPDSYWQMLIMLGAMHRVP  238
+              +          A    Y  +  ML A  ++ 
+Sbjct  206  SGMY--DRLYRRNASVCGYGPITAMLTASKKLG  236
+
+
+> sp|Q8TT38|Y601_METAC MEMO1 family protein MA_0601 OS=Methanosarcina 
+acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 
+/ C2A) OX=188937 GN=MA_0601 PE=3 SV=1
+Length=267
+
+ Score = 131 bits (328),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 32/213 (15%), Positives = 71/213 (33%), Gaps = 28/213 (13%)
+
+Query  26   AGVLKDIGKAFSDADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGL  85
+              V   +     +AD+YVL  P++      + +                    W+T  G 
+Sbjct  52   GKVAAHVYATLPEADTYVLFGPNHTGYGSPVSLSRE----------------TWKTPLGT  95
+
+Query  86   AEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRE  145
+             +       G     VD         Y          +  +F     ++ +    +  ++
+Sbjct  96   IDVDLELADGFLGSIVDT--DELGHTYEHSIEVQLPFLQYRFGRDFKILPICMGMQ-DKD  152
+
+Query  146  TLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRL  205
+            T ++ G ++ +++  S K+  +I S+D  H       Y   + + E D  +++ I +  +
+Sbjct  153  TAVEVGSLVADLVSESGKRAVIIASSDFTH-------YETAEHARETDSEVIDAILKLDV  205
+
+Query  206  EELPEIPDELIEKALPDSYWQMLIMLGAMHRVP  238
+              + +        A    Y  +  ML A  ++ 
+Sbjct  206  PGMYDSL--YRRNASVCGYGPIAAMLSASQKLG  236
+
+
+> sp|B6F0W8|DODA_MIRJA 4,5-DOPA dioxygenase extradiol OS=Mirabilis 
+jalapa OX=3538 GN=DOD PE=1 SV=1
+Length=267
+
+ Score = 127 bits (318),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 46/269 (17%), Positives = 95/269 (35%), Gaps = 29/269 (11%)
+
+Query  2    LFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVRISDHLG-V  58
+            + G   + HG+P   L    K  + L G  +++        S ++IS H       +  V
+Sbjct  1    MKGTYYINHGDPLMYLKKHIKLRQFLEGWQENV--VIEKPKSILIISAHWDTNVPTVNFV  58
+
+Query  59   IMAQHLISWLGFEGVELPGEWETD--RGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWP  116
+                 +  +  +       ++       LA++V    K + +              ++  
+Sbjct  59   EHCDTIHDFDDYPDPLYQIQYRAPGAPNLAKKVEELLKESGMEC---------EIDTKRG  109
+
+Query  117  LTWGELIPLQFLEKK---PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADH  173
+            L      PL F+  +   P+  L+             G+ L  +L+     + +I S   
+Sbjct  110  LDHAAWFPLMFMYPEANIPICELSVQPSKDGIHHYNVGKALSPLLQQ---GVLIIGSGGT  166
+
+Query  174  GHAHDENG--PYGYRKESEEYDRLIMELINESRLEELPE----IPDELIEKALPDSYWQM  227
+             H  D+    P G    + E+D  + + +   R E++       P+  I     +  + +
+Sbjct  167  VHPSDDTPHCPNGVAPWAIEFDNWLEDALLSGRYEDVNNFKKLAPNWEISHPGQEHLYPL  226
+
+Query  228  LIMLGAMHRVP-VKLVESAYACPTYFGMA  255
+             + LGA  + P  +L+  ++A    FG +
+Sbjct  227  HVALGAAGKNPKTQLIHRSWAANGVFGYS  255
+
+
+> sp|Q6J1Z5|AMNA_COMTE 2-aminophenol 1,6-dioxygenase subunit alpha 
+OS=Comamonas testosteroni OX=285 GN=cnbCa PE=1 SV=1
+Length=271
+
+ Score = 124 bits (312),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 45/248 (18%), Positives = 90/248 (36%), Gaps = 27/248 (11%)
+
+Query  6    GLMP-HGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHNVRISDHLGVIMAQ  62
+             L+P    P L PE     +LA   +  GKA   S  D  ++ S   + + D   +   +
+Sbjct  7    FLVPGTPLPQLKPEVPSWGQLAAATERAGKALAASRPDVVLVYSTQWLAVLDQQWLTRPR  66
+
+Query  63   HL-----ISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPL  117
+                    +W  F   +L  +   D  LAE    +     +        +R   Y  +P+
+Sbjct  67   SEGVHVDENWYEFG--DLAYDIRADTALAEACVTSSPLHGV-------HARGVNYDGFPI  117
+
+Query  118  TWGELIPLQFL----EKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADH  173
+              G +     +    +  PLV+ +     S E   K   +  +  +   K++A++     
+Sbjct  118  DTGTITACTLMGIGTDAFPLVVGSNNLYHSGEITEKLAALAVDCAKDQNKRVAVVGVGGL  177
+
+Query  174  G-----HAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKA-LPDSYWQM  227
+                     D        +E ++++R +++LI    +  L E      ++A +   +  +
+Sbjct  178  SGSLFREEIDPREDRIANEEDDKWNRRVLKLIEAGDVSALREAMPVYAKEARVDMGFKHL  237
+
+Query  228  LIMLGAMH  235
+              +LGA+ 
+Sbjct  238  HWILGALK  245
+
+
+> sp|Q949R4|DIOXL_ARATH Extradiol ring-cleavage dioxygenase OS=Arabidopsis 
+thaliana OX=3702 GN=LIGB PE=2 SV=1
+Length=269
+
+ Score = 116 bits (290),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 39/249 (16%), Positives = 86/249 (35%), Gaps = 30/249 (12%)
+
+Query  2    LFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAF--SDADSYVLISPHN-VRISDHLGV  58
+            +     + HG+P LS +D    +     K   +        S ++IS H   +      V
+Sbjct  4    VNQTFFLSHGSPTLSIDDSL--EARQFFKSWTQKVLPQKPKSILVISAHWDTKFPSVNTV  61
+
+Query  59   IMAQHLISWLGFEGVELPGEWETD--RGLAEEVYNAW-KGAEIPTVDLHFASRSGRYSRW  115
+            +    +  + GF       ++E      L + V     K   +  VD          ++ 
+Sbjct  62   LRNNTIHDFSGFPDPMYKLKYEAPGAIELGKRVKELLMKEGGMKRVDED--------TKR  113
+
+Query  116  PLTWGELIPLQFLEKK---PLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSAD  172
+             L  G  +PL  +  +   P+  L+     +       G+ L  +    ++ + +I S  
+Sbjct  114  GLDHGAWVPLMLMYPEADIPICQLSVQSNQNGSYHYNMGKALASL---KDEGVLIIGSGS  170
+
+Query  173  HGHAHDENGPY----GYRKESEEYDRLIMELINESRLEELPE----IPDELIEKALPDSY  224
+              H   +             + E+D  + + + + R  ++ E     P+  +    P+  
+Sbjct  171  ATHNLRKLDFNITDGSPVPWALEFDHWLRDSLLQGRYGDVNEWEEKAPNAKMAHPWPEHL  230
+
+Query  225  WQMLIMLGA  233
+            + + +++GA
+Sbjct  231  YPLHVVMGA  239
+
+
+> sp|Q8TWR9|Y963_METKA MEMO1 family protein MK0963 OS=Methanopyrus 
+kandleri (strain AV19 / DSM 6324 / JCM 9639 / NBRC 100938) 
+OX=190192 GN=MK0963 PE=3 SV=1
+Length=283
+
+ Score = 113 bits (281),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 40/259 (15%), Positives = 77/259 (30%), Gaps = 41/259 (16%)
+
+Query  1    MLFGIGLMPHGNPALS-PEDKETEKLAGVLKDIGKAFSDA---------------DSYVL  44
+            M+        G   L    D        V    G  FS                 ++ V+
+Sbjct  22   MIEWCFRHELGPGDLPETNDGPCTLPGVVAPHAGYQFSGPVAAHTYKVLAESGTPETVVI  81
+
+Query  45   ISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLH  104
+            + P++  +   +  +      + LG          E D   A       +   +   DL 
+Sbjct  82   LGPNHTGLGSAVATMTDGAWRTPLG--------SVEIDSEFATA---LVRKCGVMDDDLT  130
+
+Query  105  FASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKK  164
+             A  +       L + + +   + E    V +  A     +T  + GE + +V E  ++ 
+Sbjct  131  -AHANEHSIEVQLPFLQYV---YGESFRFVPVCMAMH-DLQTAREVGEAIVDVAEELDRN  185
+
+Query  165  IALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSY  224
+              +I S D  H       Y    ++++ DR ++E I       + EI +           
+Sbjct  186  TVVIASTDFTH-------YEPHDQAQKKDRKVIERITALDEAGMIEIVE--RYNVSMCGV  236
+
+Query  225  WQMLIMLGAMHRVPVKLVE  243
+                  + A+  +     E
+Sbjct  237  GPTAATIVAVKAMGASEGE  255
+
+
+> sp|Q7XA48|DODA_PORGR 4,5-DOPA dioxygenase extradiol OS=Portulaca 
+grandiflora OX=3583 GN=DODA PE=1 SV=1
+Length=271
+
+ Score = 111 bits (276),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 36/246 (15%), Positives = 79/246 (32%), Gaps = 28/246 (11%)
+
+Query  3    FGIGLMPHGNPALSPEDKETEK--LAGVLKDIGKAFSDADSYVLISPHNVRISDHLGV-I  59
+                 + HGNPA+  ++    +  L G  K++        S +++S H       +    
+Sbjct  10   KESFFLSHGNPAMLADESFIARNFLLGWKKNVFPV--KPKSILVVSAHWETDVPCVSAGQ  67
+
+Query  60   MAQHLISWLGFEGVELPGEWETD--RGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPL  117
+                +  +          ++       LA+ V          +  L              
+Sbjct  68   YPNVIYDFTEVPASMFQMKYPAPGCPKLAKRVQELLIAGGFKSAKLD--------EERGF  119
+
+Query  118  TWGELIPLQFL---EKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHG  174
+                 +PL  +      P+  L+    L        G  L  +     + +  I S    
+Sbjct  120  DHSSWVPLSMMCPEADIPVCQLSVQPGLDATHHFNVGRALAPL---KGEGVLFIGSGGAV  176
+
+Query  175  HAHDENGPY--GYRKESEEYDRLIMELINESRLEEL----PEIPD-ELIEKALPDSYWQM  227
+            H  D+   +  G    + E+D+ + + + E R E++     + P+   +   +P+ +  +
+Sbjct  177  HPSDDTPHWFDGVAPWAAEFDQWLEDALLEGRYEDVNNYQTKAPEGWKLAHPIPEHFLPL  236
+
+Query  228  LIMLGA  233
+             + +GA
+Sbjct  237  HVAMGA  242
+
+
+> sp|O26151|Y045_METTH MEMO1 family protein MTH_45 OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 1053 
+/ JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=MTH_45 PE=3 
+SV=1
+Length=277
+
+ Score = 107 bits (268),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 39/253 (15%), Positives = 77/253 (30%), Gaps = 41/253 (16%)
+
+Query  2    LFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYVLIS  46
+            +        G   L            +    G  +S                  + V+I 
+Sbjct  23   IEWCFEHELGPGTLPAVGSMRRIKGVIAPHAGYMYSGPVAAHAYHELVSDGIPGTLVIIC  82
+
+Query  47   PHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFA  106
+            P++  +   + ++      + LG          E D  LAE +    + + I  +D   A
+Sbjct  83   PNHTGMGSGVSLMQQGAWETPLG--------TVEIDSELAEAIV---RESGIIDLDET-A  130
+
+Query  107  SRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIA  166
+              +       + + +     F +   +V +T   +   ET    G  +   +  + +  A
+Sbjct  131  HLAEHSCEVHVPFIQ----YFTDNFRIVPVTMWMQ-GHETAADVGHAVASAIRETGRDAA  185
+
+Query  167  LIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQ  226
+            +I S D  H       Y  +  +E  DR I++ I       +  +  EL   A    Y  
+Sbjct  186  VIASTDFTH-------YSPQDIAEATDRRIIDRITAMDDTGMYGVISEL--NATMCGYGP  236
+
+Query  227  MLIMLGAMHRVPV  239
+            +   + A   +  
+Sbjct  237  VAATIIASRILGA  249
+
+
+> sp|A1RTJ4|Y1105_PYRIL MEMO1 family protein Pisl_1105 OS=Pyrobaculum 
+islandicum (strain DSM 4184 / JCM 9189 / GEO3) OX=384616 
+GN=Pisl_1105 PE=3 SV=1
+Length=281
+
+ Score = 102 bits (253),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 40/235 (17%), Positives = 80/235 (34%), Gaps = 41/235 (17%)
+
+Query  23   EKLAGVLKDIGKAFS---------------DADSYVLISPHNVRISDHLGVIMAQHLISW  67
+            E L GV    G  +S                 D +++I P++  I   + ++ +    + 
+Sbjct  45   ETLGGVAPHAGYIYSGPVAAWVYSALAGFGKPDVFIIIGPNHYGIGAPVAIMKSGVWETP  104
+
+Query  68   LGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQF  127
+            LG          E D  LAE++   +K  E    D   A          + + +     F
+Sbjct  105  LG--------RVEIDGELAEKIMRYFKELE----DDFHAFSREHSIEVQIPFIQ----YF  148
+
+Query  128  LEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRK  187
+                 +V +T  R+ +  T  + G+ L   +    ++  +I S+D  H       Y +  
+Sbjct  149  FGDVKIVPITIWRQ-TLSTSRELGKALANAIREYGRRAYIIASSDFNH-------YEHHD  200
+
+Query  188  ESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPVKLV  242
+             + + D + +  I +     L E+  +            +  ++ A   +  K V
+Sbjct  201  ITTKKDEMAIGKILQLDETGLFEVASKF--DISICGIGPIGALIVAAKELGYKNV  253
+
+
+> sp|Q8ZYE1|Y818_PYRAE MEMO1 family protein PAE0818 OS=Pyrobaculum 
+aerophilum (strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 
+/ NBRC 100827) OX=178306 GN=PAE0818 PE=3 SV=1
+Length=281
+
+ Score = 98.8 bits (244),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 43/247 (17%), Positives = 83/247 (34%), Gaps = 41/247 (17%)
+
+Query  11   GNPALSPEDKETEKLAGVLKDIGKAFS---------------DADSYVLISPHNVRISDH  55
+            G  AL       E L GV    G  +S                 D +V++ P++  I   
+Sbjct  33   GPKALQMPKLGGEALGGVAPHAGYMYSGPVAAWLYSALAGYGKPDVFVIVGPNHYGIGAP  92
+
+Query  56   LGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRW  115
+            + ++ +    + LG          E DR LAE + + +K  E    D  +A         
+Sbjct  93   VAIMKSGAWETPLG--------RVEVDRELAEVITSHFKEVE----DDFYAFSKEHSVEV  140
+
+Query  116  PLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGH  175
+             + + +     +     +V +   R+ +  T  + G  + + L+   +K  +I S+D  H
+Sbjct  141  QVPFIQ----YYFGDVKIVPIVMWRQ-TLSTSRELGRAIAKALKEYGRKAYVIASSDFNH  195
+
+Query  176  AHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMH  235
+                   Y     +   D + +  I +     L EI  +            + +++ A  
+Sbjct  196  -------YEPHDITTRKDEMAISKILKLDEAGLFEISSKF--DISICGIGPIGVLIAAAK  246
+
+Query  236  RVPVKLV  242
+             +    V
+Sbjct  247  ELGYINV  253
+
+
+> sp|Q9V189|Y539_PYRAB MEMO1 family protein PYRAB05390 OS=Pyrococcus 
+abyssi (strain GE5 / Orsay) OX=272844 GN=PYRAB05390 PE=3 
+SV=1
+Length=291
+
+ Score = 96.8 bits (239),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 41/245 (17%), Positives = 81/245 (33%), Gaps = 43/245 (18%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAFSD---------------ADSYVLI  45
+            ML            L  +    +  AGV    G  FS                 +++V+ 
+Sbjct  21   MLEEFF------RDLGEQGNSRKITAGVAPHAGYVFSGYTASRTYKAIYEDGLPETFVIF  74
+
+Query  46   SPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHF  105
+             P++  +   + V      ++ LG        + + D  LA+E+    K A++  +    
+Sbjct  75   GPNHTGLGSPIAVYPEGDWVTPLG--------KVKIDSELAKEIVKLSKIADLDDL----  122
+
+Query  106  ASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKI  165
+            A +        L + + I  +      +V +T   +   +     G  + E  E   + +
+Sbjct  123  AHKYEHSIEVQLPFIQYIAEKAGTDFRIVPITLGIQ-DEDVSEALGRAVFEAAEALGRDV  181
+
+Query  166  ALIVSADHGHAHDENGPYGYRKES-------EEYDRLIMELINESRLEELPEIPDELIEK  218
+             +I S D  H     G   +R  +       +E+D  I+  I +  L+ + E   E+   
+Sbjct  182  IVIASTDFMHYGSFYGYVPFRGRANELPNMVKEWDMRIIRRILDFDLKGMFEEIREMDH-  240
+
+Query  219  ALPDS  223
+                 
+Sbjct  241  -TMCG  244
+
+
+> sp|Q96YW6|Y2062_SULTO MEMO1 family protein STK_20620 OS=Sulfurisphaera 
+tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 
+/ 7) OX=273063 GN=STK_20620 PE=3 SV=1
+Length=284
+
+ Score = 96.4 bits (238),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 39/258 (15%), Positives = 91/258 (35%), Gaps = 44/258 (17%)
+
+Query  2    LFGIGLMPHGN---PALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYV  43
+            +    L P G    P + P+  +   L  ++   G  +S                 D+ +
+Sbjct  23   IEWSFLHPLGPGKIPQVPPQKSKRNNLFFIVPHAGYMYSGPVAAHAYYYLASEGIPDTVI  82
+
+Query  44   LISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDL  103
+            ++ P++  +  ++ +       + LG        E E D  +A    +  + +E+  +D 
+Sbjct  83   ILGPNHTGLGSYVSLWPKGKWKTPLG--------EIEIDEQIA---MDLVRESEVIDID-  130
+
+Query  104  HFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEG-SE  162
+              A          + +   +   F  K  +V +    +    +     E + ++++   +
+Sbjct  131  EKAHLYEHSIEVQVPF---LQYFFDSKTKIVPIVIMMQTPEISEY-LAEGISKIMQKYKD  186
+
+Query  163  KKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPD  222
+            K I +I S+D  H       Y   +++ E D + +E I     + L  + +E  +     
+Sbjct  187  KDIVVIASSDMNH-------YEPHEKTIEKDNMAIEKILSLDYKGLFNVVEE--KDVTAC  237
+
+Query  223  SYWQMLIMLGAMHRVPVK  240
+             +  M+ +L    +   K
+Sbjct  238  GFGPMMTVLMLAKKFNKK  255
+
+
+> sp|A5UN65|Y1438_METS3 MEMO1 family protein Msm_1438 OS=Methanobrevibacter 
+smithii (strain ATCC 35061 / DSM 861 / OCM 144 
+/ PS) OX=420247 GN=Msm_1438 PE=3 SV=1
+Length=282
+
+ Score = 96.1 bits (237),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 34/275 (12%), Positives = 83/275 (30%), Gaps = 45/275 (16%)
+
+Query  2    LFGIGLMPHGN---PALSPEDKETEKLAGVLKDIGKAFSD---------------ADSYV  43
+            +    L   G    P +   +     +  ++   G  +S                 + ++
+Sbjct  23   IEDCFLHSFGPGKIPDIESFEGNDYPVNVMVPHAGFQYSGTIAAHSYCELAKNGFPEVFI  82
+
+Query  44   LISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDL  103
+            +I P++  +   + V      I+ LG          + D   A+ + +    ++  + D 
+Sbjct  83   IIGPNHTGLGSEVSVFNKGEWITPLG--------NIQVDEEFADTLISF---SDFASADF  131
+
+Query  104  HFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEK  163
+              A          L + +     F     +V +    + +          + +  E  +K
+Sbjct  132  A-AHMREHSIEVQLPFLQ----YFSNDFKIVPVVLGSQ-TISAANDLAAAILKAGEKLDK  185
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDS  223
+               +I S+D  H       +  ++ + + D  ++E I      E   + + +        
+Sbjct  186  SYCVIASSDLSH-------FNTQERANKVDGFVLEDIENMD--EFKLLEEIIQYNITMCG  236
+
+Query  224  YWQMLIMLGAMHRVPVKLVESAYACPTYFGMAGAL  258
+            Y  ++  +        K      A  T   ++G L
+Sbjct  237  YGPVMTTMILSKMCG-KNTSEILAYKTSGDISGDL  270
+
+
+> sp|Q8U0F2|Y1638_PYRFU MEMO1 family protein PF1638 OS=Pyrococcus 
+furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) 
+OX=186497 GN=PF1638 PE=3 SV=1
+Length=292
+
+ Score = 94.9 bits (234),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 36/226 (16%), Positives = 76/226 (34%), Gaps = 35/226 (15%)
+
+Query  15   LSPEDKETEKLAGVLKDIGKAFSD---------------ADSYVLISPHNVRISDHLGVI  59
+            L  E       AGV    G  FS                 + +V++ P++  +   + V 
+Sbjct  29   LGEEGNSRRITAGVAPHAGYIFSGYTASRTYKAIYEDGLPEVFVILGPNHTGLGSPIAVY  88
+
+Query  60   MAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTW  119
+                  + LG          + D  LA  +    + A++  +    A +        L +
+Sbjct  89   PKGEWETPLG--------RIKVDEKLARRITELSEIADLDDL----AHKYEHSIEVQLPF  136
+
+Query  120  GELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDE  179
+             + +     +   +V +T   +   E     G+ + E  +   + I +I S D  H  + 
+Sbjct  137  IQYLAELSGKDVKIVPITLGIQ-DEEVSYALGKAIYEASQELGRDIVVIASTDFMHYGEF  195
+
+Query  180  NGPYGYRKESE-------EYDRLIMELINESRLEELPEIPDELIEK  218
+             G   +R  ++       E+D  ++  I +  +E + E  + +   
+Sbjct  196  YGYVPFRARADELPNLVKEWDMRVIRRILDFDVEGMFEEINAMNHT  241
+
+
+> sp|Q4JCG3|Y089_SULAC MEMO1 family protein Saci_0089 OS=Sulfolobus 
+acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 
+/ NBRC 15157 / NCIMB 11770) OX=330779 GN=Saci_0089 PE=3 SV=1
+Length=284
+
+ Score = 93.7 bits (231),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 34/241 (14%), Positives = 80/241 (33%), Gaps = 37/241 (15%)
+
+Query  3    FGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAFS---DADSYVLISPHNVRISDHLGVI  59
+                ++PH     S           V        S     D+ +++ P++  +  ++ + 
+Sbjct  49   NRFFVVPHAGYMYSG---------PVAAHAYYHLSLEGSPDTVIILGPNHTGLGSYVSIW  99
+
+Query  60   MAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTW  119
+                  + LG        E   D  ++       K  EI  +D   A          + +
+Sbjct  100  HKGKWKTPLG--------EVSVDDEIS---LELVKLTEIIDID-ERAHLYEHSIEVQIPF  147
+
+Query  120  GELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDE  179
+               +   F +   +V +    +   +      E + +++   +K I ++ S+D  H    
+Sbjct  148  ---LQYLFGQNFKIVPIVIMMQTP-DVAESLAEGIYKLVSSGKKDIVVLASSDLNH----  199
+
+Query  180  NGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPV  239
+               Y    ++ E D L ++ I +   + L  + +E  +      Y  ++ +L    ++  
+Sbjct  200  ---YEPHDKTIEKDNLAIDEIQKLDYKGLFRVVEE--KDVTACGYGPIMTVLILAKKLGK  254
+
+Query  240  K  240
+            K
+Sbjct  255  K  255
+
+
+> sp|A4WH12|Y062_PYRAR MEMO1 family protein Pars_0062 OS=Pyrobaculum 
+arsenaticum (strain DSM 13514 / JCM 11321 / PZ6) OX=340102 
+GN=Pars_0062 PE=3 SV=1
+Length=281
+
+ Score = 91.4 bits (225),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 38/247 (15%), Positives = 82/247 (33%), Gaps = 41/247 (17%)
+
+Query  11   GNPALSPEDKETEKLAGVLKDIGKAFS---------------DADSYVLISPHNVRISDH  55
+            G  AL       + L GV+   G  +S                 D+ ++I P++  I   
+Sbjct  33   GPKALQMPKLGEKALGGVVPHAGYIYSGPVAAWLYSALAGYGKPDAIIIIGPNHYGIGAP  92
+
+Query  56   LGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRW  115
+            + V+ +    + LG          E D  LAE +   +KG E    D  +A         
+Sbjct  93   VAVMKSGVWETPLG--------RVEVDGDLAELIMRHYKGVE----DDFYAFSKEHSVEV  140
+
+Query  116  PLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGH  175
+             + + +     +     +V +   R+ +  T  + G+ +   +    + + ++ S+D  H
+Sbjct  141  QIPFIQ----YYFGDVRIVPIVVWRQ-TLSTSRELGKAVATAIREYGRYVYVLASSDFNH  195
+
+Query  176  AHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMH  235
+                   Y   + + + D + +  I +     L E+  +            +  ++    
+Sbjct  196  -------YEPHEVTVQKDDMAISKILKVDEAGLFEVASKF--DISICGLGPIGALIVIAK  246
+
+Query  236  RVPVKLV  242
+             +    V
+Sbjct  247  ELGFGNV  253
+
+
+> sp|Q5JJC3|Y1477_THEKO MEMO1 family protein TK1477 OS=Thermococcus 
+kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1) OX=69014 
+GN=TK1477 PE=3 SV=1
+Length=291
+
+ Score = 91.4 bits (225),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 40/231 (17%), Positives = 77/231 (33%), Gaps = 37/231 (16%)
+
+Query  15   LSPEDKETEKLAGVLKDIGKAFSD---------------ADSYVLISPHNVRISDHLGVI  59
+            L  E  +    AGV    G  FS                 +++V++ P++  +   + V 
+Sbjct  29   LGEEGNDRRITAGVAPHAGYIFSGYTASRTYKAIFEDGLPETFVILGPNHTGLGSPIAVH  88
+
+Query  60   MAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTW  119
+                 I+ LG        E E D  LA       K + I  +D   A +        + +
+Sbjct  89   PPGTWITPLG--------EIEVDGELAR---EIAKISGIADLD-DLAHKYEHSIEVQVPF  136
+
+Query  120  GELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDE  179
+             + +  +  ++  +V +T   +   +     G  + E      K + +I S D  H    
+Sbjct  137  IQYLAEKAGKEVKIVPITLGIQ-DEDVAEDLGRAIFEASRELGKDVVVIASTDFMHYGQI  195
+
+Query  180  NGPYGYRKESE-------EYDRLIMELINESRLEELPEIPDELIEKALPDS  223
+             G   +R  ++       E+D  I+  I +  +  + E   E+        
+Sbjct  196  YGYVPFRARADELPHRIKEWDFRIIRRILDFDVRGMFEEIREMNH--TMCG  244
+
+
+> sp|O27974|Y2310_ARCFU MEMO1 family protein AF_2310 OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 
+9628 / NBRC 100126) OX=224325 GN=AF_2310 PE=3 SV=1
+Length=261
+
+ Score = 89.5 bits (220),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 31/205 (15%), Positives = 70/205 (34%), Gaps = 29/205 (14%)
+
+Query  36   FSDADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKG  95
+              DA+++V++ P++      + V      ++ LG        E E D    E +      
+Sbjct  58   LPDAETFVIVGPNHTGYGLPVAVST-DTWLTPLG--------EVEVDTEFVEAMPK----  104
+
+Query  96   AEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLG  155
+              I T     A R        + + + +         +V +    +   ET ++  E + 
+Sbjct  105  --IITAPDEIAHRYEHSLEVQVPFLQYLHD----DFKIVPICLGMQ-DEETAMEVAEEIL  157
+
+Query  156  EVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDEL  215
+                 + +K+ +I S+D  H       Y   +E    D ++++ I    +++  E     
+Sbjct  158  TAERETGRKVVVIASSDMHH-------YLPDEECRRLDSIVIDAILSMDVKKYYET--IY  208
+
+Query  216  IEKALPDSYWQMLIMLGAMHRVPVK  240
+              +A    Y  + + +        +
+Sbjct  209  RLQASVCGYGCIAVAMYYSKAKGAR  233
+
+
+> sp|C5A7L6|Y1726_THEGJ MEMO1 family protein TGAM_1726 OS=Thermococcus 
+gammatolerans (strain DSM 15229 / JCM 11827 / EJ3) OX=593117 
+GN=TGAM_1726 PE=3 SV=1
+Length=291
+
+ Score = 89.9 bits (221),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 39/259 (15%), Positives = 85/259 (33%), Gaps = 37/259 (14%)
+
+Query  15   LSPEDKETEKLAGVLKDIGKAFSD---------------ADSYVLISPHNVRISDHLGVI  59
+            L  E  E    AGV    G  FS                 +++V++ P++  +   + V 
+Sbjct  29   LGEEGSERRITAGVAPHAGYIFSGYTASRTYKAIFEDGLPETFVILGPNHTGLGSPIAVY  88
+
+Query  60   MAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTW  119
+                 ++ LG          E D  +A+E+      + I  +D   A +        + +
+Sbjct  89   PEGEWLTPLG--------SIEVDAEMAKEIAKL---SGIADLD-ELAHKYEHSIEVQVPF  136
+
+Query  120  GELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDE  179
+             + +     ++  +V +T   +   +     G+ + E  E   + + +I S D  H    
+Sbjct  137  IQYLTELAGKEVKIVPITLGIQ-DEDVSRALGKAIFEASEKLGRDVVVIASTDFMHYGPA  195
+
+Query  180  NGPYGYRKESE-------EYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+             G   +R  ++       E+D  ++  I +  ++ L     E+           +   + 
+Sbjct  196  YGYVPFRARADELPHRIKEWDFRLIRRILDFDVDGLFRELREMRH--TMCGPGAVGTAIV  253
+
+Query  233  AMHRVPVKLVESAYACPTY  251
+                      E  +   +Y
+Sbjct  254  YSRLAGAVEAELLHYTTSY  272
+
+
+> sp|A3MS51|Y028_PYRCJ MEMO1 family protein Pcal_0028 OS=Pyrobaculum 
+calidifontis (strain JCM 11548 / VA1) OX=410359 GN=Pcal_0028 
+PE=3 SV=1
+Length=281
+
+ Score = 89.5 bits (220),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 35/235 (15%), Positives = 78/235 (33%), Gaps = 41/235 (17%)
+
+Query  22   TEKLAGVLKDIGKAFSDA---------------DSYVLISPHNVRISDHLGVIMAQHLIS  66
+            TE L GV+   G  +S                  ++V+I P++  I   + ++ +    +
+Sbjct  44   TEALGGVVPHAGYMYSGPVAAWLYSALAGYGAPTTFVIIGPNHYGIGAPVAIMKSGAWET  103
+
+Query  67   WLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQ  126
+              G          E D  LA  + + ++  E    D   A          L + +     
+Sbjct  104  PFG--------RVEIDEELASLIASNYREIE----DDAHAFSKEHSIEVQLPFIQ----Y  147
+
+Query  127  FLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYR  186
+            + +    V +   R+ +  T  + G+ + + L   ++++ L+ S+D  H       Y   
+Sbjct  148  YFKNVKFVPIAVWRQ-TLSTSRELGKAIAKALREYKRRVYLLASSDFNH-------YEPH  199
+
+Query  187  KESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPVKL  241
+              + + D + +  I E     L ++               +  ++ A   +    
+Sbjct  200  DVTVKKDDMAIGKILELDEAGLFDVASRF--DISICGIGPIASVIVAAKELGFSN  252
+
+
+> sp|B6YST0|Y132_THEON MEMO1 family protein TON_0132 OS=Thermococcus 
+onnurineus (strain NA1) OX=523850 GN=TON_0132 PE=3 SV=1
+Length=291
+
+ Score = 89.1 bits (219),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 38/245 (16%), Positives = 84/245 (34%), Gaps = 43/245 (18%)
+
+Query  1    MLFGIGLMPHGNPALSPEDKETEKLAGVLKDIGKAFSD---------------ADSYVLI  45
+            ML            L     E +  AGV+   G  FS                 +++V++
+Sbjct  21   MLEKFF------RDLGEHGSERKITAGVVPHAGYVFSGYTASRTFKAIYEDGLPETFVIL  74
+
+Query  46   SPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHF  105
+             P++  I   + V  +   ++ LG        E E D  +A+ +      + I  +D   
+Sbjct  75   GPNHTGIGSPIAVYPSGSWLTPLG--------EIEVDSEMAKTIAKL---SGIADLD-EL  122
+
+Query  106  ASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKI  165
+            A +        L + + +  +      +V +T   +   E +   G+ + E     ++ +
+Sbjct  123  AHKYEHSIEVQLPFIQYLAEKARTDVRIVPITLGIQ-DEEVVEDLGKAIYEAANELDRDV  181
+
+Query  166  ALIVSADHGHAHDENGPYGYRKESE-------EYDRLIMELINESRLEELPEIPDELIEK  218
+             +I S D  H     G   +R  ++       E+D  +++ I +  ++ +     ++   
+Sbjct  182  VIIASTDFMHYGPAYGYVPFRARADELPHRVKEWDFRVIQKILDFDVKGMFGELRKMDH-  240
+
+Query  219  ALPDS  223
+                 
+Sbjct  241  -TMCG  244
+
+
+> sp|C3N060|Y2134_SULIA MEMO1 family protein M1627_2134 OS=Sulfolobus 
+islandicus (strain M.16.27) OX=427318 GN=M1627_2134 PE=3 
+SV=1
+Length=284
+
+ Score = 88.7 bits (218),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 35/248 (14%), Positives = 84/248 (34%), Gaps = 41/248 (17%)
+
+Query  9    PHGNPALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYVLISPHNVRIS  53
+            P   P  + E K+ + L  V+   G  +S                 D  +++ P++  + 
+Sbjct  33   PRDIPKQTYEKKKRDNLFFVVPHAGYIYSGPVAAHSYYYLVSEGRPDVVIILGPNHTGLG  92
+
+Query  54   DHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYS  113
+             ++         + LG          + D  +   +    K +E+  +D   +       
+Sbjct  93   SYVSAWPKGEWETPLG--------SVKIDEEI---LMQLVKESEVIDLD-EKSHLYEHSI  140
+
+Query  114  RWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS-EKKIALIVSAD  172
+               L +   +   F +   +V +    +   E      + +  V++ + +K I ++ S+D
+Sbjct  141  EVQLPF---LQYFFDDDFKIVPIVIMMQTP-EIAEFLADAIYNVMQKNPDKDIVVLASSD  196
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H       Y   + + + D   +E I +   + L E+ +   +      Y  +++ L 
+Sbjct  197  MNH-------YDPHEITVKKDEEAIEKIQQLDYKGLYEVVE--GKDVTLCGYGPIMVNLI  247
+
+Query  233  AMHRVPVK  240
+               +   K
+Sbjct  248  LAKKFGKK  255
+
+
+> sp|C4KJ99|Y2061_SULIK MEMO1 family protein M164_2061 OS=Sulfolobus 
+islandicus (strain M.16.4 / Kamchatka #3) OX=426118 GN=M164_2061 
+PE=3 SV=1
+Length=284
+
+ Score = 88.7 bits (218),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 35/248 (14%), Positives = 84/248 (34%), Gaps = 41/248 (17%)
+
+Query  9    PHGNPALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYVLISPHNVRIS  53
+            P   P  + E K+ + L  V+   G  +S                 D  +++ P++  + 
+Sbjct  33   PRDIPKQTYEKKKRDNLFFVVPHAGYIYSGPVAAHSYYYLVSEGRPDVVIILGPNHTGLG  92
+
+Query  54   DHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYS  113
+             ++         + LG          + D  +   +    K +E+  +D   +       
+Sbjct  93   SYVSAWPKGEWETPLG--------SVKIDEEI---LMQLVKESEVIDLD-EKSHLYEHSI  140
+
+Query  114  RWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS-EKKIALIVSAD  172
+               L +   +   F +   +V +    +   E      + +  V++ + +K I ++ S+D
+Sbjct  141  EVQLPF---LQYFFDDDFKIVPIVIMMQTP-EIAEFLADAIYNVMQKNPDKDIVVLASSD  196
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H       Y   + + + D   +E I +   + L E+ +   +      Y  +++ L 
+Sbjct  197  MNH-------YDPHEITVKKDEEAIEKIQQLDYKGLYEVVE--GKDVTLCGYGPIMVNLI  247
+
+Query  233  AMHRVPVK  240
+               +   K
+Sbjct  248  LAKKFGKK  255
+
+
+> sp|C3MZ11|Y2054_SULIM MEMO1 family protein M1425_2054 OS=Sulfolobus 
+islandicus (strain M.14.25 / Kamchatka #1) OX=427317 
+GN=M1425_2054 PE=3 SV=1
+Length=284
+
+ Score = 88.7 bits (218),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 35/248 (14%), Positives = 84/248 (34%), Gaps = 41/248 (17%)
+
+Query  9    PHGNPALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYVLISPHNVRIS  53
+            P   P  + E K+ + L  V+   G  +S                 D  +++ P++  + 
+Sbjct  33   PRDIPKQTYEKKKRDNLFFVVPHAGYIYSGPVAAHSYYYLVSEGRPDVVIILGPNHTGLG  92
+
+Query  54   DHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYS  113
+             ++         + LG          + D  +   +    K +E+  +D   +       
+Sbjct  93   SYVSAWPKGEWETPLG--------SVKIDEEI---LMQLVKESEVIDLD-EKSHLYEHSI  140
+
+Query  114  RWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS-EKKIALIVSAD  172
+               L +   +   F +   +V +    +   E      + +  V++ + +K I ++ S+D
+Sbjct  141  EVQLPF---LQYFFDDDFKIVPIVIMMQTP-EIAEFLADAIYNVMQKNPDKDIVVLASSD  196
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H       Y   + + + D   +E I +   + L E+ +   +      Y  +++ L 
+Sbjct  197  MNH-------YDPHEITVKKDEEAIEKIQQLDYKGLYEVVE--GKDVTLCGYGPIMVNLI  247
+
+Query  233  AMHRVPVK  240
+               +   K
+Sbjct  248  LAKKFGKK  255
+
+
+> sp|C3NMP4|Y739_SULIN MEMO1 family protein YN1551_0739 OS=Sulfolobus 
+islandicus (strain Y.N.15.51 / Yellowstone #2) OX=419942 
+GN=YN1551_0739 PE=3 SV=1
+Length=284
+
+ Score = 88.0 bits (216),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 35/248 (14%), Positives = 84/248 (34%), Gaps = 41/248 (17%)
+
+Query  9    PHGNPALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYVLISPHNVRIS  53
+            P   P  + E K+ + L  V+   G  +S                 D  +++ P++  + 
+Sbjct  33   PRDIPKQTYEKKKRDNLFFVVPHAGYIYSGPVAAHSYYYLVSEGRPDVVIILGPNHTGLG  92
+
+Query  54   DHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYS  113
+             ++         + LG          + D  +   +    K +E+  +D   +       
+Sbjct  93   SYVSAWPKGEWETPLG--------SVKIDEEI---LMQLVKESEVIDLD-EKSHLYEHSI  140
+
+Query  114  RWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS-EKKIALIVSAD  172
+               L +   +   F +   +V +    +   E      + +  V++ + +K I ++ S+D
+Sbjct  141  EVQLPF---LQYFFDDDFKIVPIVIMMQTP-EIAEFLADAIYNVMQKNPDKDIVVLASSD  196
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H       Y   + + + D   +E I +   + L E+ +   +      Y  +++ L 
+Sbjct  197  MNH-------YDPHEITVKKDVEAIEKIQQLDYKGLYEVVE--GKDVTLCGYGPIMVNLI  247
+
+Query  233  AMHRVPVK  240
+               +   K
+Sbjct  248  LAKKFGKK  255
+
+
+> sp|P95994|Y066_SACS2 MEMO1 family protein SSO0066 OS=Saccharolobus 
+solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 
+/ P2) OX=273057 GN=SSO0066 PE=3 SV=1
+Length=284
+
+ Score = 88.0 bits (216),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 34/248 (14%), Positives = 84/248 (34%), Gaps = 41/248 (17%)
+
+Query  9    PHGNPALSPEDKETEKLAGVLKDIGKAFS---------------DADSYVLISPHNVRIS  53
+            P   P  S E K+ + L  ++   G  +S                 D  +++ P++  + 
+Sbjct  33   PRDIPKQSYEKKKRDNLFFIVPHAGYIYSGPVAAHSYYYLASEGKPDVVIILGPNHTGLG  92
+
+Query  54   DHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYS  113
+             ++         + LG          + D  +   +      +E+  ++   +       
+Sbjct  93   SYVSAWPKGEWETPLG--------SVKVDEEV---LMQLVMESEVIDLE-EKSHLYEHSI  140
+
+Query  114  RWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEG-SEKKIALIVSAD  172
+               L +   +   F +   +V +    +   E      + + +V++  S+K I ++ S+D
+Sbjct  141  EVQLPF---LQYFFDDNFKIVPIVIMMQTP-EIAEFLADAIYKVIQKYSDKDIVVLASSD  196
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H       Y   + + + D   +E I +     L E+ +   +      Y  +++ L 
+Sbjct  197  MNH-------YDPHEITMKKDEEAIEKIQQLDYRGLYEVVE--GKDVTLCGYGPIMVSLI  247
+
+Query  233  AMHRVPVK  240
+               ++  K
+Sbjct  248  LAKKLGKK  255
+
+
+> sp|C3N8S4|Y2180_SULIY MEMO1 family protein YG5714_2180 OS=Sulfolobus 
+islandicus (strain Y.G.57.14 / Yellowstone #1) OX=439386 
+GN=YG5714_2180 PE=3 SV=1
+Length=284
+
+ Score = 87.6 bits (215),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 35/248 (14%), Positives = 84/248 (34%), Gaps = 41/248 (17%)
+
+Query  9    PHGNPALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYVLISPHNVRIS  53
+            P   P  + E K+ + L  V+   G  +S                 D  +++ P++  + 
+Sbjct  33   PRDIPKQTYEKKKRDNLFFVVPHAGYIYSGPVAAHSYYYLVSEGRPDVVIILGPNHTGLG  92
+
+Query  54   DHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYS  113
+             ++         + LG          + D  +   +    K +E+  +D   +       
+Sbjct  93   SYVSAWPKGEWETPLG--------SVKIDEEI---LMQLVKESEVIDLD-EKSHLYEHSI  140
+
+Query  114  RWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS-EKKIALIVSAD  172
+               L + +     F +   +V +    +   E      + +  V++ + +K I ++ S+D
+Sbjct  141  EVQLPFLQH---FFDDDFKIVPIVIMMQTP-EIAEFLADAIYNVMQKNPDKDIVVLASSD  196
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H       Y   + + + D   +E I +   + L E+ +   +      Y  +++ L 
+Sbjct  197  MNH-------YDPHEITVKKDVEAIEKIQQLDYKGLYEVVE--GKDVTLCGYGPIMVNLI  247
+
+Query  233  AMHRVPVK  240
+               +   K
+Sbjct  248  LAKKFGKK  255
+
+
+> sp|C3MJQ3|Y2219_SULIL MEMO1 family protein LS215_2219 OS=Sulfolobus 
+islandicus (strain L.S.2.15 / Lassen #1) OX=429572 GN=LS215_2219 
+PE=3 SV=1
+Length=284
+
+ Score = 87.2 bits (214),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 35/248 (14%), Positives = 85/248 (34%), Gaps = 41/248 (17%)
+
+Query  9    PHGNPALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYVLISPHNVRIS  53
+            P   P  + E K+ + L  V+   G  +S                 D  +++ P++  + 
+Sbjct  33   PRDIPKQTYEKKKRDNLFFVVPHAGYIYSGPVAAHSYYYLVSEGRPDVVIILGPNHTGLG  92
+
+Query  54   DHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYS  113
+             ++         + LG          + D  +   +    K +E+  +D   +       
+Sbjct  93   SYVSAWPKGEWETPLG--------SVKIDEEI---LMQLVKESEVIDLD-EKSHLYEHSI  140
+
+Query  114  RWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS-EKKIALIVSAD  172
+               L +   +   F +   +V +    + + E      + +  V++ + +K I ++ S+D
+Sbjct  141  EVQLPF---LQYFFDDDFKIVPIVIMMQ-TLEIAEFLADAIYNVMQKNPDKDIVVLASSD  196
+
+Query  173  HGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLG  232
+              H       Y   + + + D   +E I +   + L E+ +   +      Y  +++ L 
+Sbjct  197  MNH-------YDPHEITVKKDVEAIEKIQQLDYKGLYEVVE--GKDVTLCGYGPIMVNLI  247
+
+Query  233  AMHRVPVK  240
+               +   K
+Sbjct  248  LAKKFGKK  255
+
+
+> sp|B9K748|Y605_THENN MEMO1 family protein CTN_0605 OS=Thermotoga 
+neapolitana (strain ATCC 49049 / DSM 4359 / NS-E) OX=309803 
+GN=CTN_0605 PE=3 SV=1
+Length=277
+
+ Score = 81.4 bits (199),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 36/248 (15%), Positives = 74/248 (30%), Gaps = 45/248 (18%)
+
+Query  2    LFGIGLMPH-GNPALSP--EDKETEKLAGVLKDIGKAFS---------------DADSYV  43
+            +    L    G   L    E      +  V    G  +S                    V
+Sbjct  23   IRICFLDRRIGPGELPGPVEKNLQNPVGLVSPHAGYIYSGPVAAWGFLEVARIGKPSLVV  82
+
+Query  44   LISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDL  103
+            +I P++  +   +G+       + LG            +    E + N+ + AE    + 
+Sbjct  83   IIGPNHTGLGKPVGIWPEGFWETPLG--------RVPVNEEAVEILLNSSRYAE----ED  130
+
+Query  104  HFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEK  163
+              +          L + + +         +V +    +            + E++  S +
+Sbjct  131  TLSHLKEHSIEVQLPFLQFV----FGDFSIVPVCLMDQSP-TVAEDLAFAVRELM-KSFR  184
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDS  223
+             + +I S D  H       Y  +K + + D L++E I +     L E    + E      
+Sbjct  185  NVLIIASTDLNH-------YEDQKTTLKKDYLVVEAIEKRDSRLLYE--YLVKEDISMCG  235
+
+Query  224  YWQMLIML  231
+            Y  + ++L
+Sbjct  236  YGGVAVLL  243
+
+
+> sp|O59292|Y1626_PYRHO MEMO1 family protein PH1626 OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 
+100139 / OT-3) OX=70601 GN=PH1626 PE=3 SV=2
+Length=291
+
+ Score = 81.4 bits (199),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 39/241 (16%), Positives = 76/241 (32%), Gaps = 37/241 (15%)
+
+Query  25   LAGVLKDIGKAFSD---------------ADSYVLISPHNVRISDHLGVIMAQHLISWLG  69
+             AGV    G  FS                 + +V+  P++  +   + +      I+ +G
+Sbjct  39   TAGVAPHAGYVFSGFTASRTYKAIYEDGLPEVFVIFGPNHTGLGSPIALYPEGEWITPMG  98
+
+Query  70   FEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLE  129
+                      + D   A+E+    K + I  +D   A +        L + + I  +   
+Sbjct  99   --------SIKVDSKFAKEIV---KRSGIADLD-DLAHKYEHSIEVQLPFIQYIAEKAGV  146
+
+Query  130  KKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENG--PYGYRK  187
+            +  +V +T   +   E     G  + E      +   +I S D  H     G  P+  R 
+Sbjct  147  EVKIVPITLGIQ-DEEVSRSLGRSIFEASTSLGRDTIIIASTDFMHYGSFYGYVPFRGRP  205
+
+Query  188  ES-----EEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPVKLV  242
+            E       ++D  I+  I +  L+ +     E+           +   +     +  K  
+Sbjct  206  EELPNMVRDWDMRIIRRILDFDLDGMFSEIREMNH--TMCGPGGVGAGIIYSRLMKAKEA  263
+
+Query  243  E  243
+            E
+Sbjct  264  E  264
+
+
+> sp|O67039|Y890_AQUAE MEMO1 family protein aq_890 OS=Aquifex aeolicus 
+(strain VF5) OX=224324 GN=aq_890 PE=3 SV=1
+Length=267
+
+ Score = 80.6 bits (197),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 33/239 (14%), Positives = 68/239 (28%), Gaps = 33/239 (14%)
+
+Query  5    IGLMPH----GNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVRISDHLGVIM  60
+             G  P         L P             ++ K     +  VL+ P++  +   + V  
+Sbjct  28   CGFEPKEKIKPKAILVPHAGYIYS-GKTACEVYKRIEIPEKVVLLGPNHTGLGKPISVYS  86
+
+Query  61   AQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWG  120
+                 +  G          E D  L E++               +A          L + 
+Sbjct  87   GDAWETPYGV--------VEIDGELREKILKYPYAN-----PDEYAHLYEHSLEVQLPF-  132
+
+Query  121  ELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDEN  180
+              +      +  ++ +        E     G  LGEVL+  +  I +  S+D  H     
+Sbjct  133  --LQRYARREFKILPIVVTFV-EYEVAKDFGRFLGEVLKEEDALIVI--SSDMSH-----  182
+
+Query  181  GPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPV  239
+              Y   +E+ + D +++  +     EEL      +            ++ + +   +  
+Sbjct  183  --YVPAEEARKKDEILISAMERLNTEELY--FKAVQYNITMCGVVPAVVGIESAKVLGA  237
+
+
+> sp|A8M9U2|Y1590_CALMQ MEMO1 family protein Cmaq_1590 OS=Caldivirga 
+maquilingensis (strain ATCC 700844 / DSM 13496 / JCM 10307 
+/ IC-167) OX=397948 GN=Cmaq_1590 PE=3 SV=1
+Length=282
+
+ Score = 80.3 bits (196),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 30/231 (13%), Positives = 74/231 (32%), Gaps = 32/231 (14%)
+
+Query  26   AGVLKDIGK---AFSDADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETD  82
+              V          +     +V+I P++  +     ++ +    + LG             
+Sbjct  61   GPVAAHAYVEVGKYIKPKVFVIIGPNHYGVGSPAAIMTSGTWETPLG------------Q  108
+
+Query  83   RGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRL  142
+              + EEV    K       +   A          + + +           +V +    + 
+Sbjct  109  VEIDEEVAKQIKAKVKDLAEDPIAFEREHSIEVQVPFIQ----YLFPGSRIVPIVLWNQ-  163
+
+Query  143  SRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINE  202
+            + +   + G  + EV++G   ++ ++ S+D  H       Y   + + + D  ++E I  
+Sbjct  164  TIDLSRRLGSAISEVIDGRAGEVVVVASSDLNH-------YEPHEVTTDKDMKVIERILN  216
+
+Query  203  SRLEELPEIPDELIEKALPDSYWQMLIMLGAMHR---VPVKLVESAYACPT  250
+               E    + D+         +  ++  +    +     VKL++ A +  T
+Sbjct  217  MDEEGFYTVMDK--YDVSVCGFGAIMTAIVYSRKQGSTGVKLLKHATSGDT  265
+
+
+> sp|B8D6F2|Y1357_DESA1 MEMO1 family protein DKAM_1357 OS=Desulfurococcus 
+amylolyticus (strain DSM 18924 / JCM 16383 / VKM 
+B-2413 / 1221n) OX=490899 GN=DKAM_1357 PE=3 SV=1
+Length=283
+
+ Score = 79.9 bits (195),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/252 (13%), Positives = 75/252 (30%), Gaps = 40/252 (16%)
+
+Query  11   GNPALSPEDKETEKLAGVLKDIGKAFS---------------DADSYVLISPHNVRISDH  55
+            G P    +   T  +  V    G  +S                 D+ V++  ++  +   
+Sbjct  35   GKPPSPSDIPATNSIGYVAPHAGYIYSGPVAAHVYFDMALNKKPDTIVILGTNHTGLGRP  94
+
+Query  56   LGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRW  115
+            + V       + LG        +   D  +   +    + AE       +A         
+Sbjct  95   VSVYPEGVWETPLG--------DLVVDSEIGRLIVENSEIAEFD----EYAHLEEHSIEV  142
+
+Query  116  PLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGH  175
+             L +   I   + E   +  +        +      + + E    + K+I +I S+D  H
+Sbjct  143  QLPF---IVYIYGEDVKITPIVIGIHTP-DIARDLAKSIYEASMSTGKRIIVIASSDFNH  198
+
+Query  176  AHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMH  235
+                   Y   +E+   D + ++ I +   + L  +   L           ++ ++    
+Sbjct  199  -------YEPHEETSRKDSMAIDRILKLDTDGLYNV--ILHNDISICGPGGIMTLMEYTK  249
+
+Query  236  RVPVKLVESAYA  247
+            ++  K     YA
+Sbjct  250  KLGGKAQLLKYA  261
+
+
+> sp|A9A2Y3|Y215_NITMS MEMO1 family protein Nmar_0215 OS=Nitrosopumilus 
+maritimus (strain SCM1) OX=436308 GN=Nmar_0215 PE=3 
+SV=1
+Length=275
+
+ Score = 79.1 bits (193),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 30/203 (15%), Positives = 72/203 (35%), Gaps = 27/203 (13%)
+
+Query  37   SDADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGA  96
+             + +  +++ P++  +   +  ++     + LG          + D   A+E+ N  K  
+Sbjct  70   KNPELVIILGPNHFGVGKDVATMVNAQWETPLGL--------VDVDSEAAKEIANNSKYI  121
+
+Query  97   EIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGE  156
+            EI      F+          +    ++   F EK  ++ +    + S E     G  + +
+Sbjct  122  EID----EFSHSRDHSLEVQIP---MLQSIFSEKFKILPIILRDQ-SLEMAKDVGNAVAQ  173
+
+Query  157  VLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELI  216
+            +     +   ++ S+D  H       Y     +   D+ ++E I E  +E+   +  E  
+Sbjct  174  IA--KSRNTMIVASSDFTH-------YEENSFAHSQDKALIEPILEMDVEKFYSVLME--  222
+
+Query  217  EKALPDSYWQMLIMLGAMHRVPV  239
+            ++     Y  M  ++ A   +  
+Sbjct  223  KRVTACGYGAMASVMIACKNLGA  245
+
+
+> sp|A5IKY3|Y837_THEP1 MEMO1 family protein Tpet_0837 OS=Thermotoga 
+petrophila (strain RKU-1 / ATCC BAA-488 / DSM 13995) OX=390874 
+GN=Tpet_0837 PE=3 SV=1
+Length=277
+
+ Score = 77.9 bits (190),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 37/250 (15%), Positives = 73/250 (29%), Gaps = 45/250 (18%)
+
+Query  2    LFGIGLMPH-GNPALS-PEDKETEKLAG-VLKDIGKAFSDA---------------DSYV  43
+            +    L    G   L  P + + +   G V    G  +S                    V
+Sbjct  23   IRICFLDKRIGPGELPDPSETKLQSPIGFVSPHAGYIYSGPVAAWGFLEVAKFGEPSVVV  82
+
+Query  44   LISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDL  103
+            +I P++  +   +GV       + LG            ++  AE + N+ + AE    + 
+Sbjct  83   IIGPNHTGLGRPVGVWPEGEWETPLG--------TVPVNQRAAEIILNSSRYAE----ED  130
+
+Query  104  HFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEK  163
+              +          + + + +         +V +    +            L +++     
+Sbjct  131  FMSHIREHSIEVQIPFLQFV----FGDVSIVPICLMDQSP-AVAEDLANALTKLVAEF-P  184
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDS  223
+             + +I S D  H       Y  ++ +   D  IME I       L E    + E      
+Sbjct  185  SVLIIASTDLNH-------YEDQRTTLRKDSYIMEAIRNKDPRLLYE--YLVKEDISMCG  235
+
+Query  224  YWQMLIMLGA  233
+            Y  +  +L  
+Sbjct  236  YGGVATLLNM  245
+
+
+> sp|Q9YB24|Y1771_AERPE MEMO1 family protein APE_1771 OS=Aeropyrum 
+pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 
+100138 / K1) OX=272557 GN=APE_1771 PE=3 SV=1
+Length=281
+
+ Score = 76.8 bits (187),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 33/225 (15%), Positives = 66/225 (29%), Gaps = 28/225 (12%)
+
+Query  26   AGVLKDIGKAFS---DADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETD  82
+              +   +    S     D  VL+ P++  +     +       + LG        E E D
+Sbjct  62   GPIAAHVYYDMSLGRKPDVVVLLGPNHTGLGLAASLWDEGVWRTPLG--------EVEVD  113
+
+Query  83   RGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRL  142
+                  V      + I   D              L +   +   +     +V +      
+Sbjct  114  SEAGRLVVEY---SGIVAPD-DEGHIYEHSLEVQLPF---LQYLYGGDFRIVPI-VVLHQ  165
+
+Query  143  SRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINE  202
+            + +  I+       + E +     L+ ++D  H       Y   +E++  D L+++ I E
+Sbjct  166  TLDISIRIARAYHRLREENGVNAVLVATSDLNH-------YEPYEENKRKDLLLLKAIEE  218
+
+Query  203  SRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPVKLVESAYA  247
+               E + +  +             +   + A     VK    AYA
+Sbjct  219  GDPEAVFKTIE--AHAISACGPSPIAAAVEAGRLAGVKPRVLAYA  261
+
+
+> sp|A4YIM6|Y2139_METS5 MEMO1 family protein Msed_2139 OS=Metallosphaera 
+sedula (strain ATCC 51363 / DSM 5348 / JCM 9185 / 
+NBRC 15509 / TH2) OX=399549 GN=Msed_2139 PE=3 SV=1
+Length=282
+
+ Score = 76.8 bits (187),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 33/239 (14%), Positives = 73/239 (31%), Gaps = 37/239 (15%)
+
+Query  5    IGLMPHGNPALSPEDKETEKLAGVLKDIGKAFS---DADSYVLISPHNVRISDHLGVIMA  61
+            I ++PH     S           V        +     D  +++ P++      + +   
+Sbjct  49   IFIVPHAGYIYSG---------PVAAHSYYYLAQEGKPDIVIILGPNHTGYGSQVSIWPG  99
+
+Query  62   QHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGE  121
+                + LG   V            A+ V      +E+  +D   A          L + +
+Sbjct  100  GDWETPLGSAQVN-----------AQLVKELVSVSEVVDID-EKAHLYEHSIEVQLPFLQ  147
+
+Query  122  LIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENG  181
+                 F +   ++ +    +        A  +   +   S+K I ++ S+D  H      
+Sbjct  148  ----YFFDNLSILPVVILMQTPEIAEFVAEGIWRFIQRHSDKDIVVLASSDLNH------  197
+
+Query  182  PYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPVK  240
+             Y     +   D L++  I +   + L ++ +E         Y  ++  L    ++  K
+Sbjct  198  -YDPHDVTMTKDELVIRKIQDMDYKGLYKVVEE--YDVTVCGYAPIMASLILAKKMHKK  253
+
+
+> sp|Q978N2|Y1383_THEVO MEMO1 family protein TV1383 OS=Thermoplasma 
+volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 
+15438 / GSS1) OX=273116 GN=TV1383 PE=3 SV=1
+Length=269
+
+ Score = 75.6 bits (184),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 27/243 (11%), Positives = 69/243 (28%), Gaps = 43/243 (18%)
+
+Query  14   ALSPEDKETEKLAGVLKDIGKAFSDADS--------------YVLISPHNVRISDHLGVI  59
+             +   +   + +  V+   G  +S   +              +++I P++  ++ +  + 
+Sbjct  27   HVQQSEVSCQPIGVVVPHAGIVYSGRTAMYSYNALRNSSIRDFIIIGPNHRPMTPYASIF  86
+
+Query  60   MAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTW  119
+             +    + LG   +             EE+ +         V    +          + +
+Sbjct  87   PSGSWETPLGNAIIN------------EELASELYKNSQYIVKDEESHSVEHSIEVQIPF  134
+
+Query  120  GELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDE  179
+               +   F      V +    +            +   L    K   LI S+D  H    
+Sbjct  135  ---LQYMFGNSFTFVPVILGDQEK-----VVANDIASALMRLSKPYILIASSDFTH----  182
+
+Query  180  NGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPV  239
+               Y      E  D  ++  I +  ++   +  +   E      Y  + I++    ++  
+Sbjct  183  ---YERSDIVERKDMDLISRIVDLDIDGFYDTIE--RENVTACGYGAIAILMIIAKKIGA  237
+
+Query  240  KLV  242
+            K+ 
+Sbjct  238  KIS  240
+
+
+> sp|Q9WXU2|Y087_THEMA MEMO1 family protein TM_0087 OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) 
+OX=243274 GN=TM_0087 PE=3 SV=1
+Length=277
+
+ Score = 75.6 bits (184),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 35/250 (14%), Positives = 69/250 (28%), Gaps = 45/250 (18%)
+
+Query  2    LFGIGLMPH-GNPALSP--EDKETEKLAGVLKDIGKAFSDA---------------DSYV  43
+            +    L    G   L    E K    +  V    G  +S                    V
+Sbjct  23   IRMCFLDKRIGPGKLPGPVETKLQNPIGLVSPHAGYIYSGPVAAWGFLEAVKFGEPSVVV  82
+
+Query  44   LISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDL  103
+            +I P++  +   +GV       + LG            +    E V +  + AE    + 
+Sbjct  83   IIGPNHTGLGRPVGVWPEGEWETPLG--------TVPVNERAVEIVLSNSRYAE----ED  130
+
+Query  104  HFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEK  163
+              +          + + + +      +  +V +    +            L +++     
+Sbjct  131  FMSHIREHSIEVQIPFLQFV----FGEVSIVPICLMDQSP-AVAEDLASALAKLVAEF-P  184
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDS  223
+             + +I S D  H       Y  ++ +   D  I+E I       L E    + E      
+Sbjct  185  GVLIIASTDLNH-------YEDQRTTLRKDSYIIEAIEGMDPSLLYE--YLVREDISMCG  235
+
+Query  224  YWQMLIMLGA  233
+            Y  +  +L  
+Sbjct  236  YGGVATLLNM  245
+
+
+> sp|A8AB69|Y992_IGNH4 MEMO1 family protein Igni_0992 OS=Ignicoccus 
+hospitalis (strain KIN4/I / DSM 18386 / JCM 14125) OX=453591 
+GN=Igni_0992 PE=3 SV=1
+Length=285
+
+ Score = 74.9 bits (182),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 36/258 (14%), Positives = 79/258 (31%), Gaps = 44/258 (17%)
+
+Query  1    MLFGIGLMPHGN---PALSPEDKETEKLAGVLKDIGKAFSDA---------------DSY  42
+            ++      P G    P +SP  +    +  ++   G  +S                 ++ 
+Sbjct  23   LIEWSFTHPLGPGEVPEVSP-VRRKASVGYMVPHAGYIYSGPVAAWSYYHLAQEGAPETV  81
+
+Query  43   VLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVD  102
+            V+I P++  +   + V+      + LG          +TD    E +    K + +   D
+Sbjct  82   VIIGPNHTGLGPAVSVMPPSIWETPLG--------GVKTD---DEAISELLKVSNVVEED  130
+
+Query  103  LHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSE  162
+               A          L +   +   F +   +V +    +          + + E +E   
+Sbjct  131  YS-AHAYEHSLEVQLPF---LQYLFGDSFRIVPIVMKVQTP-SVARLLMQSIKEAMENLG  185
+
+Query  163  KKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPD  222
+            +   ++ S+D  H       Y     + E D L +E I     E L E+   +       
+Sbjct  186  RDYVVLSSSDLNH-------YEPHDITVEKDMLALEKIVNLDPEGLQEVL--VKYDISMC  236
+
+Query  223  SYWQMLIMLGAMHRVPVK  240
+                +++ +        +
+Sbjct  237  GPGPVMVNMYLDKEYGAE  254
+
+
+> sp|Q9HLJ1|Y237_THEAC MEMO1 family protein Ta0237 OS=Thermoplasma 
+acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 
+15155 / AMRC-C165) OX=273075 GN=Ta0237 PE=3 SV=1
+Length=268
+
+ Score = 72.2 bits (175),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 31/236 (13%), Positives = 71/236 (30%), Gaps = 36/236 (15%)
+
+Query  7    LMPHGNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVRISDHLGVIMAQHLIS  66
+            ++PH     S           + K      S    +V+I P++  ++ +  +       +
+Sbjct  41   VVPHAGIIYSGRTAMY-SYRAIEK------SAVRDFVIIGPNHRPLTPYASLYPEGEWST  93
+
+Query  67   WLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQ  126
+             LG            D  + + +  A        V    +          + +   +   
+Sbjct  94   PLG------------DALINDRMAEALYRDSNYIVKDEESHLMEHSVEVQIPF---LQYL  138
+
+Query  127  FLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYR  186
+            F +    V +    +      I     +GE +   E     I S+D  H       Y   
+Sbjct  139  FGDGFRFVPVILGDQE-----IDVARDIGEAIMKIEDPFIFIASSDFTH-------YEDA  186
+
+Query  187  KESEEYDRLIMELINESRLEELPEIPDELIEKALPDSYWQMLIMLGAMHRVPVKLV  242
+            K  E+ D  ++  I    L++   + ++  E      Y  +  ++    +   +++
+Sbjct  187  KRVEKKDMDLISAILTLDLDKFYSVLEK--ENVTACGYGAIAALMYYTKKRGGRMI  240
+
+
+> sp|B1LA64|Y860_THESQ MEMO1 family protein TRQ2_0860 OS=Thermotoga 
+sp. (strain RQ2) OX=126740 GN=TRQ2_0860 PE=3 SV=1
+Length=277
+
+ Score = 71.8 bits (174),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 33/250 (13%), Positives = 70/250 (28%), Gaps = 45/250 (18%)
+
+Query  2    LFGIGLMPH---GNPALSPEDKETEKLAGVLKDIGKAFSDA---------------DSYV  43
+            +    L      G   +  E K    +  V    G  +S                    V
+Sbjct  23   IRMCFLDKRIGPGELPVPVETKLQNPIGLVSPHAGYIYSGPVAAWGFLEAVKFGEPSVVV  82
+
+Query  44   LISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDL  103
+            +I P++  +   +GV       + LG            ++   E + +  + AE    + 
+Sbjct  83   IIGPNHTGLGRPVGVWPEGEWETPLG--------TVPVNQRAVEVILSNSRYAE----ED  130
+
+Query  104  HFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEK  163
+              +          + + + +      +  +V +    +            L ++      
+Sbjct  131  FMSHIREHSIEVQIPFLQFV----FGEVSMVPICLMDQSP-AVAEDLASALMKLAAEF-P  184
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDS  223
+             + +I S D  H       Y  ++ +   D  I+E I  +    L E    + E      
+Sbjct  185  GVLIIASTDLNH-------YEDQRTTLRKDSYIIEAIKSNDPRLLYE--YLVKEDISMCG  235
+
+Query  224  YWQMLIMLGA  233
+            Y  +  +L  
+Sbjct  236  YGGVATLLNM  245
+
+
+> sp|P24197|YGID_ECOLI 4,5-DOPA dioxygenase extradiol OS=Escherichia 
+coli (strain K12) OX=83333 GN=ygiD PE=1 SV=4
+Length=271
+
+ Score = 67.9 bits (164),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 37/242 (15%), Positives = 75/242 (31%), Gaps = 31/242 (13%)
+
+Query  7    LMPHGNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVRIS-DHLGVIMAQHLI  65
+             + HG+P    ED    +     + +G       + V++S H          +     + 
+Sbjct  19   FLGHGSPMNVLEDNLYTR---SWQKLGMTLPRPQAIVVVSAHWFTRGTGVTAMETPPTIH  75
+
+Query  66   SWLGFEGVELPGEWETD--RGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGEL-  122
+             + GF        +       LA+ +      A IP         +     W    G   
+Sbjct  76   DFGGFPQALYDTHYPAPGSPALAQRLVELL--APIP--------VTLDKEAWGFDHGSWG  125
+
+Query  123  --IPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDE-  179
+              I +      P+V L+           + G  L  +    ++ I L+ S +  H     
+Sbjct  126  VLIKMYPDADIPMVQLSIDSSKPAAWHFEMGRKLAAL---RDEGIMLVASGNVVHNLRTV  182
+
+Query  180  --NGPYGYRKESEEYDRLIMELIN-ESRLEELPEIPDE-----LIEKALPDSYWQMLIML  231
+              +G       +  ++  +   +  +  +E+ P +         +    P+ Y  +L +L
+Sbjct  183  KWHGDSSPYPWATSFNEYVKANLTWQGPVEQHPLVNYLDHEGGTLSNPTPEHYLPLLYVL  242
+
+Query  232  GA  233
+            GA
+Sbjct  243  GA  244
+
+
+> sp|Q9F9U5|MHPB2_PSEPU 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase 2 OS=Pseudomonas putida OX=303 
+GN=mhpB2 PE=3 SV=1
+Length=314
+
+ Score = 59.8 bits (143),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 32/190 (17%), Positives = 57/190 (30%), Gaps = 34/190 (18%)
+
+Query  29   LKDIGKAFSDADSYVLISPHNVR-----ISDHLGVIMAQHLISWLGFEGVELPGEWETDR  83
+                     + +  VL +P +       +     + M    I   G     L G     +
+Sbjct  33   AARARIEAFNPELVVLFAPDHYNGFFYDVMPPFCLGMEAEAIGDFGS----LAGTLSVPK  88
+
+Query  84   GLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFL----EKKPLVLL---  136
+             +AE    +   + I               R  +  G   PL FL    +K P++ +   
+Sbjct  89   DVAEACAESVLTSGIDLAV---------SYRMQVDHGFAQPLDFLLGGLDKYPVLPVFVN  139
+
+Query  137  TPARRLS-RETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRL  195
+              A  L   E +   G+ +G    G  K++  + S    H            E  + D  
+Sbjct  140  CVAPPLPTFERVRLLGDAIGRFTRGLNKRVLFLGSGGLSHQ-------PPVPELAKVDAR  192
+
+Query  196  IME-LINESR  204
+            + + L+   R
+Sbjct  193  MADRLMGSGR  202
+
+
+> sp|B5XQJ0|MHPB_KLEP3 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Klebsiella pneumoniae (strain 
+342) OX=507522 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 56.8 bits (135),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 34/215 (16%), Positives = 71/215 (33%), Gaps = 31/215 (14%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFS--DADSYVLISPHNVR--ISD  54
+            M   +  + H      + PE    +++ GV+ D  +  S  + +  VL +P +      D
+Sbjct  1    MDAYLHCLSHTPLVGFVDPEQAVLDEVNGVIADARRRISAFEPELVVLFAPDHYNGFFYD  60
+
+Query  55   HLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSR  114
+             +         + +G       G+      LAE   +A   + I     +          
+Sbjct  61   VMPPFCLGVGATAIGDFA-SAAGDLPVPTELAEACAHAVINSGIDLAVSYN---------  110
+
+Query  115  WPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEKKIA  166
+              +  G   PL+FL    ++ P++ +      +     +     GE +G  L    K++ 
+Sbjct  111  MQVDHGFAQPLEFLLGGLDRVPVLPVFINGVAAPLPGFQRTRLLGEAMGRFLNTLNKRVL  170
+
+Query  167  LIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++ S    H            E  + D  + + + 
+Sbjct  171  ILGSGGLSHQ-------PPVPELAKADAHLRDRLL  198
+
+
+> sp|B7L504|MHPB_ECO55 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli (strain 
+55989 / EAEC) OX=585055 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 56.0 bits (133),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 67/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL     K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLYKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|A6TAC8|MHPB_KLEP7 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Klebsiella pneumoniae subsp. 
+pneumoniae (strain ATCC 700721 / MGH 78578) OX=272620 GN=mhpB 
+PE=3 SV=1
+Length=314
+
+ Score = 55.6 bits (132),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 32/217 (15%), Positives = 70/217 (32%), Gaps = 31/217 (14%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR--ISD  54
+            M   +  + H      + PE    +++  V+ D  +  ++   +  VL +P +      D
+Sbjct  1    MHAYLHCLSHTPLVGFVDPEQAVLDEVNRVIADARRRIAEFDPELVVLFAPDHYNGFFYD  60
+
+Query  55   HLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSR  114
+             +         + +G       G+      LAE   +A   + I     +          
+Sbjct  61   VMPPFCLGIGATAIGDFA-SAAGDLPVPAELAEACAHAILNSGIDLAVSYN---------  110
+
+Query  115  WPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEKKIA  166
+              +  G   PL+FL    ++ P++ +      +     +     GE +G  L    K++ 
+Sbjct  111  MQVDHGFAQPLEFLLGGLDRVPVLPVFINGVAAPLPGFQRTRLLGEAMGRFLNTLNKRVL  170
+
+Query  167  LIVSADHGHAHDENGPYGYRKESEEYDRLIMELINES  203
+            ++ S    H            E  + D  + + +   
+Sbjct  171  ILGSGGLSHQ-------PPVPELAKADAHLRDRLLGG  200
+
+
+> sp|B6HZX4|MHPB_ECOSE 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli (strain 
+SE11) OX=409438 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.6 bits (132),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|A7ZWZ5|MHPB_ECOHS 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli O9:H4 (strain 
+HS) OX=331112 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.6 bits (132),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|B7M2Z6|MHPB_ECO8A 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli O8 (strain 
+IAI1) OX=585034 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.6 bits (132),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|A7ZI95|MHPB_ECO24 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli O139:H28 
+(strain E24377A / ETEC) OX=331111 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.6 bits (132),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|Q3Z586|MHPB_SHISS 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Shigella sonnei (strain 
+Ss046) OX=300269 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.2 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|B1LIN3|MHPB_ECOSM 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli (strain 
+SMS-3-5 / SECEC) OX=439855 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.2 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|B7N8Q5|MHPB_ECOLU 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli O17:K52:H18 
+(strain UMN026 / ExPEC) OX=585056 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.2 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|P0ABR9|MHPB_ECOLI 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli (strain 
+K12) OX=83333 GN=mhpB PE=1 SV=1
+Length=314
+
+ Score = 55.2 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|B1XBJ5|MHPB_ECODH 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli (strain 
+K12 / DH10B) OX=316385 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.2 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|B7NK07|MHPB_ECO7I 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli O7:K1 (strain 
+IAI39 / ExPEC) OX=585057 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.2 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|B5Z2Q3|MHPB_ECO5E 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli O157:H7 
+(strain EC4115 / EHEC) OX=444450 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.2 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|P0ABS0|MHPB_ECO57 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli O157:H7 
+OX=83334 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 55.2 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 33/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + S    H            E  + D  + + + 
+Sbjct  168  RVLFLGSGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|Q47HM4|MHPB1_DECAR 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase 1 OS=Dechloromonas aromatica 
+(strain RCB) OX=159087 GN=mhpB1 PE=3 SV=1
+Length=312
+
+ Score = 54.1 bits (128),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 21/152 (14%), Positives = 50/152 (33%), Gaps = 28/152 (18%)
+
+Query  38   DADSYVLISPHNV------RISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYN  91
+            D +  V+ +P +        +   +    A  +  +       + G    D+ LA E+  
+Sbjct  42   DPELIVVFAPDHYNGLFYDLMPPFVIATAADSVGDY-----QTMTGPLSVDKDLALEMAK  96
+
+Query  92   AWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLE----KKPLVLLTPARRLS----  143
+                ++I     H         R  +  G    L+ +     + P++ +           
+Sbjct  97   FILDSDIDIAISH---------RLQVDHGCTQTLEEMTGSLTRYPVIPIIINSVAPPFGP  147
+
+Query  144  RETLIKAGEVLGEVLEGSEKKIALIVSADHGH  175
+               + K GE +G+ +    K++ ++ +    H
+Sbjct  148  YRRVRKLGEAVGKFIAKLNKRVLILGTGGLSH  179
+
+
+> sp|Q47GC9|MHPB2_DECAR 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase 2 OS=Dechloromonas aromatica 
+(strain RCB) OX=159087 GN=mhpB2 PE=3 SV=1
+Length=317
+
+ Score = 53.7 bits (127),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 29/195 (15%), Positives = 51/195 (26%), Gaps = 29/195 (15%)
+
+Query  38   DADSYVLISPHNVR--ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKG  95
+            D +   L +P +      D +         + +G +    PG     R +A         
+Sbjct  42   DPEVIFLFAPDHYNGFFLDVMPQFCVGIAATSVG-DYRTTPGPINVPREIARSCAEHL--  98
+
+Query  96   AEIPTVDLHFASRSGRYSRWPLTWGELIPLQFL----EKKPLVLLTPA----RRLSRETL  147
+                   +          R  +  G + PL+ L       P+V L         +S    
+Sbjct  99   -------ISNDIDVAISYRMQVDHGMVQPLEELMGGLNAYPVVPLFVNGVAPPLISIRRA  151
+
+Query  148  IKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESR--L  205
+               G  +GE  +   K+   I S    H            + +       E +   R   
+Sbjct  152  RLFGAAVGEYAKKLNKRCLFIGSGGLSH-------NPPVPQIDTATEEFAEFLIAGRNPS  204
+
+Query  206  EELPEIPDELIEKAL  220
+             E      +  + A 
+Sbjct  205  PERRAARQQRTKDAA  219
+
+
+> sp|B7MPB5|MHPB_ECO81 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Escherichia coli O81 (strain 
+ED1a) OX=585397 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 53.3 bits (126),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 32/218 (15%), Positives = 68/218 (31%), Gaps = 37/218 (17%)
+
+Query  1    MLFGIGLMPHGNPA--LSPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVR-----  51
+            M   +  + H      + P  +  +++ GV+    +  +    +  VL +P +       
+Sbjct  1    MHAYLHCLSHSPLVGYVDPAQEVLDEVNGVIASARERIAAFSPELVVLFAPDHYNGFFYD  60
+
+Query  52   ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGR  111
+            +     + +    I   G    ELP        LAE   +A   + I     +       
+Sbjct  61   VMPPFCLGVGATAIGDFGSAAGELP----VPVELAEACAHAVMKSGIDLAVSYC------  110
+
+Query  112  YSRWPLTWGELIPLQFL----EKKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEK  163
+                 +  G   PL+FL    +K P++ +      +     +     GE +G       K
+Sbjct  111  ---MQVDHGFAQPLEFLLGGLDKVPVLPVFINGVATPLPGFQRTRMLGEAIGRFTSTLNK  167
+
+Query  164  KIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELIN  201
+            ++  + +    H            E  + D  + + + 
+Sbjct  168  RVLFLGAGGLSHQ-------PPVPELAKADAHMRDRLL  198
+
+
+> sp|A0R1T3|MHPB_MYCS2 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Mycolicibacterium smegmatis 
+(strain ATCC 700084 / mc(2)155) OX=246196 GN=mhpB PE=3 SV=2
+Length=313
+
+ Score = 52.9 bits (125),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 27/172 (16%), Positives = 50/172 (29%), Gaps = 28/172 (16%)
+
+Query  38   DADSYVLISPHNV-----RISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNA  92
+            D +  V  SP +      R+     +  A   +   G       G    D  +A     +
+Sbjct  42   DPELVVTFSPDHYNGFFYRLMPPFCIGTAAAGVGDYG----TYQGPLPVDADIANACAES  97
+
+Query  93   WKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFL----EKKPLVLLTPARRL----SR  144
+               + +              +   +  G + PLQ L      +P+V +            
+Sbjct  98   LWESGVDIAI---------STAMDVDHGTVQPLQELFGDATARPVVPIFINSVATPLGPL  148
+
+Query  145  ETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLI  196
+                  G  +G  L   +K++ ++ S    H  D   P          DR++
+Sbjct  149  SRSRALGAAVGTFLATLDKRVLIVGSGGLSH--DPPVPTLATAPPAALDRIV  198
+
+
+> sp|A1K6Y7|MHPB_AZOSB 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Azoarcus sp. (strain BH72) 
+OX=62928 GN=mhpB PE=3 SV=1
+Length=317
+
+ Score = 51.4 bits (121),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 32/179 (18%), Positives = 51/179 (28%), Gaps = 26/179 (15%)
+
+Query  38   DADSYVLISPHNVR--ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKG  95
+            D +   L +P +      D +         + +G +     G     R LAE    A   
+Sbjct  42   DPEVVYLFAPDHYNGFFLDLMPQFCLGIEATSVG-DYQTPKGPLRVPRALAEACAGAVIA  100
+
+Query  96   AEIPTVDLHFASRSGRYSRWPLTWG---ELIPLQF-LEKKPLVLLTPA----RRLSRETL  147
+              I               R  +  G    L+ +   L + P+V +          S +  
+Sbjct  101  RGIDLA---------FSYRMQVDHGFAQTLVEVLGGLARYPVVPIMINAVAPPLASFQRA  151
+
+Query  148  IKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLE  206
+               G  +GE   G   +   I S    H    N P      +   D  ++E I   R  
+Sbjct  152  RLLGAAVGEFARGQGGRALFIASGGMSH----NPPIPQ--IATATDPEVIERIVAGRNP  204
+
+
+> sp|Q7N4V6|MHPB_PHOLL 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Photorhabdus laumondii subsp. 
+laumondii (strain DSM 15139 / CIP 105565 / TT01) OX=243265 
+GN=mhpB PE=3 SV=1
+Length=317
+
+ Score = 51.0 bits (120),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 30/186 (16%), Positives = 63/186 (34%), Gaps = 18/186 (10%)
+
+Query  16   SPEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGV  73
+            SP +   + +  V + + +   D      V+ +P      DH        + ++      
+Sbjct  18   SPPEATEKHVRQVFQQLAEQIKDYDPQLIVIFAP------DHFNGFFYDLMPAFCVGVRA  71
+
+Query  74   ELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQ----FLE  129
+               G+W+  +G      N  K  ++ +             R  +  G   PL      L+
+Sbjct  72   NAVGDWDIGKGPLNVPENTAK--DLISALYDSGIDVAHSWRMQVDHGFTQPLMLLCQNLQ  129
+
+Query  130  KKPLVLL---TPARRLSR-ETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGY  185
+            + P + +     A+ L      ++ G  +G+ L  +++++ L+ S    H          
+Sbjct  130  RYPTIPIFINCAAKPLPTCRRAVELGRAVGQFLFTTDQRVLLLGSGGLSHDPPIPQMGQV  189
+
+Query  186  RKESEE  191
+              E EE
+Sbjct  190  PPEVEE  195
+
+
+> sp|O05146|MHPB_RHOGO 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Rhodococcus globerulus OX=33008 
+GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 51.0 bits (120),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 27/182 (15%), Positives = 50/182 (27%), Gaps = 33/182 (18%)
+
+Query  38   DADSYVLISPHNVR-----ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNA  92
+            D D  V   P +       +     +               EL         LA+ V + 
+Sbjct  42   DPDVIVNFGPDHYNGFFYDLMPPFCIGYKAKGSGDYDSFAGELNVPEAMAEDLAQFVMDQ  101
+
+Query  93   WKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFLE----KKPLVLLTPA----RRLSR  144
+                 I                  +  G + P++ +      KPL+ +         +  
+Sbjct  102  GLDIAISRQME-------------VDHGAVQPMEIIYGDVASKPLIPVFVNSVARPFVKV  148
+
+Query  145  ETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESR  204
+              + K GE +G   + S+KK+  I S    H            +    D    +++ + R
+Sbjct  149  ARVRKFGEAVGAYFKNSDKKVLFIGSGGLSH-------DPPVPQIATADEAQRKMLTDGR  201
+
+Query  205  LE  206
+              
+Sbjct  202  NP  203
+
+
+> sp|Q1B5E3|MHPB_MYCSS 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Mycobacterium sp. (strain 
+MCS) OX=164756 GN=mhpB PE=3 SV=2
+Length=313
+
+ Score = 50.6 bits (119),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 35/202 (17%), Positives = 61/202 (30%), Gaps = 32/202 (16%)
+
+Query  8    MPHGNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNV-----RISDHLGVIMAQ  62
+            +P  +  L  +         V +D    F D D  V  SP +      ++     V  + 
+Sbjct  17   LPGPSRELLDDIG---SALAVARDFVTEF-DPDLVVTFSPDHYNGFFYKVMPPFCVGTSA  72
+
+Query  63   HLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGEL  122
+              +   G       G  +    LA E+  A   A +              +   +  G +
+Sbjct  73   QGVGDYGTHA----GPLDVPEDLANELATAVLEAGVDVAI---------SASMDVDHGTV  119
+
+Query  123  IPLQFLE----KKPLVLLTPARRL----SRETLIKAGEVLGEVLEGSEKKIALIVSADHG  174
+             PLQ L      +P++ +                  G  +G  L   +K++ +I S    
+Sbjct  120  QPLQNLFGDAMARPVIPVFINSVATPLGPLRRTRALGTAIGRYLATLDKRVLVIGSGGLS  179
+
+Query  175  HAHDENGPYGYRKESEEYDRLI  196
+            H  D   P          DR++
+Sbjct  180  H--DPPVPTLATAPPAALDRIV  199
+
+
+> sp|A1UJP3|MHPB_MYCSK 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Mycobacterium sp. (strain 
+KMS) OX=189918 GN=mhpB PE=3 SV=2
+Length=313
+
+ Score = 50.6 bits (119),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 35/202 (17%), Positives = 61/202 (30%), Gaps = 32/202 (16%)
+
+Query  8    MPHGNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNV-----RISDHLGVIMAQ  62
+            +P  +  L  +         V +D    F D D  V  SP +      ++     V  + 
+Sbjct  17   LPGPSRELLDDIG---SALAVARDFVTEF-DPDLVVTFSPDHYNGFFYKVMPPFCVGTSA  72
+
+Query  63   HLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGEL  122
+              +   G       G  +    LA E+  A   A +              +   +  G +
+Sbjct  73   QGVGDYGTHA----GPLDVPEDLANELATAVLEAGVDVAI---------SASMDVDHGTV  119
+
+Query  123  IPLQFLE----KKPLVLLTPARRL----SRETLIKAGEVLGEVLEGSEKKIALIVSADHG  174
+             PLQ L      +P++ +                  G  +G  L   +K++ +I S    
+Sbjct  120  QPLQNLFGDAMARPVIPVFINSVATPLGPLRRTRALGTAIGRYLATLDKRVLVIGSGGLS  179
+
+Query  175  HAHDENGPYGYRKESEEYDRLI  196
+            H  D   P          DR++
+Sbjct  180  H--DPPVPTLATAPPAALDRIV  199
+
+
+> sp|A3Q338|MHPB_MYCSJ 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Mycobacterium sp. (strain 
+JLS) OX=164757 GN=mhpB PE=3 SV=1
+Length=313
+
+ Score = 50.6 bits (119),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 35/202 (17%), Positives = 61/202 (30%), Gaps = 32/202 (16%)
+
+Query  8    MPHGNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNV-----RISDHLGVIMAQ  62
+            +P  +  L  +         V +D    F D D  V  SP +      ++     V  + 
+Sbjct  17   LPGPSRELLDDIG---SALAVARDFVTEF-DPDLVVTFSPDHYNGFFYKVMPPFCVGTSA  72
+
+Query  63   HLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGEL  122
+              +   G       G  +    LA E+  A   A +              +   +  G +
+Sbjct  73   QGVGDYGTHA----GPLDVPEDLANELATAVLEAGVDVAI---------SASMDVDHGTV  119
+
+Query  123  IPLQFLE----KKPLVLLTPARRL----SRETLIKAGEVLGEVLEGSEKKIALIVSADHG  174
+             PLQ L      +P++ +                  G  +G  L   +K++ +I S    
+Sbjct  120  QPLQNLFGDAMARPVIPVFINSVATPLGPLRRTRALGTAIGRYLATLDKRVLVIGSGGLS  179
+
+Query  175  HAHDENGPYGYRKESEEYDRLI  196
+            H  D   P          DR++
+Sbjct  180  H--DPPVPTLATAPPAALDRIV  199
+
+
+> sp|Q9KH19|MHPB_RHOSO 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Rhodococcus sp. OX=1831 
+GN=mhpB PE=1 SV=1
+Length=314
+
+ Score = 50.6 bits (119),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 29/206 (14%), Positives = 58/206 (28%), Gaps = 25/206 (12%)
+
+Query  17   PEDKETEKLAGVLKDIGKAFSD--ADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVE  74
+            PE +  + +        +  +D   D  V+ +P      DH   +    L  +      +
+Sbjct  19   PEQEVIDAVDAAFDHARRFVADFAPDLIVIFAP------DHYNGVFYDLLPPFCIGAAAQ  72
+
+Query  75   LPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQF----LEK  130
+              G++ T+ G  +   +A        +D           R  +  G    LQ     +  
+Sbjct  73   SVGDYGTEAGPLDVDRDAAYAVARDVLDSGIDV--AFSERMHVDHGFAQALQLLVGSITA  130
+
+Query  131  KPLVLLTPARRL----SRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYR  186
+             P V +              +   GE +G      +K++  + S    H           
+Sbjct  131  VPTVPIFINSVAEPLGPVSRVRLLGEAVGRAAAKLDKRVLFVGSGGLSH-------DPPV  183
+
+Query  187  KESEEYDRLIMELINESRLEELPEIP  212
+             +       + E + + R     E  
+Sbjct  184  PQFATAPEEVRERLIDGRNPSAAERD  209
+
+
+> sp|C1DRI2|MHPB_AZOVD 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Azotobacter vinelandii (strain 
+DJ / ATCC BAA-1303) OX=322710 GN=mhpB PE=3 SV=1
+Length=312
+
+ Score = 48.7 bits (114),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 26/168 (15%), Positives = 54/168 (32%), Gaps = 26/168 (15%)
+
+Query  38   DADSYVLISPHNVR-----ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNA  92
+            D +  V+ +P +       +     +  A   ++  G     LPG     R LA ++   
+Sbjct  42   DPELIVIFAPDHYNGLFYDLMPPFVIATAAESVADYG----TLPGPLSIPRDLALDLTRH  97
+
+Query  93   WKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQ----FLEKKPLVLLTPA----RRLSR  144
+               + +     H         R  +  G    L+     L + P++ +            
+Sbjct  98   ILDSGLDIALSH---------RLQVDHGCTQTLEELTGSLTRYPVIPIIINSVAPPFAPY  148
+
+Query  145  ETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEY  192
+              + K GE +G  +    K++ ++ +    H        G  +E  E+
+Sbjct  149  RRIRKLGEAVGRFVASLGKRVLILGTGGLSHEPPVPLLSGAAEEIAEF  196
+
+
+> sp|A0PL52|MHPB_MYCUA 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Mycobacterium ulcerans (strain 
+Agy99) OX=362242 GN=mhpB PE=3 SV=2
+Length=313
+
+ Score = 47.9 bits (112),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 27/164 (16%), Positives = 52/164 (32%), Gaps = 20/164 (12%)
+
+Query  38   DADSYVLISPHNVR--ISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKG  95
+            D D  V+ SP +        +         S +G  G  + G  +    LA +   A  G
+Sbjct  42   DPDLVVIFSPDHYNGFFYRAMHPFCIGMYASAVGDYGTHI-GALDVPTDLAADCAKAVLG  100
+
+Query  96   AEIPTVDLHFASRSGRYSRWPLTWGELIPLQFL----EKKPLVLL----TPARRLSRETL  147
+            A++              +   +  G + PL+ L      +P++ +      A        
+Sbjct  101  ADVDVAV---------SASMDVDHGTVQPLEKLFGTATARPVIPIFINAIAAPLGPLRRC  151
+
+Query  148  IKAGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEE  191
+               G  +G  L   + ++ +I S    H+      +    +  E
+Sbjct  152  RALGTAVGTFLSTLDLRVLVIGSGGLSHSPPVPTLHSADPQVRE  195
+
+
+> sp|A7IDU0|MHPB_XANP2 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Xanthobacter autotrophicus 
+(strain ATCC BAA-1158 / Py2) OX=78245 GN=mhpB PE=3 SV=1
+Length=313
+
+ Score = 47.9 bits (112),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 20/146 (14%), Positives = 49/146 (34%), Gaps = 16/146 (11%)
+
+Query  38   DADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAE  97
+            D +  V+ +P      DH   +    +  ++     +  G++ T  G      +      
+Sbjct  42   DPELIVIFAP------DHYNGLFYDLMPPFVIATAAKSVGDYMTLPGPLSVERDLALELA  95
+
+Query  98   IPTVDLHFASRSGRYSRWPLTWGELIPLQ----FLEKKPLVLLTPA----RRLSRETLIK  149
+               +D           R  +  G    L+     L + P++ +              + +
+Sbjct  96   RFILDHDVDISLSH--RLQVDHGCTQTLEELTGSLTRYPVIPIIINSVAPPFAPYRRIRR  153
+
+Query  150  AGEVLGEVLEGSEKKIALIVSADHGH  175
+             GEV+G+ +   +K++ ++ +    H
+Sbjct  154  LGEVVGQFIATLDKRVLVLGTGGLSH  179
+
+
+> sp|P17295|MHPB_CUPNE 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Cupriavidus necator OX=106590 
+GN=mhpB PE=1 SV=1
+Length=313
+
+ Score = 47.9 bits (112),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 30/224 (13%), Positives = 60/224 (27%), Gaps = 31/224 (14%)
+
+Query  11   GNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVR--ISDHLGVIMAQHLISWL  68
+              P +  E +  +              D +  V+ +P +      D +         + +
+Sbjct  19   PAPEVVAEVERVQ----AAARDRVRAFDPELVVVFAPDHFNGFFYDVMPPFCIGAAATAI  74
+
+Query  69   GFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFL  128
+            G     L G+      LA  +  +   A+I     H         R  +  G    L  L
+Sbjct  75   GDF-KSLAGKLPVPADLALSLAESVMAADIDVALSH---------RMQVDHGCADALAAL  124
+
+Query  129  E----KKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDEN  180
+                 + P++ +                  G+ +G  L  + K++ ++ S    H     
+Sbjct  125  TGSLHRYPVIPVFINSVAPPMATLRRARLLGDAVGRFLSRAGKRVLVVGSGGISHE----  180
+
+Query  181  GPYGYRKESEEYDRLIMELINESRLEELPEIPDELIEKALPDSY  224
+                   E       + E +   R         +    A   S+
+Sbjct  181  ---PPVPELAGASEEVAERLIAGRNPSPESAARQARTVAAAKSF  221
+
+
+> sp|Q0SJD2|MHPB_RHOJR 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Rhodococcus jostii (strain 
+RHA1) OX=101510 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 47.1 bits (110),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 29/191 (15%), Positives = 57/191 (30%), Gaps = 23/191 (12%)
+
+Query  38   DADSYVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAE  97
+              D  V+ +P      DH   +    +  +      +  G++ T+ G      +A     
+Sbjct  42   APDLIVIFAP------DHYNGVYYDLMPPFCIGAAAQSVGDYGTESGPLNVDRDAAY--T  93
+
+Query  98   IPTVDLHFASRSGRYSRWPLTWGELIPLQF----LEKKPLVLLTPARRL----SRETLIK  149
+            +    L          R  +  G    LQ     +   P V +              +  
+Sbjct  94   VAREVLASGVDVAFSERMHVDHGFAQALQLLVGSITAVPTVPIFINSVAEPLGPVSRVRL  153
+
+Query  150  AGEVLGEVLEGSEKKIALIVSADHGHAHDENGPYGYRKESEEYDRLI-----MELINESR  204
+             GE +G      +K++  + S    H  D   P      +E  ++LI      E    +R
+Sbjct  154  LGEAVGRAAANLDKRVLFVGSGGLSH--DPPVPQFATAPTEVKEKLIDGRNPTEAERNAR  211
+
+Query  205  LEELPEIPDEL  215
+             + + +   + 
+Sbjct  212  EQRVIDAGRDF  222
+
+
+> sp|Q476N0|MHPB_CUPPJ 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Cupriavidus pinatubonensis 
+(strain JMP 134 / LMG 1197) OX=264198 GN=mhpB PE=3 SV=1
+Length=314
+
+ Score = 47.1 bits (110),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 28/191 (15%), Positives = 55/191 (29%), Gaps = 24/191 (13%)
+
+Query  11   GNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVR--ISDHLGVIMAQHLISWL  68
+              P +  E +  +              D +  V+ +P +      D +         + +
+Sbjct  19   PAPEVVAEVERVQ----AAARDRVRAFDPELVVVFAPDHFNGFFYDVMPPFCIGAAATAI  74
+
+Query  69   GFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFL  128
+            G     L G+      LA  +  +   A+I     H         R  +  G    L  L
+Sbjct  75   GDF-KSLAGKLPVPADLALSLAESVMAADIDVALSH---------RMQVDHGCADALAAL  124
+
+Query  129  E----KKPLVLLTPARRLS----RETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDEN  180
+                 + P++ +                  G+ +G  L  + K++ ++ S    H     
+Sbjct  125  TGSLHRYPVIPVFINSVAPPMATLRRARLLGDAVGRFLSRAGKRVLVVGSGGISHEPPVP  184
+
+Query  181  GPYGYRKESEE  191
+               G  +E  E
+Sbjct  185  ELAGASEEVAE  195
+
+
+> sp|A1TCX1|MHPB_MYCVP 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Mycolicibacterium vanbaalenii 
+(strain DSM 7251 / JCM 13017 / NRRL B-24157 / PYR-1) OX=350058 
+GN=mhpB PE=3 SV=2
+Length=316
+
+ Score = 46.7 bits (109),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 37/203 (18%), Positives = 61/203 (30%), Gaps = 32/203 (16%)
+
+Query  8    MPHGNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNV-----RISDHLGVIMAQ  62
+            +P     L     + E      ++   AF D D  V  SP +      R      V  A 
+Sbjct  19   LPGPAQEL---LDDIEGAIAAAREFVAAF-DPDLVVTFSPDHYNGFFYRAMPPFCVGTAA  74
+
+Query  63   HLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGEL  122
+              +   G       G  +    LA +   A   +++              +   +  G +
+Sbjct  75   AGVGDYG----TYQGPLDVPADLAIDCARAVLDSDVDVAV---------SAAMDVDHGTV  121
+
+Query  123  IPLQFL----EKKPLVLLTPARRL----SRETLIKAGEVLGEVLEGSEKKIALIVSADHG  174
+             PLQ L      KP++ +              +   G  +G  L G  K++ +I S    
+Sbjct  122  QPLQKLFGDATAKPVIPVFVNSVATPLGPMRRVRALGAAVGTHLAGLGKRVLVIGSGGLS  181
+
+Query  175  HAHDENGPYGYRKESEEYDRLIM  197
+            H  D   P          DR++ 
+Sbjct  182  H--DPPVPTLATAPPAALDRIVR  202
+
+
+> sp|Q13QH9|MHPB_PARXL 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Paraburkholderia xenovorans 
+(strain LB400) OX=266265 GN=mhpB PE=3 SV=1
+Length=316
+
+ Score = 46.4 bits (108),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 34/191 (18%), Positives = 55/191 (29%), Gaps = 24/191 (13%)
+
+Query  11   GNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNVR--ISDHLGVIMAQHLISWL  68
+              P +  E                A  D    V+ +P +      D +         S +
+Sbjct  19   PAPEVVAEVGRIH----AAARARVADFDPQLVVVFAPDHYNGFFYDVMPPFCIGASASAV  74
+
+Query  69   GFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGELIPLQFL  128
+            G  G  L G+      LA ++  A   A++               R  +  G    L+ L
+Sbjct  75   GDFG-SLAGQLAVPADLALDLAQAVLAADVDVAL---------SYRMQVDHGCAQALEIL  124
+
+Query  129  E----KKPLVLLTPA----RRLSRETLIKAGEVLGEVLEGSEKKIALIVSADHGHAHDEN  180
+                 + P+V +          S       G+ LG  L  S +++ +I S    H     
+Sbjct  125  TGSLDRYPVVPVFINSVAPPMASCRRARLLGDALGRSLARSGQRVLVIGSGGISHEPPVP  184
+
+Query  181  GPYGYRKESEE  191
+               G   E  E
+Sbjct  185  ELAGATDEVAE  195
+
+
+> sp|Q6GNT9|MEMO1_XENLA Protein MEMO1 OS=Xenopus laevis OX=8355 
+GN=memo1 PE=2 SV=1
+Length=297
+
+ Score = 46.0 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 27/218 (12%), Positives = 63/218 (29%), Gaps = 26/218 (12%)
+
+Query  42   YVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTV  101
+              ++ P +        +       + L             D  + ++VY       +   
+Sbjct  74   VFILGPSHHVALSRCALSTVDIYRTPL------------YDLHVDQKVYGELWKTGMFER  121
+
+Query  102  DLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS  161
+                           L +         +   +V +     LS     + G+V  + L  +
+Sbjct  122  MSLQTDEDEHSIEMHLPYTAKAMESHKDDLTIVPVLVGA-LSESKEQEFGKVFSKYL--A  178
+
+Query  162  EKKIALIVSADHGHA--------HDENGPYGYRKESEEYDRLIMELINESRLEELPEIPD  213
+            +     ++S+D  H         +DE+    YR   E  D++ M +I +    +      
+Sbjct  179  DPTNLFVISSDFCHWGQRFRYTYYDESQGEIYRSI-ENLDKMGMSIIEQLDPVQFSNYLK  237
+
+Query  214  ELIEKALPDSYWQMLIMLGAMHRVPVKLVESAYACPTY  251
+            +            + ++L A   +    V  +++   Y
+Sbjct  238  K--YHNTICGRHPIGVLLNAATELQKNGVNMSFSFLNY  273
+
+
+> sp|Q2HJH7|MEMO1_BOVIN Protein MEMO1 OS=Bos taurus OX=9913 GN=MEMO1 
+PE=2 SV=1
+Length=285
+
+ Score = 45.2 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 23/204 (11%), Positives = 57/204 (28%), Gaps = 26/204 (13%)
+
+Query  42   YVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTV  101
+              ++ P +        +       + L             D  + +++Y       +   
+Sbjct  74   IFILGPSHHVPLSRCALSSVDIYRTPL------------YDLRIDQKIYGELWKTGMFER  121
+
+Query  102  DLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS  161
+                           L +         ++  ++ +     LS     + G++  + L   
+Sbjct  122  MSLQTDEDEHSIEMHLPYTAKAMESHKDEFTIIPVLVGA-LSESKEQEFGKLFSKYLAEP  180
+
+Query  162  EKKIALIVSADHGHA--------HDENGPYGYRKESEEYDRLIMELINESRLEELPEIPD  213
+                  +VS+D  H         +DE+    YR   E  D++ M +I +           
+Sbjct  181  SN--LFVVSSDFCHWGQRFRYSYYDESQGEIYRSI-EHLDKMGMSIIEQLDPVSFSNYLK  237
+
+Query  214  ELIEKALPDSYWQMLIMLGAMHRV  237
+            +            + ++L A+  +
+Sbjct  238  K--YHNTICGRHPIGVLLNAITEL  259
+
+
+> sp|A4T8B7|MHPB_MYCGI 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Mycolicibacterium gilvum 
+(strain PYR-GCK) OX=350054 GN=mhpB PE=3 SV=1
+Length=315
+
+ Score = 44.8 bits (104),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 39/226 (17%), Positives = 65/226 (29%), Gaps = 37/226 (16%)
+
+Query  8    MPHGNPALSPEDKETEKLAGVLKDIGKAFSDADSYVLISPHNV-----RISDHLGVIMAQ  62
+            +P     L     E +K     +D    F D +  V  SP +      R      +  A 
+Sbjct  19   LPGPAQEL---LDEIDKAIAAARDFVAEF-DPELVVTFSPDHYNGFFYRAMPPFCIGTAA  74
+
+Query  63   HLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGEL  122
+                   +   E P +  +D  LA +              L         +   +  G +
+Sbjct  75   --EGVGDYGTHEGPLDVPSD--LATDCA---------RAVLDHDVDVALSAAMDVDHGTV  121
+
+Query  123  IPLQFL----EKKPLVLLTPARRL----SRETLIKAGEVLGEVLEGSEKKIALIVSADHG  174
+             PLQ L      KP++ +              +   G  +G  L    K++ +I S    
+Sbjct  122  QPLQKLFGDATAKPVIPVFINSVATPLGPIRRVRALGAAVGAHLATLGKRVLVIGSGGLS  181
+
+Query  175  HAHDENGPYGYRKESEEYDRLIM-----ELINESRLEELPEIPDEL  215
+            H  D   P          DR++          ++R   + E   E 
+Sbjct  182  H--DPPVPTLATAPPAALDRIVRGVPMTTDQRQARQTAVIEAAREF  225
+
+
+> sp|Q6DJ03|MEMO1_XENTR Protein MEMO1 OS=Xenopus tropicalis OX=8364 
+GN=memo1 PE=2 SV=1
+Length=297
+
+ Score = 44.4 bits (103),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 26/218 (12%), Positives = 63/218 (29%), Gaps = 26/218 (12%)
+
+Query  42   YVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTV  101
+              ++ P +        +       + L             D  + ++VY       +   
+Sbjct  74   VFILGPSHHVALSRCALSTVDIYRTPL------------YDLHIDQKVYGDLWKTGMFER  121
+
+Query  102  DLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS  161
+                           L +         +   +V +     LS     + G++  + L  +
+Sbjct  122  MSLQTDEDEHSIEMHLPYTAKTMESHKDDLTIVPVLVGA-LSESKEQEFGKLFSKYL--A  178
+
+Query  162  EKKIALIVSADHGHA--------HDENGPYGYRKESEEYDRLIMELINESRLEELPEIPD  213
+            +     ++S+D  H         +DE+    YR   E  D++ M +I +    +      
+Sbjct  179  DPTNLFVISSDFCHWGQRFRYTYYDESQGEIYRSI-ENLDKMGMGIIEQLDPVQFSNYLK  237
+
+Query  214  ELIEKALPDSYWQMLIMLGAMHRVPVKLVESAYACPTY  251
+            +            + ++L A   +    V  +++   Y
+Sbjct  238  K--YHNTICGRHPIGVLLNAATELQKNGVNMSFSFLNY  273
+
+
+> sp|Q400K4|MHPB1_PSEPU 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase 1 OS=Pseudomonas putida OX=303 
+GN=mhpB1 PE=3 SV=1
+Length=314
+
+ Score = 44.4 bits (103),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 33/208 (16%), Positives = 60/208 (29%), Gaps = 42/208 (20%)
+
+Query  16   SPEDKETEKLAGVLKDIGKAFS---------DADSYVLISPHNVR-----ISDHLGVIMA  61
+            +P     + +A VL ++ +  +         D     L +P +       +     + MA
+Sbjct  11   TPLVGYVDPVAEVLAEVDEVVAAARARIAAFDPQLVFLFAPDHYNGFFYDVMPSFCIGMA  70
+
+Query  62   QHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTVDLHFASRSGRYSRWPLTWGE  121
+               I         L G  +  R  AE    A   A +               R  +  G 
+Sbjct  71   ATAIGDF----HSLAGPLDVPRETAEACAAAVLEAGVDAAV---------SYRMQVDHGF  117
+
+Query  122  LIPLQFLEK----KPLVLLTPA----RRLSRETLIKAGEVLGEVLEGSEKKIALIVSADH  173
+              PL+ L      KP+V +            +     GE +G     + K++  + S   
+Sbjct  118  AQPLELLLGGLAEKPVVPVFINGVAVPLPGFQRARLLGEAIGRFARSTGKRVLFLGSGGL  177
+
+Query  174  GHAHDENGPYGYRKESEEYDRLIMELIN  201
+             H            E  + D  + + + 
+Sbjct  178  SHQ-------PPVPELAKVDARMADRLL  198
+
+
+> sp|A4JPY0|MHPB_BURVG 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Burkholderia vietnamiensis 
+(strain G4 / LMG 22486) OX=269482 GN=mhpB PE=3 SV=1
+Length=317
+
+ Score = 43.7 bits (101),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 18/101 (18%), Positives = 32/101 (32%), Gaps = 15/101 (15%)
+
+Query  114  RWPLTWGELIPLQFLE----KKPLVLLTPA----RRLSRETLIKAGEVLGEVLEGSEKKI  165
+            R  +  G    L+ L     + P+V +          S       G+ +G V+    +++
+Sbjct  110  RMQVDHGCAQALEVLTGRIDRFPVVPVFINSVAPPMASCRRARLLGDAIGRVVARMNRRV  169
+
+Query  166  ALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLE  206
+             LI S    H            E    D ++ E +   R  
+Sbjct  170  LLIGSGGISHE-------PPVPEIAGADDVVAERLIAGRNP  203
+
+
+> sp|Q91VH6|MEMO1_MOUSE Protein MEMO1 OS=Mus musculus OX=10090 
+GN=Memo1 PE=1 SV=1
+Length=297
+
+ Score = 43.7 bits (101),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 24/218 (11%), Positives = 62/218 (28%), Gaps = 26/218 (12%)
+
+Query  42   YVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTV  101
+              ++ P +        +       + L             D  + +++Y       +   
+Sbjct  74   IFILGPSHHVPLSRCALSSVDIYRTPL------------YDLRIDQKIYGELWKTGMFER  121
+
+Query  102  DLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS  161
+                           L +         ++  ++ +     LS     + G++  + L   
+Sbjct  122  MSLQTDEDEHSIEMHLPYTAKAMESHKDEFTIIPVLVGA-LSESKEQEFGKLFSKYLADP  180
+
+Query  162  EKKIALIVSADHGHA--------HDENGPYGYRKESEEYDRLIMELINESRLEELPEIPD  213
+                  +VS+D  H         +DE+    YR   E  D++ M +I +           
+Sbjct  181  SN--LFVVSSDFCHWGQRFRYSYYDESQGEIYRSI-EHLDKMGMSIIEQLDPVSFSNYLK  237
+
+Query  214  ELIEKALPDSYWQMLIMLGAMHRVPVKLVESAYACPTY  251
+            +            + ++L A+  +    +  +++   Y
+Sbjct  238  K--YHNTICGRHPIGVLLNAITELQKNGMNMSFSFLNY  273
+
+
+> sp|Q4R6D9|MEMO1_MACFA Protein MEMO1 OS=Macaca fascicularis OX=9541 
+GN=MEMO1 PE=2 SV=1
+Length=297
+
+ Score = 43.7 bits (101),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 24/218 (11%), Positives = 62/218 (28%), Gaps = 26/218 (12%)
+
+Query  42   YVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTV  101
+              ++ P +        +       + L             D  + +++Y       +   
+Sbjct  74   IFILGPSHHVPLSRCALSSVDIYRTPL------------YDLRIDQKIYGELWKTGMFER  121
+
+Query  102  DLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS  161
+                           L +         ++  ++ +     LS     + G++  + L   
+Sbjct  122  MSLQTDEDEHSIEMHLPYTAKAMESHKDEFTIIPVLVGA-LSESKEQEFGKLFSKYLADP  180
+
+Query  162  EKKIALIVSADHGHA--------HDENGPYGYRKESEEYDRLIMELINESRLEELPEIPD  213
+                  +VS+D  H         +DE+    YR   E  D++ M +I +           
+Sbjct  181  SN--LFVVSSDFCHWGQRFRYSYYDESQGEIYRSI-EHLDKMGMSIIEQLDPVSFSNYLK  237
+
+Query  214  ELIEKALPDSYWQMLIMLGAMHRVPVKLVESAYACPTY  251
+            +            + ++L A+  +    +  +++   Y
+Sbjct  238  K--YHNTICGRHPIGVLLNAITELQKNGMNMSFSFLNY  273
+
+
+> sp|Q9Y316|MEMO1_HUMAN Protein MEMO1 OS=Homo sapiens OX=9606 GN=MEMO1 
+PE=1 SV=1
+Length=297
+
+ Score = 43.7 bits (101),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 24/218 (11%), Positives = 62/218 (28%), Gaps = 26/218 (12%)
+
+Query  42   YVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTV  101
+              ++ P +        +       + L             D  + +++Y       +   
+Sbjct  74   IFILGPSHHVPLSRCALSSVDIYRTPL------------YDLRIDQKIYGELWKTGMFER  121
+
+Query  102  DLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS  161
+                           L +         ++  ++ +     LS     + G++  + L   
+Sbjct  122  MSLQTDEDEHSIEMHLPYTAKAMESHKDEFTIIPVLVGA-LSESKEQEFGKLFSKYLADP  180
+
+Query  162  EKKIALIVSADHGHA--------HDENGPYGYRKESEEYDRLIMELINESRLEELPEIPD  213
+                  +VS+D  H         +DE+    YR   E  D++ M +I +           
+Sbjct  181  SN--LFVVSSDFCHWGQRFRYSYYDESQGEIYRSI-EHLDKMGMSIIEQLDPVSFSNYLK  237
+
+Query  214  ELIEKALPDSYWQMLIMLGAMHRVPVKLVESAYACPTY  251
+            +            + ++L A+  +    +  +++   Y
+Sbjct  238  K--YHNTICGRHPIGVLLNAITELQKNGMNMSFSFLNY  273
+
+
+> sp|Q4QQR9|MEMO1_RAT Protein MEMO1 OS=Rattus norvegicus OX=10116 
+GN=Memo1 PE=1 SV=1
+Length=297
+
+ Score = 43.7 bits (101),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 24/218 (11%), Positives = 62/218 (28%), Gaps = 26/218 (12%)
+
+Query  42   YVLISPHNVRISDHLGVIMAQHLISWLGFEGVELPGEWETDRGLAEEVYNAWKGAEIPTV  101
+              ++ P +        +       + L             D  + +++Y       +   
+Sbjct  74   IFILGPSHHVPLSRCALSSVDIYRTPL------------YDLRIDQKIYGELWKTGMFER  121
+
+Query  102  DLHFASRSGRYSRWPLTWGELIPLQFLEKKPLVLLTPARRLSRETLIKAGEVLGEVLEGS  161
+                           L +         ++  ++ +     LS     + G++  + L   
+Sbjct  122  MSLQTDEDEHSIEMHLPYTAKAMESHKDEFTIIPVLVGA-LSESKEQEFGKLFSKYLADP  180
+
+Query  162  EKKIALIVSADHGHA--------HDENGPYGYRKESEEYDRLIMELINESRLEELPEIPD  213
+                  +VS+D  H         +DE+    YR   E  D++ M +I +           
+Sbjct  181  SN--LFVVSSDFCHWGQRFRYSYYDESQGEIYRSI-EHLDKMGMSIIEQLDPVSFSNYLK  237
+
+Query  214  ELIEKALPDSYWQMLIMLGAMHRVPVKLVESAYACPTY  251
+            +            + ++L A+  +    +  +++   Y
+Sbjct  238  K--YHNTICGRHPIGVLLNAITELQKSGMNMSFSFLNY  273
+
+
+> sp|B2JQV7|MHPB_PARP8 2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic 
+acid 1,2-dioxygenase OS=Paraburkholderia phymatum 
+(strain DSM 17167 / CIP 108236 / LMG 21445 / STM815) OX=391038 
+GN=mhpB PE=3 SV=1
+Length=317
+
+ Score = 43.3 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/101 (17%), Positives = 29/101 (29%), Gaps = 15/101 (15%)
+
+Query  114  RWPLTWGELIPLQFLE----KKPLVLLTPA----RRLSRETLIKAGEVLGEVLEGSEKKI  165
+            R  +  G    L  L     + P+V +          S       G+ +G       +++
+Sbjct  110  RMQVDHGCAQALDVLTGGIDRYPVVPVFINSVAPPMASCRRARLLGDAIGRAAARMNRRV  169
+
+Query  166  ALIVSADHGHAHDENGPYGYRKESEEYDRLIMELINESRLE  206
+             LI S    H            E    D ++ E +   R  
+Sbjct  170  LLIGSGGMSHE-------PPVPEIAAADDVVAERLIAGRNP  203
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.121    0.275    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0372    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20072306884
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

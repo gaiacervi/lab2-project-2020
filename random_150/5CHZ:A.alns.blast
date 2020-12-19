@@ -1,0 +1,1938 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5CHZ:A
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O95243|MBD4_HUMAN Methyl-CpG-binding domain protein 4 OS=Hom...  305     1e-101
+  sp|Q9Z2D7|MBD4_MOUSE Methyl-CpG-binding domain protein 4 OS=Mus...  296     1e-98 
+  sp|Q0IGK1|MBD4L_ARATH Methyl-CpG-binding domain protein 4-like ...  126     3e-34 
+  sp|Q9YDP0|MIG_AERPE Thymine-DNA glycosylase OS=Aeropyrum pernix...  53.9    3e-08 
+  sp|Q7LX22|MIG_PYRAE Thymine/uracil-DNA glycosylase OS=Pyrobacul...  53.5    3e-08 
+  sp|P29588|MIG_METTF Thymine/uracil-DNA glycosylase OS=Methanoth...  40.0    0.002 
+  sp|P46303|UVEN_MICLC Ultraviolet N-glycosylase/AP lyase OS=Micr...  40.0    0.003 
+  sp|P57617|MUTY_BUCAI Adenine DNA glycosylase OS=Buchnera aphidi...  39.3    0.005 
+
+
+> sp|O95243|MBD4_HUMAN Methyl-CpG-binding domain protein 4 OS=Homo 
+sapiens OX=9606 GN=MBD4 PE=1 SV=1
+Length=580
+
+ Score = 305 bits (780),  Expect = 1e-101, Method: Compositional matrix adjust.
+ Identities = 140/140 (100%), Positives = 140/140 (100%), Gaps = 0/140 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR
+Sbjct  438  WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  497
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH
+Sbjct  498  DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  557
+
+Query  121  PEDHKLNKYHDWLWENHEKL  140
+            PEDHKLNKYHDWLWENHEKL
+Sbjct  558  PEDHKLNKYHDWLWENHEKL  577
+
+
+> sp|Q9Z2D7|MBD4_MOUSE Methyl-CpG-binding domain protein 4 OS=Mus 
+musculus OX=10090 GN=Mbd4 PE=1 SV=1
+Length=554
+
+ Score = 296 bits (758),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 135/140 (96%), Positives = 138/140 (99%), Gaps = 0/140 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            WTPPRSPFNLVQE LFHDPWKLLIATIFLNRTSGKMAIPVLW+FLEKYPSAEVAR ADWR
+Sbjct  412  WTPPRSPFNLVQEILFHDPWKLLIATIFLNRTSGKMAIPVLWEFLEKYPSAEVARAADWR  471
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            DVSELLKPLGLYDLRAKTI+KFSDEYLTKQW+YPIELHGIGKYGNDSYRIFCVNEWKQVH
+Sbjct  472  DVSELLKPLGLYDLRAKTIIKFSDEYLTKQWRYPIELHGIGKYGNDSYRIFCVNEWKQVH  531
+
+Query  121  PEDHKLNKYHDWLWENHEKL  140
+            PEDHKLNKYHDWLWENHEKL
+Sbjct  532  PEDHKLNKYHDWLWENHEKL  551
+
+
+> sp|Q0IGK1|MBD4L_ARATH Methyl-CpG-binding domain protein 4-like 
+protein OS=Arabidopsis thaliana OX=3702 GN=MBD4L PE=1 SV=1
+Length=445
+
+ Score = 126 bits (317),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 58/133 (44%), Positives = 78/133 (59%), Gaps = 0/133 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            W PPRSP NL+QE  +HDPW++L+  + LN+TSG     V+         A+ A      
+Sbjct  307  WVPPRSPCNLLQEDHWHDPWRVLVICMLLNKTSGAQTRGVISDLFGLCTDAKTATEVKEE  366
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            ++  L+KPLGL   R K I + S EYL + W +  +LHG+GKY  D+Y IFC   W +V 
+Sbjct  367  EIENLIKPLGLQKKRTKMIQRLSLEYLQESWTHVTQLHGVGKYAADAYAIFCNGNWDRVK  426
+
+Query  121  PEDHKLNKYHDWL  133
+            P DH LN Y D+L
+Sbjct  427  PNDHMLNYYWDYL  439
+
+
+> sp|Q9YDP0|MIG_AERPE Thymine-DNA glycosylase OS=Aeropyrum pernix 
+(strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 
+/ K1) OX=272557 GN=APE_0875.1 PE=1 SV=2
+Length=223
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 50/93 (54%), Gaps = 7/93 (8%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            DPW +L+A   L +T+ +  + V  +FL +YP+ +   +A   +V EL++PLG+   RAK
+Sbjct  35   DPWAILVAAFLLRKTTARQVVRVYEEFLRRYPNPKALASAREDEVRELIRPLGIEHQRAK  94
+
+Query  78   TIVKFSDEYLTK-QWKYPI------ELHGIGKY  103
+             +++ +     +   + P       EL G+G Y
+Sbjct  95   HLIELAKHIEARYGGRIPCSKEKLKELPGVGDY  127
+
+
+> sp|Q7LX22|MIG_PYRAE Thymine/uracil-DNA glycosylase OS=Pyrobaculum 
+aerophilum (strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 
+/ NBRC 100827) OX=178306 GN=PAE3199 PE=1 SV=1
+Length=230
+
+ Score = 53.5 bits (127),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 27/94 (29%), Positives = 50/94 (53%), Gaps = 7/94 (7%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            DPW +L+A + L +T+ K  + +  +FL +YPS      A   ++  +++PLG+  +RA 
+Sbjct  38   DPWAVLVAALLLRKTTVKQVVDIYREFLRRYPSPARLADASVEEIKAIIQPLGMEHVRAT  97
+
+Query  78   TIVKFSDEYLTK-QWKYPIE------LHGIGKYG  104
+             + K S+E + +   + P +      L G+G Y 
+Sbjct  98   LLKKLSEELVRRFNGQIPCDRDALKSLPGVGDYA  131
+
+
+> sp|P29588|MIG_METTF Thymine/uracil-DNA glycosylase OS=Methanothermobacter 
+thermautotrophicus OX=145262 GN=mig PE=1 SV=1
+Length=221
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 32/131 (24%), Positives = 61/131 (47%), Gaps = 13/131 (10%)
+
+Query  17   HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRA  76
+             DP+ +LI  I L RT+      +  KF  KY   E        ++++ +K +GL + RA
+Sbjct  33   RDPYVILITEILLRRTTAGHVKKIYDKFFVKYKCFEDILKTPKSEIAKDIKEIGLSNQRA  92
+
+Query  77   KTIVKFS----DEY---LTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVHPEDHK----  125
+            + + + +    ++Y   + +  K  ++L G+GKY   +  + C+   K+    D      
+Sbjct  93   EQLKELARVVINDYGGRVPRNRKAILDLPGVGKYTCAA--VMCLAFGKKAAMVDANFVRV  150
+
+Query  126  LNKYHDWLWEN  136
+            +N+Y    +EN
+Sbjct  151  INRYFGGSYEN  161
+
+
+> sp|P46303|UVEN_MICLC Ultraviolet N-glycosylase/AP lyase OS=Micrococcus 
+luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / 
+NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230) OX=465515 
+GN=pdg PE=1 SV=2
+Length=279
+
+ Score = 40.0 bits (92),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 49/102 (48%), Gaps = 13/102 (13%)
+
+Query  11   VQETLFHDPWKLLIATIFLNRTSG---KMAIPVLWKFLEKYPSAEVARTADWRDVSELLK  67
+            V E  F  P++LL+AT+   +T+      A P L+    ++P A     A   ++ EL++
+Sbjct  36   VAELDFETPFELLVATVLSAQTTDVRVNAATPALFA---RFPDAHAMAAATEPELQELVR  92
+
+Query  68   PLGLYDLRAKTIVKFSDEYLTKQ-WKYP------IELHGIGK  102
+              G Y  +A  I++ S E + +   + P      + L G+G+
+Sbjct  93   STGFYRNKASAILRLSQELVGRHDGEVPARLEDLVALPGVGR  134
+
+
+> sp|P57617|MUTY_BUCAI Adenine DNA glycosylase OS=Buchnera aphidicola 
+subsp. Acyrthosiphon pisum (strain APS) OX=107806 GN=mutY 
+PE=3 SV=1
+Length=350
+
+ Score = 39.3 bits (90),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 31/87 (36%), Positives = 47/87 (54%), Gaps = 10/87 (11%)
+
+Query  24   IATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTIVKFS  83
+            I+ I L +T+ K AIP   KF+  +P+ +    +   DV  L   LG Y+ RAK I K S
+Sbjct  35   ISEIMLQQTTVKSAIPYFKKFILNFPNIKSLNDSKLDDVLYLWSGLGYYN-RAKNIYK-S  92
+
+Query  84   DEYLTKQWK--YP------IELHGIGK  102
+             + + K++K  +P      I+L GIG+
+Sbjct  93   AQIIKKKYKGIFPDQFSNIIQLPGIGR  119
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.469    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5028640960
+Results from round 2
+
+
+Query= 5CHZ:A
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O95243|MBD4_HUMAN Methyl-CpG-binding domain protein 4 OS=Hom...  263     2e-85
+  sp|Q9Z2D7|MBD4_MOUSE Methyl-CpG-binding domain protein 4 OS=Mus...  260     1e-84
+  sp|Q0IGK1|MBD4L_ARATH Methyl-CpG-binding domain protein 4-like ...  231     2e-74
+  sp|Q7LX22|MIG_PYRAE Thymine/uracil-DNA glycosylase OS=Pyrobacul...  122     3e-34
+  sp|Q9YDP0|MIG_AERPE Thymine-DNA glycosylase OS=Aeropyrum pernix...  120     8e-34
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P29588|MIG_METTF Thymine/uracil-DNA glycosylase OS=Methanoth...  65.8    8e-13
+  sp|P46303|UVEN_MICLC Ultraviolet N-glycosylase/AP lyase OS=Micr...  58.5    7e-10
+  sp|Q9WYK0|END3_THEMA Endonuclease III OS=Thermotoga maritima (s...  54.7    1e-08
+  sp|P39788|END3_BACSU Endonuclease III OS=Bacillus subtilis (str...  52.0    1e-07
+  sp|P83847|MUTY_GEOSE Adenine DNA glycosylase OS=Geobacillus ste...  50.8    5e-07
+  sp|Q89A45|MUTY_BUCBP Adenine DNA glycosylase OS=Buchnera aphidi...  50.4    6e-07
+  sp|P9WQ09|MUTY_MYCTU Adenine DNA glycosylase OS=Mycobacterium t...  50.0    9e-07
+  sp|P9WQ08|MUTY_MYCTO Adenine DNA glycosylase OS=Mycobacterium t...  50.0    9e-07
+  sp|P9WQ11|END3_MYCTU Endonuclease III OS=Mycobacterium tubercul...  48.5    3e-06
+  sp|P9WQ10|END3_MYCTO Endonuclease III OS=Mycobacterium tubercul...  48.5    3e-06
+  sp|P63541|END3_MYCBO Endonuclease III OS=Mycobacterium bovis (s...  48.5    3e-06
+  sp|P73715|END3_SYNY3 Endonuclease III OS=Synechocystis sp. (str...  47.7    4e-06
+  sp|O83754|END3_TREPA Endonuclease III OS=Treponema pallidum (st...  46.2    1e-05
+  sp|Q8R5G2|MUTYH_RAT Adenine DNA glycosylase OS=Rattus norvegicu...  44.6    8e-05
+  sp|Q99P21|MUTYH_MOUSE Adenine DNA glycosylase OS=Mus musculus O...  44.3    1e-04
+  sp|P17802|MUTY_ECOLI Adenine DNA glycosylase OS=Escherichia col...  43.9    1e-04
+  sp|P57617|MUTY_BUCAI Adenine DNA glycosylase OS=Buchnera aphidi...  43.5    2e-04
+  sp|Q8K926|MUTY_BUCAP Adenine DNA glycosylase OS=Buchnera aphidi...  42.7    3e-04
+  sp|Q9UIF7|MUTYH_HUMAN Adenine DNA glycosylase OS=Homo sapiens O...  42.7    4e-04
+  sp|Q05869|MUTY_SALTY Adenine DNA glycosylase OS=Salmonella typh...  41.9    7e-04
+  sp|P46230|MUTY_AERHY Adenine DNA glycosylase (Fragment) OS=Aero...  39.6    8e-04
+  sp|Q89AW4|END3_BUCBP Endonuclease III OS=Buchnera aphidicola su...  40.8    0.001
+  sp|P44320|MUTY_HAEIN Adenine DNA glycosylase OS=Haemophilus inf...  39.6    0.003
+  sp|A0R567|MUTY_MYCS2 Adenine DNA glycosylase OS=Mycolicibacteri...  38.5    0.008
+
+
+> sp|O95243|MBD4_HUMAN Methyl-CpG-binding domain protein 4 OS=Homo 
+sapiens OX=9606 GN=MBD4 PE=1 SV=1
+Length=580
+
+ Score = 263 bits (672),  Expect = 2e-85, Method: Composition-based stats.
+ Identities = 140/140 (100%), Positives = 140/140 (100%), Gaps = 0/140 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR
+Sbjct  438  WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  497
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH
+Sbjct  498  DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  557
+
+Query  121  PEDHKLNKYHDWLWENHEKL  140
+            PEDHKLNKYHDWLWENHEKL
+Sbjct  558  PEDHKLNKYHDWLWENHEKL  577
+
+
+> sp|Q9Z2D7|MBD4_MOUSE Methyl-CpG-binding domain protein 4 OS=Mus 
+musculus OX=10090 GN=Mbd4 PE=1 SV=1
+Length=554
+
+ Score = 260 bits (665),  Expect = 1e-84, Method: Composition-based stats.
+ Identities = 135/140 (96%), Positives = 138/140 (99%), Gaps = 0/140 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            WTPPRSPFNLVQE LFHDPWKLLIATIFLNRTSGKMAIPVLW+FLEKYPSAEVAR ADWR
+Sbjct  412  WTPPRSPFNLVQEILFHDPWKLLIATIFLNRTSGKMAIPVLWEFLEKYPSAEVARAADWR  471
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            DVSELLKPLGLYDLRAKTI+KFSDEYLTKQW+YPIELHGIGKYGNDSYRIFCVNEWKQVH
+Sbjct  472  DVSELLKPLGLYDLRAKTIIKFSDEYLTKQWRYPIELHGIGKYGNDSYRIFCVNEWKQVH  531
+
+Query  121  PEDHKLNKYHDWLWENHEKL  140
+            PEDHKLNKYHDWLWENHEKL
+Sbjct  532  PEDHKLNKYHDWLWENHEKL  551
+
+
+> sp|Q0IGK1|MBD4L_ARATH Methyl-CpG-binding domain protein 4-like 
+protein OS=Arabidopsis thaliana OX=3702 GN=MBD4L PE=1 SV=1
+Length=445
+
+ Score = 231 bits (589),  Expect = 2e-74, Method: Composition-based stats.
+ Identities = 58/133 (44%), Positives = 78/133 (59%), Gaps = 0/133 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            W PPRSP NL+QE  +HDPW++L+  + LN+TSG     V+         A+ A      
+Sbjct  307  WVPPRSPCNLLQEDHWHDPWRVLVICMLLNKTSGAQTRGVISDLFGLCTDAKTATEVKEE  366
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            ++  L+KPLGL   R K I + S EYL + W +  +LHG+GKY  D+Y IFC   W +V 
+Sbjct  367  EIENLIKPLGLQKKRTKMIQRLSLEYLQESWTHVTQLHGVGKYAADAYAIFCNGNWDRVK  426
+
+Query  121  PEDHKLNKYHDWL  133
+            P DH LN Y D+L
+Sbjct  427  PNDHMLNYYWDYL  439
+
+
+> sp|Q7LX22|MIG_PYRAE Thymine/uracil-DNA glycosylase OS=Pyrobaculum 
+aerophilum (strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 
+/ NBRC 100827) OX=178306 GN=PAE3199 PE=1 SV=1
+Length=230
+
+ Score = 122 bits (305),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 27/95 (28%), Positives = 50/95 (53%), Gaps = 7/95 (7%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            DPW +L+A + L +T+ K  + +  +FL +YPS      A   ++  +++PLG+  +RA 
+Sbjct  38   DPWAVLVAALLLRKTTVKQVVDIYREFLRRYPSPARLADASVEEIKAIIQPLGMEHVRAT  97
+
+Query  78   TIVKFSDEYLTK-QWKYPIE------LHGIGKYGN  105
+             + K S+E + +   + P +      L G+G Y  
+Sbjct  98   LLKKLSEELVRRFNGQIPCDRDALKSLPGVGDYAA  132
+
+
+> sp|Q9YDP0|MIG_AERPE Thymine-DNA glycosylase OS=Aeropyrum pernix 
+(strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 
+/ K1) OX=272557 GN=APE_0875.1 PE=1 SV=2
+Length=223
+
+ Score = 120 bits (302),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 28/93 (30%), Positives = 50/93 (54%), Gaps = 7/93 (8%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            DPW +L+A   L +T+ +  + V  +FL +YP+ +   +A   +V EL++PLG+   RAK
+Sbjct  35   DPWAILVAAFLLRKTTARQVVRVYEEFLRRYPNPKALASAREDEVRELIRPLGIEHQRAK  94
+
+Query  78   TIVKFSDEYLTK-QWKYPI------ELHGIGKY  103
+             +++ +     +   + P       EL G+G Y
+Sbjct  95   HLIELAKHIEARYGGRIPCSKEKLKELPGVGDY  127
+
+
+> sp|P29588|MIG_METTF Thymine/uracil-DNA glycosylase OS=Methanothermobacter 
+thermautotrophicus OX=145262 GN=mig PE=1 SV=1
+Length=221
+
+ Score = 65.8 bits (159),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 35/148 (24%), Positives = 58/148 (39%), Gaps = 24/148 (16%)
+
+Query  15   LFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDL  74
+               DP+ +LI  I L RT+      +  KF  KY   E        ++++ +K +GL + 
+Sbjct  31   HTRDPYVILITEILLRRTTAGHVKKIYDKFFVKYKCFEDILKTPKSEIAKDIKEIGLSNQ  90
+
+Query  75   RAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPED----  123
+            RA+ + + +   +     + P      ++L G+GKY      + C+   K+    D    
+Sbjct  91   RAEQLKELARVVINDYGGRVPRNRKAILDLPGVGKYT--CAAVMCLAFGKKAAMVDANFV  148
+
+Query  124  -----------HKLNKYHDWLWENHEKL  140
+                         LN  H  LWE  E L
+Sbjct  149  RVINRYFGGSYENLNYNHKALWELAETL  176
+
+
+> sp|P46303|UVEN_MICLC Ultraviolet N-glycosylase/AP lyase OS=Micrococcus 
+luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / 
+NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230) OX=465515 
+GN=pdg PE=1 SV=2
+Length=279
+
+ Score = 58.5 bits (140),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 24/99 (24%), Positives = 45/99 (45%), Gaps = 7/99 (7%)
+
+Query  11   VQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLG  70
+            V E  F  P++LL+AT+   +T+             ++P A     A   ++ EL++  G
+Sbjct  36   VAELDFETPFELLVATVLSAQTTDVRVNAATPALFARFPDAHAMAAATEPELQELVRSTG  95
+
+Query  71   LYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGK  102
+             Y  +A  I++ S E + +   + P      + L G+G+
+Sbjct  96   FYRNKASAILRLSQELVGRHDGEVPARLEDLVALPGVGR  134
+
+
+> sp|Q9WYK0|END3_THEMA Endonuclease III OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=nth PE=3 SV=1
+Length=213
+
+ Score = 54.7 bits (130),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 25/96 (26%), Positives = 47/96 (49%), Gaps = 7/96 (7%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            DP+++LI+T+   RT  +       K  E Y + +    A   D+ +L+K  G+Y  +A+
+Sbjct  21   DPFRVLISTVLSQRTRDENTEKASKKLFEVYRTPQELAKAKPEDLYDLIKESGMYRQKAE  80
+
+Query  78   TIVKFSDEYLTK-QWKYP------IELHGIGKYGND  106
+             IV+ S   + K   + P      ++L G+G+   +
+Sbjct  81   RIVEISRILVEKYGGRVPDSLEELLKLPGVGRKTAN  116
+
+
+> sp|P39788|END3_BACSU Endonuclease III OS=Bacillus subtilis (strain 
+168) OX=224308 GN=nth PE=3 SV=1
+Length=219
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 23/110 (21%), Positives = 46/110 (42%), Gaps = 11/110 (10%)
+
+Query  4    PRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVS  63
+            P +   LV      +P++L++A     + +  +   V     +KY   E        ++ 
+Sbjct  19   PHAECELVHS----NPFELVVAVALSAQCTDALVNRVTKTLFQKYKRPEDYLAVPLEELQ  74
+
+Query  64   ELLKPLGLYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGND  106
+            + +K +GLY  +AK I K S   +     + P      ++L G+G+   +
+Sbjct  75   QDIKSIGLYRNKAKNIQKLSKMIIEDYGGEVPRDRDELVKLPGVGRKTAN  124
+
+
+> sp|P83847|MUTY_GEOSE Adenine DNA glycosylase OS=Geobacillus stearothermophilus 
+OX=1422 GN=mutY PE=1 SV=2
+Length=366
+
+ Score = 50.8 bits (120),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 25/93 (27%), Positives = 46/93 (49%), Gaps = 8/93 (9%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            DP+K+ ++ + L +T  +  IP   +F++++P+ E    AD  +V +  + LG Y  R +
+Sbjct  35   DPYKVWVSEVMLQQTRVETVIPYFEQFIDRFPTLEALADADEDEVLKAWEGLG-YYSRVR  93
+
+Query  78   TIVKFSDEYLTK-QWKYPIE------LHGIGKY  103
+             +     E  T+   K P +      L G+G Y
+Sbjct  94   NLHAAVKEVKTRYGGKVPDDPDEFSRLKGVGPY  126
+
+
+> sp|Q89A45|MUTY_BUCBP Adenine DNA glycosylase OS=Buchnera aphidicola 
+subsp. Baizongia pistaciae (strain Bp) OX=224915 GN=mutY 
+PE=3 SV=1
+Length=351
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 36/142 (25%), Positives = 59/142 (42%), Gaps = 20/142 (14%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            +P+K  I+ I L +T  K  IP   KF++++P+ +    +    +  L   LG Y  RA+
+Sbjct  29   NPYKTWISEIMLQQTQVKTVIPYYCKFIKRFPNIDTLSDSPLDSILNLWSGLG-YYTRAR  87
+
+Query  78   TIVKFSDEYLTK-QWKYP------IELHGIGK--------YGNDSYRIFCVNEWKQVHPE  122
+             I K +     K    +P      I+L GIGK        +G + Y        K+V   
+Sbjct  88   NIYKTAKILKQKFNGIFPNSYAEIIKLPGIGKSTAGAILSFGFNLYSCILDGNIKRVLIR  147
+
+Query  123  DHKLN----KYHDWLWENHEKL  140
+             + +N         LW+  E +
+Sbjct  148  YYSININNKYIEKLLWKTIESI  169
+
+
+> sp|P9WQ09|MUTY_MYCTU Adenine DNA glycosylase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mutY PE=1 
+SV=1
+Length=304
+
+ Score = 50.0 bits (118),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 21/100 (21%), Positives = 43/100 (43%), Gaps = 8/100 (8%)
+
+Query  19   PWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKT  78
+            PW++L++   L +T     + +   ++ ++P+     TA   DV      LG Y  RAK 
+Sbjct  41   PWQILVSEFMLQQTPAARVLAIWPDWVRRWPTPSATATASTADVLRAWGKLG-YPRRAKR  99
+
+Query  79   IVKFS-------DEYLTKQWKYPIELHGIGKYGNDSYRIF  111
+            + + +       ++ +    +  + L G+G Y   +   F
+Sbjct  100  LHECATVIARDHNDVVPDDIEILVTLPGVGSYTARAVACF  139
+
+
+> sp|P9WQ08|MUTY_MYCTO Adenine DNA glycosylase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=mutY PE=3 
+SV=1
+Length=304
+
+ Score = 50.0 bits (118),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 21/100 (21%), Positives = 43/100 (43%), Gaps = 8/100 (8%)
+
+Query  19   PWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKT  78
+            PW++L++   L +T     + +   ++ ++P+     TA   DV      LG Y  RAK 
+Sbjct  41   PWQILVSEFMLQQTPAARVLAIWPDWVRRWPTPSATATASTADVLRAWGKLG-YPRRAKR  99
+
+Query  79   IVKFS-------DEYLTKQWKYPIELHGIGKYGNDSYRIF  111
+            + + +       ++ +    +  + L G+G Y   +   F
+Sbjct  100  LHECATVIARDHNDVVPDDIEILVTLPGVGSYTARAVACF  139
+
+
+> sp|P9WQ11|END3_MYCTU Endonuclease III OS=Mycobacterium tuberculosis 
+(strain ATCC 25618 / H37Rv) OX=83332 GN=nth PE=1 SV=1
+Length=245
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 43/101 (43%), Gaps = 7/101 (7%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  F  P +L +ATI   +++ K           +Y +A     AD  ++  L++P G Y
+Sbjct  34   ELDFTTPLELAVATILSAQSTDKRVNLTTPALFARYRTARDYAQADRTELESLIRPTGFY  93
+
+Query  73   DLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGND  106
+              +A +++      + +   + P      + L G+G+   +
+Sbjct  94   RNKAASLIGLGQALVERFGGEVPATMDKLVTLPGVGRKTAN  134
+
+
+> sp|P9WQ10|END3_MYCTO Endonuclease III OS=Mycobacterium tuberculosis 
+(strain CDC 1551 / Oshkosh) OX=83331 GN=nth PE=3 SV=1
+Length=245
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 43/101 (43%), Gaps = 7/101 (7%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  F  P +L +ATI   +++ K           +Y +A     AD  ++  L++P G Y
+Sbjct  34   ELDFTTPLELAVATILSAQSTDKRVNLTTPALFARYRTARDYAQADRTELESLIRPTGFY  93
+
+Query  73   DLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGND  106
+              +A +++      + +   + P      + L G+G+   +
+Sbjct  94   RNKAASLIGLGQALVERFGGEVPATMDKLVTLPGVGRKTAN  134
+
+
+> sp|P63541|END3_MYCBO Endonuclease III OS=Mycobacterium bovis 
+(strain ATCC BAA-935 / AF2122/97) OX=233413 GN=nth PE=3 SV=1
+Length=245
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 43/101 (43%), Gaps = 7/101 (7%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  F  P +L +ATI   +++ K           +Y +A     AD  ++  L++P G Y
+Sbjct  34   ELDFTTPLELAVATILSAQSTDKRVNLTTPALFARYRTARDYAQADRTELESLIRPTGFY  93
+
+Query  73   DLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGND  106
+              +A +++      + +   + P      + L G+G+   +
+Sbjct  94   RNKAASLIGLGQALVERFGGEVPATMDKLVTLPGVGRKTAN  134
+
+
+> sp|P73715|END3_SYNY3 Endonuclease III OS=Synechocystis sp. (strain 
+PCC 6803 / Kazusa) OX=1111708 GN=nth PE=3 SV=1
+Length=219
+
+ Score = 47.7 bits (112),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 20/98 (20%), Positives = 42/98 (43%), Gaps = 7/98 (7%)
+
+Query  16   FHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLR  75
+            +  P +LL+ATI   + + +    V     ++YP A      D +++ EL+   G +  +
+Sbjct  35   YQTPVQLLVATILSAQCTDERVNKVTPALFQRYPDANALAYGDRQEIEELIHSTGFFRNK  94
+
+Query  76   AKTIVKFSDEYLTK-QWKYP------IELHGIGKYGND  106
+            AK I     + + +   + P      + L G+ +   +
+Sbjct  95   AKNIQGACRKIVEEFDGEVPQRMEELLTLPGVARKTAN  132
+
+
+> sp|O83754|END3_TREPA Endonuclease III OS=Treponema pallidum (strain 
+Nichols) OX=243276 GN=nth PE=3 SV=1
+Length=211
+
+ Score = 46.2 bits (108),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 15/96 (16%), Positives = 37/96 (39%), Gaps = 7/96 (7%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  + + + LL+A +   + + K          +   + +         +   ++ + LY
+Sbjct  26   ELHWRNTFTLLVAVLLSAQATDKSVNKATAALFDVADTPQAMLALGEERLCSYIRTINLY  85
+
+Query  73   DLRAKTIVKFSDEYLTK-QWKYPIE------LHGIG  101
+              +A+ I+  S E + +   + P +      L G+G
+Sbjct  86   PTKARRIIALSAELIERFAAQVPCDAHALESLPGVG  121
+
+
+> sp|Q8R5G2|MUTYH_RAT Adenine DNA glycosylase OS=Rattus norvegicus 
+OX=10116 GN=Mutyh PE=2 SV=1
+Length=516
+
+ Score = 44.6 bits (104),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 16/98 (16%), Positives = 44/98 (45%), Gaps = 9/98 (9%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            + + ++ + L +T     I    ++++K+P+ +   +A   +V++L   LG Y  R + +
+Sbjct  99   YAVWVSEVMLQQTQVATVIDYYTRWMQKWPTLQDLASASLEEVNQLWSGLG-YYSRGRRL  157
+
+Query  80   VKFSDEYLTKQWKYPIE--------LHGIGKYGNDSYR  109
+             + + + + +   +           L G+G+Y   +  
+Sbjct  158  QEGARKVVEELGGHVPRTAETLQQLLPGVGRYTAGAIA  195
+
+
+> sp|Q99P21|MUTYH_MOUSE Adenine DNA glycosylase OS=Mus musculus 
+OX=10090 GN=Mutyh PE=1 SV=2
+Length=515
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/111 (18%), Positives = 48/111 (43%), Gaps = 11/111 (10%)
+
+Query  9    NLVQETLFHD--PWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELL  66
+            NL +E    D   + + ++ + L +T     I    ++++K+P  +   +A   +V++L 
+Sbjct  86   NLAKEEANSDRRAYAVWVSEVMLQQTQVATVIDYYTRWMQKWPKLQDLASASLEEVNQLW  145
+
+Query  67   KPLGLYDLRAKTIVKFSDEYLTKQWKYPIE--------LHGIGKYGNDSYR  109
+              LG Y  R + + + + + + +   +           L G+G+Y   +  
+Sbjct  146  SGLG-YYSRGRRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIA  195
+
+
+> sp|P17802|MUTY_ECOLI Adenine DNA glycosylase OS=Escherichia coli 
+(strain K12) OX=83333 GN=mutY PE=1 SV=1
+Length=350
+
+ Score = 43.9 bits (102),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 23/96 (24%), Positives = 43/96 (45%), Gaps = 8/96 (8%)
+
+Query  19   PWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKT  78
+            P+K+ ++ + L +T     IP   +F+ ++P+      A   +V  L   LG Y  RA+ 
+Sbjct  30   PYKVWLSEVMLQQTQVATVIPYFERFMARFPTVTDLANAPLDEVLHLWTGLG-YYARARN  88
+
+Query  79   IVKFSDEYLT-KQWKYP------IELHGIGKYGNDS  107
+            + K + +  T    K+P        L G+G+    +
+Sbjct  89   LHKAAQQVATLHGGKFPETFEEVAALPGVGRSTAGA  124
+
+
+> sp|P57617|MUTY_BUCAI Adenine DNA glycosylase OS=Buchnera aphidicola 
+subsp. Acyrthosiphon pisum (strain APS) OX=107806 GN=mutY 
+PE=3 SV=1
+Length=350
+
+ Score = 43.5 bits (101),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 26/94 (28%), Positives = 42/94 (45%), Gaps = 6/94 (6%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYD------  73
+            + + I+ I L +T+ K AIP   KF+  +P+ +    +   DV  L   LG Y+      
+Sbjct  31   YTVWISEIMLQQTTVKSAIPYFKKFILNFPNIKSLNDSKLDDVLYLWSGLGYYNRAKNIY  90
+
+Query  74   LRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDS  107
+              A+ I K        Q+   I+L GIG+    +
+Sbjct  91   KSAQIIKKKYKGIFPDQFSNIIQLPGIGRSTAGA  124
+
+
+> sp|Q8K926|MUTY_BUCAP Adenine DNA glycosylase OS=Buchnera aphidicola 
+subsp. Schizaphis graminum (strain Sg) OX=198804 GN=mutY 
+PE=3 SV=1
+Length=347
+
+ Score = 42.7 bits (99),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 24/94 (26%), Positives = 41/94 (44%), Gaps = 6/94 (6%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYD------  73
+            +K+ I+ I L +T+ K AIP    F+ ++P+ +    +   D+  L   LG Y       
+Sbjct  31   YKVWISEIMLQQTTVKTAIPYFKNFISRFPNIQSLNQSKLDDILCLWSGLGYYKRAENIY  90
+
+Query  74   LRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDS  107
+               K I +   E     +   I+L GIG+    +
+Sbjct  91   KTVKIIKEEFQEKFPTGFSDLIKLPGIGRSTAGA  124
+
+
+> sp|Q9UIF7|MUTYH_HUMAN Adenine DNA glycosylase OS=Homo sapiens 
+OX=9606 GN=MUTYH PE=1 SV=1
+Length=546
+
+ Score = 42.7 bits (99),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 16/104 (15%), Positives = 44/104 (42%), Gaps = 9/104 (9%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            + + ++ + L +T     I     +++K+P+ +   +A   +V++L   LG Y  R + +
+Sbjct  125  YAVWVSEVMLQQTQVATVINYYTGWMQKWPTLQDLASASLEEVNQLWAGLG-YYSRGRRL  183
+
+Query  80   VKFSDEYLTKQWKYPIE--------LHGIGKYGNDSYRIFCVNE  115
+             + + + + +   +           L G+G+Y   +       +
+Sbjct  184  QEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFGQ  227
+
+
+> sp|Q05869|MUTY_SALTY Adenine DNA glycosylase OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=mutY 
+PE=3 SV=1
+Length=350
+
+ Score = 41.9 bits (97),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 22/96 (23%), Positives = 43/96 (45%), Gaps = 8/96 (8%)
+
+Query  19   PWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKT  78
+            P+K+ ++ + L +T     IP   +F+ ++P+      A   +V  L   LG Y  RA+ 
+Sbjct  30   PYKVWLSEVMLQQTQVTTVIPYFERFMARFPTVTDLANAPLDEVLHLWTGLG-YYARARN  88
+
+Query  79   IVKFSDEYLT-KQWKYP------IELHGIGKYGNDS  107
+            + K + +  T    ++P        L G+G+    +
+Sbjct  89   LHKAAQQVATLHGGEFPQTFAEIAALPGVGRSTAGA  124
+
+
+> sp|P46230|MUTY_AERHY Adenine DNA glycosylase (Fragment) OS=Aeromonas 
+hydrophila OX=644 GN=mutY PE=3 SV=1
+Length=99
+
+ Score = 39.6 bits (91),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 16/68 (24%), Positives = 32/68 (47%), Gaps = 1/68 (1%)
+
+Query  19  PWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKT  78
+           P+++ ++ I L +T     IP   +F+ ++P  +    A   +V      LG Y  RA+ 
+Sbjct  33  PYRVWVSEIMLQQTQVATVIPYYQRFMARFPDVQALAQAPIDEVLHHWTGLG-YYARARN  91
+
+Query  79  IVKFSDEY  86
+           + K + + 
+Sbjct  92  LHKAAQQI  99
+
+
+> sp|Q89AW4|END3_BUCBP Endonuclease III OS=Buchnera aphidicola 
+subsp. Baizongia pistaciae (strain Bp) OX=224915 GN=nth PE=3 
+SV=1
+Length=215
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/98 (18%), Positives = 41/98 (42%), Gaps = 7/98 (7%)
+
+Query  16   FHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLR  75
+            F   ++LLI+ +   +T+ +M      +      +     +     + E ++ LGLY+ +
+Sbjct  31   FTSNFELLISVMLSAQTTDRMVNKTTQRLFGIANTPSGFISIGLHAIRENIRKLGLYNKK  90
+
+Query  76   AKTIVKFSDEYLTK-QWKYPIE------LHGIGKYGND  106
+            +  I++  +  L +   K P        L G+G+   +
+Sbjct  91   SSNILRTCEILLKRYGGKVPNNREDLESLPGVGRKTAN  128
+
+
+> sp|P44320|MUTY_HAEIN Adenine DNA glycosylase OS=Haemophilus influenzae 
+(strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=mutY PE=3 SV=1
+Length=378
+
+ Score = 39.6 bits (91),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 22/105 (21%), Positives = 43/105 (41%), Gaps = 15/105 (14%)
+
+Query  17   HDPWK-------LLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPL  69
+            H PW+       + ++ + L +T     IP   +F++ +P+      A   +V  L   L
+Sbjct  26   HLPWQQNKTLYGVWLSEVMLQQTQVATVIPYFERFIKTFPNITALANASQDEVLHLWTGL  85
+
+Query  70   GLYDLRAKTIVKFSDEYLTK-QWKYPIE------LHGIGKYGNDS  107
+            G Y  RA+ + K + +   +    +P        L G+G+    +
+Sbjct  86   G-YYARARNLHKAAQKVRDEFNGNFPTNFEQVWALSGVGRSTAGA  129
+
+
+> sp|A0R567|MUTY_MYCS2 Adenine DNA glycosylase OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 GN=mutY 
+PE=1 SV=1
+Length=293
+
+ Score = 38.5 bits (88),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 23/99 (23%), Positives = 43/99 (43%), Gaps = 8/99 (8%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            W++L++   L +T      P+   ++E++P+A     A   +V      LG Y  RAK +
+Sbjct  29   WQILVSEFMLQQTPVSRVEPIWSAWIERWPTASATAAAGPAEVLRAWGKLG-YPRRAKRL  87
+
+Query  80   VKFS-------DEYLTKQWKYPIELHGIGKYGNDSYRIF  111
+             + +       D+ + +     + L GIG Y   +   F
+Sbjct  88   HECAVVIASEYDDVVPRDVDTLLTLPGIGAYTARAVACF  126
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5028640960
+Results from round 3
+
+
+Query= 5CHZ:A
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9Z2D7|MBD4_MOUSE Methyl-CpG-binding domain protein 4 OS=Mus...  220     5e-69
+  sp|O95243|MBD4_HUMAN Methyl-CpG-binding domain protein 4 OS=Hom...  220     7e-69
+  sp|Q0IGK1|MBD4L_ARATH Methyl-CpG-binding domain protein 4-like ...  196     8e-61
+  sp|P29588|MIG_METTF Thymine/uracil-DNA glycosylase OS=Methanoth...  140     2e-41
+  sp|Q89A45|MUTY_BUCBP Adenine DNA glycosylase OS=Buchnera aphidi...  143     3e-41
+  sp|P39788|END3_BACSU Endonuclease III OS=Bacillus subtilis (str...  129     3e-37
+  sp|Q99P21|MUTYH_MOUSE Adenine DNA glycosylase OS=Mus musculus O...  130     2e-35
+  sp|Q8R5G2|MUTYH_RAT Adenine DNA glycosylase OS=Rattus norvegicu...  127     3e-34
+  sp|P17802|MUTY_ECOLI Adenine DNA glycosylase OS=Escherichia col...  123     7e-34
+  sp|P9WQ11|END3_MYCTU Endonuclease III OS=Mycobacterium tubercul...  121     8e-34
+  sp|P9WQ10|END3_MYCTO Endonuclease III OS=Mycobacterium tubercul...  121     8e-34
+  sp|P63541|END3_MYCBO Endonuclease III OS=Mycobacterium bovis (s...  121     8e-34
+  sp|Q9UIF7|MUTYH_HUMAN Adenine DNA glycosylase OS=Homo sapiens O...  126     8e-34
+  sp|Q05869|MUTY_SALTY Adenine DNA glycosylase OS=Salmonella typh...  122     2e-33
+  sp|P73715|END3_SYNY3 Endonuclease III OS=Synechocystis sp. (str...  119     2e-33
+  sp|P57617|MUTY_BUCAI Adenine DNA glycosylase OS=Buchnera aphidi...  121     8e-33
+  sp|P46303|UVEN_MICLC Ultraviolet N-glycosylase/AP lyase OS=Micr...  119     1e-32
+  sp|Q8K926|MUTY_BUCAP Adenine DNA glycosylase OS=Buchnera aphidi...  120     1e-32
+  sp|Q9WYK0|END3_THEMA Endonuclease III OS=Thermotoga maritima (s...  112     1e-30
+  sp|P83847|MUTY_GEOSE Adenine DNA glycosylase OS=Geobacillus ste...  115     3e-30
+  sp|Q9YDP0|MIG_AERPE Thymine-DNA glycosylase OS=Aeropyrum pernix...  111     3e-30
+  sp|P9WQ09|MUTY_MYCTU Adenine DNA glycosylase OS=Mycobacterium t...  112     8e-30
+  sp|P9WQ08|MUTY_MYCTO Adenine DNA glycosylase OS=Mycobacterium t...  112     8e-30
+  sp|Q7LX22|MIG_PYRAE Thymine/uracil-DNA glycosylase OS=Pyrobacul...  108     3e-29
+  sp|O83754|END3_TREPA Endonuclease III OS=Treponema pallidum (st...  107     1e-28
+  sp|Q89AW4|END3_BUCBP Endonuclease III OS=Buchnera aphidicola su...  103     3e-27
+  sp|P46230|MUTY_AERHY Adenine DNA glycosylase (Fragment) OS=Aero...  95.1    3e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9CB92|END3_MYCLE Endonuclease III OS=Mycobacterium leprae (...  106     4e-28
+  sp|O31584|MUTY_BACSU Adenine DNA glycosylase OS=Bacillus subtil...  108     7e-28
+  sp|P44320|MUTY_HAEIN Adenine DNA glycosylase OS=Haemophilus inf...  108     1e-27
+  sp|P0AB83|END3_ECOLI Endonuclease III OS=Escherichia coli (stra...  101     2e-26
+  sp|P0AB84|END3_ECOL6 Endonuclease III OS=Escherichia coli O6:H1...  101     2e-26
+  sp|P44319|END3_HAEIN Endonuclease III OS=Haemophilus influenzae...  98.6    2e-25
+  sp|Q92GH4|END3_RICCN Endonuclease III OS=Rickettsia conorii (st...  95.5    4e-24
+  sp|O05956|END3_RICPR Endonuclease III OS=Rickettsia prowazekii ...  93.2    3e-23
+  sp|Q4UK93|END3_RICFE Endonuclease III OS=Rickettsia felis (stra...  92.4    6e-23
+  sp|A0R567|MUTY_MYCS2 Adenine DNA glycosylase OS=Mycolicibacteri...  93.6    9e-23
+  sp|F4JRF4|MUTYH_ARATH Adenine DNA glycosylase OS=Arabidopsis th...  95.1    2e-22
+  sp|Q68W04|END3_RICTY Endonuclease III OS=Rickettsia typhi (stra...  90.5    4e-22
+  sp|P57219|END3_BUCAI Endonuclease III OS=Buchnera aphidicola su...  84.7    7e-20
+  sp|Q8KA16|END3_BUCAP Endonuclease III OS=Buchnera aphidicola su...  82.8    3e-19
+  sp|Q10159|MYH1_SCHPO Adenine DNA glycosylase OS=Schizosaccharom...  84.7    8e-19
+  sp|Q58030|END3_METJA Endonuclease III OS=Methanocaldococcus jan...  77.4    2e-16
+  sp|Q2KID2|NTH_BOVIN Endonuclease III-like protein 1 OS=Bos taur...  62.0    5e-11
+  sp|O35980|NTH_MOUSE Endonuclease III-like protein 1 OS=Mus musc...  61.6    7e-11
+  sp|P54137|NTH_CAEEL Endonuclease III homolog OS=Caenorhabditis ...  60.8    1e-10
+  sp|P78549|NTH_HUMAN Endonuclease III-like protein 1 OS=Homo sap...  60.4    2e-10
+  sp|A7M7B9|NTH_CHICK Endonuclease III-like protein 1 OS=Gallus g...  59.3    5e-10
+  sp|B9DFZ0|NTH2_ARATH Endonuclease III homolog 2, chloroplastic ...  59.3    5e-10
+  sp|Q9SIC4|NTH1_ARATH Endonuclease III homolog 1, chloroplastic ...  59.3    6e-10
+  sp|Q8SRB8|NTH_ENCCU Endonuclease III homolog OS=Encephalitozoon...  55.8    6e-09
+  sp|Q58829|Y1434_METJA Putative DNA repair glycosylase MJ1434 OS...  51.2    3e-07
+  sp|Q09907|NTH_SCHPO Endonuclease III homolog OS=Schizosaccharom...  49.7    1e-06
+  sp|P31378|NTH1_YEAST Endonuclease III homolog 1 OS=Saccharomyce...  46.2    2e-05
+  sp|P04395|3MG2_ECOLI DNA-3-methyladenine glycosylase 2 OS=Esche...  45.8    3e-05
+  sp|Q08214|NTH2_YEAST Endonuclease III homolog 2 OS=Saccharomyce...  45.4    4e-05
+  sp|C8VC05|NTH_EMENI Endonuclease III homolog OS=Emericella nidu...  43.5    2e-04
+  sp|F4JCQ3|DG783_ARATH Putative DNA glycosylase At3g47830 OS=Ara...  42.7    3e-04
+  sp|O70249|OGG1_RAT N-glycosylase/DNA lyase OS=Rattus norvegicus...  42.3    4e-04
+
+
+> sp|Q9Z2D7|MBD4_MOUSE Methyl-CpG-binding domain protein 4 OS=Mus 
+musculus OX=10090 GN=Mbd4 PE=1 SV=1
+Length=554
+
+ Score = 220 bits (560),  Expect = 5e-69, Method: Composition-based stats.
+ Identities = 135/140 (96%), Positives = 138/140 (99%), Gaps = 0/140 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            WTPPRSPFNLVQE LFHDPWKLLIATIFLNRTSGKMAIPVLW+FLEKYPSAEVAR ADWR
+Sbjct  412  WTPPRSPFNLVQEILFHDPWKLLIATIFLNRTSGKMAIPVLWEFLEKYPSAEVARAADWR  471
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            DVSELLKPLGLYDLRAKTI+KFSDEYLTKQW+YPIELHGIGKYGNDSYRIFCVNEWKQVH
+Sbjct  472  DVSELLKPLGLYDLRAKTIIKFSDEYLTKQWRYPIELHGIGKYGNDSYRIFCVNEWKQVH  531
+
+Query  121  PEDHKLNKYHDWLWENHEKL  140
+            PEDHKLNKYHDWLWENHEKL
+Sbjct  532  PEDHKLNKYHDWLWENHEKL  551
+
+
+> sp|O95243|MBD4_HUMAN Methyl-CpG-binding domain protein 4 OS=Homo 
+sapiens OX=9606 GN=MBD4 PE=1 SV=1
+Length=580
+
+ Score = 220 bits (560),  Expect = 7e-69, Method: Composition-based stats.
+ Identities = 140/140 (100%), Positives = 140/140 (100%), Gaps = 0/140 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR
+Sbjct  438  WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  497
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH
+Sbjct  498  DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  557
+
+Query  121  PEDHKLNKYHDWLWENHEKL  140
+            PEDHKLNKYHDWLWENHEKL
+Sbjct  558  PEDHKLNKYHDWLWENHEKL  577
+
+
+> sp|Q0IGK1|MBD4L_ARATH Methyl-CpG-binding domain protein 4-like 
+protein OS=Arabidopsis thaliana OX=3702 GN=MBD4L PE=1 SV=1
+Length=445
+
+ Score = 196 bits (498),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 58/133 (44%), Positives = 78/133 (59%), Gaps = 0/133 (0%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            W PPRSP NL+QE  +HDPW++L+  + LN+TSG     V+         A+ A      
+Sbjct  307  WVPPRSPCNLLQEDHWHDPWRVLVICMLLNKTSGAQTRGVISDLFGLCTDAKTATEVKEE  366
+
+Query  61   DVSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVH  120
+            ++  L+KPLGL   R K I + S EYL + W +  +LHG+GKY  D+Y IFC   W +V 
+Sbjct  367  EIENLIKPLGLQKKRTKMIQRLSLEYLQESWTHVTQLHGVGKYAADAYAIFCNGNWDRVK  426
+
+Query  121  PEDHKLNKYHDWL  133
+            P DH LN Y D+L
+Sbjct  427  PNDHMLNYYWDYL  439
+
+
+> sp|P29588|MIG_METTF Thymine/uracil-DNA glycosylase OS=Methanothermobacter 
+thermautotrophicus OX=145262 GN=mig PE=1 SV=1
+Length=221
+
+ Score = 140 bits (352),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 35/148 (24%), Positives = 58/148 (39%), Gaps = 24/148 (16%)
+
+Query  15   LFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDL  74
+               DP+ +LI  I L RT+      +  KF  KY   E        ++++ +K +GL + 
+Sbjct  31   HTRDPYVILITEILLRRTTAGHVKKIYDKFFVKYKCFEDILKTPKSEIAKDIKEIGLSNQ  90
+
+Query  75   RAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPED----  123
+            RA+ + + +   +     + P      ++L G+GKY      + C+   K+    D    
+Sbjct  91   RAEQLKELARVVINDYGGRVPRNRKAILDLPGVGKYT--CAAVMCLAFGKKAAMVDANFV  148
+
+Query  124  -----------HKLNKYHDWLWENHEKL  140
+                         LN  H  LWE  E L
+Sbjct  149  RVINRYFGGSYENLNYNHKALWELAETL  176
+
+
+> sp|Q89A45|MUTY_BUCBP Adenine DNA glycosylase OS=Buchnera aphidicola 
+subsp. Baizongia pistaciae (strain Bp) OX=224915 GN=mutY 
+PE=3 SV=1
+Length=351
+
+ Score = 143 bits (360),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 35/143 (24%), Positives = 57/143 (40%), Gaps = 20/143 (14%)
+
+Query  17   HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRA  76
+             +P+K  I+ I L +T  K  IP   KF++++P+ +    +    +  L   LG Y  RA
+Sbjct  28   KNPYKTWISEIMLQQTQVKTVIPYYCKFIKRFPNIDTLSDSPLDSILNLWSGLG-YYTRA  86
+
+Query  77   KTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDS--------YRIFCVNEWKQVHP  121
+            + I K +     K    +P      I+L GIGK    +        Y        K+V  
+Sbjct  87   RNIYKTAKILKQKFNGIFPNSYAEIIKLPGIGKSTAGAILSFGFNLYSCILDGNIKRVLI  146
+
+Query  122  EDHKLN----KYHDWLWENHEKL  140
+              + +N         LW+  E +
+Sbjct  147  RYYSININNKYIEKLLWKTIESI  169
+
+
+> sp|P39788|END3_BACSU Endonuclease III OS=Bacillus subtilis (strain 
+168) OX=224308 GN=nth PE=3 SV=1
+Length=219
+
+ Score = 129 bits (324),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 23/118 (19%), Positives = 46/118 (39%), Gaps = 11/118 (9%)
+
+Query  4    PRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVS  63
+            P +   LV      +P++L++A     + +  +   V     +KY   E        ++ 
+Sbjct  19   PHAECELVH----SNPFELVVAVALSAQCTDALVNRVTKTLFQKYKRPEDYLAVPLEELQ  74
+
+Query  64   ELLKPLGLYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVN  114
+            + +K +GLY  +AK I K S   +     + P      ++L G+G+   +        
+Sbjct  75   QDIKSIGLYRNKAKNIQKLSKMIIEDYGGEVPRDRDELVKLPGVGRKTANVVVSVAFG  132
+
+
+> sp|Q99P21|MUTYH_MOUSE Adenine DNA glycosylase OS=Mus musculus 
+OX=10090 GN=Mutyh PE=1 SV=2
+Length=515
+
+ Score = 130 bits (327),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 20/117 (17%), Positives = 50/117 (43%), Gaps = 11/117 (9%)
+
+Query  9    NLVQETLFHD--PWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELL  66
+            NL +E    D   + + ++ + L +T     I    ++++K+P  +   +A   +V++L 
+Sbjct  86   NLAKEEANSDRRAYAVWVSEVMLQQTQVATVIDYYTRWMQKWPKLQDLASASLEEVNQLW  145
+
+Query  67   KPLGLYDLRAKTIVKFSDEYLTKQWKYPIE--------LHGIGKYGNDSYRIFCVNE  115
+              LG Y  R + + + + + + +   +           L G+G+Y   +      ++
+Sbjct  146  SGLG-YYSRGRRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFDQ  201
+
+
+> sp|Q8R5G2|MUTYH_RAT Adenine DNA glycosylase OS=Rattus norvegicus 
+OX=10116 GN=Mutyh PE=2 SV=1
+Length=516
+
+ Score = 127 bits (320),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 24/154 (16%), Positives = 58/154 (38%), Gaps = 25/154 (16%)
+
+Query  11   VQETLFHD--PWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKP  68
+            V+E    D   + + ++ + L +T     I    ++++K+P+ +   +A   +V++L   
+Sbjct  88   VKEETNLDRRAYAVWVSEVMLQQTQVATVIDYYTRWMQKWPTLQDLASASLEEVNQLWSG  147
+
+Query  69   LGLYDLRAKTIVKFSDEYLTKQWKYPIE--------LHGIGKYGNDSYRIFCV-------  113
+            LG Y  R + + + + + + +   +           L G+G+Y   +             
+Sbjct  148  LG-YYSRGRRLQEGARKVVEELGGHVPRTAETLQQLLPGVGRYTAGAIASIAFDQVTGVV  206
+
+Query  114  -NEWKQVHPE------DHKLNKYHDWLWENHEKL  140
+                 +V         D   +     LW+  ++L
+Sbjct  207  DGNVIRVLCRVRAIGADPTSSFVSHHLWDLAQQL  240
+
+
+> sp|P17802|MUTY_ECOLI Adenine DNA glycosylase OS=Escherichia coli 
+(strain K12) OX=83333 GN=mutY PE=1 SV=1
+Length=350
+
+ Score = 123 bits (310),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 28/145 (19%), Positives = 56/145 (39%), Gaps = 22/145 (15%)
+
+Query  17   HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRA  76
+              P+K+ ++ + L +T     IP   +F+ ++P+      A   +V  L   LG Y  RA
+Sbjct  28   KTPYKVWLSEVMLQQTQVATVIPYFERFMARFPTVTDLANAPLDEVLHLWTGLG-YYARA  86
+
+Query  77   KTIVKFSDEYLT-KQWKYP------IELHGIGKYGNDSYRI--------FCVNEWKQVHP  121
+            + + K + +  T    K+P        L G+G+    +                 K+V  
+Sbjct  87   RNLHKAAQQVATLHGGKFPETFEEVAALPGVGRSTAGAILSLSLGKHFPILDGNVKRVLA  146
+
+Query  122  EDHKLN------KYHDWLWENHEKL  140
+              + ++      +  + LW   E++
+Sbjct  147  RCYAVSGWPGKKEVENKLWSLSEQV  171
+
+
+> sp|P9WQ11|END3_MYCTU Endonuclease III OS=Mycobacterium tuberculosis 
+(strain ATCC 25618 / H37Rv) OX=83332 GN=nth PE=1 SV=1
+Length=245
+
+ Score = 121 bits (303),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 26/142 (18%), Positives = 50/142 (35%), Gaps = 12/142 (8%)
+
+Query  4    PRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVS  63
+            P        E  F  P +L +ATI   +++ K           +Y +A     AD  ++ 
+Sbjct  29   PHVYC----ELDFTTPLELAVATILSAQSTDKRVNLTTPALFARYRTARDYAQADRTELE  84
+
+Query  64   ELLKPLGLYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEW  116
+             L++P G Y  +A +++      + +   + P      + L G+G+   +          
+Sbjct  85   SLIRPTGFYRNKAASLIGLGQALVERFGGEVPATMDKLVTLPGVGRKTANVILGNAFG-I  143
+
+Query  117  KQVHPEDHKLNKYHDWLWENHE  138
+              +  + H       W W   E
+Sbjct  144  PGITVDTHFGRLVRRWRWTTAE  165
+
+
+> sp|P9WQ10|END3_MYCTO Endonuclease III OS=Mycobacterium tuberculosis 
+(strain CDC 1551 / Oshkosh) OX=83331 GN=nth PE=3 SV=1
+Length=245
+
+ Score = 121 bits (303),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 26/142 (18%), Positives = 50/142 (35%), Gaps = 12/142 (8%)
+
+Query  4    PRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVS  63
+            P        E  F  P +L +ATI   +++ K           +Y +A     AD  ++ 
+Sbjct  29   PHVYC----ELDFTTPLELAVATILSAQSTDKRVNLTTPALFARYRTARDYAQADRTELE  84
+
+Query  64   ELLKPLGLYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEW  116
+             L++P G Y  +A +++      + +   + P      + L G+G+   +          
+Sbjct  85   SLIRPTGFYRNKAASLIGLGQALVERFGGEVPATMDKLVTLPGVGRKTANVILGNAFG-I  143
+
+Query  117  KQVHPEDHKLNKYHDWLWENHE  138
+              +  + H       W W   E
+Sbjct  144  PGITVDTHFGRLVRRWRWTTAE  165
+
+
+> sp|P63541|END3_MYCBO Endonuclease III OS=Mycobacterium bovis 
+(strain ATCC BAA-935 / AF2122/97) OX=233413 GN=nth PE=3 SV=1
+Length=245
+
+ Score = 121 bits (303),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 26/142 (18%), Positives = 50/142 (35%), Gaps = 12/142 (8%)
+
+Query  4    PRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVS  63
+            P        E  F  P +L +ATI   +++ K           +Y +A     AD  ++ 
+Sbjct  29   PHVYC----ELDFTTPLELAVATILSAQSTDKRVNLTTPALFARYRTARDYAQADRTELE  84
+
+Query  64   ELLKPLGLYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEW  116
+             L++P G Y  +A +++      + +   + P      + L G+G+   +          
+Sbjct  85   SLIRPTGFYRNKAASLIGLGQALVERFGGEVPATMDKLVTLPGVGRKTANVILGNAFG-I  143
+
+Query  117  KQVHPEDHKLNKYHDWLWENHE  138
+              +  + H       W W   E
+Sbjct  144  PGITVDTHFGRLVRRWRWTTAE  165
+
+
+> sp|Q9UIF7|MUTYH_HUMAN Adenine DNA glycosylase OS=Homo sapiens 
+OX=9606 GN=MUTYH PE=1 SV=1
+Length=546
+
+ Score = 126 bits (317),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 16/107 (15%), Positives = 44/107 (41%), Gaps = 9/107 (8%)
+
+Query  17   HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRA  76
+               + + ++ + L +T     I     +++K+P+ +   +A   +V++L   LG Y  R 
+Sbjct  122  RRAYAVWVSEVMLQQTQVATVINYYTGWMQKWPTLQDLASASLEEVNQLWAGLG-YYSRG  180
+
+Query  77   KTIVKFSDEYLTKQWKYPIE--------LHGIGKYGNDSYRIFCVNE  115
+            + + + + + + +   +           L G+G+Y   +       +
+Sbjct  181  RRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFGQ  227
+
+
+> sp|Q05869|MUTY_SALTY Adenine DNA glycosylase OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=mutY 
+PE=3 SV=1
+Length=350
+
+ Score = 122 bits (307),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 27/146 (18%), Positives = 56/146 (38%), Gaps = 22/146 (15%)
+
+Query  16   FHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLR  75
+               P+K+ ++ + L +T     IP   +F+ ++P+      A   +V  L   LG Y  R
+Sbjct  27   NKTPYKVWLSEVMLQQTQVTTVIPYFERFMARFPTVTDLANAPLDEVLHLWTGLG-YYAR  85
+
+Query  76   AKTIVKFSDEYLT-KQWKYP------IELHGIGKYGNDSYRI--------FCVNEWKQVH  120
+            A+ + K + +  T    ++P        L G+G+    +                 K+V 
+Sbjct  86   ARNLHKAAQQVATLHGGEFPQTFAEIAALPGVGRSTAGAILSLALGKHYPILDGNVKRVL  145
+
+Query  121  PEDHKLN------KYHDWLWENHEKL  140
+               + ++      +  + LW   E++
+Sbjct  146  ARCYAVSGWPGKKEVENTLWTLSEQV  171
+
+
+> sp|P73715|END3_SYNY3 Endonuclease III OS=Synechocystis sp. (strain 
+PCC 6803 / Kazusa) OX=1111708 GN=nth PE=3 SV=1
+Length=219
+
+ Score = 119 bits (298),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 24/128 (19%), Positives = 49/128 (38%), Gaps = 11/128 (9%)
+
+Query  4    PRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVS  63
+            P +  +L     +  P +LL+ATI   + + +    V     ++YP A      D +++ 
+Sbjct  27   PGATCSL----DYQTPVQLLVATILSAQCTDERVNKVTPALFQRYPDANALAYGDRQEIE  82
+
+Query  64   ELLKPLGLYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEW  116
+            EL+   G +  +AK I     + + +   + P      + L G+ +   +          
+Sbjct  83   ELIHSTGFFRNKAKNIQGACRKIVEEFDGEVPQRMEELLTLPGVARKTANVVLAHAFGIL  142
+
+Query  117  KQVHPEDH  124
+              V  + H
+Sbjct  143  AGVTVDTH  150
+
+
+> sp|P57617|MUTY_BUCAI Adenine DNA glycosylase OS=Buchnera aphidicola 
+subsp. Acyrthosiphon pisum (strain APS) OX=107806 GN=mutY 
+PE=3 SV=1
+Length=350
+
+ Score = 121 bits (303),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 33/142 (23%), Positives = 54/142 (38%), Gaps = 22/142 (15%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            + + I+ I L +T+ K AIP   KF+  +P+ +    +   DV  L   LG Y  RAK I
+Sbjct  31   YTVWISEIMLQQTTVKSAIPYFKKFILNFPNIKSLNDSKLDDVLYLWSGLG-YYNRAKNI  89
+
+Query  80   VKFSDE-------YLTKQWKYPIELHGIGKYGNDSYRI--------FCVNEWKQVHPEDH  124
+             K +             Q+   I+L GIG+    +                 K++    +
+Sbjct  90   YKSAQIIKKKYKGIFPDQFSNIIQLPGIGRSTAGAILSLSLNFFYPILDGNVKRILVRYY  149
+
+Query  125  KLN------KYHDWLWENHEKL  140
+             ++      K    LW   E +
+Sbjct  150  GISGLLKDKKIEKKLWNIIESI  171
+
+
+> sp|P46303|UVEN_MICLC Ultraviolet N-glycosylase/AP lyase OS=Micrococcus 
+luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / 
+NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230) OX=465515 
+GN=pdg PE=1 SV=2
+Length=279
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 24/102 (24%), Positives = 45/102 (44%), Gaps = 7/102 (7%)
+
+Query  11   VQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLG  70
+            V E  F  P++LL+AT+   +T+             ++P A     A   ++ EL++  G
+Sbjct  36   VAELDFETPFELLVATVLSAQTTDVRVNAATPALFARFPDAHAMAAATEPELQELVRSTG  95
+
+Query  71   LYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGN  105
+             Y  +A  I++ S E + +   + P      + L G+G+   
+Sbjct  96   FYRNKASAILRLSQELVGRHDGEVPARLEDLVALPGVGRKTA  137
+
+
+> sp|Q8K926|MUTY_BUCAP Adenine DNA glycosylase OS=Buchnera aphidicola 
+subsp. Schizaphis graminum (strain Sg) OX=198804 GN=mutY 
+PE=3 SV=1
+Length=347
+
+ Score = 120 bits (301),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 29/141 (21%), Positives = 51/141 (36%), Gaps = 20/141 (14%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY------D  73
+            +K+ I+ I L +T+ K AIP    F+ ++P+ +    +   D+  L   LG Y       
+Sbjct  31   YKVWISEIMLQQTTVKTAIPYFKNFISRFPNIQSLNQSKLDDILCLWSGLGYYKRAENIY  90
+
+Query  74   LRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRI--------FCVNEWKQVHPEDHK  125
+               K I +   E     +   I+L GIG+    +                 K++    + 
+Sbjct  91   KTVKIIKEEFQEKFPTGFSDLIKLPGIGRSTAGAILSLSLDYFFPILEGNVKRILMRYYG  150
+
+Query  126  L------NKYHDWLWENHEKL  140
+            +       K    LW   E +
+Sbjct  151  IIGYVTEKKIEQKLWYLIELI  171
+
+
+> sp|Q9WYK0|END3_THEMA Endonuclease III OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=nth PE=3 SV=1
+Length=213
+
+ Score = 112 bits (280),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 29/124 (23%), Positives = 56/124 (45%), Gaps = 9/124 (7%)
+
+Query  17   HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRA  76
+             DP+++LI+T+   RT  +       K  E Y + +    A   D+ +L+K  G+Y  +A
+Sbjct  20   TDPFRVLISTVLSQRTRDENTEKASKKLFEVYRTPQELAKAKPEDLYDLIKESGMYRQKA  79
+
+Query  77   KTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPEDHKLNKY  129
+            + IV+ S   + K   + P      ++L G+G+   +   +  V   K     D  +++ 
+Sbjct  80   ERIVEISRILVEKYGGRVPDSLEELLKLPGVGRKTANI--VLWVGFKKPALAVDTHVHRI  137
+
+Query  130  HDWL  133
+             + L
+Sbjct  138  SNRL  141
+
+
+> sp|P83847|MUTY_GEOSE Adenine DNA glycosylase OS=Geobacillus stearothermophilus 
+OX=1422 GN=mutY PE=1 SV=2
+Length=366
+
+ Score = 115 bits (287),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 25/105 (24%), Positives = 47/105 (45%), Gaps = 8/105 (8%)
+
+Query  17   HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRA  76
+             DP+K+ ++ + L +T  +  IP   +F++++P+ E    AD  +V +  + LG Y  R 
+Sbjct  34   RDPYKVWVSEVMLQQTRVETVIPYFEQFIDRFPTLEALADADEDEVLKAWEGLG-YYSRV  92
+
+Query  77   KTIVKFSDEYLTK-QWKYPIE------LHGIGKYGNDSYRIFCVN  114
+            + +     E  T+   K P +      L G+G Y   +       
+Sbjct  93   RNLHAAVKEVKTRYGGKVPDDPDEFSRLKGVGPYTVGAVLSLAYG  137
+
+
+> sp|Q9YDP0|MIG_AERPE Thymine-DNA glycosylase OS=Aeropyrum pernix 
+(strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 
+/ K1) OX=272557 GN=APE_0875.1 PE=1 SV=2
+Length=223
+
+ Score = 111 bits (278),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 28/95 (29%), Positives = 50/95 (53%), Gaps = 7/95 (7%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            DPW +L+A   L +T+ +  + V  +FL +YP+ +   +A   +V EL++PLG+   RAK
+Sbjct  35   DPWAILVAAFLLRKTTARQVVRVYEEFLRRYPNPKALASAREDEVRELIRPLGIEHQRAK  94
+
+Query  78   TIVKFSDEYLTK-QWKYPI------ELHGIGKYGN  105
+             +++ +     +   + P       EL G+G Y  
+Sbjct  95   HLIELAKHIEARYGGRIPCSKEKLKELPGVGDYIA  129
+
+
+> sp|P9WQ09|MUTY_MYCTU Adenine DNA glycosylase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mutY PE=1 
+SV=1
+Length=304
+
+ Score = 112 bits (280),  Expect = 8e-30, Method: Composition-based stats.
+ Identities = 23/116 (20%), Positives = 48/116 (41%), Gaps = 10/116 (9%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+             PW++L++   L +T     + +   ++ ++P+     TA   DV      LG Y  RAK
+Sbjct  40   SPWQILVSEFMLQQTPAARVLAIWPDWVRRWPTPSATATASTADVLRAWGKLG-YPRRAK  98
+
+Query  78   TIVKFS-------DEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVHPEDHKL  126
+             + + +       ++ +    +  + L G+G Y   +   F   +  +V   D  +
+Sbjct  99   RLHECATVIARDHNDVVPDDIEILVTLPGVGSYTARAVACFAYRQ--RVPVVDTNV  152
+
+
+> sp|P9WQ08|MUTY_MYCTO Adenine DNA glycosylase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=mutY PE=3 
+SV=1
+Length=304
+
+ Score = 112 bits (280),  Expect = 8e-30, Method: Composition-based stats.
+ Identities = 23/116 (20%), Positives = 48/116 (41%), Gaps = 10/116 (9%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+             PW++L++   L +T     + +   ++ ++P+     TA   DV      LG Y  RAK
+Sbjct  40   SPWQILVSEFMLQQTPAARVLAIWPDWVRRWPTPSATATASTADVLRAWGKLG-YPRRAK  98
+
+Query  78   TIVKFS-------DEYLTKQWKYPIELHGIGKYGNDSYRIFCVNEWKQVHPEDHKL  126
+             + + +       ++ +    +  + L G+G Y   +   F   +  +V   D  +
+Sbjct  99   RLHECATVIARDHNDVVPDDIEILVTLPGVGSYTARAVACFAYRQ--RVPVVDTNV  152
+
+
+> sp|Q7LX22|MIG_PYRAE Thymine/uracil-DNA glycosylase OS=Pyrobaculum 
+aerophilum (strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 
+/ NBRC 100827) OX=178306 GN=PAE3199 PE=1 SV=1
+Length=230
+
+ Score = 108 bits (271),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 27/95 (28%), Positives = 50/95 (53%), Gaps = 7/95 (7%)
+
+Query  18   DPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            DPW +L+A + L +T+ K  + +  +FL +YPS      A   ++  +++PLG+  +RA 
+Sbjct  38   DPWAVLVAALLLRKTTVKQVVDIYREFLRRYPSPARLADASVEEIKAIIQPLGMEHVRAT  97
+
+Query  78   TIVKFSDEYLTK-QWKYPIE------LHGIGKYGN  105
+             + K S+E + +   + P +      L G+G Y  
+Sbjct  98   LLKKLSEELVRRFNGQIPCDRDALKSLPGVGDYAA  132
+
+
+> sp|O83754|END3_TREPA Endonuclease III OS=Treponema pallidum (strain 
+Nichols) OX=243276 GN=nth PE=3 SV=1
+Length=211
+
+ Score = 107 bits (266),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 15/109 (14%), Positives = 38/109 (35%), Gaps = 7/109 (6%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  + + + LL+A +   + + K          +   + +         +   ++ + LY
+Sbjct  26   ELHWRNTFTLLVAVLLSAQATDKSVNKATAALFDVADTPQAMLALGEERLCSYIRTINLY  85
+
+Query  73   DLRAKTIVKFSDEYLTK-QWKYPIE------LHGIGKYGNDSYRIFCVN  114
+              +A+ I+  S E + +   + P +      L G+G    +        
+Sbjct  86   PTKARRIIALSAELIERFAAQVPCDAHALESLPGVGHKTANVVLNMGFG  134
+
+
+> sp|Q9CB92|END3_MYCLE Endonuclease III OS=Mycobacterium leprae 
+(strain TN) OX=272631 GN=nth PE=3 SV=2
+Length=245
+
+ Score = 106 bits (265),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 25/142 (18%), Positives = 49/142 (35%), Gaps = 12/142 (8%)
+
+Query  4    PRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVS  63
+            P        E  F  P +L +ATI   +++ K           +Y SA     AD  ++ 
+Sbjct  29   PHVYC----ELDFTSPLELTVATILSAQSTDKRVNLTTPAVFARYRSALDYMQADRAELE  84
+
+Query  64   ELLKPLGLYDLRAKTIVKFSDEYLTK-QWKYPI------ELHGIGKYGNDSYRIFCVNEW  116
+              ++P G +  +A ++++     + +   + P        L G+G+   +          
+Sbjct  85   NFIRPTGFFRNKAASLIRLGQALVERFDGEVPSTMVDLFTLPGVGRKTANVILGNAFG-I  143
+
+Query  117  KQVHPEDHKLNKYHDWLWENHE  138
+              +  + H       W W   E
+Sbjct  144  PGITVDTHFGRLVRRWRWTAEE  165
+
+
+> sp|O31584|MUTY_BACSU Adenine DNA glycosylase OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=mutY PE=2 SV=1
+Length=369
+
+ Score = 108 bits (270),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 25/105 (24%), Positives = 45/105 (43%), Gaps = 8/105 (8%)
+
+Query  17   HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRA  76
+             DP+K+ ++ + L +T  +  IP   +F+E++P+ E    AD   V +  + LG Y  R 
+Sbjct  37   QDPYKVWVSEVMLQQTRVETVIPYFLRFVEQFPTVEALADADEEKVLKAWEGLG-YYSRV  95
+
+Query  77   KTIVKFSDEYLTK-QWKYPIE------LHGIGKYGNDSYRIFCVN  114
+            + +     E   +     P +      L G+G Y   +      N
+Sbjct  96   RNLQSAVKEVKQEYGGIVPPDEKDFGGLKGVGPYTKGAVLSIAYN  140
+
+
+> sp|P44320|MUTY_HAEIN Adenine DNA glycosylase OS=Haemophilus influenzae 
+(strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=mutY PE=3 SV=1
+Length=378
+
+ Score = 108 bits (269),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 25/142 (18%), Positives = 51/142 (36%), Gaps = 22/142 (15%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            + + ++ + L +T     IP   +F++ +P+      A   +V  L   LG Y  RA+ +
+Sbjct  36   YGVWLSEVMLQQTQVATVIPYFERFIKTFPNITALANASQDEVLHLWTGLG-YYARARNL  94
+
+Query  80   VKFSDEYLTK-QWKYPIE------LHGIGKYGNDSYRI--------FCVNEWKQVHPEDH  124
+             K + +   +    +P        L G+G+    +                 K+V     
+Sbjct  95   HKAAQKVRDEFNGNFPTNFEQVWALSGVGRSTAGAILSSVLNQPYPILDGNVKRVLARYF  154
+
+Query  125  KL------NKYHDWLWENHEKL  140
+             +       K  + LW   E++
+Sbjct  155  AVEGWSGEKKVENRLWALTEQV  176
+
+
+> sp|Q89AW4|END3_BUCBP Endonuclease III OS=Buchnera aphidicola 
+subsp. Baizongia pistaciae (strain Bp) OX=224915 GN=nth PE=3 
+SV=1
+Length=215
+
+ Score = 103 bits (257),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 19/107 (18%), Positives = 43/107 (40%), Gaps = 7/107 (7%)
+
+Query  9    NLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKP  68
+            N     +F   ++LLI+ +   +T+ +M      +      +     +     + E ++ 
+Sbjct  24   NFKTGLVFTSNFELLISVMLSAQTTDRMVNKTTQRLFGIANTPSGFISIGLHAIRENIRK  83
+
+Query  69   LGLYDLRAKTIVKFSDEYLTK-QWKYPIE------LHGIGKYGNDSY  108
+            LGLY+ ++  I++  +  L +   K P        L G+G+   +  
+Sbjct  84   LGLYNKKSSNILRTCEILLKRYGGKVPNNREDLESLPGVGRKTANVI  130
+
+
+> sp|P0AB83|END3_ECOLI Endonuclease III OS=Escherichia coli (strain 
+K12) OX=83333 GN=nth PE=1 SV=1
+Length=211
+
+ Score = 101 bits (252),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 23/119 (19%), Positives = 42/119 (35%), Gaps = 8/119 (7%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  F  P++LLIA +   + +         K      +           V   +K +GLY
+Sbjct  23   ELNFSSPFELLIAVLLSAQATDVSVNKATAKLYPVANTPAAMLELGVEGVKTYIKTIGLY  82
+
+Query  73   DLRAKTIVKFSDEYLT-KQWKYPIE------LHGIGKYGNDSYRIFCVNEWKQVHPEDH  124
+            + +A+ I+K     L     + P +      L G+G+   +         W  +  + H
+Sbjct  83   NSKAENIIKTCRILLEQHNGEVPEDRAALEALPGVGRKTANVVLNTAFG-WPTIAVDTH  140
+
+
+> sp|P0AB84|END3_ECOL6 Endonuclease III OS=Escherichia coli O6:H1 
+(strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=nth PE=3 
+SV=1
+Length=211
+
+ Score = 101 bits (252),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 23/119 (19%), Positives = 42/119 (35%), Gaps = 8/119 (7%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  F  P++LLIA +   + +         K      +           V   +K +GLY
+Sbjct  23   ELNFSSPFELLIAVLLSAQATDVSVNKATAKLYPVANTPAAMLELGVEGVKTYIKTIGLY  82
+
+Query  73   DLRAKTIVKFSDEYLT-KQWKYPIE------LHGIGKYGNDSYRIFCVNEWKQVHPEDH  124
+            + +A+ I+K     L     + P +      L G+G+   +         W  +  + H
+Sbjct  83   NSKAENIIKTCRILLEQHNGEVPEDRAALEALPGVGRKTANVVLNTAFG-WPTIAVDTH  140
+
+
+> sp|P44319|END3_HAEIN Endonuclease III OS=Haemophilus influenzae 
+(strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=nth 
+PE=3 SV=1
+Length=211
+
+ Score = 98.6 bits (244),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 20/109 (18%), Positives = 42/109 (39%), Gaps = 7/109 (6%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  ++ P++LLIA I   + + K       K      + +         +   +K +GL+
+Sbjct  23   ELQYNSPFELLIAVILSAQATDKGVNKATEKLFPVANTPQAILDLGLDGLKSYIKTIGLF  82
+
+Query  73   DLRAKTIVKFSDEYLTK-QWKYPIE------LHGIGKYGNDSYRIFCVN  114
+            + +A+ I+K   + + K   + P        L G+G+   +        
+Sbjct  83   NSKAENIIKTCRDLIEKHNGEVPENREALEALAGVGRKTANVVLNTAFG  131
+
+
+> sp|P46230|MUTY_AERHY Adenine DNA glycosylase (Fragment) OS=Aeromonas 
+hydrophila OX=644 GN=mutY PE=3 SV=1
+Length=99
+
+ Score = 95.1 bits (235),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 16/70 (23%), Positives = 32/70 (46%), Gaps = 1/70 (1%)
+
+Query  17  HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRA  76
+             P+++ ++ I L +T     IP   +F+ ++P  +    A   +V      LG Y  RA
+Sbjct  31  KTPYRVWVSEIMLQQTQVATVIPYYQRFMARFPDVQALAQAPIDEVLHHWTGLG-YYARA  89
+
+Query  77  KTIVKFSDEY  86
+           + + K + + 
+Sbjct  90  RNLHKAAQQI  99
+
+
+> sp|Q92GH4|END3_RICCN Endonuclease III OS=Rickettsia conorii (strain 
+ATCC VR-613 / Malish 7) OX=272944 GN=nth PE=3 SV=1
+Length=210
+
+ Score = 95.5 bits (236),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 18/109 (17%), Positives = 40/109 (37%), Gaps = 7/109 (6%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E ++ + + LL+A I   + +              Y + E         + + +K +GL+
+Sbjct  23   ELIYKNDFTLLVAVILSAQATDISVNLATKSLFATYDTPEKILELGEEGLKKYIKSIGLF  82
+
+Query  73   DLRAKTIVKFSDEY-------LTKQWKYPIELHGIGKYGNDSYRIFCVN  114
+            + +AK I+             +   +K  I+L G+G+   +        
+Sbjct  83   NSKAKNIIALCKILISNYQASVPNDFKALIKLPGVGRKTANVVLNCLFG  131
+
+
+> sp|O05956|END3_RICPR Endonuclease III OS=Rickettsia prowazekii 
+(strain Madrid E) OX=272947 GN=nth PE=3 SV=1
+Length=212
+
+ Score = 93.2 bits (230),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 19/103 (18%), Positives = 41/103 (40%), Gaps = 7/103 (7%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E ++ + + LL+A I   R +            E Y + E         + + +K +GL+
+Sbjct  23   ELIYKNDFTLLVAVILSARATDISVNLATKHLFETYNTPEKFLELGEEGLKKYIKSIGLF  82
+
+Query  73   DLRAKTIVKFSDEY-------LTKQWKYPIELHGIGKYGNDSY  108
+            + +AK I+             +   +K  ++L G+G+   +  
+Sbjct  83   NSKAKNIIALCQILIKNYQTSIPNNFKELVKLPGVGRKTANVV  125
+
+
+> sp|Q4UK93|END3_RICFE Endonuclease III OS=Rickettsia felis (strain 
+ATCC VR-1525 / URRWXCal2) OX=315456 GN=nth PE=3 SV=1
+Length=213
+
+ Score = 92.4 bits (228),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 18/109 (17%), Positives = 41/109 (38%), Gaps = 7/109 (6%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E ++ + + LL+A +   + +            E Y + E         + + +K +GL+
+Sbjct  23   ELIYKNDFTLLVAVMLSAQATDISVNLATKSLFETYDTTEKILELGEDGLKKYIKSIGLF  82
+
+Query  73   DLRAKTIVKFSDEY-------LTKQWKYPIELHGIGKYGNDSYRIFCVN  114
+            + +AK I+             +   +K  I+L G+G+   +        
+Sbjct  83   NSKAKNIIALCKILISNYQSSVPNDFKELIKLPGVGRKTANVVLNCLFG  131
+
+
+> sp|A0R567|MUTY_MYCS2 Adenine DNA glycosylase OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 GN=mutY 
+PE=1 SV=1
+Length=293
+
+ Score = 93.6 bits (231),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 27/125 (22%), Positives = 51/125 (41%), Gaps = 19/125 (15%)
+
+Query  6    SPFNLV-------QETLFHDP----WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVA  54
+            SP  L+       ++  +  P    W++L++   L +T      P+   ++E++P+A   
+Sbjct  4    SPVELLSWYDHARRDLPWRRPGVSAWQILVSEFMLQQTPVSRVEPIWSAWIERWPTASAT  63
+
+Query  55   RTADWRDVSELLKPLGLYDLRAKTIVKFS-------DEYLTKQWKYPIELHGIGKYGNDS  107
+              A   +V      LG Y  RAK + + +       D+ + +     + L GIG Y   +
+Sbjct  64   AAAGPAEVLRAWGKLG-YPRRAKRLHECAVVIASEYDDVVPRDVDTLLTLPGIGAYTARA  122
+
+Query  108  YRIFC  112
+               F 
+Sbjct  123  VACFA  127
+
+
+> sp|F4JRF4|MUTYH_ARATH Adenine DNA glycosylase OS=Arabidopsis 
+thaliana OX=3702 GN=MYH PE=3 SV=1
+Length=630
+
+ Score = 95.1 bits (235),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 23/140 (16%), Positives = 51/140 (36%), Gaps = 31/140 (22%)
+
+Query  1    WTPPRSPFNLVQETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWR  60
+            W   RS             +++ ++ I L +T  +  +    ++++K+P+      A   
+Sbjct  148  WRNRRSE-----SEKERRAYEVWVSEIMLQQTRVQTVMKYYKRWMQKWPTIYDLGQASLE  202
+
+Query  61   -------------------DVSELLKPLGLYDLRAKTIVKFSDEYL------TKQWKYPI  95
+                               +V+E+   LG Y  RA+ +++ +   +        Q    +
+Sbjct  203  NLIVSRSRELSFLRGNEKKEVNEMWAGLGYYR-RARFLLEGAKMVVAGTEGFPNQASSLM  261
+
+Query  96   ELHGIGKYGNDSYRIFCVNE  115
+            ++ GIG+Y   +      NE
+Sbjct  262  KVKGIGQYTAGAIASIAFNE  281
+
+
+> sp|Q68W04|END3_RICTY Endonuclease III OS=Rickettsia typhi (strain 
+ATCC VR-144 / Wilmington) OX=257363 GN=nth PE=3 SV=1
+Length=212
+
+ Score = 90.5 bits (223),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 19/102 (19%), Positives = 41/102 (40%), Gaps = 7/102 (7%)
+
+Query  14   TLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYD  73
+             ++ + + LL+A I   R +      V     E Y + E         + + +K +GL++
+Sbjct  24   LIYKNDFTLLVAVILSARATDISVNLVTKHLFETYNTPEKILALGEEGLKKYIKSIGLFN  83
+
+Query  74   LRAKTIVKFSDEY-------LTKQWKYPIELHGIGKYGNDSY  108
+             +AK I+             +   +K  ++L G+G+   +  
+Sbjct  84   SKAKNIIASCQILIKNYQASIPNDFKELVKLPGVGRKTANVV  125
+
+
+> sp|P57219|END3_BUCAI Endonuclease III OS=Buchnera aphidicola 
+subsp. Acyrthosiphon pisum (strain APS) OX=107806 GN=nth PE=3 
+SV=1
+Length=210
+
+ Score = 84.7 bits (208),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 19/108 (18%), Positives = 39/108 (36%), Gaps = 7/108 (6%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E  F   ++LL++ I   +++  +         +   + E         +   +K +GLY
+Sbjct  23   ELFFSSDFELLLSVILSAQSTDFIVNKTTKILFKIANTPETIFLLGLERLKNYIKDIGLY  82
+
+Query  73   DLRAKTIVKFSDEYLTKQWKYPIE-------LHGIGKYGNDSYRIFCV  113
+            + +A  I++ S   LTK              L G+G+   +       
+Sbjct  83   NTKALNIIRTSFIILTKYNSIVPNNRIELESLPGVGRKTANIILNILF  130
+
+
+> sp|Q8KA16|END3_BUCAP Endonuclease III OS=Buchnera aphidicola 
+subsp. Schizaphis graminum (strain Sg) OX=198804 GN=nth PE=3 
+SV=1
+Length=209
+
+ Score = 82.8 bits (203),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 19/109 (17%), Positives = 43/109 (39%), Gaps = 7/109 (6%)
+
+Query  13   ETLFHDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY  72
+            E +F   ++LL++ I   +++  M   +     +   + +      +  +   +K +GLY
+Sbjct  23   ELVFSSDFELLLSVILSAKSTDVMVNKITGTLFQIANTPQSILKLGFNKLRHYIKSIGLY  82
+
+Query  73   DLRAKTIVKFSDEYLTK-QWKYPIE------LHGIGKYGNDSYRIFCVN  114
+            + ++  I+  +    TK   K P        L G+G+   +       N
+Sbjct  83   NTKSLNIINSAYLIKTKYNNKVPSNRTELESLPGVGRKTANIILNVLFN  131
+
+
+> sp|Q10159|MYH1_SCHPO Adenine DNA glycosylase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=myh1 PE=1 
+SV=1
+Length=461
+
+ Score = 84.7 bits (208),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 27/166 (16%), Positives = 53/166 (32%), Gaps = 31/166 (19%)
+
+Query  2    TPPRSPFNLVQETLFHDP----WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTA  57
+             PP     L     +  P    +++L++ I L +T  +       K++E  P+ +    A
+Sbjct  44   IPPSEDSPL---EDWEQPVQRLYEVLVSEIMLQQTRVETVKRYYTKWMETLPTLKSCAEA  100
+
+Query  58   DW-RDVSELLKPLGLYDLRAKTIVKFSDEYLT-KQWKYPIE-------LHGIGKYGNDSY  108
+            ++   V  L   +G Y  R K + +           + P         + G+G Y   + 
+Sbjct  101  EYNTQVMPLWSGMGFY-TRCKRLHQACQHLAKLHPSEIPRTGDEWAKGIPGVGPYTAGAV  159
+
+Query  109  RIFC--------VNEWKQVHPE------DHKLNKYHDWLWENHEKL  140
+                             +V         D    K +  +W+   +L
+Sbjct  160  LSIAWKQPTGIVDGNVIRVLSRALAIHSDCSKGKANALIWKLANEL  205
+
+
+> sp|Q58030|END3_METJA Endonuclease III OS=Methanocaldococcus jannaschii 
+(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 
+/ NBRC 100440) OX=243232 GN=nth PE=3 SV=2
+Length=344
+
+ Score = 77.4 bits (189),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 22/105 (21%), Positives = 44/105 (42%), Gaps = 7/105 (7%)
+
+Query  17   HDPWKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLY----  72
+             DP+K+LI+TI   RT  ++   V  K  ++    +     D   +++L+ P G Y    
+Sbjct  24   KDPFKVLISTIISARTKDEVTEEVSKKLFKEIKDVDDLLNIDEEKLADLIYPAGFYKNKA  83
+
+Query  73   ---DLRAKTIVKFSDEYLTKQWKYPIELHGIGKYGNDSYRIFCVN  114
+                  AK + +  +  +    +  ++L G+G+   +       N
+Sbjct  84   KNLKKLAKILKENYNGKVPDSLEELLKLPGVGRKTANLVITLAFN  128
+
+
+> sp|Q2KID2|NTH_BOVIN Endonuclease III-like protein 1 OS=Bos taurus 
+OX=9913 GN=NTHL1 PE=2 SV=1
+Length=305
+
+ Score = 62.0 bits (149),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 18/144 (13%), Positives = 48/144 (33%), Gaps = 15/144 (10%)
+
+Query  6    SPFNLVQETLFHDP--------WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTA  57
+            +P + +      DP        +++L++ +  ++T  ++    + +   +  + +     
+Sbjct  101  APVDQLGAEHCFDPSASPKVRRYQVLLSLMLSSQTKDQVTAGAMQRLRARGLTVDSILQT  160
+
+Query  58   DWRDVSELLKPLGLYDLRAKTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRI  110
+            D   +  L+ P+G +  + K I + S     +     P      + L G+G         
+Sbjct  161  DDSTLGALIYPVGFWRSKVKYIKQTSAILQQRYDGDIPASVAELVALPGVGPKMAHLAMA  220
+
+Query  111  FCVNEWKQVHPEDHKLNKYHDWLW  134
+                    +  + H     +   W
+Sbjct  221  VAWGTVSGIAVDTHVHRIANRLRW  244
+
+
+> sp|O35980|NTH_MOUSE Endonuclease III-like protein 1 OS=Mus musculus 
+OX=10090 GN=Nthl1 PE=2 SV=2
+Length=300
+
+ Score = 61.6 bits (148),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 15/122 (12%), Positives = 43/122 (35%), Gaps = 7/122 (6%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            +++L++ +  ++T  ++    + +   +  + E     D   +  L+ P+G +  + K I
+Sbjct  118  YQVLLSLMLSSQTKDQVTAGAMQRLRARGLTVESILQTDDDTLGRLIYPVGFWRNKVKYI  177
+
+Query  80   VKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPEDHKLNKYHDW  132
+             + +     + +   P      + L G+G                 +  + H     +  
+Sbjct  178  KQTTAILQQRYEGDIPASVAELVALPGVGPKMAHLAMAVAWGTISGIAVDTHVHRIANRL  237
+
+Query  133  LW  134
+             W
+Sbjct  238  RW  239
+
+
+> sp|P54137|NTH_CAEEL Endonuclease III homolog OS=Caenorhabditis 
+elegans OX=6239 GN=nth-1 PE=1 SV=2
+Length=298
+
+ Score = 60.8 bits (146),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 18/122 (15%), Positives = 41/122 (34%), Gaps = 7/122 (6%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            +++L+A +  ++T  ++    + +  +   S          D+  +L P+G Y  +A  +
+Sbjct  68   FQVLVALMLSSQTRDEVNAAAMKRLKDHGLSIGKILEFKVPDLETILCPVGFYKRKAVYL  127
+
+Query  80   VKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPEDHKLNKYHDW  132
+             K +           P        L G+G    +        E   +  + H     +  
+Sbjct  128  QKTAKILKDDFSGDIPDSLDGLCALPGVGPKMANLVMQIAWGECVGIAVDTHVHRISNRL  187
+
+Query  133  LW  134
+             W
+Sbjct  188  GW  189
+
+
+> sp|P78549|NTH_HUMAN Endonuclease III-like protein 1 OS=Homo sapiens 
+OX=9606 GN=NTHL1 PE=1 SV=2
+Length=312
+
+ Score = 60.4 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 15/122 (12%), Positives = 42/122 (34%), Gaps = 7/122 (6%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            +++L++ +  ++T  ++    + +   +  + +     D   + +L+ P+G +  + K I
+Sbjct  130  YQVLLSLMLSSQTKDQVTAGAMQRLRARGLTVDSILQTDDATLGKLIYPVGFWRSKVKYI  189
+
+Query  80   VKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPEDHKLNKYHDW  132
+             + S           P      + L G+G                 +  + H     +  
+Sbjct  190  KQTSAILQQHYGGDIPASVAELVALPGVGPKMAHLAMAVAWGTVSGIAVDTHVHRIANRL  249
+
+Query  133  LW  134
+             W
+Sbjct  250  RW  251
+
+
+> sp|A7M7B9|NTH_CHICK Endonuclease III-like protein 1 OS=Gallus 
+gallus OX=9031 GN=NTHL1 PE=2 SV=1
+Length=281
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 16/127 (13%), Positives = 47/127 (37%), Gaps = 7/127 (6%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRDVSELLKPLGLYDLRAKTI  79
+            +++L++ +  ++T  ++    + +  ++  + +     D   + +++ P+G +  + K I
+Sbjct  99   YQVLLSLMLSSQTKDQVTSAAMLRLRQRGLTVDSILQMDDATLGQIIYPVGFWRNKVKYI  158
+
+Query  80   VKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPEDHKLNKYHDW  132
+             + +     K     P      ++L G+G            N    +  + H     +  
+Sbjct  159  KQTTAILKQKYGGDIPGTVEELVKLPGVGPKMAHLAMNIAWNSVSGIAVDTHVHRITNRL  218
+
+Query  133  LWENHEK  139
+             W   E 
+Sbjct  219  KWVKKET  225
+
+
+> sp|B9DFZ0|NTH2_ARATH Endonuclease III homolog 2, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=NTH2 PE=2 SV=1
+Length=386
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 20/113 (18%), Positives = 43/113 (38%), Gaps = 8/113 (7%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEK-YPSAEVARTADWRDVSELLKPLGLYDLRAKT  78
+            + +LI T+  ++T   +    + +  +    + E    AD   + EL+ P+G Y  +A  
+Sbjct  181  FYVLIGTLLSSQTKEHITGAAVERLHQNGLLTPEAIDKADESTIKELIYPVGFYTRKATN  240
+
+Query  79   IVKFSDE-YLTKQWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPEDH  124
+            + K +    +      P      + L G+G            N+ + +  + H
+Sbjct  241  VKKVAKICLMEYDGDIPRTLEELLSLPGVGPKIAHLVLHVAWNDVQGICVDTH  293
+
+
+> sp|Q9SIC4|NTH1_ARATH Endonuclease III homolog 1, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=NTH1 PE=2 SV=2
+Length=379
+
+ Score = 59.3 bits (142),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 19/113 (17%), Positives = 43/113 (38%), Gaps = 8/113 (7%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEK-YPSAEVARTADWRDVSELLKPLGLYDLRAKT  78
+            + +L+  +  ++T  ++    + +  +    + E    AD   + EL+ P+G Y  +A  
+Sbjct  174  FAVLLGALLSSQTKDQVNNAAIHRLHQNGLLTPEAVDKADESTIKELIYPVGFYTRKATY  233
+
+Query  79   IVKFSDE-YLTKQWKYP------IELHGIGKYGNDSYRIFCVNEWKQVHPEDH  124
+            + K +    +      P      + L GIG            N+ + +  + H
+Sbjct  234  MKKIARICLVKYDGDIPSSLDDLLSLPGIGPKMAHLILHIAWNDVQGICVDTH  286
+
+
+> sp|Q8SRB8|NTH_ENCCU Endonuclease III homolog OS=Encephalitozoon 
+cuniculi (strain GB-M1) OX=284813 GN=NTH1 PE=1 SV=1
+Length=238
+
+ Score = 55.8 bits (133),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 18/106 (17%), Positives = 45/106 (42%), Gaps = 17/106 (16%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYP-------------SAEVARTADWRDVSELL  66
+            + +L++ +  ++T  ++    + +  +  P             + E    +D + ++E +
+Sbjct  49   FHILVSLLLSSQTKDEVTYEAMARLRKLLPESAATDGEARGGLTIERVANSDVKHINECI  108
+
+Query  67   KPLGLYDLRAKTIVKFSDEY----LTKQWKYPIELHGIGKYGNDSY  108
+            K +G ++ +A  + K ++      L ++ K  I L GIG      Y
+Sbjct  109  KKVGFHNRKAANLKKIAEILREKGLPREMKDLISLPGIGNKMALLY  154
+
+
+> sp|Q58829|Y1434_METJA Putative DNA repair glycosylase MJ1434 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1434 PE=1 
+SV=1
+Length=220
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 19/111 (17%), Positives = 41/111 (37%), Gaps = 17/111 (15%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKF-LEKYPSAEVARTADWRDVSELLKPLGLYDLRAKT  78
+            +++++  I    TS K     +    +E           D   + EL++P G Y+L+AK 
+Sbjct  32   YEVVVGAILTQNTSWKNVERAINNLKMEDLLEEVKILNVDEDKLKELIRPAGFYNLKAKR  91
+
+Query  79   IVKFSDEYLTKQWKY----------------PIELHGIGKYGNDSYRIFCV  113
+            +   +   +                       + ++G+GK   DS  ++ +
+Sbjct  92   LKNVTKFIVENYGNTEEMAKTDKDTLILRAELLSINGVGKETADSILLYAL  142
+
+
+> sp|Q09907|NTH_SCHPO Endonuclease III homolog OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=nth1 PE=1 
+SV=1
+Length=355
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 19/110 (17%), Positives = 43/110 (39%), Gaps = 12/110 (11%)
+
+Query  20   WKLLIATIFLNRTSGKMAIPVLWKFLEKYP---SAEVARTADWRDVSELLKPLGLYDLRA  76
+            ++ L+A +  ++T   +  P +    EK       E  +  D   +++L++ +G ++ + 
+Sbjct  49   FQTLVALMLSSQTKDIVLGPTMRNLKEKLAGGLCLEDIQNIDEVSLNKLIEKVGFHNRKT  108
+
+Query  77   KTIVKFSDEYLTK-QWKYP------IELHGIGKYGNDSYRIFCVNEWKQV  119
+              + + +     K Q   P      + L G+G      Y    +   K V
+Sbjct  109  IYLKQMARILSEKFQGDIPDTVEDLMTLPGVGPKMG--YLCMSIAWNKTV  156
+
+
+> sp|P31378|NTH1_YEAST Endonuclease III homolog 1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NTG1 
+PE=1 SV=1
+Length=399
+
+ Score = 46.2 bits (108),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/148 (12%), Positives = 49/148 (33%), Gaps = 20/148 (14%)
+
+Query  6    SPFNLVQETLFHDPWK--LLIATIFLNRTSGKMAIPVLWKFLEKY---------PSAEVA  54
+            S   + +E +    ++  +L+  +  ++T  ++    +   +             + E  
+Sbjct  128  SKCGISKEQISPRDYRLQVLLGVMLSSQTKDEVTAMAMLNIMRYCIDELHSEEGMTLEAV  187
+
+Query  55   RTADWRDVSELLKPLGLYDLRAKTIVKFSDEY-------LTKQWKYPIELHGIGKYGNDS  107
+               +   + EL+  +G +  +AK I+             +       + L G+G      
+Sbjct  188  LQINETKLDELIHSVGFHTRKAKYILSTCKILQDQFSSDVPATINELLGLPGVGPKMAYL  247
+
+Query  108  YRIFCVNEWKQVHPEDH--KLNKYHDWL  133
+                   + + +  + H  +L K   W+
+Sbjct  248  TLQKAWGKIEGICVDVHVDRLTKLWKWV  275
+
+
+> sp|P04395|3MG2_ECOLI DNA-3-methyladenine glycosylase 2 OS=Escherichia 
+coli (strain K12) OX=83333 GN=alkA PE=1 SV=1
+Length=282
+
+ Score = 45.8 bits (107),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 17/123 (14%), Positives = 45/123 (37%), Gaps = 25/123 (20%)
+
+Query  23   LIATIFLNRTSGKMAIPVLWKF-----LEKYPSAEVARTADWRDVSELLKPLGLYDLRAK  77
+            L++     + + ++A     +         +P+ +    AD + +    K LG+   RA+
+Sbjct  125  LVSVAMAAKLTARVAQLYGERLDDFPEYICFPTPQRLAAADPQAL----KALGMPLKRAE  180
+
+Query  78   TIVKFSDEYLTKQWKYPIELHG--------------IGKYGNDSYRIFCVNEWKQVHPED  123
+             ++  ++  L      P+ + G              IG++  + + +          P+D
+Sbjct  181  ALIHLANAALE--GTLPMTIPGDVEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDD  238
+
+Query  124  HKL  126
+            + +
+Sbjct  239  YLI  241
+
+
+> sp|Q08214|NTH2_YEAST Endonuclease III homolog 2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NTG2 
+PE=1 SV=1
+Length=380
+
+ Score = 45.4 bits (106),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 25/152 (16%), Positives = 53/152 (35%), Gaps = 32/152 (21%)
+
+Query  8    FNLVQETLFHDPWKL--LIATIFLNRTSGKM----AIPVLWKFLEKYP-----SAEVART  56
+              +  E +    ++L  LI T+   +T  +     A+ +    L         + +    
+Sbjct  135  CGIPSEKVDPKNFRLQFLIGTMLSAQTRDERMAQAALNITEYCLNTLKIAEGITLDGLLK  194
+
+Query  57   ADWRDVSELLKPLGLYDLRAKTIVKFSDEYL-------TKQWKYPIELHGIG--------  101
+             D   ++ L++ +  Y  +A  I + +   +           +  + L G+G        
+Sbjct  195  IDEPVLANLIRCVSFYTRKANFIKRTAQLLVDNFDSDIPYDIEGILSLPGVGPKMGYLTL  254
+
+Query  102  KYGNDSYRIFCVNEWKQVHPEDHKLNKYHDWL  133
+            + G       CV+    VH   H+L K  +W+
+Sbjct  255  QKGWGLIAGICVD----VHV--HRLCKMWNWV  280
+
+
+> sp|C8VC05|NTH_EMENI Endonuclease III homolog OS=Emericella nidulans 
+(strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 
+/ M139) OX=227321 GN=nth1 PE=3 SV=2
+Length=443
+
+ Score = 43.5 bits (101),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/94 (15%), Positives = 30/94 (32%), Gaps = 13/94 (14%)
+
+Query  50   SAEVARTADWRDVSELLKPLGLYDLRAKTIVKFSDEY-------LTKQWKYPIELHGIGK  102
+            + E         ++ L+  +G ++ + K I K ++         +       ++L G+G 
+Sbjct  258  NLENILAVSPERLNSLIGTVGFHNNKTKYIKKAAEIIRDQYNSDIPSTPAELMKLPGVGP  317
+
+Query  103  YGNDSYRIFCVNEWKQ----VHPEDHKLNKYHDW  132
+                 Y        K     V    H++     W
+Sbjct  318  KMA--YLCMSAAWGKHEGIGVDVHVHRITNLWGW  349
+
+
+> sp|F4JCQ3|DG783_ARATH Putative DNA glycosylase At3g47830 OS=Arabidopsis 
+thaliana OX=3702 GN=At3g47830 PE=3 SV=1
+Length=293
+
+ Score = 42.7 bits (99),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/126 (13%), Positives = 38/126 (30%), Gaps = 20/126 (16%)
+
+Query  6    SPFNLVQETLFHDPWKL----LIATIFLNRTSGKMAIPVLWKFLEKYPSAEVARTADWRD  61
+            +  NL  ETL     +     L+  +    T+   +          +P  +    A+ + 
+Sbjct  79   TQCNLKSETLNETEEESVLDGLVKILLSQNTTESNSQRAFASLKATFPKWDDVLNAESKS  138
+
+Query  62   VSELLKPLGLYDLRAKTIVKFSDEYLTKQWKYPIE----------------LHGIGKYGN  105
+            +   ++  GL   +A  I    +    ++ +  +E                  G+G    
+Sbjct  139  IENAIRCGGLAPKKAVCIKNILNRLQNERGRLCLEYLRGLSVEEVKTELSHFKGVGPKTV  198
+
+Query  106  DSYRIF  111
+                +F
+Sbjct  199  SCVLMF  204
+
+
+> sp|O70249|OGG1_RAT N-glycosylase/DNA lyase OS=Rattus norvegicus 
+OX=10116 GN=Ogg1 PE=2 SV=1
+Length=345
+
+ Score = 42.3 bits (98),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 20/106 (19%), Positives = 37/106 (35%), Gaps = 22/106 (21%)
+
+Query  48   YPSAEVARTADWRDVSELLKPLGLYDLRAKTIVKFSDEYLTKQW----------------  91
+            +P+          +V   L+ LGL   RA+ +   +   L +Q                 
+Sbjct  181  FPNLHALAG---PEVETHLRKLGLGY-RARYVCASAKAILEEQGGPAWLQQLRVASYEEA  236
+
+Query  92   -KYPIELHGIGKYGNDSYRIFCVNEWKQVHPEDHKLNKYH-DWLWE  135
+             K    L G+G    D   +  +++ + V  + H     H D+ W+
+Sbjct  237  HKALCTLPGVGTKVADCICLMALDKPQAVPVDIHVWQIAHRDYGWQ  282
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5028640960
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

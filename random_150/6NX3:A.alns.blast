@@ -1,0 +1,404 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6NX3:A
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O33813|LACR_STAXY Lactose operon transcription activator OS=...  157     3e-47
+  sp|Q00753|MSMR_STRMU Msm operon regulatory protein OS=Streptoco...  98.2    3e-24
+  sp|P43465|RAFR_PEDPE Raffinose operon transcriptional regulator...  76.6    3e-16
+
+
+> sp|O33813|LACR_STAXY Lactose operon transcription activator OS=Staphylococcus 
+xylosus OX=1288 GN=lacR PE=4 SV=1
+Length=279
+
+ Score = 157 bits (397),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 72/157 (46%), Positives = 108/157 (69%), Gaps = 0/157 (0%)
+
+Query  1    LWKKYVKENFEMNVDECGIEQGIPGLGYNYEVLKNAVIHYVTKGYGTFKFNGKVYNLKQG  60
+            LWKK+ K+  + N+ ECGIE G+P +GYNY V + +V+H VT+G GTF + G+ Y+L  G
+Sbjct  4    LWKKFQKKLIDANLAECGIEIGVPNVGYNYTVFQKSVLHIVTQGEGTFSYAGETYHLTAG  63
+
+Query  61   DIFILLKGMQVEYVASIDDPWEYYWIGFSGSNANEYLNRTSITNSCVANCEENSKIPQII  120
+            DIF+L +GM+VEY  S  +PW YYW+G +G     YL+R SI +S V   ++ + I  II
+Sbjct  64   DIFLLERGMEVEYKPSFSNPWTYYWVGMNGKQILNYLSRCSIVDSHVILGQDTTDIKNII  123
+
+Query  121  LNMCEISKTYNPSRSDDILLLKELYSLLYALIEEFPK  157
+              +C++S++   + S+DIL+++ LY L+Y L E+FPK
+Sbjct  124  QLICKLSQSIESNNSNDILIMQYLYQLVYTLQEKFPK  160
+
+
+> sp|Q00753|MSMR_STRMU Msm operon regulatory protein OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) OX=210007 
+GN=msmR PE=4 SV=2
+Length=278
+
+ Score = 98.2 bits (243),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 54/149 (36%), Positives = 83/149 (56%), Gaps = 3/149 (2%)
+
+Query  9    NFEMNVDECGIEQGIPGLGYNYEVLKNAVIHYVTKGYGTFKFNGKVYNLKQGDIFILLKG  68
+            NF+++VD  G E+   G  +   +  N VIH++ +G G    N    +L  GDIF+L K 
+Sbjct  14   NFDLSVDHYGSEKCDRGYSFGPTIRDNYVIHFILEGKGKLTINQHTLDLAAGDIFLLPKD  73
+
+Query  69   MQVEYVASIDDPWEYYWIGFSGSNANEYLNRTSITNSCVANCEENSKIPQIILNMCEISK  128
+            +   Y A +  PW Y WIGFSGS A   L ++S+      +   +SK+   ++ + + + 
+Sbjct  74   ISTFYQADLQMPWSYIWIGFSGSKAENILKQSSLFKRFYCHSGRSSKLFSQMMTIIQFAN  133
+
+Query  129  TYNPSRS-DDILLLKELYSLLYALIEEFP  156
+            T  P  S +++L++ ELY LL ALIEEFP
+Sbjct  134  T--PLTSVNELLMVGELYKLLAALIEEFP  160
+
+
+> sp|P43465|RAFR_PEDPE Raffinose operon transcriptional regulatory 
+protein RafR OS=Pediococcus pentosaceus OX=1255 GN=rafR 
+PE=4 SV=1
+Length=277
+
+ Score = 76.6 bits (187),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 55/160 (34%), Positives = 80/160 (50%), Gaps = 8/160 (5%)
+
+Query  2    WKKYVKENFEMNVDECGIEQGIPGLGYNYEVLKNA-VIHYVTKGYGTFKF-NGKVYNLKQ  59
+            +K    ++FE NV   G E  +P   Y    ++++ VIHY+ +G GTF   N     LK 
+Sbjct  5    YKTLANKSFESNVLFFGQEACLPNYTYKGNNVRDSYVIHYIQEGKGTFAAANHPATVLKA  64
+
+Query  60   GDIFILLKGMQVEYVASIDDPWEYYWIGFS-GSNANEYLNRTSITNSCVANCEENSKIPQ  118
+            GDIFIL KG    Y A  D PW+Y+WIGFS G      L+ + +   C     +N     
+Sbjct  65   GDIFILPKGTPCFYQADNDQPWKYFWIGFSAGIRIEAMLSGSLLAQKCYLRQVQNG---H  121
+
+Query  119  IILNMCEISKTYNPSRS--DDILLLKELYSLLYALIEEFP  156
+            I  ++ E+ K  +   S  +D+LL   +Y L Y L+  +P
+Sbjct  122  IYADLSELYKVLHIPNSLINDVLLGSLIYRLFYDLLRWYP  161
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7099310500
+Results from round 2
+
+
+Query= 6NX3:A
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O33813|LACR_STAXY Lactose operon transcription activator OS=...  232     1e-76
+  sp|Q00753|MSMR_STRMU Msm operon regulatory protein OS=Streptoco...  205     6e-66
+  sp|P43465|RAFR_PEDPE Raffinose operon transcriptional regulator...  204     1e-65
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P28809|MMSR_PSEAE MmsAB operon regulatory protein OS=Pseudom...  43.1    3e-04
+
+
+> sp|O33813|LACR_STAXY Lactose operon transcription activator OS=Staphylococcus 
+xylosus OX=1288 GN=lacR PE=4 SV=1
+Length=279
+
+ Score = 232 bits (591),  Expect = 1e-76, Method: Composition-based stats.
+ Identities = 72/157 (46%), Positives = 108/157 (69%), Gaps = 0/157 (0%)
+
+Query  1    LWKKYVKENFEMNVDECGIEQGIPGLGYNYEVLKNAVIHYVTKGYGTFKFNGKVYNLKQG  60
+            LWKK+ K+  + N+ ECGIE G+P +GYNY V + +V+H VT+G GTF + G+ Y+L  G
+Sbjct  4    LWKKFQKKLIDANLAECGIEIGVPNVGYNYTVFQKSVLHIVTQGEGTFSYAGETYHLTAG  63
+
+Query  61   DIFILLKGMQVEYVASIDDPWEYYWIGFSGSNANEYLNRTSITNSCVANCEENSKIPQII  120
+            DIF+L +GM+VEY  S  +PW YYW+G +G     YL+R SI +S V   ++ + I  II
+Sbjct  64   DIFLLERGMEVEYKPSFSNPWTYYWVGMNGKQILNYLSRCSIVDSHVILGQDTTDIKNII  123
+
+Query  121  LNMCEISKTYNPSRSDDILLLKELYSLLYALIEEFPK  157
+              +C++S++   + S+DIL+++ LY L+Y L E+FPK
+Sbjct  124  QLICKLSQSIESNNSNDILIMQYLYQLVYTLQEKFPK  160
+
+
+> sp|Q00753|MSMR_STRMU Msm operon regulatory protein OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) OX=210007 
+GN=msmR PE=4 SV=2
+Length=278
+
+ Score = 205 bits (521),  Expect = 6e-66, Method: Composition-based stats.
+ Identities = 54/157 (34%), Positives = 87/157 (55%), Gaps = 3/157 (2%)
+
+Query  1    LWKKYVKENFEMNVDECGIEQGIPGLGYNYEVLKNAVIHYVTKGYGTFKFNGKVYNLKQG  60
+            ++ ++   NF+++VD  G E+   G  +   +  N VIH++ +G G    N    +L  G
+Sbjct  6    IYNEFDINNFDLSVDHYGSEKCDRGYSFGPTIRDNYVIHFILEGKGKLTINQHTLDLAAG  65
+
+Query  61   DIFILLKGMQVEYVASIDDPWEYYWIGFSGSNANEYLNRTSITNSCVANCEENSKIPQII  120
+            DIF+L K +   Y A +  PW Y WIGFSGS A   L ++S+      +   +SK+   +
+Sbjct  66   DIFLLPKDISTFYQADLQMPWSYIWIGFSGSKAENILKQSSLFKRFYCHSGRSSKLFSQM  125
+
+Query  121  LNMCEISKTYNPSRS-DDILLLKELYSLLYALIEEFP  156
+            + + + + T  P  S +++L++ ELY LL ALIEEFP
+Sbjct  126  MTIIQFANT--PLTSVNELLMVGELYKLLAALIEEFP  160
+
+
+> sp|P43465|RAFR_PEDPE Raffinose operon transcriptional regulatory 
+protein RafR OS=Pediococcus pentosaceus OX=1255 GN=rafR 
+PE=4 SV=1
+Length=277
+
+ Score = 204 bits (518),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 55/160 (34%), Positives = 79/160 (49%), Gaps = 8/160 (5%)
+
+Query  2    WKKYVKENFEMNVDECGIEQGIPGLGYNYEVLKN-AVIHYVTKGYGTFKF-NGKVYNLKQ  59
+            +K    ++FE NV   G E  +P   Y    +++  VIHY+ +G GTF   N     LK 
+Sbjct  5    YKTLANKSFESNVLFFGQEACLPNYTYKGNNVRDSYVIHYIQEGKGTFAAANHPATVLKA  64
+
+Query  60   GDIFILLKGMQVEYVASIDDPWEYYWIGFS-GSNANEYLNRTSITNSCVANCEENSKIPQ  118
+            GDIFIL KG    Y A  D PW+Y+WIGFS G      L+ + +   C     +N     
+Sbjct  65   GDIFILPKGTPCFYQADNDQPWKYFWIGFSAGIRIEAMLSGSLLAQKCYLRQVQNG---H  121
+
+Query  119  IILNMCEISKTYNPSRS--DDILLLKELYSLLYALIEEFP  156
+            I  ++ E+ K  +   S  +D+LL   +Y L Y L+  +P
+Sbjct  122  IYADLSELYKVLHIPNSLINDVLLGSLIYRLFYDLLRWYP  161
+
+
+> sp|P28809|MMSR_PSEAE MmsAB operon regulatory protein OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=mmsR 
+PE=4 SV=2
+Length=307
+
+ Score = 43.1 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 16/64 (25%), Positives = 27/64 (42%), Gaps = 4/64 (6%)
+
+Query  34   KNAVIHYVTKGYGTFKFNG----KVYNLKQGDIFILLKGMQVEYVASIDDPWEYYWIGFS  89
+               ++ Y ++G G  +       + Y +  GD+  L  GM  +Y A    PW  +W    
+Sbjct  67   DEHLLIYCSEGQGLLRVREGEAWREYRVGSGDLLWLPPGMAHDYAADDRQPWTIFWTHLR  126
+
+Query  90   GSNA  93
+            G +A
+Sbjct  127  GDSA  130
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7099310500
+Results from round 3
+
+
+Query= 6NX3:A
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O33813|LACR_STAXY Lactose operon transcription activator OS=...  222     1e-72
+  sp|Q00753|MSMR_STRMU Msm operon regulatory protein OS=Streptoco...  204     7e-66
+  sp|P43465|RAFR_PEDPE Raffinose operon transcriptional regulator...  192     5e-61
+  sp|P28809|MMSR_PSEAE MmsAB operon regulatory protein OS=Pseudom...  94.4    1e-22
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P03022|ARAC_SALTY Arabinose operon regulatory protein OS=Sal...  40.4    0.002
+  sp|P0A9E0|ARAC_ECOLI Arabinose operon regulatory protein OS=Esc...  40.4    0.003
+  sp|P0A9E1|ARAC_ECO57 Arabinose operon regulatory protein OS=Esc...  40.4    0.003
+
+
+> sp|O33813|LACR_STAXY Lactose operon transcription activator OS=Staphylococcus 
+xylosus OX=1288 GN=lacR PE=4 SV=1
+Length=279
+
+ Score = 222 bits (565),  Expect = 1e-72, Method: Composition-based stats.
+ Identities = 72/157 (46%), Positives = 108/157 (69%), Gaps = 0/157 (0%)
+
+Query  1    LWKKYVKENFEMNVDECGIEQGIPGLGYNYEVLKNAVIHYVTKGYGTFKFNGKVYNLKQG  60
+            LWKK+ K+  + N+ ECGIE G+P +GYNY V + +V+H VT+G GTF + G+ Y+L  G
+Sbjct  4    LWKKFQKKLIDANLAECGIEIGVPNVGYNYTVFQKSVLHIVTQGEGTFSYAGETYHLTAG  63
+
+Query  61   DIFILLKGMQVEYVASIDDPWEYYWIGFSGSNANEYLNRTSITNSCVANCEENSKIPQII  120
+            DIF+L +GM+VEY  S  +PW YYW+G +G     YL+R SI +S V   ++ + I  II
+Sbjct  64   DIFLLERGMEVEYKPSFSNPWTYYWVGMNGKQILNYLSRCSIVDSHVILGQDTTDIKNII  123
+
+Query  121  LNMCEISKTYNPSRSDDILLLKELYSLLYALIEEFPK  157
+              +C++S++   + S+DIL+++ LY L+Y L E+FPK
+Sbjct  124  QLICKLSQSIESNNSNDILIMQYLYQLVYTLQEKFPK  160
+
+
+> sp|Q00753|MSMR_STRMU Msm operon regulatory protein OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) OX=210007 
+GN=msmR PE=4 SV=2
+Length=278
+
+ Score = 204 bits (520),  Expect = 7e-66, Method: Composition-based stats.
+ Identities = 54/157 (34%), Positives = 87/157 (55%), Gaps = 3/157 (2%)
+
+Query  1    LWKKYVKENFEMNVDECGIEQGIPGLGYNYEVLKNAVIHYVTKGYGTFKFNGKVYNLKQG  60
+            ++ ++   NF+++VD  G E+   G  +   +  N VIH++ +G G    N    +L  G
+Sbjct  6    IYNEFDINNFDLSVDHYGSEKCDRGYSFGPTIRDNYVIHFILEGKGKLTINQHTLDLAAG  65
+
+Query  61   DIFILLKGMQVEYVASIDDPWEYYWIGFSGSNANEYLNRTSITNSCVANCEENSKIPQII  120
+            DIF+L K +   Y A +  PW Y WIGFSGS A   L ++S+      +   +SK+   +
+Sbjct  66   DIFLLPKDISTFYQADLQMPWSYIWIGFSGSKAENILKQSSLFKRFYCHSGRSSKLFSQM  125
+
+Query  121  LNMCEISKTYNPSRS-DDILLLKELYSLLYALIEEFP  156
+            + + + + T  P  S +++L++ ELY LL ALIEEFP
+Sbjct  126  MTIIQFANT--PLTSVNELLMVGELYKLLAALIEEFP  160
+
+
+> sp|P43465|RAFR_PEDPE Raffinose operon transcriptional regulatory 
+protein RafR OS=Pediococcus pentosaceus OX=1255 GN=rafR 
+PE=4 SV=1
+Length=277
+
+ Score = 192 bits (488),  Expect = 5e-61, Method: Composition-based stats.
+ Identities = 56/160 (35%), Positives = 78/160 (49%), Gaps = 8/160 (5%)
+
+Query  2    WKKYVKENFEMNVDECGIEQGIPGLGYNYE-VLKNAVIHYVTKGYGTFKF-NGKVYNLKQ  59
+            +K    ++FE NV   G E  +P   Y    V  + VIHY+ +G GTF   N     LK 
+Sbjct  5    YKTLANKSFESNVLFFGQEACLPNYTYKGNNVRDSYVIHYIQEGKGTFAAANHPATVLKA  64
+
+Query  60   GDIFILLKGMQVEYVASIDDPWEYYWIGFS-GSNANEYLNRTSITNSCVANCEENSKIPQ  118
+            GDIFIL KG    Y A  D PW+Y+WIGFS G      L+ + +   C     +N     
+Sbjct  65   GDIFILPKGTPCFYQADNDQPWKYFWIGFSAGIRIEAMLSGSLLAQKCYLRQVQNG---H  121
+
+Query  119  IILNMCEISKTYNPSRS--DDILLLKELYSLLYALIEEFP  156
+            I  ++ E+ K  +   S  +D+LL   +Y L Y L+  +P
+Sbjct  122  IYADLSELYKVLHIPNSLINDVLLGSLIYRLFYDLLRWYP  161
+
+
+> sp|P28809|MMSR_PSEAE MmsAB operon regulatory protein OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=mmsR 
+PE=4 SV=2
+Length=307
+
+ Score = 94.4 bits (233),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 16/64 (25%), Positives = 27/64 (42%), Gaps = 4/64 (6%)
+
+Query  34   KNAVIHYVTKGYGTFKFNG----KVYNLKQGDIFILLKGMQVEYVASIDDPWEYYWIGFS  89
+               ++ Y ++G G  +       + Y +  GD+  L  GM  +Y A    PW  +W    
+Sbjct  67   DEHLLIYCSEGQGLLRVREGEAWREYRVGSGDLLWLPPGMAHDYAADDRQPWTIFWTHLR  126
+
+Query  90   GSNA  93
+            G +A
+Sbjct  127  GDSA  130
+
+
+> sp|P03022|ARAC_SALTY Arabinose operon regulatory protein OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=araC PE=3 SV=1
+Length=281
+
+ Score = 40.4 bits (93),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 24/119 (20%), Positives = 44/119 (37%), Gaps = 3/119 (3%)
+
+Query  33   LKNAVIHYVTKGYGTFKFNGKVYNLKQGDIFILLKGMQVEY-VASIDDPWEYYWIGFSGS  91
+            +K  +++   +G G    NG+ +  + GDI +   G    Y        W + W+ F   
+Sbjct  42   MKGYILNLTIRGEGVINNNGEQFVCRPGDILLFPPGEIHHYGRHPDASEWYHQWVYFRPR  101
+
+Query  92   NA-NEYLNRTSITNSCVANCEENSKIPQIILNMCE-ISKTYNPSRSDDILLLKELYSLL  148
+                E+L   +I         + ++ P       + IS      R  ++L +  L  LL
+Sbjct  102  AYWQEWLTWPTIFAQTGFFRPDEARQPHFSELFGQIISAGQGEGRYSELLAINLLEQLL  160
+
+
+> sp|P0A9E0|ARAC_ECOLI Arabinose operon regulatory protein OS=Escherichia 
+coli (strain K12) OX=83333 GN=araC PE=1 SV=1
+Length=292
+
+ Score = 40.4 bits (93),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 26/124 (21%), Positives = 47/124 (38%), Gaps = 3/124 (2%)
+
+Query  33   LKNAVIHYVTKGYGTFKFNGKVYNLKQGDIFILLKGMQVEY-VASIDDPWEYYWIGFSGS  91
+            +K  +++   +G G  K  G+ +  + GDI +   G    Y        W + W+ F   
+Sbjct  42   MKGYILNLTIRGQGVVKNQGREFVCRPGDILLFPPGEIHHYGRHPEAREWYHQWVYFRPR  101
+
+Query  92   NA-NEYLNRTSITNSCVANCEENSKIPQIILNMCEISKTYN-PSRSDDILLLKELYSLLY  149
+               +E+LN  SI  +      + +  P       +I        R  ++L +  L  LL 
+Sbjct  102  AYWHEWLNWPSIFANTGFFRPDEAHQPHFSDLFGQIINAGQGEGRYSELLAINLLEQLLL  161
+
+Query  150  ALIE  153
+              +E
+Sbjct  162  RRME  165
+
+
+> sp|P0A9E1|ARAC_ECO57 Arabinose operon regulatory protein OS=Escherichia 
+coli O157:H7 OX=83334 GN=araC PE=3 SV=1
+Length=292
+
+ Score = 40.4 bits (93),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 26/124 (21%), Positives = 47/124 (38%), Gaps = 3/124 (2%)
+
+Query  33   LKNAVIHYVTKGYGTFKFNGKVYNLKQGDIFILLKGMQVEY-VASIDDPWEYYWIGFSGS  91
+            +K  +++   +G G  K  G+ +  + GDI +   G    Y        W + W+ F   
+Sbjct  42   MKGYILNLTIRGQGVVKNQGREFVCRPGDILLFPPGEIHHYGRHPEAREWYHQWVYFRPR  101
+
+Query  92   NA-NEYLNRTSITNSCVANCEENSKIPQIILNMCEISKTYN-PSRSDDILLLKELYSLLY  149
+               +E+LN  SI  +      + +  P       +I        R  ++L +  L  LL 
+Sbjct  102  AYWHEWLNWPSIFANTGFFRPDEAHQPHFSDLFGQIINAGQGEGRYSELLAINLLEQLLL  161
+
+Query  150  ALIE  153
+              +E
+Sbjct  162  RRME  165
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7099310500
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

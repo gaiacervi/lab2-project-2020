@@ -1,0 +1,173 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5HAD:A
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9FIG9|ARC6_ARATH Protein ACCUMULATION AND REPLICATION OF CH...  270     2e-86
+  sp|Q8VY16|CDP1_ARATH Plastid division protein CDP1, chloroplast...  51.2    3e-07
+
+
+> sp|Q9FIG9|ARC6_ARATH Protein ACCUMULATION AND REPLICATION OF 
+CHLOROPLASTS 6, chloroplastic OS=Arabidopsis thaliana OX=3702 
+GN=ARC6 PE=1 SV=1
+Length=801
+
+ Score = 270 bits (690),  Expect = 2e-86, Method: Compositional matrix adjust.
+ Identities = 130/130 (100%), Positives = 130/130 (100%), Gaps = 0/130 (0%)
+
+Query  1    PRMDARTAENIVSKWQKIKSLAFGPDHRIEMLPEVLDGRMLKIWTDRAAETAQLGLVYDY  60
+            PRMDARTAENIVSKWQKIKSLAFGPDHRIEMLPEVLDGRMLKIWTDRAAETAQLGLVYDY
+Sbjct  672  PRMDARTAENIVSKWQKIKSLAFGPDHRIEMLPEVLDGRMLKIWTDRAAETAQLGLVYDY  731
+
+Query  61   TLLKLSVDSVTVSADGTRALVEATLEESACLSDLVHPENNATDVRTYTTRYEVFWSKSGW  120
+            TLLKLSVDSVTVSADGTRALVEATLEESACLSDLVHPENNATDVRTYTTRYEVFWSKSGW
+Sbjct  732  TLLKLSVDSVTVSADGTRALVEATLEESACLSDLVHPENNATDVRTYTTRYEVFWSKSGW  791
+
+Query  121  KITEGSVLAS  130
+            KITEGSVLAS
+Sbjct  792  KITEGSVLAS  801
+
+
+> sp|Q8VY16|CDP1_ARATH Plastid division protein CDP1, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=CDP1 PE=1 SV=2
+Length=819
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 38/129 (29%), Positives = 55/129 (43%), Gaps = 5/129 (4%)
+
+Query  3    MDARTAENIVSKWQKIKSLAFGPDHRIEMLPEVLDGRMLKIWTDRAAETAQLGLVYDYTL  62
+            MD   AE +V +W+ +K+ A GP H++  L EVLD  ML  W   A         + + L
+Sbjct  688  MDTEEAEELVRQWENVKAEALGPTHQVYSLSEVLDESMLVQWQTLAQTAEAKSCYWRFVL  747
+
+Query  63   LKLSVDSVTVSADGTRALVEATLEESACLSDLV---HPENNATDVRTYTTRYEVFWSKSG  119
+            L L V    +  DG               ++LV    P+ NA    TY  RY +   + G
+Sbjct  748  LHLEVLQAHIFEDGIAGEAAEIEALLEEAAELVDESQPK-NAKYYSTYKIRYILKKQEDG  806
+
+Query  120  -WKITEGSV  127
+             WK  +  +
+Sbjct  807  LWKFCQSDI  815
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.129    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5057268596
+Results from round 2
+
+
+Query= 5HAD:A
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9FIG9|ARC6_ARATH Protein ACCUMULATION AND REPLICATION OF CH...  219     5e-67
+  sp|Q8VY16|CDP1_ARATH Plastid division protein CDP1, chloroplast...  174     2e-50
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q9FIG9|ARC6_ARATH Protein ACCUMULATION AND REPLICATION OF 
+CHLOROPLASTS 6, chloroplastic OS=Arabidopsis thaliana OX=3702 
+GN=ARC6 PE=1 SV=1
+Length=801
+
+ Score = 219 bits (557),  Expect = 5e-67, Method: Composition-based stats.
+ Identities = 130/130 (100%), Positives = 130/130 (100%), Gaps = 0/130 (0%)
+
+Query  1    PRMDARTAENIVSKWQKIKSLAFGPDHRIEMLPEVLDGRMLKIWTDRAAETAQLGLVYDY  60
+            PRMDARTAENIVSKWQKIKSLAFGPDHRIEMLPEVLDGRMLKIWTDRAAETAQLGLVYDY
+Sbjct  672  PRMDARTAENIVSKWQKIKSLAFGPDHRIEMLPEVLDGRMLKIWTDRAAETAQLGLVYDY  731
+
+Query  61   TLLKLSVDSVTVSADGTRALVEATLEESACLSDLVHPENNATDVRTYTTRYEVFWSKSGW  120
+            TLLKLSVDSVTVSADGTRALVEATLEESACLSDLVHPENNATDVRTYTTRYEVFWSKSGW
+Sbjct  732  TLLKLSVDSVTVSADGTRALVEATLEESACLSDLVHPENNATDVRTYTTRYEVFWSKSGW  791
+
+Query  121  KITEGSVLAS  130
+            KITEGSVLAS
+Sbjct  792  KITEGSVLAS  801
+
+
+> sp|Q8VY16|CDP1_ARATH Plastid division protein CDP1, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=CDP1 PE=1 SV=2
+Length=819
+
+ Score = 174 bits (440),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 38/129 (29%), Positives = 55/129 (43%), Gaps = 5/129 (4%)
+
+Query  3    MDARTAENIVSKWQKIKSLAFGPDHRIEMLPEVLDGRMLKIWTDRAAETAQLGLVYDYTL  62
+            MD   AE +V +W+ +K+ A GP H++  L EVLD  ML  W   A         + + L
+Sbjct  688  MDTEEAEELVRQWENVKAEALGPTHQVYSLSEVLDESMLVQWQTLAQTAEAKSCYWRFVL  747
+
+Query  63   LKLSVDSVTVSADGTRALVEATLEESACLSDLV---HPENNATDVRTYTTRYEVFWSKSG  119
+            L L V    +  DG               ++LV    P+ NA    TY  RY +   + G
+Sbjct  748  LHLEVLQAHIFEDGIAGEAAEIEALLEEAAELVDESQPK-NAKYYSTYKIRYILKKQEDG  806
+
+Query  120  -WKITEGSV  127
+             WK  +  +
+Sbjct  807  LWKFCQSDI  815
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.124    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0380    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5057268596
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

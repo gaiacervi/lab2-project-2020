@@ -1,0 +1,3805 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6EBU:A
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q57819|Y374_METJA Uncharacterized protein MJ0374 OS=Methanoc...  88.6    3e-20
+  sp|P80143|UDDP_SULAC Undecaprenyl-diphosphatase OS=Sulfolobus a...  63.5    1e-11
+  sp|P42334|BCRC_BACLI Bacitracin transport permease protein BcrC...  48.5    3e-06
+  sp|P94571|BCRC_BACSU Undecaprenyl-diphosphatase BcrC OS=Bacillu...  48.1    5e-06
+  sp|P75806|YBJG_ECOLI Putative undecaprenyl-diphosphatase YbjG O...  47.8    6e-06
+  sp|B2RI48|LPXF_PORG3 Lipid A 4'-phosphatase OS=Porphyromonas gi...  47.0    2e-05
+  sp|Q8LFD1|LPP3_ARATH Putative lipid phosphate phosphatase 3, ch...  45.4    7e-05
+  sp|P23501|DS1P2_YEAST Dihydrosphingosine 1-phosphate phosphatas...  42.7    5e-04
+  sp|P47013|DS1P1_YEAST Dihydrosphingosine 1-phosphate phosphatas...  42.0    9e-04
+  sp|O34349|PGPB_BACSU Phosphatidylglycerophosphatase B OS=Bacill...  41.2    0.001
+
+
+> sp|Q57819|Y374_METJA Uncharacterized protein MJ0374 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0374 PE=4 SV=1
+Length=330
+
+ Score = 88.6 bits (218),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 62/158 (39%), Positives = 93/158 (59%), Gaps = 7/158 (4%)
+
+Query  8    LNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETV  67
+            +N+ LF LIN+  + + D      +      +    LI     RK  +K LI A+ L  +
+Sbjct  166  INIYLFYLINSHYNYIFDAIMPIISKTAYPLIAITSLIIFIKNRKFGMK-LIFALFLAFM  224
+
+Query  68   LVISLKTFFNQPRPAILLEDVNLLF-PLHWRSFPSGDTAMAFTIAT-VLSHGEKLHIKAI  125
+            +  SLK   N+PRP ++L++V+LL    +  SFPSG T +AFT+AT +L + +KL    I
+Sbjct  225  IAFSLKYLVNEPRPYLVLDNVHLLCNEGNEPSFPSGHTTLAFTLATSLLFYSKKL---GI  281
+
+Query  126  LFL-YAFLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+            LFL +A ++ Y R+Y GVH+PLDV  G +IGI CG ++
+Sbjct  282  LFLSWAIIVAYSRVYVGVHYPLDVLAGMIIGIFCGCLT  319
+
+
+> sp|P80143|UDDP_SULAC Undecaprenyl-diphosphatase OS=Sulfolobus 
+acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 
+15157 / NCIMB 11770) OX=330779 GN=sepP PE=1 SV=2
+Length=206
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 50/169 (30%), Positives = 79/169 (47%), Gaps = 13/169 (8%)
+
+Query  4    EDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEK------VKP  57
+            ++   N+ELF+LIN  +   L+      +  G  YV  P+   L IF++ +      V  
+Sbjct  27   QNIGFNVELFKLINYNQIATLNGLMVFLSKYGREYVWIPVTALLLIFKRTRKIGITLVIS  86
+
+Query  58   LILAIMLETV--LVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLS  115
+             ++AI+L  V   V++    FN   P  LLE     +     S+PSG   +  T A  L 
+Sbjct  87   FVIAIVLGEVSKYVMAQLRPFNFVNPTYLLEPKPTDY-----SYPSGHALIVSTGAVTLL  141
+
+Query  116  HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+                  +  +  + A L+ Y R+Y GVH+PLDV  G L+G     +S++
+Sbjct  142  LTSPKWMWILGIIEAVLVSYSRVYVGVHWPLDVIAGWLLGSWISFLSVQ  190
+
+
+> sp|P42334|BCRC_BACLI Bacitracin transport permease protein BcrC 
+OS=Bacillus licheniformis OX=1402 GN=bcrC PE=3 SV=1
+Length=203
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/165 (28%), Positives = 85/165 (52%), Gaps = 19/165 (12%)
+
+Query  8    LNLELFRLINN--ARHPLLDVFFTHFAYLGSGYVLFPL---LIFLFIFRKEKVKPLIL--  60
+            LN++ FR IN+    + +L+       Y  + Y+++ L   L+  ++ R  K + +++  
+Sbjct  6    LNIDAFRFINDLGKEYSMLN----PVVYFLAEYMMYFLALGLVVYWLTRTTKNRLMVIYA  61
+
+Query  61   --AIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHW-RSFPSGDTAMAFTIATV--LS  115
+              A ++  +L   + +  +  +P   L +VN L       SFPS  T + F+I  +  L 
+Sbjct  62   VIAFVVAEILGKIMGSLHSNYQPFATLPNVNKLIEHEIDNSFPSDHTILFFSIGFLIFLF  121
+
+Query  116  HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGI  160
+            H +   +  +L   AF +G  RI++GVH+PLDV  GAL+G++  +
+Sbjct  122  HKKTGWLWLVL---AFAVGISRIWSGVHYPLDVAAGALLGVLSAL  163
+
+
+> sp|P94571|BCRC_BACSU Undecaprenyl-diphosphatase BcrC OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=bcrC PE=1 SV=1
+Length=193
+
+ Score = 48.1 bits (113),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 51/162 (31%), Positives = 80/162 (49%), Gaps = 16/162 (10%)
+
+Query  8    LNLELFRLINNARH--PLLD---VFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAI  62
+            +N E+F+ I+   H   +LD   VF T +A +   Y L  L I+LF   + +   L   I
+Sbjct  1    MNYEIFKAIHGLSHHNSVLDSIMVFITEYAIVA--YALILLAIWLFGNTQSRKHVLYAGI  58
+
+Query  63   MLETVLVIS--LKTFFNQPRPAILLEDVNLLFPLHWR-SFPSGDT--AMAFTIATVLSHG  117
+                 LVI+  +   + +PRP  +   V+ L P     SFPS  T  A+A +IA +  + 
+Sbjct  59   TGIAGLVINYLITLVYFEPRP-FVAHTVHTLIPHAADASFPSDHTTGALAISIAMLFRNR  117
+
+Query  118  EKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICG  159
+            +   I   L ++  L G+ RI+ G H+P+DV    ++ II G
+Sbjct  118  K---IGWPLVIFGLLTGFSRIWVGHHYPVDVLGSLVVAIIIG  156
+
+
+> sp|P75806|YBJG_ECOLI Putative undecaprenyl-diphosphatase YbjG 
+OS=Escherichia coli (strain K12) OX=83333 GN=ybjG PE=1 SV=1
+Length=198
+
+ Score = 47.8 bits (112),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 48/162 (30%), Positives = 75/162 (46%), Gaps = 6/162 (4%)
+
+Query  8    LNLELFRLINNA--RHPLLDVFFTHFAY-LGSGYVLFPLLIFLFIFRKEKVKPLILAIML  64
+            LNL LF LIN      P +       A  L +   L  ++++L+    ++   + +AI L
+Sbjct  5    LNLSLFSLINATPDSAPWMISLAIFIAKDLITVVPLLAVVLWLWGLTAQRQLVIKIAIAL  64
+
+Query  65   ETVLVIS--LKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI  122
+               L +S  +   F   RP +     N L      SFPS    + FT A       +L  
+Sbjct  65   AVSLFVSWTMGHLFPHDRPFVENIGYNFLHHAADDSFPSDHGTVIFTFALAFLCWHRLWS  124
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+             ++L + A +I + R+Y GVH+PLD+  G L G+I G +S +
+Sbjct  125  GSLLMVLAVVIAWSRVYLGVHWPLDMLGGLLAGMI-GCLSAQ  165
+
+
+> sp|B2RI48|LPXF_PORG3 Lipid A 4'-phosphatase OS=Porphyromonas 
+gingivalis (strain ATCC 33277 / DSM 20709 / CIP 103683 / JCM 
+12257 / NCTC 11834 / 2561) OX=431947 GN=lpxF PE=3 SV=1
+Length=236
+
+ Score = 47.0 bits (110),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 53/175 (30%), Positives = 84/175 (48%), Gaps = 25/175 (14%)
+
+Query  5    DFALNLE--LFRLINNARHPLLDVFFTHFAYLGSG---YVLFPLLIFLFIFRKEKVKP--  57
+            ++ L +E  LF  +N  +HPLLD FF    YL S    +V+  +    F+F K+  K   
+Sbjct  2    EYILEVERNLFLTLNGVQHPLLDGFF----YLISAKWTWVIMSIAFLFFLFYKKPTKEAL  57
+
+Query  58   LILAIMLETVLVIS------LKTFFNQPRPAILLEDVNLLFPLH-WRS----FPSGDTAM  106
+             I+  +L +VL+         K FF + RP+   + ++ +  ++ +R     F SG T  
+Sbjct  58   FIVGAVLLSVLICDQLSSSFFKPFFARFRPSHHPDFIDYVKTVYGYRGGKYGFISGHTTN  117
+
+Query  107  AFTIATVLSH--GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICG  159
+              ++A   S     K +   I  + A +I Y RIY GVHF  D+  G  +G+I G
+Sbjct  118  YISLALFTSRIFRNKFYTWTIWSVVALVI-YSRIYIGVHFITDIIPGIAVGLIVG  171
+
+
+> sp|Q8LFD1|LPP3_ARATH Putative lipid phosphate phosphatase 3, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=LPP3 PE=2 SV=1
+Length=364
+
+ Score = 45.4 bits (106),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 46/164 (28%), Positives = 71/164 (43%), Gaps = 42/164 (26%)
+
+Query  39   VLFPLLIFLFI-FRKEKVKPL-------ILAIMLETVLVISLKTFFNQPRP---------  81
+            +L PL+IF+FI FR+  V  L       + ++++  VL  ++K    +PRP         
+Sbjct  126  MLLPLVIFIFIYFRRRDVYDLHHAVLGLLYSVLVTAVLTDAIKNAVGRPRPDFFWRCFPD  185
+
+Query  82   ----------AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLS--------------HG  117
+                       I   D +++   H +SFPSG T+ +F+    LS              H 
+Sbjct  186  GKALYDSLGDVICHGDKSVIREGH-KSFPSGHTSWSFSGLGFLSLYLSGKIQAFDGKGHV  244
+
+Query  118  EKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGII  161
+             KL I  +  L+A L+G  R+    H   DVF G L+G+    I
+Sbjct  245  AKLCIVILPLLFAALVGISRVDDYWHHWQDVFAGGLLGLAISTI  288
+
+
+> sp|P23501|DS1P2_YEAST Dihydrosphingosine 1-phosphate phosphatase 
+YSR3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=YSR3 PE=1 SV=2
+Length=404
+
+ Score = 42.7 bits (99),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 39/159 (25%), Positives = 70/159 (44%), Gaps = 17/159 (11%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGY---VLFPLLIFLFIFRKEKVKPLILAIMLETVLVIS  71
+            L    R P  DV+F + + +GS     ++ P+ ++L    ++  + +I  +     L   
+Sbjct  70   LQKKHRTPFRDVYFKYTSLMGSHMFYVIVLPMPVWLGY--RDLTRDMIYVLGYSIYLSGY  127
+
+Query  72   LKTFFNQPRPAILLEDVNLLFPLHWRSF--PSGDTAMAFTIA----------TVLSHGEK  119
+            LK ++  PRP     D   L     + +  PS  +A A  ++            L    K
+Sbjct  128  LKDYWCLPRPKSPPVDRITLSEYTTKEYGAPSSHSANATAVSLLFFWRICLSDTLVWPTK  187
+
+Query  120  LHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            L + +++  Y   + + R+Y G+H  LD+F GA +G IC
+Sbjct  188  LLLLSLVIFYYLTLVFGRVYCGMHGMLDLFSGAAVGAIC  226
+
+
+> sp|P47013|DS1P1_YEAST Dihydrosphingosine 1-phosphate phosphatase 
+LCB3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=LCB3 PE=1 SV=1
+Length=409
+
+ Score = 42.0 bits (97),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 45/170 (26%), Positives = 75/170 (44%), Gaps = 17/170 (10%)
+
+Query  9    NLELFRLINNARHPLLDVFFTHFAYLGSG--YVL-FPLLIFLFIFRKEKVKPLILAIMLE  65
+            +  L R     R    D++FT+ + +GS   YVL  P+ ++   F  E  K ++  +   
+Sbjct  63   SFTLSRWQKKYRSAFNDLYFTYTSLMGSHTFYVLCLPMPVWFGYF--ETTKDMVYILGYS  120
+
+Query  66   TVLVISLKTFFNQPRP-AILLEDVNLL-FPLHWRSFPSGDTAMAFTIA-----TVLSHGE  118
+              L    K ++  PRP A  L  + L  +       PS  TA A  ++      +    E
+Sbjct  121  IYLSGFFKDYWCLPRPRAPPLHRITLSEYTTKEYGAPSSHTANATGVSLLFLYNIWRMQE  180
+
+Query  119  -----KLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+                 +L +  ++  Y   + + RIY G+H  LD+  G LIGI+C I+ +
+Sbjct  181  SSVMVQLLLSCVVLFYYMTLVFGRIYCGMHGILDLVSGGLIGIVCFIVRM  230
+
+
+> sp|O34349|PGPB_BACSU Phosphatidylglycerophosphatase B OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=pgpB PE=1 SV=1
+Length=203
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 41/146 (28%), Positives = 66/146 (45%), Gaps = 24/146 (16%)
+
+Query  20   RHPLLDVFFTHFAYLGSGYVLFPLLIF----LFIFRKEKVKPLILAIM-LETVLVISLKT  74
+            R P L+   T   +LG+   L PL++     +F +RK     L+L +   + +L   LK 
+Sbjct  38   RQPWLNEVMTGITHLGASSFLLPLIVIIGAGMFFYRKTWDGLLMLLVFGTDRLLNKVLKE  97
+
+Query  75   FFNQPRP--AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSH----------GEKLHI  122
+            +  + RP  A L+ + +        SFPSG +  A  +  V+++            K  +
+Sbjct  98   WIERVRPDFAPLVHESSF-------SFPSGHSMNAACVYPVIAYFLVKHLPFLSKHKKMV  150
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDV  148
+              I  + A L+G  R+Y GVHF  DV
+Sbjct  151  YIIAGVIAVLVGISRVYLGVHFVTDV  176
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.152    0.462    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7919695168
+Results from round 2
+
+
+Query= 6EBU:A
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P80143|UDDP_SULAC Undecaprenyl-diphosphatase OS=Sulfolobus a...  125     2e-35
+  sp|P75806|YBJG_ECOLI Putative undecaprenyl-diphosphatase YbjG O...  118     1e-32
+  sp|P23501|DS1P2_YEAST Dihydrosphingosine 1-phosphate phosphatas...  121     4e-32
+  sp|P47013|DS1P1_YEAST Dihydrosphingosine 1-phosphate phosphatas...  120     9e-32
+  sp|Q57819|Y374_METJA Uncharacterized protein MJ0374 OS=Methanoc...  114     6e-30
+  sp|P42334|BCRC_BACLI Bacitracin transport permease protein BcrC...  97.0    2e-24
+  sp|P94571|BCRC_BACSU Undecaprenyl-diphosphatase BcrC OS=Bacillu...  94.7    1e-23
+  sp|Q8LFD1|LPP3_ARATH Putative lipid phosphate phosphatase 3, ch...  89.7    2e-20
+  sp|O34349|PGPB_BACSU Phosphatidylglycerophosphatase B OS=Bacill...  84.7    1e-19
+  sp|B2RI48|LPXF_PORG3 Lipid A 4'-phosphatase OS=Porphyromonas gi...  85.1    1e-19
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9XI60|LPP2_ARATH Lipid phosphate phosphatase 2 OS=Arabidops...  74.7    2e-15
+  sp|Q9P6N5|DS1PP_SCHPO Dihydrosphingosine 1-phosphate phosphatas...  74.3    7e-15
+  sp|Q9ZU49|LPP1_ARATH Lipid phosphate phosphatase 1 OS=Arabidops...  70.8    7e-14
+  sp|Q9M2G7|LPPD_ARATH Lipid phosphate phosphatase delta OS=Arabi...  63.9    3e-11
+  sp|Q55A00|SSPA_DICDI Probable sphingosine-1-phosphate phosphata...  60.8    4e-10
+  sp|Q9JI99|SGPP1_MOUSE Sphingosine-1-phosphate phosphatase 1 OS=...  60.4    5e-10
+  sp|Q99P55|SGPP1_RAT Sphingosine-1-phosphate phosphatase 1 OS=Ra...  60.0    6e-10
+  sp|Q9BX95|SGPP1_HUMAN Sphingosine-1-phosphate phosphatase 1 OS=...  56.9    8e-09
+  sp|Q0WNG6|LPP4_ARATH Probable lipid phosphate phosphatase 4 OS=...  55.4    2e-08
+  sp|Q8IWX5|SGPP2_HUMAN Sphingosine-1-phosphate phosphatase 2 OS=...  54.6    5e-08
+  sp|Q58DI5|PLPP6_BOVIN Phospholipid phosphatase 6 OS=Bos taurus ...  52.3    3e-07
+  sp|Q6GQ62|PLPP5_XENLA Phospholipid phosphatase 5 OS=Xenopus lae...  51.6    4e-07
+  sp|Q5TZ07|PLPP6_DANRE Phospholipid phosphatase 6 OS=Danio rerio...  51.2    5e-07
+  sp|B2RLI7|LPXE_PORG3 Lipid A 1-phosphatase OS=Porphyromonas gin...  49.2    3e-06
+  sp|Q810K3|SGPP2_MOUSE Sphingosine-1-phosphate phosphatase 2 OS=...  49.2    3e-06
+  sp|Q1MA49|LPXE_RHIL3 Lipid A 1-phosphatase OS=Rhizobium legumin...  48.1    6e-06
+  sp|Q9D4F2|PLPP6_MOUSE Phospholipid phosphatase 6 OS=Mus musculu...  48.1    7e-06
+  sp|Q66H88|PLPP6_RAT Phospholipid phosphatase 6 OS=Rattus norveg...  48.1    7e-06
+  sp|Q91WB2|PLPP7_MOUSE Inactive phospholipid phosphatase 7 OS=Mu...  47.7    1e-05
+  sp|Q8IY26|PLPP6_HUMAN Phospholipid phosphatase 6 OS=Homo sapien...  47.7    1e-05
+  sp|Q5FVJ3|PLPP7_RAT Inactive phospholipid phosphatase 7 OS=Ratt...  47.7    1e-05
+  sp|Q2K2U9|LPXE_RHIEC Lipid A 1-phosphatase OS=Rhizobium etli (s...  47.3    1e-05
+  sp|Q934J6|PHON_SALTI Non-specific acid phosphatase OS=Salmonell...  46.5    2e-05
+  sp|Q5VZY2|PLPP4_HUMAN Phospholipid phosphatase 4 OS=Homo sapien...  46.5    2e-05
+  sp|Q8NBV4|PLPP7_HUMAN Inactive phospholipid phosphatase 7 OS=Ho...  46.5    2e-05
+  sp|P14924|PPA_ZYMMO Acid phosphatase OS=Zymomonas mobilis subsp...  46.5    2e-05
+  sp|Q0VBU9|PLPP4_MOUSE Phospholipid phosphatase 4 OS=Mus musculu...  46.5    2e-05
+  sp|Q8A6M3|LPXF_BACTN Lipid A 4'-phosphatase OS=Bacteroides thet...  45.8    4e-05
+  sp|P26976|PHON_SALTY Non-specific acid phosphatase OS=Salmonell...  45.0    6e-05
+  sp|Q9SUW4|LPPB_ARATH Probable lipid phosphate phosphatase beta ...  44.6    9e-05
+  sp|Q9V576|WUN_DROME Putative phosphatidate phosphatase OS=Droso...  45.0    1e-04
+  sp|Q6NLA5|LPPG_ARATH Lipid phosphate phosphatase gamma OS=Arabi...  43.9    2e-04
+  sp|Q6P0E8|PLPP7_DANRE Inactive phospholipid phosphatase 7 OS=Da...  43.9    2e-04
+  sp|P9WI53|DPRP_MYCTU Putative decaprenylphosphoryl-5-phosphorib...  43.1    2e-04
+  sp|P9WI52|DPRP_MYCTO Putative decaprenylphosphoryl-5-phosphorib...  43.1    2e-04
+  sp|Q8NEB5|PLPP5_HUMAN Phospholipid phosphatase 5 OS=Homo sapien...  41.9    0.001
+  sp|B2KI79|DOPP1_RHIFE Dolichyldiphosphatase 1 OS=Rhinolophus fe...  41.2    0.002
+  sp|Q3UMZ3|PLPP5_MOUSE Phospholipid phosphatase 5 OS=Mus musculu...  41.2    0.002
+  sp|P28581|PHOC_MORMO Major phosphate-irrepressible acid phospha...  40.8    0.002
+  sp|B1MTH4|DOPP1_PLEMO Dolichyldiphosphatase 1 OS=Plecturocebus ...  40.8    0.002
+  sp|Q54PR7|Y4367_DICDI PA-phosphatase related-family protein DDB...  40.8    0.002
+  sp|Q9DAX2|PLPP2_MOUSE Phospholipid phosphatase 2 OS=Mus musculu...  40.8    0.002
+  sp|Q8K593|PLPP2_RAT Phospholipid phosphatase 2 OS=Rattus norveg...  40.4    0.003
+  sp|P0A926|PGPB_SHIFL Phosphatidylglycerophosphatase B OS=Shigel...  40.0    0.003
+  sp|P0A924|PGPB_ECOLI Phosphatidylglycerophosphatase B OS=Escher...  40.0    0.003
+  sp|P0A925|PGPB_ECO57 Phosphatidylglycerophosphatase B OS=Escher...  40.0    0.003
+  sp|Q86YN1|DOPP1_HUMAN Dolichyldiphosphatase 1 OS=Homo sapiens O...  40.0    0.004
+  sp|B0CM95|DOPP1_PAPAN Dolichyldiphosphatase 1 OS=Papio anubis O...  39.2    0.006
+  sp|B0KWE9|DOPP1_CALJA Dolichyldiphosphatase 1 OS=Callithrix jac...  38.8    0.009
+  sp|Q9JMF7|DOPP1_MOUSE Dolichyldiphosphatase 1 OS=Mus musculus O...  38.8    0.010
+
+
+> sp|P80143|UDDP_SULAC Undecaprenyl-diphosphatase OS=Sulfolobus 
+acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 
+15157 / NCIMB 11770) OX=330779 GN=sepP PE=1 SV=2
+Length=206
+
+ Score = 125 bits (314),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 48/164 (29%), Positives = 77/164 (47%), Gaps = 3/164 (2%)
+
+Query  4    EDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVK--PLILA  61
+            ++   N+ELF+LIN  +   L+      +  G  YV  P+   L IF++ +     L+++
+Sbjct  27   QNIGFNVELFKLINYNQIATLNGLMVFLSKYGREYVWIPVTALLLIFKRTRKIGITLVIS  86
+
+Query  62   IMLETVLVISLKTFFNQPRPAILLEDVNLLFPL-HWRSFPSGDTAMAFTIATVLSHGEKL  120
+             ++  VL    K    Q RP   +    LL P     S+PSG   +  T A  L      
+Sbjct  87   FVIAIVLGEVSKYVMAQLRPFNFVNPTYLLEPKPTDYSYPSGHALIVSTGAVTLLLTSPK  146
+
+Query  121  HIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+             +  +  + A L+ Y R+Y GVH+PLDV  G L+G     +S++
+Sbjct  147  WMWILGIIEAVLVSYSRVYVGVHWPLDVIAGWLLGSWISFLSVQ  190
+
+
+> sp|P75806|YBJG_ECOLI Putative undecaprenyl-diphosphatase YbjG 
+OS=Escherichia coli (strain K12) OX=83333 GN=ybjG PE=1 SV=1
+Length=198
+
+ Score = 118 bits (295),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 48/162 (30%), Positives = 75/162 (46%), Gaps = 6/162 (4%)
+
+Query  8    LNLELFRLINNA--RHPLLDVFFTHFAY-LGSGYVLFPLLIFLFIFRKEKVKPLILAIML  64
+            LNL LF LIN      P +       A  L +   L  ++++L+    ++   + +AI L
+Sbjct  5    LNLSLFSLINATPDSAPWMISLAIFIAKDLITVVPLLAVVLWLWGLTAQRQLVIKIAIAL  64
+
+Query  65   ETVLVIS--LKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI  122
+               L +S  +   F   RP +     N L      SFPS    + FT A       +L  
+Sbjct  65   AVSLFVSWTMGHLFPHDRPFVENIGYNFLHHAADDSFPSDHGTVIFTFALAFLCWHRLWS  124
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+             ++L + A +I + R+Y GVH+PLD+  G L G+I G +S +
+Sbjct  125  GSLLMVLAVVIAWSRVYLGVHWPLDMLGGLLAGMI-GCLSAQ  165
+
+
+> sp|P23501|DS1P2_YEAST Dihydrosphingosine 1-phosphate phosphatase 
+YSR3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=YSR3 PE=1 SV=2
+Length=404
+
+ Score = 121 bits (303),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 39/165 (24%), Positives = 72/165 (44%), Gaps = 17/165 (10%)
+
+Query  14   RLINNARHPLLDVFFTHFAYLGSGY---VLFPLLIFLFIFRKEKVKPLILAIMLETVLVI  70
+             L    R P  DV+F + + +GS     ++ P+ ++L    ++  + +I  +     L  
+Sbjct  69   SLQKKHRTPFRDVYFKYTSLMGSHMFYVIVLPMPVWLGY--RDLTRDMIYVLGYSIYLSG  126
+
+Query  71   SLKTFFNQPRPAILLEDVNLLFPLHWRSF--PSGDTAMAFTIATVLSHG----------E  118
+             LK ++  PRP     D   L     + +  PS  +A A  ++ +               
+Sbjct  127  YLKDYWCLPRPKSPPVDRITLSEYTTKEYGAPSSHSANATAVSLLFFWRICLSDTLVWPT  186
+
+Query  119  KLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+            KL + +++  Y   + + R+Y G+H  LD+F GA +G IC  I +
+Sbjct  187  KLLLLSLVIFYYLTLVFGRVYCGMHGMLDLFSGAAVGAICFFIRI  231
+
+
+> sp|P47013|DS1P1_YEAST Dihydrosphingosine 1-phosphate phosphatase 
+LCB3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=LCB3 PE=1 SV=1
+Length=409
+
+ Score = 120 bits (301),  Expect = 9e-32, Method: Composition-based stats.
+ Identities = 42/172 (24%), Positives = 74/172 (43%), Gaps = 17/172 (10%)
+
+Query  9    NLELFRLINNARHPLLDVFFTHFAYLGSG--YVL-FPLLIFLFIFRKEKVKPLILAIMLE  65
+            +  L R     R    D++FT+ + +GS   YVL  P+ ++   F  E  K ++  +   
+Sbjct  63   SFTLSRWQKKYRSAFNDLYFTYTSLMGSHTFYVLCLPMPVWFGYF--ETTKDMVYILGYS  120
+
+Query  66   TVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSF--PSGDTAMAFTIATVLSHG------  117
+              L    K ++  PRP         L     + +  PS  TA A  ++ +  +       
+Sbjct  121  IYLSGFFKDYWCLPRPRAPPLHRITLSEYTTKEYGAPSSHTANATGVSLLFLYNIWRMQE  180
+
+Query  118  ----EKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLKY  165
+                 +L +  ++  Y   + + RIY G+H  LD+  G LIGI+C I+ + +
+Sbjct  181  SSVMVQLLLSCVVLFYYMTLVFGRIYCGMHGILDLVSGGLIGIVCFIVRMYF  232
+
+
+> sp|Q57819|Y374_METJA Uncharacterized protein MJ0374 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0374 PE=4 SV=1
+Length=330
+
+ Score = 114 bits (285),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 57/156 (37%), Positives = 87/156 (56%), Gaps = 3/156 (2%)
+
+Query  8    LNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETV  67
+            +N+ LF LIN+  + + D      +      +    LI     RK  +K LI A+ L  +
+Sbjct  166  INIYLFYLINSHYNYIFDAIMPIISKTAYPLIAITSLIIFIKNRKFGMK-LIFALFLAFM  224
+
+Query  68   LVISLKTFFNQPRPAILLEDVNLLF-PLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAIL  126
+            +  SLK   N+PRP ++L++V+LL    +  SFPSG T +AFT+AT L    K  +  + 
+Sbjct  225  IAFSLKYLVNEPRPYLVLDNVHLLCNEGNEPSFPSGHTTLAFTLATSLLFYSKK-LGILF  283
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+              +A ++ Y R+Y GVH+PLDV  G +IGI CG ++
+Sbjct  284  LSWAIIVAYSRVYVGVHYPLDVLAGMIIGIFCGCLT  319
+
+
+> sp|P42334|BCRC_BACLI Bacitracin transport permease protein BcrC 
+OS=Bacillus licheniformis OX=1402 GN=bcrC PE=3 SV=1
+Length=203
+
+ Score = 97.0 bits (240),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 44/163 (27%), Positives = 82/163 (50%), Gaps = 15/163 (9%)
+
+Query  8    LNLELFRLIN--NARHPLLDVFFTHFAYLGSGYVLFPL---LIFLFIFRKEKVKPLIL--  60
+            LN++ FR IN     + +L+       Y  + Y+++ L   L+  ++ R  K + +++  
+Sbjct  6    LNIDAFRFINDLGKEYSMLN----PVVYFLAEYMMYFLALGLVVYWLTRTTKNRLMVIYA  61
+
+Query  61   --AIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLH-WRSFPSGDTAMAFTIATVLSHG  117
+              A ++  +L   + +  +  +P   L +VN L       SFPS  T + F+I  ++   
+Sbjct  62   VIAFVVAEILGKIMGSLHSNYQPFATLPNVNKLIEHEIDNSFPSDHTILFFSIGFLIFLF  121
+
+Query  118  EKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGI  160
+             K     +  + AF +G  RI++GVH+PLDV  GAL+G++  +
+Sbjct  122  HKK-TGWLWLVLAFAVGISRIWSGVHYPLDVAAGALLGVLSAL  163
+
+
+> sp|P94571|BCRC_BACSU Undecaprenyl-diphosphatase BcrC OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=bcrC PE=1 SV=1
+Length=193
+
+ Score = 94.7 bits (234),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 44/163 (27%), Positives = 72/163 (44%), Gaps = 6/163 (4%)
+
+Query  8    LNLELFRLINNARH--PLLDVFFTHFA-YLGSGYVLFPLLIFLFIFRKEKVKPLILAIML  64
+            +N E+F+ I+   H   +LD        Y    Y L  L I+LF   + +   L   I  
+Sbjct  1    MNYEIFKAIHGLSHHNSVLDSIMVFITEYAIVAYALILLAIWLFGNTQSRKHVLYAGITG  60
+
+Query  65   ETVLVIS--LKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI  122
+               LVI+  +   + +PRP +      L+      SFPS  T  A  I+  +    +  I
+Sbjct  61   IAGLVINYLITLVYFEPRPFVAHTVHTLIPHAADASFPSDHTTGALAISIAMLFRNRK-I  119
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLKY  165
+               L ++  L G+ RI+ G H+P+DV    ++ II G +  ++
+Sbjct  120  GWPLVIFGLLTGFSRIWVGHHYPVDVLGSLVVAIIIGFLFFRF  162
+
+
+> sp|Q8LFD1|LPP3_ARATH Putative lipid phosphate phosphatase 3, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=LPP3 PE=2 SV=1
+Length=364
+
+ Score = 89.7 bits (221),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 42/187 (22%), Positives = 73/187 (39%), Gaps = 41/187 (22%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPL-------ILAIMLETV  67
+            ++ +  +PL       ++      +L  ++     FR+  V  L       + ++++  V
+Sbjct  103  MMTDLSYPLKSNTVPIWSVPVYAMLLPLVIFIFIYFRRRDVYDLHHAVLGLLYSVLVTAV  162
+
+Query  68   LVISLKTFFNQPRP-------------------AILLEDVNLLFPLHWRSFPSGDTAMAF  108
+            L  ++K    +PRP                    I   D +++   H +SFPSG T+ +F
+Sbjct  163  LTDAIKNAVGRPRPDFFWRCFPDGKALYDSLGDVICHGDKSVIREGH-KSFPSGHTSWSF  221
+
+Query  109  TIATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALI  154
+            +    LS              H  KL I  +  L+A L+G  R+    H   DVF G L+
+Sbjct  222  SGLGFLSLYLSGKIQAFDGKGHVAKLCIVILPLLFAALVGISRVDDYWHHWQDVFAGGLL  281
+
+Query  155  GIICGII  161
+            G+    I
+Sbjct  282  GLAISTI  288
+
+
+> sp|O34349|PGPB_BACSU Phosphatidylglycerophosphatase B OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=pgpB PE=1 SV=1
+Length=203
+
+ Score = 84.7 bits (208),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 40/144 (28%), Positives = 62/144 (43%), Gaps = 20/144 (14%)
+
+Query  20   RHPLLDVFFTHFAYLGSGYVLFPLLIF----LFIFRKEKVKPLILAIM-LETVLVISLKT  74
+            R P L+   T   +LG+   L PL++     +F +RK     L+L +   + +L   LK 
+Sbjct  38   RQPWLNEVMTGITHLGASSFLLPLIVIIGAGMFFYRKTWDGLLMLLVFGTDRLLNKVLKE  97
+
+Query  75   FFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSH----------GEKLHIKA  124
+            +  + RP         L      SFPSG +  A  +  V+++            K  +  
+Sbjct  98   WIERVRPDFAP-----LVHESSFSFPSGHSMNAACVYPVIAYFLVKHLPFLSKHKKMVYI  152
+
+Query  125  ILFLYAFLIGYERIYAGVHFPLDV  148
+            I  + A L+G  R+Y GVHF  DV
+Sbjct  153  IAGVIAVLVGISRVYLGVHFVTDV  176
+
+
+> sp|B2RI48|LPXF_PORG3 Lipid A 4'-phosphatase OS=Porphyromonas 
+gingivalis (strain ATCC 33277 / DSM 20709 / CIP 103683 / JCM 
+12257 / NCTC 11834 / 2561) OX=431947 GN=lpxF PE=3 SV=1
+Length=236
+
+ Score = 85.1 bits (209),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 49/172 (28%), Positives = 81/172 (47%), Gaps = 19/172 (11%)
+
+Query  5    DFALNLE--LFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKP--LIL  60
+            ++ L +E  LF  +N  +HPLLD FF   +   + +V+  +    F+F K+  K    I+
+Sbjct  2    EYILEVERNLFLTLNGVQHPLLDGFFYLISAKWT-WVIMSIAFLFFLFYKKPTKEALFIV  60
+
+Query  61   AIMLETVLVI------SLKTFFNQPRPAILLEDVNLLFPLH-----WRSFPSGDTAMAFT  109
+              +L +VL+         K FF + RP+   + ++ +  ++        F SG T    +
+Sbjct  61   GAVLLSVLICDQLSSSFFKPFFARFRPSHHPDFIDYVKTVYGYRGGKYGFISGHTTNYIS  120
+
+Query  110  IATVLSH--GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICG  159
+            +A   S     K +   I  + A +I Y RIY GVHF  D+  G  +G+I G
+Sbjct  121  LALFTSRIFRNKFYTWTIWSVVALVI-YSRIYIGVHFITDIIPGIAVGLIVG  171
+
+
+> sp|Q9XI60|LPP2_ARATH Lipid phosphate phosphatase 2 OS=Arabidopsis 
+thaliana OX=3702 GN=LPP2 PE=2 SV=1
+Length=290
+
+ Score = 74.7 bits (182),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 44/186 (24%), Positives = 70/186 (38%), Gaps = 40/186 (22%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPL-------ILAIMLETV  67
+            ++ + R+PL D     +A      VL   +I ++ F +  V  L       + ++++  V
+Sbjct  53   MLTDLRYPLQDNTIPFWAVPLIAVVLPFAVICVYYFIRNDVYDLHHAILGLLFSVLITGV  112
+
+Query  68   LVISLKTFFNQPRP------------AILLEDVNLLFPLHWR-------SFPSGDTAMAF  108
+            +  ++K    +PRP                   N+L             SFPSG T+ +F
+Sbjct  113  ITDAIKDAVGRPRPDFFWRCFPDGIGIFHNVTKNVLCTGAKDVVKEGHKSFPSGHTSWSF  172
+
+Query  109  TIATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALI  154
+                 LS              H  KL I  +  L A L+G  R+    H   DVF GA+I
+Sbjct  173  AGLGFLSLYLSGKIRVFDQRGHVAKLCIVILPLLVAALVGVSRVDDYWHHWQDVFGGAII  232
+
+Query  155  GIICGI  160
+            G+    
+Sbjct  233  GLTVAT  238
+
+
+> sp|Q9P6N5|DS1PP_SCHPO Dihydrosphingosine 1-phosphate phosphatase 
+C823.11 OS=Schizosaccharomyces pombe (strain 972 / ATCC 
+24843) OX=284812 GN=SPAC823.11 PE=3 SV=1
+Length=411
+
+ Score = 74.3 bits (181),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 39/168 (23%), Positives = 63/168 (38%), Gaps = 14/168 (8%)
+
+Query  12   LFRLINNARHPLLDVFFTHFAYLGSG-YVLFPLLIFLFIFRKEKVKPLILAIMLETVLVI  70
+            L+++ +  R+P LDV+F + A LG+  + +  L IF +         +            
+Sbjct  53   LYKIQSFFRNPWLDVYFMYTATLGTHVFFMLALPIFFWSGCIYYTLDITQLFAAGVYFSG  112
+
+Query  71   SLKTFFNQPRPAILLEDVNLLFP--LHWRSFPSGDTAMAFTIATVLSHGEKL--------  120
+             +K +F  PRP         L     +   FPS  T  A                     
+Sbjct  113  CIKDYFCLPRPRSPPMVRLTLSSDAEYEYGFPSTHTTNAMATGFYSLFLLLSMSDSMSSI  172
+
+Query  121  ---HIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLKY  165
+                + +++ LY   I   RIY G+H  +DV  G ++G+   I   KY
+Sbjct  173  SYYFLLSLVLLYIASISLGRIYCGMHGFMDVSTGTILGVTLAIFQWKY  220
+
+
+> sp|Q9ZU49|LPP1_ARATH Lipid phosphate phosphatase 1 OS=Arabidopsis 
+thaliana OX=3702 GN=LPP1 PE=2 SV=2
+Length=327
+
+ Score = 70.8 bits (172),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 40/184 (22%), Positives = 67/184 (36%), Gaps = 39/184 (21%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPL-------ILAIMLETV  67
+            ++ + ++P  D     ++      +L  ++   F  ++  V  L       + A+++  V
+Sbjct  78   MMTDLKYPFKDNTVPIWSVPVYAVLLPIIVFVCFYLKRTCVYDLHHSILGLLFAVLITGV  137
+
+Query  68   LVISLKTFFNQPRPAI------------------LLEDVNLLFPLHWRSFPSGDTAMAFT  109
+            +  S+K    +PRP                    +            +SFPSG T+ +F 
+Sbjct  138  ITDSIKVATGRPRPNFYWRCFPDGKELYDALGGVVCHGKAAEVKEGHKSFPSGHTSWSFA  197
+
+Query  110  IATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+              T LS              H  KL +     L A L+G  R+    H   DVF GALIG
+Sbjct  198  GLTFLSLYLSGKIKAFNNEGHVAKLCLVIFPLLAACLVGISRVDDYWHHWQDVFAGALIG  257
+
+Query  156  IICG  159
+             +  
+Sbjct  258  TLVA  261
+
+
+> sp|Q9M2G7|LPPD_ARATH Lipid phosphate phosphatase delta OS=Arabidopsis 
+thaliana OX=3702 GN=LPPD PE=2 SV=1
+Length=416
+
+ Score = 63.9 bits (154),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 33/174 (19%), Positives = 60/174 (34%), Gaps = 17/174 (10%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGS-GYVLFPLLIFLFIFRKEKVKPLIL  60
+            V       + L   I   ++ +LD FF+  + + S  +    L +  +       + + L
+Sbjct  47   VARQVVGGVPLILRIQKCQNGVLDAFFSGLSCVVSVPFYTAFLPLLFWSGHGRLARQMTL  106
+
+Query  61   AIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWR-----SFPSGDTAMAFTIATVLS  115
+             I     L   +K   + PRP+                      PS  T     ++  L 
+Sbjct  107  LIAFCDYLGNCIKDVVSAPRPSCPPVRRITATKDEEDNAMEYGLPSSHTLNTVCLSGYLL  166
+
+Query  116  H-----------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            H             + +  A+  L   LI + R+Y G+H  +D+  G  IG++ 
+Sbjct  167  HYVLSSLEYESVSIQYYGFALACLLVALIAFGRVYLGMHSVVDIVSGLAIGVLI  220
+
+
+> sp|Q55A00|SSPA_DICDI Probable sphingosine-1-phosphate phosphatase 
+OS=Dictyostelium discoideum OX=44689 GN=sppA PE=3 SV=1
+Length=406
+
+ Score = 60.8 bits (146),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 35/170 (21%), Positives = 65/170 (38%), Gaps = 16/170 (9%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSG-YVLFPLLIFLFIFRKEKVKPLIL  60
+            +++++   + +   I + R+  LD +F   + LG   + +  L I  +    +    L +
+Sbjct  35   LLKEYEREVPIIVKIQSYRNKFLDFYFKMASILGEEVFFILALPISTWCVATQLGVELCV  94
+
+Query  61   AIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVL------  114
+             + L       LK  F  PRP   +   N          PS  TA AF +          
+Sbjct  95   VLALTIGGGNILKNTFTLPRPPPNIVWTNTAHQ-KDHGLPSTHTASAFGLTFYFLIYTYF  153
+
+Query  115  --------SHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGI  156
+                     +   L +  I+  ++  + + R+Y G H P+DV  G ++ I
+Sbjct  154  LFPTIGESFNISLLSMFFIVLFWSTSVMFSRLYNGHHTPMDVIAGLIVAI  203
+
+
+> sp|Q9JI99|SGPP1_MOUSE Sphingosine-1-phosphate phosphatase 1 OS=Mus 
+musculus OX=10090 GN=Sgpp1 PE=1 SV=1
+Length=430
+
+ Score = 60.4 bits (145),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 37/154 (24%), Positives = 55/154 (36%), Gaps = 7/154 (5%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKT  74
+            L+  +  PL  +F          + +     +++       + L++  +L   L    K 
+Sbjct  109  LVKVSNLPLYYLFCLGTELGNELFYILFFPFWIWNLDPFVGRRLVIIWVLVMYLGQCTKD  168
+
+Query  75   FFNQPRPAILLEDVNLLFPLHWRSFPSGDTA--MAFTIATVL----SHGEKLHIKAILF-  127
+                PRPA        +F     S PS       A  IA  L         L    IL  
+Sbjct  169  IIRWPRPASPPVIKLEVFYNSEYSMPSTHAMSGTAIPIAMFLLTYGRWQYPLIYGLILIP  228
+
+Query  128  LYAFLIGYERIYAGVHFPLDVFVGALIGIICGII  161
+             ++ L+   RIY G+H  LDV  G L  I+  II
+Sbjct  229  CWSSLVCLSRIYMGMHSILDVIAGFLYTILILII  262
+
+
+> sp|Q99P55|SGPP1_RAT Sphingosine-1-phosphate phosphatase 1 OS=Rattus 
+norvegicus OX=10116 GN=Sgpp1 PE=1 SV=2
+Length=430
+
+ Score = 60.0 bits (144),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 36/143 (25%), Positives = 52/143 (36%), Gaps = 8/143 (6%)
+
+Query  27   FFTHFAYLGSGYV-LFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAILL  85
+             F     LG+    +     +++       + L++  +L   L    K     PRPA   
+Sbjct  120  LFCFGTELGNELFYIIFFPFWIWNLDPFVGRRLVIIWVLVMYLGQCTKDIIRWPRPASPP  179
+
+Query  86   EDVNLLFPLHWRSFPSGDTA--MAFTIATVL----SHGEKLHIKAILF-LYAFLIGYERI  138
+                 +F     S PS       A  IA +L         L    IL   ++ L+   RI
+Sbjct  180  VIKLEIFYNSEYSMPSTHAMSGTAIPIAMILLTYGRWQYPLIYGLILIPCWSSLVCLSRI  239
+
+Query  139  YAGVHFPLDVFVGALIGIICGII  161
+            Y G+H  LDV  G L  I+  II
+Sbjct  240  YMGMHSILDVIAGFLYTILILII  262
+
+
+> sp|Q9BX95|SGPP1_HUMAN Sphingosine-1-phosphate phosphatase 1 OS=Homo 
+sapiens OX=9606 GN=SGPP1 PE=1 SV=2
+Length=441
+
+ Score = 56.9 bits (136),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 33/140 (24%), Positives = 49/140 (35%), Gaps = 8/140 (6%)
+
+Query  27   FFTHFAYLGSGYV-LFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAILL  85
+             F     LG+    +     +++       + L++  +L   L    K     PRPA   
+Sbjct  131  LFCFGTELGNELFYILFFPFWIWNLDPLVGRRLVVIWVLVMYLGQCTKDIIRWPRPASPP  190
+
+Query  86   EDVNLLFPLHWRSFPSGDTA--MAFTIATVL----SHGEKLHIKAILF-LYAFLIGYERI  138
+                 +F     S PS       A  I+ VL         L    IL   +  L+   RI
+Sbjct  191  VVKLEVFYNSEYSMPSTHAMSGTAIPISMVLLTYGRWQYPLIYGLILIPCWCSLVCLSRI  250
+
+Query  139  YAGVHFPLDVFVGALIGIIC  158
+            Y G+H  LD+  G L  I+ 
+Sbjct  251  YMGMHSILDIIAGFLYTILI  270
+
+
+> sp|Q0WNG6|LPP4_ARATH Probable lipid phosphate phosphatase 4 OS=Arabidopsis 
+thaliana OX=3702 GN=LPP4 PE=2 SV=1
+Length=308
+
+ Score = 55.4 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 33/136 (24%), Positives = 52/136 (38%), Gaps = 33/136 (24%)
+
+Query  60   LAIMLETVLVISLKTFFNQPRP------------AILLEDVNLLFPL-------HWRSFP  100
+             + ++  V   S+K    +PRP                +  +++           ++SFP
+Sbjct  105  FSCLVTGVTTDSIKDAVGRPRPNFFYRCFPNGKPKFHPDTKDVVCHGVKKIIKEGYKSFP  164
+
+Query  101  SGDTAMAFTIATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHFPL  146
+            SG T+ +F   T L+              H  KL +  +  L + LIG  R+    H   
+Sbjct  165  SGHTSWSFAGLTFLAWYLSGKIKVFDRRGHVAKLCLVFLPILISILIGISRVDDYWHHWT  224
+
+Query  147  DVFVGALIGIICGIIS  162
+            DVF GA+IGI     S
+Sbjct  225  DVFAGAIIGIFVASFS  240
+
+
+> sp|Q8IWX5|SGPP2_HUMAN Sphingosine-1-phosphate phosphatase 2 OS=Homo 
+sapiens OX=9606 GN=SGPP2 PE=1 SV=1
+Length=399
+
+ Score = 54.6 bits (130),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 29/152 (19%), Positives = 52/152 (34%), Gaps = 8/152 (5%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLF-PLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFN  77
+             ++      F   A LG        L    +       + LI+  +L   +    K    
+Sbjct  81   VKNYFYYYLFQFSAALGQEVFYITFLPFTHWNIDPYLSRRLIIIWVLVMYIGQVAKDVLK  140
+
+Query  78   QPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVL------SHGEKLHIKAIL-FLYA  130
+             PRP+           +     PS     A  IA  L       +     +  ++  +++
+Sbjct  141  WPRPSSPPVVKLEKRLIAEYGMPSTHAMAATAIAFTLLISTMDRYQYPFVLGLVMAVVFS  200
+
+Query  131  FLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+             L+   R+Y G+H  LDV  G LI  +  +++
+Sbjct  201  TLVCLSRLYTGMHTVLDVLGGVLITALLIVLT  232
+
+
+> sp|Q58DI5|PLPP6_BOVIN Phospholipid phosphatase 6 OS=Bos taurus 
+OX=9913 GN=PLPP6 PE=2 SV=1
+Length=289
+
+ Score = 52.3 bits (124),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 25/86 (29%), Positives = 41/86 (48%), Gaps = 2/86 (2%)
+
+Query  72   LKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI--KAILFLY  129
+            +K    + RPA    D+     +   SFPSG T  A  ++  + +   L I  + ++ L+
+Sbjct  177  IKGLVRRRRPAHNQMDMFFTISVDKYSFPSGHTTRAALVSRFILNHLVLAIPLRVLVVLW  236
+
+Query  130  AFLIGYERIYAGVHFPLDVFVGALIG  155
+            AF++G  R+  G H   DV  G  +G
+Sbjct  237  AFILGLSRVMLGRHNVTDVAFGFFLG  262
+
+
+> sp|Q6GQ62|PLPP5_XENLA Phospholipid phosphatase 5 OS=Xenopus laevis 
+OX=8355 GN=plpp5 PE=2 SV=2
+Length=266
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 33/167 (20%), Positives = 46/167 (28%), Gaps = 36/167 (22%)
+
+Query  30   HFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISL----KTFFNQPRP----  81
+                  +   +  L    +       +   LA  L   L        K    +PRP    
+Sbjct  60   FLISFLTPLSVVALARLFWKADGTDSREAGLAASLSLALNGIFTNTVKLIVGRPRPDFLF  119
+
+Query  82   -----------AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLS---------------  115
+                            D  L+     +SFPSG ++ AF      +               
+Sbjct  120  RCFPDGQESPGLHCTGDPELVIEGR-KSFPSGHSSFAFAGLGFTALYLAGKLRCFSPCGR  178
+
+Query  116  -HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGII  161
+             H  +L    I  L A  I   R     H   DV VGA IG+    +
+Sbjct  179  GHSWRLCASLIPLLCAIAIALSRTCDYKHHWQDVVVGAFIGLFFAFL  225
+
+
+> sp|Q5TZ07|PLPP6_DANRE Phospholipid phosphatase 6 OS=Danio rerio 
+OX=7955 GN=plpp6 PE=2 SV=1
+Length=288
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 25/87 (29%), Positives = 39/87 (45%), Gaps = 2/87 (2%)
+
+Query  73   KTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--IKAILFLYA  130
+            K    + RPA    D+   F +   SFPSG    A   A  L +   L   ++ ++ L+A
+Sbjct  179  KAVVRRRRPAHNRMDMFATFSVDSYSFPSGHATRAAMCARFLLNHLVLAAPLRVLVLLWA  238
+
+Query  131  FLIGYERIYAGVHFPLDVFVGALIGII  157
+             ++G+ R+  G H   DV  G  +G  
+Sbjct  239  TIVGFSRVLLGRHNVTDVAFGFFMGYW  265
+
+
+> sp|B2RLI7|LPXE_PORG3 Lipid A 1-phosphatase OS=Porphyromonas gingivalis 
+(strain ATCC 33277 / DSM 20709 / CIP 103683 / JCM 
+12257 / NCTC 11834 / 2561) OX=431947 GN=lpxE PE=3 SV=1
+Length=445
+
+ Score = 49.2 bits (116),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 32/114 (28%), Positives = 43/114 (38%), Gaps = 16/114 (14%)
+
+Query  52   KEKVKPLI---LAIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAF  108
+            K   K L+   L + L   +V + K  F + RP                S+PSG TA AF
+Sbjct  118  KSWGKMLVSDALGMALMGGMVNAGKYSFGRLRPD----------GTAANSYPSGHTATAF  167
+
+Query  109  TIATVLSH---GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICG  159
+              AT+                +  A   G  RI    H+  DV  GA +GI+ G
+Sbjct  168  ACATLFHLEYGSRSPWYSVAGYTVASFTGISRIVNNRHWASDVLCGAAVGILVG  221
+
+
+> sp|Q810K3|SGPP2_MOUSE Sphingosine-1-phosphate phosphatase 2 OS=Mus 
+musculus OX=10090 GN=Sgpp2 PE=1 SV=1
+Length=354
+
+ Score = 49.2 bits (116),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 26/154 (17%), Positives = 52/154 (34%), Gaps = 8/154 (5%)
+
+Query  17   NNARHPLLDVFFTHFAYLGSGYVLF-PLLIFLFIFRKEKVKPLILAIMLETVLVISLKTF  75
+            +  ++      F   A LG        L    +       + L++  +L   +    K  
+Sbjct  34   HVVKNYFYYYLFRFSAALGQEVFYITFLPFTHWNIDPNLSRRLVVIWVLVMYIGQVAKDI  93
+
+Query  76   FNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVL------SHGEKLHIKAIL-FL  128
+               PRP+           +     PS     A  I+  L       +     +  ++  +
+Sbjct  94   LKWPRPSFPPVVRLEKRIIAEYGMPSTHAMAATAISFTLLISTMDRYQYPFILGLMMAVV  153
+
+Query  129  YAFLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+            ++ L+   R+Y G+H  LD+  G LI  +   ++
+Sbjct  154  FSTLVCLSRLYTGMHTVLDILGGVLITAVLIALT  187
+
+
+> sp|Q1MA49|LPXE_RHIL3 Lipid A 1-phosphatase OS=Rhizobium leguminosarum 
+bv. viciae (strain 3841) OX=216596 GN=lpxE PE=3 SV=1
+Length=244
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 37/111 (33%), Gaps = 6/111 (5%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE-----DVNLLFPLHWRSFPSGDTAMAFTIAT  112
+            L   ++   +L   LK    + RP    +              + SFPSG +        
+Sbjct  108  LFFTVVFSGLLANLLKRAIGRARPDHFHDYGMFSFAPFSGHSAFESFPSGHSTTVGAFFA  167
+
+Query  113  VLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+              +     +  A     A  +G  R+  G H+P DV  G   G    +++ 
+Sbjct  168  AFALLFPRYRVAF-IACAIWLGMTRVMVGAHYPSDVIAGLAFGAWFSLLTA  217
+
+
+> sp|Q9D4F2|PLPP6_MOUSE Phospholipid phosphatase 6 OS=Mus musculus 
+OX=10090 GN=Plpp6 PE=1 SV=1
+Length=292
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 42/89 (47%), Gaps = 2/89 (2%)
+
+Query  69   VISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI--KAIL  126
+            V  +K    + RPA   +D+     +   SFPSG    A  ++  + +   L I  + ++
+Sbjct  177  VAVIKGLVRRRRPAHNQKDMFFTLSVDRYSFPSGHATRAALVSRFILNHLVLAIPLRVLV  236
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+             L+AF++G  R+  G H   DV  G  +G
+Sbjct  237  VLWAFVLGLSRVMLGRHNVTDVAFGFFLG  265
+
+
+> sp|Q66H88|PLPP6_RAT Phospholipid phosphatase 6 OS=Rattus norvegicus 
+OX=10116 GN=Plpp6 PE=2 SV=1
+Length=293
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 41/89 (46%), Gaps = 2/89 (2%)
+
+Query  69   VISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI--KAIL  126
+            V  +K    + RPA    D+     +   SFPSG    A  ++  + +   L I  + ++
+Sbjct  178  VAVIKGLVRRRRPAHNQMDMFFTLSVDKYSFPSGHATRAALVSRFILNHLVLAIPLRVLV  237
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+             L+AF++G  R+  G H   DV  G  +G
+Sbjct  238  VLWAFVLGLSRVMLGRHNVTDVAFGFFLG  266
+
+
+> sp|Q91WB2|PLPP7_MOUSE Inactive phospholipid phosphatase 7 OS=Mus 
+musculus OX=10090 GN=Plpp7 PE=1 SV=1
+Length=271
+
+ Score = 47.7 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/93 (22%), Positives = 39/93 (42%), Gaps = 2/93 (2%)
+
+Query  65   ETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--I  122
+            + + V  ++    +  P      +     +   +FP+G  + A  ++        L   +
+Sbjct  155  DIMTVAGVQKLIKRRGPYETSPGLLDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPL  214
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+            + +L L+AF +G  R+  G H   DV  G +IG
+Sbjct  215  RVLLVLWAFCVGLSRVMIGRHHITDVISGFIIG  247
+
+
+> sp|Q8IY26|PLPP6_HUMAN Phospholipid phosphatase 6 OS=Homo sapiens 
+OX=9606 GN=PLPP6 PE=1 SV=3
+Length=295
+
+ Score = 47.7 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 24/86 (28%), Positives = 41/86 (48%), Gaps = 2/86 (2%)
+
+Query  72   LKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI--KAILFLY  129
+            +K    + RPA    D+ +   +   SFPSG    A  ++  + +   L I  + ++ L+
+Sbjct  183  IKGLVRRRRPAHNQMDMFVTLSVDKYSFPSGHATRAALMSRFILNHLVLAIPLRVLVVLW  242
+
+Query  130  AFLIGYERIYAGVHFPLDVFVGALIG  155
+            AF++G  R+  G H   DV  G  +G
+Sbjct  243  AFVLGLSRVMLGRHNVTDVAFGFFLG  268
+
+
+> sp|Q5FVJ3|PLPP7_RAT Inactive phospholipid phosphatase 7 OS=Rattus 
+norvegicus OX=10116 GN=Plpp7 PE=2 SV=1
+Length=271
+
+ Score = 47.7 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/93 (22%), Positives = 39/93 (42%), Gaps = 2/93 (2%)
+
+Query  65   ETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--I  122
+            + + V  ++    +  P      +     +   +FP+G  + A  ++        L   +
+Sbjct  155  DIMTVAGVQKLIKRRGPYETSPGLLDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPL  214
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+            + +L L+AF +G  R+  G H   DV  G +IG
+Sbjct  215  RVLLVLWAFCVGLSRVMIGRHHITDVISGFIIG  247
+
+
+> sp|Q2K2U9|LPXE_RHIEC Lipid A 1-phosphatase OS=Rhizobium etli 
+(strain CFN 42 / ATCC 51251) OX=347834 GN=lpxE PE=3 SV=1
+Length=232
+
+ Score = 47.3 bits (111),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 37/111 (33%), Gaps = 6/111 (5%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE-----DVNLLFPLHWRSFPSGDTAMAFTIAT  112
+            L   ++   +L   LK    + RP    +              + SFPSG +        
+Sbjct  90   LFTTVVFSGLLANLLKRAIGRARPDHFHDYGMFSFTPFSGHAAFESFPSGHSTTVGAFFA  149
+
+Query  113  VLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+              +     +  A     A  +G  R+  G H+P DV  G   G    +++ 
+Sbjct  150  AFALLFPRYRVAF-IACAIWLGMTRVMVGAHYPSDVIAGLAFGGWFSLLTA  199
+
+
+> sp|Q934J6|PHON_SALTI Non-specific acid phosphatase OS=Salmonella 
+typhi OX=90370 GN=phoN PE=3 SV=1
+Length=250
+
+ Score = 46.5 bits (109),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 43/112 (38%), Gaps = 10/112 (9%)
+
+Query  53   EKVKPLILAIMLETVLVISLKTFFNQPRPAIL-------LEDVNLLFPLHWRSFPSGDTA  105
+                   L  M       S K ++ + RP +L        ED N L      S+PSG TA
+Sbjct  103  TWNMLQNLLKMGGYYATASAKKYYMRTRPFVLFNHSTCRPEDENTLR--KDGSYPSGHTA  160
+
+Query  106  MAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+             +  +A VLS       + +     +  G  R+  G H+  DV  G  +G +
+Sbjct  161  YSTLLALVLSQARPERAQELAR-RGWEFGQSRVICGAHWQSDVDAGRYVGAV  211
+
+
+> sp|Q5VZY2|PLPP4_HUMAN Phospholipid phosphatase 4 OS=Homo sapiens 
+OX=9606 GN=PLPP4 PE=1 SV=2
+Length=271
+
+ Score = 46.5 bits (109),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 36/183 (20%), Positives = 61/183 (33%), Gaps = 41/183 (22%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFLFI-----FRKEKVKPLILAIMLETVLVIS--  71
+             ++PL+         + +   L PL +   +       K ++K   LA+ L   L     
+Sbjct  39   YKNPLVQSDNIPTRLMFAISFLTPLAVICVVKIIRRTDKTEIKEAFLAVSLALALNGVCT  98
+
+Query  72   --LKTFFNQPRP---------------AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVL  114
+              +K    +PRP                    D +L+     +SFPS  ++ AF+     
+Sbjct  99   NTIKLIVGRPRPDFFYRCFPDGVMNSEMHCTGDPDLVSEGR-KSFPSIHSSFAFSGLGFT  157
+
+Query  115  SH----------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            +                   +L    +    A +I   R+    H   D FVG +IG+I 
+Sbjct  158  TFYLAGKLHCFTESGRGKSWRLCAAILPLYCAMMIALSRMCDYKHHWQDSFVGGVIGLIF  217
+
+Query  159  GII  161
+              I
+Sbjct  218  AYI  220
+
+
+> sp|Q8NBV4|PLPP7_HUMAN Inactive phospholipid phosphatase 7 OS=Homo 
+sapiens OX=9606 GN=PLPP7 PE=2 SV=1
+Length=271
+
+ Score = 46.5 bits (109),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 19/93 (20%), Positives = 38/93 (41%), Gaps = 2/93 (2%)
+
+Query  65   ETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--I  122
+            + + V  ++    +  P      +     +   +FP+G  + A  ++        L   +
+Sbjct  155  DIMTVAGVQKLIKRRGPYETSPSLLDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPL  214
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+            + +L L+A  +G  R+  G H   DV  G +IG
+Sbjct  215  RVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIG  247
+
+
+> sp|P14924|PPA_ZYMMO Acid phosphatase OS=Zymomonas mobilis subsp. 
+mobilis (strain ATCC 31821 / ZM4 / CP4) OX=264203 GN=phoC 
+PE=3 SV=2
+Length=264
+
+ Score = 46.5 bits (109),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 22/88 (25%), Positives = 39/88 (44%), Gaps = 6/88 (7%)
+
+Query  73   KTFFNQPRPAILLE-----DVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILF  127
+            K  +N+ RP +  +     + +        S+PSG T + +++A +L+     H   IL 
+Sbjct  132  KNNWNRKRPFVDTDQPICTEKDREGLGKQGSYPSGHTTIGWSVALILAELIPDHAANILQ  191
+
+Query  128  LYAFLIGYERIYAGVHFPLDVFVGALIG  155
+                + G  RI  G H+  DV  G ++ 
+Sbjct  192  -RGQIFGTSRIVCGAHWFSDVQAGYIMA  218
+
+
+> sp|Q0VBU9|PLPP4_MOUSE Phospholipid phosphatase 4 OS=Mus musculus 
+OX=10090 GN=Plpp4 PE=2 SV=1
+Length=271
+
+ Score = 46.5 bits (109),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 36/183 (20%), Positives = 61/183 (33%), Gaps = 41/183 (22%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFLFI-----FRKEKVKPLILAIMLETVLVIS--  71
+             ++PL+         + +   L PL +   +       K ++K   LA+ L   L     
+Sbjct  39   YKNPLVQSDNIPTRLMFAISFLTPLAVICVVKIIRRTDKTEIKEAFLAVSLALALNGVCT  98
+
+Query  72   --LKTFFNQPRPAI---------------LLEDVNLLFPLHWRSFPSGDTAMAFTIATVL  114
+              +K    +PRP                    D +L+     +SFPS  ++ AF+     
+Sbjct  99   NTIKLIVGRPRPDFFYRCFPDGVMNSEMRCTGDPDLVSEGR-KSFPSIHSSFAFSGLGFT  157
+
+Query  115  SH----------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            +                   +L    +    A +I   R+    H   D FVG +IG+I 
+Sbjct  158  TFYLAGKLHCFTESGRGKSWRLCAAILPLYCAMMIALSRMCDYKHHWQDSFVGGVIGLIF  217
+
+Query  159  GII  161
+              I
+Sbjct  218  AYI  220
+
+
+> sp|Q8A6M3|LPXF_BACTN Lipid A 4'-phosphatase OS=Bacteroides thetaiotaomicron 
+(strain ATCC 29148 / DSM 2079 / NCTC 10582 / 
+E50 / VPI-5482) OX=226186 GN=lpxF PE=3 SV=1
+Length=225
+
+ Score = 45.8 bits (107),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 29/156 (19%), Positives = 57/156 (37%), Gaps = 14/156 (9%)
+
+Query  8    LNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETV  67
+            ++ +L    N    P  D F + F        ++  ++++ +        L   + +   
+Sbjct  8    IDTQLLLFFNGIHSPFWDYFMSAFTGKVIWVPMYASILYILLKNFHWKVALCYVVAIALT  67
+
+Query  68   LVIS-------LKTFFNQPRPAILLEDVNLL------FPLHWRSFPSGDTAMAFTIATVL  114
+            +  +       L+    + RP+     +  L             FPS   A +F +A  L
+Sbjct  68   ITFADQMCNSFLRPLVGRLRPSNPENPIADLVYIVNGRRGGGFGFPSCHAANSFGLAIFL  127
+
+Query  115  SHG-EKLHIKAILFLYAFLIGYERIYAGVHFPLDVF  149
+                 K  +   + L+AF   Y R+Y G+H+P D+ 
+Sbjct  128  ICLFRKRWLSIFIVLWAFTNSYTRLYLGLHYPGDLV  163
+
+
+> sp|P26976|PHON_SALTY Non-specific acid phosphatase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=phoN PE=3 SV=1
+Length=250
+
+ Score = 45.0 bits (105),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 42/112 (38%), Gaps = 10/112 (9%)
+
+Query  53   EKVKPLILAIMLETVLVISLKTFFNQPRPAIL-------LEDVNLLFPLHWRSFPSGDTA  105
+                   L  M       S K ++ + RP +L        ED N L      S+PSG TA
+Sbjct  103  TWNMLKNLLTMGGYYATASAKKYYMRTRPFVLFNHSTCRPEDENTLR--KNGSYPSGHTA  160
+
+Query  106  MAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+                +A VLS       + +     +  G  R+  G H+  DV  G  +G +
+Sbjct  161  YGTLLALVLSEARPERAQELAR-RGWEFGQSRVICGAHWQSDVDAGRYVGAV  211
+
+
+> sp|Q9SUW4|LPPB_ARATH Probable lipid phosphate phosphatase beta 
+OS=Arabidopsis thaliana OX=3702 GN=LPPB PE=2 SV=1
+Length=213
+
+ Score = 44.6 bits (104),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 29/136 (21%), Positives = 53/136 (39%), Gaps = 27/136 (20%)
+
+Query  57   PLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSH  116
+            P +L ++ + + V  +K  F + RPA     ++        SFPSG  +  F +A  +  
+Sbjct  68   PFLLGLLFDLIFVGIVKLIFRRARPAYNHPSMSAAVSADHYSFPSGHASRVFFVAASVHF  127
+
+Query  117  ------------GEKLHIKAI---------------LFLYAFLIGYERIYAGVHFPLDVF  149
+                                I               ++++A +    RI  G H+ LDV 
+Sbjct  128  FSAAAEASMTGPSYSFLDGWIRDHNDGDVKVEVVVVVWIWATVTAISRILLGRHYVLDVA  187
+
+Query  150  VGALIGIICGIISLKY  165
+             GA +GI+  + +L++
+Sbjct  188  AGAFLGIVEALFALRF  203
+
+
+> sp|Q9V576|WUN_DROME Putative phosphatidate phosphatase OS=Drosophila 
+melanogaster OX=7227 GN=wun PE=1 SV=2
+Length=379
+
+ Score = 45.0 bits (105),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/80 (23%), Positives = 31/80 (39%), Gaps = 12/80 (15%)
+
+Query  98   SFPSGDTAMAFTIATVLS--------HGEKLHIKAILFLYAFLIGY----ERIYAGVHFP  145
+            SFPSG ++  F     L+              ++ +L     ++ +     R+    H  
+Sbjct  266  SFPSGHSSFTFFAMVYLALYLQARMTWRGSKLLRHLLQFLFIMVAWYTALSRVSDYKHHW  325
+
+Query  146  LDVFVGALIGIICGIISLKY  165
+             DV  G+LIG I  ++   Y
+Sbjct  326  SDVLAGSLIGSISALVVANY  345
+
+
+> sp|Q6NLA5|LPPG_ARATH Lipid phosphate phosphatase gamma OS=Arabidopsis 
+thaliana OX=3702 GN=LPPG PE=1 SV=1
+Length=226
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 30/125 (24%), Positives = 47/125 (38%), Gaps = 17/125 (14%)
+
+Query  48   FIFRKEKVKPLI-LAIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAM  106
+            F+FR+E       + +++   +   +KT   Q RP        LL       +PS  +  
+Sbjct  47   FLFRRELQGIFFGIGLVISQFINEFIKTSVEQARPETC----TLLEACDSHGWPSSHSQF  102
+
+Query  107  AFTIATVLSH------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALI  154
+             F  AT  S               +  +  + +  A +  Y R+Y G H    VF GA +
+Sbjct  103  MFFFATYFSLMGCKGIGFWFGLRSRWIMNLLHWSLAVVTMYSRVYLGYHTVAQVFAGAAL  162
+
+Query  155  GIICG  159
+            G I G
+Sbjct  163  GGIVG  167
+
+
+> sp|Q6P0E8|PLPP7_DANRE Inactive phospholipid phosphatase 7 OS=Danio 
+rerio OX=7955 GN=plpp7 PE=2 SV=1
+Length=287
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/88 (22%), Positives = 36/88 (41%), Gaps = 2/88 (2%)
+
+Query  72   LKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--IKAILFLY  129
+            ++    +  P  +         +   SFP+   + A  ++  L     L   ++ +L L+
+Sbjct  170  MQKLVKRKGPWEMPPGFFDYLAMDIYSFPAAHASRAVMVSKFLLAHLVLAVPLRILLVLW  229
+
+Query  130  AFLIGYERIYAGVHFPLDVFVGALIGII  157
+            A L+G  R+  G H   DV  G  +G +
+Sbjct  230  AILVGISRVLLGRHHLTDVGCGFALGFL  257
+
+
+> sp|P9WI53|DPRP_MYCTU Putative decaprenylphosphoryl-5-phosphoribose 
+phosphatase Rv3807c OS=Mycobacterium tuberculosis (strain 
+ATCC 25618 / H37Rv) OX=83332 GN=Rv3807c PE=1 SV=1
+Length=165
+
+ Score = 43.1 bits (100),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 31/144 (22%), Positives = 55/144 (38%), Gaps = 8/144 (6%)
+
+Query  22   PLLDVFFTHFAYLGSG---YVLFPLLIFLFIFRKEKVKPLI-LAIMLETVLVISLKTFFN  77
+            P +       ++ G     +++  LL  + + R+ +   +      +   + + +K    
+Sbjct  12   PGMLATARGLSHFGEHCIGWLILALLGAIALPRRRREWLVAGAGAFVAHAIAVLIKRLVR  71
+
+Query  78   QPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYER  137
+            + RP      VN+  P    SFPS         A ++     L +  +L      +   R
+Sbjct  72   RQRPDHPAIAVNVDTPSQL-SFPSAHATSTTAAALLMGRATGLPLPVVLV---PPMALSR  127
+
+Query  138  IYAGVHFPLDVFVGALIGIICGII  161
+            I  GVH+P DV VG  +G   G I
+Sbjct  128  ILLGVHYPSDVAVGVALGATVGAI  151
+
+
+> sp|P9WI52|DPRP_MYCTO Putative decaprenylphosphoryl-5-phosphoribose 
+phosphatase MT3914 OS=Mycobacterium tuberculosis (strain 
+CDC 1551 / Oshkosh) OX=83331 GN=MT3914 PE=3 SV=1
+Length=165
+
+ Score = 43.1 bits (100),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 31/144 (22%), Positives = 55/144 (38%), Gaps = 8/144 (6%)
+
+Query  22   PLLDVFFTHFAYLGSG---YVLFPLLIFLFIFRKEKVKPLI-LAIMLETVLVISLKTFFN  77
+            P +       ++ G     +++  LL  + + R+ +   +      +   + + +K    
+Sbjct  12   PGMLATARGLSHFGEHCIGWLILALLGAIALPRRRREWLVAGAGAFVAHAIAVLIKRLVR  71
+
+Query  78   QPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYER  137
+            + RP      VN+  P    SFPS         A ++     L +  +L      +   R
+Sbjct  72   RQRPDHPAIAVNVDTPSQL-SFPSAHATSTTAAALLMGRATGLPLPVVLV---PPMALSR  127
+
+Query  138  IYAGVHFPLDVFVGALIGIICGII  161
+            I  GVH+P DV VG  +G   G I
+Sbjct  128  ILLGVHYPSDVAVGVALGATVGAI  151
+
+
+> sp|Q8NEB5|PLPP5_HUMAN Phospholipid phosphatase 5 OS=Homo sapiens 
+OX=9606 GN=PLPP5 PE=1 SV=2
+Length=264
+
+ Score = 41.9 bits (97),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 34/183 (19%), Positives = 59/183 (32%), Gaps = 41/183 (22%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFLF--IFRKEKVKP-------LILAIMLETVLV  69
+             R+P ++  +     +     L PL +       +K   +          LA+ L  V  
+Sbjct  45   YRNPYVEAEYFPTKPMFVIAFLSPLSLIFLAKFLKKADTRDSRQACLAASLALALNGVFT  104
+
+Query  70   ISLKTFFNQPRPAI---------------LLEDVNLLFPLHWRSFPSGDTAMAFTIATVL  114
+             ++K    +PRP                    D +++     +SFPSG ++ AF      
+Sbjct  105  NTIKLIVGRPRPDFFYRCFPDGLAHSDLMCTGDKDVVNEGR-KSFPSGHSSFAFAGLAFA  163
+
+Query  115  SH----------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            S                   +        L+A +I   R     H   DV VG++IG+  
+Sbjct  164  SFYLAGKLHCFTPQGRGKSWRFCAFLSPLLFAAVIALSRTCDYKHHWQDVLVGSMIGMTF  223
+
+Query  159  GII  161
+              +
+Sbjct  224  AYV  226
+
+
+> sp|B2KI79|DOPP1_RHIFE Dolichyldiphosphatase 1 OS=Rhinolophus 
+ferrumequinum OX=59479 GN=DOLPP1 PE=3 SV=1
+Length=238
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 28/144 (19%), Positives = 49/144 (34%), Gaps = 22/144 (15%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEK-VKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFP  93
+             S  V+    + L IF++E      +  ++L   +   +K    +PRP            
+Sbjct  38   LSPVVIIVGFVTLIIFKRELHTISFLGGLVLNEGVNWLIKHVIQEPRPCGGPHPT----V  93
+
+Query  94   LHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAILFLYAFLIGYE  136
+                  PS  +     F++ + L    ++H               +   L   AFL+ Y 
+Sbjct  94   GTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGLLTAAFLVSYS  153
+
+Query  137  RIYAGVHFPLDVFVGALIGIICGI  160
+            R+Y   H    V  G + G +  I
+Sbjct  154  RVYLLYHTWSQVLYGGVAGSLMAI  177
+
+
+> sp|Q3UMZ3|PLPP5_MOUSE Phospholipid phosphatase 5 OS=Mus musculus 
+OX=10090 GN=Plpp5 PE=1 SV=1
+Length=260
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 26/126 (21%), Positives = 41/126 (33%), Gaps = 32/126 (25%)
+
+Query  67   VLVISLKTFFNQPRPAI---------------LLEDVNLLFPLHWRSFPSGDTAMAFTIA  111
+            V    +K    +PRP                    D +++     +SFPSG ++ AF   
+Sbjct  98   VFTNIIKLIVGRPRPDFFYRCFPDGLAHSDLTCTGDEDVVNEGR-KSFPSGHSSFAFAGL  156
+
+Query  112  TVLSH----------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+               S                   +L       L+A +I   R     H   DV VG++IG
+Sbjct  157  AFASFYLAGKLHCFTPQGRGKSWRLCAFLSPLLFAAVIALSRTCDYKHHWQDVLVGSMIG  216
+
+Query  156  IICGII  161
+            +    +
+Sbjct  217  MTFAYV  222
+
+
+> sp|P28581|PHOC_MORMO Major phosphate-irrepressible acid phosphatase 
+OS=Morganella morganii OX=582 GN=phoC PE=1 SV=1
+Length=249
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/88 (24%), Positives = 36/88 (41%), Gaps = 6/88 (7%)
+
+Query  73   KTFFNQPRPAI-----LLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILF  127
+            K  + + RP            +        S+PSG T++ +  A VL+     +  AIL 
+Sbjct  133  KEHYMRIRPFAFYGTETCNTKDQKKLSTNGSYPSGHTSIGWATALVLAEVNPANQDAILE  192
+
+Query  128  LYAFLIGYERIYAGVHFPLDVFVGALIG  155
+               + +G  R+  G H+  DV    ++G
+Sbjct  193  -RGYQLGQSRVICGYHWQSDVDAARIVG  219
+
+
+> sp|B1MTH4|DOPP1_PLEMO Dolichyldiphosphatase 1 OS=Plecturocebus 
+moloch OX=9523 GN=DOLPP1 PE=3 SV=1
+Length=238
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 26/149 (17%), Positives = 47/149 (32%), Gaps = 21/149 (14%)
+
+Query  24   LDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAI  83
+            L      +  LG  +V+   +  +   R+      +  + L   +   +K    +PRP  
+Sbjct  28   LSGHLLAYLSLGPVFVIVGFVTLIIFKRELHTISFLGGLALNEGVNWLIKNVIQEPRPCG  87
+
+Query  84   LLEDVNLLFPLHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAIL  126
+                            PS  +     F++ + L    ++H               +   L
+Sbjct  88   GPHTA----VGTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGL  143
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+               AFL+ Y R+Y   H    V  G + G
+Sbjct  144  LAAAFLVSYSRVYLLYHTWSQVLYGGIAG  172
+
+
+> sp|Q54PR7|Y4367_DICDI PA-phosphatase related-family protein DDB_G0284367 
+OS=Dictyostelium discoideum OX=44689 GN=DDB_G0284367 
+PE=3 SV=1
+Length=271
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 28/146 (19%), Positives = 54/146 (37%), Gaps = 26/146 (18%)
+
+Query  41   FPLLIFLFIFRKEKV--------KPLILAIMLETVLVISLKTFFNQPRPAI---LLEDVN  89
+             P+++F+  + K +           L  A  +  +    LK    + RP     +   + 
+Sbjct  81   LPMVVFIGYYIKNRNSHDFHHAALGLFQAFTITMLFTDILKVSAGRYRPDYGARVATGIE  140
+
+Query  90   LLFPLHWRSFPSGDTAMAFTIATVLS---------------HGEKLHIKAILFLYAFLIG  134
+             +      SFPSG ++++F   T LS               +  K  +    F+ + L+ 
+Sbjct  141  AVIREGRVSFPSGHSSVSFCGMTFLSFYLCGKTKVFLKDGGNILKALVCLCPFMISALVA  200
+
+Query  135  YERIYAGVHFPLDVFVGALIGIICGI  160
+              R     H   D+  G++IG+  G+
+Sbjct  201  VSRTVDYHHDFSDILAGSVIGLSIGV  226
+
+
+> sp|Q9DAX2|PLPP2_MOUSE Phospholipid phosphatase 2 OS=Mus musculus 
+OX=10090 GN=Plpp2 PE=1 SV=1
+Length=276
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 26/140 (19%), Positives = 42/140 (30%), Gaps = 32/140 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE--------------------DVNLLFPLHWR  97
+             +    +   L    K    + RP+ L                                 
+Sbjct  102  FLFGAAVSQSLTDLAKYMIGRLRPSFLAVCDPDWSQVNCSGYVQLEVCRGSPANVTEARL  161
+
+Query  98   SFPSGDTA--MAFTIATVLSHGEKLHIKA----------ILFLYAFLIGYERIYAGVHFP  145
+            SF SG ++  M   +   L    +L  K            L  +A  +GY R+    H  
+Sbjct  162  SFYSGHSSFGMYCMLFLALYVQARLCWKWARLLRPTVQFFLVAFAIYVGYTRVSDHKHHW  221
+
+Query  146  LDVFVGALIGIICGIISLKY  165
+             DV VG L G +   ++++Y
+Sbjct  222  SDVLVGLLQGALVACLTVRY  241
+
+
+> sp|Q8K593|PLPP2_RAT Phospholipid phosphatase 2 OS=Rattus norvegicus 
+OX=10116 GN=Plpp2 PE=2 SV=1
+Length=276
+
+ Score = 40.4 bits (93),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 26/140 (19%), Positives = 41/140 (29%), Gaps = 32/140 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE--------------------DVNLLFPLHWR  97
+             +    +   L    K    + RP+ L                                 
+Sbjct  102  FLFGAAVSQSLTDLAKYMIGRLRPSFLAVCDPDWSRVNCSGYVQVEVCRGSPANVTEARL  161
+
+Query  98   SFPSGDTA--MAFTIATVLSHGEKLHIKA----------ILFLYAFLIGYERIYAGVHFP  145
+            SF SG ++  M   +   L    +L  K            L  +A  +GY R+    H  
+Sbjct  162  SFYSGHSSFGMYCMLFLALYVQARLCWKWARLLRPTVQFFLVAFAIYVGYTRVSDNKHHW  221
+
+Query  146  LDVFVGALIGIICGIISLKY  165
+             DV VG L G +   +++ Y
+Sbjct  222  SDVLVGLLQGALVACLTVCY  241
+
+
+> sp|P0A926|PGPB_SHIFL Phosphatidylglycerophosphatase B OS=Shigella 
+flexneri OX=623 GN=pgpB PE=3 SV=1
+Length=254
+
+ Score = 40.0 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/61 (33%), Positives = 31/61 (51%), Gaps = 4/61 (7%)
+
+Query  98   SFPSGDTAMAFTIATV----LSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGAL  153
+            +FPSG T  A + A +    L    +    AIL ++A  +   R+  G+H+P D+ V  L
+Sbjct  158  AFPSGHTMFAASWALLAVGLLWPRRRTLTIAILLVWATGVMGSRLLLGMHWPRDLVVATL  217
+
+Query  154  I  154
+            I
+Sbjct  218  I  218
+
+
+> sp|P0A924|PGPB_ECOLI Phosphatidylglycerophosphatase B OS=Escherichia 
+coli (strain K12) OX=83333 GN=pgpB PE=1 SV=1
+Length=254
+
+ Score = 40.0 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/61 (33%), Positives = 31/61 (51%), Gaps = 4/61 (7%)
+
+Query  98   SFPSGDTAMAFTIATV----LSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGAL  153
+            +FPSG T  A + A +    L    +    AIL ++A  +   R+  G+H+P D+ V  L
+Sbjct  158  AFPSGHTMFAASWALLAVGLLWPRRRTLTIAILLVWATGVMGSRLLLGMHWPRDLVVATL  217
+
+Query  154  I  154
+            I
+Sbjct  218  I  218
+
+
+> sp|P0A925|PGPB_ECO57 Phosphatidylglycerophosphatase B OS=Escherichia 
+coli O157:H7 OX=83334 GN=pgpB PE=3 SV=1
+Length=254
+
+ Score = 40.0 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/61 (33%), Positives = 31/61 (51%), Gaps = 4/61 (7%)
+
+Query  98   SFPSGDTAMAFTIATV----LSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGAL  153
+            +FPSG T  A + A +    L    +    AIL ++A  +   R+  G+H+P D+ V  L
+Sbjct  158  AFPSGHTMFAASWALLAVGLLWPRRRTLTIAILLVWATGVMGSRLLLGMHWPRDLVVATL  217
+
+Query  154  I  154
+            I
+Sbjct  218  I  218
+
+
+> sp|Q86YN1|DOPP1_HUMAN Dolichyldiphosphatase 1 OS=Homo sapiens 
+OX=9606 GN=DOLPP1 PE=2 SV=1
+Length=238
+
+ Score = 40.0 bits (92),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 26/154 (17%), Positives = 48/154 (31%), Gaps = 21/154 (14%)
+
+Query  24   LDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAI  83
+            L      +  L   +V+   +  +   R+      +  + L   +   +K    +PRP  
+Sbjct  28   LSGHLLAYLSLSPVFVIVGFVTLIIFKRELHTISFLGGLALNEGVNWLIKNVIQEPRPCG  87
+
+Query  84   LLEDVNLLFPLHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAIL  126
+                            PS  +     F++ + L    ++H               +   L
+Sbjct  88   GPHTA----VGTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGL  143
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIGIICGI  160
+               AFL+ Y R+Y   H    V  G + G +  I
+Sbjct  144  LAVAFLVSYSRVYLLYHTWSQVLYGGIAGGLMAI  177
+
+
+> sp|B0CM95|DOPP1_PAPAN Dolichyldiphosphatase 1 OS=Papio anubis 
+OX=9555 GN=DOLPP1 PE=3 SV=1
+Length=238
+
+ Score = 39.2 bits (90),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 27/154 (18%), Positives = 48/154 (31%), Gaps = 21/154 (14%)
+
+Query  24   LDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAI  83
+            L      +  L   +V+   +  +   R+      +  + L   +   +K    +PRP  
+Sbjct  28   LSGHLLAYLSLSPVFVIVGFVTLIIFKRELHTISFLGGLALNEGVNWLIKNVIQEPRPCG  87
+
+Query  84   LLEDVNLLFPLHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAIL  126
+                            PS  +     F+I + L    ++H               +   L
+Sbjct  88   GPHTA----VGTKYGMPSSHSQFMWFFSIYSFLFLYLRMHQTNNARFLDLLWRHVLSLGL  143
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIGIICGI  160
+               AFL+ Y R+Y   H    V  G + G +  I
+Sbjct  144  LAAAFLVSYSRVYLLYHTWSQVLYGGIAGGLMAI  177
+
+
+> sp|B0KWE9|DOPP1_CALJA Dolichyldiphosphatase 1 OS=Callithrix jacchus 
+OX=9483 GN=DOLPP1 PE=3 SV=1
+Length=238
+
+ Score = 38.8 bits (89),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 25/149 (17%), Positives = 46/149 (31%), Gaps = 21/149 (14%)
+
+Query  24   LDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAI  83
+            L      +  L   +V+   +  +   R+      +  + L   +   +K    +PRP  
+Sbjct  28   LSGHLLAYLSLSPVFVIVGFVTLIIFKRELHTISFLGGLALNEGVNWLIKNVIQEPRPCG  87
+
+Query  84   LLEDVNLLFPLHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAIL  126
+                            PS  +     F++ + L    ++H               +   L
+Sbjct  88   GPHTA----VGTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGL  143
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+               AFL+ Y R+Y   H    V  G + G
+Sbjct  144  LAAAFLVSYSRVYLLYHTWSQVLYGGIAG  172
+
+
+> sp|Q9JMF7|DOPP1_MOUSE Dolichyldiphosphatase 1 OS=Mus musculus 
+OX=10090 GN=Dolpp1 PE=2 SV=1
+Length=238
+
+ Score = 38.8 bits (89),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 27/154 (18%), Positives = 49/154 (32%), Gaps = 21/154 (14%)
+
+Query  24   LDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAI  83
+            L      +  L   +V+   L  +   R+      +  + L   +   +K    +PRP  
+Sbjct  28   LSGHLLAYLSLSPIFVVVGFLTLIIFKRELHTISFLGGLALNQGVNWLIKHVIQEPRPCG  87
+
+Query  84   LLEDVNLLFPLHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAIL  126
+                            PS  +     F++ + L    ++H               +   L
+Sbjct  88   GPHTAV----GTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGL  143
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIGIICGI  160
+               AFL+ Y R+Y   H    VF G + G +  +
+Sbjct  144  LTAAFLVSYSRVYLLYHTWSQVFYGGVAGSLMAV  177
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7919695168
+Results from round 3
+
+
+Query= 6EBU:A
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P80143|UDDP_SULAC Undecaprenyl-diphosphatase OS=Sulfolobus a...  122     3e-34
+  sp|Q9JI99|SGPP1_MOUSE Sphingosine-1-phosphate phosphatase 1 OS=...  124     4e-33
+  sp|Q99P55|SGPP1_RAT Sphingosine-1-phosphate phosphatase 1 OS=Ra...  122     4e-32
+  sp|Q9BX95|SGPP1_HUMAN Sphingosine-1-phosphate phosphatase 1 OS=...  118     1e-30
+  sp|P23501|DS1P2_YEAST Dihydrosphingosine 1-phosphate phosphatas...  113     3e-29
+  sp|Q8IWX5|SGPP2_HUMAN Sphingosine-1-phosphate phosphatase 2 OS=...  113     4e-29
+  sp|P47013|DS1P1_YEAST Dihydrosphingosine 1-phosphate phosphatas...  112     1e-28
+  sp|Q9ZU49|LPP1_ARATH Lipid phosphate phosphatase 1 OS=Arabidops...  108     9e-28
+  sp|Q9M2G7|LPPD_ARATH Lipid phosphate phosphatase delta OS=Arabi...  109     1e-27
+  sp|Q9P6N5|DS1PP_SCHPO Dihydrosphingosine 1-phosphate phosphatas...  108     2e-27
+  sp|Q8LFD1|LPP3_ARATH Putative lipid phosphate phosphatase 3, ch...  108     2e-27
+  sp|Q57819|Y374_METJA Uncharacterized protein MJ0374 OS=Methanoc...  107     3e-27
+  sp|Q55A00|SSPA_DICDI Probable sphingosine-1-phosphate phosphata...  107     7e-27
+  sp|Q810K3|SGPP2_MOUSE Sphingosine-1-phosphate phosphatase 2 OS=...  106     1e-26
+  sp|Q9XI60|LPP2_ARATH Lipid phosphate phosphatase 2 OS=Arabidops...  103     2e-26
+  sp|P75806|YBJG_ECOLI Putative undecaprenyl-diphosphatase YbjG O...  100     1e-25
+  sp|P94571|BCRC_BACSU Undecaprenyl-diphosphatase BcrC OS=Bacillu...  93.5    4e-23
+  sp|Q5VZY2|PLPP4_HUMAN Phospholipid phosphatase 4 OS=Homo sapien...  93.9    1e-22
+  sp|Q0VBU9|PLPP4_MOUSE Phospholipid phosphatase 4 OS=Mus musculu...  93.5    2e-22
+  sp|Q6GQ62|PLPP5_XENLA Phospholipid phosphatase 5 OS=Xenopus lae...  92.8    3e-22
+  sp|Q5TZ07|PLPP6_DANRE Phospholipid phosphatase 6 OS=Danio rerio...  90.1    5e-21
+  sp|Q8NEB5|PLPP5_HUMAN Phospholipid phosphatase 5 OS=Homo sapien...  88.9    8e-21
+  sp|P42334|BCRC_BACLI Bacitracin transport permease protein BcrC...  86.2    2e-20
+  sp|Q58DI5|PLPP6_BOVIN Phospholipid phosphatase 6 OS=Bos taurus ...  87.7    3e-20
+  sp|Q3UMZ3|PLPP5_MOUSE Phospholipid phosphatase 5 OS=Mus musculu...  87.4    3e-20
+  sp|Q91WB2|PLPP7_MOUSE Inactive phospholipid phosphatase 7 OS=Mu...  85.1    3e-19
+  sp|Q5FVJ3|PLPP7_RAT Inactive phospholipid phosphatase 7 OS=Ratt...  84.7    3e-19
+  sp|B2RI48|LPXF_PORG3 Lipid A 4'-phosphatase OS=Porphyromonas gi...  83.5    5e-19
+  sp|Q66H88|PLPP6_RAT Phospholipid phosphatase 6 OS=Rattus norveg...  84.3    7e-19
+  sp|Q8NBV4|PLPP7_HUMAN Inactive phospholipid phosphatase 7 OS=Ho...  83.9    7e-19
+  sp|Q8IY26|PLPP6_HUMAN Phospholipid phosphatase 6 OS=Homo sapien...  84.3    7e-19
+  sp|Q9D4F2|PLPP6_MOUSE Phospholipid phosphatase 6 OS=Mus musculu...  82.7    2e-18
+  sp|O34349|PGPB_BACSU Phosphatidylglycerophosphatase B OS=Bacill...  81.2    2e-18
+  sp|Q934J6|PHON_SALTI Non-specific acid phosphatase OS=Salmonell...  81.6    4e-18
+  sp|Q6P0E8|PLPP7_DANRE Inactive phospholipid phosphatase 7 OS=Da...  81.6    7e-18
+  sp|P26976|PHON_SALTY Non-specific acid phosphatase OS=Salmonell...  78.9    4e-17
+  sp|B2RLI7|LPXE_PORG3 Lipid A 1-phosphatase OS=Porphyromonas gin...  80.4    5e-17
+  sp|Q8A6M3|LPXF_BACTN Lipid A 4'-phosphatase OS=Bacteroides thet...  77.7    6e-17
+  sp|Q6NLA5|LPPG_ARATH Lipid phosphate phosphatase gamma OS=Arabi...  77.7    8e-17
+  sp|Q0WNG6|LPP4_ARATH Probable lipid phosphate phosphatase 4 OS=...  77.0    4e-16
+  sp|P14924|PPA_ZYMMO Acid phosphatase OS=Zymomonas mobilis subsp...  75.4    9e-16
+  sp|P28581|PHOC_MORMO Major phosphate-irrepressible acid phospha...  74.7    1e-15
+  sp|Q9SUW4|LPPB_ARATH Probable lipid phosphate phosphatase beta ...  72.3    6e-15
+  sp|B2KI79|DOPP1_RHIFE Dolichyldiphosphatase 1 OS=Rhinolophus fe...  71.2    3e-14
+  sp|P9WI53|DPRP_MYCTU Putative decaprenylphosphoryl-5-phosphorib...  69.6    3e-14
+  sp|P9WI52|DPRP_MYCTO Putative decaprenylphosphoryl-5-phosphorib...  69.6    3e-14
+  sp|Q2K2U9|LPXE_RHIEC Lipid A 1-phosphatase OS=Rhizobium etli (s...  70.8    3e-14
+  sp|Q1MA49|LPXE_RHIL3 Lipid A 1-phosphatase OS=Rhizobium legumin...  70.0    7e-14
+  sp|Q9V576|WUN_DROME Putative phosphatidate phosphatase OS=Droso...  69.3    3e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q86YN1|DOPP1_HUMAN Dolichyldiphosphatase 1 OS=Homo sapiens O...  69.3    1e-13
+  sp|B0CM95|DOPP1_PAPAN Dolichyldiphosphatase 1 OS=Papio anubis O...  68.9    2e-13
+  sp|B0KWE9|DOPP1_CALJA Dolichyldiphosphatase 1 OS=Callithrix jac...  68.5    3e-13
+  sp|P26975|PHON_PROST Non-specific acid phosphatase OS=Providenc...  68.1    3e-13
+  sp|B1MTH4|DOPP1_PLEMO Dolichyldiphosphatase 1 OS=Plecturocebus ...  67.7    5e-13
+  sp|Q9JMF7|DOPP1_MOUSE Dolichyldiphosphatase 1 OS=Mus musculus O...  66.9    1e-12
+  sp|P53223|CAX4_YEAST Dolichyldiphosphatase OS=Saccharomyces cer...  61.9    7e-11
+  sp|Q9UUA6|DPP1_SCHPO Probable diacylglycerol pyrophosphate phos...  61.9    1e-10
+  sp|Q99JY8|PLPP3_MOUSE Phospholipid phosphatase 3 OS=Mus musculu...  60.8    3e-10
+  sp|P97544|PLPP3_RAT Phospholipid phosphatase 3 OS=Rattus norveg...  60.4    3e-10
+  sp|Q9DAX2|PLPP2_MOUSE Phospholipid phosphatase 2 OS=Mus musculu...  59.2    8e-10
+  sp|Q8K593|PLPP2_RAT Phospholipid phosphatase 2 OS=Rattus norveg...  58.9    1e-09
+  sp|Q54PR7|Y4367_DICDI PA-phosphatase related-family protein DDB...  58.5    1e-09
+  sp|O14494|PLPP1_HUMAN Phospholipid phosphatase 1 OS=Homo sapien...  58.5    2e-09
+  sp|Q3SZE3|PLPP3_BOVIN Phospholipid phosphatase 3 OS=Bos taurus ...  58.1    2e-09
+  sp|O43688|PLPP2_HUMAN Phospholipid phosphatase 2 OS=Homo sapien...  56.9    5e-09
+  sp|P60588|PLPP1_PIG Phospholipid phosphatase 1 OS=Sus scrofa OX...  56.9    5e-09
+  sp|O14495|PLPP3_HUMAN Phospholipid phosphatase 3 OS=Homo sapien...  56.9    7e-09
+  sp|Q05521|DPP1_YEAST Diacylglycerol pyrophosphate phosphatase 1...  56.5    7e-09
+  sp|O88956|PLPP1_CAVPO Phospholipid phosphatase 1 OS=Cavia porce...  56.2    9e-09
+  sp|Q2HJ61|PLPP2_BOVIN Phospholipid phosphatase 2 OS=Bos taurus ...  55.8    1e-08
+  sp|O08564|PLPP1_RAT Phospholipid phosphatase 1 OS=Rattus norveg...  55.8    1e-08
+  sp|Q86IX2|DOPP1_DICDI Dolichyldiphosphatase 1 OS=Dictyostelium ...  55.4    1e-08
+  sp|Q10022|PLP12_CAEEL Phospholipid phosphatase homolog 1.2 homo...  55.8    2e-08
+  sp|Q61469|PLPP1_MOUSE Phospholipid phosphatase 1 OS=Mus musculu...  52.7    2e-07
+  sp|Q04396|LPP1_YEAST Lipid phosphate phosphatase 1 OS=Saccharom...  51.9    3e-07
+  sp|Q7Z2D5|PLPR4_HUMAN Phospholipid phosphatase-related protein ...  50.4    1e-06
+  sp|Q7TME0|PLPR4_MOUSE Phospholipid phosphatase-related protein ...  50.4    1e-06
+  sp|O59747|PDF1_SCHPO Palmitoyl-protein thioesterase-dolichyl py...  50.4    1e-06
+  sp|P0A926|PGPB_SHIFL Phosphatidylglycerophosphatase B OS=Shigel...  49.6    2e-06
+  sp|P0A924|PGPB_ECOLI Phosphatidylglycerophosphatase B OS=Escher...  49.6    2e-06
+  sp|P0A925|PGPB_ECO57 Phosphatidylglycerophosphatase B OS=Escher...  49.6    2e-06
+  sp|Q7TMB7|PLPR4_RAT Phospholipid phosphatase-related protein ty...  50.0    2e-06
+  sp|Q9ZJ31|LPXF_HELPJ Lipid A 4'-phosphatase OS=Helicobacter pyl...  47.7    6e-06
+  sp|Q58076|Y662_METJA Uncharacterized protein MJ0662 OS=Methanoc...  45.4    5e-05
+  sp|P76445|LPXT_ECOLI Lipid A 1-diphosphate synthase OS=Escheric...  44.6    9e-05
+  sp|A0R627|DPRP_MYCS2 Putative decaprenylphosphoryl-5-phosphorib...  43.4    2e-04
+  sp|O24866|LPXE_HELPY Lipid A 1-phosphatase OS=Helicobacter pylo...  43.1    2e-04
+  sp|Q6GM05|PLPR5_XENLA Phospholipid phosphatase-related protein ...  43.4    3e-04
+  sp|Q86AF0|Y7151_DICDI PA-phosphatase related-family protein DDB...  43.1    3e-04
+  sp|Q8TBJ4|PLPR1_HUMAN Phospholipid phosphatase-related protein ...  43.1    4e-04
+  sp|Q8BFZ2|PLPR1_MOUSE Phospholipid phosphatase-related protein ...  42.7    5e-04
+  sp|Q9ZN40|LPXE_HELPJ Lipid A 1-phosphatase OS=Helicobacter pylo...  42.3    5e-04
+  sp|Q8MXL9|Y5547_DICDI PA-phosphatase related-family protein DDB...  42.7    6e-04
+  sp|Q8BJ52|PLPR5_MOUSE Phospholipid phosphatase-related protein ...  42.3    7e-04
+  sp|Q32ZL2|PLPR5_HUMAN Phospholipid phosphatase-related protein ...  42.3    7e-04
+  sp|P44570|PGPB_HAEIN Phosphatidylglycerophosphatase B OS=Haemop...  41.9    8e-04
+  sp|Q6WAY2|PLPR1_RAT Phospholipid phosphatase-related protein ty...  42.3    8e-04
+  sp|A4II83|PLPR1_XENTR Phospholipid phosphatase-related protein ...  41.9    8e-04
+  sp|O42153|G6PC_HAPNU Glucose-6-phosphatase OS=Haplochromis nubi...  41.1    0.002
+  sp|P43428|G6PC_RAT Glucose-6-phosphatase OS=Rattus norvegicus O...  41.1    0.002
+  sp|Q29RU6|G6PC_BOVIN Glucose-6-phosphatase OS=Bos taurus OX=991...  40.8    0.002
+  sp|Q7TMB0|PLPR3_RAT Phospholipid phosphatase-related protein ty...  41.1    0.002
+  sp|Q48448|YC02_KLEPN Uncharacterized 22.5 kDa protein in cps re...  40.0    0.003
+  sp|Q7TPB0|PLPR3_MOUSE Phospholipid phosphatase-related protein ...  40.8    0.003
+  sp|P35576|G6PC_MOUSE Glucose-6-phosphatase OS=Mus musculus OX=1...  40.4    0.003
+  sp|Q10142|AUR1_SCHPO Inositol phosphorylceramide synthase catal...  40.4    0.004
+  sp|O19133|G6PC_CANLF Glucose-6-phosphatase OS=Canis lupus famil...  40.0    0.004
+  sp|Q19KA1|G6PC_FELCA Glucose-6-phosphatase OS=Felis catus OX=96...  39.6    0.006
+  sp|Q6IQH6|PLPR1_DANRE Phospholipid phosphatase-related protein ...  39.6    0.006
+  sp|Q6T4P5|PLPR3_HUMAN Phospholipid phosphatase-related protein ...  39.6    0.007
+  sp|A1A5Z0|G6PC3_DANRE Glucose-6-phosphatase 3 OS=Danio rerio OX...  39.2    0.007
+
+
+> sp|P80143|UDDP_SULAC Undecaprenyl-diphosphatase OS=Sulfolobus 
+acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 
+15157 / NCIMB 11770) OX=330779 GN=sepP PE=1 SV=2
+Length=206
+
+ Score = 122 bits (306),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 48/164 (29%), Positives = 77/164 (47%), Gaps = 3/164 (2%)
+
+Query  4    EDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEK--VKPLILA  61
+            ++   N+ELF+LIN  +   L+      +  G  YV  P+   L IF++ +     L+++
+Sbjct  27   QNIGFNVELFKLINYNQIATLNGLMVFLSKYGREYVWIPVTALLLIFKRTRKIGITLVIS  86
+
+Query  62   IMLETVLVISLKTFFNQPRPAILLEDVNLLFPL-HWRSFPSGDTAMAFTIATVLSHGEKL  120
+             ++  VL    K    Q RP   +    LL P     S+PSG   +  T A  L      
+Sbjct  87   FVIAIVLGEVSKYVMAQLRPFNFVNPTYLLEPKPTDYSYPSGHALIVSTGAVTLLLTSPK  146
+
+Query  121  HIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+             +  +  + A L+ Y R+Y GVH+PLDV  G L+G     +S++
+Sbjct  147  WMWILGIIEAVLVSYSRVYVGVHWPLDVIAGWLLGSWISFLSVQ  190
+
+
+> sp|Q9JI99|SGPP1_MOUSE Sphingosine-1-phosphate phosphatase 1 OS=Mus 
+musculus OX=10090 GN=Sgpp1 PE=1 SV=1
+Length=430
+
+ Score = 124 bits (312),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 37/155 (24%), Positives = 55/155 (35%), Gaps = 7/155 (5%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKT  74
+            L+  +  PL  +F          + +     +++       + L++  +L   L    K 
+Sbjct  109  LVKVSNLPLYYLFCLGTELGNELFYILFFPFWIWNLDPFVGRRLVIIWVLVMYLGQCTKD  168
+
+Query  75   FFNQPRPAILLEDVNLLFPLHWRSFPSGDTA--MAFTIATVLS----HGEKLHIKAILF-  127
+                PRPA        +F     S PS       A  IA  L         L    IL  
+Sbjct  169  IIRWPRPASPPVIKLEVFYNSEYSMPSTHAMSGTAIPIAMFLLTYGRWQYPLIYGLILIP  228
+
+Query  128  LYAFLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+             ++ L+   RIY G+H  LDV  G L  I+  II 
+Sbjct  229  CWSSLVCLSRIYMGMHSILDVIAGFLYTILILIIF  263
+
+
+> sp|Q99P55|SGPP1_RAT Sphingosine-1-phosphate phosphatase 1 OS=Rattus 
+norvegicus OX=10116 GN=Sgpp1 PE=1 SV=2
+Length=430
+
+ Score = 122 bits (305),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 35/155 (23%), Positives = 52/155 (34%), Gaps = 7/155 (5%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKT  74
+            L   +  PL  +F          + +     +++       + L++  +L   L    K 
+Sbjct  109  LAKVSNLPLYYLFCFGTELGNELFYIIFFPFWIWNLDPFVGRRLVIIWVLVMYLGQCTKD  168
+
+Query  75   FFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTI------ATVLSHGEKLHIKAILF-  127
+                PRPA        +F     S PS        I       T       L    IL  
+Sbjct  169  IIRWPRPASPPVIKLEIFYNSEYSMPSTHAMSGTAIPIAMILLTYGRWQYPLIYGLILIP  228
+
+Query  128  LYAFLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+             ++ L+   RIY G+H  LDV  G L  I+  II 
+Sbjct  229  CWSSLVCLSRIYMGMHSILDVIAGFLYTILILIIF  263
+
+
+> sp|Q9BX95|SGPP1_HUMAN Sphingosine-1-phosphate phosphatase 1 OS=Homo 
+sapiens OX=9606 GN=SGPP1 PE=1 SV=2
+Length=441
+
+ Score = 118 bits (295),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 32/150 (21%), Positives = 49/150 (33%), Gaps = 8/150 (5%)
+
+Query  24   LDVFFTHFAYLGSGYV-LFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPA  82
+            L   F     LG+    +     +++       + L++  +L   L    K     PRPA
+Sbjct  128  LYCLFCFGTELGNELFYILFFPFWIWNLDPLVGRRLVVIWVLVMYLGQCTKDIIRWPRPA  187
+
+Query  83   ILLEDVNLLFPLHWRSFPSGDTAMAFTI------ATVLSHGEKLHIKAILF-LYAFLIGY  135
+                    +F     S PS        I       T       L    IL   +  L+  
+Sbjct  188  SPPVVKLEVFYNSEYSMPSTHAMSGTAIPISMVLLTYGRWQYPLIYGLILIPCWCSLVCL  247
+
+Query  136  ERIYAGVHFPLDVFVGALIGIICGIISLKY  165
+             RIY G+H  LD+  G L  I+   +   +
+Sbjct  248  SRIYMGMHSILDIIAGFLYTILILAVFYPF  277
+
+
+> sp|P23501|DS1P2_YEAST Dihydrosphingosine 1-phosphate phosphatase 
+YSR3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=YSR3 PE=1 SV=2
+Length=404
+
+ Score = 113 bits (283),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 38/163 (23%), Positives = 69/163 (42%), Gaps = 13/163 (8%)
+
+Query  14   RLINNARHPLLDVFFTHFAYLGSGYV-LFPLLIFLFIFRKEKVKPLILAIMLETVLVISL  72
+             L    R P  DV+F + + +GS    +  L + +++  ++  + +I  +     L   L
+Sbjct  69   SLQKKHRTPFRDVYFKYTSLMGSHMFYVIVLPMPVWLGYRDLTRDMIYVLGYSIYLSGYL  128
+
+Query  73   KTFFNQPRPAILLEDVNLLFPLH--WRSFPSGDTAMAFTIATVLSHG----------EKL  120
+            K ++  PRP     D   L          PS  +A A  ++ +               KL
+Sbjct  129  KDYWCLPRPKSPPVDRITLSEYTTKEYGAPSSHSANATAVSLLFFWRICLSDTLVWPTKL  188
+
+Query  121  HIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+             + +++  Y   + + R+Y G+H  LD+F GA +G IC  I +
+Sbjct  189  LLLSLVIFYYLTLVFGRVYCGMHGMLDLFSGAAVGAICFFIRI  231
+
+
+> sp|Q8IWX5|SGPP2_HUMAN Sphingosine-1-phosphate phosphatase 2 OS=Homo 
+sapiens OX=9606 GN=SGPP2 PE=1 SV=1
+Length=399
+
+ Score = 113 bits (282),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 29/152 (19%), Positives = 52/152 (34%), Gaps = 8/152 (5%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLF-PLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFN  77
+             ++      F   A LG        L    +       + LI+  +L   +    K    
+Sbjct  81   VKNYFYYYLFQFSAALGQEVFYITFLPFTHWNIDPYLSRRLIIIWVLVMYIGQVAKDVLK  140
+
+Query  78   QPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLS------HGEKLHIKAIL-FLYA  130
+             PRP+           +     PS     A  IA  L       +     +  ++  +++
+Sbjct  141  WPRPSSPPVVKLEKRLIAEYGMPSTHAMAATAIAFTLLISTMDRYQYPFVLGLVMAVVFS  200
+
+Query  131  FLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+             L+   R+Y G+H  LDV  G LI  +  +++
+Sbjct  201  TLVCLSRLYTGMHTVLDVLGGVLITALLIVLT  232
+
+
+> sp|P47013|DS1P1_YEAST Dihydrosphingosine 1-phosphate phosphatase 
+LCB3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=LCB3 PE=1 SV=1
+Length=409
+
+ Score = 112 bits (279),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 38/170 (22%), Positives = 70/170 (41%), Gaps = 13/170 (8%)
+
+Query  9    NLELFRLINNARHPLLDVFFTHFAYLGSG-YVLFPLLIFLFIFRKEKVKPLILAIMLETV  67
+            +  L R     R    D++FT+ + +GS  + +  L + ++    E  K ++  +     
+Sbjct  63   SFTLSRWQKKYRSAFNDLYFTYTSLMGSHTFYVLCLPMPVWFGYFETTKDMVYILGYSIY  122
+
+Query  68   LVISLKTFFNQPRPAILLEDVNLLFPLH--WRSFPSGDTAMAFTIATVLSHGE-------  118
+            L    K ++  PRP         L          PS  TA A  ++ +  +         
+Sbjct  123  LSGFFKDYWCLPRPRAPPLHRITLSEYTTKEYGAPSSHTANATGVSLLFLYNIWRMQESS  182
+
+Query  119  ---KLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLKY  165
+               +L +  ++  Y   + + RIY G+H  LD+  G LIGI+C I+ + +
+Sbjct  183  VMVQLLLSCVVLFYYMTLVFGRIYCGMHGILDLVSGGLIGIVCFIVRMYF  232
+
+
+> sp|Q9ZU49|LPP1_ARATH Lipid phosphate phosphatase 1 OS=Arabidopsis 
+thaliana OX=3702 GN=LPP1 PE=2 SV=2
+Length=327
+
+ Score = 108 bits (270),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 40/189 (21%), Positives = 68/189 (36%), Gaps = 39/189 (21%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPL-------ILAIMLETV  67
+            ++ + ++P  D     ++      +L  ++   F  ++  V  L       + A+++  V
+Sbjct  78   MMTDLKYPFKDNTVPIWSVPVYAVLLPIIVFVCFYLKRTCVYDLHHSILGLLFAVLITGV  137
+
+Query  68   LVISLKTFFNQPRPAI------------------LLEDVNLLFPLHWRSFPSGDTAMAFT  109
+            +  S+K    +PRP                    +            +SFPSG T+ +F 
+Sbjct  138  ITDSIKVATGRPRPNFYWRCFPDGKELYDALGGVVCHGKAAEVKEGHKSFPSGHTSWSFA  197
+
+Query  110  IATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+              T LS              H  KL +     L A L+G  R+    H   DVF GALIG
+Sbjct  198  GLTFLSLYLSGKIKAFNNEGHVAKLCLVIFPLLAACLVGISRVDDYWHHWQDVFAGALIG  257
+
+Query  156  IICGIISLK  164
+             +      +
+Sbjct  258  TLVAAFCYR  266
+
+
+> sp|Q9M2G7|LPPD_ARATH Lipid phosphate phosphatase delta OS=Arabidopsis 
+thaliana OX=3702 GN=LPPD PE=2 SV=1
+Length=416
+
+ Score = 109 bits (273),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 33/174 (19%), Positives = 60/174 (34%), Gaps = 17/174 (10%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGS-GYVLFPLLIFLFIFRKEKVKPLIL  60
+            V       + L   I   ++ +LD FF+  + + S  +    L +  +       + + L
+Sbjct  47   VARQVVGGVPLILRIQKCQNGVLDAFFSGLSCVVSVPFYTAFLPLLFWSGHGRLARQMTL  106
+
+Query  61   AIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLH-----WRSFPSGDTAMAFTIATVLS  115
+             I     L   +K   + PRP+                      PS  T     ++  L 
+Sbjct  107  LIAFCDYLGNCIKDVVSAPRPSCPPVRRITATKDEEDNAMEYGLPSSHTLNTVCLSGYLL  166
+
+Query  116  H-----------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            H             + +  A+  L   LI + R+Y G+H  +D+  G  IG++ 
+Sbjct  167  HYVLSSLEYESVSIQYYGFALACLLVALIAFGRVYLGMHSVVDIVSGLAIGVLI  220
+
+
+> sp|Q9P6N5|DS1PP_SCHPO Dihydrosphingosine 1-phosphate phosphatase 
+C823.11 OS=Schizosaccharomyces pombe (strain 972 / ATCC 
+24843) OX=284812 GN=SPAC823.11 PE=3 SV=1
+Length=411
+
+ Score = 108 bits (271),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 39/168 (23%), Positives = 62/168 (37%), Gaps = 14/168 (8%)
+
+Query  12   LFRLINNARHPLLDVFFTHFAYLGSG-YVLFPLLIFLFIFRKEKVKPLILAIMLETVLVI  70
+            L+++ +  R+P LDV+F + A LG+  + +  L IF +         +            
+Sbjct  53   LYKIQSFFRNPWLDVYFMYTATLGTHVFFMLALPIFFWSGCIYYTLDITQLFAAGVYFSG  112
+
+Query  71   SLKTFFNQPRPAILLEDVNLLFPLH--WRSFPSGDTAMAFTIATVLSHGEK---------  119
+             +K +F  PRP         L         FPS  T  A                     
+Sbjct  113  CIKDYFCLPRPRSPPMVRLTLSSDAEYEYGFPSTHTTNAMATGFYSLFLLLSMSDSMSSI  172
+
+Query  120  --LHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLKY  165
+                + +++ LY   I   RIY G+H  +DV  G ++G+   I   KY
+Sbjct  173  SYYFLLSLVLLYIASISLGRIYCGMHGFMDVSTGTILGVTLAIFQWKY  220
+
+
+> sp|Q8LFD1|LPP3_ARATH Putative lipid phosphate phosphatase 3, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=LPP3 PE=2 SV=1
+Length=364
+
+ Score = 108 bits (269),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 41/187 (22%), Positives = 72/187 (39%), Gaps = 41/187 (22%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPL-------ILAIMLETV  67
+            ++ +  +PL       ++      +L  ++     FR+  V  L       + ++++  V
+Sbjct  103  MMTDLSYPLKSNTVPIWSVPVYAMLLPLVIFIFIYFRRRDVYDLHHAVLGLLYSVLVTAV  162
+
+Query  68   LVISLKTFFNQPRPAI-------------------LLEDVNLLFPLHWRSFPSGDTAMAF  108
+            L  ++K    +PRP                        D +++   H +SFPSG T+ +F
+Sbjct  163  LTDAIKNAVGRPRPDFFWRCFPDGKALYDSLGDVICHGDKSVIREGH-KSFPSGHTSWSF  221
+
+Query  109  TIATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALI  154
+            +    LS              H  KL I  +  L+A L+G  R+    H   DVF G L+
+Sbjct  222  SGLGFLSLYLSGKIQAFDGKGHVAKLCIVILPLLFAALVGISRVDDYWHHWQDVFAGGLL  281
+
+Query  155  GIICGII  161
+            G+    I
+Sbjct  282  GLAISTI  288
+
+
+> sp|Q57819|Y374_METJA Uncharacterized protein MJ0374 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0374 PE=4 SV=1
+Length=330
+
+ Score = 107 bits (266),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 56/156 (36%), Positives = 85/156 (54%), Gaps = 3/156 (2%)
+
+Query  8    LNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETV  67
+            +N+ LF LIN+  + + D      +      +    LI     RK     LI A+ L  +
+Sbjct  166  INIYLFYLINSHYNYIFDAIMPIISKTAYPLIAITSLIIFIKNRKF-GMKLIFALFLAFM  224
+
+Query  68   LVISLKTFFNQPRPAILLEDVNLLF-PLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAIL  126
+            +  SLK   N+PRP ++L++V+LL    +  SFPSG T +AFT+AT L    K  +  + 
+Sbjct  225  IAFSLKYLVNEPRPYLVLDNVHLLCNEGNEPSFPSGHTTLAFTLATSLLFYSKK-LGILF  283
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+              +A ++ Y R+Y GVH+PLDV  G +IGI CG ++
+Sbjct  284  LSWAIIVAYSRVYVGVHYPLDVLAGMIIGIFCGCLT  319
+
+
+> sp|Q55A00|SSPA_DICDI Probable sphingosine-1-phosphate phosphatase 
+OS=Dictyostelium discoideum OX=44689 GN=sppA PE=3 SV=1
+Length=406
+
+ Score = 107 bits (267),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 35/178 (20%), Positives = 67/178 (38%), Gaps = 16/178 (9%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSG-YVLFPLLIFLFIFRKEKVKPLIL  60
+            +++++   + +   I + R+  LD +F   + LG   + +  L I  +    +    L +
+Sbjct  35   LLKEYEREVPIIVKIQSYRNKFLDFYFKMASILGEEVFFILALPISTWCVATQLGVELCV  94
+
+Query  61   AIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLS-----  115
+             + L       LK  F  PRP   +   N          PS  TA AF +          
+Sbjct  95   VLALTIGGGNILKNTFTLPRPPPNIVWTNTA-HQKDHGLPSTHTASAFGLTFYFLIYTYF  153
+
+Query  116  ---------HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+                     +   L +  I+  ++  + + R+Y G H P+DV  G ++ I   + +  
+Sbjct  154  LFPTIGESFNISLLSMFFIVLFWSTSVMFSRLYNGHHTPMDVIAGLIVAITSILATTY  211
+
+
+> sp|Q810K3|SGPP2_MOUSE Sphingosine-1-phosphate phosphatase 2 OS=Mus 
+musculus OX=10090 GN=Sgpp2 PE=1 SV=1
+Length=354
+
+ Score = 106 bits (264),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 26/154 (17%), Positives = 52/154 (34%), Gaps = 8/154 (5%)
+
+Query  17   NNARHPLLDVFFTHFAYLGSGYVLF-PLLIFLFIFRKEKVKPLILAIMLETVLVISLKTF  75
+            +  ++      F   A LG        L    +       + L++  +L   +    K  
+Sbjct  34   HVVKNYFYYYLFRFSAALGQEVFYITFLPFTHWNIDPNLSRRLVVIWVLVMYIGQVAKDI  93
+
+Query  76   FNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLS------HGEKLHIKAIL-FL  128
+               PRP+           +     PS     A  I+  L       +     +  ++  +
+Sbjct  94   LKWPRPSFPPVVRLEKRIIAEYGMPSTHAMAATAISFTLLISTMDRYQYPFILGLMMAVV  153
+
+Query  129  YAFLIGYERIYAGVHFPLDVFVGALIGIICGIIS  162
+            ++ L+   R+Y G+H  LD+  G LI  +   ++
+Sbjct  154  FSTLVCLSRLYTGMHTVLDILGGVLITAVLIALT  187
+
+
+> sp|Q9XI60|LPP2_ARATH Lipid phosphate phosphatase 2 OS=Arabidopsis 
+thaliana OX=3702 GN=LPP2 PE=2 SV=1
+Length=290
+
+ Score = 103 bits (258),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 44/187 (24%), Positives = 71/187 (38%), Gaps = 40/187 (21%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPL-------ILAIMLETV  67
+            ++ + R+PL D     +A      VL   +I ++ F +  V  L       + ++++  V
+Sbjct  53   MLTDLRYPLQDNTIPFWAVPLIAVVLPFAVICVYYFIRNDVYDLHHAILGLLFSVLITGV  112
+
+Query  68   LVISLKTFFNQPRPAI------------LLEDVNLLFPLH-------WRSFPSGDTAMAF  108
+            +  ++K    +PRP                   N+L            +SFPSG T+ +F
+Sbjct  113  ITDAIKDAVGRPRPDFFWRCFPDGIGIFHNVTKNVLCTGAKDVVKEGHKSFPSGHTSWSF  172
+
+Query  109  TIATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALI  154
+                 LS              H  KL I  +  L A L+G  R+    H   DVF GA+I
+Sbjct  173  AGLGFLSLYLSGKIRVFDQRGHVAKLCIVILPLLVAALVGVSRVDDYWHHWQDVFGGAII  232
+
+Query  155  GIICGII  161
+            G+     
+Sbjct  233  GLTVATF  239
+
+
+> sp|P75806|YBJG_ECOLI Putative undecaprenyl-diphosphatase YbjG 
+OS=Escherichia coli (strain K12) OX=83333 GN=ybjG PE=1 SV=1
+Length=198
+
+ Score = 100 bits (248),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 47/162 (29%), Positives = 74/162 (46%), Gaps = 6/162 (4%)
+
+Query  8    LNLELFRLINNA--RHPLLDVFFTHFAY-LGSGYVLFPLLIFLFIFRKEKVKPLILAIML  64
+            LNL LF LIN      P +       A  L +   L  ++++L+    ++   + +AI L
+Sbjct  5    LNLSLFSLINATPDSAPWMISLAIFIAKDLITVVPLLAVVLWLWGLTAQRQLVIKIAIAL  64
+
+Query  65   ETVL--VISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI  122
+               L    ++   F   RP +     N L      SFPS    + FT A       +L  
+Sbjct  65   AVSLFVSWTMGHLFPHDRPFVENIGYNFLHHAADDSFPSDHGTVIFTFALAFLCWHRLWS  124
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+             ++L + A +I + R+Y GVH+PLD+  G L G+I G +S +
+Sbjct  125  GSLLMVLAVVIAWSRVYLGVHWPLDMLGGLLAGMI-GCLSAQ  165
+
+
+> sp|P94571|BCRC_BACSU Undecaprenyl-diphosphatase BcrC OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=bcrC PE=1 SV=1
+Length=193
+
+ Score = 93.5 bits (231),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 41/163 (25%), Positives = 70/163 (43%), Gaps = 6/163 (4%)
+
+Query  8    LNLELFRLINN--ARHPLLDVFFTHFA-YLGSGYVLFPLLIFLFIFRKEKVKPLILAIML  64
+            +N E+F+ I+     + +LD        Y    Y L  L I+LF   + +   L   I  
+Sbjct  1    MNYEIFKAIHGLSHHNSVLDSIMVFITEYAIVAYALILLAIWLFGNTQSRKHVLYAGITG  60
+
+Query  65   --ETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHI  122
+                V+   +   + +PRP +      L+      SFPS  T  A  I+  +    +  I
+Sbjct  61   IAGLVINYLITLVYFEPRPFVAHTVHTLIPHAADASFPSDHTTGALAISIAMLFRNRK-I  119
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLKY  165
+               L ++  L G+ RI+ G H+P+DV    ++ II G +  ++
+Sbjct  120  GWPLVIFGLLTGFSRIWVGHHYPVDVLGSLVVAIIIGFLFFRF  162
+
+
+> sp|Q5VZY2|PLPP4_HUMAN Phospholipid phosphatase 4 OS=Homo sapiens 
+OX=9606 GN=PLPP4 PE=1 SV=2
+Length=271
+
+ Score = 93.9 bits (232),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 36/186 (19%), Positives = 62/186 (33%), Gaps = 41/186 (22%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFLFI-----FRKEKVKPLILAIMLETVLVIS--  71
+             ++PL+         + +   L PL +   +       K ++K   LA+ L   L     
+Sbjct  39   YKNPLVQSDNIPTRLMFAISFLTPLAVICVVKIIRRTDKTEIKEAFLAVSLALALNGVCT  98
+
+Query  72   --LKTFFNQPRPA---------------ILLEDVNLLFPLHWRSFPSGDTAMAFTIATVL  114
+              +K    +PRP                    D +L+     +SFPS  ++ AF+     
+Sbjct  99   NTIKLIVGRPRPDFFYRCFPDGVMNSEMHCTGDPDLVSEGR-KSFPSIHSSFAFSGLGFT  157
+
+Query  115  SH----------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            +                   +L    +    A +I   R+    H   D FVG +IG+I 
+Sbjct  158  TFYLAGKLHCFTESGRGKSWRLCAAILPLYCAMMIALSRMCDYKHHWQDSFVGGVIGLIF  217
+
+Query  159  GIISLK  164
+              I  +
+Sbjct  218  AYICYR  223
+
+
+> sp|Q0VBU9|PLPP4_MOUSE Phospholipid phosphatase 4 OS=Mus musculus 
+OX=10090 GN=Plpp4 PE=2 SV=1
+Length=271
+
+ Score = 93.5 bits (231),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 36/186 (19%), Positives = 62/186 (33%), Gaps = 41/186 (22%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFLFI-----FRKEKVKPLILAIMLETVLVIS--  71
+             ++PL+         + +   L PL +   +       K ++K   LA+ L   L     
+Sbjct  39   YKNPLVQSDNIPTRLMFAISFLTPLAVICVVKIIRRTDKTEIKEAFLAVSLALALNGVCT  98
+
+Query  72   --LKTFFNQPRPAI---------------LLEDVNLLFPLHWRSFPSGDTAMAFTIATVL  114
+              +K    +PRP                    D +L+     +SFPS  ++ AF+     
+Sbjct  99   NTIKLIVGRPRPDFFYRCFPDGVMNSEMRCTGDPDLVSEGR-KSFPSIHSSFAFSGLGFT  157
+
+Query  115  SH----------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            +                   +L    +    A +I   R+    H   D FVG +IG+I 
+Sbjct  158  TFYLAGKLHCFTESGRGKSWRLCAAILPLYCAMMIALSRMCDYKHHWQDSFVGGVIGLIF  217
+
+Query  159  GIISLK  164
+              I  +
+Sbjct  218  AYICYR  223
+
+
+> sp|Q6GQ62|PLPP5_XENLA Phospholipid phosphatase 5 OS=Xenopus laevis 
+OX=8355 GN=plpp5 PE=2 SV=2
+Length=266
+
+ Score = 92.8 bits (229),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 32/171 (19%), Positives = 50/171 (29%), Gaps = 36/171 (21%)
+
+Query  29   THFAYLGSGYVLFPLLIFLFIFRKEKVKPLILA----IMLETVLVISLKTFFNQPRPA--  82
+                   +   +  L    +       +   LA    + L  +   ++K    +PRP   
+Sbjct  59   MFLISFLTPLSVVALARLFWKADGTDSREAGLAASLSLALNGIFTNTVKLIVGRPRPDFL  118
+
+Query  83   -------------ILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLS--------------  115
+                             D  L+     +SFPSG ++ AF      +              
+Sbjct  119  FRCFPDGQESPGLHCTGDPELVIEGR-KSFPSGHSSFAFAGLGFTALYLAGKLRCFSPCG  177
+
+Query  116  --HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+              H  +L    I  L A  I   R     H   DV VGA IG+    +  +
+Sbjct  178  RGHSWRLCASLIPLLCAIAIALSRTCDYKHHWQDVVVGAFIGLFFAFLCYR  228
+
+
+> sp|Q5TZ07|PLPP6_DANRE Phospholipid phosphatase 6 OS=Danio rerio 
+OX=7955 GN=plpp6 PE=2 SV=1
+Length=288
+
+ Score = 90.1 bits (222),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 25/87 (29%), Positives = 39/87 (45%), Gaps = 2/87 (2%)
+
+Query  73   KTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--IKAILFLYA  130
+            K    + RPA    D+   F +   SFPSG    A   A  L +   L   ++ ++ L+A
+Sbjct  179  KAVVRRRRPAHNRMDMFATFSVDSYSFPSGHATRAAMCARFLLNHLVLAAPLRVLVLLWA  238
+
+Query  131  FLIGYERIYAGVHFPLDVFVGALIGII  157
+             ++G+ R+  G H   DV  G  +G  
+Sbjct  239  TIVGFSRVLLGRHNVTDVAFGFFMGYW  265
+
+
+> sp|Q8NEB5|PLPP5_HUMAN Phospholipid phosphatase 5 OS=Homo sapiens 
+OX=9606 GN=PLPP5 PE=1 SV=2
+Length=264
+
+ Score = 88.9 bits (219),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 34/186 (18%), Positives = 60/186 (32%), Gaps = 41/186 (22%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFLF--IFRKEKVKP-------LILAIMLETVLV  69
+             R+P ++  +     +     L PL +       +K   +          LA+ L  V  
+Sbjct  45   YRNPYVEAEYFPTKPMFVIAFLSPLSLIFLAKFLKKADTRDSRQACLAASLALALNGVFT  104
+
+Query  70   ISLKTFFNQPRPAI---------------LLEDVNLLFPLHWRSFPSGDTAMAFTIATVL  114
+             ++K    +PRP                    D +++     +SFPSG ++ AF      
+Sbjct  105  NTIKLIVGRPRPDFFYRCFPDGLAHSDLMCTGDKDVVNEGR-KSFPSGHSSFAFAGLAFA  163
+
+Query  115  SH----------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            S                   +        L+A +I   R     H   DV VG++IG+  
+Sbjct  164  SFYLAGKLHCFTPQGRGKSWRFCAFLSPLLFAAVIALSRTCDYKHHWQDVLVGSMIGMTF  223
+
+Query  159  GIISLK  164
+              +  +
+Sbjct  224  AYVCYR  229
+
+
+> sp|P42334|BCRC_BACLI Bacitracin transport permease protein BcrC 
+OS=Bacillus licheniformis OX=1402 GN=bcrC PE=3 SV=1
+Length=203
+
+ Score = 86.2 bits (212),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 44/164 (27%), Positives = 79/164 (48%), Gaps = 9/164 (5%)
+
+Query  7    ALNLELFRLINNA--RHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLIL----  60
+             LN++ FR IN+    + +L+      A     Y L   L+  ++ R  K + +++    
+Sbjct  5    ELNIDAFRFINDLGKEYSMLNPVVYFLAEYMM-YFLALGLVVYWLTRTTKNRLMVIYAVI  63
+
+Query  61   AIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLH-WRSFPSGDTAMAFTIATVLSHGEK  119
+            A ++  +L   + +  +  +P   L +VN L       SFPS  T + F+I  ++    K
+Sbjct  64   AFVVAEILGKIMGSLHSNYQPFATLPNVNKLIEHEIDNSFPSDHTILFFSIGFLIFLFHK  123
+
+Query  120  LHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+                 +  + AF +G  RI++GVH+PLDV  GAL+G++  +   
+Sbjct  124  K-TGWLWLVLAFAVGISRIWSGVHYPLDVAAGALLGVLSALFVF  166
+
+
+> sp|Q58DI5|PLPP6_BOVIN Phospholipid phosphatase 6 OS=Bos taurus 
+OX=9913 GN=PLPP6 PE=2 SV=1
+Length=289
+
+ Score = 87.7 bits (216),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 24/88 (27%), Positives = 42/88 (48%), Gaps = 2/88 (2%)
+
+Query  72   LKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--IKAILFLY  129
+            +K    + RPA    D+     +   SFPSG T  A  ++  + +   L   ++ ++ L+
+Sbjct  177  IKGLVRRRRPAHNQMDMFFTISVDKYSFPSGHTTRAALVSRFILNHLVLAIPLRVLVVLW  236
+
+Query  130  AFLIGYERIYAGVHFPLDVFVGALIGII  157
+            AF++G  R+  G H   DV  G  +G +
+Sbjct  237  AFILGLSRVMLGRHNVTDVAFGFFLGYM  264
+
+
+> sp|Q3UMZ3|PLPP5_MOUSE Phospholipid phosphatase 5 OS=Mus musculus 
+OX=10090 GN=Plpp5 PE=1 SV=1
+Length=260
+
+ Score = 87.4 bits (215),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 35/186 (19%), Positives = 59/186 (32%), Gaps = 41/186 (22%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIF---------RKEKVKPLILAIMLETVLV  69
+             R+P ++  +     +     L PL +               K+      LA+ L  V  
+Sbjct  41   YRNPYVEAEYFPTGRMFVIAFLTPLSLIFLAKFLRKADATDSKQACLAASLALALNGVFT  100
+
+Query  70   ISLKTFFNQPRPAI---------------LLEDVNLLFPLHWRSFPSGDTAMAFTIATVL  114
+              +K    +PRP                    D +++     +SFPSG ++ AF      
+Sbjct  101  NIIKLIVGRPRPDFFYRCFPDGLAHSDLTCTGDEDVVNEGR-KSFPSGHSSFAFAGLAFA  159
+
+Query  115  SH----------------GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+            S                   +L       L+A +I   R     H   DV VG++IG+  
+Sbjct  160  SFYLAGKLHCFTPQGRGKSWRLCAFLSPLLFAAVIALSRTCDYKHHWQDVLVGSMIGMTF  219
+
+Query  159  GIISLK  164
+              +  +
+Sbjct  220  AYVCYR  225
+
+
+> sp|Q91WB2|PLPP7_MOUSE Inactive phospholipid phosphatase 7 OS=Mus 
+musculus OX=10090 GN=Plpp7 PE=1 SV=1
+Length=271
+
+ Score = 85.1 bits (209),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 20/95 (21%), Positives = 39/95 (41%), Gaps = 2/95 (2%)
+
+Query  65   ETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--I  122
+            + + V  ++    +  P      +     +   +FP+G  + A  ++        L   +
+Sbjct  155  DIMTVAGVQKLIKRRGPYETSPGLLDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPL  214
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+            + +L L+AF +G  R+  G H   DV  G +IG  
+Sbjct  215  RVLLVLWAFCVGLSRVMIGRHHITDVISGFIIGYF  249
+
+
+> sp|Q5FVJ3|PLPP7_RAT Inactive phospholipid phosphatase 7 OS=Rattus 
+norvegicus OX=10116 GN=Plpp7 PE=2 SV=1
+Length=271
+
+ Score = 84.7 bits (208),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 20/95 (21%), Positives = 39/95 (41%), Gaps = 2/95 (2%)
+
+Query  65   ETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--I  122
+            + + V  ++    +  P      +     +   +FP+G  + A  ++        L   +
+Sbjct  155  DIMTVAGVQKLIKRRGPYETSPGLLDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPL  214
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+            + +L L+AF +G  R+  G H   DV  G +IG  
+Sbjct  215  RVLLVLWAFCVGLSRVMIGRHHITDVISGFIIGYF  249
+
+
+> sp|B2RI48|LPXF_PORG3 Lipid A 4'-phosphatase OS=Porphyromonas 
+gingivalis (strain ATCC 33277 / DSM 20709 / CIP 103683 / JCM 
+12257 / NCTC 11834 / 2561) OX=431947 GN=lpxF PE=3 SV=1
+Length=236
+
+ Score = 83.5 bits (205),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 50/176 (28%), Positives = 78/176 (44%), Gaps = 17/176 (10%)
+
+Query  5    DFALNLE--LFRLINNARHPLLDVFFTHFAYLGSGYVL-FPLLIFLFIFRKEKVKPLILA  61
+            ++ L +E  LF  +N  +HPLLD FF   +   +  ++    L FLF  +  K    I+ 
+Sbjct  2    EYILEVERNLFLTLNGVQHPLLDGFFYLISAKWTWVIMSIAFLFFLFYKKPTKEALFIVG  61
+
+Query  62   IMLETVLVI------SLKTFFNQPRPAILLEDVNLLFP-----LHWRSFPSGDTAMAFTI  110
+             +L +VL+         K FF + RP+   + ++ +            F SG T    ++
+Sbjct  62   AVLLSVLICDQLSSSFFKPFFARFRPSHHPDFIDYVKTVYGYRGGKYGFISGHTTNYISL  121
+
+Query  111  ATVLS--HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+            A   S     K +   I  + A +I Y RIY GVHF  D+  G  +G+I G    K
+Sbjct  122  ALFTSRIFRNKFYTWTIWSVVALVI-YSRIYIGVHFITDIIPGIAVGLIVGHFVYK  176
+
+
+> sp|Q66H88|PLPP6_RAT Phospholipid phosphatase 6 OS=Rattus norvegicus 
+OX=10116 GN=Plpp6 PE=2 SV=1
+Length=293
+
+ Score = 84.3 bits (207),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 24/91 (26%), Positives = 42/91 (46%), Gaps = 2/91 (2%)
+
+Query  69   VISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--IKAIL  126
+            V  +K    + RPA    D+     +   SFPSG    A  ++  + +   L   ++ ++
+Sbjct  178  VAVIKGLVRRRRPAHNQMDMFFTLSVDKYSFPSGHATRAALVSRFILNHLVLAIPLRVLV  237
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+             L+AF++G  R+  G H   DV  G  +G +
+Sbjct  238  VLWAFVLGLSRVMLGRHNVTDVAFGFFLGYM  268
+
+
+> sp|Q8NBV4|PLPP7_HUMAN Inactive phospholipid phosphatase 7 OS=Homo 
+sapiens OX=9606 GN=PLPP7 PE=2 SV=1
+Length=271
+
+ Score = 83.9 bits (206),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 19/95 (20%), Positives = 39/95 (41%), Gaps = 2/95 (2%)
+
+Query  65   ETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--I  122
+            + + V  ++    +  P      +     +   +FP+G  + A  ++        L   +
+Sbjct  155  DIMTVAGVQKLIKRRGPYETSPSLLDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPL  214
+
+Query  123  KAILFLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+            + +L L+A  +G  R+  G H   DV  G +IG +
+Sbjct  215  RVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYL  249
+
+
+> sp|Q8IY26|PLPP6_HUMAN Phospholipid phosphatase 6 OS=Homo sapiens 
+OX=9606 GN=PLPP6 PE=1 SV=3
+Length=295
+
+ Score = 84.3 bits (207),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 23/88 (26%), Positives = 42/88 (48%), Gaps = 2/88 (2%)
+
+Query  72   LKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--IKAILFLY  129
+            +K    + RPA    D+ +   +   SFPSG    A  ++  + +   L   ++ ++ L+
+Sbjct  183  IKGLVRRRRPAHNQMDMFVTLSVDKYSFPSGHATRAALMSRFILNHLVLAIPLRVLVVLW  242
+
+Query  130  AFLIGYERIYAGVHFPLDVFVGALIGII  157
+            AF++G  R+  G H   DV  G  +G +
+Sbjct  243  AFVLGLSRVMLGRHNVTDVAFGFFLGYM  270
+
+
+> sp|Q9D4F2|PLPP6_MOUSE Phospholipid phosphatase 6 OS=Mus musculus 
+OX=10090 GN=Plpp6 PE=1 SV=1
+Length=292
+
+ Score = 82.7 bits (203),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 24/91 (26%), Positives = 43/91 (47%), Gaps = 2/91 (2%)
+
+Query  69   VISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--IKAIL  126
+            V  +K    + RPA   +D+     +   SFPSG    A  ++  + +   L   ++ ++
+Sbjct  177  VAVIKGLVRRRRPAHNQKDMFFTLSVDRYSFPSGHATRAALVSRFILNHLVLAIPLRVLV  236
+
+Query  127  FLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+             L+AF++G  R+  G H   DV  G  +G +
+Sbjct  237  VLWAFVLGLSRVMLGRHNVTDVAFGFFLGYM  267
+
+
+> sp|O34349|PGPB_BACSU Phosphatidylglycerophosphatase B OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=pgpB PE=1 SV=1
+Length=203
+
+ Score = 81.2 bits (199),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 40/145 (28%), Positives = 61/145 (42%), Gaps = 20/145 (14%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFL----FIFRKEKVKPLILAIMLET-VLVISLK  73
+             R P L+   T   +LG+   L PL++ +    F +RK     L+L +     +L   LK
+Sbjct  37   IRQPWLNEVMTGITHLGASSFLLPLIVIIGAGMFFYRKTWDGLLMLLVFGTDRLLNKVLK  96
+
+Query  74   TFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSH----------GEKLHIK  123
+             +  + RP         L      SFPSG +  A  +  V+++            K  + 
+Sbjct  97   EWIERVRPDFAP-----LVHESSFSFPSGHSMNAACVYPVIAYFLVKHLPFLSKHKKMVY  151
+
+Query  124  AILFLYAFLIGYERIYAGVHFPLDV  148
+             I  + A L+G  R+Y GVHF  DV
+Sbjct  152  IIAGVIAVLVGISRVYLGVHFVTDV  176
+
+
+> sp|Q934J6|PHON_SALTI Non-specific acid phosphatase OS=Salmonella 
+typhi OX=90370 GN=phoN PE=3 SV=1
+Length=250
+
+ Score = 81.6 bits (200),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 43/112 (38%), Gaps = 10/112 (9%)
+
+Query  53   EKVKPLILAIMLETVLVISLKTFFNQPRPAIL-------LEDVNLLFPLHWRSFPSGDTA  105
+                   L  M       S K ++ + RP +L        ED N L      S+PSG TA
+Sbjct  103  TWNMLQNLLKMGGYYATASAKKYYMRTRPFVLFNHSTCRPEDENTLR--KDGSYPSGHTA  160
+
+Query  106  MAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+             +  +A VLS       + +     +  G  R+  G H+  DV  G  +G +
+Sbjct  161  YSTLLALVLSQARPERAQELAR-RGWEFGQSRVICGAHWQSDVDAGRYVGAV  211
+
+
+> sp|Q6P0E8|PLPP7_DANRE Inactive phospholipid phosphatase 7 OS=Danio 
+rerio OX=7955 GN=plpp7 PE=2 SV=1
+Length=287
+
+ Score = 81.6 bits (200),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 20/93 (22%), Positives = 38/93 (41%), Gaps = 2/93 (2%)
+
+Query  67   VLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLH--IKA  124
+            + V  ++    +  P  +         +   SFP+   + A  ++  L     L   ++ 
+Sbjct  165  MTVSGMQKLVKRKGPWEMPPGFFDYLAMDIYSFPAAHASRAVMVSKFLLAHLVLAVPLRI  224
+
+Query  125  ILFLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+            +L L+A L+G  R+  G H   DV  G  +G +
+Sbjct  225  LLVLWAILVGISRVLLGRHHLTDVGCGFALGFL  257
+
+
+> sp|P26976|PHON_SALTY Non-specific acid phosphatase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=phoN PE=3 SV=1
+Length=250
+
+ Score = 78.9 bits (193),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 42/112 (38%), Gaps = 10/112 (9%)
+
+Query  53   EKVKPLILAIMLETVLVISLKTFFNQPRPAIL-------LEDVNLLFPLHWRSFPSGDTA  105
+                   L  M       S K ++ + RP +L        ED N L      S+PSG TA
+Sbjct  103  TWNMLKNLLTMGGYYATASAKKYYMRTRPFVLFNHSTCRPEDENTLR--KNGSYPSGHTA  160
+
+Query  106  MAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGII  157
+                +A VLS       + +     +  G  R+  G H+  DV  G  +G +
+Sbjct  161  YGTLLALVLSEARPERAQELAR-RGWEFGQSRVICGAHWQSDVDAGRYVGAV  211
+
+
+> sp|B2RLI7|LPXE_PORG3 Lipid A 1-phosphatase OS=Porphyromonas gingivalis 
+(strain ATCC 33277 / DSM 20709 / CIP 103683 / JCM 
+12257 / NCTC 11834 / 2561) OX=431947 GN=lpxE PE=3 SV=1
+Length=445
+
+ Score = 80.4 bits (197),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 32/114 (28%), Positives = 43/114 (38%), Gaps = 16/114 (14%)
+
+Query  52   KEKVKPLI---LAIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAF  108
+            K   K L+   L + L   +V + K  F + RP                S+PSG TA AF
+Sbjct  118  KSWGKMLVSDALGMALMGGMVNAGKYSFGRLRPDGT----------AANSYPSGHTATAF  167
+
+Query  109  TIATVLSH---GEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICG  159
+              AT+                +  A   G  RI    H+  DV  GA +GI+ G
+Sbjct  168  ACATLFHLEYGSRSPWYSVAGYTVASFTGISRIVNNRHWASDVLCGAAVGILVG  221
+
+
+> sp|Q8A6M3|LPXF_BACTN Lipid A 4'-phosphatase OS=Bacteroides thetaiotaomicron 
+(strain ATCC 29148 / DSM 2079 / NCTC 10582 / 
+E50 / VPI-5482) OX=226186 GN=lpxF PE=3 SV=1
+Length=225
+
+ Score = 77.7 bits (190),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 28/156 (18%), Positives = 56/156 (36%), Gaps = 14/156 (9%)
+
+Query  8    LNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETV  67
+            ++ +L    N    P  D F + F        ++  ++++ +        L   + +   
+Sbjct  8    IDTQLLLFFNGIHSPFWDYFMSAFTGKVIWVPMYASILYILLKNFHWKVALCYVVAIALT  67
+
+Query  68   LVI-------SLKTFFNQPRPAILLEDVNLLFP------LHWRSFPSGDTAMAFTIATVL  114
+            +          L+    + RP+     +  L             FPS   A +F +A  L
+Sbjct  68   ITFADQMCNSFLRPLVGRLRPSNPENPIADLVYIVNGRRGGGFGFPSCHAANSFGLAIFL  127
+
+Query  115  SHGEKL-HIKAILFLYAFLIGYERIYAGVHFPLDVF  149
+                +   +   + L+AF   Y R+Y G+H+P D+ 
+Sbjct  128  ICLFRKRWLSIFIVLWAFTNSYTRLYLGLHYPGDLV  163
+
+
+> sp|Q6NLA5|LPPG_ARATH Lipid phosphate phosphatase gamma OS=Arabidopsis 
+thaliana OX=3702 GN=LPPG PE=1 SV=1
+Length=226
+
+ Score = 77.7 bits (190),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 32/145 (22%), Positives = 53/145 (37%), Gaps = 17/145 (12%)
+
+Query  28   FTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLI-LAIMLETVLVISLKTFFNQPRPAILLE  86
+            F  +  L   ++     +  F+FR+E       + +++   +   +KT   Q RP     
+Sbjct  27   FLAWISLVPVFISLGGFVSHFLFRRELQGIFFGIGLVISQFINEFIKTSVEQARPETCT-  85
+
+Query  87   DVNLLFPLHWRSFPSGDTAMAFTIATVLSH------------GEKLHIKAILFLYAFLIG  134
+               LL       +PS  +   F  AT  S               +  +  + +  A +  
+Sbjct  86   ---LLEACDSHGWPSSHSQFMFFFATYFSLMGCKGIGFWFGLRSRWIMNLLHWSLAVVTM  142
+
+Query  135  YERIYAGVHFPLDVFVGALIGIICG  159
+            Y R+Y G H    VF GA +G I G
+Sbjct  143  YSRVYLGYHTVAQVFAGAALGGIVG  167
+
+
+> sp|Q0WNG6|LPP4_ARATH Probable lipid phosphate phosphatase 4 OS=Arabidopsis 
+thaliana OX=3702 GN=LPP4 PE=2 SV=1
+Length=308
+
+ Score = 77.0 bits (188),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 36/188 (19%), Positives = 67/188 (36%), Gaps = 40/188 (21%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPL-------ILAIMLETV  67
+            ++ +   P  +     +A      ++   +  ++ + +  V  L         + ++  V
+Sbjct  53   MLTDLTFPFYEDTIPMWAVPIICILVPICIFIVYYYYRRDVYDLHHAILGIGFSCLVTGV  112
+
+Query  68   LVISLKTFFNQPRP------------AILLEDVNLLFPL-------HWRSFPSGDTAMAF  108
+               S+K    +PRP                +  +++           ++SFPSG T+ +F
+Sbjct  113  TTDSIKDAVGRPRPNFFYRCFPNGKPKFHPDTKDVVCHGVKKIIKEGYKSFPSGHTSWSF  172
+
+Query  109  TIATVLSHGE--------------KLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALI  154
+               T L+                 KL +  +  L + LIG  R+    H   DVF GA+I
+Sbjct  173  AGLTFLAWYLSGKIKVFDRRGHVAKLCLVFLPILISILIGISRVDDYWHHWTDVFAGAII  232
+
+Query  155  GIICGIIS  162
+            GI     S
+Sbjct  233  GIFVASFS  240
+
+
+> sp|P14924|PPA_ZYMMO Acid phosphatase OS=Zymomonas mobilis subsp. 
+mobilis (strain ATCC 31821 / ZM4 / CP4) OX=264203 GN=phoC 
+PE=3 SV=2
+Length=264
+
+ Score = 75.4 bits (184),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 22/89 (25%), Positives = 39/89 (44%), Gaps = 6/89 (7%)
+
+Query  73   KTFFNQPRPAILLE-----DVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILF  127
+            K  +N+ RP +  +     + +        S+PSG T + +++A +L+     H   IL 
+Sbjct  132  KNNWNRKRPFVDTDQPICTEKDREGLGKQGSYPSGHTTIGWSVALILAELIPDHAANILQ  191
+
+Query  128  LYAFLIGYERIYAGVHFPLDVFVGALIGI  156
+                + G  RI  G H+  DV  G ++  
+Sbjct  192  -RGQIFGTSRIVCGAHWFSDVQAGYIMAS  219
+
+
+> sp|P28581|PHOC_MORMO Major phosphate-irrepressible acid phosphatase 
+OS=Morganella morganii OX=582 GN=phoC PE=1 SV=1
+Length=249
+
+ Score = 74.7 bits (182),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 22/93 (24%), Positives = 37/93 (40%), Gaps = 6/93 (6%)
+
+Query  69   VISLKTFFNQPRPAI-----LLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIK  123
+              S K  + + RP            +        S+PSG T++ +  A VL+     +  
+Sbjct  129  TRSAKEHYMRIRPFAFYGTETCNTKDQKKLSTNGSYPSGHTSIGWATALVLAEVNPANQD  188
+
+Query  124  AILFLYAFLIGYERIYAGVHFPLDVFVGALIGI  156
+            AIL    + +G  R+  G H+  DV    ++G 
+Sbjct  189  AILE-RGYQLGQSRVICGYHWQSDVDAARIVGS  220
+
+
+> sp|Q9SUW4|LPPB_ARATH Probable lipid phosphate phosphatase beta 
+OS=Arabidopsis thaliana OX=3702 GN=LPPB PE=2 SV=1
+Length=213
+
+ Score = 72.3 bits (176),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 58/162 (36%), Gaps = 27/162 (17%)
+
+Query  31   FAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNL  90
+             +          L   L    +  + P +L ++ + + V  +K  F + RPA     ++ 
+Sbjct  42   ISADFRFSFPVSLSFLLSPPLRSFLVPFLLGLLFDLIFVGIVKLIFRRARPAYNHPSMSA  101
+
+Query  91   LFPLHWRSFPSGDTAMAFTIATVLSH------------GEKLHIKAI-------------  125
+                   SFPSG  +  F +A  +                      I             
+Sbjct  102  AVSADHYSFPSGHASRVFFVAASVHFFSAAAEASMTGPSYSFLDGWIRDHNDGDVKVEVV  161
+
+Query  126  --LFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLKY  165
+              ++++A +    RI  G H+ LDV  GA +GI+  + +L++
+Sbjct  162  VVVWIWATVTAISRILLGRHYVLDVAAGAFLGIVEALFALRF  203
+
+
+> sp|B2KI79|DOPP1_RHIFE Dolichyldiphosphatase 1 OS=Rhinolophus 
+ferrumequinum OX=59479 GN=DOLPP1 PE=3 SV=1
+Length=238
+
+ Score = 71.2 bits (173),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 28/149 (19%), Positives = 50/149 (34%), Gaps = 22/149 (15%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEK-VKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFP  93
+             S  V+    + L IF++E      +  ++L   +   +K    +PRP            
+Sbjct  38   LSPVVIIVGFVTLIIFKRELHTISFLGGLVLNEGVNWLIKHVIQEPRPCGGPHPT----V  93
+
+Query  94   LHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAILFLYAFLIGYE  136
+                  PS  +     F++ + L    ++H               +   L   AFL+ Y 
+Sbjct  94   GTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGLLTAAFLVSYS  153
+
+Query  137  RIYAGVHFPLDVFVGALIGIICGIISLKY  165
+            R+Y   H    V  G + G +  I    +
+Sbjct  154  RVYLLYHTWSQVLYGGVAGSLMAIAWFAF  182
+
+
+> sp|P9WI53|DPRP_MYCTU Putative decaprenylphosphoryl-5-phosphoribose 
+phosphatase Rv3807c OS=Mycobacterium tuberculosis (strain 
+ATCC 25618 / H37Rv) OX=83332 GN=Rv3807c PE=1 SV=1
+Length=165
+
+ Score = 69.6 bits (169),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 29/144 (20%), Positives = 54/144 (38%), Gaps = 8/144 (6%)
+
+Query  22   PLLDVFFTHFAYLGSG---YVLFPLLIFLFIFRKEKVKPLI-LAIMLETVLVISLKTFFN  77
+            P +       ++ G     +++  LL  + + R+ +   +      +   + + +K    
+Sbjct  12   PGMLATARGLSHFGEHCIGWLILALLGAIALPRRRREWLVAGAGAFVAHAIAVLIKRLVR  71
+
+Query  78   QPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYER  137
+            + RP      VN+  P    SFP   +A A +         +     +  +    +   R
+Sbjct  72   RQRPDHPAIAVNVDTPSQL-SFP---SAHATSTTAAALLMGRATGLPLPVVLVPPMALSR  127
+
+Query  138  IYAGVHFPLDVFVGALIGIICGII  161
+            I  GVH+P DV VG  +G   G I
+Sbjct  128  ILLGVHYPSDVAVGVALGATVGAI  151
+
+
+> sp|P9WI52|DPRP_MYCTO Putative decaprenylphosphoryl-5-phosphoribose 
+phosphatase MT3914 OS=Mycobacterium tuberculosis (strain 
+CDC 1551 / Oshkosh) OX=83331 GN=MT3914 PE=3 SV=1
+Length=165
+
+ Score = 69.6 bits (169),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 29/144 (20%), Positives = 54/144 (38%), Gaps = 8/144 (6%)
+
+Query  22   PLLDVFFTHFAYLGSG---YVLFPLLIFLFIFRKEKVKPLI-LAIMLETVLVISLKTFFN  77
+            P +       ++ G     +++  LL  + + R+ +   +      +   + + +K    
+Sbjct  12   PGMLATARGLSHFGEHCIGWLILALLGAIALPRRRREWLVAGAGAFVAHAIAVLIKRLVR  71
+
+Query  78   QPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYER  137
+            + RP      VN+  P    SFP   +A A +         +     +  +    +   R
+Sbjct  72   RQRPDHPAIAVNVDTPSQL-SFP---SAHATSTTAAALLMGRATGLPLPVVLVPPMALSR  127
+
+Query  138  IYAGVHFPLDVFVGALIGIICGII  161
+            I  GVH+P DV VG  +G   G I
+Sbjct  128  ILLGVHYPSDVAVGVALGATVGAI  151
+
+
+> sp|Q2K2U9|LPXE_RHIEC Lipid A 1-phosphatase OS=Rhizobium etli 
+(strain CFN 42 / ATCC 51251) OX=347834 GN=lpxE PE=3 SV=1
+Length=232
+
+ Score = 70.8 bits (172),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 21/111 (19%), Positives = 37/111 (33%), Gaps = 6/111 (5%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE-----DVNLLFPLHWRSFPSGDTAMAFTIAT  112
+            L   ++   +L   LK    + RP    +              + SFPSG +        
+Sbjct  90   LFTTVVFSGLLANLLKRAIGRARPDHFHDYGMFSFTPFSGHAAFESFPSGHSTTVGAFFA  149
+
+Query  113  VLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+              +     + +      A  +G  R+  G H+P DV  G   G    +++ 
+Sbjct  150  AFALLFPRY-RVAFIACAIWLGMTRVMVGAHYPSDVIAGLAFGGWFSLLTA  199
+
+
+> sp|Q1MA49|LPXE_RHIL3 Lipid A 1-phosphatase OS=Rhizobium leguminosarum 
+bv. viciae (strain 3841) OX=216596 GN=lpxE PE=3 SV=1
+Length=244
+
+ Score = 70.0 bits (170),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 21/111 (19%), Positives = 37/111 (33%), Gaps = 6/111 (5%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE-----DVNLLFPLHWRSFPSGDTAMAFTIAT  112
+            L   ++   +L   LK    + RP    +              + SFPSG +        
+Sbjct  108  LFFTVVFSGLLANLLKRAIGRARPDHFHDYGMFSFAPFSGHSAFESFPSGHSTTVGAFFA  167
+
+Query  113  VLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+              +     + +      A  +G  R+  G H+P DV  G   G    +++ 
+Sbjct  168  AFALLFPRY-RVAFIACAIWLGMTRVMVGAHYPSDVIAGLAFGAWFSLLTA  217
+
+
+> sp|Q86YN1|DOPP1_HUMAN Dolichyldiphosphatase 1 OS=Homo sapiens 
+OX=9606 GN=DOLPP1 PE=2 SV=1
+Length=238
+
+ Score = 69.3 bits (168),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 27/144 (19%), Positives = 47/144 (33%), Gaps = 22/144 (15%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEK-VKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFP  93
+             S   +    + L IF++E      +  + L   +   +K    +PRP            
+Sbjct  38   LSPVFVIVGFVTLIIFKRELHTISFLGGLALNEGVNWLIKNVIQEPRPCGGPHTA----V  93
+
+Query  94   LHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAILFLYAFLIGYE  136
+                  PS  +     F++ + L    ++H               +   L   AFL+ Y 
+Sbjct  94   GTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGLLAVAFLVSYS  153
+
+Query  137  RIYAGVHFPLDVFVGALIGIICGI  160
+            R+Y   H    V  G + G +  I
+Sbjct  154  RVYLLYHTWSQVLYGGIAGGLMAI  177
+
+
+> sp|B0CM95|DOPP1_PAPAN Dolichyldiphosphatase 1 OS=Papio anubis 
+OX=9555 GN=DOLPP1 PE=3 SV=1
+Length=238
+
+ Score = 68.9 bits (167),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 28/144 (19%), Positives = 47/144 (33%), Gaps = 22/144 (15%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEK-VKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFP  93
+             S   +    + L IF++E      +  + L   +   +K    +PRP            
+Sbjct  38   LSPVFVIVGFVTLIIFKRELHTISFLGGLALNEGVNWLIKNVIQEPRPCGGPHTA----V  93
+
+Query  94   LHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAILFLYAFLIGYE  136
+                  PS  +     F+I + L    ++H               +   L   AFL+ Y 
+Sbjct  94   GTKYGMPSSHSQFMWFFSIYSFLFLYLRMHQTNNARFLDLLWRHVLSLGLLAAAFLVSYS  153
+
+Query  137  RIYAGVHFPLDVFVGALIGIICGI  160
+            R+Y   H    V  G + G +  I
+Sbjct  154  RVYLLYHTWSQVLYGGIAGGLMAI  177
+
+
+> sp|B0KWE9|DOPP1_CALJA Dolichyldiphosphatase 1 OS=Callithrix jacchus 
+OX=9483 GN=DOLPP1 PE=3 SV=1
+Length=238
+
+ Score = 68.5 bits (166),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 26/144 (18%), Positives = 47/144 (33%), Gaps = 22/144 (15%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEK-VKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFP  93
+             S   +    + L IF++E      +  + L   +   +K    +PRP            
+Sbjct  38   LSPVFVIVGFVTLIIFKRELHTISFLGGLALNEGVNWLIKNVIQEPRPCGGPHTA----V  93
+
+Query  94   LHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAILFLYAFLIGYE  136
+                  PS  +     F++ + L    ++H               +   L   AFL+ Y 
+Sbjct  94   GTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGLLAAAFLVSYS  153
+
+Query  137  RIYAGVHFPLDVFVGALIGIICGI  160
+            R+Y   H    V  G + G +  +
+Sbjct  154  RVYLLYHTWSQVLYGGIAGGLMAV  177
+
+
+> sp|Q9V576|WUN_DROME Putative phosphatidate phosphatase OS=Drosophila 
+melanogaster OX=7227 GN=wun PE=1 SV=2
+Length=379
+
+ Score = 69.3 bits (168),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 23/148 (16%), Positives = 40/148 (27%), Gaps = 42/148 (28%)
+
+Query  60   LAIMLETVLVISLKTFFNQPRP---AILLEDVNLLFPLHWR-------------------  97
+               +L  +     K    + RP   A+    +                            
+Sbjct  198  FGAVLSQLTTDIAKYSIGRLRPHFIAVCQPQMADGSTCDDAINAGKYIQEFTCKGVGSSA  257
+
+Query  98   --------SFPSGDTAMAFTIATVLSHGEKLHIKA------------ILFLYAFLIGYER  137
+                    SFPSG ++  F     L+   +  +              +  + A+     R
+Sbjct  258  RMLKEMRLSFPSGHSSFTFFAMVYLALYLQARMTWRGSKLLRHLLQFLFIMVAWYTALSR  317
+
+Query  138  IYAGVHFPLDVFVGALIGIICGIISLKY  165
+            +    H   DV  G+LIG I  ++   Y
+Sbjct  318  VSDYKHHWSDVLAGSLIGSISALVVANY  345
+
+
+> sp|P26975|PHON_PROST Non-specific acid phosphatase OS=Providencia 
+stuartii OX=588 GN=phoN PE=3 SV=1
+Length=248
+
+ Score = 68.1 bits (165),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 22/93 (24%), Positives = 35/93 (38%), Gaps = 6/93 (6%)
+
+Query  69   VISLKTFFNQPRPAI-----LLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIK  123
+              S K  + + RP            +        S+PSG TA+ +  A VLS     +  
+Sbjct  129  TRSAKEKYMRIRPFAFYGVATCNTKDQDKLSKNGSYPSGHTAIGWASALVLSEINPENQD  188
+
+Query  124  AILFLYAFLIGYERIYAGVHFPLDVFVGALIGI  156
+             IL    + +G  R+  G H+  DV    ++  
+Sbjct  189  KIL-KRGYELGQSRVICGYHWQSDVDAARIVAS  220
+
+
+> sp|B1MTH4|DOPP1_PLEMO Dolichyldiphosphatase 1 OS=Plecturocebus 
+moloch OX=9523 GN=DOLPP1 PE=3 SV=1
+Length=238
+
+ Score = 67.7 bits (164),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 25/142 (18%), Positives = 46/142 (32%), Gaps = 22/142 (15%)
+
+Query  37   GYVLFPLLIFLFIFRKEK-VKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLH  95
+               +    + L IF++E      +  + L   +   +K    +PRP              
+Sbjct  40   PVFVIVGFVTLIIFKRELHTISFLGGLALNEGVNWLIKNVIQEPRPCGGPHTA----VGT  95
+
+Query  96   WRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAILFLYAFLIGYERI  138
+                PS  +     F++ + L    ++H               +   L   AFL+ Y R+
+Sbjct  96   KYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGLLAAAFLVSYSRV  155
+
+Query  139  YAGVHFPLDVFVGALIGIICGI  160
+            Y   H    V  G + G +  +
+Sbjct  156  YLLYHTWSQVLYGGIAGGLMAV  177
+
+
+> sp|Q9JMF7|DOPP1_MOUSE Dolichyldiphosphatase 1 OS=Mus musculus 
+OX=10090 GN=Dolpp1 PE=2 SV=1
+Length=238
+
+ Score = 66.9 bits (162),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 27/144 (19%), Positives = 48/144 (33%), Gaps = 22/144 (15%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEK-VKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFP  93
+             S   +    + L IF++E      +  + L   +   +K    +PRP            
+Sbjct  38   LSPIFVVVGFLTLIIFKRELHTISFLGGLALNQGVNWLIKHVIQEPRPCGGPHTA----V  93
+
+Query  94   LHWRSFPSGDT--AMAFTIATVLSHGEKLH---------------IKAILFLYAFLIGYE  136
+                  PS  +     F++ + L    ++H               +   L   AFL+ Y 
+Sbjct  94   GTKYGMPSSHSQFMWFFSVYSFLFLYLRMHQTNNARFLDLLWRHVLSLGLLTAAFLVSYS  153
+
+Query  137  RIYAGVHFPLDVFVGALIGIICGI  160
+            R+Y   H    VF G + G +  +
+Sbjct  154  RVYLLYHTWSQVFYGGVAGSLMAV  177
+
+
+> sp|P53223|CAX4_YEAST Dolichyldiphosphatase OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=CAX4 PE=1 
+SV=1
+Length=239
+
+ Score = 61.9 bits (149),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 27/151 (18%), Positives = 47/151 (31%), Gaps = 14/151 (9%)
+
+Query  27   FFTHFAYLGSGYVLFPLLI---FLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAI  83
+            F +  +   S   +  L     +  I R+ +   +    ++  +    +K    QPRP  
+Sbjct  29   FLSFLSAYFSLMPILVLAFYLSWFIITRELEACIVAFGQLMNEIFNNVIKNIIKQPRPVS  88
+
+Query  84   LLEDVNLLFPLHWRSFPSGDTAMAFTIATV-----------LSHGEKLHIKAILFLYAFL  132
+                            PS  +       T            L+  EK      L L +F 
+Sbjct  89   FGASFQNDTIRSGYGMPSAHSQFMGFCFTYNSLKIYTSWKNLNFLEKCIFSGALALLSFC  148
+
+Query  133  IGYERIYAGVHFPLDVFVGALIGIICGIISL  163
+            + + R+Y   H    V VG  +G + G +  
+Sbjct  149  VCFSRVYLHYHNLDQVIVGFSVGALTGSLYF  179
+
+
+> sp|Q9UUA6|DPP1_SCHPO Probable diacylglycerol pyrophosphate phosphatase 
+1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 
+24843) OX=284812 GN=dpp1 PE=3 SV=1
+Length=279
+
+ Score = 61.9 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 39/189 (21%), Positives = 57/189 (30%), Gaps = 43/189 (23%)
+
+Query  19   ARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLI--------LAIMLETVLVI  70
+              HP          YLG   V FP L+     +      L          + M+  + V 
+Sbjct  49   ISHPFALHEQVPTKYLGIICVFFPALVLYGFGKLRNNSLLFWKSLMGLLYSTMVCGLCVS  108
+
+Query  71   SLKTFFNQPRPAILL---------------------EDVNLLFPLHWRSFPSGDTAMAFT  109
+             LK    +PRP  L                         + +    +RSFPSG T+ +F 
+Sbjct  109  LLKNAVGRPRPDFLARCQPFESTPKTGLVDVLSCSVPWSDKVLQDGFRSFPSGHTSFSFA  168
+
+Query  110  IATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIG  155
+                L+                 K+ +  +    A  IG  R     H   D+ VGAL G
+Sbjct  169  GLGFLAIFLAGQLKMFRNKTSSWKVVVPLVPLSIASWIGLSRSQDYRHHKEDIAVGALFG  228
+
+Query  156  IICGIISLK  164
+                 +  +
+Sbjct  229  FAIAYVVYR  237
+
+
+> sp|Q99JY8|PLPP3_MOUSE Phospholipid phosphatase 3 OS=Mus musculus 
+OX=10090 GN=Plpp3 PE=1 SV=1
+Length=312
+
+ Score = 60.8 bits (146),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 20/141 (14%), Positives = 36/141 (26%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE---------------------DVNLLFPLHW  96
+             +    +        K    + RP  L                         +       
+Sbjct  134  FLFGCAISQSFTDIAKVSIGRLRPHFLSVCDPDFSQINCSEGYIQNYRCRGEDSKVQEAR  193
+
+Query  97   RSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFLIGYERIYAGVHF  144
+            +SF SG  + +      L            +   +  ++  L + AF  G  R+    H 
+Sbjct  194  KSFFSGHASFSMFTMLYLVLYLQARFTWRGARLLRPLLQFTLLMMAFYTGLSRVSDYKHH  253
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+            P DV  G   G +     + +
+Sbjct  254  PSDVLAGFAQGALVACCIVFF  274
+
+
+> sp|P97544|PLPP3_RAT Phospholipid phosphatase 3 OS=Rattus norvegicus 
+OX=10116 GN=Plpp3 PE=1 SV=1
+Length=312
+
+ Score = 60.4 bits (145),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 20/141 (14%), Positives = 36/141 (26%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE---------------------DVNLLFPLHW  96
+             +    +        K    + RP  L                         +       
+Sbjct  134  FLFGCAISQSFTDIAKVSIGRLRPHFLSVCDPDFSQINCSEGYIQNYRCRGEDSKVQEAR  193
+
+Query  97   RSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFLIGYERIYAGVHF  144
+            +SF SG  + +      L            +   +  ++  L + AF  G  R+    H 
+Sbjct  194  KSFFSGHASFSMFTMLYLVLYLQARFTWRGARLLRPLLQFTLLMMAFYTGLSRVSDYKHH  253
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+            P DV  G   G +     + +
+Sbjct  254  PSDVLAGFAQGALVACCIVFF  274
+
+
+> sp|Q9DAX2|PLPP2_MOUSE Phospholipid phosphatase 2 OS=Mus musculus 
+OX=10090 GN=Plpp2 PE=1 SV=1
+Length=276
+
+ Score = 59.2 bits (142),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 23/140 (16%), Positives = 40/140 (29%), Gaps = 32/140 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE--------------------DVNLLFPLHWR  97
+             +    +   L    K    + RP+ L                                 
+Sbjct  102  FLFGAAVSQSLTDLAKYMIGRLRPSFLAVCDPDWSQVNCSGYVQLEVCRGSPANVTEARL  161
+
+Query  98   SFPSGDTAMAFTIATVLSHGEKLHIKA------------ILFLYAFLIGYERIYAGVHFP  145
+            SF SG ++        L+   +  +               L  +A  +GY R+    H  
+Sbjct  162  SFYSGHSSFGMYCMLFLALYVQARLCWKWARLLRPTVQFFLVAFAIYVGYTRVSDHKHHW  221
+
+Query  146  LDVFVGALIGIICGIISLKY  165
+             DV VG L G +   ++++Y
+Sbjct  222  SDVLVGLLQGALVACLTVRY  241
+
+
+> sp|Q8K593|PLPP2_RAT Phospholipid phosphatase 2 OS=Rattus norvegicus 
+OX=10116 GN=Plpp2 PE=2 SV=1
+Length=276
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/140 (16%), Positives = 39/140 (28%), Gaps = 32/140 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE--------------------DVNLLFPLHWR  97
+             +    +   L    K    + RP+ L                                 
+Sbjct  102  FLFGAAVSQSLTDLAKYMIGRLRPSFLAVCDPDWSRVNCSGYVQVEVCRGSPANVTEARL  161
+
+Query  98   SFPSGDTAMAFTIATVLSHGEKLHIKA------------ILFLYAFLIGYERIYAGVHFP  145
+            SF SG ++        L+   +  +               L  +A  +GY R+    H  
+Sbjct  162  SFYSGHSSFGMYCMLFLALYVQARLCWKWARLLRPTVQFFLVAFAIYVGYTRVSDNKHHW  221
+
+Query  146  LDVFVGALIGIICGIISLKY  165
+             DV VG L G +   +++ Y
+Sbjct  222  SDVLVGLLQGALVACLTVCY  241
+
+
+> sp|Q54PR7|Y4367_DICDI PA-phosphatase related-family protein DDB_G0284367 
+OS=Dictyostelium discoideum OX=44689 GN=DDB_G0284367 
+PE=3 SV=1
+Length=271
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 29/171 (17%), Positives = 56/171 (33%), Gaps = 25/171 (15%)
+
+Query  16   INNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKP-------LILAIMLETVL  68
+                ++PLL      +  +     L  ++   +  +             L  A  +  + 
+Sbjct  57   FQLVQYPLLPDIVPVWLLMLIALGLPMVVFIGYYIKNRNSHDFHHAALGLFQAFTITMLF  116
+
+Query  69   VISLKTFFNQPRPAI---LLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGE-------  118
+               LK    + RP     +   +  +      SFPSG ++++F   T LS          
+Sbjct  117  TDILKVSAGRYRPDYGARVATGIEAVIREGRVSFPSGHSSVSFCGMTFLSFYLCGKTKVF  176
+
+Query  119  --------KLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGII  161
+                    K  +    F+ + L+   R     H   D+  G++IG+  G+ 
+Sbjct  177  LKDGGNILKALVCLCPFMISALVAVSRTVDYHHDFSDILAGSVIGLSIGVF  227
+
+
+> sp|O14494|PLPP1_HUMAN Phospholipid phosphatase 1 OS=Homo sapiens 
+OX=9606 GN=PLPP1 PE=1 SV=1
+Length=284
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 19/141 (13%), Positives = 38/141 (27%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRP---AILLEDVNLLFPLHWR-----------------  97
+             +        L    K    + RP    +   D + +                       
+Sbjct  105  FLFGAAASQSLTDIAKYSIGRLRPHFLDVCDPDWSKINCSDGYIEYYICRGNAERVKEGR  164
+
+Query  98   -SFPSGDTAMAFTIATVLSHGE------------KLHIKAILFLYAFLIGYERIYAGVHF  144
+             SF SG ++ +      ++               +  ++  L   +  +G  R+    H 
+Sbjct  165  LSFYSGHSSFSMYCMLFVALYLQARMKGDWARLLRPTLQFGLVAVSIYVGLSRVSDYKHH  224
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+              DV  G + G +  I+   Y
+Sbjct  225  WSDVLTGLIQGALVAILVAVY  245
+
+
+> sp|Q3SZE3|PLPP3_BOVIN Phospholipid phosphatase 3 OS=Bos taurus 
+OX=9913 GN=PLPP3 PE=2 SV=1
+Length=311
+
+ Score = 58.1 bits (139),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/141 (14%), Positives = 36/141 (26%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE---------------------DVNLLFPLHW  96
+             +    +        K    + RP  L                         +       
+Sbjct  134  FLFGCAISQSFTDIAKVSIGRLRPHFLNVCNPDFSQINCSVGYIQNYRCRGEDSKVQEAR  193
+
+Query  97   RSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFLIGYERIYAGVHF  144
+            +SF SG  + +      L            +   +  ++  L + AF  G  R+    H 
+Sbjct  194  KSFFSGHASFSMYTMLYLVLYLQARFTWRGARLLRPLLQFTLIMMAFYTGLSRVSDHKHH  253
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+            P DV  G   G +     + +
+Sbjct  254  PSDVLAGFAQGALVACCIVFF  274
+
+
+> sp|O43688|PLPP2_HUMAN Phospholipid phosphatase 2 OS=Homo sapiens 
+OX=9606 GN=PLPP2 PE=1 SV=1
+Length=288
+
+ Score = 56.9 bits (136),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 23/141 (16%), Positives = 38/141 (27%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE---------------------DVNLLFPLHW  96
+             +    +   L    K    + RP  L                                 
+Sbjct  102  FLFGAAVSQSLTDLAKYMIGRLRPNFLAVCDPDWSRVNCSVYVQLEKVCRGNPADVTEAR  161
+
+Query  97   RSFPSGDTAMAFTIATVLSHGEKLHIKA------------ILFLYAFLIGYERIYAGVHF  144
+             SF SG ++        L+   +  +               L  +A  +GY R+    H 
+Sbjct  162  LSFYSGHSSFGMYCMVFLALYVQARLCWKWARLLRPTVQFFLVAFALYVGYTRVSDYKHH  221
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+              DV VG L G +   +++ Y
+Sbjct  222  WSDVLVGLLQGALVAALTVCY  242
+
+
+> sp|P60588|PLPP1_PIG Phospholipid phosphatase 1 OS=Sus scrofa 
+OX=9823 GN=PLPP1 PE=1 SV=2
+Length=285
+
+ Score = 56.9 bits (136),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 19/141 (13%), Positives = 38/141 (27%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRP---AILLEDVNLLFPLHWR-----------------  97
+             +        L    K    + RP    +   D + +                       
+Sbjct  105  FLFGAAASQSLTDIAKYSIGRLRPHFLDVCDPDWSKINCSDGYIENYICRGNAQKVKEGR  164
+
+Query  98   -SFPSGDTAMAFTIATVLSHGE------------KLHIKAILFLYAFLIGYERIYAGVHF  144
+             SF SG ++ +      ++               +  ++  L   +  +G  R+    H 
+Sbjct  165  LSFYSGHSSFSMYCMLFVALYLQARMKGDWARLLRPTLQFGLVAVSIYVGLSRVSDYKHH  224
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+              DV  G + G +  I+   Y
+Sbjct  225  WSDVLTGLIQGALVAIVVAVY  245
+
+
+> sp|O14495|PLPP3_HUMAN Phospholipid phosphatase 3 OS=Homo sapiens 
+OX=9606 GN=PLPP3 PE=1 SV=1
+Length=311
+
+ Score = 56.9 bits (136),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 20/141 (14%), Positives = 36/141 (26%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE---------------------DVNLLFPLHW  96
+             +    +        K    + RP  L                         +       
+Sbjct  133  FLFGCAISQSFTDIAKVSIGRLRPHFLSVCNPDFSQINCSEGYIQNYRCRGDDSKVQEAR  192
+
+Query  97   RSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFLIGYERIYAGVHF  144
+            +SF SG  + +      L            +   +  ++  L + AF  G  R+    H 
+Sbjct  193  KSFFSGHASFSMYTMLYLVLYLQARFTWRGARLLRPLLQFTLIMMAFYTGLSRVSDHKHH  252
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+            P DV  G   G +     + +
+Sbjct  253  PSDVLAGFAQGALVACCIVFF  273
+
+
+> sp|Q05521|DPP1_YEAST Diacylglycerol pyrophosphate phosphatase 
+1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=DPP1 PE=1 SV=1
+Length=289
+
+ Score = 56.5 bits (135),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 27/183 (15%), Positives = 53/183 (29%), Gaps = 42/183 (23%)
+
+Query  24   LDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLI-------LAIMLETVLVISLKTFF  76
+            ++             +   ++  +   R+  +  L        LA    +     +K + 
+Sbjct  62   VNNNMLFVYSFVVPSLTILIIGSILADRRHLIFILYTSLLGLSLAWFSTSFFTNFIKNWI  121
+
+Query  77   NQPRPAILL-------EDVNLLFPLHW-----------RSF---PSGDTAMAFTIATVLS  115
+             + RP  L          ++ LF                 F   PSG ++ +F     L 
+Sbjct  122  GRLRPDFLDRCQPVEGLPLDTLFTAKDVCTTKNHERLLDGFRTTPSGHSSESFAGLGYLY  181
+
+Query  116  HG--------------EKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGII  161
+                             +  +  +  L A LI   R     H  +DV +G+++G I    
+Sbjct  182  FWLCGQLLTESPLMPLWRKMVAFLPLLGAALIALSRTQDYRHHFVDVILGSMLGYIMAHF  241
+
+Query  162  SLK  164
+              +
+Sbjct  242  FYR  244
+
+
+> sp|O88956|PLPP1_CAVPO Phospholipid phosphatase 1 OS=Cavia porcellus 
+OX=10141 GN=PLPP1 PE=1 SV=1
+Length=285
+
+ Score = 56.2 bits (134),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 21/141 (15%), Positives = 39/141 (28%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRP---AILLEDVNLLFPLHWR-----------------  97
+             +        L    K    + RP   ++   D + +                       
+Sbjct  105  FLFGAAASQSLTDIAKYSIGRLRPHFLSVCDPDWSKVNCSDGYIEYYVCRGNAEKVKEGR  164
+
+Query  98   -SFPSGDTAMAFTIATVLSHGE------------KLHIKAILFLYAFLIGYERIYAGVHF  144
+             SF SG ++ +      ++               +  ++  L   +  +G  RI    H 
+Sbjct  165  LSFYSGHSSFSMYCMVFVALYLQARMKGDWARLLRPTLQFGLVAASIYVGLSRISDYKHH  224
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+              DV  G + G I  I+   Y
+Sbjct  225  WSDVLTGLIQGAIVAILVAVY  245
+
+
+> sp|Q2HJ61|PLPP2_BOVIN Phospholipid phosphatase 2 OS=Bos taurus 
+OX=9913 GN=PLPP2 PE=2 SV=1
+Length=287
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 23/140 (16%), Positives = 40/140 (29%), Gaps = 32/140 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRPAILLE--------------------DVNLLFPLHWR  97
+             +    +   L    K    + RP  L                        +        
+Sbjct  102  FLFGAAVSQSLTDLAKYMTGRLRPNFLAVCDPDWSRVNCSAYVQVEVCRGSSANVTESRL  161
+
+Query  98   SFPSGDTAMAFTIATVLSHGEKLHIKA------------ILFLYAFLIGYERIYAGVHFP  145
+            SF SG ++        L+   +  +               L  +A  +GY R+    H  
+Sbjct  162  SFYSGHSSFGMYCMVFLALYVQARLCWKWARLLRPTVQFFLVAFALYVGYTRVSDHKHHW  221
+
+Query  146  LDVFVGALIGIICGIISLKY  165
+             DV VG L G +   ++++Y
+Sbjct  222  SDVLVGLLQGALVASLTVRY  241
+
+
+> sp|O08564|PLPP1_RAT Phospholipid phosphatase 1 OS=Rattus norvegicus 
+OX=10116 GN=Plpp1 PE=1 SV=1
+Length=282
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 20/141 (14%), Positives = 41/141 (29%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRP---AILLEDVNLLFPLHWR-----------------  97
+             +        L    K    + RP   A+   D + +                       
+Sbjct  105  FLFGASASQSLTDIAKYSIGRLRPHFLAVCNPDWSKINCSDGYIENFVCQGNEQKVREGR  164
+
+Query  98   -SFPSGDTAMAFTIATVLSHGE------------KLHIKAILFLYAFLIGYERIYAGVHF  144
+             SF SG ++ +      ++               +  ++  L   +  +G  R+    H 
+Sbjct  165  LSFYSGHSSFSMYCMLFVALYLQARMKGDWARLLRPMLQFGLVALSIYVGLSRVSDYKHH  224
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+              DV +G + G +  I+ + Y
+Sbjct  225  WSDVLIGLIQGAVVAILVVLY  245
+
+
+> sp|Q86IX2|DOPP1_DICDI Dolichyldiphosphatase 1 OS=Dictyostelium 
+discoideum OX=44689 GN=dolpp1 PE=3 SV=1
+Length=229
+
+ Score = 55.4 bits (132),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/140 (19%), Positives = 47/140 (34%), Gaps = 18/140 (13%)
+
+Query  35   GSGYVLFPLLIFLFIFRKE-KVKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFP  93
+                 +   +I L +FR++ +   + L ++        LK    + RP      +     
+Sbjct  34   LIPIAIAIGVITLILFRRDVRTISIFLGLLFSECTNYVLKKSIKEHRP-----TMWKELR  88
+
+Query  94   LHWRSFPSGDTAMAFTIATVLSHGE------------KLHIKAILFLYAFLIGYERIYAG  141
+                  PS  +   F  A +++                +     LF  A  + Y R++  
+Sbjct  89   KQSYGMPSSHSQFMFFFAVLMTLFYLKKRIRFGSKILPIISVTFLFFLAAGVAYSRVHLY  148
+
+Query  142  VHFPLDVFVGALIGIICGII  161
+             H    VF G+ IGI  G I
+Sbjct  149  YHTAKQVFCGSFIGICLGFI  168
+
+
+> sp|Q10022|PLP12_CAEEL Phospholipid phosphatase homolog 1.2 homolog 
+OS=Caenorhabditis elegans OX=6239 GN=plpp-1.2 PE=1 SV=1
+Length=341
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 25/142 (18%), Positives = 43/142 (30%), Gaps = 36/142 (25%)
+
+Query  60   LAIMLETVLVISLKTFFNQPRP-----------------------AILLEDVNLLFPLHW  96
+            +  ++   L I  K    + RP                                L     
+Sbjct  131  IGFVMNIALNIVTKHVVGRLRPHFLDVCKLANDTCVTGDSHRYITDYTCTGPPELVLEAR  190
+
+Query  97   RSFPSGDTAMAFTIATVLSHGEKLHIK-------------AILFLYAFLIGYERIYAGVH  143
+            +SF SG +A++   AT  +   +  +               ++F+    I + RI    H
+Sbjct  191  KSFYSGHSAVSLYCATWSALYIQARLGPVLNNRIVVPISQTLMFMIGLGISFSRITDNKH  250
+
+Query  144  FPLDVFVGALIGIICGIISLKY  165
+               DV VG  IGI   + +  +
+Sbjct  251  HWSDVLVGIFIGIFLAVYTCTF  272
+
+
+> sp|Q61469|PLPP1_MOUSE Phospholipid phosphatase 1 OS=Mus musculus 
+OX=10090 GN=Plpp1 PE=1 SV=1
+Length=283
+
+ Score = 52.7 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 22/141 (16%), Positives = 40/141 (28%), Gaps = 33/141 (23%)
+
+Query  58   LILAIMLETVLVISLKTFFNQPRP---AILLEDVNLLFPLHWR-----------------  97
+             +  +     L    K      RP   AI   D + +                       
+Sbjct  105  FLFGVSASQSLTDIAKYTIGSLRPHFLAICNPDWSKINCSDGYIEDYICQGNEEKVKEGR  164
+
+Query  98   -SFPSGDTAMAFTIATVLSHGE------------KLHIKAILFLYAFLIGYERIYAGVHF  144
+             SF SG ++ +      ++               +  ++  L  ++  +G  R+    H 
+Sbjct  165  LSFYSGHSSFSMYCMLFVALYLQARMKGDWARLLRPMLQFGLIAFSIYVGLSRVSDYKHH  224
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+              DV VG + G    I+   Y
+Sbjct  225  WSDVTVGLIQGAAMAILVALY  245
+
+
+> sp|Q04396|LPP1_YEAST Lipid phosphate phosphatase 1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LPP1 
+PE=1 SV=1
+Length=274
+
+ Score = 51.9 bits (123),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 25/147 (17%), Positives = 46/147 (31%), Gaps = 29/147 (20%)
+
+Query  48   FIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHW-----------  96
+            F F    +  L+L I +   L  +LK      RP  +   +  L  +             
+Sbjct  111  FHFMHTSILCLMLIISINAALTGALKLIIGNLRPDFVDRCIPDLQKMSDSDSLVFGLDIC  170
+
+Query  97   ------------RSFPSGDTAMAFTIATVLSHGEKLHI-----KAILF-LYAFLIGYERI  138
+                        +S PSG ++   +        +++         I   L A ++   R+
+Sbjct  171  KQTNKWILYEGLKSTPSGHSSFIVSTMGFTYLWQRVFTTRNTRSCIWCPLLALVVMVSRV  230
+
+Query  139  YAGVHFPLDVFVGALIGIICGIISLKY  165
+                H   DV  GA++  +      K+
+Sbjct  231  IDHRHHWYDVVSGAVLAFLVIYCCWKW  257
+
+
+> sp|Q7Z2D5|PLPR4_HUMAN Phospholipid phosphatase-related protein 
+type 4 OS=Homo sapiens OX=9606 GN=PLPPR4 PE=1 SV=1
+Length=763
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 19/90 (21%), Positives = 30/90 (33%), Gaps = 11/90 (12%)
+
+Query  82   AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHG-----------EKLHIKAILFLYA  130
+             I       +     +SFPS    +A   A  +S              K  +     +  
+Sbjct  231  DICSGSDLTVINSGRKSFPSQHATLAAFAAVYVSMYFNSTLTDSSKLLKPLLVFTFIICG  290
+
+Query  131  FLIGYERIYAGVHFPLDVFVGALIGIICGI  160
+             + G  RI    + P+DV+ G LIG    +
+Sbjct  291  IICGLTRITQYKNHPVDVYCGFLIGGGIAL  320
+
+
+> sp|Q7TME0|PLPR4_MOUSE Phospholipid phosphatase-related protein 
+type 4 OS=Mus musculus OX=10090 GN=Plppr4 PE=1 SV=2
+Length=766
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 19/90 (21%), Positives = 30/90 (33%), Gaps = 11/90 (12%)
+
+Query  82   AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHG-----------EKLHIKAILFLYA  130
+             I       +     +SFPS    +A   A  +S              K  +     +  
+Sbjct  232  DICSGSDLTVINSGRKSFPSQHATLAAFAAVYVSMYFNSTLTDSSKLLKPLLVFTFIICG  291
+
+Query  131  FLIGYERIYAGVHFPLDVFVGALIGIICGI  160
+             + G  RI    + P+DV+ G LIG    +
+Sbjct  292  IICGLTRITQYKNHPVDVYCGFLIGGGIAL  321
+
+
+> sp|O59747|PDF1_SCHPO Palmitoyl-protein thioesterase-dolichyl 
+pyrophosphate phosphatase fusion 1 OS=Schizosaccharomyces pombe 
+(strain 972 / ATCC 24843) OX=284812 GN=pdf1 PE=1 SV=2
+Length=622
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 21/167 (13%), Positives = 45/167 (27%), Gaps = 24/167 (14%)
+
+Query  15   LINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPL-----ILAIMLETVLV  69
+             I    H    +     + LG   ++  ++  +++      + L         ++   + 
+Sbjct  411  FITIFSHFFYHIDDMWRSTLGLFSLIPQIIGIIYLTVMFTGRELDTFMQFGGQVVNEFIN  470
+
+Query  70   ISLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHG------------  117
+              +K     PRPA        +        PS  +      +  +               
+Sbjct  471  YVVKVSLKYPRPA-------DIEYGVGYGMPSSHSQFMGFFSAYMIAWDYKYRRSQCFSM  523
+
+Query  118  EKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLK  164
+                  AI    +  +   R     H+   V  G +IG   G+  + 
+Sbjct  524  LSFAKYAIYLTLSTFVCSSRYLLDFHYLTQVVYGYMIGFGVGLFWVY  570
+
+
+> sp|P0A926|PGPB_SHIFL Phosphatidylglycerophosphatase B OS=Shigella 
+flexneri OX=623 GN=pgpB PE=3 SV=1
+Length=254
+
+ Score = 49.6 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 30/174 (17%), Positives = 55/174 (32%), Gaps = 45/174 (26%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVIS----LKTFFNQPRPA--------  82
+             +  +LF   ++   FR +    L   +    ++       +K    +PRP         
+Sbjct  55   ITHLILFGWFLWCLRFRIKAAFVLFAILAAAILVGQGVKSWIKDKVQEPRPFVIWLEKTH  114
+
+Query  83   ILLEDVNLLFPLHWRS----------------------------FPSGDTAMAFTIATV-  113
+             +  D         R                             FPSG T  A + A + 
+Sbjct  115  HIPVDEFYTLKRAERGNLVKEQLAEEKNIPQYLRSHWQKETGFAFPSGHTMFAASWALLA  174
+
+Query  114  --LSHGEKLHIKA-ILFLYAFLIGYERIYAGVHFPLDVFVGALIG-IICGIISL  163
+              L    +  +   IL ++A  +   R+  G+H+P D+ V  LI   +  + + 
+Sbjct  175  VGLLWPRRRTLTIAILLVWATGVMGSRLLLGMHWPRDLVVATLISWALVAVATW  228
+
+
+> sp|P0A924|PGPB_ECOLI Phosphatidylglycerophosphatase B OS=Escherichia 
+coli (strain K12) OX=83333 GN=pgpB PE=1 SV=1
+Length=254
+
+ Score = 49.6 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 30/174 (17%), Positives = 55/174 (32%), Gaps = 45/174 (26%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVIS----LKTFFNQPRPA--------  82
+             +  +LF   ++   FR +    L   +    ++       +K    +PRP         
+Sbjct  55   ITHLILFGWFLWCLRFRIKAAFVLFAILAAAILVGQGVKSWIKDKVQEPRPFVIWLEKTH  114
+
+Query  83   ILLEDVNLLFPLHWRS----------------------------FPSGDTAMAFTIATV-  113
+             +  D         R                             FPSG T  A + A + 
+Sbjct  115  HIPVDEFYTLKRAERGNLVKEQLAEEKNIPQYLRSHWQKETGFAFPSGHTMFAASWALLA  174
+
+Query  114  --LSHGEKLHIKA-ILFLYAFLIGYERIYAGVHFPLDVFVGALIG-IICGIISL  163
+              L    +  +   IL ++A  +   R+  G+H+P D+ V  LI   +  + + 
+Sbjct  175  VGLLWPRRRTLTIAILLVWATGVMGSRLLLGMHWPRDLVVATLISWALVAVATW  228
+
+
+> sp|P0A925|PGPB_ECO57 Phosphatidylglycerophosphatase B OS=Escherichia 
+coli O157:H7 OX=83334 GN=pgpB PE=3 SV=1
+Length=254
+
+ Score = 49.6 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 30/174 (17%), Positives = 55/174 (32%), Gaps = 45/174 (26%)
+
+Query  35   GSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVIS----LKTFFNQPRPA--------  82
+             +  +LF   ++   FR +    L   +    ++       +K    +PRP         
+Sbjct  55   ITHLILFGWFLWCLRFRIKAAFVLFAILAAAILVGQGVKSWIKDKVQEPRPFVIWLEKTH  114
+
+Query  83   ILLEDVNLLFPLHWRS----------------------------FPSGDTAMAFTIATV-  113
+             +  D         R                             FPSG T  A + A + 
+Sbjct  115  HIPVDEFYTLKRAERGNLVKEQLAEEKNIPQYLRSHWQKETGFAFPSGHTMFAASWALLA  174
+
+Query  114  --LSHGEKLHIKA-ILFLYAFLIGYERIYAGVHFPLDVFVGALIG-IICGIISL  163
+              L    +  +   IL ++A  +   R+  G+H+P D+ V  LI   +  + + 
+Sbjct  175  VGLLWPRRRTLTIAILLVWATGVMGSRLLLGMHWPRDLVVATLISWALVAVATW  228
+
+
+> sp|Q7TMB7|PLPR4_RAT Phospholipid phosphatase-related protein 
+type 4 OS=Rattus norvegicus OX=10116 GN=Plppr4 PE=1 SV=1
+Length=766
+
+ Score = 50.0 bits (118),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 18/88 (20%), Positives = 29/88 (33%), Gaps = 11/88 (13%)
+
+Query  84   LLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHG-----------EKLHIKAILFLYAFL  132
+                   +     +SFPS    +A   A  +S              K  +     +   +
+Sbjct  234  CSGSDLTVINNGKKSFPSQHATLAAFAAVYVSMYFNSTLTDSSKLLKPLLVFTFIICGII  293
+
+Query  133  IGYERIYAGVHFPLDVFVGALIGIICGI  160
+             G  RI    + P+DV+ G LIG    +
+Sbjct  294  CGLTRITQYKNHPVDVYCGFLIGGGIAL  321
+
+
+> sp|Q9ZJ31|LPXF_HELPJ Lipid A 4'-phosphatase OS=Helicobacter pylori 
+(strain J99 / ATCC 700824) OX=85963 GN=lpxF PE=3 SV=1
+Length=198
+
+ Score = 47.7 bits (112),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 19/69 (28%), Positives = 27/69 (39%), Gaps = 0/69 (0%)
+
+Query  94   LHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGAL  153
+              WR  PSG    AF+ A  + +         +   A L    R+ AG H  L V +G+L
+Sbjct  97   NSWRGMPSGHAGGAFSAAGFVYYRYGWKPALPVIALAILTDTSRVVAGQHTILQVTIGSL  156
+
+Query  154  IGIICGIIS  162
+            I      + 
+Sbjct  157  IAWGFAYLF  165
+
+
+> sp|Q58076|Y662_METJA Uncharacterized protein MJ0662 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0662 PE=4 SV=1
+Length=239
+
+ Score = 45.4 bits (106),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 36/166 (22%), Positives = 69/166 (42%), Gaps = 10/166 (6%)
+
+Query  1    MVIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLIL  60
+            ++++    N E +  + +  + +++ F   + Y  S  ++  +  +LFI R      +IL
+Sbjct  37   LLLKLPLCNKEFYIFLQSLPNIVIEFFKIIYLYGFSSMIIGGIAYYLFIKRDFLKSDIIL  96
+
+Query  61   A-IMLETVLVISLKTFFNQPRPAILLEDVNLLFPLH-------WRSFPSGDTAMAFTIAT  112
+              + L  +    + TF     P  +    +L+   +           PS  TA +F +A 
+Sbjct  97   IDLALGWLFAGLIYTFVVVKSPFQVGVAKDLINMHYFWIFTKPTYEIPSLHTAYSFLLA-  155
+
+Query  113  VLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIIC  158
+             L   ++  +  I F  A LI    +  G+H+ +DV  G L G I 
+Sbjct  156  -LHFKDEKPLNYIYFALAILIPISTLIMGMHWIVDVITGVLYGYII  200
+
+
+> sp|P76445|LPXT_ECOLI Lipid A 1-diphosphate synthase OS=Escherichia 
+coli (strain K12) OX=83333 GN=lpxT PE=1 SV=2
+Length=237
+
+ Score = 44.6 bits (104),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 21/134 (16%), Positives = 47/134 (35%), Gaps = 13/134 (10%)
+
+Query  40   LFPLLIFLFIFRKEKVKPLILAIML---ETVLVISLKTF--FNQPRPAILLEDVNLLFP-  93
+            +  L  +L      + + +I+ +++     VL    +      +  P +   D+N +   
+Sbjct  74   MLMLSFWLKENAPGRRRIVIIGLVMLLTAVVLNQLGQALIPVKRASPTLTFTDINRVSEL  133
+
+Query  94   -------LHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPL  146
+                       SFP     M    +  +          I  +   +  + R+  G H+  
+Sbjct  134  LSVPTKDASRDSFPGDHGMMLLIFSAFMWRYFGKVAGLIALIIFVVFAFPRVMIGAHWFT  193
+
+Query  147  DVFVGALIGIICGI  160
+            D+ VG++  I+ G+
+Sbjct  194  DIIVGSMTVILIGL  207
+
+
+> sp|A0R627|DPRP_MYCS2 Putative decaprenylphosphoryl-5-phosphoribose 
+phosphatase MSMEG_6402 OS=Mycolicibacterium smegmatis 
+(strain ATCC 700084 / mc(2)155) OX=246196 GN=MSMEG_6402 PE=3 
+SV=1
+Length=180
+
+ Score = 43.4 bits (101),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/77 (26%), Positives = 31/77 (40%), Gaps = 4/77 (5%)
+
+Query  71   SLKTFFNQPRPAILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYA  130
+             +K    + RP+     VN+  P    SFPS         A +L+    +   A+L    
+Sbjct  76   VIKRVVRRERPSHPDIAVNVGTPSRL-SFPSAHATSTTAAAVLLAQTTGVPAPALLV---  131
+
+Query  131  FLIGYERIYAGVHFPLD  147
+              +   R+  GVH+P D
+Sbjct  132  PPMALSRLVLGVHYPTD  148
+
+
+> sp|O24866|LPXE_HELPY Lipid A 1-phosphatase OS=Helicobacter pylori 
+(strain ATCC 700392 / 26695) OX=85962 GN=lpxE PE=1 SV=1
+Length=190
+
+ Score = 43.1 bits (100),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/70 (21%), Positives = 23/70 (33%), Gaps = 0/70 (0%)
+
+Query  93   PLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGA  152
+                 + PSG ++M       L           L     L    RIY  +H    V  G 
+Sbjct  115  YGGNFNMPSGHSSMVGLAVAFLMRRYSFKKYFWLLPLVPLTMLARIYLDMHTIGAVLTGL  174
+
+Query  153  LIGIICGIIS  162
+             +G++C  + 
+Sbjct  175  GVGMLCVSLF  184
+
+
+> sp|Q6GM05|PLPR5_XENLA Phospholipid phosphatase-related protein 
+type 5 OS=Xenopus laevis OX=8355 GN=plppr5 PE=2 SV=2
+Length=314
+
+ Score = 43.4 bits (101),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 24/92 (26%), Positives = 33/92 (36%), Gaps = 12/92 (13%)
+
+Query  82   AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLS------------HGEKLHIKAILFLY  129
+            A     +  L     R+FPS D A++   A  L+               K  +   L   
+Sbjct  172  ANACTGIPDLVIKARRTFPSKDAALSVYAALYLAMYITSTIKAKGTRLAKPVLCLGLMCL  231
+
+Query  130  AFLIGYERIYAGVHFPLDVFVGALIGIICGII  161
+            AFL G  R+    +   DV  G LIGI   + 
+Sbjct  232  AFLTGINRVAEYRNHWSDVIAGFLIGISIAVF  263
+
+
+> sp|Q86AF0|Y7151_DICDI PA-phosphatase related-family protein DDB_G0271516 
+OS=Dictyostelium discoideum OX=44689 GN=DDB_G0271516 
+PE=3 SV=1
+Length=366
+
+ Score = 43.1 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/76 (22%), Positives = 30/76 (39%), Gaps = 14/76 (18%)
+
+Query  99   FPSGDTAMAFTIATVLSHGEKLHIKAI--------------LFLYAFLIGYERIYAGVHF  144
+            +PSG +++A +    L+      +K                  + A LIG  R+    H 
+Sbjct  198  YPSGHSSIAASCFGFLALYLLARLKCFDNRGHIIIYLLIIGCLITAGLIGISRVADYRHT  257
+
+Query  145  PLDVFVGALIGIICGI  160
+             L+V  G  IG++  +
+Sbjct  258  FLNVLAGWSIGLLISL  273
+
+
+> sp|Q8TBJ4|PLPR1_HUMAN Phospholipid phosphatase-related protein 
+type 1 OS=Homo sapiens OX=9606 GN=PLPPR1 PE=1 SV=1
+Length=325
+
+ Score = 43.1 bits (100),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 18/89 (20%), Positives = 27/89 (30%), Gaps = 12/89 (13%)
+
+Query  85   LEDVNLLFPLHWRSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFL  132
+                  +     RSFPS   A++   A               S   K  +       AFL
+Sbjct  182  CTGDLEVIEKARRSFPSKHAALSIYSALYATMYITSTIKTKSSRLAKPVLCLGTLCTAFL  241
+
+Query  133  IGYERIYAGVHFPLDVFVGALIGIICGII  161
+             G  R+    +   DV  G ++G    + 
+Sbjct  242  TGLNRVSEYRNHCSDVIAGFILGTAVALF  270
+
+
+> sp|Q8BFZ2|PLPR1_MOUSE Phospholipid phosphatase-related protein 
+type 1 OS=Mus musculus OX=10090 GN=Plppr1 PE=1 SV=1
+Length=325
+
+ Score = 42.7 bits (99),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 18/89 (20%), Positives = 27/89 (30%), Gaps = 12/89 (13%)
+
+Query  85   LEDVNLLFPLHWRSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFL  132
+                  +     RSFPS   A++   A               S   K  +       AFL
+Sbjct  182  CTGDLEVIEKARRSFPSKHAALSIYSALYATMYITSTIKTKSSRLAKPVLCLGTLCTAFL  241
+
+Query  133  IGYERIYAGVHFPLDVFVGALIGIICGII  161
+             G  R+    +   DV  G ++G    + 
+Sbjct  242  TGLNRVSEYRNHCSDVIAGFILGTAVALF  270
+
+
+> sp|Q9ZN40|LPXE_HELPJ Lipid A 1-phosphatase OS=Helicobacter pylori 
+(strain J99 / ATCC 700824) OX=85963 GN=lpxE PE=3 SV=1
+Length=191
+
+ Score = 42.3 bits (98),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/66 (23%), Positives = 22/66 (33%), Gaps = 0/66 (0%)
+
+Query  93   PLHWRSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGA  152
+                 + PSG ++M       L     +     L     L    RIY  +H    V  G 
+Sbjct  115  YGGNFNMPSGHSSMVGLAVAFLMRRYSVKKYLWLLPLIPLTMLARIYLDMHTIGAVLAGL  174
+
+Query  153  LIGIIC  158
+              G++C
+Sbjct  175  GTGMLC  180
+
+
+> sp|Q8MXL9|Y5547_DICDI PA-phosphatase related-family protein DDB_G0275547 
+OS=Dictyostelium discoideum OX=44689 GN=DDB_G0275547 
+PE=3 SV=2
+Length=335
+
+ Score = 42.7 bits (99),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 18/76 (24%), Positives = 29/76 (38%), Gaps = 14/76 (18%)
+
+Query  99   FPSGDTAMAFTIATVLS--------------HGEKLHIKAILFLYAFLIGYERIYAGVHF  144
+            +PSG +++       L+              H     I +   + A LIG  R+    H 
+Sbjct  196  YPSGHSSITAASFGFLALFIHAKFKIFDNRGHIFLYVIVSGCIIGAGLIGISRVADYRHT  255
+
+Query  145  PLDVFVGALIGIICGI  160
+             L+V  G  IG+I  +
+Sbjct  256  FLNVLAGWSIGLIIAL  271
+
+
+> sp|Q8BJ52|PLPR5_MOUSE Phospholipid phosphatase-related protein 
+type 5 OS=Mus musculus OX=10090 GN=Plppr5 PE=2 SV=1
+Length=321
+
+ Score = 42.3 bits (98),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 21/89 (24%), Positives = 32/89 (36%), Gaps = 12/89 (13%)
+
+Query  85   LEDVNLLFPLHWRSFPSGDTAMAFTIATVLS------------HGEKLHIKAILFLYAFL  132
+                  L     ++FPS + A++   AT L+               K  +   L   AFL
+Sbjct  177  CTGNPDLIMRARKTFPSKEAALSVYAATYLTMYITSTIKAKGTRLAKPVLCLGLMCLAFL  236
+
+Query  133  IGYERIYAGVHFPLDVFVGALIGIICGII  161
+             G  R+    +   DV  G L+GI   + 
+Sbjct  237  TGLNRVAEYRNHWSDVIAGFLVGISIAVF  265
+
+
+> sp|Q32ZL2|PLPR5_HUMAN Phospholipid phosphatase-related protein 
+type 5 OS=Homo sapiens OX=9606 GN=PLPPR5 PE=2 SV=2
+Length=321
+
+ Score = 42.3 bits (98),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 20/89 (22%), Positives = 31/89 (35%), Gaps = 12/89 (13%)
+
+Query  85   LEDVNLLFPLHWRSFPSGDTAMAFTIATVLS------------HGEKLHIKAILFLYAFL  132
+                  L     ++FPS + A++   A  L+               K  +   L   AFL
+Sbjct  177  CTGNPDLIMRARKTFPSKEAALSVYAAMYLTMYITNTIKAKGTRLAKPVLCLGLMCLAFL  236
+
+Query  133  IGYERIYAGVHFPLDVFVGALIGIICGII  161
+             G  R+    +   DV  G L+GI   + 
+Sbjct  237  TGLNRVAEYRNHWSDVIAGFLVGISIAVF  265
+
+
+> sp|P44570|PGPB_HAEIN Phosphatidylglycerophosphatase B OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=pgpB PE=3 SV=1
+Length=241
+
+ Score = 41.9 bits (97),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 18/81 (22%), Positives = 33/81 (41%), Gaps = 9/81 (11%)
+
+Query  94   LHWRSFPSGDTAMAFTIATVLSHGEKLH---------IKAILFLYAFLIGYERIYAGVHF  144
+                SFPSG T  A T   +     +L          +   + ++  L+   R+  G+H+
+Sbjct  151  ETGYSFPSGHTIFAATWLMLAVGFTQLLGNRSFKAKLLVVGIAVWGLLMLISRVRLGMHY  210
+
+Query  145  PLDVFVGALIGIICGIISLKY  165
+            P+D+ V  L+  +   I   +
+Sbjct  211  PIDLLVATLLAWLINSIIFAF  231
+
+
+> sp|Q6WAY2|PLPR1_RAT Phospholipid phosphatase-related protein 
+type 1 OS=Rattus norvegicus OX=10116 GN=Plppr1 PE=2 SV=1
+Length=325
+
+ Score = 42.3 bits (98),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 18/89 (20%), Positives = 27/89 (30%), Gaps = 12/89 (13%)
+
+Query  85   LEDVNLLFPLHWRSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFL  132
+                  +     RSFPS   A++   A               S   K  +       AFL
+Sbjct  182  CTGDLEVIEKARRSFPSKHAALSIYSALYATMYITSTIKTKSSRLAKPVLCLGDLCTAFL  241
+
+Query  133  IGYERIYAGVHFPLDVFVGALIGIICGII  161
+             G  R+    +   DV  G ++G    + 
+Sbjct  242  TGLNRVSEYRNHCSDVIAGFILGTAVALF  270
+
+
+> sp|A4II83|PLPR1_XENTR Phospholipid phosphatase-related protein 
+type 1 OS=Xenopus tropicalis OX=8364 GN=plppr1 PE=2 SV=1
+Length=325
+
+ Score = 41.9 bits (97),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 18/84 (21%), Positives = 28/84 (33%), Gaps = 12/84 (14%)
+
+Query  90   LLFPLHWRSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFLIGYER  137
+             +     RSFPS   A++   A               S   K  +       AFL G  R
+Sbjct  187  EVIEKARRSFPSKHAALSIYSALYATMYITSTIKTKSSRLAKPVLCLGTLCCAFLTGLNR  246
+
+Query  138  IYAGVHFPLDVFVGALIGIICGII  161
+            +    +  +DV  G ++G    + 
+Sbjct  247  VSEYRNHCVDVIGGFILGTAIALF  270
+
+
+> sp|O42153|G6PC_HAPNU Glucose-6-phosphatase OS=Haplochromis nubilus 
+OX=51172 GN=g6pc PE=2 SV=1
+Length=352
+
+ Score = 41.1 bits (95),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 31/193 (16%), Positives = 61/193 (32%), Gaps = 32/193 (17%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILA  61
+            ++  + + L ++      ++  L    +  A L + +      I+    R++    LI  
+Sbjct  3    LLHSWGVELAVYLQTRYGKYEGLFDLASTVADLHTTFFWLF-PIWF-HLRRDTALRLIWV  60
+
+Query  62   IMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWRSF-------------PSGDTAMAF  108
+             ++   L + LK      RP   + +          S              PSG    A 
+Sbjct  61   AVIGDWLNLVLKWVLFGERPYWWVHETKFYGAGPAPSLQQFPITCETGPGSPSGHAMGAA  120
+
+Query  109  TI------ATVLSHGEKLH-----------IKAILFLYAFLIGYERIYAGVHFPLDVFVG  151
+             +      A +    EK             +  ++ L   ++   R+Y   HFP  V  G
+Sbjct  121  GVWYVMVTALLSIAREKQCPPLLYRFLYIGLWMLMGLVELVVCISRVYMAAHFPHQVIAG  180
+
+Query  152  ALIGIICGIISLK  164
+             + G +   +  K
+Sbjct  181  IITGTLVAEVVSK  193
+
+
+> sp|P43428|G6PC_RAT Glucose-6-phosphatase OS=Rattus norvegicus 
+OX=10116 GN=G6pc PE=2 SV=1
+Length=357
+
+ Score = 41.1 bits (95),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 31/188 (16%), Positives = 55/188 (29%), Gaps = 32/188 (17%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILA  61
+            V+ DF +    +  +N        V  +  A L + + +    I+    ++     L+  
+Sbjct  7    VLHDFGIQSTRYLQVNYEDSQDWFVLVSVIADLRNAFYVLF-PIWF-HIQETVGINLLWV  64
+
+Query  62   IMLETVLVISLKTFFNQPRPA-------------ILLEDVNLLFPLHWRSFPSGDTAMAF  108
+             ++     +  K      RP              + L     +        PSG      
+Sbjct  65   AVVGDWFNLVFKWILFGQRPYWWVLDTDYYSNSSVPLIKQFPVTCETGPGSPSGHAMGTA  124
+
+Query  109  TIATVLSHGEK-------------LHIKAILFL--YAFL--IGYERIYAGVHFPLDVFVG  151
+             +  V+                    +  +L+L  +A    +   RIY   HFP  V  G
+Sbjct  125  GVYYVMVTSTLAIFRGKKKSTYGFRCLNVVLWLGYWAVQLNVCLSRIYLAAHFPHQVVAG  184
+
+Query  152  ALIGIICG  159
+             L GI   
+Sbjct  185  VLSGIAVA  192
+
+
+> sp|Q29RU6|G6PC_BOVIN Glucose-6-phosphatase OS=Bos taurus OX=9913 
+GN=G6PC PE=2 SV=1
+Length=357
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 29/188 (15%), Positives = 52/188 (28%), Gaps = 32/188 (17%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILA  61
+            V+ DF +    +  +N        +  +  A L + + +    I+    R+     L+  
+Sbjct  7    VLHDFGIQSTHYLQVNYQNSQDWFILVSVIADLRNAFYVLF-PIWF-HLREAVGIKLLWV  64
+
+Query  62   IMLETVLVISLKTFFNQPRPA-------------ILLEDVNLLFPLHWRSFPSGDTAMAF  108
+             ++   L +  K      RP                L     +        PSG      
+Sbjct  65   AVIGDWLNLVFKWILFGQRPYWWVLDTDYYSNTSAPLIKQFPVTCETGPGSPSGHAMGTA  124
+
+Query  109  TIATVL-----------------SHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVG  151
+             +  V+                      + +    ++    +   RIY   HFP  V  G
+Sbjct  125  GVYYVMVTSTLSIFRGKKKPTYRFRCLNVMLWLGFWVVQLNVCLSRIYLAAHFPHQVVAG  184
+
+Query  152  ALIGIICG  159
+             L GI   
+Sbjct  185  VLSGIAVA  192
+
+
+> sp|Q7TMB0|PLPR3_RAT Phospholipid phosphatase-related protein 
+type 3 OS=Rattus norvegicus OX=10116 GN=Plppr3 PE=2 SV=1
+Length=716
+
+ Score = 41.1 bits (95),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 19/89 (21%), Positives = 31/89 (35%), Gaps = 11/89 (12%)
+
+Query  82   AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGE--------KLHIKAILFLYAF--  131
+             I             ++FPS    ++   A  +S           KL    ++F +A   
+Sbjct  184  DICSGHDTHAILSARKTFPSQHATLSAFAAVYVSMYFNSVISDATKLLKPILVFAFAIAA  243
+
+Query  132  -LIGYERIYAGVHFPLDVFVGALIGIICG  159
+             + G  +I      P+DV+ G LIG    
+Sbjct  244  GVCGLTQITQYRSHPVDVYAGFLIGAGIA  272
+
+
+> sp|Q48448|YC02_KLEPN Uncharacterized 22.5 kDa protein in cps 
+region OS=Klebsiella pneumoniae OX=573 PE=4 SV=1
+Length=209
+
+ Score = 40.0 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 24/148 (16%), Positives = 46/148 (31%), Gaps = 17/148 (11%)
+
+Query  24   LDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPAI  83
+            L  FF     L        +++ L    +       L   +   +V + K  F       
+Sbjct  5    LISFFGDSTVLLPSAAALFIVLMLRKTSRLLAWQWSLLFGITGAIVCASKLAFM------  58
+
+Query  84   LLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGE--------KLHIKAILFLYAFLIGY  135
+                   +  L +  F SG +A++     +             +       ++ A ++GY
+Sbjct  59   --GWGLGIRELDYTGF-SGHSALSAAFWPIFLWLLSARFSVGLRKAAVITGYVLAAVVGY  115
+
+Query  136  ERIYAGVHFPLDVFVGALIGIICGIISL  163
+             R+    H   +V  G L+G     + L
+Sbjct  116  SRLVIHAHSFSEVIAGLLLGAAGSALFL  143
+
+
+> sp|Q7TPB0|PLPR3_MOUSE Phospholipid phosphatase-related protein 
+type 3 OS=Mus musculus OX=10090 GN=Plppr3 PE=1 SV=1
+Length=716
+
+ Score = 40.8 bits (94),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 19/89 (21%), Positives = 31/89 (35%), Gaps = 11/89 (12%)
+
+Query  82   AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGE--------KLHIKAILFLYAF--  131
+             I             ++FPS    ++   A  +S           KL    ++F +A   
+Sbjct  184  DICSGHDTHAILSARKTFPSQHATLSAFAAVYVSMYFNAVISDTTKLLKPILVFAFAIAA  243
+
+Query  132  -LIGYERIYAGVHFPLDVFVGALIGIICG  159
+             + G  +I      P+DV+ G LIG    
+Sbjct  244  GVCGLTQITQYRSHPVDVYAGFLIGAGIA  272
+
+
+> sp|P35576|G6PC_MOUSE Glucose-6-phosphatase OS=Mus musculus OX=10090 
+GN=G6pc PE=1 SV=2
+Length=357
+
+ Score = 40.4 bits (93),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 30/188 (16%), Positives = 56/188 (30%), Gaps = 32/188 (17%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILA  61
+            ++ DF +    +  +N        +  +  A L + + +    I+    ++     L+  
+Sbjct  7    ILHDFGIQSTRYLQVNYQDSQDWFILVSVIADLRNAFYVLF-PIWF-HLKETVGINLLWV  64
+
+Query  62   IMLETVLVISLKTFFNQPRPA-------------ILLEDVNLLFPLHWRSFPSGDTAMAF  108
+             ++     +  K      RP              + +     +        PSG    A 
+Sbjct  65   AVVGDWFNLVFKWILFGQRPYWWVLDTDYYSNSSVPIIKQFPVTCETGPGSPSGHAMGAA  124
+
+Query  109  TIATVLSHGEK-------------LHIKAILFL--YAFL--IGYERIYAGVHFPLDVFVG  151
+             +  V+                    +  IL+L  +A    +   RIY   HFP  V  G
+Sbjct  125  GVYYVMVTSTLAIFRGKKKPTYGFRCLNVILWLGFWAVQLNVCLSRIYLAAHFPHQVVAG  184
+
+Query  152  ALIGIICG  159
+             L GI   
+Sbjct  185  VLSGIAVA  192
+
+
+> sp|Q10142|AUR1_SCHPO Inositol phosphorylceramide synthase catalytic 
+subunit aur1 OS=Schizosaccharomyces pombe (strain 972 
+/ ATCC 24843) OX=284812 GN=aur1 PE=1 SV=1
+Length=422
+
+ Score = 40.4 bits (93),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/68 (25%), Positives = 29/68 (43%), Gaps = 1/68 (1%)
+
+Query  97   RSFPSGDTAMAFTIATVLSHGEKLHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGI  156
+             +FPS     A   A  LSH    +     + Y   + +  +Y   H+ +D+  G  + I
+Sbjct  249  GAFPSLHAGWAMLEALFLSHVFPRYRFCF-YGYVLWLCWCTMYLTHHYFVDLVGGMCLAI  307
+
+Query  157  ICGIISLK  164
+            IC + + K
+Sbjct  308  ICFVFAQK  315
+
+
+> sp|O19133|G6PC_CANLF Glucose-6-phosphatase OS=Canis lupus familiaris 
+OX=9615 GN=G6PC PE=1 SV=1
+Length=357
+
+ Score = 40.0 bits (92),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 33/188 (18%), Positives = 57/188 (30%), Gaps = 32/188 (17%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILA  61
+            V+ DF +    +  +N        +  +  A L + + +    I+ F  R+     L+  
+Sbjct  7    VLHDFGIQSTHYLQVNYQDSQDWFILVSVIADLRNAFYVLF-PIW-FHLREAVGIKLLWV  64
+
+Query  62   IMLETVLVISLKTFFNQPRPA-------------ILLEDVNLLFPLHWRSFPSGDTAMAF  108
+             ++   L +  K      RP              + L     +        PSG      
+Sbjct  65   AVIGDWLNLVFKWILFGQRPYWWVMDTDYYSNTSVPLIKQFPVTCETGPGSPSGHAMGTA  124
+
+Query  109  TIATVLSHGEK-------------LHIKAILFL--YAFL--IGYERIYAGVHFPLDVFVG  151
+             +  V+                    +  +L+L  +A    +   RIY   HFP  V  G
+Sbjct  125  GVYYVMVTSTLSIFRGRKRPTYRFRCLNILLWLGFWAVQLNVCLSRIYLAAHFPHQVVAG  184
+
+Query  152  ALIGIICG  159
+             L GI   
+Sbjct  185  VLSGIAVA  192
+
+
+> sp|Q19KA1|G6PC_FELCA Glucose-6-phosphatase OS=Felis catus OX=9685 
+GN=G6PC PE=2 SV=1
+Length=357
+
+ Score = 39.6 bits (91),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 33/188 (18%), Positives = 56/188 (30%), Gaps = 32/188 (17%)
+
+Query  2    VIEDFALNLELFRLINNARHPLLDVFFTHFAYLGSGYVLFPLLIFLFIFRKEKVKPLILA  61
+            V+ DF +    +  +N        +  +  A L + + +    I+    R+     L+  
+Sbjct  7    VLHDFGIQSTHYLQVNYQDSQDWFILVSVIADLRNAFYVLF-PIWF-HLREAVGIKLLWV  64
+
+Query  62   IMLETVLVISLKTFFNQPRPA-------------ILLEDVNLLFPLHWRSFPSGDTAMAF  108
+             ++   L +  K      RP              + L     +        PSG      
+Sbjct  65   AVIGDWLNLVFKWILFGQRPYWWVMDTDYYSNASVPLIKQFPVTCETGPGSPSGHAMGTA  124
+
+Query  109  TIATVLSHGEK-------------LHIKAILFL--YAFL--IGYERIYAGVHFPLDVFVG  151
+             +  V+                    +  IL+L  +A    +   RIY   HFP  V  G
+Sbjct  125  GVYYVMVTSTLSMFRGKKKPTYRFRCLNVILWLGFWAVQLNVCLSRIYLAAHFPHQVVAG  184
+
+Query  152  ALIGIICG  159
+             L GI   
+Sbjct  185  VLSGIAVA  192
+
+
+> sp|Q6IQH6|PLPR1_DANRE Phospholipid phosphatase-related protein 
+type 1 OS=Danio rerio OX=7955 GN=plppr1 PE=2 SV=1
+Length=333
+
+ Score = 39.6 bits (91),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 19/84 (23%), Positives = 31/84 (37%), Gaps = 12/84 (14%)
+
+Query  90   LLFPLHWRSFPSGDTAMAFTIATVL------------SHGEKLHIKAILFLYAFLIGYER  137
+            ++     RSFPS D +++   A  +            S   K  +   L   AFL G  R
+Sbjct  186  VVVERARRSFPSKDASLSVYSAVYVTMYITSTIKTKSSRLAKPVLCLGLLCAAFLTGLNR  245
+
+Query  138  IYAGVHFPLDVFVGALIGIICGII  161
+            +    +   DV  G ++G    + 
+Sbjct  246  VSEYRNHCSDVVAGFILGSSIALF  269
+
+
+> sp|Q6T4P5|PLPR3_HUMAN Phospholipid phosphatase-related protein 
+type 3 OS=Homo sapiens OX=9606 GN=PLPPR3 PE=2 SV=1
+Length=718
+
+ Score = 39.6 bits (91),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 19/89 (21%), Positives = 31/89 (35%), Gaps = 11/89 (12%)
+
+Query  82   AILLEDVNLLFPLHWRSFPSGDTAMAFTIATVLSHGE--------KLHIKAILFLYAF--  131
+             I             ++FPS    ++   A  +S           KL    ++F +A   
+Sbjct  186  DICSGHDIHAILSARKTFPSQHATLSAFAAVYVSMYFNSVISDTTKLLKPILVFAFAIAA  245
+
+Query  132  -LIGYERIYAGVHFPLDVFVGALIGIICG  159
+             + G  +I      P+DV+ G LIG    
+Sbjct  246  GVCGLTQITQYRSHPVDVYAGFLIGAGIA  274
+
+
+> sp|A1A5Z0|G6PC3_DANRE Glucose-6-phosphatase 3 OS=Danio rerio 
+OX=7955 GN=g6pc3 PE=2 SV=1
+Length=339
+
+ Score = 39.2 bits (90),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 26/164 (16%), Positives = 51/164 (31%), Gaps = 26/164 (16%)
+
+Query  24   LDVFFTHFAYLGSGYVLFPLLI-FLFIFRKEKVKPLILAIMLETVLVISLKTFFNQPRPA  82
+            L+  +   +++G       L+   +F   +     ++    L   L +  K      RP 
+Sbjct  22   LEDLWLVASHMGDPKAAVLLVFPVVFYIHRRTGIAVLWVAALSEWLNLVFKWILFGERPY  81
+
+Query  83   ------------ILLEDVNLLFPLHWRSFPSGDTAMAFTI---------ATVLSHGEKLH  121
+                                         PSG   +   +         +   ++     
+Sbjct  82   WWIGQSGLFSEKPPEVQQFQSTCESGPGSPSGHAMVTSAVWWVIISSLASFSQAYTGSKI  141
+
+Query  122  IKAILFLYAFL----IGYERIYAGVHFPLDVFVGALIGIICGII  161
+            + A+L+L   +    +G  RI+   HFP  V  G L G++ G+ 
+Sbjct  142  LSAVLYLLYAVFLGCVGLSRIFILAHFPHQVVAGLLTGVLLGVF  185
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.140    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0429    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7919695168
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  5:30 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
